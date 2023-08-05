@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: print_colors
+Version: 0.1.1
+Summary: Changes color shown in terminal for command print()
+Author: onilohehe
+License-File: license.txt

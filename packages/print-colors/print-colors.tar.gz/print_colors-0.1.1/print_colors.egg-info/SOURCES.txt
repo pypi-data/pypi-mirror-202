@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+print_colors/__init__.py
+print_colors/print.py
+print_colors/simple_colors.py
+print_colors.egg-info/PKG-INFO
+print_colors.egg-info/SOURCES.txt
+print_colors.egg-info/dependency_links.txt
+print_colors.egg-info/top_level.txt
