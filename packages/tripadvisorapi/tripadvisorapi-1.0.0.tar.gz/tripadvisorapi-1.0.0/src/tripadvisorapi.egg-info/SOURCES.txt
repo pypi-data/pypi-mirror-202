@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/tripadvisorapi/__init__.py
+src/tripadvisorapi/api.py
+src/tripadvisorapi.egg-info/PKG-INFO
+src/tripadvisorapi.egg-info/SOURCES.txt
+src/tripadvisorapi.egg-info/dependency_links.txt
+src/tripadvisorapi.egg-info/top_level.txt
