@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "t_money"
+version = "0.1.0"
+description = "Advanced Python 3.10 Dataclass for handling monetary values, keeping amount and currency together"
+authors = ["Jordan Dimov <jdimov@a115.co.uk>"]
+license = "Creative Commons"
+homepage = "https://github.com/jordan-dimov/t_money"
+repository = "https://github.com/jordan-dimov/t_money"
+# documentation = "https://t_money.readthedocs.io/"
+keywords = ["money", "currency", "finance", "accounting"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^23.3.0"
+pytest = "^7.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
