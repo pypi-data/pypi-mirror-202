@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+dxsp/__init__.py
+dxsp/main.py
+dxsp/utils.py
+dxsp.egg-info/PKG-INFO
+dxsp.egg-info/SOURCES.txt
+dxsp.egg-info/dependency_links.txt
+dxsp.egg-info/requires.txt
+dxsp.egg-info/top_level.txt
