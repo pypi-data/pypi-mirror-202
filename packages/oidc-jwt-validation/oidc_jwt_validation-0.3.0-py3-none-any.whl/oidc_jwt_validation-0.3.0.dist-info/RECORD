@@ -1,0 +1,9 @@
+oidc_jwt_validation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oidc_jwt_validation/authentication.py,sha256=VKcV-tM25d6ZXMsiQlFUtISmy2YXMF4PQ04rS3ZrvpQ,3614
+oidc_jwt_validation/http_service.py,sha256=GIvsGIaC4GQgTS5jWicRVvrob8-wC5LCzHni1uoZ-uM,1134
+oidc_jwt_validation/http_singleton.py,sha256=brP48H5JOW4z98FWiySCbbIbO_BjlGb_19rCCRA2kFw,767
+oidc_jwt_validation-0.3.0.dist-info/LICENSE,sha256=xOH4NypdLybQxIA8qWDYkExMq97jhVNhLFIptTYkAbM,1089
+oidc_jwt_validation-0.3.0.dist-info/METADATA,sha256=Hf5XovMrqU6ySk6ktEuND_rBy1ezVIJS5CtDISeo2A4,687
+oidc_jwt_validation-0.3.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+oidc_jwt_validation-0.3.0.dist-info/top_level.txt,sha256=GocCwm2nHnaL7mRpC6eaRNl7gyB9Gj9b9Yf2L8-mi44,20
+oidc_jwt_validation-0.3.0.dist-info/RECORD,,
