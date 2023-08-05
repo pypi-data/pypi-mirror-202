@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyMAISE
+Version: 0.0.1
+Summary: Michigan Artificial Intelligance Standard Environment
+Home-page: UNKNOWN
+Author: Patrick Myers
+Author-email: myerspat@umich.edu
+License: UNKNOWN
+Description: Machine learning and artificial intelligance benchmarking library for nuclear engineering applications.
+Platform: UNKNOWN
+Provides-Extra: stats
+Provides-Extra: test

@@ -1,0 +1,14 @@
+keras>=2.12.0
+matplotlib
+numpy
+pandas
+scikeras
+scikit-learn
+scikit-optimize
+tensorflow>=2.12.0
+
+[stats]
+scipy
+
+[test]
+pytest
