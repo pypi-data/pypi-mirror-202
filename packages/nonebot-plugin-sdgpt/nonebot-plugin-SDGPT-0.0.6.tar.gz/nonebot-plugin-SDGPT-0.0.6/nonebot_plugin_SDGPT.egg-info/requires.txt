@@ -1,0 +1,8 @@
+nonebot2
+python-dotenv
+webuiapi
+revChatGPT
+EdgeGPT
+nonebot-adapter-onebot
+nonebot-plugin-guild-patch
+nonebot2[fastapi]
