@@ -1,0 +1,3 @@
+[console_scripts]
+fireworker = borealis.fireworker:cli
+gce = borealis.gce:cli
