@@ -1,0 +1,10 @@
+version: 1
+
+target: !ENV EXECUTION_ENV
+
+connections:
+  not:
+    engine: sqlite
+    url:
+      drivername: sqlite
+      database: db/dev-database.db
