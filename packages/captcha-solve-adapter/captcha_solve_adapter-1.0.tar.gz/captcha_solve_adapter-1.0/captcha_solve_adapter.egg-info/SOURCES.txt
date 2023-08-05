@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+captcha_solve_adapter/__init__.py
+captcha_solve_adapter/__main__.py
+captcha_solve_adapter/solver.py
+captcha_solve_adapter.egg-info/PKG-INFO
+captcha_solve_adapter.egg-info/SOURCES.txt
+captcha_solve_adapter.egg-info/dependency_links.txt
+captcha_solve_adapter.egg-info/requires.txt
+captcha_solve_adapter.egg-info/top_level.txt
