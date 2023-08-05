@@ -1,0 +1,17 @@
+bframe/__init__.py,sha256=7IcVdvGiaTJU78OSKf3hGmWbWF5FbKmeMHld9fWpYeQ,1405
+bframe/_frame.py,sha256=_qm8L3eoFoYQn9GYBWB3_1DMYmEqLiPVMXmI4sHvbjM,6347
+bframe/config.py,sha256=xx8K0NII6z3clPln1in1-AmGuvYmRW1ZrtyvEV-dfsI,1492
+bframe/ctx.py,sha256=KFwqfdxLJckqCZYkH2XCo5xWd6uxi-583X7LmDI-9i8,2697
+bframe/frame.py,sha256=Tb1hrR2-DNf4UVZjs4eQgx6aVrDSbV-Vjzp29dTyYBw,4642
+bframe/local.py,sha256=l6jpZWL_yzKsDFAkwiwdYpD6g6h7wvwXlBaeoLjhL5g,2044
+bframe/logger.py,sha256=vwTaKLsQLzAlPWMcUtuWTmjasz7R5LlHS4sjd-O-f08,2477
+bframe/route.py,sha256=IqfFsHLCpYb8XHXN2StRfeERlb_31f0Y7icAVWNMDsY,7855
+bframe/server.py,sha256=YvX8U9KpHAhhsnTreE3zOUVhsE5SsLDrBP3I6FPNlAI,3424
+bframe/utils.py,sha256=GQgpa9MI3GQnCWvZl-tpB4D8lV1vpCI6bErwotnAx1U,3118
+bframe/wrappers.py,sha256=tu4Zpu0uURaLAQLQlHno-AVvBJKkK2D_Tia1wF2XP6U,7376
+bframe/wsgi.py,sha256=DLj6GAPkj2pKQ87PsuYF9cVst2bdMCCGeFSxJQAAAog,3331
+bframe-0.0.11.dist-info/LICENSE,sha256=FXr8F6wm6dk9rxduIjT7Ng9MfCPMstiIGjY3VJ6o9zI,1086
+bframe-0.0.11.dist-info/METADATA,sha256=Biyy77z2aMDCUYu2cKnEWuVKrEsvvapTjEHDdMX9S8w,2814
+bframe-0.0.11.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+bframe-0.0.11.dist-info/top_level.txt,sha256=PeDbmSXgHToxWfl01ss4qrgm712xSjHxzS5JxkoDeFI,7
+bframe-0.0.11.dist-info/RECORD,,
