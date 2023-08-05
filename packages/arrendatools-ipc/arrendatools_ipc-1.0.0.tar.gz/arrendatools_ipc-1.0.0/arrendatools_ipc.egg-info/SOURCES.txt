@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+arrendatools_ipc/__init__.py
+arrendatools_ipc/ine.py
+arrendatools_ipc/ipc.py
+arrendatools_ipc.egg-info/PKG-INFO
+arrendatools_ipc.egg-info/SOURCES.txt
+arrendatools_ipc.egg-info/dependency_links.txt
+arrendatools_ipc.egg-info/requires.txt
+arrendatools_ipc.egg-info/top_level.txt
+test/test_ipc.py
