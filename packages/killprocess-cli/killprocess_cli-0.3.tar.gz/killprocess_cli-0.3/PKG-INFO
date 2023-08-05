@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: killprocess_cli
+Version: 0.3
+Summary: A Python module to easily terminate Linux processes by name
+Home-page: http://github.com/tushark39
+Author: Tushar Pandey
+Author-email: tushark39@gmail.com
+License: MIT
+Description: # killprocess-cli
+        
+        ## Introduction
+        `killprocess-cli` is a Python module designed to simplify the process of terminating specific processes by name on Linux operating systems. The module uses the `ps aux` and `grep` commands to identify the process ID of all associated processes, and then uses the `kill` command to terminate them.
+        
+        ## Installation
+        To install `killprocess-cli`, simply run the following command:
+        
+        ```
+        pip3 install killprocess-cli
+        ```
+        
+        ## Usage
+        Once installed, you can use `killprocess-cli` to terminate all instances of a specific process by typing the following command:
+        ```
+        killprocess <process-name>
+        ```
+        
+        ## Feedback
+        If you have any feedback or suggestions for improvement, please don't hesitate to reach out to me. My name is Tushar Pandey, and I'm the developer of `killprocess-cli`. You can contact me at tushark39@gmail.com.
+        
+        ## License
+        `killprocess-cli` is licensed under the MIT License. See the `LICENSE` file for more information.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: System :: Operating System Kernels :: Linux
+Description-Content-Type: text/markdown
