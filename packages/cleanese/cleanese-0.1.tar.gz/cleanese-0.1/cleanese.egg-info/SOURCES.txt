@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+cleanese/__main__.py
+cleanese.egg-info/PKG-INFO
+cleanese.egg-info/SOURCES.txt
+cleanese.egg-info/dependency_links.txt
+cleanese.egg-info/top_level.txt
