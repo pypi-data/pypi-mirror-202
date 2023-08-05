@@ -1,0 +1,4 @@
+[console_scripts]
+get-youtube-transcript-prompt=langchain_utils.get_youtube_transcript_prompt:main
+ytprompt=langchain_utils.get_youtube_transcript_prompt:main
+
