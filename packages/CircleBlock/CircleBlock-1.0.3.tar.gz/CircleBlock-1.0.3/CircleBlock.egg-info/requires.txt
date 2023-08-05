@@ -1,0 +1,4 @@
+watchdog
+loguru
+typer
+daemonize
