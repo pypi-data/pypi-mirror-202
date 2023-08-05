@@ -1,0 +1,12 @@
+nonebot_plugin_gshisbanner/__init__.py,sha256=2RlPIFGyw5CrADsfGFefCXmEX7cc0piVfU6KEBblM0g,241
+nonebot_plugin_gshisbanner/alias.py,sha256=QzoHVmQX-E7nRUBe5a6v2iAp74J7L8rw7nYN-cTzBYU,1030
+nonebot_plugin_gshisbanner/api.py,sha256=JX28-_PgdCn1oB5sRQLzdGepy73yyXOAhUUGx1f4ylU,406
+nonebot_plugin_gshisbanner/config.py,sha256=0oJzL9jHAkojG75M1IzljsZwRiewWPDk0VrRCL4MFqo,287
+nonebot_plugin_gshisbanner/deal.py,sha256=dm2mVK294L2peuSYf9csU44N5U8adu1ia-7iLJTUtNU,3668
+nonebot_plugin_gshisbanner/deal_json.py,sha256=JmkCfoKy6AqmKNjQda6FU0Wc71IvhIbfSoFNy1wlv14,1182
+nonebot_plugin_gshisbanner/main.py,sha256=TwdC0SJSTN5OrJqYJcc5q0oZKTzR2dayC25SJESown8,4486
+nonebot_plugin_gshisbanner/send.py,sha256=Zw6qCI-MYJ3ZyEDh_ooJWrASrIZlA4CYcgS43MxE87w,2621
+nonebot_plugin_gshisbanner-0.4.6.dist-info/LICENSE,sha256=Vp6BU2xeWlcbbURHzA5CgMzImkNzwl-Cp65DblSh8fc,1067
+nonebot_plugin_gshisbanner-0.4.6.dist-info/METADATA,sha256=X2OUzO8Qvx9RzrsQLLebjrZCGOd_eXEW4awsNLFp8rg,4922
+nonebot_plugin_gshisbanner-0.4.6.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+nonebot_plugin_gshisbanner-0.4.6.dist-info/RECORD,,
