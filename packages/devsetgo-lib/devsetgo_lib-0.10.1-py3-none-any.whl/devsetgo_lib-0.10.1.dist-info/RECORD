@@ -1,0 +1,11 @@
+dsg_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dsg_lib/calendar_functions.py,sha256=fuMsOUmvcFUIo2UDSw0-nddC3ga6BLyoFSFr8PzNTyU,3216
+dsg_lib/file_functions.py,sha256=HAns2l6jj0kdZhYVjXiLomb-ndVyxMFRt3ZrZFhD8uc,17092
+dsg_lib/folder_functions.py,sha256=ARqaZLVcgq9QWtlh8fenm_K6c57Wmm7Lx4p3dAjayJ0,4754
+dsg_lib/logging_config.py,sha256=rW-NtMdosWq9ZIsty90gtKF1sx1I6nJqU75fp14mnes,5940
+dsg_lib/patterns.py,sha256=Z5U3gBXF78VcEr50KX8DBSY2PaTX8hRvSF8KNH0Djgk,3944
+devsetgo_lib-0.10.1.dist-info/LICENSE,sha256=_DFQW1C-xi2B3yP9GxS6x1KsbPB22PX4Ad5lPsCLPYE,1066
+devsetgo_lib-0.10.1.dist-info/METADATA,sha256=Q2MIVQFu0YU2fI4oHktyirNBuH2sUNM-Ln3KVbm1DYs,3374
+devsetgo_lib-0.10.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+devsetgo_lib-0.10.1.dist-info/top_level.txt,sha256=7u_5xHJ1iU63eDVcYlunz2HVGb5tTZ5gtqstgbAWa-s,8
+devsetgo_lib-0.10.1.dist-info/RECORD,,
