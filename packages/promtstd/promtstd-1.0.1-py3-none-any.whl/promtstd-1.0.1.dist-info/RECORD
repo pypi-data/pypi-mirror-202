@@ -1,0 +1,10 @@
+promtstd/__main__.py,sha256=q1c1uH7RdzRs-bShQODO7osSNxKtRWgdCf1kyVsafW0,1779
+promtstd/lib_linter.py,sha256=SM2kQUN8x0sZvVIveJlJjhjC3byWGmf4C4Jpplf6WrI,2678
+promtstd/lib_main.py,sha256=5la-SYylThdM02kvhYsNytDsOkizEFZkZcEGVFi7ayg,11092
+promtstd/lib_re.py,sha256=7A6uNnCgYizI0COVMrgXkTA3SCqaJQDnr5OxgX_PPRo,2996
+promtstd/lib_types.py,sha256=hb6fanOazrwW6LOZo2i7vfYnyjegVoxO9yIBUyL2dps,3292
+promtstd/test/test_main.py,sha256=AY8K3O5Yl3MT6lgjUbuyejo106WwCjN2Pr1rwaKAEcQ,2644
+promtstd/test/utils.py,sha256=TidgHLqDXzBuLUFhZPsvi0nQAsIpcgrpxAq1A6jlChE,422
+promtstd-1.0.1.dist-info/METADATA,sha256=Sa1ljbetX10b1W_PjcfulZKroLRd0i8WbZe6_yzDWLc,25641
+promtstd-1.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+promtstd-1.0.1.dist-info/RECORD,,
