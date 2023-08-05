@@ -1,0 +1,57 @@
+# Emoji Chat
+
+Chat by emojis with the help of ChatGPT 😊
+
+Emoji Chat (**emojichat**) is a Python package that leverages the capabilities of GPTs such as
+ChatGPT to transform text into emojis or generate sentences from emojis.
+It provides easy-to-use functions that allow users to easily convert their text
+to emojis or generate emoji-based sentences with just one line of code.
+
+With Emoji Chat, users can add creativity to their chat messages or social media posts.
+It is a good tool for anyone looking to add some fun and creativity to their text.
+
+## Emojize
+
+Emojize text to emojis.
+
+```python
+import openai
+from emojichat import emojize
+
+openai.api_key = "YOUR-API-KEY"
+
+content = "I am ok in the morning, but feel bad at night."
+emojize(content, temperature=0)
+# "🙂🌅➡️😔🌃"
+
+content = "I ate some pizza tonight."
+emojize(content, temperature=0)
+# "🍕🌃🍽️"
+```
+
+## Demojize
+
+Generate paragraph from any emojis.
+
+```python
+import openai
+from emojichat import demojize
+
+openai.api_key = "YOUR-API-KEY"
+
+content = "🥱🚴➡️😊🛁️"
+demojize(content, temperature=0)
+# "I feel tired while cycling, but happy after taking a bath."
+
+content = "I 🚴 last year in 🇨🇳"
+demojize(content, temperature=0)
+# "I cycled last year in China."
+```
+
+For more details please try these [examples](https://github.com/emojichat-team/emojichat/tree/main/examples) 😄
+
+## Contribution
+
+Welcome all kinds of contribution!
+
+For more details please refer to [CONTRIBUTING.md](https://github.com/emojichat-team/emojichat/blob/main/CONTRIBUTING.md)
