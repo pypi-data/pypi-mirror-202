@@ -1,0 +1,17 @@
+README.md,sha256=hILfjDMghIHgO5GlqWtnV658Zn_LjJ56Xnqz5_D8Uxw,4474
+pyfracgen/__init__.py,sha256=Cv1PaQR0YjEyKnkkRcPeLYkU8iK6VEF9qgWIgwOwgM8,516
+pyfracgen/buddhabrot.py,sha256=u0SoOOI8p-LLD_OZyknGV5oXP0ybRjuFSvWZ7NfBVMA,4696
+pyfracgen/images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfracgen/images/images.py,sha256=T76aOZY3l52t6_kGF7WpQeddf6iL3zsXO5gDH4S3TBo,5086
+pyfracgen/julia.py,sha256=Yn3FcW3UjMs0kkOVNLwMKlykO2Q1J3oeSgcYOL_QOAo,2770
+pyfracgen/lyapunov.py,sha256=Ocy_a4KSYhVVQ3FQHnMhw6f2XazFZH9i4vDjPVqnJNM,1923
+pyfracgen/mandelbrot.py,sha256=hlkCEYaUSbzG8urQhWCdOrhWd1lz4GVAp3d46sVfD-g,2031
+pyfracgen/randomwalk.py,sha256=N6N71CPj8kdtoFRtEl8lyRKF9oseBQeSQUxP9uE2A0I,1788
+pyfracgen/result.py,sha256=4zVTpAjtdw3Bp8SAcoh8tdNZx8l4aFNEM1yDAzQUgBM,606
+pyfracgen/updaters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfracgen/updaters/funcs.py,sha256=nLbf7xafOgHO_z77hg62W5wW_y55grRyrf0omZy3nVA,1169
+pyproject.toml,sha256=kUO37DuCKfYNX_EChU8Q4KFXcu0iDQHUNJ48J3vKe3g,1921
+pyfracgen-0.0.9.dist-info/LICENSE,sha256=tCUNdujZLN8K2hgy9pK_2b-tt_MPioOE5dDBjFlqWxs,1060
+pyfracgen-0.0.9.dist-info/METADATA,sha256=K45xkmY7xKmbXesjg4BIy433EUFz9mNgdkcx8pQm1_8,5261
+pyfracgen-0.0.9.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pyfracgen-0.0.9.dist-info/RECORD,,
