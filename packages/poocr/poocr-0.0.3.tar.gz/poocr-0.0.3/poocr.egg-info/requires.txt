@@ -1,0 +1,3 @@
+toml
+tencentcloud-sdk-python
+poprogress
