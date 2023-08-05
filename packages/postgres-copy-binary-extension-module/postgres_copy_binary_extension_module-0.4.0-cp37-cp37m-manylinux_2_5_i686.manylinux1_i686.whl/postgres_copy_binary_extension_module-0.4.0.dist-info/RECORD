@@ -1,0 +1,5 @@
+postgres_copy_binary_extension_module-0.4.0.dist-info/METADATA,sha256=Dy87UcQhmFc97ip5ECPEMik1mEg2Qys6g-mgtrpB2Kk,317
+postgres_copy_binary_extension_module-0.4.0.dist-info/WHEEL,sha256=wPvEJPT3ZCx5DFo38UTr735IGOW7Qgv1X3NzZH-XAKs,122
+postgres_copy_binary_extension_module/__init__.py,sha256=Y0wnQDZJvB0YRpCvO9P8UBab8NLHnscNz8dU0Bot9Z0,231
+postgres_copy_binary_extension_module/postgres_copy_binary_extension_module.cpython-37m-i386-linux-gnu.so,sha256=b3pl15-dDe29d-p3xr8j49IgUphm2GxD6YPVAy6v57U,4851904
+postgres_copy_binary_extension_module-0.4.0.dist-info/RECORD,,
