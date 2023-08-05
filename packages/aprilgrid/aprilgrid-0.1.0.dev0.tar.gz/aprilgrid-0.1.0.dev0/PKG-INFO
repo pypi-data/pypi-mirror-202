@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: aprilgrid
+Version: 0.1.0.dev0
+Project-URL: Documentation, https://github.com/powei-lin/AprilGrid#readme
+Project-URL: Issues, https://github.com/powei-lin/AprilGrid/issues
+Project-URL: Source, https://github.com/powei-lin/AprilGrid
+Author-email: Powei Lin <poweilin1994@gmail.com>
+License-Expression: BSD-3-Clause
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Description-Content-Type: text/markdown
+
+# Aprilgrid
+
+aprilgrid: Pure python version of aprilgid
+
+## Install from PyPI
+This is the recommended and easiest way to install aprilgrid.
+```
+pip install aprilgrid
+```
+We offer pre-built binary wheels for common operating systems. To install from source, see below.
+
+## Usage
+Some examples of usage can be seen in the src/pupil_apriltags/bindings.py file.
+
+The Detector class is a wrapper around the Apriltags functionality. You can initialize it as following:
+```py
+from aprilgrid import Detector
+
+at_detector = Detector("t36h11")
+
+at_detector.detect(img)
+```
+# clone the repository
+```sh
+git clone https://github.com/powei-lin/aprilgrid.git
+cd aprilgrid
+```
+# install apriltags in editable mode with development requirements
+```sh
+pip install -e .[testing]
+```
