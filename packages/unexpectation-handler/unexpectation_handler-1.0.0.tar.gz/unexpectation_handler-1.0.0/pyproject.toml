@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "unexpectation-handler"
+version = "1.0.0"
+description = "Never trust users! Encapsulate \"isolating program vulnerabilities (errors, exceptions, or results due to unexpected input) that may be caused by executed code\" and \"Calling function that handle them\"  as a module of Python."
+license = "MIT"
+authors = ["leoweyr <leoweyr@foxmail.com>"]
+readme = "README.md"
+repository = "https://github.com/leoweyr/Python-Unexpectation_Handler"
+packages = [{include = "unexpectation_handler"}]
+include = ["README.md","LICENSE"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.urls]
+"repository" = "https://github.com/leoweyr/Python-Unexpectation_Handler"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
