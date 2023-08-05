@@ -1,0 +1,17 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+lnkgonewild/LICENSE
+lnkgonewild/README.MD
+lnkgonewild/__init__.py
+lnkgonewild/lnkcompile.py
+lnkgonewild/requirements.txt
+lnkgonewild/secretsubprocess.py
+lnkgonewild/thirdparty.json
+lnkgonewild.egg-info/PKG-INFO
+lnkgonewild.egg-info/SOURCES.txt
+lnkgonewild.egg-info/dependency_links.txt
+lnkgonewild.egg-info/requires.txt
+lnkgonewild.egg-info/top_level.txt

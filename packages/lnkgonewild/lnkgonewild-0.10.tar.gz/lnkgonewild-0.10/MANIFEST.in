@@ -1,0 +1,6 @@
+include lnkgonewild/requirements.txt
+include lnkgonewild/thirdparty.json
+include lnkgonewild/README.MD
+include lnkgonewild/secretsubprocess.py
+include lnkgonewild/lnkcompile.py
+include lnkgonewild/LICENSE
