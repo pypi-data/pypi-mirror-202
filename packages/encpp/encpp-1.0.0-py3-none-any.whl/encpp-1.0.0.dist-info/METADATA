@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: encpp
+Version: 1.0.0
+Summary: Encryption Plus Plus (encpp)
+Home-page: https://github.com/tchello45/encpp
+Author: Tilman Kurmayer
+Author-email: tilman.kurmayer@outlook.de
+License: MIT
+Requires-Python: >=3.0
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+Requires-Dist: rsa
+
+Encryption Plus Plus (encpp) is a Python library for encryption and decryption of data. It uses AES and RSA for encryption and decryption. Supports Strings as AES password.
