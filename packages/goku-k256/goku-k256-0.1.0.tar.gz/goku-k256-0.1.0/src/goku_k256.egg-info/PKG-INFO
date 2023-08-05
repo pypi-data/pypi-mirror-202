@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: goku-k256
+Version: 0.1.0
+Summary: goku algorithm related to secp256k1
+Author-email: imonkeygoku <imonkeygoku@hotmail.com>
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+### goku algorithm related to secp256k1
