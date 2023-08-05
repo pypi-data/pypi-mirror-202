@@ -1,0 +1,16 @@
+FamousCipherAlgorithms/ADFGVX.py,sha256=lZcs0icWPwzb_rrJIIFpPhBPl7E_g_u-leYk2c9ybpI,3023
+FamousCipherAlgorithms/Affine.py,sha256=SJL2XzdSEI5mIVXY3N1xjLyr3aQ7kGRw6g-l2HyfwVQ,1745
+FamousCipherAlgorithms/Columnar.py,sha256=8X-NaNTDc5f067iRq3GsrA-DxF_TF1ejZCjF_KAU-e0,3004
+FamousCipherAlgorithms/Hill.py,sha256=PFpIh-XVqzakL59uxlOz4gkeuS8Ck1Pr5eGe3SBiKvE,4260
+FamousCipherAlgorithms/OneTimePad.py,sha256=6cZyb6h0VLO9AdsWEVcH_1cLsigSK4yOkB4rtM9ZIvU,1342
+FamousCipherAlgorithms/Permutation.py,sha256=mwsVuV57udG8LVeQy928WtMKCtWN048BBZ_hF4ahRnM,2162
+FamousCipherAlgorithms/Playfair.py,sha256=acAoNhqTntvONLKwC8ki6PJjZ-pijaPOK6qd70qB63M,6292
+FamousCipherAlgorithms/Polybius.py,sha256=aFDhOjVsNhCl-nNxabGGRDkYJtLsLwX9l-9VrNAZ-2o,2113
+FamousCipherAlgorithms/RailFence.py,sha256=Wlsa59NAKI269V66477m9qxDw_YPxnx0WPliqme16rs,2798
+FamousCipherAlgorithms/Shift.py,sha256=hYUclYv5-38GSYQLwg8QRvNZLu7ZJnnFDNmBJisrQXU,2437
+FamousCipherAlgorithms/Vigenere.py,sha256=w2TH0bPlPTSgkW1dm04EI-wpwWjDFTR6TDq50RHBL7M,1715
+FamousCipherAlgorithms/__init__.py,sha256=oLG_BhztObn7Ra52DP8jVtZr0K2J2QJzI644o9okPqk,403
+famouscipheralgorithms-0.1.4.dist-info/METADATA,sha256=zqY77BUJxGYevWTcgNceTqq365qHFvGJJfiaTo8gvAM,2537
+famouscipheralgorithms-0.1.4.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+famouscipheralgorithms-0.1.4.dist-info/licenses/LICENSE,sha256=xukgpBMVYJo4ScUlJ0d2YjX83H5aJKJsTzvBC0C35sw,1069
+famouscipheralgorithms-0.1.4.dist-info/RECORD,,
