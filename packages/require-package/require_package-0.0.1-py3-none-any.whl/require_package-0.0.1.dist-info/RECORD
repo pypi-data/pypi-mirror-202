@@ -1,0 +1,6 @@
+require_package/__init__.py,sha256=-y1j8aUBzwOXMAv5Cg21tRs2j1PIvRzmVDcLQLJSyIA,26
+require_package/main.py,sha256=s1WNZT4NJHAjckepbVR71E7807up2PfMOQi4irN8hIw,486
+require_package-0.0.1.dist-info/METADATA,sha256=Rd7sB5usCAhMWKYi1MPI-_pSNcJ70CZOTOugQFMbvQE,1902
+require_package-0.0.1.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+require_package-0.0.1.dist-info/licenses/LICENCE.txt,sha256=cPEMS8nffjhG0we2V0WOIHDkL-EV67tUgi5BZvDg5QU,1082
+require_package-0.0.1.dist-info/RECORD,,
