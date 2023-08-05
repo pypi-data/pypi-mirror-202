@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: amiadmin
+Version: 0.10
+Summary: A function to check if the user is an admin
+Home-page: https://github.com/hansalemaos/amiadmin
+Author: Johannes Fischer
+Author-email: <aulasparticularesdealemaosp@gmail.com>
+License: MIT
+Keywords: admin,check
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+
+# A function to check if the user is an admin
+
+
+
+### Tested against Windows 10 / Python 3.10 / Anaconda 
+
+
+
+## pip install amiadmin
+
+
+
+
+
+```python
+
+from amiadmin import am_i_admin
+
+print(am_i_admin())
+
+
+
+True
+
+```
