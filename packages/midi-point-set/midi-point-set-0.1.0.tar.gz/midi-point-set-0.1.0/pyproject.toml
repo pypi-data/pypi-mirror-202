@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "midi-point-set"
+version = "0.1.0"
+description = "Convert MIDI files to point set representation."
+authors = ["Leo <leohdz.c0@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "midi_point_set"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pretty_midi = "^0.2.10"
+matplotlib = "^3.7.1"
+bokeh = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+midi-point-set = "midi_point_set.console:main"
