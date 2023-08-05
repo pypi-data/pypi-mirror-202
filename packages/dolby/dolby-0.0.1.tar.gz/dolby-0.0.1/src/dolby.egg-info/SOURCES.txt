@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/dolby.egg-info/PKG-INFO
+src/dolby.egg-info/SOURCES.txt
+src/dolby.egg-info/dependency_links.txt
+src/dolby.egg-info/top_level.txt
