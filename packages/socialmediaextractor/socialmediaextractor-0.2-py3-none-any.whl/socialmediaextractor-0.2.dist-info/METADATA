@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: socialmediaextractor
+Version: 0.2
+Summary: A library to extract social media links from websites
+Author: Md Irfan Ali
+Author-email: irfanali29@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+UNKNOWN
+
