@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/source_and_license/__init__.py
+src/source_and_license/source_license.py
+src/source_and_license.egg-info/PKG-INFO
+src/source_and_license.egg-info/SOURCES.txt
+src/source_and_license.egg-info/dependency_links.txt
+src/source_and_license.egg-info/top_level.txt
+src/source_and_license/modules/__init__.py
