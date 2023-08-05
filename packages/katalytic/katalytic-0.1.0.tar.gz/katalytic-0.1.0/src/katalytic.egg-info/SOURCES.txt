@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/katalytic/katalytic.py
+src/katalytic.egg-info/PKG-INFO
+src/katalytic.egg-info/SOURCES.txt
+src/katalytic.egg-info/dependency_links.txt
+src/katalytic.egg-info/requires.txt
+src/katalytic.egg-info/top_level.txt
+tests/test_collection.py

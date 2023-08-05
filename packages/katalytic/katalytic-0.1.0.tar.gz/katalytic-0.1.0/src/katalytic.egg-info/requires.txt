@@ -1,0 +1,11 @@
+katalytic-files>=0.3.2
+katalytic-pkg>=0.2.0
+
+[all]
+katalytic-images>=0.1.0
+
+[dev]
+pytest
+pytest-cov
+pytest-randomly
+pytest-repeat
