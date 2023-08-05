@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pywebify
+Version: 0.3.0a0
+Summary: Utility to create browser-based reports of images and html files for easy data analysis
+Home-page: https://github.com/endangeredoxen/pywebify
+Download-URL: https://github.com/endangeredoxen/pywebify/archive/refs/tags/v0.3.0-alpha.tar.gz
+Author: Steve Nicholes
+License: GPLv3
+Platform: linux
+Platform: osx
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+Provides-Extra: doc
+
+PyWebify
+========
+
+PyWebify is a utility to create browser-based reports of images and html files
+for easy data analysis.
+
+pip install https://github.com/endangeredoxen/pywebify/zipball/master
+
+For more information, please see the documentation located 
+`here <http://endangeredoxen.github.io/pywebify>`_.  

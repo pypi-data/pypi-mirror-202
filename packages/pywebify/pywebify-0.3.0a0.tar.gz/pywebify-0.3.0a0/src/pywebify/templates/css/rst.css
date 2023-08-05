@@ -1,0 +1,200 @@
+/* Modified from: sphinxdoc.css_t
+ *
+ * Original copyright:
+ *
+ *    Sphinx stylesheet -- sphinxdoc theme.  Originally created by Armin Ronacher for Werkzeug.
+ *
+ *    :copyright: Copyright 2007-2015 by the Sphinx team, see AUTHORS.
+ *    :license: BSD, see LICENSE for details.
+ *  boop
+ */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $RST_FONT_SIZE;
+    letter-spacing: -0.01em;
+    line-height: 120%;
+    text-align: center;
+    background-color: $RST_COLOR;
+    color: $RST_FONT_COLOR;
+    border: $RST_BORDER $RST_BORDER_COLOR;
+    margin: $RST_MARGIN;
+    /* min-width: $RST_MARGIN; # was 740px */
+    padding: $RST_PADDING_INTERNAL;
+}
+
+div.document {
+    background-color: $RST_COLOR;
+    text-align: left;
+    background-repeat: repeat-x;
+    padding: $RST_PADDING_VIEWER;
+    font-family: $RST_FONT;
+}
+
+/* -- body styles ----------------------------------------------------------- */
+
+p {
+    margin: 0.8em 0 0.5em 0;
+}
+
+a {
+    color: #CA7900;
+}
+
+a:hover {
+    color: #2491CF;
+}
+
+div.body a {
+    text-decoration: underline;
+}
+
+li li {
+    font-size: $RST_LIST_FONT_SIZE;
+}
+
+h1 {
+    margin: 0;
+    padding: 0.7em 0 0.3em 0;
+    font-size: $RST_H1_FONT_SIZE;
+    color: $RST_H1_FONT_COLOR !important;
+}
+
+h2 {
+    margin: 1.25em 0 0.2em 0;
+    font-size: $RST_H2_FONT_SIZE;
+    padding: 0;
+    color: $RST_H2_FONT_COLOR;
+}
+
+h3 {
+    margin: 1em 0 -0.3em 0;
+    font-size: $RST_H3_FONT_SIZE;
+    color: $RST_H3_FONT_COLOR;
+}
+
+pre {
+    /* font-family: "Times New Roman", Times, serif; */
+    font-size: 0.95em;
+    letter-spacing: 0.015em;
+    line-height: 120%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
+
+pre a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: $RST_TABLE_MARGIN; /* 0 0.5em 0 0.5em; */
+    border: 1px solid $RST_TABLE_BORDER_COLOR;
+}
+
+table td {
+    padding: $RST_TABLE_PADDING; /*0.2em 0.5em 0.2em 0.5em;*/
+    font-size: $RST_TABLE_CELL_FONT_SIZE;
+    color: $RST_TABLE_CELL_FONT_COLOR;
+}
+
+table th {
+    padding: $RST_TABLE_PADDING; /*0.2em 0.5em 0.2em 0.5em;*/
+    font-size: $RST_TABLE_HEADER_FONT_SIZE;
+    color: $RST_TABLE_HEADER_FONT_COLOR;
+}
+
+
+div.admonition, div.warning, div.note {
+    font-size: 0.9em;
+    margin: 1em 0 1em 0;
+    border: 1px solid #86989B;
+    background-color: #f7f7f7;
+    padding: 0;
+}
+
+div.admonition p, div.warning p, div.note p {
+    margin: 0.5em 1em 0.5em 1em;
+    padding: 0;
+}
+
+div.admonition pre, div.warning pre, div.note pre {
+    margin: 0.4em 1em 0.4em 1em;
+}
+
+div.admonition p.admonition-title,
+div.warning p.admonition-title,
+div.note p.admonition-title {
+    margin: 0;
+    padding: 0.1em 0 0.1em 0.5em;
+    color: white;
+    border-bottom: 1px solid #86989B;
+    font-weight: bold;
+    background-color: #AFC1C4;
+}
+
+div.warning {
+    border: 1px solid #940000;
+}
+
+div.warning p.admonition-title {
+    background-color: #CF0000;
+    border-bottom-color: #940000;
+}
+
+div.admonition ul, div.admonition ol,
+div.warning ul, div.warning ol {
+    margin: 0.1em 0.5em 0.5em 3em;
+    padding: 0;
+}
+
+div.code-block-caption {
+    background-color: #ddd;
+    color: #222;
+    border: 1px solid #ccc;
+}
+ul {
+    margin-bottom: 10px;
+    margin-left: -10px;
+}
+li {
+    margin-bottom: 10px;
+}
+dt {
+    margin-bottom: 10px;
+}
+th {
+    background-color:  #eeeeee;
+}
+img.align-left, .figure.align-left, object.align-left {
+    clear: left;
+    float: left;
+    margin-right: 1em;
+}
+
+img.align-right, .figure.align-right, object.align-right {
+    clear: right;
+    float: right;
+    margin-left: 1em;
+}
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
