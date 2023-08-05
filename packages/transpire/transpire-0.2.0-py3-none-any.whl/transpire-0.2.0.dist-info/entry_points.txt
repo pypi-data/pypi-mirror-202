@@ -1,0 +1,3 @@
+[console_scripts]
+transpire=transpire.__main__:cli
+
