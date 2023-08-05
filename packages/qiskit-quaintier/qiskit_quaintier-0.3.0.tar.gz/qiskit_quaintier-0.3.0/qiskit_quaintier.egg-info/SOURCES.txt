@@ -1,0 +1,8 @@
+README.md
+setup.py
+./quantier.py
+qiskit_quaintier.egg-info/PKG-INFO
+qiskit_quaintier.egg-info/SOURCES.txt
+qiskit_quaintier.egg-info/dependency_links.txt
+qiskit_quaintier.egg-info/requires.txt
+qiskit_quaintier.egg-info/top_level.txt
