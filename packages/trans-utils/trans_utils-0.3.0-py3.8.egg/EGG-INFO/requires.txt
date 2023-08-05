@@ -1,0 +1,14 @@
+termcolor
+einops
+torch>=1.6
+torchvision
+seaborn
+matplotlib
+opencv-python
+pandas
+pyyaml
+yamlloader
+SimpleITK
+h5py
+xlwt
+openpyxl
