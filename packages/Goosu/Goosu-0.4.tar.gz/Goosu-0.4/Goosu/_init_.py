@@ -1,0 +1,1 @@
+from short_url_func import goosu
