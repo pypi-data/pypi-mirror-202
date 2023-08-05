@@ -1,0 +1,2 @@
+[console_scripts]
+xchem-chimp = xchem_chimp.__main__:main
