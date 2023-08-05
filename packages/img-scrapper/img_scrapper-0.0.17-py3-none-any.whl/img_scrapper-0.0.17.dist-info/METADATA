@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: img-scrapper
+Version: 0.0.17
+Summary: python package to scrap image from google image search
+Home-page: https://github.com/vatshgaurav/img_scrapper
+Author: Gaurav Vatsh
+Author-email: vatshgaurav@gmail.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 (==4.12.2)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: certifi (==2022.12.7)
+Requires-Dist: lxml (==4.9.2)
+Requires-Dist: requests (==2.28.2)
+Requires-Dist: soupsieve (==2.4)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: urllib3 (==1.26.15)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/vatshgaurav/img_scrapper/dev-1/logo/img_scrapper_logo.png"><br>
+</div>
+
+# img_scrapper
+
+A Python package to scrape and download images from Google search using
+BeautifulSoup and Requests libraries.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install
+img_scrapper.
+
+```sh
+#PyPi
+pip install img-scrapper
+```
+
+
+## Usage
+
+```python
+from img_scrapper import get_original_images
+
+images = get_original_images('Spotify', download=False)
+```
+
+
+* The script will display the first image it finds in the search
+results. If you want to download the image, set download=True in the
+get_original_images function call.
+
+* The downloaded images will be saved in the Bs4_Img directory.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+This project is licensed under the MIT License - see the
+[LICENSE.md](https://github.com/vatshgaurav/img_scrapper/blob/main/LICENSE) file for details.
