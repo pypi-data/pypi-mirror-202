@@ -1,0 +1,15 @@
+pandas
+xlsxwriter
+matplotlib
+numpy
+requests
+robotframework
+robotframework-requests
+jinja2
+pyyaml
+sqlalchemy
+cx-Oracle
+ipython
+jupyterlab
+notebook
+robotkernel
