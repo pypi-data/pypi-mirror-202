@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ringneck
+Version: 0.0.1
+Summary: A Python-ish script interpreter.
+Author-email: Greger Stolt Nilsen <gregersn@gmail.com>
+Project-URL: Homepage, https://github.com/gregersn/ringneck
+Keywords: interpreter
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Ringneck
+
+An interpreter to interpret a language inspired by Python, as a Python module, for embedding in Python.
+
+## Usage
+
+See `examples/generator.py`
+
