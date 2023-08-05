@@ -1,0 +1,2 @@
+[console_scripts]
+iconfinder = iconfinder.finder:main
