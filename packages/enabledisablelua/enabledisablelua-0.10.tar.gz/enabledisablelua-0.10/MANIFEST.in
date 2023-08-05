@@ -1,0 +1,4 @@
+include enabledisablelua/requirements.txt
+include enabledisablelua/thirdparty.json
+include enabledisablelua/README.MD
+include enabledisablelua/LICENSE
