@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pibooth-stillimage-camera
+Version: 0.1.2
+Summary: Dummy camera for pibooth, producing still images for testing
+License: AGPLv3
+Project-URL: Homepage, https://gitlab.com/wolface/wolfoto-project/pibooth-stillimage-camera
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: English
+Classifier: Topic :: Multimedia :: Graphics :: Capture :: Digital Camera
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pibooth-stillimage-camera
+
+`pibooth-stillimage-camera` is a plugin for the [pibooth](https://pypi.org/project/pibooth) application.
+
+It provides a fake camera 'capturing' still images with a dummy text 'Still image for tests' writen in a customizable color, and background color.
+
+It has no use in a real booth scenario, but this way anyone can test the app, even whithout having an actual camera attached!
+
+This project was mostly a first try at cracking at pibooth using a plugin, so as to see how easy it is to interact with it, and try to provide feedback on the general structure of the project. It also actually enables testing of all the other parts without much work!
+
+## Install
+
+This plugin is published on Pypi, so you can use: `$ pip3 install pibooth-stillimage-camera`
+
+Otherwise, as per other pibooth plugins, you can clone this repository, and add `/path/to/pibooth_stillimage_camera.py` to `[GENERAL]` `plugins` list in pibooth.cfg.
+
+## Configuration
+
+You need to set `debug = True` in `[GENERAL]` for the plugin to kick in.
+
+Optional colors customization (and occasional eye bleed):
+
+```
+[CAMERA]
+  dummy_background = blue
+  dummy_foreground = yellow
+```
+

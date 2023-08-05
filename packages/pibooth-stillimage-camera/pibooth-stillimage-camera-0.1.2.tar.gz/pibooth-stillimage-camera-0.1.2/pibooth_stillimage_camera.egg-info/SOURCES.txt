@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pibooth_stillimage_camera.py
+pyproject.toml
+pibooth_stillimage_camera.egg-info/PKG-INFO
+pibooth_stillimage_camera.egg-info/SOURCES.txt
+pibooth_stillimage_camera.egg-info/dependency_links.txt
+pibooth_stillimage_camera.egg-info/entry_points.txt
+pibooth_stillimage_camera.egg-info/requires.txt
+pibooth_stillimage_camera.egg-info/top_level.txt
