@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tomcru-jerry"
+version = "0.1.0"
+description = "General purpose web library"
+authors = ["Rajmund Csombordi <rajmund.csombordi@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "tomcru_jerry"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bcrypt = "3.1.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
