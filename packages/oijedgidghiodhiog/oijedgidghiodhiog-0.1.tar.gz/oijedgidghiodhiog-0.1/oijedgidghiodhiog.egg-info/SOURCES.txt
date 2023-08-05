@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+oijedgidghiodhiog/__init__.py
+oijedgidghiodhiog.egg-info/PKG-INFO
+oijedgidghiodhiog.egg-info/SOURCES.txt
+oijedgidghiodhiog.egg-info/dependency_links.txt
+oijedgidghiodhiog.egg-info/top_level.txt
