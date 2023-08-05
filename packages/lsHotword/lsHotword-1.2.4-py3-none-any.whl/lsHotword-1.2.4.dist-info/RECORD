@@ -1,0 +1,17 @@
+lsHotword/HDatagen.py,sha256=MR4n9yX9pBov9MWkViODtvpbU_vmcM9k4I3AiS2eojA,9648
+lsHotword/HTrainer.py,sha256=NTym3CWaJe4WVtNmtKmQc91oCc4ikocoD3ayghy_8rk,4248
+lsHotword/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lsHotword/chime.wav,sha256=kr14t3lbJjZbDLFGS1EdGrw4LVNeWMnfMy6GbA-X-H0,165476
+lsHotword/funcHDatagen.py,sha256=tPQwbazqWvFTQN4rIwVLEGmXGCEexE0bDEbWsrEmF4k,10018
+lsHotword/funcHTrainer.py,sha256=Pw394RGAzCrJQTNxV0HuEGRq9Zzlo8lI9X_kT7ZaT-g,2230
+lsHotword/funcHfTrainModel.py,sha256=SaX0U_L3VrDLX7sv-QIjvSY-nAGPTCwjGUcNc1gdZQA,11270
+lsHotword/hotword.py,sha256=5-mS6cSFfnchEU7YEYnybvDGUYzPp4VOsuNLcLX0i4c,12616
+lsHotword/ls.py,sha256=Fsy6PH6oJsyYTztgmaPAXWwEhjvZO3xdpH5rJrOryPE,6098
+lsHotword/lsrc.py,sha256=nkxJ2lIjcFAco0LaQCTeO2kZnJycG91rc_BuCSzXVX0,7579064
+lsHotword/uitrainer.py,sha256=GTwlm9f9jFT3cgnevf0qcuvQrLq682C8dG6tuY4Lujo,33742
+lsHotword-1.2.4.dist-info/LICENSE,sha256=Uzfg-1oIeY8qFG6Aj3_kezk9m7eW31frb_sEdrMfQu4,1090
+lsHotword-1.2.4.dist-info/METADATA,sha256=tG-sEnW2_ugX4J3XAdspo5_ojHOcH3hwX1ddo-9hLlk,6683
+lsHotword-1.2.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lsHotword-1.2.4.dist-info/entry_points.txt,sha256=fULqiyY1v2xo9I04bbYI4LDfLN1Et-_GB1X1z7hx95A,224
+lsHotword-1.2.4.dist-info/top_level.txt,sha256=vbGYjJmsN6BIpv3OkRrtkjqaGy6TwWGnqeOrzmyJxkA,10
+lsHotword-1.2.4.dist-info/RECORD,,
