@@ -1,0 +1,52 @@
+[tool.poetry]
+authors = ["Michael Vogelsong <4020875+mjvogelsong@users.noreply.github.com>"]
+description = "Work with AI helpers that collaborate with you to build practical systems."
+license = "MIT"
+name = "helperize"
+readme = "README.md"
+version = "0.0.5"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.3.3"
+typer = "^0.7.0"
+
+[tool.poetry.group.lint.dependencies]
+black = "^23.3.0"
+mypy = "^1.2.0"
+pylint = "^2.17.2"
+ruff = "^0.0.261"
+toml-sort = "^0.23.0"
+
+[tool.poetry.group.test.dependencies]
+coverage = "^7.2.3"
+pytest = "^7.2.2"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.12.0"
+pre-commit = "^3.2.2"
+
+[tool.poetry.scripts]
+helperize = "helperize.cli.cli:app"
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+ignore = ["D100", "D101", "D103", "D104", "D203", "D213", "G004"]
+line-length = 100
+select = ["ALL"]
+
+[tool.ruff.per-file-ignores]
+"helperize/cli/**/*.py" = ["B008"]
+"test/**/*.py" = ["ANN201", "S101"]
+
+[tool.mypy]
+python_version = "3.10"
+
+[tool.pytest.ini_options]
+filterwarnings = []
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.2.0"]
