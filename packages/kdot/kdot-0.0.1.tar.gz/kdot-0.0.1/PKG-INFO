@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kdot
+Version: 0.0.1
+Summary: A anti skid package
+Author: kdot227
+Author-email: suckmaballs@gmail.com
+License: MIT
+Keywords: kdot
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+A package that makes it easy to add anti skid to all of your (my) repos

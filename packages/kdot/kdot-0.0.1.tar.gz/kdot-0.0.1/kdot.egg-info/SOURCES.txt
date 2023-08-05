@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+kdot/__init__.py
+kdot/kdot.py
+kdot.egg-info/PKG-INFO
+kdot.egg-info/SOURCES.txt
+kdot.egg-info/dependency_links.txt
+kdot.egg-info/top_level.txt
