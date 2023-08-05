@@ -1,0 +1,17 @@
+
+[dev]
+sphinx
+sphinx-rtd-theme
+m2r2
+green
+mypy
+pytest>=2.6
+
+[docs]
+sphinx
+sphinx-rtd-theme
+m2r2
+
+[tests]
+green
+mypy
