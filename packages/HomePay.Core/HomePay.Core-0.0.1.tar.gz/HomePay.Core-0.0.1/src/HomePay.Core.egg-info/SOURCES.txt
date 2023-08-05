@@ -1,0 +1,7 @@
+setup.py
+src/HomePay.Core.egg-info/PKG-INFO
+src/HomePay.Core.egg-info/SOURCES.txt
+src/HomePay.Core.egg-info/dependency_links.txt
+src/HomePay.Core.egg-info/not-zip-safe
+src/HomePay.Core.egg-info/requires.txt
+src/HomePay.Core.egg-info/top_level.txt
