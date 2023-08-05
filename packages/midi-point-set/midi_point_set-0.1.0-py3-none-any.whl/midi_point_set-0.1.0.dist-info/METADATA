@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: midi-point-set
+Version: 0.1.0
+Summary: Convert MIDI files to point set representation.
+License: MIT
+Author: Leo
+Author-email: leohdz.c0@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: bokeh (>=3.1.0,<4.0.0)
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: pretty_midi (>=0.2.10,<0.3.0)
+Description-Content-Type: text/markdown
+
+# MIDI to Point Set Converter
+
+This Python library converts MIDI files to point set representation, which
+encodes notes as pairs of integers encoding the pitch and time. The output can
+be used for machine learning tasks such as music generation.
+
+## Requirements
+
+- Python 3.7 or higher
+
+## Installation
+
+```sh
+pip install midi_point_set
+```
+
+## Usage
+
+### CLI
+
+```sh
+# JSON output
+
+python -m midi-point-set --input-midi K545-1.mid --output-json mozart.json
+
+# Plot
+# (requires matplotlib installed)
+python -m midi-point-set --input-midi K545-1.mid --output-plot mozart.svg
+```
+
+### Library
+
+```py
+from midi_point_set import get_point_set
+
+point_set = get_point_set("mozart.midi")
+print(point_set[:5])
+```
+

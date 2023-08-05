@@ -1,0 +1,3 @@
+[console_scripts]
+midi-point-set=midi_point_set.console:main
+
