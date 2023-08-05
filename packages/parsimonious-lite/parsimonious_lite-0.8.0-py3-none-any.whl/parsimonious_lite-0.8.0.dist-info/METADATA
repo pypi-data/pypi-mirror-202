@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: parsimonious-lite
+Version: 0.8.0
+Summary: lite fork of parsimonious 0.8.0 for compatibility with python 3.11
+Keywords: parse,parser,parsing,peg,packrat,grammar,language
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Text Processing :: General
+License-File: LICENSE
+Requires-Dist: six (>=1.9.0)
+
