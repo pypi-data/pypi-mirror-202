@@ -1,0 +1,10 @@
+circleblock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+circleblock/changer.py,sha256=A3mFebf4Lmdzo80hy6y04qqmA-Da99QH5TgVRRqKYQU,4958
+circleblock/watcher.py,sha256=N7JH5UOIPT-F6Ya0I5AP1hCz-9-XkVWl4Vo46JzJ4I0,1209
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CircleBlock-1.0.3.dist-info/LICENSE,sha256=An_hYa6XakIRvEbcKmJTDuTDTrD6v4rilSnWPVqOhEM,1939
+CircleBlock-1.0.3.dist-info/METADATA,sha256=BsI2lvNID__TbTX1e6edWO4sHp2-bac3_YtqDwWPt_s,798
+CircleBlock-1.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+CircleBlock-1.0.3.dist-info/entry_points.txt,sha256=sHkKDdKr2IRWs-LKmCI0BVjeocLAwNOfx5XHPBMU-Wo,33
+CircleBlock-1.0.3.dist-info/top_level.txt,sha256=2ukpBo74ozuxIbho-CFpCV487ooWcwWg7iWAXuggkMI,18
+CircleBlock-1.0.3.dist-info/RECORD,,
