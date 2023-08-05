@@ -1,0 +1,11 @@
+circleblock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+circleblock/changer.py,sha256=A3mFebf4Lmdzo80hy6y04qqmA-Da99QH5TgVRRqKYQU,4958
+circleblock/cli.py,sha256=VJoBrw5QpFw9TU1FaeA2OWTcmrg8vGxcGp3brzH4V9w,3156
+circleblock/watcher.py,sha256=1kBW1kDKCTaXnpwknQS4afXwjvJnmQ_CPNcq9C3gNUM,983
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CircleBlock-1.0.5.dist-info/LICENSE,sha256=An_hYa6XakIRvEbcKmJTDuTDTrD6v4rilSnWPVqOhEM,1939
+CircleBlock-1.0.5.dist-info/METADATA,sha256=B1QVkq3luRElQDbkd4njico3wetj4mGHknwgEle8yYw,776
+CircleBlock-1.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+CircleBlock-1.0.5.dist-info/entry_points.txt,sha256=-vb9OlMivLApenZ7AqyNRBoHVsaZNB4F7Nydj84bZx8,45
+CircleBlock-1.0.5.dist-info/top_level.txt,sha256=2ukpBo74ozuxIbho-CFpCV487ooWcwWg7iWAXuggkMI,18
+CircleBlock-1.0.5.dist-info/RECORD,,
