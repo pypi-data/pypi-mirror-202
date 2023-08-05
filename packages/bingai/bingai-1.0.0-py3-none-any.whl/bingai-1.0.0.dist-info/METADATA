@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: bingai
+Version: 1.0.0
+Summary: Bing API for ChatGPT
+Author-email: Gautam Veldanda <gautamveldanda@gmail.com>
+Project-URL: Homepage, https://github.com/gautamveldanda/bingai
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium
+
+# BingAI (ChatGPT)
+
+## Bing AI API for ChatGPT
+
+### Installation
+
+```
+pip install bingai --upgrade
+```
+
+### Usage
+```
+from bingai import ChatbotSession
+session = ChatbotSession(email, password)
+session.run()
+```
