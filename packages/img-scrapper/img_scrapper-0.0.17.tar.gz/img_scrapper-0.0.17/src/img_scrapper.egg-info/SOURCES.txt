@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+run.py
+setup.py
+src/__init__.py
+src/img_scrapper.py
+src/__pycache__/img_scrapper.cpython-310.pyc
+src/img_scrapper.egg-info/PKG-INFO
+src/img_scrapper.egg-info/SOURCES.txt
+src/img_scrapper.egg-info/dependency_links.txt
+src/img_scrapper.egg-info/requires.txt
+src/img_scrapper.egg-info/top_level.txt
