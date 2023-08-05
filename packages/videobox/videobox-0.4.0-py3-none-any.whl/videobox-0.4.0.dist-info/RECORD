@@ -1,0 +1,14 @@
+videobox/__init__.py,sha256=eV_mdi1VcNCqVhJ33_53tMFAcDA97BEEG5_WwOXeQkM,64
+videobox/__main__.py,sha256=TDnlmCUPSmAmTjy_4whfBU0auouRcYDaK_DTqKlIPm4,40
+videobox/api.py,sha256=yqLi6VRTZZA8EX9tZoVjdVK2n6ASNksZZHVjg4usHZQ,1644
+videobox/main.py,sha256=axS_yP_mVqFjdXcwk_Qao73_m_EXQWBDbRJkbI4zRtw,14229
+videobox/model.py,sha256=3PX4JpDk2bj_yX3AM_oQJVYcs7qENPICSzwUW6ArmrA,9802
+videobox/sync.py,sha256=MkfpSlSrhoOUtU1HEVDBnLT3vD3iHr7EAOEIq3OdoP4,13162
+videobox/trackers.txt,sha256=cBvnC1LqVnSedsVZtezKTgb0yYtbtRK6E1EnE1EpJw4,4153
+videobox/utilities.py,sha256=EFC1aNG5OXVEfEz09sKYTeXJGniaTKArig0mC1GZ-Ss,1124
+videobox-0.4.0.dist-info/LICENSE,sha256=mv7YUuf2yWfgjhlpJnNJAhJrWNawfB03Kzra1iBQQaY,1516
+videobox-0.4.0.dist-info/METADATA,sha256=j6wlKqbjl-NzBh347TMRF4vT4ncw7PjWxINinf8XBhY,4564
+videobox-0.4.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+videobox-0.4.0.dist-info/entry_points.txt,sha256=GPv6KmDW4EPh2rOmGkWZrd3lsDpiSfdRcPcBCj_pN2I,47
+videobox-0.4.0.dist-info/top_level.txt,sha256=UJgkypuloKHqMbBgBkqQ3uiyvscAqNZaLReqHXkB2V4,9
+videobox-0.4.0.dist-info/RECORD,,
