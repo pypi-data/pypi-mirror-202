@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: colorez
+Version: 1.0.0
+Summary: Simple addition of color to the builtin print and input functions
+Author: CodingYuno
+Project-URL: Source Code, https://github.com/CodingYuno/colorez/
+Project-URL: Issue Tracker, https://github.com/CodingYuno/colorez/issues/
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# colorez
+
+Simple addition of color to the builtin print and input functions
+
+## Installation
+
+Simply run `pip install colorez`. The PyPI package is at https://pypi.org/project/colorez/
+
+## Example Usage
+
+```python
+from colorez import color_print, Color, color_input
+
+color_print("This is red", color="red")
+color_print("This is gold", color=178, end="\t")
+color_print("This is pink", color="#ed0ecc")
+
+print(Color("hi", 23, ["1", "2"], color="blue"), Color(0, 0, 255, color="blue"))
+print("No color", Color(1, 2, 3, color="green"), "\t", Color("hello", color="orange"))
+
+color_input(">", color="yellow")
+```
+
+![](https://github.com/CodingYuno/colorez/blob/main/example.png)
