@@ -1,0 +1,9 @@
+README.md
+setup.py
+main/__init__.py
+main/main.py
+uname_sridhar.egg-info/PKG-INFO
+uname_sridhar.egg-info/SOURCES.txt
+uname_sridhar.egg-info/dependency_links.txt
+uname_sridhar.egg-info/entry_points.txt
+uname_sridhar.egg-info/top_level.txt
