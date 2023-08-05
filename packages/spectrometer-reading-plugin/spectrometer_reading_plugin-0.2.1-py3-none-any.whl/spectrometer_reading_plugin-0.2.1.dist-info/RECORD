@@ -1,0 +1,10 @@
+spectrometer_reading_plugin/__init__.py,sha256=OsVSLH82gN9agzStbFXdjTUK6DhMHe_dyUX_uNaKrmQ,5729
+spectrometer_reading_plugin/additional_config.ini,sha256=zusPtu2mxGGmHGCmKIuuP8dgiNDhrTDGWZ_CRUTTGPs,162
+spectrometer_reading_plugin/additional_sql.sql,sha256=xwPkGPUj1YffR7zgiLGgJCu13LOX_nVX9LOrFQIV7VI,257
+spectrometer_reading_plugin/ui/contrib/jobs/spectrometer_reading.yaml,sha256=Q6MTjv1UV8WWfiDTDQNhV_mN0W6dXwJqrr5drHqWEP8,231
+spectrometer_reading_plugin-0.2.1.dist-info/LICENSE.txt,sha256=Kjuo1wEzXBxtIQm3yLYJLIRO6hgWkMopAOs91wiCZqg,1049
+spectrometer_reading_plugin-0.2.1.dist-info/METADATA,sha256=YEFAt2BeznWZbzmch-vv-OYqS1V1FNlLOBHKxm7hl1w,1854
+spectrometer_reading_plugin-0.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+spectrometer_reading_plugin-0.2.1.dist-info/entry_points.txt,sha256=ujD4vhE60iMCiKQZE_3OcriPnJhN--ah4KsdplJa3uo,79
+spectrometer_reading_plugin-0.2.1.dist-info/top_level.txt,sha256=ShLg-ZsLHo8U1XlEMIrHN6uYQgpeu-LBnGCt8aEWz1A,28
+spectrometer_reading_plugin-0.2.1.dist-info/RECORD,,
