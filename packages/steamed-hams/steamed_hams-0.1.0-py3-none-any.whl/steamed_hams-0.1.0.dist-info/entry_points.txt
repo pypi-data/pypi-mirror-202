@@ -1,0 +1,2 @@
+[console_scripts]
+steamed_hams = steamed_hams.__main__:main
