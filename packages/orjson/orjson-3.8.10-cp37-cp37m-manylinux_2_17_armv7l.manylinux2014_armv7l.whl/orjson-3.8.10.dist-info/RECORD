@@ -1,0 +1,9 @@
+orjson-3.8.10.dist-info/METADATA,sha256=ZHz8DUXQ68r1qrdt9lUg-HJi_LULagRBhdVwtqsc-kA,47794
+orjson-3.8.10.dist-info/WHEEL,sha256=F06Nu1k5k8-lV4QRBcQ-hhhDl-17H8mA5WucycDEMYs,135
+orjson-3.8.10.dist-info/license_files/LICENSE-APACHE,sha256=pg7qgXUUUxZo1-AHZXMUSf4U0FnTJJ4LyTs23kX3WfI,10847
+orjson-3.8.10.dist-info/license_files/LICENSE-MIT,sha256=I_GOA9xJ35FiL-KnYXZJdATkbO2KcV2dK2enRGVxzKM,1023
+orjson/__init__.py,sha256=tCbkep6qi38jzeOZsLJ_AxoiM6S70uPsrPVhE-igPzs,573
+orjson/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+orjson/__init__.pyi,sha256=rhNXkwzq3nk0AAktlvBftVQfvGz_-GgQLqi0Z3YF5yY,705
+orjson/orjson.cpython-37m-arm-linux-gnueabihf.so,sha256=_5fFQU2wE-Q8_POUUfH8yn_bDhgXGn4oVaeqldL2AL8,230752
+orjson-3.8.10.dist-info/RECORD,,
