@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: porteratzolibs
+Version: 0.1.1
+Summary: Collection of utils
+Home-page: https://github.com/porteratzo/porteratzolibs
+Author: Omar Montoya
+Author-email: omar.alfonso.montoya@hotmail.com
+License: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE

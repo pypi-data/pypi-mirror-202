@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+porteratzolibs.egg-info/PKG-INFO
+porteratzolibs.egg-info/SOURCES.txt
+porteratzolibs.egg-info/dependency_links.txt
+porteratzolibs.egg-info/requires.txt
+porteratzolibs.egg-info/top_level.txt
