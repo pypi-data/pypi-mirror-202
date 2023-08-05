@@ -1,0 +1,11 @@
+katalytic-files>=0.3.0
+katalytic-pkg>=0.2.0
+numpy>=1.14
+opencv-python>=4.0.0
+pillow>=8.4.0
+
+[dev]
+pytest
+pytest-cov
+pytest-randomly
+pytest-repeat

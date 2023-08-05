@@ -1,0 +1,45 @@
+[project]
+name = "katalytic-images"
+version = "0.1.0"
+description = "This plugin adds utilities for working with images and videos to the katalytic namespace"
+
+license = {file = "LICENSE.txt"}
+readme = "README.md"
+
+requires-python = ">=3.6"
+dependencies = [
+    "katalytic-files>=0.3.0",
+    "katalytic-pkg>=0.2.0",
+    "numpy>=1.14",
+    "opencv-python>=4.0.0",
+    "pillow>=8.4.0",
+]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Image Processing",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Utilities",
+]
+authors = [{name="Valentin Neagu", email="vali19th@protonmail.com"}]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "pytest-randomly",
+    "pytest-repeat",
+]
+
+[project.urls]
+homepage = "https://gitlab.com/katalytic/katalytic-images.git"
+repository = "https://gitlab.com/katalytic/katalytic-images.git"
+
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"]
