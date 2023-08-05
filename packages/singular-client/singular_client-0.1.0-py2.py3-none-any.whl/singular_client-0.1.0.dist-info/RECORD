@@ -1,0 +1,17 @@
+singular_client/__init__.py,sha256=bGghNQU1R6erPSt3IzNwTTpPbTgxuWEK01tXRM6Bz1s,126
+singular_client/_utils.py,sha256=jspKjzMngDXVhuHcSu4XIkMzkaQyNW-MRVuwHvgO6cU,946
+singular_client/api.py,sha256=BRPmE74BrDaJ3I1Pus6t1AXazqP_oOZvw2mV8fTto0A,3738
+singular_client/arguments.py,sha256=ZEam_QRk_8JxZRnX3wVwG5IIBtoE49Lt8TynibZB99Y,6543
+singular_client/documents.py,sha256=ERGAcCe29w9hBalcHJ72YEkax0FrtsNGhMICRiW0r4s,4852
+singular_client/processing.py,sha256=PurNfxEGM7bcyFnZP0RhZOFJfEWdDhL-Qoe-nTeQrko,330
+singular_client/endpoints/__init__.py,sha256=tVUjTCKSUl7CIXfM7Fv5pgM2TK-eVnE8IdNRAgKlxao,256
+singular_client/endpoints/_bases.py,sha256=n3psPfBxb4j98ZYoWow7bYL-NF_tlOQxN_3YiUYJY94,4618
+singular_client/endpoints/governance.py,sha256=J1mr1wvjEehQICmDmRzvc2qZMVt9HcZImNIkiI9lhY0,482
+singular_client/endpoints/links.py,sha256=Cy0p_tRqbIANequXY1BL_sDsOYB0R__waU98ewZzrOA,5036
+singular_client/endpoints/links_legacy.py,sha256=x-xT9qjcPbH7LcgckhrPZFgBAWrMhc1niBSnDZdvA80,5924
+singular_client/endpoints/monetization.py,sha256=binDT9plUQHmAlNwMvMQqZ975lL952vTeWpTOcGBiww,1401
+singular_client/endpoints/reporting.py,sha256=te-9WieEts7texwijnmr2swW7aIypurlKYLK5psxqGk,8352
+singular_client/endpoints/skan.py,sha256=QQFq_n-WFfVK9FbnhWJbP_WCK-Mcmv0mDlB_IR0QMfI,3202
+singular_client-0.1.0.dist-info/METADATA,sha256=FLa0PEmbLZJUIYbTrBX0qRNXSL5w4sI4O9Kikg-a1k4,494
+singular_client-0.1.0.dist-info/WHEEL,sha256=3jNpu59JHbFdu1Yeq_fYJQsnHZ21dBRf7JjglSW4K9A,105
+singular_client-0.1.0.dist-info/RECORD,,
