@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: wonder-sdk
+Version: 0.1.0
+Summary: Python SDK for Firebase and Google Cloud Platform services
+Author: basri
+Author-email: basri@wonder.co
+Requires-Dist: firebase-admin (==6.0.1google-cloud-pubsub==2.13.11)
+Requires-Dist: google-cloud-storage (==2.7.0)
+Requires-Dist: google-cloud-translate (==3.8.4)
+
