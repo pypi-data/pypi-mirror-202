@@ -1,0 +1,10 @@
+proxy6api/__init__.py,sha256=ZwYSRIS2mXHruWmk-aUyMfaraZbk_bgCnGWQ8SnIKkc,3252
+proxy6api/client.py,sha256=Exce4D5OildPf5WA2ettuxb2HeTcUzy9XUfe77iK6RI,15743
+proxy6api/settings/__init__.py,sha256=gG-MPDHObeLNj2gFrNwet-cB8hy3kWvgVhTV0C4hIMk,724
+proxy6api/settings/bases.py,sha256=X0qt6IMkfsMGTk2QPbsB7r3H0E_ArTWaBtX8Xk1btwQ,3885
+proxy6api/settings/errors.py,sha256=YZgpoVVfs8pNg2WmioODfUGYB47BbHTzv6OFOzGPUQE,2875
+proxy6api/settings/typing_methods.py,sha256=zvdRsWaBMbLXekU5yfPCDm2Js8KRFnEk2wrNbhNh4xg,1971
+proxy6api-1.0.0.dist-info/LICENSE,sha256=maeKX-2KZOLVY-emzeFn77zg7be9YZfaFgSPYdJGGJI,1076
+proxy6api-1.0.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+proxy6api-1.0.0.dist-info/METADATA,sha256=4JIeiAOt_jT3lAP1c2e4srfJWm9ROwlV4t5Y6KZqlxU,2596
+proxy6api-1.0.0.dist-info/RECORD,,
