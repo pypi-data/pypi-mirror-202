@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyomo-latex
+Version: 1.0.0
+Summary: Generates latex equations from pyomo equations
+Home-page: https://github.com/cacodcar/pyomo_latex
+Author: Rahul Kakodkar
+Author-email: cacodcar@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: inspect
+
+# pyomo_latex
+Gives latex strings for pyomo constraints 
+Need to provide an alias dictionary for variables.
