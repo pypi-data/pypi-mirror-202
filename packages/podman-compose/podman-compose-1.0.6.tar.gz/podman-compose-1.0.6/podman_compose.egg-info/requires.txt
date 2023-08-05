@@ -1,0 +1,8 @@
+pyyaml
+python-dotenv
+
+[devel]
+flake8
+black
+pylint
+pre-commit
