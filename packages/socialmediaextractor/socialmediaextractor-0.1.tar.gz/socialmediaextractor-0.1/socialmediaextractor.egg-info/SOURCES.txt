@@ -1,0 +1,6 @@
+setup.py
+socialmediaextractor.egg-info/PKG-INFO
+socialmediaextractor.egg-info/SOURCES.txt
+socialmediaextractor.egg-info/dependency_links.txt
+socialmediaextractor.egg-info/requires.txt
+socialmediaextractor.egg-info/top_level.txt
