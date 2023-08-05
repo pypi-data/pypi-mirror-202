@@ -1,0 +1,10 @@
+{% load htmx_viewsets %}
+<html>
+  <head>
+    {% htmx_viewsets_static_all %}
+  </head>
+  <body>
+    {% block main %}{% endblock main %}
+    {% htmx_viewsets_fixed_content %}
+  </body>
+</html>
