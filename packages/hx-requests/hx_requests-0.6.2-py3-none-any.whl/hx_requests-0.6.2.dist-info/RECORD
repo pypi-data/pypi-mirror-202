@@ -1,0 +1,15 @@
+LICENSE,sha256=yZTiuDJZDZnoCBCqXWo7J7Pix_rVQLX2-0I01i5_SVw,1073
+hx_requests/.gitignore,sha256=ebb4BU-O9ennjBgXS_V8rymxFBAWa5Jo1pI-h1IOuI8,1799
+hx_requests/__init__.py,sha256=jFlbxEJFS0G44LE-yXXVSwXACA1J_NyYDk5E20_2zpc,22
+hx_requests/apps.py,sha256=zKghLYRglztIg6y3bYw2qrFVWpaKYLJ79TFJD-K54dQ,153
+hx_requests/hx_messages.py,sha256=5upZyA_kDqKhpvYH6zqNAkkF_4uZHUUB4afJfNWXnVk,1336
+hx_requests/hx_requests.py,sha256=2BxwDazJZqwPZxAM5qmTp2JtyeeA3nPX6SOa-80UK3E,10760
+hx_requests/templates/hx_requests/modal.html,sha256=LaFQdMesbNWTl8cgXLEdVHhdwT-mNX7o0d1x2TcMMPU,1156
+hx_requests/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hx_requests/templatetags/hx_tags.py,sha256=zbjfYCHib59SrkBJlhNfxy4Ebs8CRcgZZxNLhQgH-eU,620
+hx_requests/utils.py,sha256=wc0VaRybjDaKSsDIojCdunqqXwUYshf9IQ7wn6WJXys,1374
+hx_requests/views.py,sha256=UOE8VNOK_aC71z0HdCAZoXdGSYUQZ6nPuVIgwR_S9_8,2985
+hx_requests-0.6.2.dist-info/LICENSE,sha256=yZTiuDJZDZnoCBCqXWo7J7Pix_rVQLX2-0I01i5_SVw,1073
+hx_requests-0.6.2.dist-info/METADATA,sha256=qoqva0rGt7awL4-r54VcopsknMZxTiDETqS-JqPKdaI,7500
+hx_requests-0.6.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+hx_requests-0.6.2.dist-info/RECORD,,
