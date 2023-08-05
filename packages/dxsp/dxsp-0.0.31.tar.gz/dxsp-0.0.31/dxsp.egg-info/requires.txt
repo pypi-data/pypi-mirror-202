@@ -1,0 +1,4 @@
+web3
+pycoingecko
+asyncio
+many_abis
