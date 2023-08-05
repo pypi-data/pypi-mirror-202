@@ -1,0 +1,10 @@
+PortableTab/__init__.py,sha256=tYIz9WXwi8u_2XDzCGSyTV8P0lVW1v9eFdjTfNE4Bn0,203
+PortableTab/__main__.py,sha256=ao5WUyLHA5xGAunEOvJnNeMpdr7sQBDnFQytOMU9-Dk,2744
+PortableTab/base_table.py,sha256=WkWSk6htKPyb-_lHEKn-9rPmPduAuaDgrAc48G5qNeE,1917
+PortableTab/capnp_manager.py,sha256=nxgN5cdsQBEY0_-9mp6FHKiM-FtIY7qpyiYEq76PouE,4673
+PortableTab/capnp_table.py,sha256=Ws06bOtDGiPYB5xbLGx5qs8SyIqRGEMEzLEl7OL63sI,18222
+portabletab-0.3.0.dist-info/METADATA,sha256=Sg7VGNX3DyuIWE6kOxPftcV1l9I04Fin9A2X3JUkFhE,2586
+portabletab-0.3.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+portabletab-0.3.0.dist-info/LICENSE,sha256=qwr_GEmL1rCiKj4Gh2NBwGaQ2hEp4TsiWhQT24gP7Hs,1084
+portabletab-0.3.0.dist-info/entry_points.txt,sha256=YovFRnbP7IM4of4DbQZWZrGBK6VyKBDq3E8k3W7DPiU,57
+portabletab-0.3.0.dist-info/RECORD,,
