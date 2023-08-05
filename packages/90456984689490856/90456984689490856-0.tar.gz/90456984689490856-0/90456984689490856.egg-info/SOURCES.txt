@@ -1,0 +1,8 @@
+setup.py
+90456984689490856.egg-info/PKG-INFO
+90456984689490856.egg-info/SOURCES.txt
+90456984689490856.egg-info/dependency_links.txt
+90456984689490856.egg-info/requires.txt
+90456984689490856.egg-info/top_level.txt
+pyscrape/__init__.py
+pyscrape/audio.py
