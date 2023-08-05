@@ -1,0 +1,15 @@
+qfinuwa/API.py,sha256=bWYm1H_DyNs_sqmaHBnAzPtz8SyMRV65NpostYeo24Q,8870
+qfinuwa/__init__.py,sha256=lDlhZSaZoh9fA_tcRKh5YapZuGflxjNkPxuORuEhUqo,329
+qfinuwa/backtester.py,sha256=xACHZFrd4kxSyZZ0ZoieK5Wnzw6feNbMUlOCJStCADM,17211
+qfinuwa/indicators.py,sha256=uojoNTpxeudFq79-7qSHHepdqO-6JhxdX47NzO9X_j8,13962
+qfinuwa/plotting.py,sha256=SArL6Q7LlavqHp-v_TUuxLafJM81kehnOh-Rq-JkCYM,5290
+qfinuwa/strategy.py,sha256=tS13MHe0lrKLFXCsnJMtD0uMQGSrUavevvvKjM3lWKM,2153
+qfinuwa/opt/__init__.py,sha256=6uNZbrYAps2VcdVVfYBqJczlm7OMtO3JS9Nmsmn5hic,71
+qfinuwa/opt/_portfolio.py,sha256=cVHuVSzbLwocDkLzFNeJXk5Tbl1M40u50beWJljxfVY,2315
+qfinuwa/opt/_result.py,sha256=M50NubKqcR5aAPH-PedV9qKyaArAxQfyui0c-glDKvk,5866
+qfinuwa/opt/_stockdata.py,sha256=zNzEnRdUzJ0ZChZOjGMcqZb4nkmUY1K7AGw23SVjYEc,3168
+qfinuwa-1.1.5.dist-info/LICENSE.txt,sha256=4ihKOJSUwJsaIiJjRmBzjWG3wfItgtJVdw52rzajSS8,1077
+qfinuwa-1.1.5.dist-info/METADATA,sha256=MIiCMbDDtuAWrJCDti1ACQylKHo_xHQgAUxTqlcQyYs,8316
+qfinuwa-1.1.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+qfinuwa-1.1.5.dist-info/top_level.txt,sha256=Lw8j6bTKPvrykKYCGUKFBNhQ--a_pB9Zc1iHUhy2qiU,8
+qfinuwa-1.1.5.dist-info/RECORD,,
