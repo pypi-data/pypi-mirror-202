@@ -1,0 +1,8 @@
+recursive-include src *
+include demo_kplib/CMakeLists.txt
+recursive-include demo_kplib/src *
+recursive-include demo_kplib/lib *
+recursive-include demo_kplib/include *
+recursive-exclude demo_kplib/examples *
+recursive-exclude tests *
+recursive-exclude doc *
