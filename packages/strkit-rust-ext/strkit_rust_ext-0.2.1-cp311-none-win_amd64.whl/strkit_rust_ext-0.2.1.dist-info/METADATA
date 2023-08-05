@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: strkit_rust_ext
+Version: 0.2.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# STRkit Rust extension
+
+Extension for STRKit with components written in Rust, for improved performance.
+
+&copy; the contributors of the STRkit Rust extension 2023. Licensed under
+the terms of the [GNU General Public License, v3.0](./LICENSE).
+
+
+## Testing locally
+
+```bash
+pip install maturin pytest
+maturin develop
+pytest
+```
+
