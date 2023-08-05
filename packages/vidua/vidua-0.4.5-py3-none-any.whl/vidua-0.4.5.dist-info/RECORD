@@ -1,0 +1,14 @@
+vidua/__init__.py,sha256=pgTycxLx7p5PTDmQ7GmHtW6KOLDc0LdtFvTm5G1YViM,86
+vidua/__main__.py,sha256=blLWQhwcfGB5EPw6ljA5feNDE8ggcQJkbk2ax-VlR1c,73
+vidua/bps.py,sha256=DXIrsUBWuYXJFvnWt-fjgSScw0N-zesvIPrrdqGkpr0,9610
+vidua/ips.py,sha256=HyNaJvbuIt32Mee8JrvUskg-gq4-698LC1w8EVrff84,2730
+vidua/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vidua/scripts.py,sha256=0W3BM6M9bANCVm46PxrzzqaS6YLTJpXOXty0gvHAQes,2143
+vidua/util.py,sha256=lum0IHBtO4mGzkTmzbNhs8-XDTrmuyJ5irrUh7tAqms,822
+vidua-0.4.5.dist-info/COPYING,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+vidua-0.4.5.dist-info/METADATA,sha256=bKiLSxPwDLOvILP26Hu9ng-xHiUQimXHiJlgQWsmNXk,2085
+vidua-0.4.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+vidua-0.4.5.dist-info/entry_points.txt,sha256=QOV1UeECcBVhTAkZLLup5jBop-3_V31sFfV3qut0vHo,45
+vidua-0.4.5.dist-info/top_level.txt,sha256=3caYunfIk6wCPUKONBS48P3P77upWE3D37LgmqSFJYY,6
+vidua-0.4.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+vidua-0.4.5.dist-info/RECORD,,
