@@ -1,0 +1,4 @@
+include ctrlchandler/requirements.txt
+include ctrlchandler/thirdparty.json
+include ctrlchandler/README.MD
+include ctrlchandler/LICENSE
