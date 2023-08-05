@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: horizonplot
+Version: 2.0.0
+Summary: Generates horizon plots.
+Home-page: https://github.com/kaspermunch/horizonplot
+Author: Kasper Munch
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
