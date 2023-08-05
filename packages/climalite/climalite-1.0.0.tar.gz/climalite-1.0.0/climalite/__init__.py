@@ -1,0 +1,1 @@
+from climalite.climalite import Weather
