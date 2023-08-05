@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-SDGPT
+Version: 0.0.7
+Home-page: https://github.com/thx114/SDGPT
+Author: F_thx
+Author-email: thx1140093097@gmail.com
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
