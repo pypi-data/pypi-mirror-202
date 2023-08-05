@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+phcmas.egg-info/PKG-INFO
+phcmas.egg-info/SOURCES.txt
+phcmas.egg-info/dependency_links.txt
+phcmas.egg-info/top_level.txt
+phcmas1_calculator/__init__.py
