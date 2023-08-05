@@ -1,0 +1,16 @@
+MANIFEST.in
+MusicApp.py
+setup.py
+PhanMemMMN.egg-info/PKG-INFO
+PhanMemMMN.egg-info/SOURCES.txt
+PhanMemMMN.egg-info/dependency_links.txt
+PhanMemMMN.egg-info/requires.txt
+PhanMemMMN.egg-info/top_level.txt
+img/low-volume.png
+img/next-button.png
+img/pause.png
+img/play-button1.png
+img/previous.png
+img/repeat-one.png
+img/repeat.png
+img/shuffle.png
