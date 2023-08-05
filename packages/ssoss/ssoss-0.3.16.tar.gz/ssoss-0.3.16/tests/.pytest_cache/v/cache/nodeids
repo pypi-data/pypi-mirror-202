@@ -1,0 +1,9 @@
+[
+  "test_static_road_object.py::TestDistanceToSB::test_eb_distance_to_sb",
+  "test_static_road_object.py::TestDistanceToSB::test_nb_distance_to_sb",
+  "test_static_road_object.py::TestDistanceToSB::test_sb_distance_to_sb",
+  "test_static_road_object.py::TestDistanceToSB::test_wb_distance_to_sb",
+  "test_static_road_object.py::TestGetIDNumMethod::test_get_id_num",
+  "test_static_road_object.py::TestGetIDNumMethod::test_get_id_num_result",
+  "test_static_road_object.py::TestGetIDNumMethod::test_get_id_num_type"
+]
