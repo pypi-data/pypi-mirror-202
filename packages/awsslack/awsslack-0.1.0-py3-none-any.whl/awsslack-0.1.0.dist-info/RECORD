@@ -1,0 +1,13 @@
+awsslack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsslack/__main__.py,sha256=5Pfi9V2qlK2uY-Rwz1JjguggbRreNej9fXWc9yD25tw,88
+awsslack/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsslack/commands/config.py,sha256=txKAkFQSj2n-24s0zLVO2TvYi3RPd4JKhU9yMJDqJ6k,6561
+awsslack/main.py,sha256=wgBN1xovU16yPUUBCuRxmRRtkuEyhBcTKbDBsj0YQO4,1243
+awsslack/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsslack/utils/code_build.py,sha256=79LGpA6d2-4GJbCF1yu0F1mT7pZ1zewXsy_1Rw1v9VE,5859
+awsslack/utils/code_deploy.py,sha256=-GU9Zyheo5BNCiuQTMlPsLUK2suGGPiyvbqFd6V4BEo,12550
+awsslack/utils/yaml.py,sha256=_tUEZzm_bE3UJ8jxLzXomzjwzWPs_9u69tK-HRSfhzc,848
+awsslack-0.1.0.dist-info/METADATA,sha256=2zU5DolRYxUjxfo9vLBMgs4cAAOZEXVf01dtIv3NLiY,1712
+awsslack-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+awsslack-0.1.0.dist-info/entry_points.txt,sha256=8i17OIAu774CgC3cW-J0uN3xx2ylfCF3rhPBIy1yN3c,47
+awsslack-0.1.0.dist-info/RECORD,,
