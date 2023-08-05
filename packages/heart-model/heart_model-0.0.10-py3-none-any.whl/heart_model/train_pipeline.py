@@ -1,0 +1,87 @@
+import logging
+import sys
+import typing as t
+from pathlib import Path
+
+from heart_model.config.core import LOG_DIR, config
+from heart_model.pipeline import heart_pipe, k_neighbors_step, logit_step, svc_step, tree_step
+from heart_model.processing.data_manager import load_dataset, save_pipeline
+from sklearn.metrics import accuracy_score, roc_auc_score
+from sklearn.model_selection import train_test_split
+
+from heart_model import __version__ as _version
+
+
+def run_training(model_type: int) -> dict:
+    if model_type not in range(0, 4):
+        print("argument must be in range [0, 3]")
+        results: t.Dict[str, t.Any] = {"model_type": "no model", "msg": "argument must be in range [0, 3]", "version": _version}
+        return results
+    """Train the model."""
+    # Update logs
+    log_path = Path(f"{LOG_DIR}/log_{_version}.log")
+    if Path.exists(log_path):
+        log_path.unlink()
+    logging.basicConfig(filename=log_path, level=logging.DEBUG)
+
+    # read training data
+    data = load_dataset(file_name=config.app_config.training_data_file)
+
+    data.rename(columns=config.model_config.variables_to_rename, inplace=True)
+    data.drop(labels=config.model_config.variables_to_drop, axis=1, inplace=True)
+
+    # divide train and test
+    X_train, X_test, y_train, y_test = train_test_split(
+        data[config.model_config.features],  # predictors
+        data[config.model_config.target].map({"yes": 1, "No": 0}),
+        test_size=config.model_config.test_size,
+        # we are setting the random seed here
+        # for reproducibility
+        random_state=config.model_config.random_state,
+    )
+
+    steps = [logit_step, k_neighbors_step, svc_step, tree_step]
+    names = ["Logistic Regression", "K Neighbors", "SVC", "Tree"]
+    # fit model
+    temp_pipe = heart_pipe.copy()
+    temp_pipe.steps.append(steps[model_type])
+    results: t.Dict[str, t.Any] = {"model_type": names[model_type], "msg": "no msg", "version": _version}
+    temp_pipe.fit(X_train, y_train)
+
+    # make predictions for train set
+    class_ = temp_pipe.predict(X_train)
+    pred = temp_pipe.predict_proba(X_train)[:, 1]
+
+    # determine train accuracy and roc-auc
+    train_accuracy = accuracy_score(y_train, class_)
+    train_roc_auc = roc_auc_score(y_train, pred)
+
+    print(f"train accuracy: {train_accuracy}")
+    print(f"train roc-auc: {train_roc_auc}")
+    print()
+
+    logging.info(f"train accuracy: {train_accuracy}")
+    logging.info(f"train roc-auc: {train_roc_auc}")
+
+    # make predictions for test set
+    class_ = temp_pipe.predict(X_test)
+    pred = temp_pipe.predict_proba(X_test)[:, 1]
+
+    # determine test accuracy and roc-auc
+    test_accuracy = accuracy_score(y_test, class_)
+    test_roc_auc = roc_auc_score(y_test, pred)
+
+    print(f"test accuracy: {test_accuracy}")
+    print(f"test roc-auc: {test_roc_auc}")
+    print()
+
+    logging.info(f"test accuracy: {test_accuracy}")
+    logging.info(f"test roc-auc: {test_roc_auc}")
+
+    # persist trained model
+    save_pipeline(pipeline_to_persist=temp_pipe)
+    return results
+
+
+if __name__ == "__main__":
+    run_training(int(sys.argv[1]))
