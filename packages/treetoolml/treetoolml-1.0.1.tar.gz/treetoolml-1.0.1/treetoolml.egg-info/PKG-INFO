@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: treetoolml
+Version: 1.0.1
+Summary: Python package for tree detection, segmentation and extraction of DBH
+Home-page: https://github.com/porteratzo/TreeToolML
+Author: Omar Montoya
+Author-email: omar.alfonso.montoya@hotmail.com
+License: MIT License
