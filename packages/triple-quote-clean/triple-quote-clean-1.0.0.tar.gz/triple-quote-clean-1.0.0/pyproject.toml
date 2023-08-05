@@ -1,0 +1,29 @@
+[build-system]
+requires      = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name            = "triple-quote-clean"
+description     = 'clean up triple quotes'
+readme          = "README.md"
+requires-python = ">=3.7"
+keywords        = []
+authors         = [
+  { name = "Chris", email = "chrisam1993@live.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+dependencies = []
+version = "1.0.0"
+
+[project.urls]
+"Homepage" = "https://github.com/Chr1sC0de/triple-quote-clean"
+"Bug Tracker" = "https://github.com/Chr1sC0de/triple-quote-clean/issues"

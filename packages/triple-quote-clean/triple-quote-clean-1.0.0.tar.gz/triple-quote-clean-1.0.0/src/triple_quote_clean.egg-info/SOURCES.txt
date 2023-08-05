@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/triple_quote_clean/__init__.py
+src/triple_quote_clean.egg-info/PKG-INFO
+src/triple_quote_clean.egg-info/SOURCES.txt
+src/triple_quote_clean.egg-info/dependency_links.txt
+src/triple_quote_clean.egg-info/top_level.txt
+tests/test_exponent.py
+tests/test_guide_character.py
+tests/test_query.py
+tests/test_rshift.py
+tests/test_tabs.py
