@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+TimeShow/__init__.py
+TimeShow/checkPythonVersion.py
+TimeShow/timeShow.py
+TimeShow.egg-info/PKG-INFO
+TimeShow.egg-info/SOURCES.txt
+TimeShow.egg-info/dependency_links.txt
+TimeShow.egg-info/requires.txt
+TimeShow.egg-info/top_level.txt
