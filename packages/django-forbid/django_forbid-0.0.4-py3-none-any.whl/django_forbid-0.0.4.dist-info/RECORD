@@ -1,0 +1,10 @@
+django_forbid/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+django_forbid/access.py,sha256=poZnTjRkgzbv1N_AoD1sKhJMq6KTEQ0Qp08ycHgOdSg,2873
+django_forbid/apps.py,sha256=c-Q5oTepcZUWhlz0uUhIsUP1RMEO0j7AW6ofJwJxhv4,94
+django_forbid/detect.py,sha256=sWg-uCCYNK0vtGBuTy-m5YcDBlE35GWJEhGRrI_bvfc,2301
+django_forbid/middleware.py,sha256=pkOZwNgIuRGthf3WW1WK30mMg-iRmHs_ubcnMbGnDpM,1493
+django_forbid-0.0.4.dist-info/LICENSE,sha256=QYf8kAs_zfwaYbq6Qj7yv6GEHXkohOQEarOmCr05xsI,1071
+django_forbid-0.0.4.dist-info/METADATA,sha256=40hK6tmvwULYm2v0N0I54_rRtSlw6IgA2LbaFiid7Hc,5120
+django_forbid-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+django_forbid-0.0.4.dist-info/top_level.txt,sha256=sIOnkrPwNeRsoaLa9YoLIoO5bu0jdwMknVu2J5waZlI,14
+django_forbid-0.0.4.dist-info/RECORD,,
