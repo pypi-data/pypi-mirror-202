@@ -1,0 +1,3 @@
+[console_scripts]
+tdms=tdms.main:main
+
