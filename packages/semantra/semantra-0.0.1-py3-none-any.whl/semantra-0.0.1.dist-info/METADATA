@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: semantra
+Version: 0.0.1
+Summary: A WIP semantic search CLI tool
+Home-page: https://github.com/freedmand/semantra
+Author: Dylan Freedman
+Author-email: freedmand@gmail.com
+Classifier: Development Status :: 1 - Planning
+License-File: LICENSE
+
