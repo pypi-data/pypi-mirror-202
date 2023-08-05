@@ -1,0 +1,2 @@
+[console_scripts]
+ccbk = circleblock.circleblock_cli:app
