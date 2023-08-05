@@ -1,0 +1,14 @@
+CONTRIBUTING.md
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+django-muid/__init__.py
+django-muid/fields.py
+django-muid/muid.py
+django-muid/validators.py
+django_muid.egg-info/PKG-INFO
+django_muid.egg-info/SOURCES.txt
+django_muid.egg-info/dependency_links.txt
+django_muid.egg-info/requires.txt
+django_muid.egg-info/top_level.txt
