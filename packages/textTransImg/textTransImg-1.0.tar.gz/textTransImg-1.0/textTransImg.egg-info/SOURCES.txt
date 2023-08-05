@@ -1,0 +1,8 @@
+README.md
+setup.py
+textTransImg/__init__.py
+textTransImg/add_num.py
+textTransImg.egg-info/PKG-INFO
+textTransImg.egg-info/SOURCES.txt
+textTransImg.egg-info/dependency_links.txt
+textTransImg.egg-info/top_level.txt
