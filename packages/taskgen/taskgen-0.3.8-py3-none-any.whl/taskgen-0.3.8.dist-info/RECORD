@@ -1,0 +1,14 @@
+taskgen/__init__.py,sha256=vlaPoBUOJV33FRSauneVkz3x6vPDmzsrYRo61W-6tis,2390
+taskgen/config.py,sha256=4nUS2O0r6BIuW-Ts571En04gy_lxD0_VbzYqaGtmV2Q,2128
+taskgen/converters.py,sha256=e-331tFjvlalhYDckChhh6twGC_bBusbqc51r70eNSU,16514
+taskgen/functions.py,sha256=kqqJKMz5OEeAkBYcxB0UboalHSXfyHSoRuTKlmAnx2U,14818
+taskgen/html.py,sha256=NKIXkqHwF3tXln1ZdJzN318k5OxxLsQ2xhgid13yDBY,10426
+taskgen/main.py,sha256=GGIUQc4Wb3nN4DPsyt5Rbp3Ta7dMy35LWBl9VF9Mh04,21693
+taskgen/moodle.py,sha256=5TClIix61IH5daITR0PBwVqA0bsCWzos4eEQN2Ic8OM,8654
+taskgen/stats.py,sha256=TCUrFirLvg3w9H-5EoxpRW6eiHmDxMSlKPKWrQaR6kQ,1633
+taskgen/tex.py,sha256=Bm4bulHDDaP9QHzEh-BNPE3iq4-8VJAvrd1IidlD4OQ,7072
+taskgen/variable_types.py,sha256=aBewoF_1nb_MYOHRgTIXkCbMtOpZvlp2YMkvs6RiEoM,323
+taskgen-0.3.8.dist-info/METADATA,sha256=XDBPOLEklpPIsZYgTwHi9SX0Fnpz9jToUmpZTLqEIpw,2632
+taskgen-0.3.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+taskgen-0.3.8.dist-info/top_level.txt,sha256=CJv-xSk3wwdo4ptGrAY8wwe1BaKnp3AJTfg9FOKnC24,8
+taskgen-0.3.8.dist-info/RECORD,,
