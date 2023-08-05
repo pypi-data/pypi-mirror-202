@@ -1,0 +1,15 @@
+chatgpt_gaming_framework/__init__.py,sha256=QbAbUMYrHQgkNK-eOUk1UVCOufetK8VzjEvKkNZVz5Y,156
+chatgpt_gaming_framework/memory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgpt_gaming_framework/memory/redismemory.py,sha256=Pr1W9QMnmZ5_u-aH6sL2q_5j00IHcdb_r8Q1-1J1Vxg,702
+chatgpt_gaming_framework/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgpt_gaming_framework/models/chatgptmodel.py,sha256=NbYbw2VM5kxLsW0-Ayzd9Dyb15DeFIR-4Z_iNityHw0,3516
+chatgpt_gaming_framework/storyteller/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgpt_gaming_framework/storyteller/storyteller.py,sha256=8iiDqGRZDw6vqxZp0xyefytDxtx1tJa2IkemWgAva_w,2493
+chatgpt_gaming_framework/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgpt_gaming_framework/types/types.py,sha256=lmSD5rm6khTSXtkz_G23yHgmPrm7jencQoJym57-ao0,194
+chatgpt_gaming_framework-0.1.0.dist-info/AUTHORS.rst,sha256=FsnSY-E4tdx3KvNjOGXMZ1768Ak7gy0_pWCUa5Hl3Es,91
+chatgpt_gaming_framework-0.1.0.dist-info/LICENSE,sha256=E6cUnBQoqtr5sUkSjmrJR1qg0hpuU2oBEiG3n2YGIQw,1075
+chatgpt_gaming_framework-0.1.0.dist-info/METADATA,sha256=OiXUGahXLb0Rbg2osIKRMSt25Q_41h33msm2XtxS_sU,948
+chatgpt_gaming_framework-0.1.0.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+chatgpt_gaming_framework-0.1.0.dist-info/top_level.txt,sha256=eKl-5D1JVL4KO7OcOhDkxWm5cnu7dtwNyUGIDdfOEuI,25
+chatgpt_gaming_framework-0.1.0.dist-info/RECORD,,

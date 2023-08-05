@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: chatgpt-gaming-framework
+Version: 0.1.0
+Summary: ChatGPT (in future other LLM) gaming framework
+Home-page: https://github.com/Razikus/chatgpt_gaming_framework
+Author: Adam Raźniewski
+Author-email: adam.razniewski@gmail.com
+License: MIT license
+Keywords: chatgpt_gaming_framework
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: pydantic (>=1.9.2)
+Requires-Dist: redis (>=4.3.4)
+Requires-Dist: openai (==0.27.2)
+
+# ChatGPT gaming framework
+
+Sources
+
+https://github.com/Razikus/chatgpt-gaming-framework
