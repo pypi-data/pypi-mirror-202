@@ -1,0 +1,2 @@
+[console_scripts]
+hakxcore = hakxcore.__main__:print
