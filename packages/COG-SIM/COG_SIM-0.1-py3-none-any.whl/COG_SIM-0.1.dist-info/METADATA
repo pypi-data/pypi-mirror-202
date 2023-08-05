@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: COG-SIM
+Version: 0.1
+Summary: cog lib
+Home-page: https://github.com/justin95214
+Author: duhyeuk
+Author-email: justin214@naver.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/justin95214
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
