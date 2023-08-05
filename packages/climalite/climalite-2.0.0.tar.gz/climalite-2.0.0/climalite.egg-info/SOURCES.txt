@@ -1,0 +1,8 @@
+setup.py
+climalite/__init__.py
+climalite/climalite.py
+climalite.egg-info/PKG-INFO
+climalite.egg-info/SOURCES.txt
+climalite.egg-info/dependency_links.txt
+climalite.egg-info/requires.txt
+climalite.egg-info/top_level.txt
