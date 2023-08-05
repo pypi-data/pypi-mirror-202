@@ -1,0 +1,53 @@
+{
+    "global_capsule_options": {
+        "tracker_person": {
+            "min_confidence": 0.8,
+            "max_detection_overlap": 1.0,
+            "min_detection_height": 0,
+            "max_cosine_distance": 0.2,
+            "nn_budget": 50,
+            "distance_metric": "cosine",
+            "sticky_detections": false
+        },
+        "detector_face_openvino": {
+            "threshold": 0.5
+        },
+        "tracker_vehicle_iou": {
+            "min_iou_for_iou_match": 0.5,
+            "min_track_length": 2,
+            "max_misses": 10
+        },
+        "demo_mobilenet_v2": {},
+        "detector_person_and_vehicle_fast": {
+            "threshold": 0.5,
+            "include_person_detections": true,
+            "include_vehicle_detections": true,
+            "include_bike_detections": true,
+            "include_animal_detections": true,
+            "min_detection_area": 0,
+            "max_detection_area": 99999999,
+            "scale_frame": false,
+            "scale_frame_max_side_length": 2000,
+            "name_all_vehicles_vehicle": false,
+            "max_detection_overlap": 1.0
+        },
+        "detector_person_vehicle_bike_openvino": {
+            "threshold": 0.5,
+            "include_person_detections": true,
+            "include_vehicle_detections": true,
+            "include_bike_detections": true,
+            "min_detection_area": 0,
+            "max_detection_area": 99999999,
+            "max_detection_overlap": 1.0
+        }
+    },
+    "global_capsule_active": {
+        "tracker_person": true,
+        "detector_face_openvino": true,
+        "tracker_vehicle_iou": true,
+        "demo_mobilenet_v2": true,
+        "detector_person_and_vehicle_fast": true,
+        "detector_person_vehicle_bike_openvino": true
+    },
+    "stream_settings": {}
+}

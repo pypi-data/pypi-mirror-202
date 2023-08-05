@@ -1,0 +1,28 @@
+en:
+  description: "Use Python API Apps to interact with brainframe server through
+  REST APIs. To see more options, run \"brainframe_apps {command} --help\"."
+  usage: >-
+    brainframe_apps <command> [<args>]
+
+    Commands:
+      add_stream
+      delete_stream
+      list_stream
+      load_settings
+      save_settings
+      start_analyzing
+      stop_analyzing
+      get_zone_statuses
+      process_image
+      capsule_control
+      identity_control
+      license_control
+
+    Examples:
+      brainframe_apps add_stream --server-url SERVER_URL --stream-url STREAM_URL
+      brainframe_apps add_stream --help
+      brainframe_apps start_analyzing
+ 
+  command-help: "The brainframe Python API App to run"
+  unknown-command: "Unknown command: {command}"
+  interrupted: "The operation was interrupted"
