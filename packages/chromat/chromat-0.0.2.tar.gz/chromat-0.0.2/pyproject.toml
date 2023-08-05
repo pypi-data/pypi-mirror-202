@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "chromat"
+version = "0.0.2"
+description = "color palettes! under heavy construction!"
+authors = ["hex benjamin <hex@hexbenjam.in>"]
+readme = "README.md"
+exclude = [
+    "backup/*",
+    "img/*",
+    "tests/*",
+    "__pycache__/*",
+    "*.dist-info/*",
+    "*.egg-info/*",
+    "*.pyc",
+    ".flake8",
+    "testing.py",
+    "chromat/app.py",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+textual = {extras = ["dev"], version = "^0.18.0"}
+colour = "^0.1.5"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+black = "^23.3.0"
+mypy = "^1.1.1"
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
