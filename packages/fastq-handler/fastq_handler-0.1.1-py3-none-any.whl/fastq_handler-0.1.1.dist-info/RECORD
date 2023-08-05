@@ -1,0 +1,10 @@
+fastq_handler/__init__.py,sha256=KvA6_2VITOncWBH8wPOvbIknCcqdIQHrMZQUz8m89XE,214
+fastq_handler/__main__.py,sha256=4bnOuYfDY-tmBKv1n4rizBmyPPvK_CtFQZwEe37jUcU,1411
+fastq_handler/fastq_handler.py,sha256=M7jQh6eUt9KP-S7ZxDaWoKKeczqbgNqZVl_WZG1IwXI,14948
+fastq_handler/records.py,sha256=qmrA8JUrh0GH0An8NX2dNCcs_GwZOI93Y8HSHDpFvyg,7660
+fastq_handler/utilities.py,sha256=jLO86AHnROXJ0Uuq50sK70tQs6Iq01t2TTSMVAThLuI,3984
+fastq_handler-0.1.1.dist-info/entry_points.txt,sha256=xsusEKFYUsxOIeZOdfp0y58wvFdREypaaX7iu6bNNNM,61
+fastq_handler-0.1.1.dist-info/LICENSE,sha256=_5zrkHa3LDEv_m48zCxBpzgdOoy9GsXm6G3SqQIQ8xQ,31904
+fastq_handler-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fastq_handler-0.1.1.dist-info/METADATA,sha256=HUjmAYrpOjagQyXH-0NFRNALNTaCq6WTIAI9WHkx4MU,2428
+fastq_handler-0.1.1.dist-info/RECORD,,
