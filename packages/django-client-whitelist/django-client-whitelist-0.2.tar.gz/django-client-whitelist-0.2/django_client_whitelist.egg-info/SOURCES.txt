@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+client_whitelist/__init__.py
+client_whitelist/apps.py
+client_whitelist/middleware.py
+django_client_whitelist.egg-info/PKG-INFO
+django_client_whitelist.egg-info/SOURCES.txt
+django_client_whitelist.egg-info/dependency_links.txt
+django_client_whitelist.egg-info/requires.txt
+django_client_whitelist.egg-info/top_level.txt
