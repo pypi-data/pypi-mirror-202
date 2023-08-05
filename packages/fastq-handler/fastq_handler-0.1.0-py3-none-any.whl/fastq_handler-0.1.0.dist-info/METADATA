@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fastq-handler
+Version: 0.1.0
+Summary: A python module to process minion fastq files by concatenating reads as they are generated
+Author: SantosJGND
+Author-email: dourado.jns@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dataclasses (==0.6)
+Requires-Dist: natsort (==8.3.1)
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: pip (==21.2.3)
+Requires-Dist: setuptools (==57.4.0)
+Requires-Dist: xopen (==1.7.0)
