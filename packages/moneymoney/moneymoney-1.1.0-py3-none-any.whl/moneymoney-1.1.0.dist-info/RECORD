@@ -1,0 +1,10 @@
+moneymoney/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moneymoney/currency_codes.py,sha256=gGeHCeH5iccznEF6QO-VO2ZqyKSW0V1P-2h2q_r7prY,424
+moneymoney/defaults.py,sha256=7OfJLAGhb4OvbcEwMwFOfcpBZGogd_MZo2yXs3VU-SA,235
+moneymoney/money.py,sha256=Unx39vz56x9pGu97t1361QynYfitAeDFhAx4DIyWOnU,4573
+moneymoney/presets.py,sha256=egotMGOldGW74QgMcSeIETsJdQLWK2G-5w3Op1j2mFU,501
+moneymoney-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+moneymoney-1.1.0.dist-info/METADATA,sha256=DZTFSOqKAWy0JNM1JheenCrRe241sNRJlFilgp8INPs,2840
+moneymoney-1.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+moneymoney-1.1.0.dist-info/top_level.txt,sha256=cNJkVter9sITVeEjGNhhVyZ0wvkdtB4wmDXvBNvz0zs,11
+moneymoney-1.1.0.dist-info/RECORD,,
