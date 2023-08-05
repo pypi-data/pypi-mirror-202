@@ -1,0 +1,9 @@
+kiwigrad/__init__.py,sha256=VPiXT5DBJD9xW-7ZJEcowzyzdlPgO7Mu9OJ1ZklPeU8,193
+kiwigrad/engine.py,sha256=4weq8gt5ClKrlITeGa2-A-iPDI6n9xdXkg-EGxjLlQE,4222
+kiwigrad/graph.py,sha256=stO8h7I_J5w9cU7Lv_JNjbZ20Yhf0DRDZoXM6cQz9W4,970
+kiwigrad/nn.py,sha256=ULI-hCsjzCEk4WrPJFIerzawyZeIle73efV7Gx-lCcs,3963
+kiwigrad-0.16.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+kiwigrad-0.16.dist-info/METADATA,sha256=E0GvGdJ2SnPXb2It-zR8FXWKpn9XjulCZncuNxfk710,1957
+kiwigrad-0.16.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+kiwigrad-0.16.dist-info/top_level.txt,sha256=n7ZyF99SgpHFBdsc3h83DgEmzdTCgDCkFbYjbfxkwU8,9
+kiwigrad-0.16.dist-info/RECORD,,
