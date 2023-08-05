@@ -1,0 +1,145 @@
+Metadata-Version: 2.1
+Name: django-niceadmin-ds
+Version: 0.0.2
+Summary: niceadmin_pro porting for django
+Home-page: https://www.demiansoft.com
+Author: hyungjin kim
+Author-email: hj3415@gmail.com
+Project-URL: Bug Tracker, https://pypi.org/project/util-demian/
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django (>=4.2.0)
+Requires-Dist: util-demian (>=0.0.4)
+Requires-Dist: django-compressor (>=4.3.1)
+Requires-Dist: django-libsass (>=0.9)
+
+# django-niceadmin_ds
+
+django-niceadmin_ds 는 niceadmin-pro v2.4.0을 장고에 맞게 포팅한 장고앱이다.
+
+
+## 프로젝트에 설치하기
+niceadmin은 틀을 제공하는 앱이며 각 메뉴에 맞는 앱을 설치하여 추가해야한다. 여기서는 mytesterapp이라고 가정한다.
+
+1. settings.py에 다음 설정을 추가한다.
+```python
+import os
+INSTALLED_APPS = [
+    ...
+    'niceadmin',
+    'mytesterapp',
+    ...
+]
+...
+# static 파일을 _static 폴더에 저장하도록 설정
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, '_static/'),
+]
+```
+
+2. 프로젝트의 urls.py에 다음을 추가한다.
+```python
+from django.urls import path, include
+
+urlpatterns = [
+    ...
+    path('mytesterapp/', include('mytesterapp.urls')),
+    # niceadmin이 제일 밑이어야 한다.
+    path('', include('niceadmin.urls')),
+]
+```
+
+3. 데이터 베이스를 생성한다.
+```commandline
+    python manage.py makemigrations niceadmin mytesterapp
+    python manage.py migrate
+    python manage.py createsuperuser
+```
+
+4. 프로젝트의 구조를 생성한다.
+```text
+_data 폴더를 생성하고 contents.py내에 데이터를 형식에 맞게 입력한다.
+_static 폴더를 생성하고 각종 이미지 등을 형식에 맞게 저장한다.
+```
+
+***
+
+### 개별앱에 공통으로 맞춰야 할 것 - ex) mytesterapp에서
+각 앱에서는 niceadmin의 example을 참고하여 css 태그를 사용한다.
+1. contents.py의 sidebar 항목을 앱의 이름과 템플릿 파일에 맞춘다.
+```python
+"sidebar_small": {
+    "타이틀": [
+        ("서브타이틀", "링크(mytesterapp:pages)"),
+    ]
+},
+"sidebar_big": {
+    "타이틀": [
+        ('서브타이틀', "링크(mytesterapp:pages)", '아이콘(bi-person)'),
+        ('서브타이틀', "링크(mytesterapp:pages)", '아이콘(bi-envelope)'),
+    ],
+},
+```
+
+2. 앱의 urls.py의 구조를 설정한다.
+```python
+app_name = 'mytesterapp'
+
+urlpatterns = [
+    path(f'pages/', views.pages, name='pages'),
+]
+```
+
+3. 앱의 views.py의 구조를 설정한다.
+```python
+def pages(request):
+    c = contents.context
+    c['breadcrumb'] = {
+        "title": apps.get_app_config('mytesterapp').verbose_name,
+        "subtitle": "subtitle",
+    }
+    return render(request, f'mytesterapp/subtitle.html', c)
+```
+
+* contents.py의 예시
+```python
+context = {}
+
+base = {
+    # static에 logo.png 파일이 있어야 True 가능.
+    "use_logo": True,
+
+    "seo": {
+        "company_name": "StockAnalyser",
+        "url": "",
+        "small_title": "주식분석테스트",
+        "desc": "",
+        "keywords": ""
+    },
+
+    "show_examples": True,
+    "use_profile": True,
+}
+
+context.update(base)
+
+sidebar = {
+    "sidebar_small": {
+        "title_small": [
+            ("subtitle1", "mytesterapp:pages"),
+        ]
+    },
+    "sidebar_big": {
+        "title_big": [
+            ('subtitle2', "mytesterapp:pages", 'bi-person'),
+            ('subtitle3', "mytesterapp:pages", 'bi-envelope'),
+        ],
+    },
+}
+
+context.update(sidebar)
+```

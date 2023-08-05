@@ -1,0 +1,18 @@
+<div class="pagetitle">
+  {% if breadcrumb.subtitle %}
+  <h1>{{ breadcrumb.subtitle|capfirst }}</h1>
+  {% else %}
+  <h1>{{ breadcrumb.title|capfirst }}</h1>
+  {% endif %}
+  <nav>
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'niceadmin:home' %}">Home</a></li>
+      {% if breadcrumb.subtitle %}
+      <li class="breadcrumb-item">{{ breadcrumb.title|capfirst }}</li>
+      <li class="breadcrumb-item active">{{ breadcrumb.subtitle|capfirst }}</li>
+      {% else %}
+      <li class="breadcrumb-item active ">{{ breadcrumb.title|capfirst }}</li>
+      {% endif %}
+    </ol>
+  </nav>
+</div><!-- End Page Title -->

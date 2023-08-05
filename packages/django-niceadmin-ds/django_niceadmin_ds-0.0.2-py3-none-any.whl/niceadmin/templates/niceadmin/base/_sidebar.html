@@ -1,0 +1,77 @@
+{% load static %}
+
+<aside id="sidebar" class="sidebar">
+
+  <ul class="sidebar-nav" id="sidebar-nav">
+
+    <li class="nav-item">
+      <a class="nav-link " href="{% url 'niceadmin:home' %}">
+        <i class="bi bi-grid"></i>
+        <span>Dashboard</span>
+      </a>
+    </li><!-- End Dashboard Nav -->
+
+    <li class="nav-item">
+      {% for title, submenu_list in sidebar_small.items %}
+      <a class="nav-link collapsed" data-bs-target="#{{ title }}-nav" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-menu-button-wide"></i><span>{{ title|capfirst }}</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul id="{{ title }}-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+        {% for subtitle, link in submenu_list %}
+        <li>
+          <a href="{% url link %}">
+            <i class="bi bi-circle"></i><span>{{ subtitle|capfirst }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </li><!-- End Components Nav -->
+
+    {% for title, submenu_list in sidebar_big.items %}
+    <li class="nav-heading">{{ title }}</li>
+      {% for subtitle, link, icon in submenu_list %}
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="{% url link %}">
+          <i class="bi {{ icon }}"></i>
+          <span>{{ title|capfirst }}</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+      {% endfor %}
+    {% endfor %}
+
+
+    {% if show_examples %}
+      <li class="nav-heading">Examples</li>
+        <li class="nav-item">
+        {% for title, items in sidebar_examples_small.items %}
+        <a class="nav-link collapsed" data-bs-target="#{{ title }}-nav-exam" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-menu-button-wide"></i><span>{{ title|capfirst }}</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="{{ title }}-nav-exam" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          {% for item in items %}
+          <li>
+            <a href="{% url 'niceadmin:examples' title item %}">
+              <i class="bi bi-circle"></i><span>{{ item|capfirst }}</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endfor %}
+        </li><!-- End Components Nav -->
+
+      {% for title, items in sidebar_examples_big.items %}
+      <li class="nav-heading">{{ title }}</li>
+        {% for item in items %}
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="{% url 'niceadmin:examples' title item.0 %}">
+            <i class="bi {{ item.1 }}"></i>
+            <span>{{ item.0|capfirst }}</span>
+          </a>
+        </li><!-- End Profile Page Nav -->
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+  </ul>
+
+</aside>
