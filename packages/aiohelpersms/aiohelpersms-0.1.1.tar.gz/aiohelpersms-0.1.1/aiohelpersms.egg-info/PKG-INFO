@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: aiohelpersms
+Version: 0.1.1
+Summary: Async API wrapper for helpersms 
+Home-page: https://github.com/fantomcvc/aiohelpersms
+Author: fantomcvc
+Author-email: fantomcvv@gmail.com
+License: MIT License
