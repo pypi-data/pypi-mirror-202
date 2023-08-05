@@ -1,0 +1,10 @@
+metaflow_extensions/corise/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metaflow_extensions/corise/plugins/cards/corise/__init__.py,sha256=EegH1OoDI0c21V6ZO2fqNASkSkXB7kDEJaNGmcMBJew,1721
+metaflow_extensions/corise/plugins/cards/corise/base.html,sha256=VfLWYhXglyH5Boncn8gtZ_Bc7V_ZXOkCuWQw_1H3InE,20708
+metaflow_extensions/corise/plugins/cards/corise/bundle.css,sha256=eZxxoC2tg9lG_rtkIbnxjmJPqUzuSI5s43JEmKaZEx8,13281
+metaflow_extensions/corise/plugins/cards/corise/main.js,sha256=wXLOuF7Cl5YDb_RRCQly_sSm_dPAle5sc_s_BvaU8-E,364206
+metaflow_card_corise-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+metaflow_card_corise-1.0.1.dist-info/METADATA,sha256=ri3b7Qz9BdiBVDf7KYNn4WrmQninKE4KS5T3GfKlYs4,262
+metaflow_card_corise-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+metaflow_card_corise-1.0.1.dist-info/top_level.txt,sha256=NwG0ukwjygtanDETyp_BUdtYtqIA_lOjzFFh1TsnxvI,20
+metaflow_card_corise-1.0.1.dist-info/RECORD,,
