@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+src/kalkulator-sederhana/__init__.py
+src/kalkulator-sederhana/kalkulator.py
+src/kalkulator_sederhana.egg-info/PKG-INFO
+src/kalkulator_sederhana.egg-info/SOURCES.txt
+src/kalkulator_sederhana.egg-info/dependency_links.txt
+src/kalkulator_sederhana.egg-info/requires.txt
+src/kalkulator_sederhana.egg-info/top_level.txt
