@@ -1,0 +1,4 @@
+include amiadmin/requirements.txt
+include amiadmin/thirdparty.json
+include amiadmin/README.MD
+include amiadmin/LICENSE

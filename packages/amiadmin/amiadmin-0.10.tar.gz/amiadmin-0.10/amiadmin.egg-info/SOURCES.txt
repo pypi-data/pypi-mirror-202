@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+amiadmin/LICENSE
+amiadmin/README.MD
+amiadmin/__init__.py
+amiadmin/requirements.txt
+amiadmin/thirdparty.json
+amiadmin.egg-info/PKG-INFO
+amiadmin.egg-info/SOURCES.txt
+amiadmin.egg-info/dependency_links.txt
+amiadmin.egg-info/top_level.txt
