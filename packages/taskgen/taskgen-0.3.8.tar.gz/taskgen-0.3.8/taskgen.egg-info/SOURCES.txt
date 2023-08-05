@@ -1,0 +1,17 @@
+README.md
+setup.py
+taskgen/__init__.py
+taskgen/config.py
+taskgen/converters.py
+taskgen/functions.py
+taskgen/html.py
+taskgen/main.py
+taskgen/moodle.py
+taskgen/stats.py
+taskgen/tex.py
+taskgen/variable_types.py
+taskgen.egg-info/PKG-INFO
+taskgen.egg-info/SOURCES.txt
+taskgen.egg-info/dependency_links.txt
+taskgen.egg-info/requires.txt
+taskgen.egg-info/top_level.txt
