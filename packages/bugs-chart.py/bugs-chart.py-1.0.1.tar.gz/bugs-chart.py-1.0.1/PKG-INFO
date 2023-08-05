@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bugs-chart.py
+Version: 1.0.1
+Summary: Python API for downloading Bugs charts
+Home-page: https://github.com/gold24park/bugs-chart
+Author: Lou Park
+Author-email: gold24park@gmail.com
+License: MIT License
+License-File: LICENSE
