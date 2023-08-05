@@ -1,0 +1,9 @@
+deepdog/__init__.py,sha256=Pg6ibB-rT_XIgxVSYuGZZ4kh1_f7SPMbt7JKdSlf4YA,501
+deepdog/bayes_run.py,sha256=cRVCmNzWlcQsbfJ_hi38cFwIdh10pTAF7M-IDZ4xCBQ,8197
+deepdog/bayes_run_simulpairs.py,sha256=AKH6Hp4LlDaY1sCxQ6Zo4ss8lZ3cP_skZ7eJt91tUKA,11705
+deepdog/meta.py,sha256=Brs9HsZyBCGpLXdkV6eOdvziQrdiQt__LktEsPlZ0fs,73
+deepdog/real_spectrum_run.py,sha256=8NTwr_jqfMtBYHINIybEmkITPVHfkjHqYVR5o_f3gbo,6655
+deepdog/temp_aware_real_spectrum_run.py,sha256=5Y7ktdqUz5o3PNRX9qUqbW9kgh9jfZUehnRp5VGuCjE,6576
+deepdog-0.6.6.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+deepdog-0.6.6.dist-info/METADATA,sha256=27DQq0nAWPRp5Oja8LWihZbU-jkUx_EMERBO_UDyyos,408
+deepdog-0.6.6.dist-info/RECORD,,
