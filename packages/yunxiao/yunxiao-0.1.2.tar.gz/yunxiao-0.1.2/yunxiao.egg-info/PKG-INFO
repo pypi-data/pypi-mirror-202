@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: yunxiao
+Version: 0.1.2
+Summary: An API tool for Cloud School Education Institution Management System.
+Author-email: YiZixuan <admin@sqkkyzx.com>
+License: GPL-3.0-only
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# YunXiao API
+An API tool for YunXiao Education Institution Management System.
+
+# Copyright Statement
+YunXiao software is owned by XiaoGuanJia. This project is for learning purposes only. If there is any infringement, please contact me to delete.
+
+# Contact
+admin@sqkkyzx.com
+
+# Usage Example
+```
+from yunxiao.app improt App, Report
+
+app = App("123456","pwd123456",[])
+
+r = Report(app).find_now_data_report()
+
+pritnt(r["data"])
+
+```
