@@ -1,0 +1,14 @@
+descriptive/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+descriptive/pydataprocessing.py,sha256=8UbZHJcFyVLGsGDL9OUEUZWBkS2LwRa9_F88SlZR9ek,10312
+descriptive/pyeda.py,sha256=T6Pw2EnsT12FINiiVoySBtcNwOBD2Prx_cmGVT3t2J4,17822
+diagnostic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diagnostic/pydiagnostic.py,sha256=1Ydnd2Sw2j-LAX2buEA6FXznHgPtHNWxPf-7YjV2rvw,5884
+predictive/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+predictive/pypredictive.py,sha256=oe9vgJuW288MO7U4JNEgZcCIQciZMp693x3JxtQ6_KU,13946
+prescriptive/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prescriptive/pyprescriptive.py,sha256=JMXnXKQH9_IEvUUpfxKeOea3kAT_z9nA6SJJpK5rbBo,1351
+pydataanalysis-0.0.3.dist-info/LICENSE,sha256=ViRhh03YsVIarND14O0OUGxRVHxUCuiyPKxViomcIhY,1088
+pydataanalysis-0.0.3.dist-info/METADATA,sha256=kYFB9v8FtuLVvXA8CO8iyoG1bCFjQYlCOca6MlGg2sI,2636
+pydataanalysis-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pydataanalysis-0.0.3.dist-info/top_level.txt,sha256=V7-mAm63ko4A0MImhXjQf9hoM1-TkEOp9Uvjug2EFBE,47
+pydataanalysis-0.0.3.dist-info/RECORD,,
