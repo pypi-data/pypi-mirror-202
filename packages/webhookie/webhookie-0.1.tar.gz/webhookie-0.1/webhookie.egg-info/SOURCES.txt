@@ -1,0 +1,6 @@
+setup.py
+webhookie/__main__.py
+webhookie.egg-info/PKG-INFO
+webhookie.egg-info/SOURCES.txt
+webhookie.egg-info/dependency_links.txt
+webhookie.egg-info/top_level.txt
