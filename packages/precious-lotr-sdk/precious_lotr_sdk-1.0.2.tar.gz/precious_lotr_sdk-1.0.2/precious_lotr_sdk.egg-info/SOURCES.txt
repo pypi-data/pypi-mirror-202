@@ -1,0 +1,9 @@
+setup.py
+precious_lotr_sdk/__init__.py
+precious_lotr_sdk/lotr.py
+precious_lotr_sdk.egg-info/PKG-INFO
+precious_lotr_sdk.egg-info/SOURCES.txt
+precious_lotr_sdk.egg-info/dependency_links.txt
+precious_lotr_sdk.egg-info/requires.txt
+precious_lotr_sdk.egg-info/top_level.txt
+test/test.py
