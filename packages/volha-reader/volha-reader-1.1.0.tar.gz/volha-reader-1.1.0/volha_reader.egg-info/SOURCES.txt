@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+reader/__init__.py
+reader/__main__.py
+reader/config.txt
+reader/feed.py
+reader/viewer.py
+volha_reader.egg-info/PKG-INFO
+volha_reader.egg-info/SOURCES.txt
+volha_reader.egg-info/dependency_links.txt
+volha_reader.egg-info/entry_points.txt
+volha_reader.egg-info/requires.txt
+volha_reader.egg-info/top_level.txt
