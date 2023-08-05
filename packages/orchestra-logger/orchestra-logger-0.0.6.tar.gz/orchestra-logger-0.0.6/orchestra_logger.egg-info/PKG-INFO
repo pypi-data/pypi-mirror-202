@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: orchestra-logger
+Version: 0.0.6
+Summary: Logging module to enable orchestration on self-hosted applications
+Home-page: UNKNOWN
+Author: Orchestra (Hugo Lu)
+Author-email: <hugo@getorchestra.io>
+License: UNKNOWN
+Keywords: python,logging,data,orchestration
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.gitignore
+
+
+# orchestra-logger
+

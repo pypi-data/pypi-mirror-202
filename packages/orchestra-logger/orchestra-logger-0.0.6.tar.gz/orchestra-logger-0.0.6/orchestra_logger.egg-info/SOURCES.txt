@@ -1,0 +1,11 @@
+LICENSE.gitignore
+README.md
+setup.cfg
+setup.py
+orchestra-logger/__init__.py
+orchestra-logger/orclogger/__init__.py
+orchestra-logger/orclogger/orclogger.py
+orchestra_logger.egg-info/PKG-INFO
+orchestra_logger.egg-info/SOURCES.txt
+orchestra_logger.egg-info/dependency_links.txt
+orchestra_logger.egg-info/top_level.txt
