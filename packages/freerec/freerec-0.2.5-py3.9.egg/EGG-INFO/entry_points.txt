@@ -1,0 +1,3 @@
+[freerec.commands]
+make = freerec.main:make
+tune = freerec.main:tune
