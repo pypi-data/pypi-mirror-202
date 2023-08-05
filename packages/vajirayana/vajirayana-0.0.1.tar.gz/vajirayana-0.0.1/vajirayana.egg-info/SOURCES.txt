@@ -1,0 +1,9 @@
+README.md
+setup.py
+vajirayana/__init__.py
+vajirayana/scraper.py
+vajirayana.egg-info/PKG-INFO
+vajirayana.egg-info/SOURCES.txt
+vajirayana.egg-info/dependency_links.txt
+vajirayana.egg-info/requires.txt
+vajirayana.egg-info/top_level.txt
