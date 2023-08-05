@@ -1,0 +1,4 @@
+include nutikacompile/requirements.txt
+include nutikacompile/thirdparty.json
+include nutikacompile/README.MD
+include nutikacompile/LICENSE
