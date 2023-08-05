@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+joshbasiccalculator/__init__.py
+testiramtikurbu.egg-info/PKG-INFO
+testiramtikurbu.egg-info/SOURCES.txt
+testiramtikurbu.egg-info/dependency_links.txt
+testiramtikurbu.egg-info/top_level.txt
