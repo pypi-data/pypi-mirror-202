@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+textoria/__init__.py
+textoria/core.py
+textoria.egg-info/PKG-INFO
+textoria.egg-info/SOURCES.txt
+textoria.egg-info/dependency_links.txt
+textoria.egg-info/requires.txt
+textoria.egg-info/top_level.txt
