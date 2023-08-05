@@ -1,0 +1,14 @@
+numpy
+pandas
+fastai>=2.7.11
+fastmtl>=1.2.0
+clip@ git+https://github.com/openai/CLIP.git
+
+[dev]
+nbdev
+jupyter
+twine
+pre-commit
+isort
+black
+wandb
