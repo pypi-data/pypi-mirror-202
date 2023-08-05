@@ -1,0 +1,12 @@
+aprilgrid/__about__.py,sha256=T3cnC9wplPtL0oQltkVo0CBrVL7J2fAMSrNcvKc22C4,58
+aprilgrid/__init__.py,sha256=UTxh_xUBjvh5Z9RSf2OYvgA3ut1L3l6F9bdPOt3UH78,55
+aprilgrid/common.py,sha256=4oNcY1-did5j8U_sW6Pr_4toFZErbEQHKY5UtxyXjzw,2544
+aprilgrid/detection.py,sha256=AzFy9reR3lL0F_2fp5wAS1XkG2VGajqfaO8b9lHZEVU,151
+aprilgrid/detector.py,sha256=wMIfrLOFmyOeqD_j7eSEaKjUTqyFWGXz3lLCERcguus,8937
+aprilgrid/qtp.py,sha256=1TUA3Osyj9Nj---b9a8RdRdeOGuHpQ74c-WaFGmcFxs,1206
+aprilgrid/tag_codes.py,sha256=3RQrQ-dD4aZ_qhTL_HRkZVxXwFpMFkZVwWvROgzjZF4,14678
+aprilgrid/tag_family.py,sha256=0Hg_xqxrqwDSlfS42q8QoazEsrwZHEDSlunG5fYBKQk,2891
+aprilgrid-0.1.0.dev0.dist-info/METADATA,sha256=-A9MOC_6su-uJZUJS-Ekv73hJrw1YElKNyJdFJ0TBWM,1720
+aprilgrid-0.1.0.dev0.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+aprilgrid-0.1.0.dev0.dist-info/licenses/LICENSE,sha256=_wna9jLFykdEVDxNC9pEJxbUg3Ru27rLhW0MVWZIdkg,1496
+aprilgrid-0.1.0.dev0.dist-info/RECORD,,
