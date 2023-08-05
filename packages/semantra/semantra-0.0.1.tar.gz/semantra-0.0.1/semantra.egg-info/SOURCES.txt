@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+semantra.egg-info/PKG-INFO
+semantra.egg-info/SOURCES.txt
+semantra.egg-info/dependency_links.txt
+semantra.egg-info/top_level.txt
