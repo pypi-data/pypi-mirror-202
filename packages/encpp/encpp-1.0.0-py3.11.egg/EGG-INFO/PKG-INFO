@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: encpp
+Version: 1.0.0
+Summary: Encryption Plus Plus (encpp)
+Home-page: https://github.com/tchello45/encpp
+Author: Tilman Kurmayer
+License: MIT
+Requires-Python: >=3.0
