@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/bingai.py
+src/edge.py
+src/bingai.egg-info/PKG-INFO
+src/bingai.egg-info/SOURCES.txt
+src/bingai.egg-info/dependency_links.txt
+src/bingai.egg-info/top_level.txt
