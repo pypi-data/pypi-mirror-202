@@ -1,0 +1,18 @@
+{
+    "entity_component": {
+        "_": {
+            "name": "Konfigurator",
+            "state": {
+                "configure": "skonfiguruj",
+                "configured": "skonfigurowany"
+            }
+        }
+    },
+    "state": {
+        "_": {
+            "configure": "skonfiguruj",
+            "configured": "skonfigurowany"
+        }
+    },
+    "title": "Konfigurator"
+}

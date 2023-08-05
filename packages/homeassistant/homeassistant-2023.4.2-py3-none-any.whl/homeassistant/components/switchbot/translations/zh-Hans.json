@@ -1,0 +1,17 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "door_open": {
+                "name": "\u95e8"
+            }
+        },
+        "sensor": {
+            "humidity": {
+                "name": "\u6e7f\u5ea6"
+            },
+            "temperature": {
+                "name": "\u6e29\u5ea6"
+            }
+        }
+    }
+}
