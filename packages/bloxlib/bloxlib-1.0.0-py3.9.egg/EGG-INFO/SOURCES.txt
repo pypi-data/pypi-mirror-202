@@ -1,0 +1,9 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+bloxlib.egg-info/PKG-INFO
+bloxlib.egg-info/SOURCES.txt
+bloxlib.egg-info/dependency_links.txt
+bloxlib.egg-info/requires.txt
+bloxlib.egg-info/top_level.txt
