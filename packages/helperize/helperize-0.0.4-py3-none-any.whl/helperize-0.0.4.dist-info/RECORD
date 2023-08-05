@@ -1,0 +1,10 @@
+helperize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helperize/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+helperize/cli/cli.py,sha256=t4GYTLZpVw-UeJoFEHbxlchgKq5F4YSYkXhBaslZaM8,575
+helperize/interface.py,sha256=8IUmFSQe510wxJn96dERXTaY3d58_fMT8RPSpMz4i-c,230
+helperize/log.py,sha256=Z66BbwKGlP8PdIKiXrsRT9byyRY0JUoArE1ZlrJ-g6Q,1069
+helperize-0.0.4.dist-info/LICENSE,sha256=U0_RCozGby7ip9cTRFF8swAbTOK13U3IUH9oOSxZLMQ,1074
+helperize-0.0.4.dist-info/METADATA,sha256=uoZ72RiHGe_zRqkSXUltNv-tQT3k4RezEGCEETpEryk,1001
+helperize-0.0.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+helperize-0.0.4.dist-info/entry_points.txt,sha256=PrrT71IY5qxBqtEy3cMJS3p543-s4D3LGWgg6fmq5e8,51
+helperize-0.0.4.dist-info/RECORD,,
