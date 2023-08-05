@@ -1,0 +1,17 @@
+parsimonious_lite/__init__.py,sha256=Dh7TyPD8_1-RDkpyNGI5BgDKjOZ21vS_WYWtd7L-V8A,436
+parsimonious_lite/exceptions.py,sha256=fG-4MOcBLgNGT70rb2Oc3bLQLlPY1A9Fe7S_6c_T1iQ,3768
+parsimonious_lite/expressions.py,sha256=JTt4Bv2A8iACgSAEGxw8o7ekB_jB5861S40pdfDxLy0,16522
+parsimonious_lite/grammar.py,sha256=qrhYYJBFhzhlrFZrIad2tIwnoF8ypGGZOnwz3MXAHrY,19456
+parsimonious_lite/nodes.py,sha256=fPQqJgOUrewOwAM02rAAf8klipLLWpF57FFEF7ielMY,13187
+parsimonious_lite/utils.py,sha256=C8RfWnbQCYX_-yWQYyA9Jzpwop9ClXibCcH9q1MlM6g,1161
+parsimonious_lite/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parsimonious_lite/tests/benchmarks.py,sha256=WqOZa962AbrdNQ27qD5hncwJrxITlZ8-sELKyXA0zTM,3244
+parsimonious_lite/tests/test_benchmarks.py,sha256=yo-lJPr2iJoJP7eXbJB66fSIm3ZdCKLXeuCeFLdc3E4,1595
+parsimonious_lite/tests/test_expressions.py,sha256=9DdUAFI0ovO6up32Os6Xj0_h5f6H6fbxxPcTDtDiARo,12231
+parsimonious_lite/tests/test_grammar.py,sha256=SPJLer5MwiHcaRm21QpEyk5s4jlL0OrU7tiAV9gNVwg,17696
+parsimonious_lite/tests/test_nodes.py,sha256=0cI53vCkEvOzeVWv4AgQTp9QeL1Hj20g7YNStjuSjow,5851
+parsimonious_lite-0.11.0.dist-info/LICENSE,sha256=CfHIyelBrz5YTVlkHqm4fYPAyw_QB-te85Gn4mQ8GkY,1053
+parsimonious_lite-0.11.0.dist-info/METADATA,sha256=38j04nNhVMHC6jza8ROtw4hhqXXq37W8MhgeiA8txlg,993
+parsimonious_lite-0.11.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+parsimonious_lite-0.11.0.dist-info/top_level.txt,sha256=ydj5NUw6xDPCzlqcG251cEpsBrF0aYsB9mdVJZSGjFw,18
+parsimonious_lite-0.11.0.dist-info/RECORD,,
