@@ -1,0 +1,10 @@
+pybind11
+spglib
+
+[cli]
+pymatgen
+click
+
+[tests]
+pytest
+pymatgen

@@ -1,0 +1,492 @@
+# KpLib
+
+[![PyPI Downloads](https://img.shields.io/pypi/dm/kpLib.svg?label=PyPI%20downloads)](
+https://pypi.org/project/kpLib/)
+[![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.commatsci.2020.110100-blue)](https://doi.org/10.1016/j.commatsci.2020.110100)
+[![pipeline status](https://gitlab.com/muellergroup/kplib/badges/master/pipeline.svg)](https://gitlab.com/muellergroup/kplib/commits/master)
+
+
+KpLib is a C++ library for finding the optimal Generalized Monkhorst-Pack k-points grid. It can be imported into electronic-structure packages as a generator of efficient generalized *k*-point grids, or be integrated into user scripts through the Python interface `kpLib`.
+
+For questions of KpLib and underlying algorithms, you are welcomed to check our paper at [here](https://doi.org/10.1016/j.commatsci.2020.110100) or send emails to kpoints@jhu.edu.
+
+**Note**: We have fixed in `v.1.1.0` (2023.04.08) a few bugs of the Python interface causing scripts to hang for monoclinic and trigonal system in $hR$ representation. We also reduced dependencies of external Python packages to the minimum to let users choose their favoriate package for structure IO. Please check the [RELEASE.md](https://gitlab.com/muellergroup/kplib/-/blob/master/RELEASE.md) note for details.
+
+# Usage
+
+## Route I: Integrating KpLib as a C++ library in simulation package
+---
+## Compile KpLib as a library
+We use `cmake` to detect native build environment and generate native build files. For Unix-like operating systems, users can build the project by:
+
+    $ git clone https://gitlab.com/muellergroup/kplib.git
+    $ cd kplib
+    $ mkdir build
+    $ cd build
+    $ cmake ..
+    $ make
+
+Then you can find a static library at `build/libkpoints.a` and a dynamic library at `build/libkpoints.so`.
+
+## Use KpLib in C++ Code
+
+There are basically two steps:
+
+1. Copy the header file `src/kPointLatticeGenerator.h` to your `include` folder, and add the following line to your source code
+
+        #include "kPointLatticeGenerator.h"
+
+2. Link the library at the linking stage.
+
+    For example, to link the static library and compile the object `myapp.o` to the final executable `myapp`, you can
+
+        $ g++ myapp.o -L /path/to/lib libkpoints.a -o myapp
+
+    If you want to use the dynamic library, you can
+
+        $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/path/to/lib
+        $ g++ myapp.o -L /path/to/lib -lkpoints -o myapp
+
+    The first line tells the loader, `ld`, where to find the shared library at runtime, since the dynamic linkage only puts a reference of the library in the executable.
+
+Then you are ready to go!
+
+An explanation of the API with more details can be found below, together with a demo C++ program (`demo_kplib/src`) created to demonstrate the usage of this API in C++ environment and the conventions the API assumes.
+
+## Route II: Use KpLib as a Python package
+---
+## Installation
+
+### **Install from PyPI using `pip`**
+This will install the core KpLib module with minimal third-party dependencies. User will need to parse input structures and write out generated *K*-point grid using their favorite matsci packages (e.g. `ase` and `pymatgen`). 
+
+```
+$ pip install --user pybind11 build wheel
+$ pip install --user kplib
+```
+
+### **Install from source using `pip`**
+The Python interface is a thin wrapper of the C++ library. Building from source should be straight forward. It also provides a way to install a CLI command to be called in terminal (requiring `pymatgen` for IO).
+
+
+Step 1. Download source code from https://gitlab.com/muellergroup/kplib.
+```
+$ git clone https://gitlab.com/muellergroup/kplib.git
+```
+
+Step 2. The C++-Python interface is written using `pybind11`, and the `setup.py` imports it at the beginning for compiling the C++ code into a Python external module. So, it should be installed before installing `kpLib`.
+```
+$ pip install --user pybind11
+$ pip install --user build wheel # Python build toolchain that you might already have.
+```
+
+Step 3. If you would like to choose your own structure parser (such as `pymatgen`, `ase` and other wonderful packages), you can install only the core module of `kpLib` with a minimal dependencies:
+```
+$ cd kplib
+$ pip install --user .
+```
+
+If you would like to use the CLI command tool `kpgen`, you can use the following code to install `kpLib`. This will additionally install `pymatgen` (as a parser) and `click` (to provide a nice CLI interface):
+```
+$ cd kplib
+$ pip install --user .[cli]
+$ which kpgen
+```
+
+If you want to test your installation, you can install `kpLib` with dependencies
+that enables the test suite (`pymatgen` and `pytest`). After installation, you can run tests to make sure everything is correctly installed.
+```
+$ cd kplib
+$ pip install --user .[tests]
+$ pytest
+```
+
+## Using KpLib in Python script
+The `kpLib` Python package is written in the way to provide an interface
+for the core KpLib function and allow maximal usage flexibility. The choice
+of packages for parsing input structure and for writing the generated k-points
+grid to a desired format is left to users. The following section will first
+describe the signature of the `get_kpoints` function, and then give two
+example scripts using the two popular packages `pymatgen` and `ase` for I/O.
+
+`kpLib.interface::get_kpoints` is the core and only function the `kpLib` Python
+package provides. Its signature is as follows:
+```
+def get_kpoints(
+    lattice:            List[List[float]] or numpy.ndarray,
+    fractional_coords:  List[List[float]] or numpy.ndarray,
+    atomic_numbers:     List[int] or Tuple[int],
+    min_distance:       float = 0.1,
+    min_total_kpoints:  int = 1,
+    include_gamma:      str = "auto",
+    symprec:            float = 1e-5,
+    use_scale_factor:   bool = False,
+) -> Dict
+```
+`get_kpoints` uses the 3 positional arguments to define a structure. The rest of the keyword
+arguments define requirements of the output *K*-point grid. The size requirement of *K*-point grids is defined by `min_distance` and `min_total_kpoints`. They can be used
+separately or together. We recommand using `min_distance`. For an example of correlating
+the conventional way of specifying a Monkhorst-Pack grid by three integers
+`m1 x m2 x m3` to `min_distance`, see the section below.
+
+The meaning of all arguments are as follows:
+- `lattice`: A 3x3 matrix representing the lattice vectors of the unit cell of the input structure. Each row represents a vector, i.e. in the format of [**a**, **b**, **c**]. It can be a list of list or a `numpy.ndarray`.
+- `fractional_coords`: A list of 3-dimensional coordinates in the fractional format relative to the lattice vectors. It can be a list of list or a `numpy.ndarray`.
+- `atomic_numbers`: A list of atomic numbers, the i-th number of which defines the element of the i-th atom at the position `fractional_coords[i]`. It can be a list or a tuple.
+- `min_distance`: The minimum required distance in real-space between any pair of lattice points in the superlattice corresponding to the returned *K*-point grid. It specifys the 
+size of the required *K*-point grid and has a unit of Angstrom. The larger the value of 
+`min_distance`, the denser the returned grid will be (i.e., more symmetrically distinct 
+*K*-point).
+- `min_total_kpoints`: Minimum number of total *K*-points required in the returned 
+*K*-point grid. Note, it is not the number of symmetrically distinct *K*-points that
+are actually used in a calculation. The total set of *K*-points will be reduced by symmetry
+to the minimal set of distinct *K*-points, which will be used in a calculation.
+- `include_gamma`: It can have values `true` or `false`, or `auto`. Use `true`
+to include the Gamma point (i.e. [0, 0, 0] of reciprocal space) in the return grid.
+Use `false` to exclude the Gamma point. Use `auto` to let kplib choose between
+the two types of grid and return the one with a smaller number of symmetrically
+distinct *K*-points. If they have the same number of distinct *K*-points, return
+the one with larger effecitive min_distance.
+- `symprec`: Precision in real space when determining structure symmetries. The default
+is `1E-5`. Atomic coordinates with a difference less than `symprec` will be determined
+as equivalent. If you want to include more symmetries, use a larger value.
+- `use_scale_factor`: A scheme to speed up the search at the cost of returning a sub-optimial
+*K*-point grid. Default behaviour is to not use the scheme. You can consider use this scheme
+when the code takes a very long time to return a grid. For a detailed explanation,
+see the end of this README.
+    
+The `get_kpoints` function returns the *K*-point grid as a `dict`. The keys are:
+
+- `min_periodic_distance`: The minimum distance between any pair of lattice points of the real-space superlattice corresponding to the returned *K*-point grid.
+- `num_distinct_kpts`: The number of symmetrically distinct *K*-points. This is the number of
+*K*-points actually used in a calculation.
+- `distinct_coords`: Fractional coordinates of symmetrically distinct *K*-points.
+- `distinct_weights`: Weights of corresponding symmetrically distinct *K*-point in `distinct_coords`.
+- `num_total_kpts`: The number of total *K*-points.
+- `coords`: Fractional coordinates of all *K*-points.
+- `weights`: Weights of corresponding *K*-points in `coords`.
+
+Usually the coordinates and weights of distinct *K*-points are enough to define an
+input file of a calculation.
+
+### **Making sense of "`min_distance`"**
+"Minimum distance" means the minimum periodic distance between any pairs of 
+lattice points on a real-space lattice. The reciprocal lattice of a primitive unit cell 
+is a supercell in the reciprocal space of the reciprocal lattice of a super cell in real space. It implys each *K*-point grid corresponds to a real-space superlattice. Therefore, we can use the "minimum distance" of a real-space superlattice to specify the size its corresponding *K*-point grid in the reciprocal space. The larger the `min_distance`, the larger the supercell and hence the denser the *K*-point grid.
+
+For example, consider an artificial tetragonal structure with a lattice as $[[2, 0, 0], [0, 2, 0], [0, 0, 3]]$ and a single atom at the origin. Its space group is $P4/mmm$. A traditional Monkhorst-Pack 4x4x4 grid with the Gamma point would correspond to a supercell of $[[8, 0, 0], [0, 8, 0], [0, 0, 12]]$ and has **18** symmetrically distinct *K*-points. The minimum periodic distance in this case is 8 Angstroms.
+
+When using `kpLib` with `min_distance` = 8, the Gamma-centered result would have only
+**9** symmetrically distinct *K*-points and an effective minimum distance of 8.485. For
+shifted grids, the result would be a grid with **6** symmetrically distinct *K*-points
+and an effective minimum distance of 8. Similar calculation accuracy but three times
+less the number of distinct *K*-points.
+
+### **Example Python Scripts**
+Here, we give two examples of using `kpLib` in Python script, using the popular 
+[`pymatgen`](https://pymatgen.org/) and [`ase`](https://wiki.fysik.dtu.dk/ase/)
+packages respectively for IO.
+
+
+```python
+from kplib import get_kpoints
+from pymatgen.core import Structure
+from pymatgen.io.vasp.inputs import Kpoints, Kpoints_supported_modes
+
+struct = Structure.from_file("./POSCAR")
+
+kpts = get_kpoints(struct.lattice.matrix,
+                   struct.frac_coords,
+                   struct.atomic_numbers, 
+                   min_distance=25.0, 
+                   include_gamma="auto")
+
+kpoints_file = Kpoints(style=Kpoints_supported_modes.Reciprocal,
+                       num_kpts=kpts["num_distinct_kpts"]
+                       kpts=kpts["distinct_coords"],
+                       kpts_weights=["distinct_weights"])
+kpoints_file.write_file("./KPOINTS")
+```
+
+```python
+from kpLib.interface import get_kpoints
+import ase
+
+struct = ase.io.read("./POSCAR", format="vasp")
+kpts = get_kpoints(struct.get_cell()[:], 
+                   struct.get_scaled_positions(), # Note: the atomic coordinates are in fractional format, not Cartesian.
+                   struct.get_atomic_numbers(), 
+                   min_distance=25.0,
+                   include_gamma="gamma")
+
+# ... User can then use the kpts dict to build VASP calculator and perform other tasks
+```
+
+## Command-line interface `kpgen`
+For users' convenience, the Python package also provides a command-line interface 
+that can be called in terminal. It uses `pymatgen` as a structure parser and 
+output the *K*-point grid to a vasp-format `KPOINTS` file.
+
+A simple example is:
+```bash
+$ kpgen -g auto -d 25.0 ./POSCAR ./KPOINTS
+```
+`-g` is short for `--gamma` and it defined the type of *K*-point grid, a gamma-centered, shifted or
+auto-determined grid. `-d` is short for `--distance` and specifies `min_distance`. This is a simple 
+wrapper of the `get_kpionts` function discussed above. All the options 
+that `get_kpoints` accepts, this CLI accepts. Use `kpgen --help` to get a full list of 
+permitted arguments and options.
+
+The default `pip install kplib` does not install this CLI. To enable this feature, after 
+cloning the source code, run:
+```bash
+$ pip install --user .[cli]
+```
+The "`[cli]`" part instructs the `setup.py` to install `pymatgen` and `click`.
+
+# How to cite
+If you use the kplib or the *K*-point Grid Generator in generating generalized *k*-point grids, please cite the following paper:
+
+Wang, Y., Wisesa, P., Balasubramanian, A., Dwaraknath, S. & Mueller, T. Rapid generation of optimal generalized Monkhorst-Pack grids. Comp Mater Sci, 110100, doi:https://doi.org/10.1016/j.commatsci.2020.110100 (2020).
+
+# Documentation
+
+## Conventions
+This section specifies the conventions we assume in the arguments to the 
+`KPointLatticeGenerator` constructor in C++. The Python interface `kpLib` is written
+in the same manner that aligns with these conventions.
+
+### **Lattice Vectors**
+Lattice vectors are expressed as row vectors in the lattice matrix:
+```C++
+double primtiveVectors[3][3] = {{a_x, a_y, a_z},
+                                {b_x, b_y, b_z},
+                                {c_a, c_z, c_y}}
+```
+
+### **Point Operators**
+
+Each operatir is a 3x3 integer matrix, representing how a **fractional coordinate** in the **primitive lattice basis** is transformed under this operation.
+
+```
+int latticePointOperations[][3][3];
+```
+
+Because of the lattice vectors are expressed as rows, each symmetry operation is done through ${x'}^T = {x}^T\cdot R$.
+
+### **Conventional Lattice Vectors**
+
+The algorithm we developed to efficiently iterate symmetry-preserving superlattices assumes
+the following conditions on the input conventional lattice vectors, additional to the usual
+conventions (e.g., see the standard unit cell in [`spglib` documentation](https://spglib.readthedocs.io/en/latest/definition.html#spglib-conventions-of-standardized-unit-cell)).
+
+* For all crystal sysmtes, except for **triclinic**, the $\mathbf{c}$-vector should be along the axis 
+of the highest-order rotational operation, i.e the 4-fold, 6-fold, 3-fold, 4-fold, any 2-fold, 
+and 2-fold rotation for  **cubic**, **hexagonal**, **trigonal**, **tetragonal**, 
+**orthorhombic**, and **monoclinic** lattices, respectively. This direction is commonly 
+referred as the "primary symmetry direction" in crystallography textbooks. The conventions
+in the International Tables of Crystallograph (see [Chapter 9.1](https://it.iucr.org/Ab/ch9o1v0001/)) already satisfy this except for monoclinic lattice.
+
+* For monoclinic crystal system, the international convention assumes the $\mathbf{b}$-unique setting, in which the $\beta$ angle is the non-acute angle, the two-fold rotation axis is along the $\mathbf{b}$ vector and the one-face-centered lattice point in the $\mathbf{a}$-$\mathbf{b}$ plane (i.e. "C" in the space group symbol). But kplib library assumes the two-fold rotation to be along the $\mathbf{c}$-vector, or in other words, the $\mathbf{b}$-unique setting. A simple transformation is to just rotate the vectors like the following: $\mathbf{b} \rightarrow \mathbf{c}$, $\mathbf{c} \rightarrow \mathbf{a}$, and $\mathbf{a} \rightarrow \mathbf{b}$.
+
+* For **trigonal** lattices, no matter in $hR$ or $hP$ representation, the conventional lattices should be primitive hexagonal lattices, i.e. the rhombohedrally-centered hexagonal lattice. This is the same as the international convention.
+
+The algorithm doesn't put constraints on triclinic system, or on the centering type of orthorhombic 
+lattices.
+
+(Note: User could get the primary directions from the point symmetry opeartions.)
+
+## The C++ API
+
+#### Class: `KPointLatticeGenerator`
+```C++
+template <typename T>
+using Tensor = std::vector<std::vector<T>>;
+/**
+ * Constructor.
+ *
+ * To see how the variables are defined, check the "Conventions" section below)
+ *
+ * @param primVectorsArray            3x3 matrix with primitive lattice vectors in rows.
+ * @param conventionalVectorsArray    3x3 matrix with conventional lattice vectors in rows.
+ * @param latticePointOperatorsArray  point operators of the Laue Class
+                                      of the input structure, expressed
+                                      in the basis of primitive lattice vectors
+ * @param numOperators                number of point operators in above array
+ * @param isConventionalHexaognal     whether the conventional lattice is
+                                      hexagonal
+ */
+KPointLatticeGenerator(const double primVectorsArray[][3],
+                       const double conventionalVectorsArray[][3],
+                       const int latticePointOperatorsArray[][3][3],
+                       const int numOperators,
+                       const bool isConventionalHexagonal);
+/*
+ * Specify whether to generate a gamma-centered grid or a shifted grid.
+ * The available shifts are:
+ *     {{0.0, 0.0, 0.5}, {0.0, 0.5, 0.0}, {0.5, 0.0, 0.0}, {0.5, 0.5, 0.0},
+ *      {0.5, 0.0, 0.5}, {0.0, 0.5, 0.5}, {0.5, 0.5, 0.5}}
+ * Basiclly, side centers, face centers and the body center.
+ *
+ * @param includeGamma   TRUE:  gamma-centered grid
+ *                       FALSE: grid with one of the above shift
+ *                       AUTO:  search both shifted and gamma-centered grid
+ *                              and return the best one.
+ */
+enum INCLUDE_GAMMA { TRUE, FALSE, AUTO };
+void includeGamma(INCLUDE_GAMMA includeGamma);
+/*
+ * @param minDistance  The returned grid should have a corresponding
+ *                     real-space superlattice whose "minimum periodic distance"
+ *                     is no smaller than this value.
+ * @param minSize      Minimum number of total k-points of grids returned.
+ */
+KPointLattice getKPointLattice(const double minDistance,
+                               const int minSize);
+```
+
+#### Class: `KPointLattice`
+It's meant to hold the found k-point grid and provide query functions.
+The main query routines of this type:
+```
+double getMinPeriodicDistance();
+int getNumDistinctKPoints();
+int numTotalKPoints();
+
+/*
+ * @return Tensor<double> 2D arrays of coordinates. It's basically a wrapper
+ *                        of "double coords[][3]".
+ */
+Tensor<double> getKPointCoordinates();
+
+/*
+ * @return vector<int>  1D array of k-points weights.
+ */
+std::vector<int> getKPointWeights();
+```
+
+## Example: Using KpLib in C++ Code -- `demo_kplib`
+
+To demonstrate the usage of the kpbib, we implemented a simple C++ application to generate optimized Generalised Monkhorst-Pack k-point grids. It use `spglib` to find symmetries ([Togo and Tanaka, 2010](https://atztogo.github.io/spglib/index.html)) and output the k-point grid in the format of VASP KPOINTS file.
+
+It is under the folder `demo_kplib`. We have included a pre-built binary of the spglib library. User can also choose to build the latest version of `spglib` from source and replace it. The executable `demo_kplib` can be built following these commands:
+
+    $ cd demo_kplib
+    $ mkdir build
+    $ cd build
+    $ cmake ..
+    $ make
+
+The binary will be placed at `./build/demo_kplib`. To call it, use:
+
+    $ ./demo_kplib /path/to/POSCAR /path/to/PRECALC > KPOINTS
+
+The `POSCAR` is one of the standard VASP input file. The `PRECALC` file is the input file of `demo_kplib` and users can find its specifications on our [website](http://muellergroup.jhu.edu/K-Points.html). Since it's for demonstration purposes, only the parameters `MINDISTANCE`, `MINTOTALKPOINTS`, and `INCLUDEGAMMA` are valid.
+
+Examples of using this app for different crystal systems can be found in `demo_kplib/examples`. `KPOINTS_ref`
+are `KPOINTS` files generated by [our server](http://muellergroup.jhu.edu/K-Points.html). `KPOINTS_kplib`
+are files created by the `demo_kplib` app.
+
+For a stand-alone application with more funcnalities, like automatic detection of slabs, please check our ***K*-point Grid Generator** and ***K*-point Server**.
+
+### **Code snippet of demo_kpib**
+
+Below are excerpts from the `demo_kplib` application to show how to use the KpLib API.
+
+`demo_kplib/src/main.cpp`:
+```C++
+#include "kPointLatticeGenerator.h"
+#include "utils.h"
+#include "precalc.h"
+#include "poscar.h"
+#include <iostream>
+
+int main(int argc, char **argv) {
+    if (argc < 3) {
+        std::cerr << "Usage: ./main /path/to/POSCAR /path/to/PRECALC"
+                    << std::endl;
+        return 1;
+    }
+    // Parse POSCAR and PRECALC.
+    Poscar poscar;
+    poscar.readFromPoscar(std::string(argv[1]));
+    Precalc precalc(argv[2]);
+
+    // Execute the main routines.
+    KPointLatticeGenerator generator = initializeKPointLatticeGeneratorObject(
+        poscar.primitiveLattice, poscar.coordinates, poscar.atomTypes);
+
+    if (precalc.getIncludeGamma() == "TRUE") {
+        generator.includeGamma(TRUE);
+    } else if (precalc.getIncludeGamma() == "FALSE") {
+        generator.includeGamma(FALSE);
+    } else if (precalc.getIncludeGamma() == "AUTO") {
+        generator.includeGamma(AUTO);
+    }
+
+    KPointLattice latticeGamma = generator.getKPointLattice(precalc.getMinDistance(),
+                                                            precalc.getMinTotalKpoints());
+
+    outputLattice(latticeGamma);
+}
+```
+
+`demo_kplib/src/utils.cpp`:
+```C++
+#include "utils.h"
+#include "spglib.h"
+... // other includes and functions
+
+// Wrapper of the KPointLatticeGenerator constructor.
+KPointLatticeGenerator initializeKPointLatticeGeneratorObject(
+        Tensor<double> primitiveLattice,
+        Tensor<double> coordinates,
+        std::vector<int> atomTypes) {
+
+    double primLatticeArray[3][3] = {0};
+    double conventionalLatticeArray[3][3] = {0};
+    int rotation[192][3][3] = {0};
+    int size = 0;
+    bool isConventionalHexagonal = false;
+
+    // use spglib to get necessary parameters for the consturctor
+    // of KPointLatticeGenerator.
+    ...
+
+    KPointLatticeGenerator generator = KPointLatticeGenerator(primLatticeArray,
+            conventionalLatticeArray, rotation, size, isConventionalHexagonal);
+    if (useScaleFactor == "TRUE") {
+        generator.useScaleFactor(spaceGroup); // Otherwise, use the fully dynamic search.
+    }
+    return generator;
+
+}
+```
+
+## Using scale factor to accelerate search
+
+Scale factor is a scheme implemented to speed up the search of optimized generalized
+grids at the cost of returning a sub-optimal *K*-point grid. It is controlled
+by `KPointsLatticeGenerator::useScaleFactor` in the C++ library and the flag `use_scale_factor`
+in the Python interface.
+
+When `use_scale_factor` is set to `True` in `kpLib.interface::get_kpoints` function or in 
+the CLI command `kpgen`, the code will 
+search exhaustively up to a pre-defined threshold of total number of *K*-points. If no grids are 
+found with effective minimum distance at least `min_distance`,
+the user-given `min_distance` will be divide by `n` and then kplib search again for a grid 
+satifying `min_distance/n`. If there are still no valid grids, kplib will increment `n` by 1 
+and search again until it find a valid grid. When a valid grid is finally found, 
+the grid will be scaled up by `n` (i.e. total number of *K*-points is increased by `n^3` 
+times) before being returned to satisfy the `min_distance` requirement.
+Currently the maximum value of `n` is set to 3. The thresholds of maximum total number of 
+*K*-points for exhaustive search are 729 (9x9x9) for triclinic structures, 
+1728 (12x12x12) for monoclinic structures, 5832 (18x18x18) for orthorhombic, tetragonal, 
+trigonal and hexagonal structures, and 46656 (36x36x36) for cubic structures. User can 
+increase the maximum value of `n` and these thresholds in 
+`KPointLatticeGenerator::useScaleFactor` and recompile.
+
+The C++ library turns on and off this scheme through the function
+`KPointLatticeGenerator::useScaleFactor`. It accepts the space group numbers of input structures
+to provide the flexibility of selectively using this scheme for a subset of user selected lattice
+types.
