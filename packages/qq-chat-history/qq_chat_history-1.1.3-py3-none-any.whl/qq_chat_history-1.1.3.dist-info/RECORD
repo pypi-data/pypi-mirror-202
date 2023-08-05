@@ -1,0 +1,10 @@
+qq_chat_history/__init__.py,sha256=7PTcFf8mSmEcbe1zE9FVXtEp7Q9fOk97Grub13r9ZS8,168
+qq_chat_history/body.py,sha256=YAJAGlqG4ViLk-iv1QKK5KT_j2vxyyqVRWd4mTXkncA,5484
+qq_chat_history/cli.py,sha256=89rzyXSEldZ7WYZkXxGcpKtH9IZoDBYtNygxMmuLxYM,1011
+qq_chat_history/message.py,sha256=cMHffPbHJD0Uk1ux2RixJhJCTReTJ5MNaGO-7V1EgnI,450
+qq_chat_history/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qq_chat_history-1.1.3.dist-info/entry_points.txt,sha256=aEZOJnkHcVcClHenT4YF1QGlZOkgtTGekbFoo_mEbnM,59
+qq_chat_history-1.1.3.dist-info/LICENSE,sha256=BvMQR2_N6wzT1ETkMzA3NLLyDvM7YAG9mvieI3xreWQ,1084
+qq_chat_history-1.1.3.dist-info/METADATA,sha256=u_hp7VINFk6O6w7j1WTvl6vrEawp0m5fJTxruzWSiuo,3295
+qq_chat_history-1.1.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+qq_chat_history-1.1.3.dist-info/RECORD,,
