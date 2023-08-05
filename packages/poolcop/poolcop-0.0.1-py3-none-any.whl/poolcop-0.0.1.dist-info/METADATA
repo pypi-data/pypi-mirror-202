@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: poolcop
+Version: 0.0.1
+Summary: Asynchronous Python client for the PoolCopilot API
+Home-page: https://github.com/sstriker/python-poolcop
+License: Apache-2.0
+Keywords: poolcop,poolcopilot,api,async,client
+Author: Sander Striker
+Author-email: s.striker@striker.nl
+Maintainer: Sander Striker
+Maintainer-email: s.striker@striker.nl
+Requires-Python: >=3.10,<4.0
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: aiohttp (>=3.0.0)
+Requires-Dist: yarl (>=1.6.0)
+Project-URL: Bug Tracker, https://github.com/sstriker/python-poolcop/issues
+Project-URL: Changelog, https://github.com/sstriker/python-poolcop/releases
+Project-URL: Documentation, https://github.com/sstriker/python-poolcop
+Project-URL: Repository, https://github.com/sstriker/python-poolcop
+Description-Content-Type: text/markdown
+
+Asynchronous Python client for the [PoolCopilot API][poolcopilot-api].
+
+## About
+
+A python package to interact with a [PoolCop][poolcop] device.
+
+## Installation
+
+```bash
+pip install poolcop
+```
+
+## Usage
+
+```python
+import asyncio
+import json
+from poolcop import PoolCopilot
+
+API_KEY="xxxxxxxxxxxxxxxxxxxxxxx"
+
+async def main() -> None:
+    """Show example on fetching the status from PoolCop."""
+    async with PoolCopilot(api_key=API_KEY) as client:
+        status = await client.status()
+    print(json.dumps(status, indent=2))
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+[poolcop]: https://www.poolcop.com/
+[poolcopilot-api]: https://poolcopilot.com/api/docs/
+

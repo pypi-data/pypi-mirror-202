@@ -1,0 +1,8 @@
+poolcop/__init__.py,sha256=I2OJCduVQ4veuH1Ft8uMpr0kscATWLF67U3F0Jv6yX0,432
+poolcop/const.py,sha256=VnQ-B1F5w_JO5O3ejAcaOKSkwb5vGG8QC7LGk14rFTg,207
+poolcop/exceptions.py,sha256=Dq-tikpMvuAGnFG-OgxIiLMPdSc7pxASDkJMg3MSEv0,411
+poolcop/poolcop.py,sha256=Yrs4UnlSJ9OY79Ipxixev4JUIwpRkrrHfHVF7XML-U4,7788
+poolcop-0.0.1.dist-info/LICENSE,sha256=PAFc_Xjk4wa3_Yaz2q5nMco9gK08BaVL5sCGQ_mE-YE,10759
+poolcop-0.0.1.dist-info/METADATA,sha256=T1F1xWfLL6EYysE2aZejwEup1z7XFqNh5A8C2HeloqY,2011
+poolcop-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+poolcop-0.0.1.dist-info/RECORD,,
