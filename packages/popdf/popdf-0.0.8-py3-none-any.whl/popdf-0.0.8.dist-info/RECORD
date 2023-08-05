@@ -1,0 +1,15 @@
+popdf/__init__.py,sha256=XZUac3_aQcNlni_G_FTD4qHa1TvMXzbyi5LsLk_tK1g,29
+popdf/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+popdf/api/pdf.py,sha256=TnKBZ8jrHDvVpshxYA1PUdINCsq5qj9YeWg7O8oJMrw,1663
+popdf/core/PDFType.py,sha256=s9qkVE4BCQTh0rAaBJITl6OJghrWQPKqABHZz-KyKhw,8595
+popdf/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+popdf/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+popdf/lib/pdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+popdf/lib/pdf/add_watermark_service.py,sha256=Na5yKq7dX9itN9E7ZaX8QB4UmW0sOuOTmwxuET4ziFU,2111
+tests/__init__.py,sha256=g0NXVLPaAHPwBi_bx0vZ7ZVxB4YqMLpk4ROIZN0AL_I,181
+tests/test_pdf.py,sha256=fjq9kcU5NSlTb-9B_cS2L79hJi0J8zp0qORK_PVI8Vk,2089
+popdf-0.0.8.dist-info/LICENSE,sha256=GQ6XaGbsxl2OlUBlk1jLBtkHC8U1p6Bw9E1P1XqYAlU,1093
+popdf-0.0.8.dist-info/METADATA,sha256=b1plYKFRY-4FRo95lVTsQI0R5P-vilMoovXAsYDSxwM,5341
+popdf-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+popdf-0.0.8.dist-info/top_level.txt,sha256=nCR2wxOWSwcPCkWRspoq6U-gBC8Ez0IdLUn6-tjUImI,12
+popdf-0.0.8.dist-info/RECORD,,
