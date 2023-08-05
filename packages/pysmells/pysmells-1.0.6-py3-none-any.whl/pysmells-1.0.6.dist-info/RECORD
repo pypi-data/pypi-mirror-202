@@ -1,0 +1,9 @@
+pysmells/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysmells/analyze.py,sha256=5BylamPpV1oyBfMtXztePvIf7yICWYo46OFfurk_TnQ,3225
+pysmells/pysmells.py,sha256=Y3hegeKp2ZYADM5uRavOSCWXgnZRXGpoy33fMtMYEDY,3852
+pysmells-1.0.6.dist-info/LICENSE,sha256=BrjAXc8HRAdAajWATX82DzKXTvcHA6KKKC-eeFcr87g,1115
+pysmells-1.0.6.dist-info/METADATA,sha256=h5iwMc4P1ZcqdmdKQCVV1OE24UAvyiwBjXGqws8G2U0,2235
+pysmells-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysmells-1.0.6.dist-info/entry_points.txt,sha256=RVRRjT7GlnFq85jy3UtiAzguLmBaxi81ODV4rgezXQ8,44
+pysmells-1.0.6.dist-info/top_level.txt,sha256=4ZrSYMjk2pyuD10dO9QqtaHQdlHnO6xI42L1o2XbQo4,9
+pysmells-1.0.6.dist-info/RECORD,,
