@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+fastencode/__init__.py
+fastencode/utils.py
+fastencode.egg-info/PKG-INFO
+fastencode.egg-info/SOURCES.txt
+fastencode.egg-info/dependency_links.txt
+fastencode.egg-info/requires.txt
+fastencode.egg-info/top_level.txt

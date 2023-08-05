@@ -1,0 +1,1 @@
+from fastencode.utils import DataObj
