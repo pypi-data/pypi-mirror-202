@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: t-money
+Version: 0.1.0
+Summary: Advanced Python 3.10 Dataclass for handling monetary values, keeping amount and currency together
+Home-page: https://github.com/jordan-dimov/t_money
+License: Creative Commons
+Keywords: money,currency,finance,accounting
+Author: Jordan Dimov
+Author-email: jdimov@a115.co.uk
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Project-URL: Repository, https://github.com/jordan-dimov/t_money
