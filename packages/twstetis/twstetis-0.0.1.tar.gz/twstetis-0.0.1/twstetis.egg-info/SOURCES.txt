@@ -1,0 +1,5 @@
+setup.py
+twstetis.egg-info/PKG-INFO
+twstetis.egg-info/SOURCES.txt
+twstetis.egg-info/dependency_links.txt
+twstetis.egg-info/top_level.txt
