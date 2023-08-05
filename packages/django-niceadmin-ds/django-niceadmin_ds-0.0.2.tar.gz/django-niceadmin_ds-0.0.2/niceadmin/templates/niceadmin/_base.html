@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ======= SEO ======= -->{% include 'niceadmin/base/_seo.html' %}<!-- End SEO -->
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'niceadmin/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'niceadmin/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'niceadmin/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'niceadmin/vendor/quill/quill.snow.css' %}" rel="stylesheet">
+  <link href="{% static 'niceadmin/vendor/quill/quill.bubble.css' %}" rel="stylesheet">
+  <link href="{% static 'niceadmin/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'niceadmin/vendor/simple-datatables/style.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'niceadmin/css/style.css' %}" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->{% include 'niceadmin/base/_header.html' %}<!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->{% include 'niceadmin/base/_sidebar.html' %}<!-- End Sidebar-->
+
+  <main id="main" class="main">
+    {% include 'niceadmin/breadcrumb.html' %}
+    {% block content %}
+    <!-- Content goes here -->
+    {% endblock content %}
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->{% include 'niceadmin/base/_footer.html' %}<!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+
+  <script src="{% static 'niceadmin/vendor/apexcharts/apexcharts.min.js' %}"></script>
+  <script src="{% static 'niceadmin/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'niceadmin/vendor/chart.js/chart.min.js' %}"></script>
+  <script src="{% static 'niceadmin/vendor/echarts/echarts.min.js' %}"></script>
+  <script src="{% static 'niceadmin/vendor/quill/quill.min.js' %}"></script>
+  <script src="{% static 'niceadmin/vendor/simple-datatables/simple-datatables.js' %}"></script>
+  <script src="{% static 'niceadmin/vendor/tinymce/tinymce.min.js' %}"></script>
+  <!--<script src="{% static 'niceadmin/vendor/php-email-form/validate.js' %}"></script>-->
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'niceadmin/js/main.js' %}"></script>
+
+</body>
+
+</html>

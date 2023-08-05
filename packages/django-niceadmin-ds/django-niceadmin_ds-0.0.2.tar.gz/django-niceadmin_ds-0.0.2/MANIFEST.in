@@ -1,0 +1,10 @@
+include LICENSE
+include README.md
+recursive-include niceadmin/static *
+recursive-include niceadmin/templates *
+recursive-exclude niceadmin/migrations *
+recursive-exclude staticfiles *
+recursive-exclude mytester *
+recursive-exclude mytesterapp *
+recursive-exclude _data *
+recursive-exclude _static *
