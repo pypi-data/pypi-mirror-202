@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: vectordbs
+Version: 0.1.0
+Summary: A python library that supports all vector databases specifically for LLM apps and frameworks
+License: Apache 2.0
+Author: Timothy Chen
+Author-email: tnachen@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: chromadb (>=0.3.21,<0.4.0)
+Requires-Dist: pinecone-client (>=2.2.1,<3.0.0)
+Requires-Dist: weaviate-client (>=3.15.5,<4.0.0)
+Description-Content-Type: text/markdown
+
+# vectordbs
+
+Vectordbs is a python library that supports all vector databases specifically for LLM apps and frameworks.
+
+Currently all LLM frameworks and apps (Llama-Index, Open AI, Langchain, Baby AGI, etc) are all having to reimplement support for each vector database with a lot of redundant work, and this library is hoping to existing and new frameworks don't have to reinvent the wheel.
+
+## List of Supported Vector databases 
+
+
+| Task           | Supported |
+|----------------|-----------|
+| Chroma         |  :x:      |
+| Pinecone       |  :x:      |
+| Weaviate       |  :x:      |
+| Qdrant         |  :x:      |
+| Milvus         |  :x:      |
+| Redis          |  :x:      |
+| Opensearch     |  :x:      |
+| Postgres       |  :x:      |
+
+
+## Install
+
+```
+pip install vectordbs
+```
+

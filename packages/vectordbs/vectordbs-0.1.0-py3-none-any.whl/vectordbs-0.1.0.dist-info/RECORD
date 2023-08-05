@@ -1,0 +1,14 @@
+vectordbs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vectordbs/datastore.py,sha256=UovH-b9mHi33vizTC1C_KxyLArsszd4c22iLYDvlEak,3004
+vectordbs/factory.py,sha256=NJwzl8yCDpG4RG8qnYeL9wqAGTTqg2j0HV_6r7CLGOQ,1268
+vectordbs/providers/llama_datastore.py,sha256=DGXpPx-Aq8xsDh_7XNZV-KwdyGmXEk5aITbVjVdpw5Q,7095
+vectordbs/providers/milvus_datastore.py,sha256=7GRu3ZnevFDfnfYUX9GSn7KAcUbCRD2SW67n5gZKSAc,25175
+vectordbs/providers/pinecone_datastore.py,sha256=WNBi4-vP58EqGtGdapdy78ARDIisPAudru1_lzgEO5Y,10948
+vectordbs/providers/qdrant_datastore.py,sha256=sDYq6XGjx3MiDE6VGW-8mnVuWFUfL-IfPf8RZM0BUyw,10895
+vectordbs/providers/redis_datastore.py,sha256=xmIGU8bYPdJ7cc50cTmeutYQ4-eS4RI842gp0UvTHEA,13612
+vectordbs/providers/weaviate_datastore.py,sha256=JeU5kaETezTsnYLMlJT3QHWVKfYMsw6-o-0uldNXsSU,13398
+vectordbs/providers/zilliz_datastore.py,sha256=0Rg9pprvVhsEHtaRg2rBu2wWMgfurbNvJk3oD5zDaGE,2469
+vectordbs-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vectordbs-0.1.0.dist-info/METADATA,sha256=uBBv588mUBnHEiPM1Ppuyrzc40XjJGxoXvI8r45jLSc,1426
+vectordbs-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+vectordbs-0.1.0.dist-info/RECORD,,
