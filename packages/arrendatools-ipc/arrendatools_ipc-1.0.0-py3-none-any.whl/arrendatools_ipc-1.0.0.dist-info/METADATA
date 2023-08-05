@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: arrendatools-ipc
+Version: 1.0.0
+Summary: Módulo de Python que realiza la actualización de rentas de alquiler por anualidades completas con el IPC (LAU) descrita en la web del INE de España. 
+Home-page: https://github.com/hokus15/ArrendaToolsIPC
+Author: hokus15
+Author-email: hokus@hotmail.com
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: requests (>=2.28.2)
+
