@@ -1,0 +1,10 @@
+cpggen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cpggen/cli.py,sha256=Jw2sln59Q8Xwcc0SKSgataXGvjgyyBRbcwb0WNnXDP8,12106
+cpggen/executor.py,sha256=4kvB7VEGJpiaoA3YbnvAD0vqi_pnX0a4hgD9ZuAYPXE,18921
+cpggen/logger.py,sha256=_m2AtD8E55nZotKe6VFgUJiAuQTYhd1xGpbegh5lN_M,731
+cpggen/utils.py,sha256=ebFFmVZQOlztxsDBeF3EhK8_Iq8HjypaOcFeY-dnnoY,9682
+cpggen-0.8.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cpggen-0.8.0.dist-info/METADATA,sha256=fV2HEw5hqwsKp0dbty8YckPZ2KPa-5MqebqsanHZXsQ,7802
+cpggen-0.8.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+cpggen-0.8.0.dist-info/entry_points.txt,sha256=c2p22jU2wMW4oJxrWuwZGlmIqiwYykEmP-sHXluO-ic,42
+cpggen-0.8.0.dist-info/RECORD,,
