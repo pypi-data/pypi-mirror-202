@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: vajirayana
+Version: 0.0.2
+Summary: an unofficial python API interface for Vajirayana
+Author: hrnph
+Author-email: hrnph@protonmail.com
+Keywords: python,api,scraper,vajirayana,vajirayana-scraper
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.md
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: lxml
+
+Vajirayana Scraper an unofficial python API interface for Vajirayana
