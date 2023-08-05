@@ -1,0 +1,3 @@
+[console_scripts]
+holophonor = holophonor.main.py
+

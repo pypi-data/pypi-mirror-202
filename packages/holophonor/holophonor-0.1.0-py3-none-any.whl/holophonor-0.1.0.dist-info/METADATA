@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: holophonor
+Version: 0.1.0
+Summary: Live looping, unlimited!
+Author-Email: Quaternion Media <holophonor@quaternion.media>
+License: MIT
+Requires-Python: <4,>=3.8.1
+Requires-Dist: pluggy<1.1,>=1.0.0
+Requires-Dist: python-rtmidi<1.5,>=1.4.9
+Requires-Dist: loguru>=0.6.0
+Description-Content-Type: text/markdown
+
+# holophonor
+**Live looping, unlimited!**
+
+The **Holophonor** project is an plugin based architecture, designed to allow complex control of loops with a variety of hardware components and network controllers to allow complete control of any number of loops running simultaneously, even over multiple machines with large network latency!
+
+## install
+Clone this repo:
+
+`git clone https://github.com/quaternionmedia/holophonor.git`
+
+Install locally:
+
+`pip install -e holophonor/`
+
+## configure
+change holophonor/main.py to match your configuration
+
+## run
+From a terminal, run:
+
+`holophonor`
+

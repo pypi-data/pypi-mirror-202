@@ -1,0 +1,15 @@
+holophonor-0.1.0.dist-info/METADATA,sha256=58VVeBMkt53JXY67vblbYWHjGkuEL_nPIP7IOmmvTDY,925
+holophonor-0.1.0.dist-info/WHEEL,sha256=j5qD68VbWsRrUqUc-qyjZesFWZrtgi64OOVWWO8Mgvo,90
+holophonor-0.1.0.dist-info/entry_points.txt,sha256=2wOXA8jO7EjUINvsp25Rj2zNKSW8CM35q1nWQ8lRVKA,51
+holophonor/__init__.py,sha256=NNn9TmNQ2zNKqxG0rLtFJYjxnQgMIeEfRplfuTyrWO4,226
+holophonor/_version.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+holophonor/constants.py,sha256=-O1roCw7a37Y76nlCDXfveZ0y3DQgzDjWlkajMPRRYg,271
+holophonor/daw.py,sha256=J5CXajKw0zyAEmXXuIi52YOWdBKLi3tMr7VeBJdWo3M,668
+holophonor/freewheeling.py,sha256=ZGSmUgFJ-JD1wS6F_bc4tf9xUSvoOoGfJ8iqq29BXEg,4262
+holophonor/holospecs.py,sha256=b0hS1ZoWyvpu9iY8rYNHry81PJBUYBaMzGqoAWPbuTg,2689
+holophonor/launchpadMK2.py,sha256=ZuZFuJARriat2tbCN99EXjm5zFY8VQBdv0im_YWhbRk,301
+holophonor/launchpadS.py,sha256=n4rCyiZDGCuyo1msKCeOwOjwKK-B1D_UNnCS4_CHVvk,3784
+holophonor/launchpadX.py,sha256=MMXKjP99yVe6bzjPbCi8j8T521rndgU9UbzLvFeNVrs,19004
+holophonor/main.py,sha256=LHAnfDkEL8oNL0aHdSpgQtySKo2fXQ51UkVFY63wvIs,1140
+holophonor/qsynth.py,sha256=s5aFKGDS-y3kjSq8BaGAQIWwLeGZwyUV_6IjY-phucw,657
+holophonor-0.1.0.dist-info/RECORD,,
