@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+EasyDeL/__init__.py
+EasyDeL.egg-info/PKG-INFO
+EasyDeL.egg-info/SOURCES.txt
+EasyDeL.egg-info/dependency_links.txt
+EasyDeL.egg-info/requires.txt
+EasyDeL.egg-info/top_level.txt
