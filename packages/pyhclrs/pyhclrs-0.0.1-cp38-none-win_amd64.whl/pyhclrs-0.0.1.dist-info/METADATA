@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyhclrs
+Version: 0.0.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# pyhclrs
+Python wrapper for [martinohmann/hcl-rs](https://github.com/martinohmann/hcl-rs).
+
+## Setup
+```sh
+pip install pyhclrs
+```
+
+## Usage
+```py
+>>> import pyhclrs
+>>> pyhclrs.loads("""variable "docker_ports" {
+...   type = list(object({
+...     internal = number
+...     external = number
+...     protocol = string
+...   }))
+...   default = [
+...     {
+...       internal = 8300
+...       external = 8300
+...       protocol = "tcp"
+...     }
+...   ]
+... }""")
+{'variable': {'docker_ports': {'type': '${list(object({ internal = number, external = number, protocol = string }))}', 'default': [{'internal': 8300, 'external': 8300, 'protocol': 'tcp'}]}}}
+```
