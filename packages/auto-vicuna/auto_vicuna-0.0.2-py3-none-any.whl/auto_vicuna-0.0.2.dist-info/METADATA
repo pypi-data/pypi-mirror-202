@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: auto_vicuna
+Version: 0.0.2
+Summary: An experiment with Vicuna.
+Project-URL: Homepage, https://github.com/BillSchumacher/Auto-Vicuna
+Project-URL: Bug Tracker, https://github.com/BillSchumacher/Auto-Vicuna/issues
+Author-email: Bill Schumacher <34168009+BillSchumacher@users.noreply.github.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: click
+Requires-Dist: fschat
+Requires-Dist: orjson
+Requires-Dist: python-dotenv
+Requires-Dist: redis
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: transformers
+Description-Content-Type: text/markdown
+
+# Auto-Vicuna
