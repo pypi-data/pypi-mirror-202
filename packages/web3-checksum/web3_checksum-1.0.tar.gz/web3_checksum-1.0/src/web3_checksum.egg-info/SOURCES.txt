@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.py
+src/web3_checksum/__init__.py
+src/web3_checksum/get_checksum_address.py
+src/web3_checksum.egg-info/PKG-INFO
+src/web3_checksum.egg-info/SOURCES.txt
+src/web3_checksum.egg-info/dependency_links.txt
+src/web3_checksum.egg-info/requires.txt
+src/web3_checksum.egg-info/top_level.txt
