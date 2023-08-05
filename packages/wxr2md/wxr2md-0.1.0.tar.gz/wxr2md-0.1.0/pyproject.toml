@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wxr2md"
+version = "0.1.0"
+description = "Converter for WordPress eXport RSS (WXR) files into Markdown files"
+authors = ["Dion Susanto <nikolasdion@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+keywords = ["wxr", "wordpress", "markdown"]
+repository = "https://github.com/nikolasdion/wxr2md"
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+markdownify = "^0.11.6"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
