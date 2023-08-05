@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Neuron_package_khajaraouf
+Version: 0.0.1
+Summary: A small AND | OR package using single neuron
+Author-email: Khaja Raoufuddin Ahmed <khajaraouf@gmail.com>
+Project-URL: Homepage, https://github.com/khajaraouf/Neuron_pypi
+Project-URL: Bug Tracker, https://github.com/khajaraouf/Neuron_pypi/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Neuron_pypi
+Neuron_pypi
+
+
+# Reference -
+[official python docs](https://packaging.python.org/tutorials/packaging-projects/)
+
+
+[github docs for github actions](https://docs.github.com/en/actions/guides/building-and-testing-python#publishing-to-package-registries)
