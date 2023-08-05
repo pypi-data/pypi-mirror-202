@@ -1,0 +1,13 @@
+aruco_markers/__init__.py,sha256=_M7DqxmpKA9qPOqOzhldsBkTRUnvWTXF3EsJSMpT_y0,332
+aruco_markers/calibrate.py,sha256=cKXRNJrsBQEnSPEWByQpVxZlgxfS6VYIAF-wGCIROTc,17158
+aruco_markers/camera.py,sha256=kIbOoYOt5yQMvO3fssmVqA35wDseRy9tDnNrC8C4ook,7714
+aruco_markers/detect.py,sha256=LMCpN6EPJW6UGwbfNuVx8LUK6Cbp78xRjczHLo2c_hA,7834
+aruco_markers/main.py,sha256=_9_7z9yatnsjEk46ggnE7t1L3vKpk_j0vnNEOScOaKA,13056
+aruco_markers/marker.py,sha256=-Jkj4SIEsb1TM8zCunubeKinVKYw0s5JKpGz8E044pk,6058
+aruco_markers/utils.py,sha256=5Yg2jfVKIVzHQFxoL_hAOTa5RV7A0pfHmFCUmQq8Q84,426
+aruco_markers-1.1.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aruco_markers-1.1.4.dist-info/METADATA,sha256=MdQxAdtb4eIIveS35GHo8EnzVQ1NIlUGy0MkgkyMo3Y,15046
+aruco_markers-1.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+aruco_markers-1.1.4.dist-info/entry_points.txt,sha256=tnn4H94ro9cYHuqyWmAr5Vl6ebjjDCsq62zgikHBphY,50
+aruco_markers-1.1.4.dist-info/top_level.txt,sha256=L-iHXfzWcAjOSIhZ2FME1SV4GJ4Svfp4mGr4HbH9_Rg,14
+aruco_markers-1.1.4.dist-info/RECORD,,
