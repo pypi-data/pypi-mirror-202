@@ -1,0 +1,1 @@
+from ._log_ import log,show_console

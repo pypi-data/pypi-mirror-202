@@ -1,0 +1,12 @@
+candphy/__init__.py,sha256=2b03AteZ8Oc0md6CweSWBiYfhF9-N1J-l8zfOjMkmgU,187
+candphy/logs/__init__.py,sha256=u9AUUYoQu56I08QWQnJyM0ZXvCORGWQhAkLYVMKh3xE,35
+candphy/logs/_log_.py,sha256=jXUPxuNjAUmMmqCBNHfLGzifZuQi8FsD2Dr3kYClRPM,265
+candphy/waves/__init__.py,sha256=gQcQ0fjbrvWUELgMwN4sLYuqtml9k6Cye4kwHBeMYck,113
+candphy/waves/gwaves.py,sha256=P_jJ92gmmGsB6R8kYUT6mCr3VvmH8O1nT7tPBNKdaqw,7860
+candphy/waves/plot.py,sha256=Q20o6__6Mj1gYNfnlFrEmqGQxfeL_dayEKKXymzFEQw,1149
+candphy/waves/sdr.py,sha256=3Zqt5da7ae5IdCDp8TxuFeoJhiaq6A6c53At6KSC_hk,1434
+candphy-0.0.2021.dist-info/LICENSE,sha256=3-GlIEVU7asdPr6aCmtazGIYHEDRxVWTOUBC9LzwAFI,1067
+candphy-0.0.2021.dist-info/METADATA,sha256=nnAM4A5TMeQhF4Dhyc9744qiuncMHv0pmw_nRBEHf8A,8450
+candphy-0.0.2021.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+candphy-0.0.2021.dist-info/top_level.txt,sha256=UI3q6bhwU98tVW-YB-rmkH-usl5tLV6ZIldDW2OvA2k,8
+candphy-0.0.2021.dist-info/RECORD,,
