@@ -1,0 +1,3 @@
+[console_scripts]
+Medical_media = main.main:main
+
