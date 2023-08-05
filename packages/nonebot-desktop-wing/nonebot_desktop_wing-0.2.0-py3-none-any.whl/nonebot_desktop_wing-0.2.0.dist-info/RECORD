@@ -1,0 +1,13 @@
+nonebot_desktop_wing/__init__.py,sha256=70JsVrAih9AfzCNf5fx-svQfgEkOEhI-s4XPNIARs00,933
+nonebot_desktop_wing/constants.py,sha256=frIBb81SOhObTfXnGRuD8oLITgp-fMaB6xg87-TCM30,570
+nonebot_desktop_wing/hindsight.py,sha256=zd5fj3eVV4VuD01zCn8exXFSc55OTt_wkuyLe0knYPQ,1651
+nonebot_desktop_wing/lazylib.py,sha256=vkdXt2sOc-Moe-O4XGysC4Yc75o7b_jIQ8ccgtS2Mno,884
+nonebot_desktop_wing/lazylib.pyi,sha256=0Jq7ms1NhSCThWQHMVq_SOuz_eA748PhtT6jnnawxGU,699
+nonebot_desktop_wing/molecules.py,sha256=EHQqUspCGMbrOnFGimO7o5BmyTbxuiwtU4ejxJv4npI,5085
+nonebot_desktop_wing/project.py,sha256=JYndRoB6_zDcx6i1O4OBIffd0NcfqLiX2wxz9BKtybI,3892
+nonebot_desktop_wing/resources.py,sha256=QO_N7SZE2OPq_gceV9xkHlEneKRStvRRpWyjFfUeW3c,953
+nonebot_desktop_wing-0.2.0.dist-info/LICENSE,sha256=EZuxhuQyroi5kdIW6P2La2g2nmHjDcRGNbUZALPNqz8,1068
+nonebot_desktop_wing-0.2.0.dist-info/METADATA,sha256=qoqaqznbfY1sE9NwjnXMEz07Eb_8ht8Wu_pe1ukX7UE,2491
+nonebot_desktop_wing-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+nonebot_desktop_wing-0.2.0.dist-info/top_level.txt,sha256=Uu4whmDZbjtdfIUvMy2twLI0blaycZEvPe6oYXjIz0Y,21
+nonebot_desktop_wing-0.2.0.dist-info/RECORD,,
