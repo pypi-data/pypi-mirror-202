@@ -1,0 +1,7 @@
+README.md
+setup.py
+my_precious_lotr_sdk.egg-info/PKG-INFO
+my_precious_lotr_sdk.egg-info/SOURCES.txt
+my_precious_lotr_sdk.egg-info/dependency_links.txt
+my_precious_lotr_sdk.egg-info/requires.txt
+my_precious_lotr_sdk.egg-info/top_level.txt
