@@ -1,0 +1,10 @@
+version: 1
+
+target: null
+
+connections:
+  dev:
+    engine: not-supported
+    url:
+      drivername: sqlite
+      database: db/dev-database.db
