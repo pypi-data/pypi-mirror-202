@@ -1,0 +1,17 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
+[tool.poetry.scripts]
+tdms = "tdms.main:main"
+
+[tool.poetry]
+name = "tdms"
+version = "v0.1.0"
+description = "A simple table mapping tool for the command line to be used with AWS DMS"
+authors = ["Xhulio Mihali"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.urls]
+"Source" = "https://github.com/Julio-M/tdms"
