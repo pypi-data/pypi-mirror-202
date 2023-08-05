@@ -1,0 +1,6 @@
+README.txt
+setup.py
+PowerWrapper.egg-info/PKG-INFO
+PowerWrapper.egg-info/SOURCES.txt
+PowerWrapper.egg-info/dependency_links.txt
+PowerWrapper.egg-info/top_level.txt
