@@ -1,0 +1,6 @@
+.DS_Store
+setup.py
+datastructuresLionelHandEricM.egg-info/PKG-INFO
+datastructuresLionelHandEricM.egg-info/SOURCES.txt
+datastructuresLionelHandEricM.egg-info/dependency_links.txt
+datastructuresLionelHandEricM.egg-info/top_level.txt
