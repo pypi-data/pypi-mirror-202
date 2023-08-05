@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: tulp
+Version: 0.3.2
+Summary: TULP: TULP Understands Language Perfectly
+
+A command line tool, in the best essence of POSIX tooling, that will help you to **process**, **filter**, and **create** data in this new Artificial Intelligence world.
+
+Home-page: https://github.com/fedenunez/tulp
+Author: Federico Nuñez (fedenunez)
+Author-email: fedenunez@gmail.com
+Maintainer: Federico Nuñez (fedenunez)
+Maintainer-email: fedenunez@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/fedenunez/tulp
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.*
