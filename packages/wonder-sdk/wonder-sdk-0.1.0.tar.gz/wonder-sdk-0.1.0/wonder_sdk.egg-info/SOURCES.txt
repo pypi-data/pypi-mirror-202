@@ -1,0 +1,8 @@
+setup.py
+wonder_sdk/wonder_sdk.py
+wonder_sdk/wonder_sdk_config.py
+wonder_sdk.egg-info/PKG-INFO
+wonder_sdk.egg-info/SOURCES.txt
+wonder_sdk.egg-info/dependency_links.txt
+wonder_sdk.egg-info/requires.txt
+wonder_sdk.egg-info/top_level.txt
