@@ -1,0 +1,13 @@
+setup.py,sha256=KNHToOi9n7Ls7dCAbk4SVVB2e9BVXP_45weSJgYrEgE,1907
+alfred5/__init__.py,sha256=aFSU_g9xXCDKUpDH7ZX7aC7z-nNmkBzyrpAmjfzORFY,228
+alfred5/client.py,sha256=Sq4okTyiDSV65h34d8vGCZZCikCACItTmI4BzvIm08Y,6206
+alfred5/errors.py,sha256=d_s1embKvDAMVOwB_a_QytRLxqzxhTavgDJsFLyT6q8,243
+alfred5/models.py,sha256=yuJon6yUCktsuRxMPT0Kwt58U_FIIbh2lvJxekuggpM,2221
+alfred5/icons/error.png,sha256=cc269rkFhcDqM0y0TKjRquEZcijOQaA8kiX51bUyw0Q,35477
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_snippets.py,sha256=ca5l4nkn3lWmwJDWlHvPNUcfzN7EQ-qBuux_Z5pRqY0,232
+alfred5-1.0.9.dist-info/LICENSE,sha256=E9E_fhlg4GMioC8_mAKYzbYk7cmV48wxaUe_R1cNsMk,11359
+alfred5-1.0.9.dist-info/METADATA,sha256=yFF5PlhRIzZZFZr8jJu1YrwtD46Thanco_2ceWSc4dQ,4488
+alfred5-1.0.9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+alfred5-1.0.9.dist-info/top_level.txt,sha256=aWEQiEtFDVefysa5pSHvcZDFqVC5wbCY4EvkaCsXRy4,20
+alfred5-1.0.9.dist-info/RECORD,,
