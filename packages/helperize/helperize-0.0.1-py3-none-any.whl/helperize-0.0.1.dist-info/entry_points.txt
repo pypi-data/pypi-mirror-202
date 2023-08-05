@@ -1,0 +1,3 @@
+[console_scripts]
+helperize=helperize.cli.cli:app
+

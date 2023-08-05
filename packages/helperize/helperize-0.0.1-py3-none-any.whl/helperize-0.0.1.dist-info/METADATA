@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: helperize
+Version: 0.0.1
+Summary: Work with AI helpers that collaborate with you to build practical systems.
+License: MIT
+Author: Michael Vogelsong
+Author-email: 4020875+mjvogelsong@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: rich (>=13.3.3,<14.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# Helperize
+
+This is an experiment to build an AI helper.
+
+## Install
+
+```shell
+pip install helperize
+```
+
+## Usage
+
+```shell
+# See all available commands
+poetry run helperize -h
+```
+
+## Development
+
+For development, we use `poetry` to manage dependencies. To install `poetry`, follow the
+instructions [here](https://python-poetry.org/docs/#installation). Then you can install the project:
+
+```shell
+make install
+```
+
