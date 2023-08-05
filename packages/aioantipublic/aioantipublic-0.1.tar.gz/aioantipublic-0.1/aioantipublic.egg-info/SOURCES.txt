@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+aioantipublic/__init__.py
+aioantipublic/aioantipublic.py
+aioantipublic.egg-info/PKG-INFO
+aioantipublic.egg-info/SOURCES.txt
+aioantipublic.egg-info/dependency_links.txt
+aioantipublic.egg-info/top_level.txt

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: aioantipublic
+Version: 0.1
+Summary: Async API wrapper for antipublic
+Home-page: https://github.com/fantomcvc/aioantipublic
+Author: fantomcvc
+Author-email: fantomcvv@gmail.com
+License: MIT License
