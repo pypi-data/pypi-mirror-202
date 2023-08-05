@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: discord-data-storage
+Version: 0.0.0
+Summary: Encrypted data storage with a format based on Discord
+Home-page: https://github.com/jfechete/DiscordDataStorage
+Author: jfechete
+Requires-Dist: cryptography
+
