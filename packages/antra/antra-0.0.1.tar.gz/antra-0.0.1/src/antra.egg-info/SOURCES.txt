@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/antra.egg-info/PKG-INFO
+src/antra.egg-info/SOURCES.txt
+src/antra.egg-info/dependency_links.txt
+src/antra.egg-info/top_level.txt
