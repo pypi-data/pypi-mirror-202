@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: aprilgrid
+Version: 0.2.2
+Summary: Pure python version of aprilgrid.
+Project-URL: Source, https://github.com/powei-lin/AprilGrid
+Project-URL: Documentation, https://github.com/powei-lin/AprilGrid#readme
+Project-URL: Issues, https://github.com/powei-lin/AprilGrid/issues
+Author-email: Powei Lin <poweilin1994@gmail.com>
+License-Expression: BSD-3-Clause
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Description-Content-Type: text/markdown
+
+# Aprilgrid
+
+### Pure python version of aprilgrid
+
+<img src="example/showcase.avif" width="800" alt="Slow down for show case.">
+
+## Install from PyPI
+```
+pip install aprilgrid
+```
+
+## Usage
+Some examples of usage can be seen in the example/main.py file.
+
+```py
+from aprilgrid import Detector
+
+detector = Detector("t36h11")
+
+detector.detect(img)
+```
+## Development
+```sh
+git clone https://github.com/powei-lin/aprilgrid.git
+cd aprilgrid
+pip install -e .
+```
+
+## TODO
+- [ ] Clean up unused debug code.
+- [ ] Add output for opencv calibrate camera.
+- [ ] Provide pregenerated pdf and easy way to customize.
+- [ ] Support all tag families.
+- [ ] Accelerate and multi-threading.
+- [ ] Robustness.
+
+## Reference
+https://github.com/ethz-asl/kalibr
