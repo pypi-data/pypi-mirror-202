@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: metaflow-card-corise
+Version: 1.0.1
+Summary: Metaflow card template for the full-stack ML with Metaflow Corise course
+Author: Ville Tuulos
+Author-email: ville@outerbounds.co
+License: Apache Software License 2.0
+License-File: LICENSE

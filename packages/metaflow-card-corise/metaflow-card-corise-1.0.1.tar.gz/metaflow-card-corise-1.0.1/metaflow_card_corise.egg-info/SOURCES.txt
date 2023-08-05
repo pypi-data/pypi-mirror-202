@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+metaflow_card_corise.egg-info/PKG-INFO
+metaflow_card_corise.egg-info/SOURCES.txt
+metaflow_card_corise.egg-info/dependency_links.txt
+metaflow_card_corise.egg-info/not-zip-safe
+metaflow_card_corise.egg-info/top_level.txt
+metaflow_extensions/corise/__init__.py
+metaflow_extensions/corise/plugins/cards/corise/__init__.py
+metaflow_extensions/corise/plugins/cards/corise/base.html
+metaflow_extensions/corise/plugins/cards/corise/bundle.css
+metaflow_extensions/corise/plugins/cards/corise/main.js
