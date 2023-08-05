@@ -1,0 +1,17 @@
+[project]
+name = "nlterm"
+version = "0.0.4"
+authors = [{ name = "Tom Shen", email = "me@tomshen.io" }]
+requires-python = ">=3.7"
+description = "Terminal with ChatGPT integration"
+readme = "README.md"
+
+dependencies = ["openai"]
+
+classifiers = ["Programming Language :: Python :: 3"]
+
+[project.scripts]
+nlterm = "nlterm:main"
+
+[project.urls]
+homepage = "https://github.com/tsunrise/nlterm"
