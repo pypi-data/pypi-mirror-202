@@ -1,0 +1,12 @@
+letterboxd_stats/__init__.py,sha256=HjoJ7de49W7zj_fPlF2fkKlnTuOfxl3Xp5JXXlvMZoE,1563
+letterboxd_stats/cli.py,sha256=5lTXM97LMXQrVWa2Etlknd5H5RyHQ72_ZpEec0Psr4Y,5216
+letterboxd_stats/data.py,sha256=uWfeWSb2VmlLpLsuj7YkjHP0dXc-owqF8aUW0I79fuo,3494
+letterboxd_stats/main.py,sha256=oI4pkz677pke9BXN3FylHxaYIGhwX1ronSi7f2Js6oM,3175
+letterboxd_stats/tmdb.py,sha256=fwuQ2Me1YjutvggO2crY-l3ATiuXKBcToeSi4szD1ww,2574
+letterboxd_stats/web_scraper.py,sha256=-bBsVHLh34U5IId_oPDauLI_GfHPlI83TldbzKcqkN8,4697
+letterboxd_stats-0.1.4.dist-info/LICENCE,sha256=KKXVTlf904_xZHMaSXqmBJwxbE0nsfxBOcM9nTKBSHg,1089
+letterboxd_stats-0.1.4.dist-info/METADATA,sha256=6eM6O_SdPBhDhtu1fl_F1QejmP8lgRM0b5N9rMeQcGU,2967
+letterboxd_stats-0.1.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+letterboxd_stats-0.1.4.dist-info/entry_points.txt,sha256=9AIpY3rfHZTMgD2flcq5c4L8wfTRqrwf-Lhs3Yr2AGg,64
+letterboxd_stats-0.1.4.dist-info/top_level.txt,sha256=SqoMtfQroyNHzpv_cclp4RnlIoynXZI23juo7Z6ubQo,17
+letterboxd_stats-0.1.4.dist-info/RECORD,,
