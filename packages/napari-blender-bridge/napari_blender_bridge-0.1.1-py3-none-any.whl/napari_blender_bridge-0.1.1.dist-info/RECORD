@@ -1,0 +1,12 @@
+napari_blender_bridge/__init__.py,sha256=l8k7-U3JIpHxNk9oNHa2PBDH5bqdcIDAz4JVx3Bdaoo,118
+napari_blender_bridge/_blender_server.py,sha256=rwp2rj98kQH9wPlec6mqO2gat-dG4hlEt-CzhvTgIUg,3011
+napari_blender_bridge/_function.py,sha256=ZufuSiEld7LQaI62ImrCLvtDbNZ3pF4FSVWYPrnAZwM,1994
+napari_blender_bridge/_public_api.py,sha256=xnmwcpJZBuXOVhIgCSwAdwzvO0ERxOStMEWylE_MGg0,2380
+napari_blender_bridge/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_blender_bridge/_tests/test_function.py,sha256=4sceMfXZhoaq1CuMb8LAdND9XgzaZUo26VA_6bRpX58,93
+napari_blender_bridge-0.1.1.dist-info/LICENSE,sha256=gJon-0UQWZlaTlTLL-1QVg9taV4Qitd3ZxECMoKhC68,35823
+napari_blender_bridge-0.1.1.dist-info/METADATA,sha256=EtxVaS4cs_yM9VNJNRIV0qCvqTjKOqOu30wiGwC5ieo,5184
+napari_blender_bridge-0.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+napari_blender_bridge-0.1.1.dist-info/entry_points.txt,sha256=JQJ65rBh2c7QDygkvwKUHyltXZdTt9fOdmgwFkv5nNQ,62
+napari_blender_bridge-0.1.1.dist-info/top_level.txt,sha256=Ls6DgX9IvR893PuA8J_xUDwcx1rQ07lB12CPfTt-Sf8,22
+napari_blender_bridge-0.1.1.dist-info/RECORD,,
