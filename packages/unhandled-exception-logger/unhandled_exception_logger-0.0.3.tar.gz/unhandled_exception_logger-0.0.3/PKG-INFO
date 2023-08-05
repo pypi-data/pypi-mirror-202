@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: unhandled_exception_logger
+Version: 0.0.3
+Summary: Log unhandled exceptions as critical
+Home-page: https://github.com/karmacomputing/unhandled_exception
+Author: Chris Simpson
+Author-email: oss@karmacomputing.co.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+
+# Log Unhandled Exceptions
+
+This package will log unhandled exceptions as a critical error.
+
+# Install
+
+```
+pip install unhandled-exception-logger
+```
+
+# Usage
+
+For use in generic python code:
+
+```
+from unhandled_exception_logger import unhandled_exception_setup
+
+unhandled_exception_setup()
+```
+
+## Flask usage
+
+If using Flask, then you'll need to register the `handle_exception` function
+using the `@app.errorhandler(Exception)` decorator, otherwise Flask 500
+errors won't be sent.
+```
+from unhandled_exception_logger import unhandled_exception_setup, handle_exception
+import logging
+
+unhandled_exception_setup()
+
+app = Flask(__name__)
+logging.getLogger("werkzeug").disabled = True
+app.logger.disabled = True
+@app.errorhandler(Exception)
+def flask_handle_exception(e):
+    handle_exception(sys.exc_info()[0], sys.exc_info()[1], sys.exc_info()[2])
+
+@app.route("/")
+def home():
+    return "home"
+
+```
+
+If you wish to, you can pass a custom handler to these critical unhandled
+exceptions:
+
+
+```
+import sys
+import logging
+import os
+from flask import Flask
+from unhandled_exception_logger import (
+    unhandled_exception_setup,
+    handle_exception,
+)
+
+PYTHON_LOG_LEVEL = os.getenv("PYTHON_LOG_LEVEL", "DEBUG")
+
+
+# Register myChstomHandler log handler
+myChstomHandler = MyCustomHandler()
+myChstomHandler.setLevel("CRITICAL")
+
+unhandled_exception_setup(handler=myChstomHandler)
+
+
+logger = logging.getLogger()
+logger.setLevel(PYTHON_LOG_LEVEL)
+logger.addHandler(myChstomHandler)
+
+
+# # Direct all uncaught exceptions to handle_exception
+sys.excepthook = handle_exception
+
+# Minimal python app example with example unhandled exception
+app = Flask(__name__)
+
+
+@app.errorhandler(Exception)
+def flask_handle_exception(e):
+    handle_exception(
+        sys.exc_info()[0],
+        sys.exc_info()[1],
+        sys.exc_info()[2],
+        handler=MyCustomHandler,  # noqa: E501
+    )
+
+
+@app.errorhandler(500)
+def error_page(e):
+    return "An error occurred"
+
+@app.route("/")
+def home():
+    return "home"
+
+@app.route("/error")
+def error():
+    names = ["Bob", "Alice"]
+    print(names[2])
+    return "<p>Hello, World!</p>"
+```
+
+
+Inspired by
+
+- [Insult error](https://github.com/keithfma/insult_error)
+
+

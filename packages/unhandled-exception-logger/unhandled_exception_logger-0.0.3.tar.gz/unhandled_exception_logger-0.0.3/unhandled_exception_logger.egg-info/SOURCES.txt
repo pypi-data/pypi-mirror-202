@@ -1,0 +1,7 @@
+README.md
+setup.py
+unhandled_exception_logger.py
+unhandled_exception_logger.egg-info/PKG-INFO
+unhandled_exception_logger.egg-info/SOURCES.txt
+unhandled_exception_logger.egg-info/dependency_links.txt
+unhandled_exception_logger.egg-info/top_level.txt
