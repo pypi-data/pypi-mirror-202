@@ -1,0 +1,6 @@
+setup.py
+skilin3/__main__.py
+skilin3.egg-info/PKG-INFO
+skilin3.egg-info/SOURCES.txt
+skilin3.egg-info/dependency_links.txt
+skilin3.egg-info/top_level.txt
