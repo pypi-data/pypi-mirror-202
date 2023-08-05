@@ -1,0 +1,35 @@
+[package]
+name = "lakestream"
+version = "0.0.0"
+edition = "2021"
+description = "Yet another S3 file access util"
+license = "MIT"
+
+[lib]
+name = "lakestream"
+path = "src/lib.rs"
+
+[[bin]]
+name = "lakestream"
+path = "src/main.rs"
+
+[dependencies]
+time = { version = "0.3", features = ["alloc"] }
+percent-encoding = { version = "2.1", default-features = false, features = ["alloc"] }
+hex = { version = "0.4.3", default-features = false, features = ["alloc"] }
+serde = { version = "1.0", features = ["derive", "alloc"] }
+hmac = { version = "0.11.0", default-features = false }
+sha2 = { version = "0.9.8", default-features = false }
+itertools = "0.10.1"
+serde-xml-rs = "0.4.1"
+url = "2.2.2"
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+ureq = { version = "2.2.0", default-features = false, features = ["tls"]}
+
+# [target.'cfg(target_arch = "wasm32")'.dependencies]
+# js-sys = "0.3"
+# web-sys = { version = "0.3", features = ["Request", "RequestInit", "Response", "Window"] }
+# wasm-bindgen = "0.2.84"
+# wasm-bindgen-futures = "0.4"
+
