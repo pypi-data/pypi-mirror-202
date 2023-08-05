@@ -1,0 +1,1 @@
+from tatarubot2.plugins import *
