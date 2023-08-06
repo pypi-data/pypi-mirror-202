@@ -1,0 +1,6 @@
+README.md
+setup.py
+test_pipinstall_whp.egg-info/PKG-INFO
+test_pipinstall_whp.egg-info/SOURCES.txt
+test_pipinstall_whp.egg-info/dependency_links.txt
+test_pipinstall_whp.egg-info/top_level.txt
