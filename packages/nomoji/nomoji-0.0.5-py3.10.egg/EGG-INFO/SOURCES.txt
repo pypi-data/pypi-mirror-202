@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+pytest.ini
+setup.cfg
+setup.py
+nomoji/__init__.py
+nomoji.egg-info/PKG-INFO
+nomoji.egg-info/SOURCES.txt
+nomoji.egg-info/dependency_links.txt
+nomoji.egg-info/top_level.txt
+tests/test_nomoji.py
