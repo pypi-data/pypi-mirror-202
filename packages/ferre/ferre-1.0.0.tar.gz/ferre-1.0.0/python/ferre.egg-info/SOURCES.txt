@@ -1,0 +1,8 @@
+README.rst
+setup.py
+python/ferre/__init__.py
+python/ferre/ferre.py
+python/ferre.egg-info/PKG-INFO
+python/ferre.egg-info/SOURCES.txt
+python/ferre.egg-info/dependency_links.txt
+python/ferre.egg-info/top_level.txt
