@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: winorwin
+Version: 0.0.6
+Summary: winorwin: do stuff
+Home-page: https://github.com/WalidGharianiEAGLE/winorwin
+Author: Walid Ghariani
+Author-email: walid11ghariani@gmail.com
+License: MIT
+Keywords: machine-learning,GIS,spatial
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Requires-Dist: xarray (>=0.17)
+Requires-Dist: rioxarray (>=0.12.2)
+Requires-Dist: scikit-learn (>=0.22)
+Requires-Dist: geopandas (>=0.3)
+Requires-Dist: shapely (>=1.6)
+Requires-Dist: numpy (>=1.21)
+Requires-Dist: pandas (>=0.20)
+Requires-Dist: matplotlib (>=2.2.4)
+Requires-Dist: seaborn (>=0.12.1)
+
+# rs-xarray
+remote sensing with xarray
+
+[![PyPI version](https://badge.fury.io/py/rs-xarray.svg)](https://badge.fury.io/py/rs-xarray)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![pypi](https://img.shields.io/pypi/v/spatial-kfold.svg)](https://pypi.org/project/spatial-kfold/)
+
