@@ -1,0 +1,9 @@
+matplotlib>=2.0.2
+more-itertools
+numpy>=1.16
+
+[test]
+matplotlib==3.6.2
+pytest~=7.2
+pytest-cov==4.0.0
+pytest-mpl==0.16.1
