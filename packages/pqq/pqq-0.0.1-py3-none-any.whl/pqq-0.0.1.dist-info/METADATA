@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pqq
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/nuxion/py-pqq#readme
+Project-URL: Issues, https://github.com/nuxion/py-pqq/issues
+Project-URL: Source, https://github.com/nuxion/py-pqq
+Author-email: Xavier Petit <nuxion@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: psycopg-pool~=3.1.7
+Requires-Dist: psycopg[binary]~=3.1.8
+Requires-Dist: pydantic
+Provides-Extra: jupyter
+Requires-Dist: jupyterlab~=3.6.2; extra == 'jupyter'
+Requires-Dist: jupytext~=1.14.5; extra == 'jupyter'
+Description-Content-Type: text/markdown
+
+# pqq
+
+[![PyPI - Version](https://img.shields.io/pypi/v/sqlqueue.svg)](https://pypi.org/project/sqlqueue)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/sqlqueue.svg)](https://pypi.org/project/sqlqueue)
+
+-----
+
+## Description
+
+`pqq` stands for PostgreSQL Queue. It's a simple queue impletation using postgres. There are different implementations of this. The main inspirations come from:
+
+- https://metacpan.org/release/SRI/Minion-10.25/source/lib/Minion/Backend/resources/migrations/pg.sql
+- https://dev.to/mikevv/simple-queue-with-postgresql-1ngc
+
+One of the benefits of using postgres is that it should be easy to implement in other languages. For that reason this repository is called py-pqq.
+
+## Installing
+
+```console
+pip install pqq
+```
+
+## License
+
+`pqq` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
