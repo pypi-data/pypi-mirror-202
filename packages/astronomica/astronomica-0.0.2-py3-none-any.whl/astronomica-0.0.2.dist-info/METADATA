@@ -1,0 +1,190 @@
+Metadata-Version: 2.1
+Name: astronomica
+Version: 0.0.2
+Summary: A Python library that deals with astronomy and mathematical calculations. It also helps with Julian Dates
+Home-page: https://github.com/PyndyalaCoder/astronomica
+Author: Siddhu Pendyala
+Author-email: elcientifico.pendyala@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/PyndyalaCoder/astronomica/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: astroquery
+
+# astronomica
+
+## Astronomica Usage Exampe
+<b>Astronomica</b> is a simple python library based on formulas pioneered at https://www.aa.quae.nl/en/reken/zonpositie.html, and https://astronomica.w3spaces.com/. Scroll below to check out the documentation.
+
+### Note of Usage:
+<b>Astronomica is 100% free</b>!! It is also <b>driven by the <i>community</i></b>, so we welcome tips, bug fixes, and more methods added by users and the general python & astronomy community.
+
+
+## Usage:
+Here is a very simple usage example of Astronomica:
+
+```python
+
+from astronomica import *
+
+lunar_phase = getLunarPhase()
+planting_time = False
+if lunar_phase == 'Full':
+  planting_time = True
+  sendNotificationToFarmers("It is a full Moon, planting should begin")
+else:
+  waitForFullMoon()
+
+```
+
+## Methods
+
+```python
+local_julian_date(date=datetime.datetime.now())
+```
+
+This method returns the current local <b>julian date</b>
+
+
+```python
+fromJulian(j) # j is the julian date to convert
+```
+
+This method returns the gregorian date <b> from </b> a given julian date
+
+```python
+get_lunar_age()
+```
+
+This method returns the current age of the moon (in days)
+
+```python
+get_lunar_age_percent()
+```
+
+This method returns the current percentage of the lunar cycle completed by the moon
+
+```python
+getLunarPhase()
+```
+
+This method returns the current lunar phase
+
+```python
+daysSinceJ2000()
+```
+
+
+This method returns the days since Jan 1st 2000 Epoch
+
+```python
+sun = Sun(lat, long)
+sun.get_local_sunrise_time()
+sun.get_local_sunset_time()
+```
+
+These methods return the sunrise and sunset time
+
+
+```python
+decimalHours(now) # now is the chosen time
+```
+
+This method returns the decimal hours for a given time
+
+```python
+localSiderealTime(long)
+```
+
+This method returns the local sidereal time for a given longitude <b>east</b>
+
+```python
+altitude(lat, long)
+```
+
+This method returns the current solar altitude on earth for a given longitude <b>east</b> and a latitude <b>north</b>
+
+```python
+azimuth(lat, long)
+```
+
+This method returns the current solar azimuth in degrees for a given latitude and longitude <b>east</b>
+
+```python
+map_star(star)
+```
+
+This method returns the type of star based on its name. 
+
+## Observer Class
+
+```
+observer = Observer(lat, long, desired_planet_for_calculations, date=datetime.datetime.now())
+```
+
+### Methods in class
+
+```python
+julian_date()
+```
+
+returns the current julian date
+
+```python
+mean_anomaly()
+```
+
+returns the mean anomaly of the chosen planet specified when initializing the object (see the initialization for details)
+
+```python
+equation_of_center()
+```
+
+returns the current equation of center to correct the mean anomaly of the planet.
+
+```python
+true_anomaly()
+```
+
+returns the true anomaly of the chosen planet
+
+```python
+set_perihelion_and_obliquity()
+```
+
+sets the longitude of the perihelion of the planet's orbit, and its obliquity
+
+```python
+ecliptical_longitude()
+```
+
+returns the ecliptical longitude of the sun
+
+```python
+equatorial_coordinates()
+```
+
+returns the equatorial coordinates of the sun from the planet (right ascension and declination) as a dictionary. 
+
+
+```python
+local_solar_transit()
+```
+
+returns the solar noon julian date for the current day. It can be converted to regular time by fromJulian(j) function
+
+```python
+distance_to_sun()
+```
+
+returns the distance to the sun from that planet.
+
+```python
+planet_heliocentric_coordinates()
+```
+
+returns the planets rectangular ecliptical heliocentric coordinates (x, y, z)
+
+
+
+
