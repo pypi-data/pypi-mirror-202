@@ -1,0 +1,4 @@
+web3
+pycoingecko
+python-dotenv>=0.21.1
+asyncio
