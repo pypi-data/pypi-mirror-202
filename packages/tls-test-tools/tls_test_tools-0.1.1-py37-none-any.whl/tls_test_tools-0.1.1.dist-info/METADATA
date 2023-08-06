@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: tls-test-tools
+Version: 0.1.1
+Summary: A set of tools to quickly write unit tests for (m)TLS communication
+Home-page: https://github.com/IBM/tls-test-tools
+Author: Gabe Goodhart
+Author-email: gabe.l.hart@gmail.com
+License: APACHE
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: alchemy-logging (>=1.0.3)
+Requires-Dist: cryptography (>=36.0.2)
+
+# TLS Test Tools
+
+This project is a collection of tools for managing ephemeral TLS secrets in unit tests.
+
+When writing code that needs to either host a server with TLS enabled or make connections to a TLS enabled server, it's
+often difficult to write succinct unit tests that exercise these connections. This package aims to fix that! It provides
+utilities for auto-generating self-signed CAs and derived server/client pairs. It also provides tools for finding open
+ports to host temporary servers on.
+
+## Installation
+
+To install, simply use `pip`
+
+```sh
+pip install tls-test-tools
+```
+
+
