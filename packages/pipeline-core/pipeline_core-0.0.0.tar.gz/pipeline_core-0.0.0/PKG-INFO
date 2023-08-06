@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pipeline-core
+Version: 0.0.0
+Summary: The PipelineCore CLI.
+Author: paul hetherington
+Author-email: ph@mystic.ai
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: argparse (>=1.4.0,<2.0.0)
+Requires-Dist: backoff (>=2.2.1,<3.0.0)
+Requires-Dist: google-cloud-compute (>=1.11.0,<2.0.0)
+Requires-Dist: google-cloud-container (>=2.19.0,<3.0.0)
+Requires-Dist: google-cloud-storage (>=2.8.0,<3.0.0)
+Requires-Dist: httpx (>=0.23.3,<0.24.0)
+Requires-Dist: kubernetes (>=26.1.0,<27.0.0)
+Requires-Dist: pipeline-ai (>=0.4.6,<0.5.0)
+Requires-Dist: pre-commit (>=3.2.2,<4.0.0)
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: pytest (>=7.3.0,<8.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# pipeline-core
+The PipelineCore repo.
+
+# commands
+
+## auth
+- `pcore credentials|credential add|rm|ls|get|use gcp <credentials-name>`
+
+## create radish deployment
+- `pcore clusters|cluster create|rm pcloud|gcp|aws|azure <cluster-name>`
+
+## radish cluster management
+- `pcore clusters|cluster config <cluster-alias> [sub command]`:
+    - `scaling-strategy|caching-strategy|routing-strategy set|get|list`
+    - `gpu-pools add|rm|list|get`
+
