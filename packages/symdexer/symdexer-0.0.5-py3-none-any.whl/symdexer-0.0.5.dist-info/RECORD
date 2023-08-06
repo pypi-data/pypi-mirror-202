@@ -1,0 +1,11 @@
+symdexer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+symdexer/__main__.py,sha256=LrJvx6e5XkHJ-oI-HPhXjg0Klb1WOpd12r_Ndmcz7-U,1173
+symdexer/cache.py,sha256=SdSjFcPjj5eAZ5f07z5ICdMmNMjeSDa2ce8_SnUTbS8,1435
+symdexer/modules.py,sha256=dyC_0U89GXnvUK_n-lDzEygE2hrWUbREq72Yp9-gMog,564
+symdexer/settings.py,sha256=tOHSpXDVA6B-RR7tq1AndaRdieocSytJOyghXWIAjL0,1510
+symdexer/symbols.py,sha256=MZAsKo7fkGGJH6RLhAkiBqKvzSDOhkhj5mb2x-DLisc,979
+symdexer-0.0.5.dist-info/LICENSE.txt,sha256=02QAZUSmX3XdLlt-2cDoO109L1mL2qdyht1r2lF3gk8,1090
+symdexer-0.0.5.dist-info/METADATA,sha256=TDsdL15aMyn44z0fGBUah50l8oFbaSq0RmxKblR4vz0,548
+symdexer-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+symdexer-0.0.5.dist-info/top_level.txt,sha256=B1eKORSVbUqXNLhwsutsix6yiQf4KC8S9WblwdjhfVk,9
+symdexer-0.0.5.dist-info/RECORD,,
