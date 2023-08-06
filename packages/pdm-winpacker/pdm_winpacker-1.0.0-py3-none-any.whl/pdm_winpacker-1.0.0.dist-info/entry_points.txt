@@ -1,0 +1,3 @@
+[pdm]
+pdm-winpacker=pdm_winpacker:plugin
+
