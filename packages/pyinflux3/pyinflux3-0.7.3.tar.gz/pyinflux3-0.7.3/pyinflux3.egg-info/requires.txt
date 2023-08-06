@@ -1,0 +1,10 @@
+pyarrow
+flightsql-dbapi
+influxdb-client
+
+[cli]
+pathlib
+pygments
+prompt_toolkit
+pandas
+tabulate
