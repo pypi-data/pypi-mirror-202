@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+interactions_restful/__init__.py
+interactions_restful/abc.py
+interactions_restful/decorators.py
+interactions_restful/extension.py
+interactions_restful.egg-info/PKG-INFO
+interactions_restful.egg-info/SOURCES.txt
+interactions_restful.egg-info/dependency_links.txt
+interactions_restful.egg-info/requires.txt
+interactions_restful.egg-info/top_level.txt
