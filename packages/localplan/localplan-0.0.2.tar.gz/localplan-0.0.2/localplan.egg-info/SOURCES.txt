@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+localplan/__init__.py
+localplan/localplan.py
+localplan.egg-info/PKG-INFO
+localplan.egg-info/SOURCES.txt
+localplan.egg-info/dependency_links.txt
+localplan.egg-info/not-zip-safe
+localplan.egg-info/top_level.txt
