@@ -1,0 +1,2 @@
+[console_scripts]
+FastMitoAssembler = FastMitoAssembler.bin.main:main

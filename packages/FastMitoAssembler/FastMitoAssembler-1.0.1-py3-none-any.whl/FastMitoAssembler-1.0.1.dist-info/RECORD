@@ -1,0 +1,16 @@
+FastMitoAssembler/__init__.py,sha256=loQq3_TA6sm-1hJBDioBi3MwpA_7wbPOXDz6o-Jd3LE,406
+FastMitoAssembler/banner.txt,sha256=7WSUwv0eSgdVkC-p0FyETunfmWvbqR9_HiJXwzdM1rA,2146
+FastMitoAssembler/config.py,sha256=-xMkUI33dCNetCdxpf6fRMhxKIu54mKiH70WgVs_DWk,1043
+FastMitoAssembler/util.py,sha256=W7FIGCg1ciHLA9FfZjMizcR7SVA6Q4Km10edmVmEHcA,508
+FastMitoAssembler/version.json,sha256=btg-GRobGb0pmavewGvUlwWbjf4WmbDGVdKfloD8WWA,252
+FastMitoAssembler/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FastMitoAssembler/bin/_other.py,sha256=Iv9WZTdPOPlvSt34YLrqdkl0i_X1wj3A6aY96FPA4pk,1994
+FastMitoAssembler/bin/_run.py,sha256=rCzfTgV6TXuG88BHD7mMwiP4ruVC92umjmAIXOVS94E,3246
+FastMitoAssembler/bin/main.py,sha256=5mJyDqw56xejVa7g0RziA-jH-8185iEbgrxM9Qiu-t8,1085
+FastMitoAssembler/smk/config.yaml,sha256=FbKfgFUyk2NnJeqUq16GID3JRrbZeXLzYgziw8VDKV0,324
+FastMitoAssembler/smk/main.smk,sha256=C18WAfhpofzryzwxY6rNMPu1yEy1mi0eeeXHJEDIrnQ,10512
+FastMitoAssembler-1.0.1.dist-info/METADATA,sha256=yPZIaOnOFOrkNVtB1TyCPXT5ycE743zhG-MOKTlc-ns,4029
+FastMitoAssembler-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+FastMitoAssembler-1.0.1.dist-info/entry_points.txt,sha256=rkKtWc6r74lZtVetM-fTYmJfXoT6_VwHWZK2mJQKk3g,70
+FastMitoAssembler-1.0.1.dist-info/top_level.txt,sha256=-CdWn8TByrmS1KPPvDTs78z8UnAU3YJAqCGAx07pupk,18
+FastMitoAssembler-1.0.1.dist-info/RECORD,,
