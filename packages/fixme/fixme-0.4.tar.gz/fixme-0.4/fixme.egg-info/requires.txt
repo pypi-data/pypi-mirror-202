@@ -1,0 +1,16 @@
+click
+openai
+rich
+pydantic
+
+[black]
+black
+
+[pyright]
+pyright
+
+[ruff]
+ruff
+
+[test]
+pytest
