@@ -1,0 +1,20 @@
+[console_scripts]
+orpy = orpy.shell:main
+
+[orpy.cli]
+configuration_show = orpy._cmd.config:OrchestratorConfigShow
+dep_create = orpy._cmd.deployments:DeploymentCreate
+dep_delete = orpy._cmd.deployments:DeploymentDelete
+dep_list = orpy._cmd.deployments:DeploymentList
+dep_show = orpy._cmd.deployments:DeploymentShow
+dep_template = orpy._cmd.deployments:DeploymentGetTemplate
+dep_update = orpy._cmd.deployments:DeploymentUpdate
+deployment_create = orpy._cmd.deployments:DeploymentCreate
+deployment_delete = orpy._cmd.deployments:DeploymentDelete
+deployment_list = orpy._cmd.deployments:DeploymentList
+deployment_show = orpy._cmd.deployments:DeploymentShow
+deployment_template = orpy._cmd.deployments:DeploymentGetTemplate
+deployment_update = orpy._cmd.deployments:DeploymentUpdate
+info = orpy._cmd.info:OrchestratorEndpointInfo
+resource_list = orpy._cmd.resources:ResourcesList
+resource_show = orpy._cmd.resources:ResourcesShow
