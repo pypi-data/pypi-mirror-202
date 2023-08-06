@@ -1,0 +1,3 @@
+[intake.drivers]
+dynamodb = intake_dynamodb.dynamodb:DynamoDBSource
+dynamodbjson = intake_dynamodb.dynamodb:DynamoDBJSONSource
