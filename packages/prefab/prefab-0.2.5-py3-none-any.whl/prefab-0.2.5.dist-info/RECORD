@@ -1,0 +1,8 @@
+prefab/__init__.py,sha256=Bik6gGNE6PAp0PMA14jQMDItG2qBENFL8eB78NOZYiA,602
+prefab/io.py,sha256=31xiOLtWQINT5ptWNGpK_LvIxCgwKDPPKXoxFrs9mPo,2846
+prefab/predictor.py,sha256=6TUrRtofUb7WT1Nj6UWVKslxiBYXX2RBMS0H5LdAgNI,2211
+prefab/processor.py,sha256=-CucAen13WacxT7H3-AIWhLvAm7Qsrfi-TO5qUwgf8Y,5512
+prefab-0.2.5.dist-info/METADATA,sha256=aUn3kBpbJ_NYwWCYFdtrEoppdI0PxQhvqpdBT1tMymU,35376
+prefab-0.2.5.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+prefab-0.2.5.dist-info/licenses/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+prefab-0.2.5.dist-info/RECORD,,
