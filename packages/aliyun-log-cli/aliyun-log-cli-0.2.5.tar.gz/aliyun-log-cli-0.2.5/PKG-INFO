@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: aliyun-log-cli
+Version: 0.2.5
+Summary: Aliyun log service CLI
+Home-page: https://github.com/aliyun/aliyun-log-cli
+Author: Aliyun
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+
+
+Command Line Interface for Aliyun Log Service 
+http://aliyun-log-cli.readthedocs.io
