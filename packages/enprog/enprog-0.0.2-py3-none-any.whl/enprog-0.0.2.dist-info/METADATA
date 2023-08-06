@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: enprog
+Version: 0.0.2
+Summary: A programming language with english-like syntax
+Home-page: https://github.com/Locutusque/EnProg/tree/Python-Variant
+Author: Locutusque
+Author-email: locutusque.airshpcraft@gmail.com
+License: MIT
+Requires-Python: >=3.9, <=3.9.6
+
