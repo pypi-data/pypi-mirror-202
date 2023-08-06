@@ -1,0 +1,16 @@
+sevsnpmeasure/__init__.py,sha256=m0-zB8FTTMrrLkWsm26PUTT345TvvDcHHH3ASZhc81s,89
+sevsnpmeasure/cli.py,sha256=LCPA1zu_MLLHNNqdG49d9TVJj_1b1DrTp5xY8pcfTNU,3616
+sevsnpmeasure/gctx.py,sha256=hG9wFHDRo2dUPYOXA0wa71Cgk6AmexvtOkYtQxybTKw,2462
+sevsnpmeasure/guest.py,sha256=smoYIHiWadzaL_LsE7kgpTFMPDiOQfT20D66hzqa1ZQ,3626
+sevsnpmeasure/id_block.py,sha256=bHunXaBGQxOx9MU5wA7_25lDQfxkgH7ZGS_KWZB14DM,5591
+sevsnpmeasure/ovmf.py,sha256=h5FAZ27OPAQIEtllZYaN10S--uIEolWDdDNQVy841po,4736
+sevsnpmeasure/sev_hashes.py,sha256=kPN04VNN1yhsuXwVn5VKXLFm4JDu259ivqOtw9GN6Uw,3488
+sevsnpmeasure/sev_mode.py,sha256=O6kynPl7QUJzCmudTpIMgUjEuXYuDPk0OcPrTgoQG-Y,600
+sevsnpmeasure/vcpu_types.py,sha256=e97Nvofa9fAShCMSxXhGSXptN6XdD5nBuUWeM1a87ks,1609
+sevsnpmeasure/vmsa.py,sha256=dWp9eY52TkloRsEbi9sneXLGK60DJzX9eyPWUfySI2w,5727
+sev_snp_measure-0.0.4.dist-info/LICENSE,sha256=xllut76FgcGL5zbIRvuRc7aezPbvlMUTWJPsVr2Sugg,11358
+sev_snp_measure-0.0.4.dist-info/METADATA,sha256=h2fxzIs42g3GJRsQBh5Ni90IqYi3zKdEAKcIGgwbgOU,6786
+sev_snp_measure-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+sev_snp_measure-0.0.4.dist-info/entry_points.txt,sha256=vezjugpbCgM5Jw9KO8P6psLgqFjrndpFlR3aDyLS5QQ,109
+sev_snp_measure-0.0.4.dist-info/top_level.txt,sha256=7YnZqHVJaubYRCq0Fk_h6-QwtKjheWRaZLtamfHrZz8,14
+sev_snp_measure-0.0.4.dist-info/RECORD,,
