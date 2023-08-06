@@ -1,0 +1,22 @@
+# IMPORTANT:
+# the following path is system dependent (will
+# change depending on the Erlang version, distribution,
+# and installation method used). Please double check it before proceeding!
+ERL_SSL_PATH="{{ rabbitmq.erl_ssl_path }}"
+
+# -pa $ERL_SSL_PATH prepends the directory ERL_SSL_PATH points at to the code path
+# -proto_dist inet_tls tells the runtime to encrypt inter-node communication
+# -ssl_dist_opt server_certfile /path/to/combined_keys.pem tells the runtime
+#                               where to find the combined certificate/key file
+# -ssl_dist_opt server_password password   required if the private key is encrypted 
+# -ssl_dist_opt server_secure_renegotiate true client_secure_renegotiate true enables an additional TLS setting: secure renegotiation
+SERVER_ADDITIONAL_ERL_ARGS="-pa $ERL_SSL_PATH \
+  -proto_dist inet_tls \
+  -ssl_dist_opt server_certfile /etc/rabbitmq/combined.pem \
+  -ssl_dist_opt server_secure_renegotiate true client_secure_renegotiate true"
+
+# Same settings as above but for CLI tools
+RABBITMQ_CTL_ERL_ARGS="-pa $ERL_SSL_PATH \
+  -proto_dist inet_tls \
+  -ssl_dist_opt server_certfile /etc/rabbitmq/combined.pem \
+  -ssl_dist_opt server_secure_renegotiate true client_secure_renegotiate true"

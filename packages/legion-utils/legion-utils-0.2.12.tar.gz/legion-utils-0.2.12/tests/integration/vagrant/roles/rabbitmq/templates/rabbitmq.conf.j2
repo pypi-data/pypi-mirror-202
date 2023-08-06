@@ -1,0 +1,25 @@
+listeners.tcp = none
+
+listeners.ssl.default = {{ rabbitmq.ssl_port }}
+
+ssl_options.cacertfile = /etc/rabbitmq/ca.crt
+ssl_options.certfile   = /etc/rabbitmq/rabbitmq.crt
+ssl_options.keyfile    = /etc/rabbitmq/rabbitmq.key
+ssl_options.verify     = verify_peer
+ssl_options.fail_if_no_peer_cert = true
+
+cluster_formation.peer_discovery_backend = classic_config
+cluster_partition_handling = autoheal
+
+{% if rabbitmq.cluster is defined and rabbitmq.cluster.hosts is defined %}{% for host in rabbitmq.cluster.hosts %}
+cluster_formation.classic_config.nodes.{{ loop.index }} = rabbit@{{ host.hostname }}
+{% endfor %}{% endif %}
+
+management.tcp.port = {{ rabbitmq.management.http_port }}
+management.tcp.ip   = 127.0.0.1 # unencrypted access from localhost only
+
+management.ssl.port       = {{ rabbitmq.management.https_port }}
+management.ssl.ip         = 0.0.0.0
+management.ssl.cacertfile = /etc/rabbitmq/ca.crt
+management.ssl.certfile   = /etc/rabbitmq/rabbitmq.crt
+management.ssl.keyfile    = /etc/rabbitmq/rabbitmq.key

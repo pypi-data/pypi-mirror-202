@@ -1,0 +1,19 @@
+- name: Install supervisor
+  apt:
+    name: ['supervisor']
+    update_cache: yes
+    state: latest
+
+- name: Ensure that supervisor config directory exists
+  file:
+    path: /etc/supervisor/conf.d
+    state: directory
+    mode: u=rwx,g=rx,o=rx
+    owner: root
+    group: root
+
+- name: Ensure that supervisor is enabled
+  service:
+    name: supervisor
+    state: started
+    enabled: yes

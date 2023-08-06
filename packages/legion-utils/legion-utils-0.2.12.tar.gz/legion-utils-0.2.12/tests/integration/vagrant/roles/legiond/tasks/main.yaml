@@ -1,0 +1,112 @@
+- name: Repo Directory
+  file:
+    state: directory
+    path: /opt/legiond
+    mode: u=rwx,g=rx,o=rx
+    owner: root
+    group: root
+
+- name: Virtualenv Directory
+  file:
+    state: directory
+    path: /opt/legiond/env
+    mode: u=rwx,g=rx,o=rx
+    owner: root
+    group: root
+
+- name: Reporters Directory
+  file:
+    state: directory
+    path: /opt/legiond/rptr.d
+    mode: u=rwx,g=rx,o=rx
+    owner: root
+    group: root
+
+- name: Configuration Directory
+  file:
+    state: directory
+    path: /etc/opt/legiond
+    mode: u=rwx,g=,o=
+    owner: root
+    group: root
+
+- name: Logs Directory
+  file:
+    path: "/var/log/legiond"
+    state: directory
+    mode: "u=rwx,g=rx,o=rx"
+    owner: root
+    group: root
+
+- name: Log File
+  file:
+    path: /var/log/legiond/stdout.log
+    owner: root
+    group: root
+    state: touch
+    modification_time: "preserve"
+    access_time: "preserve"
+    mode: "u=rw,g=r,o=r"
+
+- name: Configuration Directory
+  file:
+    state: directory
+    path: /etc/legiond/
+    mode: u=rwx,g=rx,o=rx
+    owner: root
+    group: root
+
+- name: Configuration
+  copy:
+    src: "{{ inventory_dir }}/../../../../tests/integration/vagrant/host_files/{{ inventory_hostname }}/legiond/legiond.conf"
+    dest: "/etc/opt/legiond/legiond.conf"
+    owner: root
+    group: root
+    mode: u=rwx,g=,o=
+
+- name: RobotnikMQ Python Package
+  pip:
+    name: '/opt/robotnikmq/src'
+    state: forcereinstall
+    extra_args: "--use-feature=in-tree-build"
+    virtualenv: /opt/legiond/env
+    virtualenv_python: /usr/bin/python3.8
+
+- name: Legion-Utils Python Package
+  pip:
+    name: '/opt/legion-utils/src'
+    state: forcereinstall
+    extra_args: "--use-feature=in-tree-build"
+    virtualenv: /opt/legiond/env
+    virtualenv_python: /usr/bin/python3.8
+
+- name: Python Package
+  pip:
+    name: '/opt/legiond/src'
+    state: forcereinstall
+    extra_args: "--use-feature=in-tree-build"
+    virtualenv: /opt/legiond/env
+    virtualenv_python: /usr/bin/python3.8
+
+- name: Supervisor Configuration
+  template:
+    src: "{{ role_path }}/templates/legiond.conf.j2"
+    dest: /etc/supervisor/conf.d/legiond.conf
+    owner: root
+    group: root
+    mode: u=rw,g=,o=
+  notify: restart supervisor
+
+- name: Legiond Restart
+  supervisorctl:
+    name: legiond
+    state: restarted
+
+- name: Sym-link
+  file:
+    src: /opt/legiond/env/bin/legiond
+    dest: /usr/local/bin/legiond
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+    state: link

@@ -1,0 +1,104 @@
+- name: CA Directory
+  file:
+    state: directory
+    path: "{{ inventory_dir }}/../../../../tests/integration/vagrant/pki"
+    mode: u=rwx,g=rx,o=rx
+  delegate_to: 127.0.0.1
+  become: no
+
+- name: Issued Certificates Directory
+  file:
+    state: directory
+    path: "{{ inventory_dir }}/../../../../tests/integration/vagrant/pki/issued"
+    mode: u=rwx,g=rx,o=rx
+  delegate_to: 127.0.0.1
+  become: no
+
+- name: Create TLS directory
+  file:
+    state: directory
+    path: /etc/tls
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+
+- name: Remove old HTTPS directory
+  file:
+    state: absent
+    path: /etc/https
+
+- name: Skynet CA Key and Cert
+  ca:
+    ca_dir: "{{ inventory_dir }}/../../../../tests/integration/vagrant/pki/"
+    common_name: robotnik-ca
+    country: US
+    state_or_province: MA
+    locality: Boston
+    org: RobotnikMQ
+    org_unit: RobotnikMQ Testing
+    email: eugene@kovalev.systems
+    expire_days: 4
+    renew_if_expiring_before: 2
+  delegate_to: 127.0.0.1
+  register: ca_update
+
+- name: CA Update message
+  debug:
+    msg: "{{ ca_update }}"
+
+- name: Copy over skynet certificate
+  copy:
+    src: "{{ inventory_dir }}/../../../../tests/integration/vagrant/pki/robotnik-ca.crt"
+    dest: /etc/tls/robotnik-ca.crt
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
+
+- name: TLS key/cert
+  cert:
+    ca_dir: "{{ inventory_dir }}/../../../../tests/integration/vagrant/pki/"
+    ca: robotnik-ca
+    dns_sans: "{{ security.tls.domains }}"
+    ip_sans: "{{ security.tls.ips }}"
+    common_name: "{{ inventory_hostname }}"
+    country: US
+    state_or_province: MA
+    locality: Boston
+    org: RobotnikMQ
+    org_unit: RobotnikMQ Testing
+    email: eugene@kovalev.systems
+    expire_days: 2
+    renew_if_expiring_before: 1
+  delegate_to: 127.0.0.1
+  become: no
+  register: ca_update
+  when: security is defined and security.tls is defined
+
+- name: TLS key/cert message
+  debug:
+    msg: "{{ ca_update }}"
+  when: security is defined and security.tls is defined
+
+- name: Copy over TLS key
+  copy:
+    src: "{{ inventory_dir }}/../../../../tests/integration/vagrant/pki/issued/{{ inventory_hostname }}/{{ inventory_hostname }}.key"
+    dest: /etc/tls/https.key
+    owner: "root"
+    group: "root"
+    mode: u=rw,g=r,o=r
+  when: security is defined and security.tls is defined
+
+- name: Copy over TLS cert
+  copy:
+    src: "{{ inventory_dir }}/../../../../tests/integration/vagrant/pki/issued/{{ inventory_hostname }}/{{ inventory_hostname }}.crt"
+    dest: /etc/tls/https.crt
+    owner: "root"
+    group: "root"
+    mode: u=rw,g=r,o=r
+  when: security is defined and security.tls is defined
+
+- name: Assemble combined key/cert file
+  assemble:
+    remote_src: no
+    src: "{{ inventory_dir }}/../../../../tests/integration/vagrant/pki/issued/{{ inventory_hostname }}/"
+    dest: "/etc/tls/combined.pem"

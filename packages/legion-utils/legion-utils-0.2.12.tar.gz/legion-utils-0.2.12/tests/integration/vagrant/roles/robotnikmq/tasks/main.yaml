@@ -1,0 +1,53 @@
+- name: Python 3.8
+  apt:
+    name: ['python3.8', 'python3.8-venv', 'python3.8-dev', python3-pip]
+    state: latest
+    update_cache: yes
+
+- name: Virtualenv
+  pip:
+    name: ['pip', 'virtualenv']
+    state: latest
+    executable: pip3
+
+- name: Repo Directory
+  file:
+    state: directory
+    path: /opt/robotnikmq
+    mode: u=rwx,g=rx,o=rx
+    owner: root
+    group: root
+  when: robotnikmq.dev is defined
+
+- name: RobotnikMQ Virtualenv Directory
+  file:
+    state: directory
+    path: /opt/robotnikmq/env
+    mode: u=rwx,g=rx,o=rx
+    owner: root
+    group: root
+
+- name: RobotnikMQ Configuration Directory
+  file:
+    state: directory
+    path: /etc/robotnikmq/
+    mode: u=rwx,g=rx,o=rx
+    owner: root
+    group: root
+
+- name: RobotnikMQ Configuration
+  copy:
+    src: "{{ inventory_dir }}/../../../../tests/integration/vagrant/host_files/{{ inventory_hostname }}/robotnikmq/robotnikmq.yaml"
+    dest: "/etc/robotnikmq/robotnikmq.yaml"
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
+  register: robotnikmq_config
+
+- name: RobotnikMQ Python Package
+  pip:
+    name: '/opt/robotnikmq/src'
+    state: forcereinstall
+    extra_args: "--use-feature=in-tree-build"
+    virtualenv: /opt/robotnikmq/env
+    virtualenv_python: /usr/bin/python3.8

@@ -1,0 +1,16 @@
+[program:legiond]
+command=/opt/legiond/env/bin/legiond
+process_name=%(program_name)s
+numprocs=1
+stopsignal=TERM
+stopasgroup=true
+killasgroup=true
+user=root
+autostart=true
+autorestart=unexpected
+startsecs=1
+startretries=3
+redirect_stderr=true
+stdout_logfile=/var/log/legiond/stdout.log
+stdout_logfile_maxbytes=50MB
+stdout_logfile_backups=10

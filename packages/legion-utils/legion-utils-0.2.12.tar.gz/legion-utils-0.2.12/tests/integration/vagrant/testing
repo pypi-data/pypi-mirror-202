@@ -1,0 +1,6 @@
+vagrant-vms:
+  children:
+    legion-hosts:
+      hosts:
+        legion-utils-vm:
+          ansible_port: 22
