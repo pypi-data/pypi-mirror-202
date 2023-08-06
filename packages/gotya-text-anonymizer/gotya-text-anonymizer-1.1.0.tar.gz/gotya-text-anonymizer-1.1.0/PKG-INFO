@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: gotya-text-anonymizer
+Version: 1.1.0
+Summary: A text anonymizer to redact sensitive information
+Author: Gotya Tech
+Author-email: technical.team@gotya.tech
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# Gotya Text Anonymizer
+
+Gotya Text Anonymizer is a Python package that helps you to anonymize text by detecting and redacting personally identifiable information (PII) such as names, addresses, phone numbers, credit card numbers, email addresses, and more.
+
+## Installation
+
+To install the Gotya Text Anonymizer package, run the following command:
+
+```bash
+pip install gotya-text-anonymizer
+```
+
+
+## Usage
+
+Here's an example of how to use the Gotya Text Anonymizer package:
+
+```python
+from gotya_text_anonymizer.anonymizer import main
+
+text = """My name is gotya tech and I live in Berlin, credit card 1234567890123456, 
+Phone Number: +441234567890, Address: 123 Main St, Anytown, UK, 
+Email: johndoe@example.com, PIN: 8888, CVV: 123"""
+threshold = 0.3
+
+redacted_text = main(text, threshold)
+print(redacted_text)
+
+
+This will print the redacted text with PII replaced by tags. You can customize the threshold value to control the confidence level of the detected entities.
+
+```
+
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute to the Gotya Text Anonymizer package, please submit a pull request or open an issue on GitHub.
+
+## License
+
+The Gotya Text Anonymizer package is licensed under the MIT License.
