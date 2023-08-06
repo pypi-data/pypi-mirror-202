@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "brainframe-apps"
+version = "0.3.19"
+description = "BrainFrame Apps use BrainFrame REST API to interact with the BrainFrame OS"
+authors = ["Stephen Li <stephen@dilililabs.com>"]
+license = "BSD License"
+classifiers = [
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+brainframe-api = "^0.29.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+isort = "^5.9.3"
+
+[tool.poetry.scripts]
+brainframe-apps                      = 'brainframe_apps.cli:cli_main'
+
+[build-system]
+# requires = ["poetry-core>=1.0.0"]
+# build-backend = "poetry.core.masonry.api"
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
