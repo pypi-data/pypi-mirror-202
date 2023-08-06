@@ -1,0 +1,8 @@
+setup.py
+sm-search-connector-poc/__init__.py
+sm-search-connector-poc/searchConnectorPoc.py
+sm_search_connector_poc.egg-info/PKG-INFO
+sm_search_connector_poc.egg-info/SOURCES.txt
+sm_search_connector_poc.egg-info/dependency_links.txt
+sm_search_connector_poc.egg-info/requires.txt
+sm_search_connector_poc.egg-info/top_level.txt
