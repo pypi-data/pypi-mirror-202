@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: viser
+Version: 0.0.0
+Summary: 3D visualization helper
+Author: brentyi
+Author-email: brentyi@berkeley.edu
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: gdown (>=4.6.6,<5.0.0)
+Requires-Dist: imageio (>=2.26.1,<3.0.0)
+Requires-Dist: msgpack (>1.0.0)
+Requires-Dist: numpy (>1.0.0)
+Requires-Dist: pyliblzfse (>=0.4.1,<0.5.0)
+Requires-Dist: rich (>=13.3.3,<14.0.0)
+Requires-Dist: scikit-image (>0.18.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Requires-Dist: tyro (>=0.4.2,<0.5.0)
+Requires-Dist: websockets (>=10.4,<11.0)
+Description-Content-Type: text/markdown
+
+# viser
+
+`viser` is a library for interactive 3D visualization + Python, inspired by the
+best bits of the
+[Nerfstudio viewer](https://github.com/nerfstudio-project/nerfstudio),
+[Pangolin](https://github.com/stevenlovegrove/Pangolin),
+[rviz](https://wiki.ros.org/rviz/), and
+[meshcat](https://github.com/rdeits/meshcat).
+
+Core features:
+
+- Web interface for easy use on remote machines.
+- Pure-Python API for sending 3D primitives to the browser.
+- Python-configurable inputs: buttons, checkboxes, text inputs, sliders,
+  dropdowns, gizmos.
+- Support for multiple panels and view-synchronized connections.
+
+## Running examples
+
+```bash
+# Clone the repository.
+git clone https://github.com/brentyi/viser.git
+
+# Install the package.
+# You can also install via pip: `pip install viser`.
+cd ./viser
+pip install -e .
+
+# Run an example.
+pip install -r ./examples/requirements.txt
+python ./examples/4_gui.py
+```
+
+After an example script is running, you can connect by navigating to the printed
+URL (default: `http://localhost:8080`).
+
+## Setup (client development)
+
+This is only needed for client-side development. The automatically hosted viewer
+should be sufficient otherwise.
+
+```bash
+cd ./viser/viser/client
+yarn
+yarn start
+```
+
+## Interactive SMPL-X Example
+
+https://user-images.githubusercontent.com/6992947/228734499-87d8a12a-df1a-4511-a4e0-0a46bd8532fd.mov
+
