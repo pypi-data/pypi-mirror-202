@@ -1,0 +1,1 @@
+from .atualiza_endereco import atualiza_endereco

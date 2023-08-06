@@ -1,0 +1,4 @@
+[console_scripts]
+atualiza_endereco=olstecnologia.features.atualiza_endereco:atualiza_endereco
+tests=scripts:tests
+
