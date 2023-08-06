@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sol230411
+Version: 0.0.1
+Summary: oss-dev my calculator 0001
+Home-page: https://github.com/SolSol5974/calc0001
+Download-URL: https://github.com/SolSol5974/calc0001
+Author: SolSol
+Author-email: hansl5974@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+
+oss-dev calculator python module
