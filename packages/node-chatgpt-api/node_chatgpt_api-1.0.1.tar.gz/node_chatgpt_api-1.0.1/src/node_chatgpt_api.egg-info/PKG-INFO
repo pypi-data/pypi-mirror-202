@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: node-chatgpt-api
+Version: 1.0.1
+Home-page: https://github.com/oskardotglobal/node-chatgpt-api.py
+Author: Oskar Manhart
+Author-email: me@oskar.global
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# node-chatgpt-api.py
+
+Start up or use the [node-chatgpt-api http server](https://github.com/waylaidwanderer/node-chatgpt-api) to ask AI.
+Currently only supports Bing Chat.
+Licensed under MIT.
