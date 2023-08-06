@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+MANIFEST.in
+Makefile
+README.md
+requirements.txt
+setup.py
+tox.ini
+src/uetl.py
+src/uetl.egg-info/PKG-INFO
+src/uetl.egg-info/SOURCES.txt
+src/uetl.egg-info/dependency_links.txt
+src/uetl.egg-info/requires.txt
+src/uetl.egg-info/top_level.txt
+tests/test_uetl.py
