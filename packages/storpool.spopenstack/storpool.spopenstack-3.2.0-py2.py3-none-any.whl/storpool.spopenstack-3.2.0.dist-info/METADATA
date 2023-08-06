@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: storpool.spopenstack
+Version: 3.2.0
+Summary: OpenStack helpers for the StorPool API
+Home-page: http://www.storpool.com/
+Author: Peter Pentchev
+Author-email: openstack-dev@storpool.com
+License: Apache 2.0 License
+Keywords: storpool StorPool openstack OpenStack
+Requires-Python: >= 2.7
+Requires-Dist: storpool (<8,>=7.2.0)
+
