@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: py3curl
+Version: 1.1.0
+Summary: 将请求对象转换为curl命令字符串
+Home-page: https://github.com/wangjie-jason/py3curl
+Author: WangJie
+Author-email: 1641540482@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+将 python 的 requests 代码转换成 curl 命令
+
+# 安装
+
+```python
+pip install py3curl
+```
+
+# 使用
+
+```python
+import requests
+import py3curl
+
+req = requests.get('https://tendcode.com')
+result = py3curl.request_to_curl(req.request)
+print(result)
+### curl -k -v -X GET -H "Accept: */*" -H "Accept-Encoding: gzip, deflate" -H "Connection: keep-alive" -H "User-Agent: python-requests/2.19.1" https://tendcode.com/
+```
+
+
