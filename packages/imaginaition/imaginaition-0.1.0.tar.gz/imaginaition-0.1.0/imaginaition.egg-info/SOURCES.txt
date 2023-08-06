@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+imaginaition/__init__.py
+imaginaition/__main__.py
+imaginaition/cut.py
+imaginaition/help.py
+imaginaition/imaginaition_logging.py
+imaginaition/imagine.py
+imaginaition.egg-info/PKG-INFO
+imaginaition.egg-info/SOURCES.txt
+imaginaition.egg-info/dependency_links.txt
+imaginaition.egg-info/entry_points.txt
+imaginaition.egg-info/requires.txt
+imaginaition.egg-info/top_level.txt
