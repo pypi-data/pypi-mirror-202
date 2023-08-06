@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+h5py
+extinction
+pgk_resources
+spectres
+astropy
+matplotlib
+nbsphinx
+nbsphinx-link

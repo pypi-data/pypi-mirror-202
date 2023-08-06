@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+speconed/__init__.py
+speconed/speconed.py
+speconed.egg-info/PKG-INFO
+speconed.egg-info/SOURCES.txt
+speconed.egg-info/dependency_links.txt
+speconed.egg-info/requires.txt
+speconed.egg-info/top_level.txt
