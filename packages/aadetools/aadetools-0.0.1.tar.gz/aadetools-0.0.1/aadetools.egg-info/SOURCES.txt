@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+aadetools.egg-info/PKG-INFO
+aadetools.egg-info/SOURCES.txt
+aadetools.egg-info/dependency_links.txt
+aadetools.egg-info/requires.txt
+aadetools.egg-info/top_level.txt
+src/morph/__init__.py
+src/morph/charsets.py
+src/morph/lemmatizeSentence.py
+src/morph/morph_tagger.py
+src/morph/settings.py
+src/morph/tokenizers_words.py
