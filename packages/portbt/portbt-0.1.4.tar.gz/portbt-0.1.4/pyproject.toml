@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "portbt"
+version = "0.1.4"
+description = "Python library designed to make portfolio backtesting easy and intuitive"
+authors = ["renanmoretto <himynameisrenan@outlook.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/renanmoretto/portbt"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.0"
+numpy = "^1.24.2"
+datetime = "^5.1"
+matplotlib = "^3.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
