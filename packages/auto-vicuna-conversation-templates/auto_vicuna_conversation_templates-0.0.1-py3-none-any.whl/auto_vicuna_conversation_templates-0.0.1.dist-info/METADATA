@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: auto_vicuna_conversation_templates
+Version: 0.0.1
+Summary: A collection of conversation templates for Auto-Vicuna.
+Project-URL: Homepage, https://github.com/BillSchumacher/Auto-Vicuna-Conversation-Templates
+Project-URL: Bug Tracker, https://github.com/BillSchumacher/Auto-Vicuna-Conversation-Templates/issues
+Author-email: Bill Schumacher <34168009+BillSchumacher@users.noreply.github.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# Auto-Vicuna-Conversation-Templates
