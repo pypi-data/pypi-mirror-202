@@ -1,0 +1,6 @@
+README.md
+setup.py
+stablesam.egg-info/PKG-INFO
+stablesam.egg-info/SOURCES.txt
+stablesam.egg-info/dependency_links.txt
+stablesam.egg-info/top_level.txt
