@@ -1,0 +1,6 @@
+[console_scripts]
+docs_chat_bot_server = docs_chat_bot.docs_chat_bot_server:main
+indexing_docs = docs_chat_bot.indexing:indexing_main
+
+[mkdocs.plugins]
+chat = docs_chat_bot.plugin:ChatPlugin

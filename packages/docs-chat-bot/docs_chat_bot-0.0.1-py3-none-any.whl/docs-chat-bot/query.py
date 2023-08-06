@@ -1,0 +1,98 @@
+import os
+import time
+import numpy as np
+import pickle
+import openai
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi import FastAPI
+from pydantic import BaseModel
+
+openai.api_key = os.environ['openai_api_key']
+
+EMBEDDING_MODEL = "text-embedding-ada-002"
+
+def get_embedding(text: str, model: str=EMBEDDING_MODEL) -> list[float]:
+    result = openai.Embedding.create(
+      model=model,
+      input=text
+    )
+    return result["data"][0]["embedding"]
+
+
+def vector_similarity(x: list[float], y: list[float]) -> float:
+    """
+    Returns the similarity between two vectors.
+    
+    Because OpenAI Embeddings are normalized to length 1, the cosine similarity is the same as the dot product.
+    """
+    return np.dot(np.array(x), np.array(y))
+
+with open('embeddings.pickle', 'rb') as f:
+    embeddings = pickle.load(f)
+
+def query(question):
+    print('+++++++question:', question)
+    query_embedding = get_embedding(question)
+    # print(query_embedding)
+    document_similarities = sorted([
+        (vector_similarity(query_embedding, doc_embedding), key) for key, doc_embedding in embeddings.items()
+    ], reverse=True)
+
+    context = []
+    for similarity, document in document_similarities[:3]:
+        context.append(document)
+        print(similarity, document[:20])
+    context = '\n'.join(context)
+    # base on the following context and question, provide a conversational answer based on the context provided.:
+    guide = """
+I want you to act as an AI assistant, adept at analyzing provided text and answering questions based on the given context. When presented with extracted parts of a long document and a question, offer a conversational answer that is accurate and helpful. If the answer cannot be found within the provided context, simply respond with "Hmm, I'm not sure," without adding any speculative or extraneous information. Focus on delivering precise and reliable assistance based on the available information.
+    """
+    prompt = f'''
+    {guide}
+    ###
+    {context}
+    ###
+    Question: {question}
+    Answer:'''
+        
+    context_messages = []
+    context_messages.append({"role": "system", "content":  guide})
+    context_messages.append({"role": "user", "content": prompt})
+    print(context_messages)
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=context_messages
+    )
+    print('-'*100)
+    ret = response['choices'][0]['message']['content']
+    print(ret)
+    return ret
+
+app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # You can specify the allowed origins or use ["*"] to allow all
+    allow_credentials=True,
+    allow_methods=["*"],  # You can specify the allowed methods or use ["*"] to allow all
+    allow_headers=["*"],  # You can specify the allowed headers or use ["*"] to allow all
+)
+
+class MessageInput(BaseModel):
+    message: str
+
+@app.post("/chat")
+async def receive_message(data: MessageInput):
+    print(data)
+    message = data.message
+    ret = query(message)
+    response = {
+        "status": "success",
+        "received_message": ret
+    }
+    return response
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=7999)
