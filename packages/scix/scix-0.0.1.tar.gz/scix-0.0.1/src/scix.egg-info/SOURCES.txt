@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/scix/__init__.py
+src/scix/main.py
+src/scix.egg-info/PKG-INFO
+src/scix.egg-info/SOURCES.txt
+src/scix.egg-info/dependency_links.txt
+src/scix.egg-info/top_level.txt
