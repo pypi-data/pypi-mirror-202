@@ -1,0 +1,46 @@
+autopep8
+ccxt
+dash
+dash_bootstrap_templates
+h5py
+ipywidgets==7.7.2
+jupyter-dash
+jupyterlab-widgets==1.1.1
+kaleido==0.1.0post1
+mypy_extensions
+notebook
+tqdm
+numpy>=1.16.5
+pandas
+polars
+pyarrow
+pybit
+tables
+
+[:python_version < "3.10"]
+numba>=0.53.1
+
+[:python_version < "3.8"]
+typing_extensions
+
+[:python_version >= "3.10"]
+numba>=0.56.0
+
+[web]
+Markdown
+PyYAML
+black
+mkdocs
+mkdocs-autorefs
+mkdocs-gen-files
+mkdocs-literate-nav
+mkdocs-material
+mkdocs-material-extensions
+mkdocs-minify-plugin
+mkdocs-open-in-new-tab
+mkdocs-section-index
+mkdocs-video
+mkdocstrings
+mkdocstrings-python
+pymdown-extensions
+tabulate
