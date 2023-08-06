@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "compactdata"
+version = "0.0.4"
+description = "A parser for the CompactData serialisation format."
+authors = ["NUM Technology <developer@num.uk>"]
+readme = "README.md"
+packages = [{include = "compactdata"}]
+license = "MIT"
+homepage = "https://compactdata.org"
+repository = "https://github.com/NUMtechnology/compactdata-python"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/NUMtechnology/compactdata-python/issues"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+ply = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
