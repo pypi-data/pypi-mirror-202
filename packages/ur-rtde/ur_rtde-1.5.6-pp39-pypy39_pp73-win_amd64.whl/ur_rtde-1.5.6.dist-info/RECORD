@@ -1,0 +1,15 @@
+dashboard_client.pypy39-pp73-win_amd64.pyd,sha256=46qy4cayFjWVV7-Hx4BDYM4Pv4Uvc8nv2LLCkcU39mU,1065984
+rtde.dll,sha256=g6FeByuwI1qbOuQX7MmkHPYFrDHwWhZoVQX2qp9869Y,750592
+rtde_control.pypy39-pp73-win_amd64.pyd,sha256=8qCrQuGjcoWSO5XZzrpoW_-oxyfCUBuzIaPnqVoOsmA,1065984
+rtde_io.pypy39-pp73-win_amd64.pyd,sha256=BteXi-pi_G4CQe08CrmBdJnpfo6D_99vOMGZaWlrB8A,1065984
+rtde_receive.pypy39-pp73-win_amd64.pyd,sha256=I0NKVbnicHFtrCl6dN8Uae7mO0ZhqZgTlJiq-eqic5g,1065984
+script_client.pypy39-pp73-win_amd64.pyd,sha256=thAExDtK-bWAtPekxCCsoJDC0953T7HTstawOGhR29E,1065984
+ur_rtde-1.5.6.data/platlib/.load-order-ur_rtde-1.5.6,sha256=6cMU77Yx6GTp5QlQC8s0mVGdG4y5QxT-H96jwEiW2vY,100
+ur_rtde-1.5.6.data/platlib/msvcp140-fd1396e9225120f839f3d4d82cf6b983.dll,sha256=58iRKi-ja5Q0YKKyMoNyXQ680q-bEa-2-qq6PHAd_ZQ,559616
+ur_rtde-1.5.6.data/platlib/vcruntime140_1-91fdfae7aa5d92f92d6df41662443a01.dll,sha256=e49w3Tva4RDmGCPRym_YlVpWFxGfVAXN1rFMrTZW38c,44328
+ur_rtde-1.5.6.dist-info/DELVEWHEEL,sha256=8yjwnWFzUFRv9eYUeYMq1ZekvGQkrQIokkNipdn32js,443
+ur_rtde-1.5.6.dist-info/LICENSE,sha256=VtkAKO35IoqMCf9oRZ4OOdKv4cz07LgvbUy5rtXRSGc,1113
+ur_rtde-1.5.6.dist-info/METADATA,sha256=L1vbV3ZRKctaJ3iKduVzUW4oeDmlXtNDIe7sdEHjLq0,5605
+ur_rtde-1.5.6.dist-info/RECORD,,
+ur_rtde-1.5.6.dist-info/top_level.txt,sha256=cQHKhzqRqcreja5_610bk4zuPL8gRTlbyD9EqDEkiy8,8
+ur_rtde-1.5.6.dist-info/WHEEL,sha256=kbzA5tyEuvWcVsltnhCG02Vwq0RkG0K4o74bVDVA1mQ,107
