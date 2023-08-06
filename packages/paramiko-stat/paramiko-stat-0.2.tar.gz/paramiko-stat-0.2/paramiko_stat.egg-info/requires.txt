@@ -1,0 +1,14 @@
+paramiko
+
+[test]
+black
+coverage
+flake8
+gitchangelog
+icecream
+isort
+mkdocs
+mypy
+pytest
+pytest-cov
+types-paramiko
