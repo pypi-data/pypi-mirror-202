@@ -1,0 +1,11 @@
+pybloom/__init__.py,sha256=N0uqnvvro7bDllLcyJ4g4-wgNq8VSziZ10mtIjm7ur8,72
+pybloom/benchmarks.py,sha256=ur_xXJrOjrnvXl5SLTmTbYd5w_YAlqz4u39vVu_ZZaQ,1869
+pybloom/pybloom.py,sha256=q5750EafyfUaJw6DRdImcl0WLmG13TMPWpmZKAc_oas,15066
+pybloom/tests.py,sha256=nNJ6SexEGEqapPXltw_Zwtmg87iMBP6vcwav_e-qD-E,3861
+pybloom/utils.py,sha256=Yw3c8NxZYKYwqzW_-UG1y3bNczVIGtu5Bb4iT-SyDuM,546
+pybloom3_richard-0.0.1.dist-info/LICENSE.txt,sha256=MGNUNMmUVw8Usbv20oT2a_VnWpzDF46lk6oeXsQQO7Q,1073
+pybloom3_richard-0.0.1.dist-info/METADATA,sha256=7oxOcOb3g5bSsrqkT0W8eP2wdPwRJ9chWaO3Z_IIMTw,593
+pybloom3_richard-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pybloom3_richard-0.0.1.dist-info/top_level.txt,sha256=4-wsUihOqMszLcq-8cNGv8q9udA4HraeOr71B-KGgJc,8
+pybloom3_richard-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pybloom3_richard-0.0.1.dist-info/RECORD,,
