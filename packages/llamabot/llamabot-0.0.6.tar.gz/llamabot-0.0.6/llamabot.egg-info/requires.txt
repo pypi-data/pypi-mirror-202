@@ -1,0 +1,12 @@
+openai
+langchain
+typer
+
+[docs]
+mkdocs-material
+mkdocs
+panel
+jupyter_bokeh
+
+[tests]
+pytest
