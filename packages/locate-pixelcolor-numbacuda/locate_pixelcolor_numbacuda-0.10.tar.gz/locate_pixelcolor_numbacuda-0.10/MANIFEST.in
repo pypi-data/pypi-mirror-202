@@ -1,0 +1,4 @@
+include locate_pixelcolor_numbacuda/requirements.txt
+include locate_pixelcolor_numbacuda/thirdparty.json
+include locate_pixelcolor_numbacuda/README.MD
+include locate_pixelcolor_numbacuda/LICENSE
