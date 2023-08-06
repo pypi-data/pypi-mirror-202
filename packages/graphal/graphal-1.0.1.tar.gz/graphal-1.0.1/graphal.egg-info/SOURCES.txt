@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+graphal/__init__.py
+graphal/algorithm.py
+graphal.egg-info/PKG-INFO
+graphal.egg-info/SOURCES.txt
+graphal.egg-info/dependency_links.txt
+graphal.egg-info/requires.txt
+graphal.egg-info/top_level.txt
