@@ -1,0 +1,7 @@
+setup.py
+SenderSMTPClient/__init__.py
+SenderSMTPClient.egg-info/PKG-INFO
+SenderSMTPClient.egg-info/SOURCES.txt
+SenderSMTPClient.egg-info/dependency_links.txt
+SenderSMTPClient.egg-info/requires.txt
+SenderSMTPClient.egg-info/top_level.txt
