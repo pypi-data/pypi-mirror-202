@@ -1,0 +1,38 @@
+# Core
+numpy
+pandas
+dask
+networkx
+scipy
+astropy
+
+# Bioinf
+biopython
+bioservices
+pyfaidx
+goatools
+obonet
+gtfparse
+
+# IO utils
+h5py != 3.7.0
+lxml >= 4.9.1
+gunicorn
+six
+validators
+sqlalchemy
+filetype
+rarfile
+filetype
+logzero
+tqdm
+itsdangerous
+
+# Visualizations
+bokeh
+matplotlib
+
+# Dash
+dash
+dash-daq
+dash-bootstrap-components
