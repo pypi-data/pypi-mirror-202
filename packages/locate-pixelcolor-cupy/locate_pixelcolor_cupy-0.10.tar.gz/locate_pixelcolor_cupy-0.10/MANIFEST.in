@@ -1,0 +1,4 @@
+include locate_pixelcolor_cupy/requirements.txt
+include locate_pixelcolor_cupy/thirdparty.json
+include locate_pixelcolor_cupy/README.md
+include locate_pixelcolor_cupy/LICENSE
