@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: atprotocol
+Version: 0.0.2
+Summary: Python wrapper for the ATProtocol API
+Author: Jett Hollister
+Author-email: jett.hollister@proton.me
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# atprotocol 
+
+🚧 Under construction 🚧
+
+Python 3.10 wrapper for the [ATProtocol API](https://github.com/bluesky-social/atproto/tree/main/packages/api). It aims to closely emulate the Typescript implementation, including:
+- APIs for ATProtocol and Bluesky
+- Validation and (almost) complete types
+
+## Getting started
+
+First install the package:
+
+```shell
+pip install atprotocol
+```
+
+Then in your application:
+
+```python
+from atprotocol.bsky import BskyAgent
+
+agent = BskyAgent()
+```
+
+## Usage
+
+### Session management
+Log into a server using these APIs. You'll need an active session for most methods.
+
+```python
+from atprotocol.bsky import BskyAgent
+
+agent = BskyAgent()
+agent.login(identifier='jett.ai', password='letsgoduke')
+```
+
+### API calls
+
+These are the calls currently available in `atprotocol`. More are being added regularly.
+
+```python
+# Feeds and content
+agent.get_timeline()
+agent.get_author_feed(actor, limit)
+agent.get_post_thread(uri, depth)
+agent.get_likes(uri, cid, limit)
+agent.get_reposted_by(uri, cid, limit)
+
+# Social graph
+agent.get_followers(actor)
+
+# Actors
+agent.get_profile(actor)
+agent.get_profiles(actors)
+agent.search_actors(term, limit)
+
+# Session management
+agent.login(params)
+```
+
+## Advanced
+
+### Generic agent
+
+If you want a generic AT Protocol agent without methods related to the Bluesky social lexicon, use the AtpAgent instead of the BskyAgent.
+
+```python
+from atprotocol import AtpAgent
+
+agent = AtpAgent(service='https://example.com')
+```
+
+
+## License
+MIT
