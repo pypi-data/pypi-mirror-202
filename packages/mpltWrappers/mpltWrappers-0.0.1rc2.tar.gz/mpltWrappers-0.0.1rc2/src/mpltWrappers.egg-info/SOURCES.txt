@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+src/mpltWrappers/__init__.py
+src/mpltWrappers/colorFuncs.py
+src/mpltWrappers/colorPlots.py
+src/mpltWrappers/figCreate.py
+src/mpltWrappers/linePlots.py
+src/mpltWrappers/plotSettings.py
+src/mpltWrappers.egg-info/PKG-INFO
+src/mpltWrappers.egg-info/SOURCES.txt
+src/mpltWrappers.egg-info/dependency_links.txt
+src/mpltWrappers.egg-info/requires.txt
+src/mpltWrappers.egg-info/top_level.txt
