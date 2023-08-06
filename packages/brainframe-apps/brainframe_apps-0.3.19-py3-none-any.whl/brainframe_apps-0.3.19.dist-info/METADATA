@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: brainframe-apps
+Version: 0.3.19
+Summary: BrainFrame Apps use BrainFrame REST API to interact with the BrainFrame OS
+License: BSD License
+Author: Stephen Li
+Author-email: stephen@dilililabs.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: brainframe-api (>=0.29.1,<0.30.0)
