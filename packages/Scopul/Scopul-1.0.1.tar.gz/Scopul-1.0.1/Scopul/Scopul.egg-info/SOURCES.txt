@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+long_desc.md
+pyproject.toml
+setup.cfg
+Scopul/Scopul.egg-info/PKG-INFO
+Scopul/Scopul.egg-info/SOURCES.txt
+Scopul/Scopul.egg-info/dependency_links.txt
+Scopul/Scopul.egg-info/top_level.txt
+Scopul/scopul.egg-info/PKG-INFO
+Scopul/scopul.egg-info/SOURCES.txt
+Scopul/scopul.egg-info/dependency_links.txt
+Scopul/scopul.egg-info/top_level.txt
+tests/test_sequence.py
+tests/test_tempo.py
+tests/test_time_sig.py
