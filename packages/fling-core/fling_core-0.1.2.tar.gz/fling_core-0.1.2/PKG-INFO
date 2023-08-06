@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fling-core
+Version: 0.1.2
+Summary: Fling core components for Side Project Management
+Author: Joshua McKenty
+Author-email: jmckenty@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dynaconf (>=3.1.12,<4.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Fling-core
+
+## Settings for Fling CLI, API and Web
+
+Fling is a side project management platform. This library contains
+configuration and environment management logic, as well as shared
+libraries.
