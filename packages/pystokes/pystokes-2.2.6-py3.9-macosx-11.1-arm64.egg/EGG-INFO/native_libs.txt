@@ -1,0 +1,9 @@
+pystokes/forceFields.cpython-39-darwin.so
+pystokes/interface.cpython-39-darwin.so
+pystokes/periodic.cpython-39-darwin.so
+pystokes/twoWalls.cpython-39-darwin.so
+pystokes/unbounded.cpython-39-darwin.so
+pystokes/utils.cpython-39-darwin.so
+pystokes/wallBounded.cpython-39-darwin.so
+pystokes/phoretic/unbounded.cpython-39-darwin.so
+pystokes/phoretic/wallBounded.cpython-39-darwin.so
