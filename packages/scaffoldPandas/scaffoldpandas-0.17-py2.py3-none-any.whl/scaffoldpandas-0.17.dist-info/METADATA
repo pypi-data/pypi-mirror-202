@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: scaffoldPandas
+Version: 0.17
+Summary: A set of functions to make working with Python Pandas a little easier,
+Author-email: William Witteman <william@witteman.ca>
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Home, https://github.com/PatrickArchambault-EquipeRecherche/scaffoldPandas
