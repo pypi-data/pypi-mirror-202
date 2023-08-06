@@ -1,0 +1,7 @@
+test_pipinstall_whp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_pipinstall_whp/test_1.py,sha256=Mw-BcpUYD4yrZCRLglFdLE2imDV_qnY3mX_Dq3vaCf0,68
+test_pipinstall_whp/test_2.py,sha256=NXNRfalXfgfGpeHf8e8ZKit6RjEp2vsrVDbZOV-21rQ,68
+test_pipinstall_whp-0.1.0.dist-info/METADATA,sha256=CSh6O63_eaYJRArIBpOkh8R3HLto7C_1nICHNwMVfiU,254
+test_pipinstall_whp-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+test_pipinstall_whp-0.1.0.dist-info/top_level.txt,sha256=tfzDQOAzQPlJK5qJ-1hwRBTL3UopHJGerypVhrvYbyA,20
+test_pipinstall_whp-0.1.0.dist-info/RECORD,,
