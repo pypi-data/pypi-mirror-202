@@ -1,0 +1,4 @@
+defaults:
+  - dev
+
+gpus_per_node: 4
