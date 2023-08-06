@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: advancedrequests
+Version: 1.0.0
+Summary: Python package for managing advanced requests
+Home-page: UNKNOWN
+Author: GigaAlex
+Author-email: nick.faltermeier@gmx.de
+License: UNKNOWN
+Description: Python package for managing advanced requests
+Keywords: python
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
