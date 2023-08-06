@@ -1,0 +1,23 @@
+ default:
+  target: dev
+  outputs:
+    dev:
+      type: dameng
+      host: [server/host]
+      port: [port]
+      user: [username]
+      password: [password]
+      threads:
+        hint: "1 or more"
+        type: "int"
+      database: [ schema ]
+    prod:
+      type: dameng
+      host: [server/host]
+      port: [port]
+      user: [username]
+      password: [password]
+      threads:
+        hint: "1 or more"
+        type: "int"
+      database: [ schema ]
