@@ -1,0 +1,10 @@
+ttauto_crawler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ttauto_crawler/main.py,sha256=Gadi662z49_L2K4VSn8XW5fn_0-M2iSrYqS6ITURDBs,13093
+ttauto_crawler/utils.py,sha256=RH9NuWlUY92k_zDqveOSnyfy7OwSCyHQ9Q2azqsK1YE,8854
+ttauto_crawler/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+p_ttauto_crawler-0.0.2.dist-info/LICENSE,sha256=5hk5-PypMEFzj-YVsMgaHkR7R7rQlk9FMY__Vi3-AXE,1074
+p_ttauto_crawler-0.0.2.dist-info/METADATA,sha256=-9Z5P0Fhdfj0xVzvhrdJa4PLgDWA7sRXz8NmGZpHfgk,556
+p_ttauto_crawler-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+p_ttauto_crawler-0.0.2.dist-info/entry_points.txt,sha256=gkSerWOtGxurPPp0Re5rV1Wi-2bDuMnsQ18OA0Y73VI,60
+p_ttauto_crawler-0.0.2.dist-info/top_level.txt,sha256=UP7n4fg9Jue52AjfVcOefLhTTZmS6esvc1dM1fijmCw,15
+p_ttauto_crawler-0.0.2.dist-info/RECORD,,
