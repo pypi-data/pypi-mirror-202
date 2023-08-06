@@ -1,0 +1,8 @@
+c8connector/__init__.py,sha256=kjPsPv067t33baAzOXN_UvgXRBswgtI7S0FvTyXwfyw,6418
+c8connector/util/__init__.py,sha256=1t7Jl8Dye1bOweWY7ihTY5ZKSD8XDrVUz_TCbHgjECI,1560
+c8connector/util/db_util.py,sha256=u6lhjAWDbyaSKz5QGZZ45YE8zfj5PWUuSAOvkv20q9s,3207
+c8connector-0.0.17.dist-info/entry_points.txt,sha256=fDAbPvPD4iva-6wSPDtSEiIT1aaDNu9VIs0CuQYCVs8,124
+c8connector-0.0.17.dist-info/LICENSE,sha256=fIeHMpHyiXE6xd9IsfIBDraWN1K71rUwQWq5n8N5FKg,10765
+c8connector-0.0.17.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+c8connector-0.0.17.dist-info/METADATA,sha256=0aKFciqX3Df6xTW3qTpbI0es6N7OSEufnbRqyywOunI,5994
+c8connector-0.0.17.dist-info/RECORD,,
