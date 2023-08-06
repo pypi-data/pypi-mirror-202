@@ -1,0 +1,13 @@
+admin_image_preview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+admin_image_preview/apps.py,sha256=1dGQdx8hWJdTbXBXILaR4DO7XtoBrDZzQXV7zisd5W8,168
+admin_image_preview/models.py,sha256=1-V9Zstj9s65ES8ZI8e8BYK1sA4aNa2x9N5shn-7u6U,293
+admin_image_preview/readme.md,sha256=DAqnCWrgLuu1n5N8GbDAin0Gd7a3vLb425dnTbRJp-c,1767
+admin_image_preview/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+admin_image_preview/static/admin_image_preview/image_preview.js,sha256=PSbwAjl_xjAwIwCMflKU7vXD0HwZxLcRFwmhSZRLxuM,3872
+admin_image_preview/templates/admin/change_form.html,sha256=83ywtAsDIdNMsEysPjw-LXxPEDQVrorr85rFH-_N8n0,213
+admin_image_preview/templates/admin/original_change_form.html,sha256=00NloP59sGoh-fipF74p1SpinKW3psP5Cj6qbCMO8fo,3804
+admin_form_image_preivew-1.1.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+admin_form_image_preivew-1.1.dist-info/METADATA,sha256=eC7Z5inyvGH5xTkXb5GO8sR-ssC9FVVrBBW1LeDBmGE,2002
+admin_form_image_preivew-1.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+admin_form_image_preivew-1.1.dist-info/top_level.txt,sha256=QgmSvC1GCx2p-s5pjGjYjD0Ac-Dtascvm1PCmMLQIsY,20
+admin_form_image_preivew-1.1.dist-info/RECORD,,

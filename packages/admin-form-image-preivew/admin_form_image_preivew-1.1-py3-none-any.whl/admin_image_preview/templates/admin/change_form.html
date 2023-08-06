@@ -1,0 +1,6 @@
+{% extends "admin/change_form.html" %}
+{% load i18n static %}
+{% block content %}
+    {{ block.super }}
+    <script defer="defer" src="{% static 'admin_image_preview/image_preview.js' %}"></script>
+{% endblock %}
