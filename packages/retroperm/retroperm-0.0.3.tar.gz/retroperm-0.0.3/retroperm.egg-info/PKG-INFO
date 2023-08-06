@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: retroperm
+Version: 0.0.3
+Summary: A retroactive effective binary permission deduction tool
+Home-page: https://github.com/SpiritSeal/retroperm
+Author-email: Saketh Reddy <yssaketh@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/SpiritSeal/retroperm
+Project-URL: Bug Tracker, https://github.com/SpiritSeal/retroperm/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Retroperm
+A platform-agnostic retroactive effective permission generation system for compiled executables built using angr
+
+## Developer Install
+```sh 
+git clone git@github.com:SpiritSeal/retroperm.git
+cd retroperm
+pip3 install -e .
+```
