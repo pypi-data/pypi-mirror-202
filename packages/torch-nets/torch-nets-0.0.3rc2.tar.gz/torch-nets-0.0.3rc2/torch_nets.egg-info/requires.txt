@@ -1,0 +1,3 @@
+torch>=2.0.0
+ABCParse>=0.0.3
+vinplots>=0.0.75
