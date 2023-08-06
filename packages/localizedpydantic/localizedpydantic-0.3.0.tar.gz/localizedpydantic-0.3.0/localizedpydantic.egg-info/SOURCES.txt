@@ -1,0 +1,14 @@
+README.md
+setup.py
+localizedpydantic/__init__.py
+localizedpydantic.egg-info/PKG-INFO
+localizedpydantic.egg-info/SOURCES.txt
+localizedpydantic.egg-info/dependency_links.txt
+localizedpydantic.egg-info/requires.txt
+localizedpydantic.egg-info/top_level.txt
+localizedpydantic/models/__init__.py
+localizedpydantic/models/brazil.py
+localizedpydantic/validators/__init__.py
+localizedpydantic/validators/brazil.py
+tests/__init__.py
+tests/test_brasil.py
