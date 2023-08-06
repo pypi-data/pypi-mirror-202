@@ -1,0 +1,3 @@
+pyarrow
+flightsql-dbapi
+influxdb-client
