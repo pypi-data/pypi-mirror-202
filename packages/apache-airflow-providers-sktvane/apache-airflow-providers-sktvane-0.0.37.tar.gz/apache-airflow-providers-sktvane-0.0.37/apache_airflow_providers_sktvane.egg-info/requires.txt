@@ -1,0 +1,2 @@
+slack-sdk
+apache-airflow-providers-slack
