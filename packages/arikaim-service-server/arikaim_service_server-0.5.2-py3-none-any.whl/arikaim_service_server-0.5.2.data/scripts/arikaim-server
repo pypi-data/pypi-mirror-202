@@ -1,0 +1,11 @@
+#!python
+
+import arikaim.core.arikaim as arikaim
+import arikaim.core.globals as globals
+import os
+
+globals.ARIKAIM_PATH = os.getcwd()
+
+if __name__ == '__main__':
+    arikaim.main()
+    
