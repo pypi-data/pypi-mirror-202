@@ -1,0 +1,11 @@
+Change Log
+==========
+
+0.1.0 (12/04/2023)
+-------------------
+- Out of Pre-Alpha
+- Code rewritten from ground-up
+- Removed reliance on matrix functions for calculations
+- Added support for infinities (i.e; negative infinitesimal powers)
+- Added limited support for fractional infinite / infinitesimal powers
+- New natural logarithm algorithm for higher precision calculations (used in a majority of functions)
