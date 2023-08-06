@@ -1,0 +1,9 @@
+CustomGPT/__init__.py,sha256=8nvPOLSe7eRoox2xHsQqfygUaZsmluS27l-p2JiGwrM,34
+CustomGPT/custom_gpt.py,sha256=L7NSFEOhdhfdEZesxCkuDqPI4_rno_-e-2BaIC4Fb5U,5241
+src/__init__.py,sha256=8nvPOLSe7eRoox2xHsQqfygUaZsmluS27l-p2JiGwrM,34
+src/custom_gpt.py,sha256=GnK_qyGTAeb2aMR6iR870bX5aMuB60SO0r8HaR5q2JU,4325
+CustomGPT-1.0.0.dist-info/LICENSE,sha256=kHKTnoAwJH5FE39TajFPL-bUrN0za8LZyzEx6EaDszU,1063
+CustomGPT-1.0.0.dist-info/METADATA,sha256=Ptu_dRko8JiAhMCGhf_NIpMYKRQXxTjUxnkyQL414FY,838
+CustomGPT-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+CustomGPT-1.0.0.dist-info/top_level.txt,sha256=va0jyqtu-11kp4xvn85tET215S5sj4Icdz90kLcy9qE,10
+CustomGPT-1.0.0.dist-info/RECORD,,
