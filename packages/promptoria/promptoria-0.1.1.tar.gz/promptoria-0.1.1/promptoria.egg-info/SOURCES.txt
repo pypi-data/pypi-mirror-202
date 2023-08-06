@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+promptoria.egg-info/PKG-INFO
+promptoria.egg-info/SOURCES.txt
+promptoria.egg-info/dependency_links.txt
+promptoria.egg-info/not-zip-safe
+promptoria.egg-info/top_level.txt
+src/promptoria/__init__.py
+src/promptoria/pyprompt.py
+tests/test_pyprompt.py
