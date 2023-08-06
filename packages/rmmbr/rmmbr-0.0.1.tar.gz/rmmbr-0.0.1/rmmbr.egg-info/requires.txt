@@ -1,0 +1,6 @@
+redis>=3.5.3
+python-dotenv>=0.17.1
+pytest
+httpx
+aiofiles
+pytest-asyncio
