@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+py3dchart/__init__.py
+py3dchart/chart.py
+py3dchart.egg-info/PKG-INFO
+py3dchart.egg-info/SOURCES.txt
+py3dchart.egg-info/dependency_links.txt
+py3dchart.egg-info/top_level.txt
