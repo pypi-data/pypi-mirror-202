@@ -1,0 +1,3 @@
+[console_scripts]
+notionshell = notionshell:main
+
