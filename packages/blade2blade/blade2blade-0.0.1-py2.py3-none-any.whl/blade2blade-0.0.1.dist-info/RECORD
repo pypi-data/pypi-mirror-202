@@ -1,0 +1,13 @@
+blade2blade/__init__.py,sha256=RQ4E0VtPaYBTvEHJkhjZnLryiWpU7Fzu_0SlVZEMbKE,102
+blade2blade/inference.py,sha256=9IZQhJg_BT-RdpOXKJdVcD5n_x9qzRuFvcaIcf-A9wg,3336
+blade2blade/training/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blade2blade/training/trainer.py,sha256=-LKtm2b-PsbSOfYCVt1VUCStmqCkfLDh96Pq6y8xOGk,1705
+blade2blade/training/utils.py,sha256=dXSFJLsKpUkov9XZwTJycl0uxGgXtAc7gM9JT3sHX-Y,1652
+blade2blade/training/config/t5_good.yaml,sha256=ns9-X4r1E1hJZT-0--vgJL4XIg0YpQF8UQc2EWeaOtE,532
+blade2blade/training/config/trainer/default.yaml,sha256=-RhS_4mUim2bVgmJ-nZXcDxOXrtfKA0xg0W8fYGNk1A,408
+blade2blade/training/custom_datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blade2blade/training/custom_datasets/prosocial.py,sha256=gs8r4oIeVed4Kbg04O-8pdthUeoPYgLzZC-qxn3PkkM,4142
+blade2blade/training/custom_datasets/utils.py,sha256=_ozj0gTGPvYmWFZ8lEIl_eshseMhaY3rGKPAZTzZhoo,772
+blade2blade-0.0.1.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+blade2blade-0.0.1.dist-info/METADATA,sha256=v-4OTi345XrZ16zx-R7Ndvgt0AOYcZAj8AM7o3ALdsQ,2789
+blade2blade-0.0.1.dist-info/RECORD,,
