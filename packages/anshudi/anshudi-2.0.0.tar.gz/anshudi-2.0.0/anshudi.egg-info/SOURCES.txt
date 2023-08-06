@@ -1,0 +1,8 @@
+setup.py
+anshudi/__init__.py
+anshudi/anshu.py
+anshudi.egg-info/PKG-INFO
+anshudi.egg-info/SOURCES.txt
+anshudi.egg-info/dependency_links.txt
+anshudi.egg-info/requires.txt
+anshudi.egg-info/top_level.txt
