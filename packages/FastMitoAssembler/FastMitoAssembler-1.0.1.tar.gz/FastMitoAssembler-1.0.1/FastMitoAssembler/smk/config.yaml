@@ -1,0 +1,17 @@
+reads_dir:
+samples: []
+result_dir: 'result'
+fq_path_pattern: '{sample}/{sample}_1.clean.fq.gz'
+organelle_database: 'animal_mt'
+genome_min_size: 12000
+genome_max_size: 22000
+kmer_size: 39
+max_mem_gb: 10
+read_length: 150
+insert_size: 300
+clade: 'Annelida-segmented-worms'
+genetic_code: 5
+thread_number: 20
+
+seed_input:
+genes:
