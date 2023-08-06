@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: narcapi
+Version: 0.0.3
+Summary: Apollo AI NARC API package
+Project-URL: Homepage, https://goapollo.ai
+Project-URL: Documentation, https://narcapi-rtd.readthedocs.io/en/latest/
+Author-email: ApolloDev <apollodev@goapollo.ai>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Apollo AI NARC API package
+
+Apollo AI NARC API package
