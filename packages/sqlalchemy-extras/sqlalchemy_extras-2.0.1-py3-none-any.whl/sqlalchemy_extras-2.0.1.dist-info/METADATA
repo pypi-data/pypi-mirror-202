@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-extras
+Version: 2.0.1
+Summary: 
+Author: Francisco Del Roio
+Author-email: francipvb@hotmail.com
+Requires-Python: >=3.10.0,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: fastapi
+Requires-Dist: fastapi (>=0.60.0,<1.0.0) ; extra == "fastapi"
+Requires-Dist: sqlalchemy (>=2.0.9,<3.0.0)
+Description-Content-Type: text/markdown
+
+
