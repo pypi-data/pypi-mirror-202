@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: HaiqvML
+Version: 0.0.1
+Summary: HaiqvMLops SDK wrapped mlflow
+Home-page: https://github.com/teddylee777/teddynote
+Author: haha2432
+Author-email: haha2432@gmail.com
+Keywords: haiqv,mlflow,haiqvml
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Requires-Dist: mlflow
+
