@@ -1,0 +1,6 @@
+coolname
+requests
+numpy
+pillow
+psutil
+GPUtil
