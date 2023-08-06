@@ -1,0 +1,7 @@
+# development dependencies
+wheel>=0.22
+setuptools-git
+nbformat
+
+# equivalent to ./setup develop
+-e .
