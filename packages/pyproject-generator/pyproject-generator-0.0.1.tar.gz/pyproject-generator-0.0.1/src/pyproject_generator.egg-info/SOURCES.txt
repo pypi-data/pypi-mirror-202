@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+src/pyproject/__init__.py
+src/pyproject/__version__.py
+src/pyproject/cli.py
+src/pyproject/project_builder.py
+src/pyproject_generator.egg-info/PKG-INFO
+src/pyproject_generator.egg-info/SOURCES.txt
+src/pyproject_generator.egg-info/dependency_links.txt
+src/pyproject_generator.egg-info/entry_points.txt
+src/pyproject_generator.egg-info/top_level.txt
+tests/test_pyproject.py
