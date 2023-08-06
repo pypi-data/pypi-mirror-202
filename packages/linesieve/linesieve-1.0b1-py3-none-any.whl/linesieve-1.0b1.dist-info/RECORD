@@ -1,0 +1,11 @@
+linesieve/__init__.py,sha256=hqsUUaiLuafyCXUsyO_9BvvjK9GmuHcglsQT6yIV6Fo,735
+linesieve/__main__.py,sha256=Huz0dExiaH0XTMLhfe3skkFD9-VH7ZUiWMbDR_J8TIY,28
+linesieve/cli.py,sha256=LAij8rWkS1VfI6oJ-PwKv1kQvIm447Gyt3XBwsFMXQQ,28501
+linesieve/parsing.py,sha256=pa96v7wuVnCEAEa7XNsNtL4TKjM7qpznnzjtfGw-NQU,7116
+linesieve/paths.py,sha256=3Xncwk-h7DcfVshZpsRZ8MmVoW15Hkk327fBmmyO6gY,2820
+linesieve-1.0b1.dist-info/LICENSE,sha256=tKg_zl9ky_1hMcVat4Lp4Hn3rBYCyFESlUSwhgc2ESs,1475
+linesieve-1.0b1.dist-info/METADATA,sha256=oFtbBPDFnSQSQ13yQuLiMDJuqzH1KAaGT56KTIKFMOA,14758
+linesieve-1.0b1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+linesieve-1.0b1.dist-info/entry_points.txt,sha256=DbCNj4KqWMVNOnf5rIiQMeUCOv018-fiW175nJlSk1c,48
+linesieve-1.0b1.dist-info/top_level.txt,sha256=ubQKfnLzlTWonMFAnwds-_IXvpHlO-C53Zz0Oj9BzQg,10
+linesieve-1.0b1.dist-info/RECORD,,
