@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: matej-libs
+Version: 0.1
+Home-page: https://github.com/MatejVitek/Python-Libraries
+Download-URL: https://github.com/MatejVitek/Python-Libraries/archive/refs/tags/v0.1.tar.gz
+Author: Matej Vitek
+Author-email: matej.vitek.business@gmail.com
+Requires-Python: >=3.8
+Provides-Extra: google-drive
+Provides-Extra: config
+Provides-Extra: parallel
+License-File: LICENSE
