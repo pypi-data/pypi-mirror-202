@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: PyLanguageEasy
+Version: 1.0.0
+Summary: PyLanguageEasy
+Author: Developer HelloUsers
+Author-email: duartesaopedrocat1@gmail.com
+Keywords: python,Pylan,pylan,EasyPython,EasyPyLan,easypylan,pygame,game,image
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+Easy Python Language
+
+Helps you to make python easier and more understandable
+
+some example:
+you can change color of text, print on same line, delete and re-output again and many others, image process.
+It makes making 2d game easier you can scroll background with just one line of code, check user input, collide and many others.
+put image, and many others
+calculate any number like using calculate("2+2*4/5") and builtin bot
+
+turn text to speech and speech to text just on one of code
+
+some function
+
+Bot()
+calculate()
+re_output()
+resizeImage() 
+and many others
+
+join on discord (Shiva321#1848) for update and help.
+
+

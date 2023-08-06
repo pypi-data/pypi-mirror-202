@@ -1,0 +1,7 @@
+pygame
+Pillow
+pyttsx3
+SpeechRecognition
+datetime
+keyboard
+termcolor

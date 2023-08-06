@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+PyLanguageEasy/__init__.py
+PyLanguageEasy.egg-info/PKG-INFO
+PyLanguageEasy.egg-info/SOURCES.txt
+PyLanguageEasy.egg-info/dependency_links.txt
+PyLanguageEasy.egg-info/requires.txt
+PyLanguageEasy.egg-info/top_level.txt
