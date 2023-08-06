@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: mediaify
+Version: 0.0.4
+Summary: Encoding media into multiple qualities
+Author-email: Ben Brady <benbradybusiness@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ffmpeg-python~=0.2.0
+Requires-Dist: pillow~=9.5.0
+Requires-Dist: python_magic~=0.4.27
+Requires-Dist: python-magic-bin; sys_platform == 'win32'
+
+# Mediaify
+
+A library designed to make encoding media simple and easy.
+
+```python
+import mediaify
+
+with open('fractal.gif', 'rb') as f:
+    data = f.read()
+
+files = mediaify.encode_media(data)
+>>> [
+    <mediaify.types.ImageFile object at 0x7f0d35d78820>,
+    <mediaify.types.ImageFile object at 0x7f0d35d78970>,
+    <mediaify.types.AnimationFile object at 0x7f0d35d788e0>,
+    <mediaify.types.AnimationFile object at 0x7f0d35d78850>
+]
+```
+
+# Dependencies
+
+- ffmpeg
+    - Used to re-encode videos
+    - Debain/Ubuntu: `sudo apt-get install ffmpeg`
+    - [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
+- libmagic
+    - Non-windows platform need to manually install libmagic
+    - Debian/Ubuntu: `sudo apt-get install libmagic1`
+    - Homebrew: `brew install libmagic`
+    - macports: `port install file`
+
+
