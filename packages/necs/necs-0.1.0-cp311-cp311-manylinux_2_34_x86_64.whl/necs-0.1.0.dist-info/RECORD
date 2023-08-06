@@ -1,0 +1,8 @@
+necs-0.1.0.dist-info/METADATA,sha256=A5mBO41Yg6EEyhRX5F59TXudaCNXwprKRongtu1-ez8,544
+necs-0.1.0.dist-info/WHEEL,sha256=R9wVMmuk1ZynYCmStYUx0-Pf549uiu_tDMkv_8DiZSs,110
+necs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+necs/__init__.py,sha256=s-mp8kjfE6roBbbnamBiGuRlm1zxPQaI-6N9-yN8VXE,96
+necs/necs.pyi,sha256=EFpvscicu-SFpWK1fw5lCWVKX7Vv2RSed1FTInkSXVQ,978
+necs/_internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+necs/necs.cpython-311-x86_64-linux-gnu.so,sha256=n1QIUxRj82hmAnNJT2aBgatFFYj8vVFBWVbUUYZyAok,510408
+necs-0.1.0.dist-info/RECORD,,
