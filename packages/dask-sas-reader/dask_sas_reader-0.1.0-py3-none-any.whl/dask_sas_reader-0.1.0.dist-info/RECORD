@@ -1,0 +1,10 @@
+dask_sas_reader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dask_sas_reader/sas.py,sha256=TSOhQC_0azOHtTQ61NYLwkD5Ob98TKgi__PjxcQVQ1M,2996
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_sas.py,sha256=QWyGGw6s9pYeP7q7-T7HmPoAu4vvET2FO-QEA3DflZ8,875
+dask_sas_reader-0.1.0.dist-info/LICENSE,sha256=nrZcK9TbZ6ZOx-jabeXvL7r6_EiZeQQiilUsJP0tcCU,1060
+dask_sas_reader-0.1.0.dist-info/METADATA,sha256=MHR_JnsmE6oBvUJnGZ1XYxvVSTkB7VWYroSvEAoSgus,836
+dask_sas_reader-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dask_sas_reader-0.1.0.dist-info/top_level.txt,sha256=9dnmRPOYUPeqMqdGerYI7wpVJpHTIDa7wC5oXAHEGnU,22
+dask_sas_reader-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dask_sas_reader-0.1.0.dist-info/RECORD,,
