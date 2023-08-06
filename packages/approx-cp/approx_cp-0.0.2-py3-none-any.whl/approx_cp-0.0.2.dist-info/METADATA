@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: approx-cp
+Version: 0.0.2
+Summary: Python implementation of Approximate full Conformal Prediction (ACP)
+Home-page: https://github.com/cambridge-mlg/acp
+Author: Javier Abad
+Author-email: javier.abadmartinez@ai.ethz.ch
+Project-URL: Paper, https://arxiv.org/abs/2202.01315
+Keywords: machine learning,AAAI,conformal prediction
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: keras
+Requires-Dist: folktables
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+
+# Approximate full Conformal Prediction
+
+This repository contains the Python implementation of [Approximating Full Conformal Prediction at Scale via Influence Functions](https://arxiv.org/abs/2202.01315).
+
+* [Overview](#overview)
+* [Contents](#contents)
+* [Third-party software](#third-party-software)
+* [Usage](#usage)
+* [Tutorial Notebook](#tutorial-notebook)
+* [Experiments](#experiments)
+* [Reference](#reference)
+
+## Overview
+
+Approximate full Conformal Prediction (ACP) outputs a prediction set that contains the true label with at least a probability specified by the practicioner. In large datasets, ACP inherits the statistical power of the highly efficient full Conformal Prediction. The method works as a wrapper for any differentiable ML model.
+
+## Contents
+
+This repository is organized as follows. In the folder `src/acp` you can find the following modules:
+
+ - `methods.py` Python implementation of the ACP algorithms.
+ - `others.py` Python implementation of the comparing methods (SCP, APS, RAPS, CV+, JK+).
+ - `wrapper.py` Python implementation of ACP as a wrapper for any differentiable PyTorch model. See `models.py` for examples.
+ - `models.py` Examples of models compatible with `wrapper.py` (e.g., logistic regression, neural network, convolutional neural network).
+ - `experiments.py` Python file to run the experiments from the command line.
+ - `models/` Saved models.
+
+The folder  `src/third_party/` contains additional third-party software.
+ 
+## Third-party software
+
+We include the following third-party packages for comparison with ACP:
+
+- [RAPS](https://github.com/aangelopoulos/conformal_classification)
+- [APS, CV+, JK+](https://github.com/msesia/arc)
+ 
+
+## Usage
+
+### Installation
+ACP can be utilized as a fully-independent `pip` package. You can download the framework by running the following command in the terminal:
+
+```bash
+pip install approx-cp
+```
+In order to use ACP in your own models, just include the following imports in your file:
+
+```bash
+from acp.wrapper import ACP_D, ACP_O #Deleted scheme (ACP_D) and ordinary scheme (ACP_O)
+```
+Alternatively, you can clone this repo by running:
+
+```bash
+git clone https://github.com/cambridge-mlg/acp
+cd acp
+```
+And install the ACP Python package in a customizable conda environment:
+
+```bash
+conda create -n myenv python=3.9
+conda activate myenv
+pip install --upgrade pip
+pip install -e .         
+```
+Now, just include the import:
+
+```bash
+from acp.wrapper import ACP_D, ACP_O
+```
+
+### Constructing prediction sets with ACP
+
+ACP works as a wrapper for any PyTorch model with `.fit()` and `.predict()` methods. Once you instantiate your model, you can generate tight prediction sets that contain the true label with a specified probability. Here is an example with synthetic data:
+
+```bash
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
+from acp.models import NeuralNetwork
+from acp.wrapper import ACP_D
+
+X, Y = make_classification(n_samples = 1100, n_features = 10, n_classes = 2, n_clusters_per_class = 1, n_informative = 3, random_state = 42)
+Xtrain, Xtest, Ytrain, Ytest = train_test_split(X, Y, test_size = 100, random_state = 42)
+model = NeuralNetwork(input_size = 10, num_neurons = [20, 10], out_size = 2, seed = 42, l2_reg = 0.01)
+
+ACP = ACP_D(Xtrain, Ytrain, model, seed = 42, verbose = True)
+sets = ACP.predict(Xtest, epsilon = 0.1, out_file = "results/test")
+```
+
+## Reference
+
+J. Abad Martinez, U. Bhatt, A. Weller and G. Cherubin. Approximating Full Conformal Prediction at Scale via Influence Functions. Association for the Advancement of Artificial Intelligence Conference on Artificial Intelligence (AAAI), 2023.
+
+ BiBTeX:
+
+```
+@inproceedings{Abad2023ApproximatingFC,
+  title={Approximating Full Conformal Prediction at Scale via Influence Functions},
+  author={Javier Abad and Umang Bhatt and Adrian Weller and Giovanni Cherubin},
+  booktitle={AAAI Conference on Artificial Intelligence},
+  year={2023}
+}
+```
+
+
+
