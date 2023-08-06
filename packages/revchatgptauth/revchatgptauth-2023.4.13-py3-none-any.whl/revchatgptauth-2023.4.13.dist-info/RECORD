@@ -1,0 +1,7 @@
+revchatgptauth/__init__.py,sha256=9jfUd5dNFfgbjWoeFbGIuWVtbfB-X0-raLzfgxbXNM4,247
+revchatgptauth/chatgpt_access_token_parser.py,sha256=kvgNbeTqnUm9Nt0oUl7SEhEk7lTHheXuOuwzPL6-0Uo,1056
+revchatgptauth/openai_cookie_parser.py,sha256=_rtAnY3ixDjL0vZqUyRK2Ga6frxBFe8PQxNhcG6R7Vc,1561
+revchatgptauth/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revchatgptauth-2023.4.13.dist-info/METADATA,sha256=kX4fhuWqFNU7iL-foOctU0whxKYGcQAb87I_UKE3wNY,1674
+revchatgptauth-2023.4.13.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+revchatgptauth-2023.4.13.dist-info/RECORD,,
