@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "DataframeFormatterSC"
+version = "0.0.1"
+authors = [
+  { name="SimoneCallegarin", email="simone.callegarin00@gmail.com" },
+]
+description = "A dataframe formatting tool"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SimoneCallegarin/DataframeFormatting"
