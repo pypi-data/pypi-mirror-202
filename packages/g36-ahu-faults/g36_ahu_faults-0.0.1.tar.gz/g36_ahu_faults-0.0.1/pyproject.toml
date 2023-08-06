@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "g36_ahu_faults"
+version = "0.0.1"
+authors = [
+  { name="Ben Bartling", email="ben.bartling@gmail.com" },
+  { name="Andrew Rodgers", email="andrew@aceiotsolutions.com" },
+]
+description = "Package for fault detection and diagnosis of AHUs using G36 fault conditions"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ACE-IoT-Solutions/g36-ahu-faults"

@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: g36_ahu_faults
+Version: 0.0.1
+Summary: Package for fault detection and diagnosis of AHUs using G36 fault conditions
+Author-email: Ben Bartling <ben.bartling@gmail.com>, Andrew Rodgers <andrew@aceiotsolutions.com>
+Project-URL: Homepage, https://github.com/ACE-IoT-Solutions/g36-ahu-faults
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# g36-ahu-faults
+
+[![Build Status](https://app.travis-ci.com/bbartling/g36-ahu-faults.svg?branch=develop)](https://app.travis-ci.com/bbartling/g36-ahu-faults)
+
+## This project is under development to eventually be a Pypi package for Fault Detection Diagnostics (FDD) on HVAC system datasets with the Pandas computing library. 
+See also (in development) for other HVAC system types:
+* [g36-boiler-plant-faults](https://github.com/bbartling/g36-boiler-plant-faults)
+* [g36-chiller-plant-faults](https://github.com/bbartling/g36-chiller-plant-faults)
+
+###### Note - Fault equations expect a float between 0.0 and 1.0 for a control system analog output that is typically expressed in industry HVAC controls as a percentage between 0 and 100% of command. 
+Examples of a analog output could a heating valve, air damper, or fan VFD speed. For sensor input data these can be either float or integer based. Boolean on or off data for control system 
+binary commands the fault equation expects an integer of 0 for Off and 1 for On.
+
+## Reference AHU fault equations here defined by ASHRAE Guideline 36:
+https://github.com/bbartling/open-fdd/tree/master/air_handling_unit/images
+
+
+## License
+g36-ahu-faults is made available under the MIT license. Enjoy! 
+
+## Development
+You can follow the development of g36-ahu-faults on [GitHub](https://github.com/bbartling/open-fdd) via the `open-fdd` project for ASHRAE G36 Fault Detection Diagnostics.
+
+## Contributing
+To contribute to g36-ahu-faults please open an issue on the [GitHub issue tracker](https://github.com/bbartling/g36-ahu-faults/issues) and/or leave a Pull Request. Thanks!
+
+## FDD Dataset Contributing
+Any good anonymous HVAC FDD datasets in CSV format where lots of faults are found please contribute in a community effort:
+https://github.com/bbartling/Data
+
+
