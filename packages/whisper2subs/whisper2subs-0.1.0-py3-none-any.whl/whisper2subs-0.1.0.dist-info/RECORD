@@ -1,0 +1,12 @@
+whisper2subs/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+whisper2subs/__main__.py,sha256=-Z2Amxr567y0YQBbUss8WfCQ7cWQlwSYGbYh2VkL1h0,58
+whisper2subs/cli.py,sha256=1ljYhcGq6-btd8gpOjY0ZkVpEnI4ATPhmAY9Ez1aFT4,4396
+whisper2subs/export.py,sha256=JE5aEywC38D67IVlvcCmqp70UH56izPDN9-uePcvC1U,377
+whisper2subs/transcribe.py,sha256=fkr0odqcLk6HITZSlLaYQhfdkTtGYA8bcCDLxC-N2bs,904
+whisper2subs/translate.py,sha256=kGbcrfdwbC6qUtxCRi74XD--wqZp1EVqZ30zefVajE8,763
+whisper2subs-0.1.0.dist-info/LICENSE,sha256=eLTON9XVfHYat-AGo9wbF1jUZxHFOytmlcGFI6A0_RY,1079
+whisper2subs-0.1.0.dist-info/METADATA,sha256=SY3AojP4LUm4Vw5D7rzDhqNClaVb54gH0qoOk3LBCbg,3437
+whisper2subs-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+whisper2subs-0.1.0.dist-info/entry_points.txt,sha256=4AnU1ktnFh3LLvdf-mXUcR4cksUq4NkWcUIOXZHzJZQ,63
+whisper2subs-0.1.0.dist-info/top_level.txt,sha256=PvLRHW4-3UbiHbaONIi-bMyjMRH8WFjDYUx_vRc4guM,13
+whisper2subs-0.1.0.dist-info/RECORD,,
