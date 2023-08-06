@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: json-composite-encoder
+Version: 1.0.0
+Summary: JSON Composite Encoder
+Home-page: https://github.com/asuiu/json-composite-encoder
+Author: Andrei Suiu
+Author-email: andrei.suiu@gmail.com
+License: Apache License 3.0
+Keywords: utility,json,encoder
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: tests
+
+# JSON Composite Encoder
+
+Class that generates an encoder class that can be used with Json library, but would be composed of multiple encoders
