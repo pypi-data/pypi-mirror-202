@@ -1,0 +1,121 @@
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "apa-logbook-parser"
+description = "logbook-parser_short_description"
+# readme = "README.rst"
+requires-python = ">=3.10"
+keywords = ["Python"]
+license = { file = "LICENSE" }
+authors = [{ name = "Chad Lowe" }, { email = "pfmsoft.dev@gmail.com" }]
+# https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = ["airportsdata", "more-itertools", "pydantic", "click"]
+version = "0.1.1"
+[project.urls]
+Documentation = "https://github.com/DonalChilde/apa-logbook-parser#readme"
+Documentation_rtd = "https://apa-logbook-parser.readthedocs.io"
+Issues = "https://github.com/DonalChilde/apa-logbook-parser/issues"
+Source = "https://github.com/DonalChilde/apa-logbook-parser"
+[project.optional-dependencies]
+dev = [
+
+    # Automation
+    "nox",
+    "pre-commit",
+
+    # Formatting
+    "black",
+    "isort",
+
+    # Tools
+
+]
+lint = ["pylint", "mypy"]
+doc = [
+    # Documentation
+    "Sphinx",
+    "sphinx-autobuild",
+    "sphinx-autodoc-typehints",
+    "sphinx_rtd_theme",
+    "myst-parser",
+    "sphinx-click",
+]
+vscode = ["esbonio", "rst2html", "rstcheck"]
+testing = [
+    "pytest",
+    "coverage[toml]",
+    "pygments",
+    "pytest-cov",
+    "pysnooper",
+    "devtools",
+]
+
+
+[project.scripts]
+apa-logbook-parser = "apa_logbook_parser.cli.main:main"
+
+[tool.isort]
+profile = "black"
+src_paths = ["src", "test"]
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+# https://pylint.pycqa.org/en/latest/user_guide/usage/run.html#command-line-options
+# https://pylint.pycqa.org/en/latest/user_guide/configuration/all-options.html#standard-checkers
+# pylint --generate-toml-config > ./pylint-toml-example.toml
+# [tool.pylint.messages_control]
+# disable = [
+#     "raw-checker-failed",
+#     "bad-inline-option",
+#     "locally-disabled",
+#     "file-ignored",
+#     "suppressed-message",
+#     "useless-suppression",
+#     "deprecated-pragma",
+#     "use-symbolic-message-instead"
+# ]
+
+[tool.pylint.format]
+# for black compatability
+max-line-length = "92"
+[tool.pylint.'MESSAGES CONTROL']
+extension-pkg-whitelist = "pydantic"
+
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+tests = ["tests", "*/tests"]
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+show_missing = true
+# omit the snippets directory, as they are often included without tests.
+omit = ["*/snippets/*"]
+# # fail_under = 100
+
+[tool.coverage.html]
+directory = "htmlcov"
+
+# https://docs.pytest.org/en/6.2.x/customize.html#pyproject-toml
+# [tool.pytest.ini_options]
+# minversion = "6.0"
+# addopts = "-ra -q"
+# testpaths = [
+#     "tests",
+#     "integration",
+# ]
