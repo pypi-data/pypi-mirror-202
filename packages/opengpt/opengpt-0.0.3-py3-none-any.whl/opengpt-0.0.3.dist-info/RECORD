@@ -1,0 +1,12 @@
+opengpt/config.py,sha256=cszIFJu5GiecWJZXmlGJWuALQMLx_V8iIO3-Pgqvp7s,3335
+opengpt/data_collator.py,sha256=WKuenwE6rV-_JF2h485FFVqdbwCJABfkwFvCG-M2WSQ,824
+opengpt/dataset_utils.py,sha256=Lr1EDgf3Sck5H-THlRs5BFsk4m7b7i7l8CCZaMfaCTQ,8750
+opengpt/model_utils.py,sha256=MUiZT1pTRenuv18NRbEMe1MmrKhJM1Ou2TqF0dhGBBo,1000
+opengpt/openai_api.py,sha256=Lbk4t_KjeGnSv7qxYsVbmC6iBUQ4q9vsko9_DcBaVhk,375
+opengpt/parsers.py,sha256=gaS-rmBYW1LuM36cFXIBpiCH8J4xJFNykEzlMFYKrkU,4085
+opengpt/prompt_utils.py,sha256=DOukz1rEZYzn-jOUHEbRxvJkT-eJ48IUKNOqlb0kqXk,1347
+opengpt/utils.py,sha256=_WmpPoJVBPpmRkfGygyOyprLQHInCDNa7KhQWNcuSlQ,2019
+opengpt-0.0.3.dist-info/METADATA,sha256=xmLT8f84ZKf483sHggkDESAwokw94ILJwZWBNPEUOtg,1039
+opengpt-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+opengpt-0.0.3.dist-info/top_level.txt,sha256=OrUGn24X936jtaW39a624n88l10le9fYES5yo5bXWkc,8
+opengpt-0.0.3.dist-info/RECORD,,

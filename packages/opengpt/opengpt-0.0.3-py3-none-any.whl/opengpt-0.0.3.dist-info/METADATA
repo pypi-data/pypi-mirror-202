@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: opengpt
+Version: 0.0.3
+Summary: ChatGPT Unchained.
+Home-page: https://github.com/w-is-h/opengpt
+Author: w-is-h
+Author-email: w.kraljevic@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: datasets (<3,>=2)
+Requires-Dist: transformers (<5,>=4.2)
+Requires-Dist: tiktoken (>=0.3.2)
+Requires-Dist: pandas
+Requires-Dist: openai
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: python-box
+Requires-Dist: jsonpickle
+
+# OpenGPT
+
+A framework for making grounded instruction based datasets and training domain expert ChatGPT like models.
+
+
+### How to
+
+1. Collect a dataset
+2. Write a prompt or use an existing prompt from the ./data/prompts.txt
+3. Make a copy of the config.yaml file in ./data/ and make the necessary changes. Use the Prompt creation notebook from ./experiments
+4. Create dataset using the Dataset Generation notebook from ./experiments
