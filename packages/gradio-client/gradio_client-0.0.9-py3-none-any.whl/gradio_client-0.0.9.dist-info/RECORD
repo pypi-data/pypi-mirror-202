@@ -1,0 +1,10 @@
+gradio_client/__init__.py,sha256=cj45reltjLjlPWKvJetdKP_A6CT_SxD_OtO_1s_berE,139
+gradio_client/client.py,sha256=OuKOgBfTu1Fj8ijXY3UDKwq4-l5JWn5Dopm3335Xr5k,39444
+gradio_client/data_classes.py,sha256=MCmwe6I789IoPqeAQRMg4AlblZ3Dr6dSuwOqwpPTDzs,443
+gradio_client/documentation.py,sha256=0KiSCgJdwqz7aW5OOfbYXj7g8EmSPhFYas19gZHeb_8,10765
+gradio_client/serializing.py,sha256=-17luTznFojB5V8z4fN9XifOPoyAFMVT5dwZukRVeTA,14859
+gradio_client/utils.py,sha256=5lirjwayjBHrmPa1o3x_juSgZwZAyy28H-a2tKuIJjQ,12276
+gradio_client/version.txt,sha256=fGcPxJgGxthpynhHczx6MPlKIDKbGg7cR7HWem431sI,7
+gradio_client-0.0.9.dist-info/METADATA,sha256=a8m4vTUQC5XLg7yqKPCkfoH5Ox2cWTsbneWJstAa9KY,8007
+gradio_client-0.0.9.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+gradio_client-0.0.9.dist-info/RECORD,,
