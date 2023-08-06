@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/hagis/__init__.py
+src/hagis/hagis.py
+src/hagis.egg-info/PKG-INFO
+src/hagis.egg-info/SOURCES.txt
+src/hagis.egg-info/dependency_links.txt
+src/hagis.egg-info/top_level.txt
