@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: try-except-ai
+Version: 0.1.1
+Summary: A Python package to handle exceptions and suggest resolutions using OpenAI
+Home-page: https://github.com/etnalab/try-except-ai
+License: MIT
+Keywords: openai,exceptions,ai
+Author: Federico Ulfo
+Author-email: federicoulfo@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: openai (>=0.27.4,<0.28.0)
+Project-URL: Repository, https://github.com/etnalab/try-except-ai
+Description-Content-Type: text/markdown
+
+# TryExceptAI
+
+A Python package to handle exceptions and suggest resolutions using OpenAI.
+
+## Installation
+
+Install the package using [Poetry](https://python-poetry.org/):
+
+```bash
+poetry add try-except-ai
+```
+
+## Usage
+Add `export OPENAI_API_KEY={your openai api key here}` to your .zshrc or .bash_profile file.
+
+Then test it with the following
+
+```python
+from try_except_ai import TryExceptAI
+
+def test_function():
+    try:
+        # Code that might raise an exception
+        result = 1 / 0
+        print(result)
+    except Exception as e:
+        TryExceptAI().handle_exception(e)
+
+if __name__ == "__main__":
+    test_function()
+
+```
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
