@@ -1,0 +1,9 @@
+ocench/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocench/aux_functions.py,sha256=Qfk9QLqcNPXxu2anBjddqF6a91k7bs2LoXGjD6bEMEs,13715
+ocench/calcular_NCH.py,sha256=B9mJHeXoOb2-n3xHx6MqaBZrXU9VbRQzc_h_Q95IsVU,18467
+ocench/example.py,sha256=i4uNYHcPlYzdQUIqusLiLZr3PDxSWMLTxbLHd4Cb2Pc,1254
+ocench/ocench.py,sha256=Md7IxuZWSWZQpT4W75WwaLa7nkZuglLSRtOPXrY4Rls,4247
+ocench-0.0.5.dist-info/METADATA,sha256=zccGwsbu9MCZAHVxuQN4ZHzo-emvDJKAgbWNcHHqg-o,7499
+ocench-0.0.5.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+ocench-0.0.5.dist-info/licenses/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+ocench-0.0.5.dist-info/RECORD,,
