@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cmdlogtime
+Version: 0.0.3
+Summary: This package does command line processing, allows for logging, and keeps track of start, end, and elapsed time, along with a bunch of other stuff.
+Home-page: https://github.com/stewart-lab/cmdlogtime
+Author: Ron Stewart
+Author-email: rstewart@morgridge.org
+License-File: LICENSE
