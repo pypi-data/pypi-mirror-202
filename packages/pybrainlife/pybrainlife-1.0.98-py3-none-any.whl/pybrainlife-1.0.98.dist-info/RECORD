@@ -1,0 +1,7 @@
+pybrainlife/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+pybrainlife/data/collect.py,sha256=KnpfrGfEczHPgGcrJBDwPYAYj7OXtNW20NQvX5EMop0,18114
+pybrainlife/data/manipulate.py,sha256=CxQ1sBfR3kluwh6UuGOIjat9NjVVN16YyNLU2xUqrE4,18783
+pybrainlife/vis/plots.py,sha256=KGEjcUaP7XQtcAmqCiOsIU2WNuLFJg0I1n4lZBANYtg,19483
+pybrainlife-1.0.98.dist-info/METADATA,sha256=e0g8gtGanUDtmVxufV4iqA5E4J5f9dDKxkMzwDFg19o,3427
+pybrainlife-1.0.98.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pybrainlife-1.0.98.dist-info/RECORD,,
