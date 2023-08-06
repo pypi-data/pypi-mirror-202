@@ -1,0 +1,6 @@
+requests>=2.24.0
+lxml>=4.9.2
+
+[HTML]
+bs4>=0.0.1
+xmltodict>=1.2
