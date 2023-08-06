@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: opencmiss.maths
+Version: 0.2.2
+Summary: OpenCMISS Math functions.
+Home-page: https://github.com/OpenCMISS-Bindings/opencmiss.maths
+Author: Hugh Sorby
+Author-email: h.sorby@auckland.ac.nz
+License: Apache Software License
+Description: 
+        ===============
+        OpenCMISS Maths
+        ===============
+        
+        This package has been renamed. Use :code:`pip install cmlibs.maths` instead.
+        New package: https://pypi.org/project/cmlibs.maths/
+        
+        See `OpenCMISS2CMLibs rename tool <https://pypi.org/project/opencmiss2cmlibs/>`_ for help with renaming your own code.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/x-rst

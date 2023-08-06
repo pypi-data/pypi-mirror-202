@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+opencmiss.maths.egg-info/PKG-INFO
+opencmiss.maths.egg-info/SOURCES.txt
+opencmiss.maths.egg-info/dependency_links.txt
+opencmiss.maths.egg-info/requires.txt
+opencmiss.maths.egg-info/top_level.txt
