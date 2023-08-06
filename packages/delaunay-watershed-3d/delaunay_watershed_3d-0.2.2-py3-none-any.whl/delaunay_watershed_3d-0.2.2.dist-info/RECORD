@@ -1,0 +1,14 @@
+dw3d/Curvature.py,sha256=dq5OoiZNGiSn2hoFtjOxGy64OwSls2PUICndyiwTTf0,12409
+dw3d/Dcel.py,sha256=crFCoqsBALsjfciPXtzkKwhyS-ERNYAXJzc7-VDm_m4,21435
+dw3d/Geometric_utilities.py,sha256=3Xmgw47YWienf0s5pD-v-q6FzaNDzPp7a-HyaJHeDFg,6880
+dw3d/Geometry.py,sha256=Xe_N4Ci06BKq2tkFG1LYTJFkK6dNMVi5YkGBihlGLEQ,13501
+dw3d/Graph_functions.py,sha256=d82piReNlS2wYCtA7muOYCCCWD1uAX4QpLe5GHAAtqg,6334
+dw3d/Mask_reconstruction.py,sha256=O85JkL4TYnVOYFNHzkbAPmkQoGLJzWXgVb0Y4TgTdWY,2827
+dw3d/Mesh_utilities.py,sha256=ZeNY1AfGN07jYI1t88SJnjdxcuy4kHcBYKujDA3OCYQ,10499
+dw3d/Networkx_functions.py,sha256=iRIP_opVacDv8hCyRB_t08v3rpY6TP6m5oxy-qm5XLY,3506
+dw3d/__init__.py,sha256=fjiCj22psEPkVCU4kVOfPZzcwxWXH7MmOZ50lCFVuJo,87
+dw3d/functions.py,sha256=wbVEVi4TNEFNcFiv7KVT6dUA776e5E2b8RXcjLZb450,5033
+delaunay_watershed_3d-0.2.2.dist-info/METADATA,sha256=KaxV_YKgOjXhPjsYzM7-MajRZwU3XZH4pSeeKPFujQ4,6372
+delaunay_watershed_3d-0.2.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+delaunay_watershed_3d-0.2.2.dist-info/top_level.txt,sha256=2lVKFwOzju58rR2B1GJij5bF86hcVvRAgARVl89UaWw,5
+delaunay_watershed_3d-0.2.2.dist-info/RECORD,,
