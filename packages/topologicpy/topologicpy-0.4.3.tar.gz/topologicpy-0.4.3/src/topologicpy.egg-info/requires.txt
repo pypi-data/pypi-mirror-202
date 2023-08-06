@@ -1,0 +1,5 @@
+numpy
+scipy
+euclid3
+tqdm
+plotly
