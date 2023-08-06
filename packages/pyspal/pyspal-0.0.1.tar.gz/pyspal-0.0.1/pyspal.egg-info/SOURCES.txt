@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+pyspal/__init__.py
+pyspal/img_coder.py
+pyspal/pyspal.py
+pyspal.egg-info/PKG-INFO
+pyspal.egg-info/SOURCES.txt
+pyspal.egg-info/dependency_links.txt
+pyspal.egg-info/requires.txt
+pyspal.egg-info/top_level.txt
