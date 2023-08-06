@@ -1,0 +1,2 @@
+fabric>=3
+speckenv>=3.3
