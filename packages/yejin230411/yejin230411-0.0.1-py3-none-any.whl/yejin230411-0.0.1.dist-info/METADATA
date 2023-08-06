@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: yejin230411
+Version: 0.0.1
+Summary: oss-dev my calculator 0001
+Home-page: http://github.com/TeonOO/calc0001
+Download-URL: https://github.com/TeonOO/calc0001/archive/refs/tags/v0.0.1.zip
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+oss-dev calculator python module
