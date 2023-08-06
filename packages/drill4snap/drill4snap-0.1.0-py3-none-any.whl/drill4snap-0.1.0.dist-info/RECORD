@@ -1,0 +1,13 @@
+drill4snap/__init__.py,sha256=QPWtj5wDRTINDxVUL7XPqG3HoxHNvYOg08EnuSZB2Hc,21
+drill4snap/cli.py,sha256=5RBlRI3hOarfcf11EajAlrEf6OGYLBFYLbUDl2FpYpQ,1899
+drill4snap/devices.py,sha256=MzfgxqSpssnR5Bbv9qNR_MZkBUUgRFbaeXb1w4K1tKI,482
+drill4snap/drill_pict.png,sha256=PC1wXYFR8FcTk7RaHIs_6D2iBumtPxcvXkmWMEH8lTI,9412
+drill4snap/jobs.py,sha256=Y6fll4Q6kB4YNX3wdBPn9oLZv5ZuYXi7U3PcYj1xRsc,542
+drill4snap/parser.py,sha256=ZD_Ya2EHWIIQO1aGAhZFw8iF0SqMNibCruXBs9vWPz8,5123
+drill4snap/templates.py,sha256=IgATnW3p5JzOFV1-06jA3GEz7oxL9MkW7JwFOSvu3h0,1171
+drill4snap/writer.py,sha256=ThrfLn3Moy2kfqq32jYhrZ-Pz8VMpyV3bn8oTT4kzFs,6675
+drill4snap-0.1.0.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+drill4snap-0.1.0.dist-info/METADATA,sha256=uv5IV7tBFcw8KozJK_UrleSSa2jc82fJsp4gatom3-A,2631
+drill4snap-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+drill4snap-0.1.0.dist-info/entry_points.txt,sha256=TSJU_mPKPjf2dsxRJ6nAXwvTasRONl2N_OjfFoHJB3c,45
+drill4snap-0.1.0.dist-info/RECORD,,

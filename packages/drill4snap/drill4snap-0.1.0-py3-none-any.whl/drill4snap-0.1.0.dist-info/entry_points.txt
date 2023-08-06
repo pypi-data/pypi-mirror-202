@@ -1,0 +1,3 @@
+[console_scripts]
+drill4snap=drill4snap:cli
+
