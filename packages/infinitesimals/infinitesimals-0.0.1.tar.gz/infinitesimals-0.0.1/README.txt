@@ -1,0 +1,1 @@
+A capable HyperReal class and related methods for work with infinitesimals and nonstandard analysis.
