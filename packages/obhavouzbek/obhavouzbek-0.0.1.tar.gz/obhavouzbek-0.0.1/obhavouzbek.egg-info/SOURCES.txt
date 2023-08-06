@@ -1,0 +1,7 @@
+README.md
+setup.py
+obhavouzbek/__init__.py
+obhavouzbek.egg-info/PKG-INFO
+obhavouzbek.egg-info/SOURCES.txt
+obhavouzbek.egg-info/dependency_links.txt
+obhavouzbek.egg-info/top_level.txt
