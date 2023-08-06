@@ -1,0 +1,14 @@
+konsepy/__init__.py,sha256=VfLugWKDQ_0IMhBVncNB6hmBljR4-v3bwKh0N5PSfKw,112
+konsepy/bio_tag.py,sha256=sv1aIgO26Sw0bShUDVVDgWkCRF9nP485ChTCs5qeROY,4059
+konsepy/cli.py,sha256=3avT_aMFapWFWu-33nNv7SPqulWEOk7SrsNogRQd9SY,2817
+konsepy/constants.py,sha256=1zPrlq1fHHOLDtE1cQNS0C9BEiWdqJbZDI_Bb3n0wrw,108
+konsepy/get_text_snippets.py,sha256=aAO-gdsm4X6I0jv1eALd3DViy_q9XqOBcK7j72t0_Qc,4111
+konsepy/importer.py,sha256=B3gIaSsIprrM9mWsbqPHFQC_vtg6yQUKJow2cEiMhKI,1613
+konsepy/regex.py,sha256=Ik78Gf3pV_hNH_XmhggyzMGwIx1pwfWkaqgonWn1Smo,5204
+konsepy/run_all.py,sha256=jOemBSQPiHNF2o0zbUYciX_Y6EwiTikyKA5Z9pe0YA4,2447
+konsepy/rxutils.py,sha256=NLOHL_VPcPc57Ve5X-RMCcNSgPtsGXPbSzYRMFVhg6M,684
+konsepy/textio.py,sha256=G5DyWLlgkDbyaXvG_uu0ahuX_SZee7giosmX1vChT2M,3825
+konsepy/types.py,sha256=xquwcA0PbW2biyL_5i8W7747Bl1pv9Kh7hLzIuxRjNc,211
+konsepy-0.0.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+konsepy-0.0.1.dist-info/METADATA,sha256=cqowIiSjninoCe3ZcK2HUCfPm52lDF-cYharqKhKbgU,1121
+konsepy-0.0.1.dist-info/RECORD,,
