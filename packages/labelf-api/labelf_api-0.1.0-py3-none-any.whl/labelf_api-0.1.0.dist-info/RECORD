@@ -1,0 +1,9 @@
+labelf_api/__init__.py,sha256=6Ha-od455Kr73-p2UTIr7r4MU3LBzPKj9bcR8HZRGyQ,231
+labelf_api/client.py,sha256=A-W-IrjqhE8YC-WSp-9n8e4tkQq1JfTyL9S_3DGHNyo,2830
+labelf_api/exceptions.py,sha256=Eap22qj9zj9u6wdZsi9zSYeqFgrWNE-16-KJvt-AyJs,247
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=m09pilllL_SWvqbsvbpIFoLYE2AysH3JspUZpqUk9zI,982
+labelf_api-0.1.0.dist-info/METADATA,sha256=gDpV3Sa7lMX2SlUOmZiOEQu-KD0DSfjKvJP0UaaLl2U,680
+labelf_api-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+labelf_api-0.1.0.dist-info/top_level.txt,sha256=euMdjHzJmCfecbFWSsfyDI9dWnAGWpgBhoNcllnF4VY,17
+labelf_api-0.1.0.dist-info/RECORD,,
