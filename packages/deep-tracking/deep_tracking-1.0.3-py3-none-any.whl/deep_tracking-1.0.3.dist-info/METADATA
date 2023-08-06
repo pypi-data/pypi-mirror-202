@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: deep-tracking
+Version: 1.0.3
+Summary: Library to track the development of data science works using the DE&P method
+Home-page: https://github.com/biazotogabriel/deep_tracking
+Author: Gabriel Nuernberg Biazoto
+Author-email: biazotogabriel@gmail.com
+License: MIT
+Keywords: deep de&p data science
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENCE.txt
+Requires-Dist: pandas (==1.4.4)
+
+Library to track the development of data science works using the DE&P method
