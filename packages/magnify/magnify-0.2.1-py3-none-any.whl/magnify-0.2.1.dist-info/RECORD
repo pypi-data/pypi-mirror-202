@@ -1,0 +1,12 @@
+magnify/__init__.py,sha256=IHJvAs-c1jQJRVhmn8QZ6Pl0w_C0f-tr_-vpKk7Jbag,200
+magnify/find.py,sha256=BS2O8xBfAjy4ALSq9iAnCW2gex-W4C-kO6Dwsbly8Ek,24766
+magnify/pipeline.py,sha256=PivoIw3yvieWN8WA4_5igOk3nXDrvgsE5m-LXnwoJyE,1406
+magnify/postprocess.py,sha256=ZMfyWHFSOlhbw7YHIwMrvRZtMfx5J59bFAENvELrCF8,158
+magnify/preprocess.py,sha256=EQlfN6vYHdBrtxxAhx4KehzKYCL5iX66ekAD6NVqq7M,1735
+magnify/reader.py,sha256=nPqoRwmK0jQOhwl0R8NF-TYKAMpiCfU7-m_nzChHrVQ,13646
+magnify/registry.py,sha256=rFkKDQ4YiD6orBlk_ioiuOUtDm9SJ4fpK_MaVx93hYU,3154
+magnify/stitch.py,sha256=YzozqkhzNcpPYAmBBK0ThsGkEj_lBbIn3OuRrL6ByzI,1121
+magnify/utils.py,sha256=2Uo0TPxFbD0X61g3YBNW--qsBON-IbvLKPy84F_AuS0,1583
+magnify-0.2.1.dist-info/METADATA,sha256=087KtAfdNZMEkhJEM8K7gebvOEQ4vuS5hAYDFMAQ__M,1192
+magnify-0.2.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+magnify-0.2.1.dist-info/RECORD,,
