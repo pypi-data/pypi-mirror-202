@@ -1,0 +1,596 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>pjplan package &#8212; pjplan 0.0.3 documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css" />
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="pjplan.io package" href="pjplan.io.html" />
+    <link rel="prev" title="src" href="modules.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="pjplan-package">
+<h1>pjplan package<a class="headerlink" href="#pjplan-package" title="Permalink to this heading">¶</a></h1>
+<section id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this heading">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="pjplan.io.html">pjplan.io package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pjplan.io.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pjplan.io.html#module-pjplan.io.csv_io">pjplan.io.csv_io module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pjplan.io.html#pjplan.io.csv_io.read_csv"><code class="docutils literal notranslate"><span class="pre">read_csv()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pjplan.io.html#pjplan.io.csv_io.write_csv"><code class="docutils literal notranslate"><span class="pre">write_csv()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pjplan.io.html#pjplan-io-df-io-module">pjplan.io.df_io module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pjplan.io.html#module-pjplan.io.raw">pjplan.io.raw module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pjplan.io.html#pjplan.io.raw.TaskRaw"><code class="docutils literal notranslate"><span class="pre">TaskRaw</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pjplan.io.html#pjplan.io.raw.TaskRaw.to_dict"><code class="docutils literal notranslate"><span class="pre">TaskRaw.to_dict()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pjplan.io.html#pjplan.io.raw.raws_to_wbs"><code class="docutils literal notranslate"><span class="pre">raws_to_wbs()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pjplan.io.html#pjplan.io.raw.tasks_to_raws"><code class="docutils literal notranslate"><span class="pre">tasks_to_raws()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pjplan.io.html#module-pjplan.io">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="pjplan.viz.html">pjplan.viz package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pjplan.viz.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="pjplan.viz.dhtmlx.html">pjplan.viz.dhtmlx package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pjplan.viz.dhtmlx.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pjplan.viz.dhtmlx.html#module-pjplan.viz.dhtmlx.gantt">pjplan.viz.dhtmlx.gantt module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pjplan.viz.dhtmlx.html#module-pjplan.viz.dhtmlx">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pjplan.viz.mermaid.html">pjplan.viz.mermaid package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="pjplan.viz.mermaid.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pjplan.viz.mermaid.html#module-pjplan.viz.mermaid.gantt">pjplan.viz.mermaid.gantt module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pjplan.viz.mermaid.html#module-pjplan.viz.mermaid.network">pjplan.viz.mermaid.network module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pjplan.viz.mermaid.html#module-pjplan.viz.mermaid">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pjplan.viz.html#module-pjplan.viz">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading">¶</a></h2>
+</section>
+<section id="module-pjplan.calendar">
+<span id="pjplan-calendar-module"></span><h2>pjplan.calendar module<a class="headerlink" href="#module-pjplan.calendar" title="Permalink to this heading">¶</a></h2>
+<dl class="py data">
+<dt class="sig sig-object py" id="pjplan.calendar.DEFAULT_CALENDAR">
+<span class="sig-prename descclassname"><span class="pre">pjplan.calendar.</span></span><span class="sig-name descname"><span class="pre">DEFAULT_CALENDAR</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">Weekly:</span> <span class="pre">[-,</span> <span class="pre">-]</span> <span class="pre">|[92m</span> <span class="pre">MON</span> <span class="pre">[0m|[92m</span> <span class="pre">TUE</span> <span class="pre">[0m|[92m</span> <span class="pre">WED</span> <span class="pre">[0m|[92m</span> <span class="pre">THU</span> <span class="pre">[0m|[92m</span> <span class="pre">FRI</span> <span class="pre">[0m|[92m</span> <span class="pre">SAT</span> <span class="pre">[0m|[92m</span> <span class="pre">SUN</span> <span class="pre">[0m|</span> <span class="pre">|</span> <span class="pre">8.0</span> <span class="pre">|</span> <span class="pre">8.0</span> <span class="pre">|</span> <span class="pre">8.0</span> <span class="pre">|</span> <span class="pre">8.0</span> <span class="pre">|</span> <span class="pre">8.0</span> <span class="pre">|[97m</span> <span class="pre">0.0</span> <span class="pre">[0m|[97m</span> <span class="pre">0.0</span> <span class="pre">[0m|</span></em><a class="headerlink" href="#pjplan.calendar.DEFAULT_CALENDAR" title="Permalink to this definition">¶</a></dt>
+<dd><p>Default calendar monday-friday with 8 hours per day</p>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.calendar.DirectCalendar">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.calendar.</span></span><span class="sig-name descname"><span class="pre">DirectCalendar</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">units</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">datetime</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.calendar.DirectCalendar" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><code class="xref py py-class docutils literal notranslate"><span class="pre">IWorkCalendar</span></code></a></p>
+<dl class="py property">
+<dt class="sig sig-object py" id="pjplan.calendar.DirectCalendar.dates">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">dates</span></span><a class="headerlink" href="#pjplan.calendar.DirectCalendar.dates" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.DirectCalendar.get_available_units">
+<span class="sig-name descname"><span class="pre">get_available_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.calendar.DirectCalendar.get_available_units" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns number of work hours for date
+:param date: date
+:return: number of work hours</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.DirectCalendar.set_units">
+<span class="sig-name descname"><span class="pre">set_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">units</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">datetime</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.calendar.DirectCalendar.set_units" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.calendar.FixedCalendar">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.calendar.</span></span><span class="sig-name descname"><span class="pre">FixedCalendar</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">units</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.calendar.FixedCalendar" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><code class="xref py py-class docutils literal notranslate"><span class="pre">IWorkCalendar</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.FixedCalendar.get_available_units">
+<span class="sig-name descname"><span class="pre">get_available_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.calendar.FixedCalendar.get_available_units" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns number of work hours for date
+:param date: date
+:return: number of work hours</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.calendar.FuncCalendar">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.calendar.</span></span><span class="sig-name descname"><span class="pre">FuncCalendar</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">calendar</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><span class="pre">IWorkCalendar</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">func</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.calendar.FuncCalendar" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><code class="xref py py-class docutils literal notranslate"><span class="pre">IWorkCalendar</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.FuncCalendar.get_available_units">
+<span class="sig-name descname"><span class="pre">get_available_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.calendar.FuncCalendar.get_available_units" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns number of work hours for date
+:param date: date
+:return: number of work hours</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.calendar.IWorkCalendar">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.calendar.</span></span><span class="sig-name descname"><span class="pre">IWorkCalendar</span></span><a class="headerlink" href="#pjplan.calendar.IWorkCalendar" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ABC</span></code></p>
+<p>Work calendar interface</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.IWorkCalendar.apply">
+<span class="sig-name descname"><span class="pre">apply</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">func</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><span class="pre">IWorkCalendar</span></a></span></span><a class="headerlink" href="#pjplan.calendar.IWorkCalendar.apply" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.IWorkCalendar.get_available_units">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_available_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.calendar.IWorkCalendar.get_available_units" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns number of work hours for date
+:param date: date
+:return: number of work hours</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.calendar.WeeklyCalendar">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.calendar.</span></span><span class="sig-name descname"><span class="pre">WeeklyCalendar</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">days</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">units_per_day</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">float</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.calendar.WeeklyCalendar" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><code class="xref py py-class docutils literal notranslate"><span class="pre">IWorkCalendar</span></code></a></p>
+<p>IWorkCalendar implementation with following arguments:
+1. working_days - list of week working days 0 - monday, 1 - tuesday, etc.
+2. day_hours - number of working hours in working day</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.WeeklyCalendar.clone">
+<span class="sig-name descname"><span class="pre">clone</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pjplan.calendar.WeeklyCalendar" title="pjplan.calendar.WeeklyCalendar"><span class="pre">WeeklyCalendar</span></a></span></span><a class="headerlink" href="#pjplan.calendar.WeeklyCalendar.clone" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="pjplan.calendar.WeeklyCalendar.end">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">end</span></span><a class="headerlink" href="#pjplan.calendar.WeeklyCalendar.end" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.WeeklyCalendar.get_available_units">
+<span class="sig-name descname"><span class="pre">get_available_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.calendar.WeeklyCalendar.get_available_units" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns number of work hours for date
+:param date: date
+:return: number of work hours</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.WeeklyCalendar.get_week_day_hours">
+<span class="sig-name descname"><span class="pre">get_week_day_hours</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">int</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pjplan.calendar.WeeklyCalendar.get_week_day_hours" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="pjplan.calendar.WeeklyCalendar.start">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">start</span></span><a class="headerlink" href="#pjplan.calendar.WeeklyCalendar.start" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.calendar.WorkCalendarDisjunction">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.calendar.</span></span><span class="sig-name descname"><span class="pre">WorkCalendarDisjunction</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">calendars</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><span class="pre">IWorkCalendar</span></a><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.calendar.WorkCalendarDisjunction" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><code class="xref py py-class docutils literal notranslate"><span class="pre">IWorkCalendar</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.WorkCalendarDisjunction.get_available_units">
+<span class="sig-name descname"><span class="pre">get_available_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.calendar.WorkCalendarDisjunction.get_available_units" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns number of work hours for date
+:param date: date
+:return: number of work hours</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.calendar.WorkCalendarDiv">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.calendar.</span></span><span class="sig-name descname"><span class="pre">WorkCalendarDiv</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">calendars</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><span class="pre">IWorkCalendar</span></a><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.calendar.WorkCalendarDiv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><code class="xref py py-class docutils literal notranslate"><span class="pre">IWorkCalendar</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.WorkCalendarDiv.get_available_units">
+<span class="sig-name descname"><span class="pre">get_available_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.calendar.WorkCalendarDiv.get_available_units" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns number of work hours for date
+:param date: date
+:return: number of work hours</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.calendar.WorkCalendarSub">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.calendar.</span></span><span class="sig-name descname"><span class="pre">WorkCalendarSub</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">calendars</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><span class="pre">IWorkCalendar</span></a><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.calendar.WorkCalendarSub" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><code class="xref py py-class docutils literal notranslate"><span class="pre">IWorkCalendar</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.WorkCalendarSub.get_available_units">
+<span class="sig-name descname"><span class="pre">get_available_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.calendar.WorkCalendarSub.get_available_units" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns number of work hours for date
+:param date: date
+:return: number of work hours</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.calendar.WorkCalendarSum">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.calendar.</span></span><span class="sig-name descname"><span class="pre">WorkCalendarSum</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">calendars</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><span class="pre">IWorkCalendar</span></a><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.calendar.WorkCalendarSum" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><code class="xref py py-class docutils literal notranslate"><span class="pre">IWorkCalendar</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.WorkCalendarSum.get_available_units">
+<span class="sig-name descname"><span class="pre">get_available_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.calendar.WorkCalendarSum.get_available_units" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns number of work hours for date
+:param date: date
+:return: number of work hours</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.calendar.WorkCalendarsMul">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.calendar.</span></span><span class="sig-name descname"><span class="pre">WorkCalendarsMul</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">calendars</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><span class="pre">IWorkCalendar</span></a><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.calendar.WorkCalendarsMul" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pjplan.calendar.IWorkCalendar" title="pjplan.calendar.IWorkCalendar"><code class="xref py py-class docutils literal notranslate"><span class="pre">IWorkCalendar</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.calendar.WorkCalendarsMul.get_available_units">
+<span class="sig-name descname"><span class="pre">get_available_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.calendar.WorkCalendarsMul.get_available_units" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns number of work hours for date
+:param date: date
+:return: number of work hours</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-pjplan.resource">
+<span id="pjplan-resource-module"></span><h2>pjplan.resource module<a class="headerlink" href="#module-pjplan.resource" title="Permalink to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.resource.IResource">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.resource.</span></span><span class="sig-name descname"><span class="pre">IResource</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.resource.IResource" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ABC</span></code></p>
+<p>Ресурс - человек, машина или любая другая сущность, которая необходима для выполнения работы (Task)</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.resource.IResource.get_available_units">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">get_available_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.resource.IResource.get_available_units" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.resource.IResource.get_nearest_availability_date">
+<span class="sig-name descname"><span class="pre">get_nearest_availability_date</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start_date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">direction</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_days</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">100</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">datetime</span></span></span><a class="headerlink" href="#pjplan.resource.IResource.get_nearest_availability_date" title="Permalink to this definition">¶</a></dt>
+<dd><p>Возвращает ближайшую дату доступности ресурса, начиная со start_date
+:param direction: 1 или -1
+:param start_date: дата начала поиска
+:param max_days: максимальный интервал поиска (в днях)
+:return: дата доступности</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.resource.Resource">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.resource.</span></span><span class="sig-name descname"><span class="pre">Resource</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name:</span> <span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">calendar:</span> <span class="pre">~pjplan.calendar.IWorkCalendar</span> <span class="pre">=</span> <span class="pre">Weekly:</span> <span class="pre">[-</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">-]</span> <span class="pre">|[92m</span> <span class="pre">MON</span> <span class="pre">[0m|[92m</span> <span class="pre">TUE</span> <span class="pre">[0m|[92m</span> <span class="pre">WED</span> <span class="pre">[0m|[92m</span> <span class="pre">THU</span> <span class="pre">[0m|[92m</span> <span class="pre">FRI</span> <span class="pre">[0m|[92m</span> <span class="pre">SAT</span> <span class="pre">[0m|[92m</span> <span class="pre">SUN</span> <span class="pre">[0m|</span> <span class="pre">|</span> <span class="pre">8.0</span> <span class="pre">|</span> <span class="pre">8.0</span> <span class="pre">|</span> <span class="pre">8.0</span> <span class="pre">|</span> <span class="pre">8.0</span> <span class="pre">|</span> <span class="pre">8.0</span> <span class="pre">|[97m</span> <span class="pre">0.0</span> <span class="pre">[0m|[97m</span> <span class="pre">0.0</span> <span class="pre">[0m|</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.resource.Resource" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pjplan.resource.IResource" title="pjplan.resource.IResource"><code class="xref py py-class docutils literal notranslate"><span class="pre">IResource</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.resource.Resource.get_available_units">
+<span class="sig-name descname"><span class="pre">get_available_units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.resource.Resource.get_available_units" title="Permalink to this definition">¶</a></dt>
+<dd><p>Возвращает количество доступных рабочих часов ресурса в указанную дату
+:param date: дата
+:return: количество доступных часов ресурса</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-pjplan.schedule">
+<span id="pjplan-schedule-module"></span><h2>pjplan.schedule module<a class="headerlink" href="#module-pjplan.schedule" title="Permalink to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.schedule.BackwardScheduler">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.schedule.</span></span><span class="sig-name descname"><span class="pre">BackwardScheduler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">end</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pjplan.resource.IResource" title="pjplan.resource.IResource"><span class="pre">IResource</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">balance_resources</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default_estimate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.schedule.BackwardScheduler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pjplan.schedule.IScheduler" title="pjplan.schedule.IScheduler"><code class="xref py py-class docutils literal notranslate"><span class="pre">IScheduler</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.schedule.BackwardScheduler.calc">
+<span class="sig-name descname"><span class="pre">calc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pjplan.wbs.WBS" title="pjplan.wbs.WBS"><span class="pre">WBS</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pjplan.schedule.Schedule" title="pjplan.schedule.Schedule"><span class="pre">Schedule</span></a></span></span><a class="headerlink" href="#pjplan.schedule.BackwardScheduler.calc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Строит расписание проекта
+:param wbs: структура работ
+:return: Tuple (&lt;копия wbs с установленными start и end у всех Task&gt;, &lt;Отчет об использовании ресурсов&gt;)</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.schedule.ForwardScheduler">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.schedule.</span></span><span class="sig-name descname"><span class="pre">ForwardScheduler</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">resources</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pjplan.resource.IResource" title="pjplan.resource.IResource"><span class="pre">IResource</span></a><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">balance_resources</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">default_estimate</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.schedule.ForwardScheduler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#pjplan.schedule.IScheduler" title="pjplan.schedule.IScheduler"><code class="xref py py-class docutils literal notranslate"><span class="pre">IScheduler</span></code></a></p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.schedule.ForwardScheduler.calc">
+<span class="sig-name descname"><span class="pre">calc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">project</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pjplan.wbs.WBS" title="pjplan.wbs.WBS"><span class="pre">WBS</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pjplan.schedule.Schedule" title="pjplan.schedule.Schedule"><span class="pre">Schedule</span></a></span></span><a class="headerlink" href="#pjplan.schedule.ForwardScheduler.calc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Строит расписание проекта
+:param wbs: структура работ
+:return: Tuple (&lt;копия wbs с установленными start и end у всех Task&gt;, &lt;Отчет об использовании ресурсов&gt;)</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.schedule.IScheduler">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.schedule.</span></span><span class="sig-name descname"><span class="pre">IScheduler</span></span><a class="headerlink" href="#pjplan.schedule.IScheduler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">ABC</span></code></p>
+<p>Планировщик проектов. Строит расписание проекта</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.schedule.IScheduler.calc">
+<em class="property"><span class="pre">abstract</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">calc</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">wbs</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pjplan.wbs.WBS" title="pjplan.wbs.WBS"><span class="pre">WBS</span></a></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pjplan.schedule.Schedule" title="pjplan.schedule.Schedule"><span class="pre">Schedule</span></a></span></span><a class="headerlink" href="#pjplan.schedule.IScheduler.calc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Строит расписание проекта
+:param wbs: структура работ
+:return: Tuple (&lt;копия wbs с установленными start и end у всех Task&gt;, &lt;Отчет об использовании ресурсов&gt;)</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.schedule.ResourceUsage">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.schedule.</span></span><span class="sig-name descname"><span class="pre">ResourceUsage</span></span><a class="headerlink" href="#pjplan.schedule.ResourceUsage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Отчет об использовании ресурсов</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.schedule.ResourceUsage.add_rows">
+<span class="sig-name descname"><span class="pre">add_rows</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rows</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pjplan.schedule.ResourceUsageItem" title="pjplan.schedule.ResourceUsageItem"><span class="pre">ResourceUsageItem</span></a><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.schedule.ResourceUsage.add_rows" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.schedule.ResourceUsage.reserve">
+<span class="sig-name descname"><span class="pre">reserve</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">resource</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pjplan.resource.IResource" title="pjplan.resource.IResource"><span class="pre">IResource</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Task</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">units</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.schedule.ResourceUsage.reserve" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.schedule.ResourceUsage.reserved">
+<span class="sig-name descname"><span class="pre">reserved</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">resource</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pjplan.resource.IResource" title="pjplan.resource.IResource"><span class="pre">IResource</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Task</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">float</span></span></span><a class="headerlink" href="#pjplan.schedule.ResourceUsage.reserved" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.schedule.ResourceUsage.rows">
+<span class="sig-name descname"><span class="pre">rows</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">List</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#pjplan.schedule.ResourceUsageItem" title="pjplan.schedule.ResourceUsageItem"><span class="pre">ResourceUsageItem</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#pjplan.schedule.ResourceUsage.rows" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.schedule.ResourceUsageItem">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.schedule.</span></span><span class="sig-name descname"><span class="pre">ResourceUsageItem</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">resource</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pjplan.resource.IResource" title="pjplan.resource.IResource"><span class="pre">pjplan.resource.IResource</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">date</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">datetime.datetime</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">task</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">pjplan.task.Task</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">units</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.schedule.ResourceUsageItem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pjplan.schedule.ResourceUsageItem.date">
+<span class="sig-name descname"><span class="pre">date</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">datetime</span></em><a class="headerlink" href="#pjplan.schedule.ResourceUsageItem.date" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pjplan.schedule.ResourceUsageItem.resource">
+<span class="sig-name descname"><span class="pre">resource</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#pjplan.resource.IResource" title="pjplan.resource.IResource"><span class="pre">IResource</span></a></em><a class="headerlink" href="#pjplan.schedule.ResourceUsageItem.resource" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pjplan.schedule.ResourceUsageItem.task">
+<span class="sig-name descname"><span class="pre">task</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Task</span></em><a class="headerlink" href="#pjplan.schedule.ResourceUsageItem.task" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pjplan.schedule.ResourceUsageItem.units">
+<span class="sig-name descname"><span class="pre">units</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">float</span></em><a class="headerlink" href="#pjplan.schedule.ResourceUsageItem.units" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.schedule.Schedule">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.schedule.</span></span><span class="sig-name descname"><span class="pre">Schedule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">schedule</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pjplan.wbs.WBS" title="pjplan.wbs.WBS"><span class="pre">WBS</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">resource_usage</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference internal" href="#pjplan.schedule.ResourceUsage" title="pjplan.schedule.ResourceUsage"><span class="pre">ResourceUsage</span></a></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.schedule.Schedule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+</dd></dl>
+
+</section>
+<section id="module-pjplan.wbs">
+<span id="pjplan-wbs-module"></span><h2>pjplan.wbs module<a class="headerlink" href="#module-pjplan.wbs" title="Permalink to this heading">¶</a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="pjplan.wbs.WBS">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pjplan.wbs.</span></span><span class="sig-name descname"><span class="pre">WBS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tasks</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><span class="pre">Task</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.wbs.WBS" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Work Burn-down Structure</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.wbs.WBS.clone">
+<span class="sig-name descname"><span class="pre">clone</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pjplan.wbs.WBS" title="pjplan.wbs.WBS"><span class="pre">WBS</span></a></span></span><a class="headerlink" href="#pjplan.wbs.WBS.clone" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns copy of this WBS.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.wbs.WBS.critical_path">
+<span class="sig-name descname"><span class="pre">critical_path</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">CriticalPath</span></span></span><a class="headerlink" href="#pjplan.wbs.WBS.critical_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.wbs.WBS.critical_path2">
+<span class="sig-name descname"><span class="pre">critical_path2</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.wbs.WBS.critical_path2" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="pjplan.wbs.WBS.end">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">end</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">datetime</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pjplan.wbs.WBS.end" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns max end date from all tasks in WBS</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.wbs.WBS.print">
+<span class="sig-name descname"><span class="pre">print</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">fields</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">children</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">theme</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.wbs.WBS.print" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print task sheet
+:param fields: fields to print
+:param children: show/hide child tasks
+:param theme: color theme</p>
+<p>Color theme specified by dict:
+{</p>
+<blockquote>
+<div><p>‘header_color’: ‘&lt;header color&gt;’,
+‘level_colors’: [‘&lt;level 0 color&gt;’, ‘&lt;level 1 color&gt;’, …]</p>
+</div></blockquote>
+<p>}</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.wbs.WBS.remove">
+<span class="sig-name descname"><span class="pre">remove</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">task</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Task</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#pjplan.wbs.WBS.remove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove task from WBS
+:param task:</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.wbs.WBS.remove_all">
+<span class="sig-name descname"><span class="pre">remove_all</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">Task</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pjplan.wbs.WBS.remove_all" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove all tasks matched to key from WBS.
+:param key: see TaskList.remove_all for details
+:param kwargs: see TaskList.remove_all for details
+:return: list of deleted tasks</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="pjplan.wbs.WBS.roots">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">roots</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">_ChildrenList</span></em><a class="headerlink" href="#pjplan.wbs.WBS.roots" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of all root tasks in WBS</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="pjplan.wbs.WBS.start">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">start</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">datetime</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></em><a class="headerlink" href="#pjplan.wbs.WBS.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns min start date from all tasks in WBS</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pjplan.wbs.WBS.subtree">
+<span class="sig-name descname"><span class="pre">subtree</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">roots</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Task</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">Iterable</span><span class="p"><span class="pre">[</span></span><span class="pre">Task</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#pjplan.wbs.WBS" title="pjplan.wbs.WBS"><span class="pre">WBS</span></a></span></span><a class="headerlink" href="#pjplan.wbs.WBS.subtree" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns new WBS, contains subtree of this WBS with all children
+and successors/predecessors inside this subtree or outside WBS.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>roots</strong> – root tasks for new WBS</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>new WBS</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="pjplan.wbs.WBS.tasks">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">tasks</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">_ImmutableTaskList</span></em><a class="headerlink" href="#pjplan.wbs.WBS.tasks" title="Permalink to this definition">¶</a></dt>
+<dd><p>List of all tasks in WBS</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-pjplan">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-pjplan" title="Permalink to this heading">¶</a></h2>
+<p>Пакет содержит API для работы с проектами и расписаниями задач.</p>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">pjplan</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">src</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">pjplan package</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">src</a><ul>
+      <li>Previous: <a href="modules.html" title="previous chapter">src</a></li>
+      <li>Next: <a href="pjplan.io.html" title="next chapter">pjplan.io package</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Artem Snopkov.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 6.1.3</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="_sources/pjplan.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
