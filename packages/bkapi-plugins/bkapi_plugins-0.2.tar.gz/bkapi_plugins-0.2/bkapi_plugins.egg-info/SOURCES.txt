@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.cfg
+setup.py
+bkapi_plugins/__init__.py
+bkapi_plugins.egg-info/PKG-INFO
+bkapi_plugins.egg-info/SOURCES.txt
+bkapi_plugins.egg-info/dependency_links.txt
+bkapi_plugins.egg-info/top_level.txt
+bkapi_plugins/files/data.zip
