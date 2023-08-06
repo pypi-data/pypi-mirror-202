@@ -1,0 +1,14 @@
+{
+  "src/main.ts": {
+    "file": "assets/main.ead92db4.js",
+    "src": "src/main.ts",
+    "isEntry": true,
+    "css": [
+      "assets/main.93faea17.css"
+    ]
+  },
+  "src/main.css": {
+    "file": "assets/main.93faea17.css",
+    "src": "src/main.css"
+  }
+}
