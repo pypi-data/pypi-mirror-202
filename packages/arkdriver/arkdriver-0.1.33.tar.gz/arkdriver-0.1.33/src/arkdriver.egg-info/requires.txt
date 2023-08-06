@@ -1,0 +1,16 @@
+wheel
+requests
+arklibrary
+arkclient
+pywinauto
+pywin32
+six
+comtypes
+numpy
+
+[testing]
+pytest>=6.0
+pytest-cov>=2.0
+mypy>=0.971
+flake8>=3.9
+tox>=3.24
