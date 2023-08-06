@@ -1,0 +1,2 @@
+[console_scripts]
+tomcli-get = tomcli.cli.get:app
