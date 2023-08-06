@@ -1,0 +1,15 @@
+    def test_{{ route.name|replace("-", "_") }}(self):
+        """ verify the {{ route.name }} endpoint returns a 200 and the row content is found """
+        {% if route.related_data_action_dict['related_field'].many_to_one -%}
+        {{ route.related_data_action_dict['related_field'].model._meta.model_name }} = baker.make("{{ route.related_data_action_dict['related_field'].model._meta.label }}", {{ route.related_data_action_dict['related_field'].name }}=self.row)
+        {% elif route.related_data_action_dict['related_field'].one_to_one -%}
+        {{ route.related_data_action_dict['related_field'].name }} = baker.make("{{ route.related_data_action_dict['related_field'].field.model._meta.label }}", {{ route.related_data_action_dict['related_field'].model._meta.model_name }}=self.row)
+        {% else -%}
+        {{ route.related_data_action_dict['related_field'].model._meta.model_name }} = baker.make("{{ route.related_data_action_dict['related_field'].model._meta.label }}")
+        {{ route.related_data_action_dict['related_field'].model._meta.model_name }}.{{ route.related_data_action_dict['related_field'].name }}.add(self.row)
+        {% endif -%}
+        url = reverse("{{ route.app_name }}:{{ route.name }}", args=[getattr(self.row, "{{ view.lookup_field }}")])
+        response = self.client.get(url, format="json")
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertGreater(len(response.json()), 0)
+        self.assertIn(str({% if route.related_data_action_dict['related_field'].one_to_one -%}{{ route.related_data_action_dict['related_field'].name }}{% else %}{{ route.related_data_action_dict['related_field'].model._meta.model_name }}{% endif %}), response.content.decode("utf-8"))

@@ -1,0 +1,5 @@
+{%- if view.permission_dict %}
+{% include 'viewset/viewset_detail_auth.jinja' %}
+{% else %}
+{% include 'viewset/viewset_detail_noauth.jinja' %}
+{% endif -%}

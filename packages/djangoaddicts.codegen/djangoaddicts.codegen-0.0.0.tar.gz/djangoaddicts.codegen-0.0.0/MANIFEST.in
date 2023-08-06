@@ -1,0 +1,6 @@
+include README.md
+include requirements.txt
+recursive-include src/djangoaddicts/codegen/management/commands/drf_templates *
+recursive-include src/djangoaddicts/codegen/management/commands/admin_templates *
+recursive-include src/djangoaddicts/codegen/management/commands/unittest_templates *
+recursive-include src/djangoaddicts/codegen/templates *

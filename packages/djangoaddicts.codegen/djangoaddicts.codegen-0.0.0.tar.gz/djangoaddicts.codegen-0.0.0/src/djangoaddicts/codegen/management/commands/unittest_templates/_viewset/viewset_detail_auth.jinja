@@ -1,0 +1,62 @@
+    {%+ if view|attr('retrieve') and view.permission_dict.GET %}
+    def test_{{ route.name.split("-")[0] }}_retrieve_authorized(self):
+        """ verify that a get request to the {{ route.name }} endpoint for an authorized user
+        returns a 200 and the row content is found """
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        client = create_custom_client('{{ view.permission_dict.GET|random }}')
+        response = client.get(url, format='json')
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertEqual(response.json()['{% if view.lookup_field == 'pk' %}{{ view.model._meta.pk.name }}{% else %}{{ view.lookup_field }}{% endif %}'], getattr(self.row, '{{ view.lookup_field }}'))
+
+    def test_{{ route.name.split("-")[0] }}_retrieve_unauthorized(self):
+        """verify that a list request to the {{ route.name }} endpoint returns a 403 and the row content is not found"""
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        response = self.client.get(url, format="json")
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        self.assertNotIn('results', response.json())
+        self.assertNotIn(str(getattr(self.row, "{{ view.lookup_field }}")), response.content.decode("utf-8"))
+    {% endif -%}
+    {% if view|attr('update') and view.permission_dict.PATCH %}
+    def test_{{ route.name.split("-")[0] }}_patch_authorized(self):
+        """verify that a patch request to the {{ route.name }} endpoint returns a 200 and the row content is found"""
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        model = apps.get_model("{{ view.model._meta.label }}")
+        client = create_custom_client('{{ view.permission_dict.PATCH|random }}')
+        prepare = baker.prepare("{{ view.model._meta.app_label }}.{{ view.model.__name__}}")
+        data = {k: v for k, v in prepare.__dict__.items() if not k.startswith("_")}
+        pre_post_row_count = model.objects.count()
+        response = client.patch(url, data=data, format="json")
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertEqual(model.objects.count(), pre_post_row_count)
+
+    def test_{{ route.name.split("-")[0] }}_patch_unauthorized(self):
+        """verify that a patch request to the {{ route.name }} endpoint returns a 403 and the row content is not found"""
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        model = apps.get_model("{{ view.model._meta.label }}")
+        pre_post_row_count = model.objects.count()
+        response = self.client.patch(url, data={}, format="json")
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        self.assertEqual(model.objects.count(), pre_post_row_count)
+    {%- endif %}
+    {% if view|attr('destroy') and view.permission_dict.DELETE %}
+    def test_{{ route.name.split("-")[0] }}_destroy_authorized(self):
+        """ verify that a delete request to the {{ route.name }} endpoint for an authorized user returns a 204 and the
+        record is deleted """
+        model = apps.get_model("{{ view.model._meta.label }}")
+        url = reverse("{{ route.app_name }}:{{ route.name }}", args=[getattr(self.row, "{% if view.lookup_field == 'pk' %}{{ view.model._meta.pk.name }}{% else %}{{ view.lookup_field }}{% endif %}")])
+        client = create_custom_client('{{ view.permission_dict.DELETE|random }}')
+        response = client.delete(url, pk=self.row.pk, format="json")
+        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
+        self.assertNotIn(self.row, model.objects.all())
+
+    def test_test_{{ route.name.split("-")[0] }}_destroy_unauthorized(self):
+        """ verify that a delete request to the {{ route.name }} endpoint for an unauthorized user returns a 403 and the
+        record is not deleted """
+        model = apps.get_model("{{ view.model._meta.label }}")
+        url = reverse("{{ route.app_name }}:{{ route.name }}", args=[getattr(self.row, "{% if view.lookup_field == 'pk' %}{{ view.model._meta.pk.name }}{% else %}{{ view.lookup_field }}{% endif %}")])
+        response = self.client.delete(url, pk=self.row.pk, format="json")
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        self.assertNotIn(getattr(self.row, "{% if view.lookup_field == 'pk' %}{{ view.model._meta.pk.name }}{% else %}{{ view.lookup_field }}{% endif %}"), response.json())
+        self.assertEqual(response.json()["detail"], "You do not have permission to perform this action.")
+        self.assertIn(self.row, model.objects.all())
+    {%- endif +%}

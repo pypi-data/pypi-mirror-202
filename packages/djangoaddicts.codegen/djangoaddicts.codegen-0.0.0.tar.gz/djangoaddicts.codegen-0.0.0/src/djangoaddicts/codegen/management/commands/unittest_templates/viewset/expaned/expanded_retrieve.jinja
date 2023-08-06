@@ -1,0 +1,19 @@
+{% for k,v in view.serializer_class.Meta.expandable_fields.items() %}
+    def test_retrieve_with_{{ k }}_expanded(self):
+        """verify that payloads from the {{ route.name }} endpoint can be expanded to include {{ k }} data"""
+        {% if view.model|attr(k)|attr('rel') and view.model|attr(k)|attr('field')|attr('many_to_one') %}
+        baker.make("{{ view.model|attr(k)|attr('rel')|attr('related_model')|attr('_meta')|attr('label') }}", {{ view.model.__name__}}=self.row)
+        {% elif view.model|attr(k)|attr('rel') and view.model|attr(k)|attr('field')|attr('many_to_many') %}
+        self.row.{{ k }}.add(baker.make("{{ view.model|attr(k)|attr('field')|attr('related_model')|attr('_meta')|attr('label') }}"))
+        {% elif view.model|attr(k)|attr('field')|attr('many_to_one') %}
+        self.row.{{ k }} = baker.make("{{ view.model|attr(k)|attr('field')|attr('related_model')|attr('_meta')|attr('label') }}")
+        self.row.save()
+        {% endif %}
+        url = reverse("{{ route.app_name }}:{{ route.name }}", args=[getattr(self.row, "{% if view.lookup_field == 'pk' %}{{ view.model._meta.pk.name }}{% else %}{{ view.lookup_field }}{% endif %}")]) + "?expand={{ k }}"{% if view.permission_dict and view.permission_dict.GET %}
+        client = create_custom_client("{{ view.permission_dict.GET|random }}")
+        response = client.get(url, format="json"){% else %}
+        response = self.client.get(url, format="json"){% endif %}
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertIn(str(getattr(self.row, "{{ view.lookup_field }}")), response.content.decode("utf-8"))
+        self.assertIsInstance(response.json()['{{ k }}'], dict)
+{% endfor %}

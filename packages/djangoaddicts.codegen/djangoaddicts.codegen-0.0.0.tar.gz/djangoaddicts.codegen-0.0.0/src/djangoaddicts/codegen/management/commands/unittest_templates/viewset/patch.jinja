@@ -1,0 +1,47 @@
+{% if view|attr('update') %}
+    {% if view.permission_dict and view.permission_dict.PATCH %}
+    def test_{{ route.name.split("-")[0] }}_patch_authorized(self):
+        """verify that a patch request to the {{ route.name }} endpoint for an authorized user returns a 200 and
+        the row content is updated"""
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        model = apps.get_model("{{ view.model._meta.label }}")
+        client = create_custom_client('{{ view.permission_dict.PATCH|random }}')
+        prepare = baker.prepare("{{ view.model._meta.app_label }}.{{ view.model.__name__}}", {{ view.lookup_field }}=self.row.{{ view.lookup_field }})
+        data = {k: v for k, v in prepare.__dict__.items() if not k.startswith("_") and v}
+        pre_post_row_count = model.objects.count()
+        response = client.patch(url, data=data, format="json")
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertEqual(model.objects.count(), pre_post_row_count)
+
+    def test_{{ route.name.split("-")[0] }}_patch_unauthorized(self):
+        """verify that a patch request to the {{ route.name }} endpoint for an unauthorized user returns a 403 and
+        the row content is not updated"""
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        model = apps.get_model("{{ view.model._meta.label }}")
+        pre_post_row_count = model.objects.count()
+        response = self.client.patch(url, data={}, format="json")
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        self.assertEqual(model.objects.count(), pre_post_row_count)
+    {% elif view.permission_dict and not view.permission_dict.PATCH  %}
+    def test_{{ route.name.split("-")[0] }}_patch(self):
+        """ verify that a patch request to the {{ route.name }} endpoint returns a 403 and
+        the row content is not updated """
+        model = apps.get_model("{{ view.model._meta.label }}")
+        url = reverse("{{ route.app_name }}:{{ route.name }}", args=[getattr(self.row, "{% if view.lookup_field == 'pk' %}{{ view.model._meta.pk.name }}{% else %}{{ view.lookup_field }}{% endif %}")])
+        pre_post_row_count = model.objects.count()
+        response = self.client.patch(url, data={}, format="json")
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        self.assertEqual(model.objects.count(), pre_post_row_count)
+    {% else %}
+    def test_{{ route.name.split("-")[0] }}_patch(self):
+        """ verify that a get request to the {{ route.name }} endpoint returns a 200 and the row content is updated"""
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        model = apps.get_model("{{ view.model._meta.label }}")
+        prepare = baker.prepare("{{ view.model._meta.app_label }}.{{ view.model.__name__}}", {{ view.lookup_field }}=self.row.{{ view.lookup_field }})
+        data = {k: v for k, v in prepare.__dict__.items() if not k.startswith("_") and v}
+        pre_post_row_count = model.objects.count()
+        response = self.client.patch(url, data=data, format="json")
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertEqual(model.objects.count(), pre_post_row_count)
+    {% endif %}
+{% endif %}
