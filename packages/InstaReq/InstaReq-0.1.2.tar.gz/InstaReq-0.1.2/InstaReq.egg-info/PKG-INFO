@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: InstaReq
+Version: 0.1.2
+Home-page: https://github.com/MHketbi/InstaReq
+Author: Mubarak Alketbi
+Author-email: mubarak.harran@gmail.com
+License: GPLv3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# InstaReq
+
+InstaReq is a Python package that simplifies the process of installing other Python packages along with their dependencies. It aims to resolve and install package dependencies automatically, making it easier for users to set up their Python environments. With InstaReq, users can install packages from both local files and PyPI by simply providing the package name or the path to the package file. InstaReq takes care of dependency resolution and installation, streamlining the entire process.
+
+## Usage
+
+```instareq <package_name>```
+
+`package_name` can be the name of a .whl or .tar.gz file or the name of a package from PyPI.
+
+## Installation
+
+To install InstaReq, clone this repository and run:
+
+```pip install -e .```
