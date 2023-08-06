@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+lucija_package/test.py
+lucija_package/test2.py
+lucija_package/test3.py
+lucija_package.egg-info/PKG-INFO
+lucija_package.egg-info/SOURCES.txt
+lucija_package.egg-info/dependency_links.txt
+lucija_package.egg-info/top_level.txt
