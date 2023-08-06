@@ -1,0 +1,12 @@
+leaguecloser/__init__.py,sha256=8clTJoo5H14CTugfD_Tth6SQYAQZOxjeKpxr2oW2PJA,283
+leaguecloser/computer.py,sha256=gyfOFInrKXJTWeHF27CVJrNx4cC8iTqBlx5xAEaCpUo,10786
+leaguecloser/league.py,sha256=P_bOCLXYjLluEFQZFL7VNycFQJZJx-3p5-z_2vehGm8,1169
+leaguecloser/sikuli.py,sha256=BPNMmmH7vRqM4dgfit06DiKGSzYk_5DHnC9iTjvQexE,1067
+leaguecloser/data/close_league.sikuli/1681351869136.png,sha256=mZObhsYCHM47m8mUTLKWaHhmxXqw4F0RVa7u99LLDl4,10142
+leaguecloser/data/close_league.sikuli/1681352088077.png,sha256=fOojZXW51Nik3_wpLhMlgK1KGFCug6Awd-WRi3xMlZE,9375
+leaguecloser/data/close_league.sikuli/close_league.py,sha256=EAw96E4zmsvSIk1N1XnkCGlZHUaTGpcMnXSWCzkWzJs,115
+leaguecloser-1.0.3.dist-info/LICENSE,sha256=ChsR4Ft7vz3OqoXcGiG3eAT4XnBLpkWgqXRSYMUNdCs,1083
+leaguecloser-1.0.3.dist-info/METADATA,sha256=3xsULcM3dUM5fM9jmPW2xLvbPHJzNwYf-T1fIDne_Bo,2500
+leaguecloser-1.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+leaguecloser-1.0.3.dist-info/top_level.txt,sha256=6GhG17CKKY57c7QjKTRj5emV7uv0v0Z3Q5VnJ7ZebpE,13
+leaguecloser-1.0.3.dist-info/RECORD,,
