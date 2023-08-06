@@ -1,0 +1,6 @@
+tqdm
+transformers
+datasets
+tiktoken
+loralib
+langchain
