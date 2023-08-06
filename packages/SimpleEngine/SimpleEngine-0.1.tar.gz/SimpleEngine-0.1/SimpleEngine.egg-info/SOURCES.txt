@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+SimpleEngine/__init__.py
+SimpleEngine.egg-info/PKG-INFO
+SimpleEngine.egg-info/SOURCES.txt
+SimpleEngine.egg-info/dependency_links.txt
+SimpleEngine.egg-info/requires.txt
+SimpleEngine.egg-info/top_level.txt
