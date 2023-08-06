@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: naver-sens
+Version: 0.0.1
+Summary: Naver SENS(Simple & Easy Notification Service) python wrapper
+Home-page: https://github.com/jst0951/naver-sens
+Author: jst0951
+Author-email: jst0951@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: requests
+
+
+  Naver Cloud Platform SENS(Simple & Easy Notification Service) python wrapper
+
+  Reference : https://api.ncloud-docs.com/docs/ai-application-service-sens-smsv2
+
+  Guide : https://codedbyjst.tistory.com/10
+
+  
