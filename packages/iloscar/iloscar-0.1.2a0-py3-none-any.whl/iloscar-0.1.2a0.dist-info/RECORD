@@ -1,0 +1,14 @@
+iloscar/__init__.py,sha256=HbdVq3LNuRtfEk-0plvFC6L8gk81M9OXFC-3heKNGYQ,341
+iloscar/app.py,sha256=TPePtNLgXmbnWEPo5Pq1gQFBLEyAJdziubQsEcMLLco,2006
+iloscar/iLOSCAR_backend.py,sha256=dB4frzHaJzFPF59UrTwvauPC-AWOGBxI1IpncudESIg,106008
+iloscar/style.py,sha256=rsFRnu3zJzb3F7GBXBbI9hkRlNZOY4mk86yqPfqCCWc,1357
+iloscar/dat_y0/petm_steady.dat,sha256=RFSWnD5Jm15cz0xM9GQYuoy6kpaGCPQTdaTxIynOSKY,2957
+iloscar/dat_y0/preind_steady.dat,sha256=j1-yEbhdA3rB2vIrjiy8vRisdswxX4uSdD1NU9pJzPc,1578
+iloscar/pages/Function.py,sha256=BP_8jGQM5akVw9M0V1siGVaKw_UK0pmp1tdzcGhIeN8,5797
+iloscar/pages/forward.py,sha256=uM3CSXGXS6wHJhR6t1ZtPwge8QgV8J6We3RGskUksxA,26082
+iloscar/pages/home.py,sha256=0uWnqsx6qL3D6iAAA5mho2OscC8uwYSLvivIaQ7iKbQ,887
+iloscar/pages/inverse.py,sha256=T67Gg4VHNOgnKNHvViUVb5KwGa9M7DxRLKPN9wYMZCI,45707
+iloscar-0.1.2a0.dist-info/METADATA,sha256=OaQV8oHcDym4HCAKRikMgYCSilY_KDrb6vrmfjZOrIk,1012
+iloscar-0.1.2a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+iloscar-0.1.2a0.dist-info/top_level.txt,sha256=4iSYrt1OkgGNZUvFAwafu07Qh12NRF1cdhrOcwjHoUs,22
+iloscar-0.1.2a0.dist-info/RECORD,,
