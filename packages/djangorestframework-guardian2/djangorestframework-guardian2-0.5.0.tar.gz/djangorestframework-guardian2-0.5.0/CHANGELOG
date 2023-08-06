@@ -1,0 +1,42 @@
+0.5.0 (2023-04-12)
+==================
+
+- Update GitHub project name.
+- Add support for Django 4.2.
+- Drop support for Django 4.0.
+- Add minimum versions for dependencies.
+
+0.4.0 (2022-12-28)
+==================
+
+- Drop support for Python 3.5 and 3.6.
+- Add support for Python 3.9, 3.10, and 3.11.
+- Drop support for Django 2.1, 2.2, and 3.0.
+- Add support for Django 3.2, 4.0, and 4.1.
+- Port CI to GitHub Actions.
+- Update to PEP 517 isolated build.
+
+0.3.0 (2019-08-01)
+==================
+
+- Add `ObjectPermissionsAssignmentMixin` serializer mixin, which facilitates the
+  assigment of object permissions.
+- Rename `DjangoObjectPermissionsFilter` to `ObjectPermissionsFilter`.
+
+0.2.0 (2019-07-19)
+==================
+
+- Add Django 2.2 support
+- Drop Django 1.1 & 2.1 support
+- Drop Python 2.7 & 3.4 support
+
+0.1.1 (2018-11-02)
+==================
+
+- Allow `get_objects_for_user` keyword arguments to be overridden.
+- Ensure Python 3.7 compatibility
+
+0.1.0 (2018-07-09)
+==================
+
+- Port initial implementation from Django REST Framework.
