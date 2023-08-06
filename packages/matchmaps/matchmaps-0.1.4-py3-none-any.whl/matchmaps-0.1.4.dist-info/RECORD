@@ -1,0 +1,8 @@
+matchmaps/__init__.py,sha256=L-3AOGjTAsCo5tzFAtk4tuMewL9B7hyU2hZPIFKBlw8,303
+matchmaps/_compute_realspace_diff.py,sha256=WU4i19WsDGHU2v9CIxkFD9xG5IBVe3N4i6ln-NJHw4A,11679
+matchmaps/_utils.py,sha256=jA-FZ27WGHSwIzyMsKgI02KCjpkq9Q7F0D7N0qO5Vpw,17638
+matchmaps-0.1.4.dist-info/METADATA,sha256=I2SJxsRi6XJKCdJzbEbmo2MTi72hiN7sGaLsiIBgcMs,2366
+matchmaps-0.1.4.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+matchmaps-0.1.4.dist-info/entry_points.txt,sha256=ZuszXu897SuVKVhwE3PLDrXgIM_pPbtrMa6yR2YdSTg,69
+matchmaps-0.1.4.dist-info/licenses/LICENSE,sha256=6jbcNukLFiUkZW4rBidmDfVoehv9VkjP8alX8MPA9Xw,1514
+matchmaps-0.1.4.dist-info/RECORD,,
