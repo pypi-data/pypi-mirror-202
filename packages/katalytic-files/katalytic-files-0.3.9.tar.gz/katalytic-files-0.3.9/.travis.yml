@@ -1,0 +1,29 @@
+language: python
+python:
+  - "3.6"
+  # - "3.7"
+  # - "3.8"
+  # - "3.9"
+
+branches:
+  only:
+  - main
+
+install:
+  - pip install tox
+
+script:
+  - source scripts/should_skip.sh
+  # - tox --develop
+
+after_success:
+  # security
+  # - pip install bandit
+  # - bandit -r **/katalytic
+
+  # code coverage
+  # - pip install coveralls
+  # - coveralls
+
+  # build -> check -> release
+  - source scripts/release.sh
