@@ -1,0 +1,51 @@
+# See: https://github.com/python-poetry/poetry/issues/2740
+# for the current status of the build.py file in Poetry
+[tool.poetry]
+name = "mmt_dipole_cuboid_inversion"
+version = "1.0"
+description = "Python lib to calculate the magnetization of grains using the dipole cuboids model"
+authors = ["F. Out <f.out@students.uu.nl>", "D. Cortés-Ortuño", "M. Kosters", "K. Fabian", "L. V. de Groot"]
+license = "MIT"
+readme = "README.md"
+# build = "build_extension.py"
+
+
+packages = [
+    {include = "mmt_dipole_cuboid_inversion"},
+    {include = "mmt_dipole_cuboid_inversion_config.py"},
+]
+
+include = [
+    # C/CUDA extensions must be included in the wheel distributions
+    {path = "mmt_dipole_cuboid_inversion/cython_lib/*.so", format = "wheel"},
+    {path = "mmt_dipole_cuboid_inversion/cython_lib/*.pyd", format = "wheel"},
+    {path = "mmt_dipole_cuboid_inversion/cython_cuda_lib/*.so", format = "wheel"},
+    {path = "mmt_dipole_cuboid_inversion/cython_cuda_lib/*.pyd", format = "wheel"},
+]
+
+[tool.poetry.build]
+generate-setup-file = false
+script = "build_extension.py"
+
+[tool.poetry.dependencies]
+cython = ">=0.29.26"
+python = ">=3.8,<3.11"
+numpy = ">=1.23"
+numba = ">=0.55.2"
+scipy = ">=1.7"
+descartes = ">=1.0"
+pathlib = ">=1.0"
+shapely = ">=1.7"
+# The following is a dependency in a private repository. 
+# These are not currently working with poetry
+# grain-geometry-tools = {path = "../grain_geometry_tools"}
+# grain-geometry-tools = { git = "ssh://git@github.com/Micromagnetic-Tomography/grain_geometry_tools.git", branch = "master" }
+
+[tool.poetry.dev-dependencies]
+pytest = ">=7.0.0"
+jupyterlab = ">=3.4.5"
+jupytext = ">=1.14.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "cython", "numpy", "setuptools"]
+build-backend = "poetry.core.masonry.api"
