@@ -1,0 +1,2 @@
+[console_scripts]
+tarraz = tarraz.main:main
