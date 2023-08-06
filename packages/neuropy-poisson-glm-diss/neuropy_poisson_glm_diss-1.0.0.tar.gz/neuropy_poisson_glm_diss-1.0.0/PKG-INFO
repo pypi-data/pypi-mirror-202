@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: neuropy_poisson_glm_diss
+Version: 1.0.0
+Summary: A small demo package
+Home-page: https://github.com/cameronkent1
+Author: Cameron Kent
+Author-email: cameron.kent@hotmail.co.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This is a Poisson GLM package for Python implemented as part of my UG4 dissertation.

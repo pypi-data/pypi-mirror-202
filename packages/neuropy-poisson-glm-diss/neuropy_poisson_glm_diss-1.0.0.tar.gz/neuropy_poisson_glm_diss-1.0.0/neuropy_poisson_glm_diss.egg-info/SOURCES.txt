@@ -1,0 +1,8 @@
+README.md
+setup.py
+neuropy_poisson_glm_diss/PoissonGLM.py
+neuropy_poisson_glm_diss/__init__.py
+neuropy_poisson_glm_diss.egg-info/PKG-INFO
+neuropy_poisson_glm_diss.egg-info/SOURCES.txt
+neuropy_poisson_glm_diss.egg-info/dependency_links.txt
+neuropy_poisson_glm_diss.egg-info/top_level.txt
