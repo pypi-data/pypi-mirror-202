@@ -1,0 +1,12 @@
+lrboost/__init__.py,sha256=90hOV8lcssd_2i2J_2wY9glc9lWEH2CQnVaF-4oBoWE,208
+lrboost/_version.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+lrboost/lrboost.py,sha256=C6nX69dc4f8FHz4RwROBl56xl2TBQGYl6ocf736jEsE,6307
+lrboost/utils.py,sha256=DITuN9Ry91vxmfaXLm7UNLns9DpXUZMKj7Z2vZXyKrg,584
+lrboost/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lrboost/tests/test_common.py,sha256=UxW7pwVQtsKR2CrR9xmSIxB7aCP2Nz6OfQVRdG01MrE,257
+lrboost/tests/test_template.py,sha256=WiTjAJrQl5k5GSfRuvtiyIXP7EV8GtSImMmRUYDbJJo,543
+lrboost-0.2.1.dist-info/LICENSE,sha256=KehzBa-Lt_GzmRsfEAy5YOk6KZAqs8FzvO35F00uvcc,1529
+lrboost-0.2.1.dist-info/METADATA,sha256=azDFc7ahv-wKlIEvYwVx2uR2M33R6u4hcHY4n68nuXg,3540
+lrboost-0.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lrboost-0.2.1.dist-info/top_level.txt,sha256=ADuoKahg6_SkYEyrLAg4NtTNnYPPZO6Y6abYijRd9hQ,8
+lrboost-0.2.1.dist-info/RECORD,,
