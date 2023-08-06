@@ -1,0 +1,15 @@
+cartopy
+check-manifest
+jupyter
+matplotlib
+nbconvert<7.3.0
+nbsphinx
+palettable
+pre-commit
+pytest
+pytest-cov
+pytest-flake8
+pytest-sugar
+pytest-xdist
+setuptools_scm
+sphinx
