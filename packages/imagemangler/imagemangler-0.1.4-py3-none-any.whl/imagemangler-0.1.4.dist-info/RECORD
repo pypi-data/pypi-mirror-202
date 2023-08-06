@@ -1,0 +1,9 @@
+imagemangler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imagemangler/cli.py,sha256=XGgv5pvocLTK6LJmY0p2nRNmI2ASSdaVSJ3Kx8epttA,1937
+imagemangler/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imagemangler/core/mangler.py,sha256=ULwcHMb7Who3B6zEoNxLWLHFd18FowN-Z7CAcf-imDk,531
+imagemangler/core/utils.py,sha256=-kSUpF8SB1i8wXfrEgR6svQFYPPoteY_6cX_TYAtcTk,502
+imagemangler-0.1.4.dist-info/METADATA,sha256=IzDShpBA9IY1uOs6s4m4jQrrEM4fzt-OG8lXgco_U-I,1315
+imagemangler-0.1.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+imagemangler-0.1.4.dist-info/entry_points.txt,sha256=GVbaa2USS_Hb63_6HnYF-8KoR2PvIaKDeU_7p_8gwO0,53
+imagemangler-0.1.4.dist-info/RECORD,,
