@@ -1,0 +1,12 @@
+pyright_polite/__about__.py,sha256=8cGZAcsrFXdJ-ztRrAB_QEQU5CxLIn-54kgv917-Qkg,154
+pyright_polite/__init__.py,sha256=rnmk9nJboAlNTIfVHd4FwfYbD-Ay_IaA9kwFBiwgcCE,190
+pyright_polite/cli.py,sha256=__pKkjSKOiImFIcVQPoM1ePb3KfUwQr6sfo3O74u9Iw,8838
+pyright_polite/main.py,sha256=j_bZk9zIDuVl8MhNVYy77xJCNI9RNR86CTEbLpYJ97k,858
+pyright_polite/platform.py,sha256=afs587ztZAXw_CdEBFs8Z2dS9dvroOP_M_5MePg8Ue8,1525
+pyright_polite/polite.py,sha256=IBee0g-uE5jSzcvqQHFpyH0BeWafMQqJlAEFl_Ibmlk,9939
+pyright_polite/pyright.py,sha256=dV8TFda00muMin1W4icy3c-a9VMYFJSazvVl2pS3NZg,8914
+pyright_polite-1.0.4.dist-info/METADATA,sha256=8Kz1BC8Zxms1tVE7gt1mF4Fk3G-NTlrhyhTelMKsHdM,7181
+pyright_polite-1.0.4.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+pyright_polite-1.0.4.dist-info/entry_points.txt,sha256=XHgKfqxyzHF80y_nu9ks3hczcBCcAaPau_1Q4otkGNM,60
+pyright_polite-1.0.4.dist-info/licenses/LICENSE,sha256=N9J4pZIWfepaJynrdlnsWbXTExmrGrksZMKNE3UgJbw,1074
+pyright_polite-1.0.4.dist-info/RECORD,,
