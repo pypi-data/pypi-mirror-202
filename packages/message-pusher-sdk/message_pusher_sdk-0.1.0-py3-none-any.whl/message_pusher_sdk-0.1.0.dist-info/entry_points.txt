@@ -1,0 +1,3 @@
+[console_scripts]
+message-pusher-sdk=message_pusher_sdk.cli:main
+
