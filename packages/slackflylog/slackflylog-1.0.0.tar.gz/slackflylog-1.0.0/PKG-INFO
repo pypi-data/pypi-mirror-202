@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: slackflylog
+Version: 1.0.0
+Summary: 基于flylog的Slack日志发送
+Home-page: https://github.com/dkxx00/slackflylog
+Author: dkxx00
+Author-email: hymanxx6@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

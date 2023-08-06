@@ -1,0 +1,15 @@
+setup.py
+agent/__init__.py
+agent/agent.py
+agent/log.py
+agent/utils.py
+agent/backends/__init__.py
+agent/backends/send_slack.py
+api/__init__.py
+api/client.py
+api/log_handler.py
+slackflylog.egg-info/PKG-INFO
+slackflylog.egg-info/SOURCES.txt
+slackflylog.egg-info/dependency_links.txt
+slackflylog.egg-info/requires.txt
+slackflylog.egg-info/top_level.txt
