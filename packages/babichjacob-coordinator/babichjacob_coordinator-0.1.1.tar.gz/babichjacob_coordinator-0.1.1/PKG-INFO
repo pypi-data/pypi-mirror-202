@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: babichjacob-coordinator
+Version: 0.1.1
+Summary: A tool for coordinating producers and consumers of data
+Home-page: https://github.com/babichjacob/python-coordinator
+License: MIT
+Author: J or Jacob Babich
+Author-email: jacobbabichpublic+git@gmail.com
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: babichjacob-option-and-result (>=0.2.3,<0.3.0)
+Project-URL: Repository, https://github.com/babichjacob/python-coordinator
+Description-Content-Type: text/markdown
+
+<h1 align="center">TODO emoji Coordinator</h1>
+
+TODO
+
+## 💻 Installation
+
+This package is [published to PyPI as `babichjacob-coordinator`](https://pypi.org/project/babichjacob-coordinator/).
+
+## 🛠 Usage
+
+```py
+# TODO: write this
+```
+
+## 😵 Help! I have a question
+
+Create an issue and I'll try to help.
+
+## 😡 Fix! There is something that needs improvement
+
+Create an issue or pull request and I'll try to fix.
+
+## 📄 License
+
+MIT
+
+## 🙏 Attribution
+
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+
