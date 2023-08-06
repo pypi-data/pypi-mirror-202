@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+dev-requirements.txt
+local-dev-requirements.txt
+pyproject.toml
+src/vernac/compile.py
+src/vernac.egg-info/PKG-INFO
+src/vernac.egg-info/SOURCES.txt
+src/vernac.egg-info/dependency_links.txt
+src/vernac.egg-info/entry_points.txt
+src/vernac.egg-info/requires.txt
+src/vernac.egg-info/top_level.txt
