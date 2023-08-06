@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: studiowack
+Version: 0.0.1
+Summary: Uses Unicode Look-alikes to make your text unreadable by a computer or AI, but perfectly readable by you!
+Home-page: https://github.com/d4r14h/veil
+Author: Nicolas Lemaire
+Author-email: nicklem64@gmail.com
+License: UNKNOWN
+Description: Uses Unicode look-alikes to trick computers and AI into thinking it's not valid text, making it great for testing plagiarism checkers and AI content detectors!
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

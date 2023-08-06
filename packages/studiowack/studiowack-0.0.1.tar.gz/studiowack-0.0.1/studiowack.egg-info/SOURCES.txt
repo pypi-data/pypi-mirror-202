@@ -1,0 +1,4 @@
+studiowack.egg-info/PKG-INFO
+studiowack.egg-info/SOURCES.txt
+studiowack.egg-info/dependency_links.txt
+studiowack.egg-info/top_level.txt
