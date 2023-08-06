@@ -1,0 +1,7 @@
+client/__init__.py,sha256=DGFO92UEgqkbgF1x1YGVo1o5ABWv4UvE051j90uF-HY,164
+client/client.py,sha256=1z1SYNzfn_5U8BdQJCiv7EbqelZbKJie0JhBNAktvjg,4809
+client/worker.py,sha256=UdyLrAg3A4T7miQqYBjqqByzwXv_JVtAWziuPGEkBIQ,12061
+ign_gpao_client-0.14.0.dist-info/METADATA,sha256=2WjVbj3UuJnZBsxn5bN5GRxmfQXKvY3gdIc0hv6oW24,1073
+ign_gpao_client-0.14.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ign_gpao_client-0.14.0.dist-info/top_level.txt,sha256=DJiuN0ty6vOMYewH87cxtQ0LWVaJpE0bZ1Blm0e3RCE,7
+ign_gpao_client-0.14.0.dist-info/RECORD,,
