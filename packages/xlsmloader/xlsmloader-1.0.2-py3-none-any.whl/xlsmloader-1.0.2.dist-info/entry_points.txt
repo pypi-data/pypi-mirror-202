@@ -1,0 +1,2 @@
+[console_scripts]
+xlsmloader = loader.loader:load
