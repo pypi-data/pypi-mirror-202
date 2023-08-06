@@ -1,0 +1,19 @@
+key,value
+org_code,Kuntanumero
+org_name,Kunnan tai kuntayhtymän nimi
+org_bid,Kunnan y-tunnus
+doc_id,Tositenumero
+suppl_code,Toimittajanumero
+suppl_name,Toimittajan nimi
+suppl_bid,Toimittajan y-tunnus
+suppl_land,Toimittajan maakoodi
+price_ex_vat,Laskun summa ilman ALV
+doc_date,Tositepäivämäärä
+account_code,Kirjanpidon tilinumero
+account_name,Tilin nimi
+service_code,Palveluluokka
+price_total,Kokonaissumma euroina
+suppl_vat_number,VAT-tunnus
+price_vat,ALV-määrä euroina
+org_cost_center_name,Kustannuspaikan nimi
+hilma-tunnus,Hilma-tunnus
