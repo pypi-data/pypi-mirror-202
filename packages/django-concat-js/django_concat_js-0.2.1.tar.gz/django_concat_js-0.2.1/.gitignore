@@ -1,0 +1,7 @@
+*__pycache__*
+.gitignore
+.tox/*
+.coverage
+dist/
+git-token
+test.pypi-token
