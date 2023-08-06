@@ -1,0 +1,627 @@
+"""This module defines two readers for related IFEM .hdf5 files: normal output
+and eigenmode output.
+"""
+
+from __future__ import annotations
+
+import logging
+from abc import ABC, abstractmethod
+from collections import defaultdict
+from functools import lru_cache
+from itertools import chain, count, repeat
+from pathlib import Path
+from typing import ClassVar, Dict, Iterator, List, Optional, Tuple
+
+import h5py
+from attrs import define, field
+from numpy import floating
+from typing_extensions import Self
+
+from .. import api, util
+from ..api import Topology, Zone, ZoneShape
+from ..coord import Named
+from ..impl import Basis, Field, Step
+from ..topology import LrTopology, SplineTopology, UnstructuredTopology
+from ..util import FieldData
+
+
+@define(frozen=True)
+class ZoneKey:
+    """Key type used for IFEM zones."""
+
+    name: str
+    step: int
+    patch: int
+
+
+class Locator(ABC):
+    """Abstract interface for locating objects in an IFEM HDF5 file.
+
+    This is useful since normal HDF5 files have a slightly different layout to
+    eigenmode HDF5 files.
+    """
+
+    @abstractmethod
+    def patch_root(self, name: str, step: int) -> str:
+        """Return the group path for patches belonging to a basis at a certain
+        step.
+        """
+        ...
+
+    def patch_path(self, name: str, step: int, patch: int) -> str:
+        """Return the full path to a patch belonging to a basis at a certain
+        step.
+        """
+        return f"{self.patch_root(name, step)}/{patch + 1}"
+
+    @abstractmethod
+    def coeff_root(self, basis_name: str, field_name: str, step: int, cellwise: bool) -> str:
+        """Return the group path for coefficients belonging to a field under a
+        certain basis at a given step.
+        """
+        ...
+
+    def coeff_path(self, basis_name: str, field_name: str, step: int, patch: int, cellwise: bool) -> str:
+        """Return the full path to a coefficient data set belonging to a field
+        under a certain basis at a given step.
+        """
+        return f"{self.coeff_root(basis_name, field_name, step, cellwise)}/{patch + 1}"
+
+
+class StandardLocator(Locator):
+    """Locator interface used for standard IFEM HDF5 files."""
+
+    def patch_root(self, name: str, step: int) -> str:
+        return f"{step}/{name}/basis"
+
+    def coeff_root(self, basis_name: str, field_name: str, step: int, cellwise: bool) -> str:
+        subdir = "knotspan" if cellwise else "fields"
+        return f"{int(step)}/{basis_name}/{subdir}/{field_name}"
+
+
+class EigenLocator(Locator):
+    """Locator interface used for eigenmode IFEM HDF5 files."""
+
+    def patch_root(self, name: str, step: int) -> str:
+        return f"0/{name}/basis"
+
+    def coeff_root(self, basis_name: str, field_name: str, step: int, cellwise: bool) -> str:
+        return f"0/{basis_name}/Eigenmode/{step+1}"
+
+
+def is_legal_group_name(name: str) -> bool:
+    """To discriminate legal IFEM HDF5 files from other HDF5 files, all groups
+    at top level must satisfy this test.
+    """
+
+    # IFEM top-level groups are all numbered, except possibly "anasol" and
+    # "log".
+    try:
+        int(name)
+        return True
+    except ValueError:
+        return name.casefold() in ("anasol", "log")
+
+
+@define(frozen=True)
+class IfemBasis(Basis):
+    """Implementation of the Basis interface used for IFEM readers."""
+
+    # Locator for finding things in the HDF5 file.
+    locator: Locator = field(eq=False, repr=False)
+
+    # List of fields belonging to this basis (populated by the Field class).
+    fields: List[IfemField] = field(factory=list, init=False, eq=False, repr=False)
+
+    @lru_cache(maxsize=1)
+    def num_patches(self, source: Ifem) -> int:
+        """Return the number of patches in this basis."""
+        i = 0
+        for i in count():
+            if self.patch_path(0, i) not in source.h5:
+                break
+        return i
+
+    def updates_at(self, step: int, source: Ifem) -> bool:
+        """Return true if this basis changes at the given timestep."""
+        return self.locator.patch_root(self.name, step) in source.h5
+
+    def last_update_before(self, step: int, source: Ifem) -> int:
+        """Return the most recent timestep prior to `step` where this basis was
+        updated.
+        """
+        while not self.updates_at(step, source):
+            step -= 1
+        return step
+
+    def patch_path(self, step: int, patch: int) -> str:
+        """Return the full path to a patch in the HDF5 file."""
+        return self.locator.patch_path(self.name, step, patch)
+
+    @lru_cache(maxsize=128)
+    def patch_at(
+        self,
+        step: int,
+        patch: int,
+        source: Ifem,
+    ) -> Tuple[Zone[ZoneKey], api.Topology, FieldData[floating]]:
+        """Obtain the patch at the given step by index. This returns a tuple
+        with three items: zone, topology and field data.
+        """
+
+        # Find the most recent update prior to the requested timestep.
+        step = self.last_update_before(step, source)
+
+        # Patches are stored as bytestrings, to be interpreted by a topology
+        # class. We discriminate based on the first few bytes.
+        patchdata = source.h5[self.patch_path(step, patch)][:]
+        initial = patchdata[:20].tobytes()
+        raw_data = memoryview(patchdata).tobytes()
+        topology: api.Topology
+        if initial.startswith(b"# LAGRANGIAN"):
+            corners, topology, cps = UnstructuredTopology.from_ifem(raw_data)
+        elif initial.startswith(b"# LRSPLINE"):
+            corners, topology, cps = next(LrTopology.from_bytes(raw_data, source.rationality))
+        else:
+            # Shame! GoTools files don't have 'magic bytes' at the beginning.
+            corners, topology, cps = next(SplineTopology.from_bytes(raw_data))
+
+        # IFEM patches never have irregular shapes.
+        shape = [ZoneShape.Line, ZoneShape.Quatrilateral, ZoneShape.Hexahedron][topology.pardim - 1]
+        zone = Zone(shape=shape, coords=corners, key=ZoneKey(self.name, step, patch))
+
+        return zone, topology, cps
+
+    @lru_cache(maxsize=1)
+    def ncomps(self, source: Ifem) -> int:
+        """Calculate the number of components (physical dimensionality) of the
+        basis.
+        """
+        _, _, cps = self.patch_at(0, 0, source)
+        return cps.num_comps
+
+
+@define(frozen=True)
+class IfemField(Field):
+    """Implementation of the Field interface used for IFEM readers."""
+
+    # The basis to which this field belongs.
+    basis: IfemBasis = field(kw_only=True, eq=False)
+
+    def splits(self) -> Iterator[api.SplitFieldSpec]:
+        """Suggest splitting this field into components.
+
+        IFEM occasionally produces fields in 'merged' form, with names separated
+        by '&&", e.g. a three-component field called 'a&&b&&c' where a, b, c are
+        not otherwise related. Such fields should be split in their respective
+        components before output - the combined field is not physically relevant
+        to anything.
+
+        The `SplitFieldSpec` objects produced by this method are passed on to
+        the data processing pipeline through `SourceProperties` and then to
+        `Split` filter, where the actual splitting happens.
+        """
+
+        if not self.splittable or "&&" not in self.name:
+            return
+
+        # Split on '&&'
+        component_names = [comp.strip() for comp in self.name.split("&&")]
+
+        # If there's a space in the first component name, that's a prefix that
+        # should be added to all the component names.
+        if " " in component_names[0]:
+            prefix, component_names[0] = component_names[0].split(" ", maxsplit=1)
+            component_names = [f"{prefix} {comp}" for comp in component_names]
+
+        # Yield instructions for splitting the field
+        for i, comp in enumerate(component_names):
+            yield api.SplitFieldSpec(
+                source_name=self.name,
+                new_name=comp,
+                components=[i],
+                destroy=True,
+            )
+
+    @abstractmethod
+    def cps_at(self, step: int, patch: int, source: Ifem) -> FieldData[floating]:
+        """Return the control point data for this field at a given step and patch."""
+        ...
+
+    @abstractmethod
+    def updates_at(self, step: int, source: Ifem) -> bool:
+        """Return true if this field has an update at the given step."""
+        ...
+
+
+class IfemGeometryField(IfemField):
+    """Implementation of IfemField for geometry fields.
+
+    Geometry fields are different from other fields, since their field data
+    (control points) come directly from the basis, and not from an array data
+    set in the HDF5 file.
+    """
+
+    def __init__(self, basis: IfemBasis, source: Ifem):
+        super().__init__(
+            # Geometry fields have names that are identical with their basis name
+            name=basis.name,
+            # The coordinate system has a 'name' (same as the basis name), but is otherwise unspecified
+            type=api.Geometry(basis.ncomps(source), coords=Named(basis.name)),
+            splittable=False,
+            basis=basis,
+        )
+
+    def cps_at(self, step: int, patch: int, source: Ifem) -> FieldData[floating]:
+        _, _, cps = self.basis.patch_at(step, patch, source)
+        return cps
+
+    def updates_at(self, step: int, source: Ifem) -> bool:
+        return self.basis.updates_at(step, source)
+
+
+class IfemStandardField(IfemField):
+    """Full implementation of IfemField for standard (non-geometry) fields."""
+
+    def __init__(
+        self,
+        name: str,
+        cellwise: bool,
+        basis: IfemBasis,
+        source: Ifem,
+    ):
+        # Calculate the number of components. We would like to just use
+        # `self.cps_at` to get the control points, but that won't work until
+        # this class is initialized, which requires the field type, which we
+        # can't construct until we know the number of components. We can't
+        # mutate the class post-initialization either, because it's frozen.
+        # Oh well.
+        _, topology, _ = basis.patch_at(0, 0, source)
+        coeff_path = basis.locator.coeff_path(basis.name, name, 0, 0, cellwise)
+        cps = source.h5[coeff_path][:]
+        divisor = topology.num_cells if cellwise else topology.num_nodes
+        ncomps, remainder = divmod(len(cps), divisor)
+        assert remainder == 0
+
+        # Construct the field type based on the number of components. We get the
+        # default interpretation from the source object (generally either
+        # 'generic' for standard HDF5 files or 'eigenmode' for eigenmode HDF5
+        # files).
+        tp: api.FieldType
+        if ncomps > 1:
+            tp = api.Vector(num_comps=ncomps, interpretation=source.default_vector)
+        else:
+            tp = api.Scalar(interpretation=source.default_scalar)
+
+        super().__init__(name, type=tp, cellwise=cellwise, basis=basis)
+        basis.fields.append(self)
+
+    def __repr__(self) -> str:
+        return f"Field({self.name}, {'cellwise' if self.cellwise else 'nodal'}, {self.basis.name})"
+
+    def updates_at(self, step: int, source: Ifem) -> bool:
+        return self.coeff_root(step) in source.h5
+
+    def last_update_before(self, step: int, source: Ifem) -> int:
+        """Return the most recent step prior to the given step where this field
+        had an update.
+        """
+        while not self.updates_at(step, source):
+            step -= 1
+        return step
+
+    def coeff_root(self, step: int) -> str:
+        """Return the group path for coefficients belonging to this field
+        at a given step.
+        """
+        return self.basis.locator.coeff_root(
+            self.basis.name,
+            self.name,
+            step,
+            self.cellwise,
+        )
+
+    def coeff_path(self, step: int, patch: int) -> str:
+        """Return the full path for coefficients belonging to this field
+        at a given step and patch.
+        """
+        return self.basis.locator.coeff_path(
+            self.basis.name,
+            self.name,
+            step,
+            patch,
+            self.cellwise,
+        )
+
+    def cps_at(self, step: int, patch: int, source: Ifem) -> FieldData[floating]:
+        """Return the control points for this field at a given step and
+        patch.
+        """
+        cps = source.h5[self.coeff_path(step, patch)][:]
+        return FieldData(data=cps.reshape(-1, self.num_comps))
+
+
+class Ifem(api.Source[IfemBasis, IfemField, Step, Topology, Zone]):
+    """Source class for standard (non-eigenmode) IFEM HDF5 files."""
+
+    filename: Path
+
+    # Populated by __enter__
+    h5: h5py.File
+
+    # Populated by use_geometry - user's responsibility to call that method
+    geometry: IfemBasis
+
+    # Populated by discover_bases and discover_fields (called by __enter__)
+    _bases: Dict[str, IfemBasis]
+    _fields: Dict[str, IfemField]
+
+    # Options that can be overridden by subclasses (for eigenmodes)
+    locator: ClassVar[Locator] = StandardLocator()
+    default_scalar: ClassVar[api.ScalarInterpretation] = api.ScalarInterpretation.Generic
+    default_vector: ClassVar[api.VectorInterpretation] = api.VectorInterpretation.Generic
+
+    # LR-Splines don't natively support rationals. We try to deterime which
+    # splines are rational based on the number of components, but this isn't
+    # always possible. This setting can be set in the CLI to override this.
+    rationality: Optional[api.Rationality] = None
+
+    @staticmethod
+    def applicable(path: Path) -> bool:
+        """Return true if the given path is (probably) a valid IFEM HDF5 file."""
+        try:
+            with h5py.File(path, "r") as f:
+                assert all(is_legal_group_name(name) for name in f)
+            return True
+        except (AssertionError, OSError):
+            return False
+
+    def __init__(self, filename: Path):
+        self.filename = filename
+        self._fields = {}
+
+    def __enter__(self) -> Self:
+        self.h5 = h5py.File(self.filename, "r").__enter__()
+
+        # Find all bases
+        self.discover_bases()
+        for basis in self._bases.values():
+            logging.debug(
+                f"Basis {basis.name} with " f"{util.pluralize(basis.num_patches(self), 'patch', 'patches')}"
+            )
+
+        # Find all fields
+        self.discover_fields()
+
+        return self
+
+    def __exit__(self, *args) -> None:
+        self.h5.__exit__(*args)
+
+    @property
+    def properties(self) -> api.SourceProperties:
+        # Collect field splitting and recombination suggestions to pass on to
+        # the pipeline and the Split/Recombine filters.
+        splits, recombineations = self.propose_recombinations()
+        return api.SourceProperties(
+            instantaneous=False,
+            split_fields=splits,
+            recombine_fields=recombineations,
+        )
+
+    def configure(self, settings: api.ReaderSettings) -> None:
+        self.rationality = settings.rationality
+
+    @property
+    def num_steps(self) -> int:
+        """Number of steps."""
+        return len(set(self.h5) - {"anasol", "log"})
+
+    def step_groups(self) -> Iterator[h5py.Group]:
+        """Iterator over all groups for steps in the HDF5 file."""
+        for index in range(self.num_steps):
+            yield self.h5[str(index)]
+
+    def make_basis(self, name: str) -> IfemBasis:
+        """Create a basis with a given name."""
+        return IfemBasis(name, self.locator)
+
+    def discover_bases(self) -> None:
+        """Discover all the bases in the HDF5 file."""
+
+        # We use a dictionary here to preserve order (for testing and
+        # reproducibility purposes). In principle this is used as a set. We
+        # iterate through all the top-level groups in the HDF5 file and collect
+        # the second-level group names, minus known non-basis entries.
+        basis_names = dict.fromkeys(
+            name for name in chain.from_iterable(self.h5.values()) if name != "timeinfo"
+        )
+
+        # Construct bases and populate the _basis dict. Eliminate bases that
+        # don't have patches.
+        bases = (self.make_basis(name) for name in basis_names)
+        self._bases = {basis.name: basis for basis in bases if basis.num_patches(self) > 0}
+
+    def discover_fields(self) -> None:
+        """Discover all the fields in the HDF5 file."""
+
+        # Iterate over all steps and bases
+        for step_grp in self.step_groups():
+            for basis_name, basis_grp in step_grp.items():
+                if basis_name not in self._bases:
+                    continue
+
+                # Collect all the fields seen in this group. This is a sequence
+                # of (name, bool) tuples, where the second element is true if
+                # this field is cellwise. The cellwise fields are in the
+                # 'knotspan' group, while the nodal fields are in the 'fields'
+                # group.
+                fields: Iterator[Tuple[str, bool]] = chain(
+                    zip(basis_grp.get("fields", ()), repeat(False)),
+                    zip(basis_grp.get("knotspan", ()), repeat(True)),
+                )
+
+                # Construct new field objects for the fields we haven't seen
+                # before.
+                for field_name, cellwise in fields:
+                    if field_name in self._fields:
+                        continue
+                    self._fields[field_name] = IfemStandardField(
+                        name=field_name,
+                        cellwise=cellwise,
+                        basis=self._bases[basis_name],
+                        source=self,
+                    )
+
+    @lru_cache(maxsize=1)
+    def propose_recombinations(self) -> Tuple[List[api.SplitFieldSpec], List[api.RecombineFieldSpec]]:
+        """Collect suggested field splits and recombinations.
+
+        This method, which is expensive to run, is called from properties, which
+        should be cheap. Therefore memoize the return value.
+        """
+
+        # Each field proposes their own splits.
+        splits = list(chain.from_iterable(field.splits() for field in self._fields.values()))
+
+        # Keep a list of candidates for potential recombination.
+        candidates: Dict[str, List[str]] = defaultdict(list)
+
+        # We can recombine both newly split fields as well as already existing ones.
+        field_names = chain(self._fields, (split.new_name for split in splits))
+
+        # A field is a candidate for recombination if it is suffixed '_x', '_y'
+        # or '_z', in which case the prefix is the suggested name for the
+        # recombined field.
+        for field_name in field_names:
+            if len(field_name) <= 2 or field_name[-2] != "_":
+                continue
+            prefix, suffix = field_name[:-2], field_name[-1]
+            if suffix not in "xyz":
+                continue
+            candidates[prefix].append(field_name)
+
+        # Finalize recombinations and return.
+        recombinations = [
+            api.RecombineFieldSpec(source_names, new_name)
+            for new_name, source_names in candidates.items()
+            if new_name not in self._fields and len(source_names) > 1
+        ]
+
+        return splits, recombinations
+
+    def use_geometry(self, geometry: Field) -> None:
+        self.geometry = self._bases[geometry.name]
+
+    def steps(self) -> Iterator[Step]:
+        for i, group in enumerate(self.step_groups()):
+            if "timeinfo/level" in group:
+                time = group["timeinfo/level"][0]
+            else:
+                time = float(i)
+            yield Step(index=i, value=time)
+
+    def zones(self) -> Iterator[Zone]:
+        for patch in range(self.geometry.num_patches(self)):
+            zone, _, _ = self.geometry.patch_at(0, patch, self)
+            yield zone
+
+    def bases(self) -> Iterator[IfemBasis]:
+        return iter(self._bases.values())
+
+    def basis_of(self, field: IfemField) -> IfemBasis:
+        return field.basis
+
+    def geometries(self, basis: IfemBasis) -> Iterator[IfemField]:
+        yield IfemGeometryField(basis, self)
+
+    def fields(self, basis: IfemBasis) -> Iterator[IfemField]:
+        return iter(basis.fields)
+
+    def topology(self, step: Step, basis: IfemBasis, zone: Zone[ZoneKey]) -> api.Topology:
+        _, topology, _ = basis.patch_at(step.index, zone.key.patch, self)
+        return topology
+
+    def topology_updates(self, step: Step, basis: IfemBasis) -> bool:
+        return basis.updates_at(step.index, self)
+
+    def field_data(self, step: Step, field: IfemField, zone: Zone[ZoneKey]) -> FieldData[floating]:
+        return field.cps_at(step.index, zone.key.patch, self)
+
+    def field_updates(self, step: Step, field: IfemField) -> bool:
+        if field.is_geometry:
+            return field.basis.updates_at(step.index, self)
+        return field.updates_at(step.index, self)
+
+
+class IfemModes(Ifem):
+    """Source class for standard (non-eigenmode) IFEM HDF5 files."""
+
+    # Eigenmode HDF5 files are slightly different, but most of the machinery
+    # will work so long as these objects are changed.
+    locator = EigenLocator()
+    default_scalar = api.ScalarInterpretation.Eigenmode
+    default_vector = api.VectorInterpretation.Eigenmode
+
+    @staticmethod
+    def applicable(path: Path) -> bool:
+        """Return true if the given path is (probably) a valid IFEM HDF5
+        eigenmode file.
+        """
+        try:
+            with h5py.File(path, "r") as f:
+                assert "0" in f
+                basis_name = next(iter(f["0"]))
+                assert "Eigenmode" in f[f"0/{basis_name}"]
+            return True
+        except (AssertionError, OSError):
+            return False
+
+    @property
+    def properties(self) -> api.SourceProperties:
+        # Check whether the eigenmodes are of frequency type or not, then report
+        # the appropriate step interpretation.
+        basis = next(iter(self._bases.values()))
+        group = self.h5[f"0/{basis.name}/Eigenmode/1"]
+        if "Value" in group:
+            step = api.StepInterpretation.Eigenmode
+        else:
+            assert "Frequency" in group
+            step = api.StepInterpretation.EigenFrequency
+        return super().properties.update(step_interpretation=step)
+
+    def discover_bases(self) -> None:
+        # Eigenmode files only have one basis.
+        group = self.h5["0"]
+        basis_name = util.only(group)
+        self._bases = {basis_name: self.make_basis(basis_name)}
+
+    def discover_fields(self) -> None:
+        # Eigenmode files only have one field.
+        basis = util.only(self._bases.values())
+        self._fields = {
+            "Mode Shape": IfemStandardField("Mode Shape", cellwise=False, basis=basis, source=self)
+        }
+
+    @property
+    def num_steps(self) -> int:
+        basis = util.only(self._bases.values())
+        return len(self.h5[f"0/{basis.name}/Eigenmode"])
+
+    def step_groups(self) -> Iterator[h5py.Group]:
+        basis = util.only(self._bases.values())
+        for index in range(self.num_steps):
+            yield self.h5[f"0/{basis.name}/Eigenmode/{index+1}"]
+
+    def steps(self) -> Iterator[Step]:
+        for i, group in enumerate(self.step_groups()):
+            if "Value" in group:
+                time = group["Value"][0]
+            else:
+                time = group["Frequency"][0]
+            yield Step(index=i, value=time)
+
+    def field_updates(self, timestep: Step, field: IfemField) -> bool:
+        if field.is_geometry:
+            return timestep.index == 0
+        return super().field_updates(timestep, field)
