@@ -1,0 +1,11 @@
+example_project_python/__init__.py,sha256=QVzE-CWkdfv1iRNquhR2twXucZnpHKY8iBw9xmLRINQ,239
+example_project_python/__main__.py,sha256=lNkqqJZOdA3hqmTLj_OUCPlq38ydwPQdGRdzCQAhnc8,77
+example_project_python/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+example_project_python/vocab.py,sha256=VbldyhTeMIXhSnSYePtGx1bd2IhlRdzcbJz7356208g,4279
+example_project_python/tests/test_integration.py,sha256=HJIdLS2TSsxtodHPNp-CoafW5XU4sdFLTBo8efFEC7k,592
+example_project_python/tests/test_unit.py,sha256=laz1ahDfJ_wjU-uQFVuRIbbpR5PR932qEG1mYR6cccs,8371
+Vocabulary_Extension-0.1.0.dist-info/LICENSE,sha256=AcgqWyfEsZaWq18VeE1eBCzrYevMrdIcbRPZcEObJUU,1068
+Vocabulary_Extension-0.1.0.dist-info/METADATA,sha256=iQH0dsXSyQ6P7oVIY3rdblNEGUrj_en9gfEaHFiL3nE,8025
+Vocabulary_Extension-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Vocabulary_Extension-0.1.0.dist-info/top_level.txt,sha256=IbxFnJX5F-QGGeWA3Up3JrBg07EfLrlx2xhZV-skBzI,23
+Vocabulary_Extension-0.1.0.dist-info/RECORD,,
