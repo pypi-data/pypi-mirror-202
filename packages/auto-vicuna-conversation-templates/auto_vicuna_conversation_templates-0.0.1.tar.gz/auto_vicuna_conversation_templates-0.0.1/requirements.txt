@@ -1,0 +1,8 @@
+black
+isort
+flake8
+pylint
+setuptools
+wheel
+twine
+build
