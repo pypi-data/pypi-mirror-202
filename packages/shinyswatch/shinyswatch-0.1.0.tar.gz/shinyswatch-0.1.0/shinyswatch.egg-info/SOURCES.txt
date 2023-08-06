@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+shinyswatch/__init__.py
+shinyswatch/_assert.py
+shinyswatch/_theme.py
+shinyswatch/_themes.py
+shinyswatch/py.typed
+shinyswatch.egg-info/PKG-INFO
+shinyswatch.egg-info/SOURCES.txt
+shinyswatch.egg-info/dependency_links.txt
+shinyswatch.egg-info/not-zip-safe
+shinyswatch.egg-info/requires.txt
+shinyswatch.egg-info/top_level.txt
