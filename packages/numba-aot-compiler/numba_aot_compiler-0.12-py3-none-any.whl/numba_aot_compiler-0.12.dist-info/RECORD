@@ -1,0 +1,10 @@
+numba_aot_compiler/LICENSE,sha256=D1zl09NUYVPZHBZlhxMZqm8KZZpk4NpBqWdZAI_v5AU,1090
+numba_aot_compiler/README.MD,sha256=mQBv1Yg8vxaa93LEaJlZ4Y2yQ1sIa62OmxD1FosIMqo,6032
+numba_aot_compiler/__init__.py,sha256=c3Oq7rGFCnMK78ZuvZYnIhLGyXz8nLIl3mkXVYW2kCI,2926
+numba_aot_compiler/requirements.txt,sha256=jnBtp7aZfSkkfhpsTqJpWPpd9TRcehCqAqqBIXUu2FQ,43
+numba_aot_compiler/thirdparty.json,sha256=1TWq_sdOdQgT3gz-XPH7_gjJpMsswQHrrD-jC2Y04dU,3886
+numba_aot_compiler-0.12.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+numba_aot_compiler-0.12.dist-info/METADATA,sha256=4fn7DfInHYNCSwELZl9aCemUxnd9jEPDGdtWHRXHToY,7362
+numba_aot_compiler-0.12.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+numba_aot_compiler-0.12.dist-info/top_level.txt,sha256=lFXv6eIzrYyzTXcyPpmY2zsH2e90WxxX2nqJmOQqUyU,19
+numba_aot_compiler-0.12.dist-info/RECORD,,
