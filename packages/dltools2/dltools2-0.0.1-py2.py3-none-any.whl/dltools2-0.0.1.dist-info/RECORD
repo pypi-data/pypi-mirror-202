@@ -1,0 +1,10 @@
+dltools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dltools/schema/__init__.py,sha256=0R9WmK9JesfyPM5anknW7BRefu8jyMOmiB-RTnL1EOw,214
+dltools/schema/main.py,sha256=2qzUjwO8m1OBEsMLP_13WowywJR9EknJQCYQJ5WjXsY,13099
+dltools/streaming/__init__.py,sha256=1K-vkU6uFMUAHTAJjXCLBLlVyAHznjb5BCLUU4z6Va8,82
+dltools/streaming/base.py,sha256=JHdUsMPBz9AqXNmkeIatbxDUHQ7816cExIoMHZW-JSs,9409
+dltools2-0.0.1.dist-info/LICENSE,sha256=5JTfdJrwtbmXJaedHxISa_aHPWbAQ2f0WMP-U1cG07Y,1068
+dltools2-0.0.1.dist-info/METADATA,sha256=0MRrYeaKMarV5TquUVf_mbwNmnxxogzHtLn6K2YqfmE,470
+dltools2-0.0.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+dltools2-0.0.1.dist-info/top_level.txt,sha256=LK5j2jrAk_55wikNKrZqYuuBTKso6WVwPDn_9wGUsMU,8
+dltools2-0.0.1.dist-info/RECORD,,
