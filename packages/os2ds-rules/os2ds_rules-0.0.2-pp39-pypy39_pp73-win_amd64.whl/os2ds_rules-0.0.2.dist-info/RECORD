@@ -1,0 +1,12 @@
+os2ds_rules/__init__.py,sha256=gDowuQXGiXU1KkQvpDRshDPZQwSsQeIdgYoeJ0H2V2g,993
+os2ds_rules/address_rule.cpp,sha256=YH14BAW491MCnTsOR0NZ1xcnwa3wAqd2xtcDWRGbEnY,1448
+os2ds_rules/address_rule.pypy39-pp73-win_amd64.pyd,sha256=6hJnNyUarGMUNoDWUnWEHFA85y4B6CJ5sv4t5txwh6c,1466880
+os2ds_rules/cpr.cpp,sha256=2k3ny84qlR6OoG1kDrQObJzENiRfi3prsz8pYsij5kg,1694
+os2ds_rules/cpr_detector.pypy39-pp73-win_amd64.pyd,sha256=zId9-F2SFLS7OcFt0naDV2dKIIS6Om0my7Te9Jp1Rxg,29184
+os2ds_rules/name_rule.cpp,sha256=0P2nUu0xd9cziNRRn9ax6aZaBdp96Jo4sxGwaJ-6Swk,1567
+os2ds_rules/name_rule.pypy39-pp73-win_amd64.pyd,sha256=WAJB8XD2N-vN8qPl53pfqosPVv9cQahYgXp8Vz46r1Y,2537984
+os2ds_rules-0.0.2.dist-info/LICENSE,sha256=ES97GlwZLdiS8tIJLfRhCRha2fXrcp6sl3D0jDUoh98,17097
+os2ds_rules-0.0.2.dist-info/METADATA,sha256=zalzIlPlJOgS6O-7PZDyEtCTOpsGMnuZULlIK5n63H0,25814
+os2ds_rules-0.0.2.dist-info/WHEEL,sha256=QQY0XPJVcbNrDwRnZBTwtxGbMWJnHaWRpMJLfPEPCFM,107
+os2ds_rules-0.0.2.dist-info/top_level.txt,sha256=aMXEVpRX2qJMvgcSiUXq5igpMgzS5d3NPchORT0wJo8,12
+os2ds_rules-0.0.2.dist-info/RECORD,,
