@@ -1,0 +1,57 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Dit NextDNS profiel is al geconfigureerd."
+        },
+        "error": {
+            "cannot_connect": "Kan geen verbinding maken",
+            "invalid_api_key": "Ongeldige API-sleutel",
+            "unknown": "Onverwachte fout"
+        },
+        "step": {
+            "profiles": {
+                "data": {
+                    "profile": "Profiel"
+                }
+            },
+            "user": {
+                "data": {
+                    "api_key": "API-sleutel"
+                }
+            }
+        }
+    },
+    "entity": {
+        "switch": {
+            "block_twitch": {
+                "name": "Blokkeer Twitch"
+            },
+            "block_twitter": {
+                "name": "Blokkeer Twitter"
+            },
+            "block_vimeo": {
+                "name": "Blokkeer Vimeo"
+            },
+            "block_vk": {
+                "name": "Blokkeer VK"
+            },
+            "block_whatsapp": {
+                "name": "Blokkeer WhatsApp"
+            },
+            "block_xboxlive": {
+                "name": "Blokkeer Xbox Live"
+            },
+            "block_youtube": {
+                "name": "Blokkeer YouTube"
+            },
+            "block_zoom": {
+                "name": "Blokkeer Zoom"
+            }
+        }
+    },
+    "system_health": {
+        "info": {
+            "can_reach_server": "Server bereikbaar"
+        }
+    }
+}
