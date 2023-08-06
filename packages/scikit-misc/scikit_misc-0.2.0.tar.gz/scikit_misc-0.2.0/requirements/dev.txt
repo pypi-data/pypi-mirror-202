@@ -1,0 +1,10 @@
+# Testing
+pytest-cov
+
+# Release
+wheel
+twine
+
+# Linting
+pep8
+flake8
