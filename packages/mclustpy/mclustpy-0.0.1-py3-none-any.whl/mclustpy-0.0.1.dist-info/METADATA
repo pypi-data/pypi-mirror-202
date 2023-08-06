@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mclustpy
+Version: 0.0.1
+Summary: Clustering using the mclust algorithm.
+Home-page: https://github.com/KalinNonchev/mclustpy
+Author: KalinNonchev
+Author-email: boo@foo.com
+License: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mclustpy
+
+# mclustpy
