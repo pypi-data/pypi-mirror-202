@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/leaguecloser/__init__.py
+src/leaguecloser/computer.py
+src/leaguecloser/league.py
+src/leaguecloser/sikuli.py
+src/leaguecloser.egg-info/PKG-INFO
+src/leaguecloser.egg-info/SOURCES.txt
+src/leaguecloser.egg-info/dependency_links.txt
+src/leaguecloser.egg-info/requires.txt
+src/leaguecloser.egg-info/top_level.txt
+src/leaguecloser/data/close_league.sikuli/1681351869136.png
+src/leaguecloser/data/close_league.sikuli/1681352088077.png
+src/leaguecloser/data/close_league.sikuli/close_league.py
+tests/test_sequence.py

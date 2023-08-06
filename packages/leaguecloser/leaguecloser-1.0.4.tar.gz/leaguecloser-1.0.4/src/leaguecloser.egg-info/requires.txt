@@ -1,0 +1,4 @@
+psutil
+pyautogui
+pywin32
+requests
