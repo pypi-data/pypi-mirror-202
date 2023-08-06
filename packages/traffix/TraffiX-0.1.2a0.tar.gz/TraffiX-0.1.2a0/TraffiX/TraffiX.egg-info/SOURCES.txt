@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+TraffiX/TraffiX.egg-info/PKG-INFO
+TraffiX/TraffiX.egg-info/SOURCES.txt
+TraffiX/TraffiX.egg-info/dependency_links.txt
+TraffiX/TraffiX.egg-info/requires.txt
+TraffiX/TraffiX.egg-info/top_level.txt
