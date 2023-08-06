@@ -1,0 +1,8 @@
+setup.py
+obsutil/__init__.py
+obsutil/file.py
+obsutil.egg-info/PKG-INFO
+obsutil.egg-info/SOURCES.txt
+obsutil.egg-info/dependency_links.txt
+obsutil.egg-info/requires.txt
+obsutil.egg-info/top_level.txt
