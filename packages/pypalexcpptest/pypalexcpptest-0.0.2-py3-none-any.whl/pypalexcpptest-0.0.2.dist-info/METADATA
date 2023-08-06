@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pypalexcpptest
+Version: 0.0.2
+Summary: Testing out pypalex with cpp code.
+Home-page: https://github.com/AlTimofeyev/pypalex_cpp_test
+Author: Al Timofeyev
+Author-email: al.timofeyev@outlook.com
+License: MIT
+Download-URL: https://github.com/AlTimofeyev/pypalex_cpp_test/archive/0.0.2.tar.gz
+Keywords: python,pypalexcpptest
+Platform: UNKNOWN
+Classifier: Environment :: X11 Applications
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: filetype
+
+# pypalex_cpp_test
+Testing if cpp code can work with pypalex
+
+
