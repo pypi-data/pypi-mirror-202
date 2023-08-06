@@ -1,0 +1,9 @@
+pyproject/__init__.py,sha256=e3S0EcDGJlWIp2hddSFjvt633jfeZ4W7VyAeLpfTWVM,37
+pyproject/__version__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+pyproject/cli.py,sha256=55lC_bkAFS1zTK23gmhoeJEghc5g5wtKur_iaVCc5U0,799
+pyproject/project_builder.py,sha256=P-M4ChZ1ZLVUaT2go_4-rNl25kgcxuUrJe-ptYBqKGE,4650
+pyproject_generator-0.0.1.dist-info/METADATA,sha256=8e4AdB31Y2d9rGoqiF08-p3LRHY4dEI9Lt_Knvay7Uw,519
+pyproject_generator-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pyproject_generator-0.0.1.dist-info/entry_points.txt,sha256=W5b3ltn-mtdpCaXmx5HSOg1dww8HUAy-3a8FgfG9DhA,49
+pyproject_generator-0.0.1.dist-info/top_level.txt,sha256=PhKqv5J_ceQP1qA-wEz3NqR8NZf7iGVCdB7uienIErk,10
+pyproject_generator-0.0.1.dist-info/RECORD,,
