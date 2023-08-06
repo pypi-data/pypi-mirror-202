@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bpctl
+Version: 1.2
+Summary: A sample Python package
+Home-page: https://github.com/OT-BUILDPIPER-MARKETPLACE/bpctl
+Author: Amit Kumar Tiwari
+Author-email: amit.tiwari@opstree.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: PyYAML (<5.5,>=3.10)
+Requires-Dist: requests (>=2.22.0)
+
+UNKNOWN
+
+
