@@ -1,0 +1,8 @@
+pandas
+numpy
+gplately>=0.4
+
+[plotting]
+matplotlib
+jupyter
+cartopy
