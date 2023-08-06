@@ -1,0 +1,13 @@
+p2e/HTMLReader.py,sha256=ocOBxk-Cb1nREInGI6z9Xn1kLNn5UwOE6CvlzLMAdeo,9827
+p2e/RTFReader.py,sha256=dfL_5rjIfphSOehfrKJjpU2udYFAQampEiy_9qmxEyo,1462
+p2e/__init__.py,sha256=VE8j1LwwMFsjxkeEAIUDpdZjcC2cFG3C_quq0M9eIQM,324
+p2e/exportcsv.py,sha256=8EZOLvAJpTy0HsKYGWm5WpL__zXcIVhZN2nwqU_b3G4,4333
+p2e/exportxlsx.py,sha256=_-jtDdsApplOHGVAcgpfl3RLwUaUVUpxwwmB4U7ON30,4651
+p2e/main.py,sha256=T5ODNrs8o4tdzLDLKUXHwE6hkFpht-t3OUu2DPrdcsE,4912
+p2e/utils.py,sha256=dUZL7iFgwweT0cZ2MMmoSNBB4eh0x46MTTm2PtUqq_I,535
+test_polyspace_report2excel-1.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+test_polyspace_report2excel-1.0.4.dist-info/METADATA,sha256=TvzaAKIXGNkGz6T3LegjMQhL1fefTGi4qK-pJTIqoqU,43101
+test_polyspace_report2excel-1.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+test_polyspace_report2excel-1.0.4.dist-info/entry_points.txt,sha256=cl4fwdqxTYX1GwdxvwoFp9PdYBLCWsxOYkZUsq36loY,33
+test_polyspace_report2excel-1.0.4.dist-info/top_level.txt,sha256=Vcik7pJLXPpNuUj3n1paOUzaM3F_9y8dYU9FAmDsSPk,4
+test_polyspace_report2excel-1.0.4.dist-info/RECORD,,
