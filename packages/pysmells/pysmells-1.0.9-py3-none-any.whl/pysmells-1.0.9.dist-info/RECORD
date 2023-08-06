@@ -1,0 +1,14 @@
+pysmells/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysmells/analyze.py,sha256=5BylamPpV1oyBfMtXztePvIf7yICWYo46OFfurk_TnQ,3225
+pysmells/pysmells.py,sha256=ZB--A3Hc4XodXvD8WqUxnTDT6_ikJCboAV6PXakFwK8,5916
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/programa1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/programa1/badcode1.py,sha256=I6bJfeBb3wa-f4jGFXw7jVPwSWW336fxKo83P5rdXO0,55
+test/programa2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/programa2/badcode2.py,sha256=cUJ-pffFDL0CiQ7DRW0t2XZPipA6L-y6HXBUHbgWhQ8,32
+pysmells-1.0.9.dist-info/LICENSE,sha256=BrjAXc8HRAdAajWATX82DzKXTvcHA6KKKC-eeFcr87g,1115
+pysmells-1.0.9.dist-info/METADATA,sha256=-eO7WL-yEK4IX5k6zdpdpJ3cnosJuil9kb1IJKLGl-0,1992
+pysmells-1.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysmells-1.0.9.dist-info/entry_points.txt,sha256=RVRRjT7GlnFq85jy3UtiAzguLmBaxi81ODV4rgezXQ8,44
+pysmells-1.0.9.dist-info/top_level.txt,sha256=7mzovDNvlih_8jBMoNDWO4ZHV50sx7fCRNh0kvUCml4,14
+pysmells-1.0.9.dist-info/RECORD,,
