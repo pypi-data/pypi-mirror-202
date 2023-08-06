@@ -1,0 +1,2 @@
+[console_scripts]
+perprof = perprof.main:main
