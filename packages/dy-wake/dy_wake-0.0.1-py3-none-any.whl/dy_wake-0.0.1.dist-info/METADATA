@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: dy_wake
+Version: 0.0.1
+Summary: Dynamic wake simulation framework
+Project-URL: Homepage, https://gitlab.windenergy.dtu.dk/TOPFARM/dywake
+Project-URL: Bug Tracker, https://gitlab.windenergy.dtu.dk/TOPFARM/dywake/-/issues
+Author-email: "Mads M. Pedersen" <mmpe@dtu.dk>
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: hipersim
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: py-wake
+Requires-Dist: tqdm
+Requires-Dist: xarray
+Provides-Extra: jdwm
+Requires-Dist: jdwm; extra == 'jdwm'
+Description-Content-Type: text/markdown
+
+# DyWake
+
+Dynamic wind farm flow simulations
+
+## Installation
+```
+pip install dywake
+```
+
+## Project status
+
+Initial state
