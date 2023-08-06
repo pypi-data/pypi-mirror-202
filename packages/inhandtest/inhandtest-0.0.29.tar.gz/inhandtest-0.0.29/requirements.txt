@@ -1,0 +1,8 @@
+pytz
+requests
+playwright
+serial
+modbus-tk
+paho-mqtt
+urllib3
+paramiko
