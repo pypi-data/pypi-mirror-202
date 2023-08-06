@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: poisson-glm
+Version: 0.0.1
+Summary: Poisson GLM package for investigating spike trains in RGCs population
+Author: Meina Lin Wei
+Author-email: meina.lw12@gmail.com
+Keywords: python,poissonGLM
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
