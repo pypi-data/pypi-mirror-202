@@ -1,0 +1,3 @@
+[console_scripts]
+clara=clara.cli:main
+
