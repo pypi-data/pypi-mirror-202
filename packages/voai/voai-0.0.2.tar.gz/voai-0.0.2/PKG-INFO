@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: voai
+Version: 0.0.2
+Summary: A tool designed for working with 🧑‍💻ChatGPT API🧑‍💻
+Home-page: https://github.com/CURVoid/voai
+Author: VOID
+License: APACHE 2.0
+Keywords: chatgpt,gpt,chat,voai,openai,ai
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## VoAI v0.0.2 - tool designed for working with ChatGPT API
+## Change log
+- Renamed python file from `vogpt` to `voai`, in v0.0.1 you should import `vogpt` not `voai`
+## Usage
+```python
+import voai
+
+KEY = "your-api-key"
+
+chat = voai.GPT35Turbo(KEY)
+while True:
+    query = input("> ")
+
+    response = chat.ask(query)
+    print(response)
+```
+## Using libraries
+- <a href="https://pypi.org/project/requests/">requests</a>

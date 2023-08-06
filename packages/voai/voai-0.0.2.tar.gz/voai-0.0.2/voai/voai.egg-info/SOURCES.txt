@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+voai/voai.py
+voai/voai.egg-info/PKG-INFO
+voai/voai.egg-info/SOURCES.txt
+voai/voai.egg-info/dependency_links.txt
+voai/voai.egg-info/requires.txt
+voai/voai.egg-info/top_level.txt
