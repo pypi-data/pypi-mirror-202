@@ -1,0 +1,13 @@
+Gestor_CSprog87-1.0.0.data/scripts/config.py,sha256=2N_x3p8KxqKrncH9r6F5JWSx_fNRkmqvMeIuRO5D4VM,122
+Gestor_CSprog87-1.0.0.data/scripts/database.py,sha256=dDAzbntGzR7douU7VT0fOOzOy9679JD0oEeryHqwV_0,2436
+Gestor_CSprog87-1.0.0.data/scripts/helpers.py,sha256=vQHaClFh_umYbgWFo5cS90ereumoXI7BL-BmNY6pm1Y,1031
+Gestor_CSprog87-1.0.0.data/scripts/menu.py,sha256=MI9X8C1xoSnbOC9Tk5elY301rw3GGYK7yoDikG5kVCU,2925
+Gestor_CSprog87-1.0.0.data/scripts/run.py,sha256=VODdqXRNCZr6o7bsctZG3D4NFV0PpwuTK5NdJuTwKjo,232
+Gestor_CSprog87-1.0.0.data/scripts/ui.py,sha256=kXHvduQlZEQTzrgQmO9JITxdmScbLc7h_DT7RlHCP0I,7998
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_database.py,sha256=mWRaM_9NAe9Ztlo6ZH1RqADAiZdrG8D5jThtZMwjzeI,1814
+Gestor_CSprog87-1.0.0.dist-info/LICENSE,sha256=tcxjb8j5f_8xHDegy3ao3EKkB8mkDiyI4mpuz_kplTY,1091
+Gestor_CSprog87-1.0.0.dist-info/METADATA,sha256=WCr9AElYOKAcfH6cUtfNEt-E1dsP3aIYIXhzkLSK9MA,570
+Gestor_CSprog87-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Gestor_CSprog87-1.0.0.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+Gestor_CSprog87-1.0.0.dist-info/RECORD,,
