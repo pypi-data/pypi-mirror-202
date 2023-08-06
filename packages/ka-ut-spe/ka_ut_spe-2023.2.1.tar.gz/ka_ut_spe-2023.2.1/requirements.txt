@@ -1,0 +1,4 @@
+ka_ut_app>=2023.2.1
+ka_ut_com>=2023.2.2
+ka_ut_gen>=2023.2.3
+ka_ut_obj>=2023.3.1
