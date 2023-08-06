@@ -1,0 +1,12 @@
+lotr_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lotr_sdk/api_methods.py,sha256=YpAdKfkrTCH37zRyaDjfBO0N0QTHb5KzO9P4Va3bKNk,1728
+lotr_sdk/conf.py,sha256=YnQPDXtPpSYBWNsuzygi_yz_0xH_XwomEb4mDX6LWaQ,72
+lotr_sdk/movies.py,sha256=5vGHB_45ETtTi54ZLMMe98n8XCUdstMAysAp0b29mbk,2454
+lotr_sdk/quotes.py,sha256=CBnGPYGT3p7lHjtI37cyNdQTtaGO1DNyLjrjKRnQONA,1609
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=w_6ouYqYnjSgePzc2M5BU-kS6pClVpFUZ0j9csSu000,2516
+dr_lord_of_the_rings_sdk-0.0.1.dist-info/LICENCE.txt,sha256=jO9Qb45T_jdwB47xqhvHXW5laEQM0bzpQFH0mgZFYB8,1071
+dr_lord_of_the_rings_sdk-0.0.1.dist-info/METADATA,sha256=vsHeBZblyeWBJEOvtNZGuQBM4weUxdkChGg7M35_9B0,4304
+dr_lord_of_the_rings_sdk-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dr_lord_of_the_rings_sdk-0.0.1.dist-info/top_level.txt,sha256=HA5FnadDklXXCwOco3domhQJEMrST-nSmvDQlMDjtUc,15
+dr_lord_of_the_rings_sdk-0.0.1.dist-info/RECORD,,
