@@ -1,0 +1,14 @@
+jarvis_leaderboard/__init__.py,sha256=28Xg-x3-JAy-_YZNILtzDEocZM3Alz0EMVtYRfa7nyI,51
+jarvis_leaderboard/jarvis_populate_data.py,sha256=ddxATSvsr7isIWihCMXZ2e34TfF84eTw8tK9aIiFh4A,3297
+jarvis_leaderboard/jarvis_serve.py,sha256=mJYM2rL9WNF1BwkmlBAwc7iuDOcVh8IgsKqaUHmvGEo,135
+jarvis_leaderboard/jarvis_upload.py,sha256=7MLtGVJVuKX2yBoMX-K_onjhBCpvNJ4nEwsEIgrSufA,2942
+jarvis_leaderboard/rebuild.py,sha256=mfetneol1SEZUDwCR-ZaCkVlF7rCMckowv5VWhjaUG8,29761
+jarvis_leaderboard-2023.4.11.1.data/scripts/jarvis_populate_data.py,sha256=4K_dHQwVwM-aFU49iRTMvUTxAcEStyLQQrnk125juSM,3284
+jarvis_leaderboard-2023.4.11.1.data/scripts/jarvis_serve.py,sha256=YyuBrAAXYVmjuFsNMwoEyIFTlGCSIvdiXESy2i_YlRU,121
+jarvis_leaderboard-2023.4.11.1.data/scripts/jarvis_upload.py,sha256=fFEY5GkxpCwdazaJd0FnYl1Ll8e27nKzwfhnhgDTjLo,2928
+jarvis_leaderboard-2023.4.11.1.data/scripts/rebuild.py,sha256=ocEALEcWEWQSIoIChOhX_HMQX3SNAxGOmGEddp9RCIk,29747
+jarvis_leaderboard-2023.4.11.1.dist-info/LICENSE,sha256=3JaIQFkrqcuqvv1eNbfncrPUoWOBI9xtb2FN3_teLew,1064
+jarvis_leaderboard-2023.4.11.1.dist-info/METADATA,sha256=b5VrKiWE-7J_LJsIFyUJ84pLRaBj8dQr1B7YqQbcrA4,6709
+jarvis_leaderboard-2023.4.11.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+jarvis_leaderboard-2023.4.11.1.dist-info/top_level.txt,sha256=uSnCH-g9Wi68Ip6CtOr8uJISGasXIcKRKzktaYb7FjE,19
+jarvis_leaderboard-2023.4.11.1.dist-info/RECORD,,
