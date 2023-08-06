@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: orderbookzpy
+Version: 1.0.0
+Summary: Orderbookz client
+Project-URL: Homepage, https://github.com/KoenBaak/orderbookzpy
+Author-email: Koen Baak <koenbaak@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Requires-Dist: requests==2.28.2
+Description-Content-Type: text/markdown
+
+# orderbookzpy
+very small client for orderbookz game
