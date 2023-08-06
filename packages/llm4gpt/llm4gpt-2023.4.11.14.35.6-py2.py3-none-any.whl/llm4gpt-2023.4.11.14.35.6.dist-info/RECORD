@@ -1,0 +1,12 @@
+llm/__init__.py,sha256=3JUW1X0gD9T_1Yc588AGC8Cl0r94I6IPo2Wo0t7LVEE,199
+llm/llm4gpt.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+llm/clis/README.md,sha256=SIDx7CH3kxJhdekoZdNhLQlaIBz8cxwaWWr8MX2d4PM,413
+llm/clis/__init__.py,sha256=2Fhn43X8kFP6FpAnnAMiPcdnjUwQaukiIr2uGB6mGAY,279
+llm/clis/cli.py,sha256=ZA7u-98B5CQQp8Tdv4djRmhS3lcAHA5NJMq3X1WhpNU,569
+llm4gpt-2023.4.11.14.35.6.dist-info/AUTHORS.rst,sha256=CEETb6XnCN-dzcNvKt9rz5TYsjvElov4o0g736lEwk0,149
+llm4gpt-2023.4.11.14.35.6.dist-info/LICENSE,sha256=FYH3KaF-dJMgdEx2M7sI7lJID7OyMi_YlGqGliOqqhQ,1066
+llm4gpt-2023.4.11.14.35.6.dist-info/METADATA,sha256=8IkhOlcqv4iH4Awj3q-byUiVXWb0l6ehQOhq6VwjHaM,1392
+llm4gpt-2023.4.11.14.35.6.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+llm4gpt-2023.4.11.14.35.6.dist-info/entry_points.txt,sha256=hW2vrqeKW-IoXwmltOJIHhxvlacaRN7sVVuPJhmI4hc,49
+llm4gpt-2023.4.11.14.35.6.dist-info/top_level.txt,sha256=TwpEQXP3b1MS9Y2XuGgRuo9-Kny507xt2HFZgJ5TSIY,4
+llm4gpt-2023.4.11.14.35.6.dist-info/RECORD,,
