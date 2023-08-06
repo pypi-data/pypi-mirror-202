@@ -1,0 +1,6 @@
+setup.py
+nlpie/__init__.py
+nlpie.egg-info/PKG-INFO
+nlpie.egg-info/SOURCES.txt
+nlpie.egg-info/dependency_links.txt
+nlpie.egg-info/top_level.txt
