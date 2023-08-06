@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: infinitesimals
+Version: 0.0.3
+Summary: A capable HyperReal class and related methods for work with infinitesimals and nonstandard analysis.
+Home-page: 
+Author: Lyam Boylan
+Author-email: lyamboylan@gmail.com
+License: MIT
+Keywords: math,infinitesimal,infinitesimals,hyperreal,analysis,nonstandard analysis
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+A capable HyperReal class and related methods for work with infinitesimals and nonstandard analysis.
+
+Change Log
+==========
+
+0.0.1 (10/04/2023)
+------------------
+- First Release
+
+0.0.2 (10/04/2023)
+-------------------
+- Fixed install_requires
+
+0.0.3 (10/04/2023)
+-------------------
+- Fixed __init__ directory
