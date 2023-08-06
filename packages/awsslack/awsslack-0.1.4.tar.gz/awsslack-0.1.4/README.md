@@ -1,0 +1,90 @@
+# `awsslack`
+
+Basic view of how it would look in Slack (reality is much better with live progress-bar)
+
+```
+my-slack-bot APP  12:02 AM
+    ████████████████████ 100.0%
+    00:02:12 - [Build: <project-name> BuildStatus=IN_PROGRESS!]
+    00:02:17 - [Build's Phase: SUBMITTED PhaseStatus=SUCCEEDED]
+    00:02:18 - [Build's Phase: QUEUED PhaseStatus=SUCCEEDED]
+    00:02:48 - [Build's Phase: PROVISIONING PhaseStatus=SUCCEEDED]
+    00:02:53 - [Build's Phase: DOWNLOAD_SOURCE PhaseStatus=SUCCEEDED]
+    00:03:14 - [Build's Phase: INSTALL PhaseStatus=SUCCEEDED]
+    00:03:19 - [Build's Phase: PRE_BUILD PhaseStatus=SUCCEEDED]
+    00:05:00 - [Build's Phase: BUILD PhaseStatus=SUCCEEDED]
+    00:05:31 - [Build's Phase: POST_BUILD PhaseStatus=SUCCEEDED]
+    00:05:36 - [Build: <project-name> BuildStatus=SUCCEEDED!] (edited)
+```
+
+## Installation
+
+```console
+$ pip install awsslack
+```
+
+# Usage
+
+## Config
+
+Config file path is: `~/.aws/.awsslack-config.yaml`
+
+```console
+$ awsslack config --auto-generate
+```
+
+See help: `awsslack config --help`
+
+## CodeBuild
+
+Trigger Codebuild project for `dev` environment:
+
+```console
+$ awsslack codebuild -P <project-name> -E dev
+```
+
+Similarly, for `prod` environment:
+
+```console
+$ awsslack codebuild -P <project-name> -E prod
+```
+
+See help: `awsslack codebuild --help`
+
+## CodeDeploy
+
+Trigger CodeDeploy project for `dev` environment:
+
+```console
+$ awsslack codedeploy -P <project-name> -E dev
+```
+
+Similarly, for `prod` environment:
+
+```console
+$ awsslack codedeploy -P <project-name> -E prod
+```
+
+Note: If `--commit` is not provided, will fetch latest Commit ID from  `--branch`.
+
+See help: `awsslack codedeploy --help`
+
+## Slack App
+
+To create a new Slack app:
+
+1. Go to https://api.slack.com/apps?new_app=1
+2. click 'From scratch'
+3. enter 'App Name': 'awsslack'
+4. select workspace
+5. click 'Create App'
+6. click 'OAuth and Permissions'
+7. under scopes, 'Bot Token Scopes', click 'Add an OAuth Scope'
+8. add '**chat:write**' scope
+9. under scopes, 'User Token Scopes', click 'Add an OAuth Scope'
+10. under 'OAuth Tokens for Your Workspace', click 'Install to Workspace'
+11. click 'Allow'
+12. copy 'Bot User OAuth Token'
+13. update the token in config file at path `~/.aws/.awsslack-config.yaml`
+14. [Add apps to your Slack workspace](https://slack.com/intl/en-gb/help/articles/202035138-Add-apps-to-your-Slack-workspace)
+15. Good to go. now 'awsslack' can push updates to slack
