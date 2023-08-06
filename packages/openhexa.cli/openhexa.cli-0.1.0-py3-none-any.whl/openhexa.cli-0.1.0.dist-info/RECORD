@@ -1,0 +1,10 @@
+openhexa/__init__.py,sha256=vDLhRHj0J4ldm4iJNZjN9AKU2KJhUwFA3jxHkw7cecg,52
+openhexa/api.py,sha256=UrS7fRc6SVLM2m02IylXo8-BawKJwyqVZiUf1DDB3JM,6379
+openhexa/cli.py,sha256=mBa4lQXGr3t9GZLkGIdNuQMiKPnENbG7_9t8CBjD-J4,7648
+openhexa.cli-0.1.0.dist-info/LICENCE,sha256=GaEYnbyo8e_gVXAbt5p_gmaxfiiyP3xrNH-fsRD-Y-c,1057
+openhexa.cli-0.1.0.dist-info/METADATA,sha256=vWefs_tWnXIWw3megdVu8JrnSx1a37K8ekgbwEx-lrs,3278
+openhexa.cli-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+openhexa.cli-0.1.0.dist-info/entry_points.txt,sha256=dfYsLZF-ZryZYhjX-IeNTEBf58gRYs3aNtPAs9H2hGA,46
+openhexa.cli-0.1.0.dist-info/top_level.txt,sha256=ZqA3iUBk3JD_4Yp8ziYfgG9LiHl2u1lRbBITVBKsauM,9
+openhexa.cli-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+openhexa.cli-0.1.0.dist-info/RECORD,,
