@@ -1,0 +1,12 @@
+numpy
+torch
+torchvision
+torchaudio
+pandas
+tqdm
+matplotlib
+keras
+folktables
+scipy
+scikit-learn
+seaborn
