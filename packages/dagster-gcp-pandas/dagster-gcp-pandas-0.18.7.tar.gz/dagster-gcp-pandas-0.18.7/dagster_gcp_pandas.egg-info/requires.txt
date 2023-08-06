@@ -1,0 +1,6 @@
+dagster==1.2.7
+dagster-gcp==0.18.7
+pandas<2
+
+[test]
+pandas-gbq
