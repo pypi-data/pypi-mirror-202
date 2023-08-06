@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-SDGPT
+Version: 0.1.2
+Home-page: https://github.com/thx114/SDGPT
+Author: F_thx
+Author-email: thx1140093097@gmail.com
+License: MIT Licence
+License-File: LICENSE
+Requires-Dist: nonebot2
+Requires-Dist: python-dotenv
+Requires-Dist: revChatGPT
+Requires-Dist: EdgeGPT
+Requires-Dist: webuiapi
+Requires-Dist: nonebot-adapter-onebot
+Requires-Dist: nonebot-plugin-guild-patch
+
