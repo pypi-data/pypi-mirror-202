@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PyLanguageEasySeperated/Game.py
+PyLanguageEasySeperated/__init__.py
+PyLanguageEasySeperated.egg-info/PKG-INFO
+PyLanguageEasySeperated.egg-info/SOURCES.txt
+PyLanguageEasySeperated.egg-info/dependency_links.txt
+PyLanguageEasySeperated.egg-info/requires.txt
+PyLanguageEasySeperated.egg-info/top_level.txt
