@@ -1,0 +1,7 @@
+README.md
+setup.py
+configchronicles.egg-info/PKG-INFO
+configchronicles.egg-info/SOURCES.txt
+configchronicles.egg-info/dependency_links.txt
+configchronicles.egg-info/requires.txt
+configchronicles.egg-info/top_level.txt
