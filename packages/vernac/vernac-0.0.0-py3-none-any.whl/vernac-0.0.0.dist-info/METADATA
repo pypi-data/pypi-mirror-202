@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vernac
+Version: 0.0.0
+Requires-Python: ~=3.11
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: openai
+Requires-Dist: shiv
+Requires-Dist: tomli-w
+Requires-Dist: rich
+Provides-Extra: dev
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
