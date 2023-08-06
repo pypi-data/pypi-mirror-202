@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: happydomain
+Version: 0.0.2
+Summary: Finally a simple interface for domain names.
+Home-page: https://git.happydomain.org/python-sdk
+Author: happyDomain's team
+Author-email: happyDomain's team <contact+pypi@happydomain.org>
+License: CECILL-2.1
+Project-URL: Homepage, https://git.happydomain.org/python-sdk
+Project-URL: Bug Tracker, https://git.happydomain.org/python-sdk/issues
+Keywords: dns ns happydomain domain domainname
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+Classifier: Operating System :: POSIX
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Topic :: Internet :: Name Service (DNS)
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Operating System :: POSIX
+Provides: happydomain
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# happyDomain Python SDK
