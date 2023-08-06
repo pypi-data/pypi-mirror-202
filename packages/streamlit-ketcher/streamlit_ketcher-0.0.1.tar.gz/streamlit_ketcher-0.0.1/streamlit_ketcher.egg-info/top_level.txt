@@ -1,0 +1,7 @@
+build
+dist
+e2e
+frontend
+streamlit_ketcher
+tests
+venv
