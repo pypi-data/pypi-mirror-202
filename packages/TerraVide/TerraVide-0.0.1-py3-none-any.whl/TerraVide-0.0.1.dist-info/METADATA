@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: TerraVide
+Version: 0.0.1
+Summary: An open source python package to process and simulate large urban environments mapped with LiDAR data
+Author: Sarang Pramode
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
