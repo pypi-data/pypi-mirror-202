@@ -1,0 +1,8 @@
+vizelec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vizelec/main.py,sha256=BasKTBX1b_h6mPYeTnD34RVpmq-hsXkHm5EHLNKGAXg,221
+vizelec/pinout.py,sha256=IfEe2HGFS3DT5znMiVC0fjftF2nVIdlO-hNTHT482-E,796
+vizelec/spice.py,sha256=_1WgRthCtSP04UhV73xKxXl4WFxiWKVSsKsRxcvRPaw,3290
+vizelec-0.1.1.dist-info/entry_points.txt,sha256=AQtpsPa6WjY4YT73uLVbiOChqE-M0cROXZgX1jMAz7I,44
+vizelec-0.1.1.dist-info/METADATA,sha256=_Btv2y7hatqYNoNeYYpmTtdjCUOOmLsyi3hHrRRG5CI,1945
+vizelec-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+vizelec-0.1.1.dist-info/RECORD,,
