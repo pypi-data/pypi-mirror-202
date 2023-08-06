@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+body {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+}
+
+.test {
+    margin-top: 2rem;
+    border-top: 1px solid gray;
+    padding-top: 1rem;
+
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="{{ content.type }}" id="container_{{ content.id }}" >
+            {% if test_results %}
+            {% if test_results.errors %}
+                <div class="alert alert-danger" role="alert">
+                    A test ran at {{ test_results.time }} and there were {{ test_results.errors.total }} errors in total
+                </div>
+            {% else %}
+                <div class="alert alert-success" role="alert">
+                    A test ran at {{ test_results.time }} and there were no errors
+                </div>
+            {% endif %}
+            {% endif %}
+            {{ content.description }}
+            {% for test in content.children %}
+                <div class="{{ test.type }}" id="container_{{ test.id }}">
+                    {{ test.description }}
+                    {% for scenario in test.children %}
+                        <div class="{{ scenario.type }}" id="container_{{ scenario.id }}">
+                            {{ scenario.description }}
+                        </div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
