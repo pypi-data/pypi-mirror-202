@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tulp
+Version: 0.3.2
+Summary: TULP: TULP Understands Language Perfectly
+Home-page: https://github.com/fedenunez/tulp
+Author: Federico Nuñez (fedenunez)
+Author-email: fedenunez@gmail.com
+Maintainer: Federico Nuñez (fedenunez)
+Maintainer-email: fedenunez@gmail.com
+Project-URL: Source, https://github.com/fedenunez/tulp
+Requires-Python: >=3.7.1
+License-File: LICENSE
+Requires-Dist: openai
+
