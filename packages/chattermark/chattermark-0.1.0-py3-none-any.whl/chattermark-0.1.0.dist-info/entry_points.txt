@@ -1,0 +1,3 @@
+[console_scripts]
+chattermark=chattermark.gpt_chat_cli:main
+

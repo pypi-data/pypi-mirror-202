@@ -1,0 +1,8 @@
+chattermark/__init__.py,sha256=pqu9LWduNy8IG3JIPtLoJyMSiqe5bRoEdQhKb4WNSww,295
+chattermark/gpt_chat_cli.py,sha256=h623JYelNEqfJQwZ5WmfQXjdUXsOoUhDKBo_FAMKqXk,1709
+chattermark/gpt_chat_model.py,sha256=RllAVlkJsS21yQN7Kp4tNpwVsN4R44M2il6lnlMNjAA,690
+chattermark/gpt_chat_to_md.py,sha256=mTOtdjX9fvuDILOTkxIRE8kTFlQTGIV8cihSq1O0SnU,1867
+chattermark-0.1.0.dist-info/METADATA,sha256=usvUPdAa2mGLM7raO63LMCeh1c6JHpEsVcwpcYQEi1I,3486
+chattermark-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+chattermark-0.1.0.dist-info/entry_points.txt,sha256=EoWaiPAFuCRD6cw3SUB53ngGs8wEnUd9l08alMTwJsQ,61
+chattermark-0.1.0.dist-info/RECORD,,
