@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xbee900_HIT"
+version = "0.1.2"
+authors = [
+  { name="Zhiyuan Cao", email="caozhiyuan@stu.hit.edu.cn" },
+]
+description = "A small package to send/receive fragmented data with XBee 900"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE.txt"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "digi-xbee==1.4.1",
+]
+
+[project.urls]
+"Homepage" = "https://gitee.com/czy_hit/xbee"
+"Bug Tracker" = "https://gitee.com/czy_hit/xbee"
+
+
