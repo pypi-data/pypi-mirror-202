@@ -1,0 +1,12 @@
+whisper_dictation/Client.py,sha256=ukwB3iWCUa6DdGqvZkdjtRRmSTSaeU1THQw3RYp8oZY,1340
+whisper_dictation/DictationDeamon.py,sha256=92RYjb_Wc3SRPorKzRVE30zvt7rzAAgqwavvTRssmQY,3842
+whisper_dictation/WhisperDictator.py,sha256=dcJUEPovIcmhp-kOfVH4r2Dfflk9DQ42p0uaP-gPEzQ,3819
+whisper_dictation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whisper_dictation/cli.py,sha256=Uva1a2lNUgAAN4QYuJ4mfcZUL3HshqmTeUf-7KcnQ-g,1398
+whisper_dictation/output.wav,sha256=0IXblpyI36Z40Z17RQAhqzji1fJGPia7F5xgglON3nQ,2076716
+whisper_dictation/whisper_dictation.service,sha256=0otJa0MTdsRvh2rWX05925tbWY9fpv79VkQ2XmE45Ow,191
+whisper_dictation-0.4.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+whisper_dictation-0.4.2.dist-info/METADATA,sha256=UG-e35GVWAjDlB1K77lyb_BFufQrh-Z7MpGtFOgPxMo,2658
+whisper_dictation-0.4.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+whisper_dictation-0.4.2.dist-info/entry_points.txt,sha256=OWcL8IfUm6MI01YGfSLlhBC1BFLOO5IOQVSQ4D5Ag9s,63
+whisper_dictation-0.4.2.dist-info/RECORD,,
