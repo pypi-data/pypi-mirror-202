@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ezQpy
+Version: 0.2.0.2
+Summary: A SDK to use Quantum Computer @ quantumcomputer.ac.cn with QCIS.
+Home-page: https://quantumcomputer.ac.cn
+Author: Code42
+Author-email: support@quantumcomputer.ac.cn
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: numpy
+Requires-Dist: requests
+
+
+# 量子创新研究院云平台量子编程教学(Readme版)
+
+
