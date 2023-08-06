@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: azureml-acft-common-components
+Version: 0.0.6
+Summary: Basic implementation of common components and         utility functions that can be used by all verticals (image/video/nlp/multi-modal).
+Home-page: https://docs.microsoft.com/python/api/overview/azure/ml/?view=azure-ml-py
+Author: Microsoft Corp
+License: https://aka.ms/azureml-sdk-license
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7,<3.10
+Description-Content-Type: text/x-rst
+Requires-Dist: azureml-core (~=0.0.6)
+Requires-Dist: azureml-automl-core (~=0.0.6)
+
+
+Basic implementation of common components and utility functions that can be used by all verticals - 
+image/video/nlp/multi-modal.
+
+
+
+
