@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+Qpai/__init__.py
+Qpai/test_one.py
+Qpai/test_trial.py
+Qpai.egg-info/PKG-INFO
+Qpai.egg-info/SOURCES.txt
+Qpai.egg-info/dependency_links.txt
+Qpai.egg-info/top_level.txt
