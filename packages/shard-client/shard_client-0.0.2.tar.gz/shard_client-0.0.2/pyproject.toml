@@ -1,0 +1,15 @@
+[project]
+name = "shard_client"
+version = "0.0.2"
+authors = [
+  { name="HeWhoMustNotBeNamed", email="hewhomustnotbenamed23@proton.me" },
+]
+description = "A modification for axiom scanner"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
