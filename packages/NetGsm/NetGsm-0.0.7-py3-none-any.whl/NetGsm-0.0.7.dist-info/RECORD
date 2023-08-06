@@ -1,0 +1,9 @@
+netgsm/__init__.py,sha256=ec130pyR1uz02TgFclLCP1tjC5H7O3-tnqXwfjo2LFM,99
+netgsm/error_code.py,sha256=gRf_upXY2-oONTTrKODC7r0-sB4Snsgbgg5yx-gSbvc,1096
+netgsm/exception.py,sha256=mlODDdo8jFtuHAbFVWFW9UeBDXhMlaCOG_BqrCxAqQY,298
+netgsm/service.py,sha256=eAaR9r9esI6sv69USW9abW6eJ4THzu1VkeCJzIm3PTE,3107
+NetGsm-0.0.7.dist-info/LICENSE,sha256=kMDUYTNnummGMZiwFP-gcNFZ2zLkL7HnTQG4WZHlBCc,1071
+NetGsm-0.0.7.dist-info/METADATA,sha256=hEtextvHFx7TWvps1OzBRx7PfQLz9BRIaVU7wrXdjc8,1958
+NetGsm-0.0.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+NetGsm-0.0.7.dist-info/top_level.txt,sha256=wCeU1EJ12g97R9jRudO6gcWbEgF3OxaPXZuAttmIktE,7
+NetGsm-0.0.7.dist-info/RECORD,,
