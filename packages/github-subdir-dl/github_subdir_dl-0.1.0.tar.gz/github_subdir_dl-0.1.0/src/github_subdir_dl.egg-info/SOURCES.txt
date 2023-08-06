@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/github_subdir_dl/__init__.py
+src/github_subdir_dl/github_subdir_dl.py
+src/github_subdir_dl.egg-info/PKG-INFO
+src/github_subdir_dl.egg-info/SOURCES.txt
+src/github_subdir_dl.egg-info/dependency_links.txt
+src/github_subdir_dl.egg-info/entry_points.txt
+src/github_subdir_dl.egg-info/requires.txt
+src/github_subdir_dl.egg-info/top_level.txt

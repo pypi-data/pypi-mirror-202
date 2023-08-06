@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: github-subdir-dl
+Version: 0.1.0
+Summary: Download subdirectories in a GitHub repo
+Author-email: Goncalo Azevedo <goncalooazevedo@outlook.com>
+Project-URL: Homepage, https://github.com/vugonz/github-subdir-dl
+Project-URL: Bug Tracker, https://github.com/vugonz/github-subdir-dl/issues
+Project-URL: Source, https://github.com/vugonz/github-subdir-dl/
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
