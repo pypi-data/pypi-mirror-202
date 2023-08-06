@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: webint-live
+Version: 0.0.12
+Summary: go live from your website
+License: BSD-2-Clause
+Author: Angelo Gladding
+Author-email: angelo@ragt.ag
+Requires-Python: >=3.10,<3.11
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiohttp (>=3.8.4,<4.0.0)
+Requires-Dist: aiortc (>=1.4.0,<2.0.0)
+Requires-Dist: opencv-python (>=4.7.0.72,<5.0.0.0)
+Requires-Dist: twilio (>=7.16.2,<8.0.0)
+Requires-Dist: webint (>=0.0)
