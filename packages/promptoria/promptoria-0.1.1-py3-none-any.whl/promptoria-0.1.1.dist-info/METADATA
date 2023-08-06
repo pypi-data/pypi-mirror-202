@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: promptoria
+Version: 0.1.1
+Summary: A library to help you focus on your app and not 100% in the prompt. Works great with Jinja2.
+Home-page: https://github.com/buanzo/promptoria
+Author: Arturo "Buanzo" Busleiman
+Author-email: buanzo@buanzo.com.ar
+License: MIT
+Keywords: python3,utility
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+License-File: LICENSE
+
+A library to help you focus on your app and not 100% in the prompt. Works great with Jinja2.
