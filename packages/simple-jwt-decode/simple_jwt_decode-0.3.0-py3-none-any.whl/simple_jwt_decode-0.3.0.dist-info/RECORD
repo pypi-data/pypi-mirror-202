@@ -1,0 +1,7 @@
+src/simple_jwt/__about__.py,sha256=_4BIaS6YAQQqz4fnQTO2Nn-vSlewrO55j1NBq_JM0Lo,138
+src/simple_jwt/__init__.py,sha256=-1Rrfd-Zbide3nk1nn36ei6hAKHXm-hjVR5wdS2LdkA,116
+src/simple_jwt/jwt.py,sha256=4hdSUH7h8G-DhS7v4bOY7b_FkEicZEpWqKth3G-1JHM,1432
+simple_jwt_decode-0.3.0.dist-info/METADATA,sha256=6DPeV1V_du6UeCPwZYl_vvQs6jOkeRfdz3IyHKGLPDQ,2712
+simple_jwt_decode-0.3.0.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+simple_jwt_decode-0.3.0.dist-info/licenses/LICENSE.txt,sha256=RJoI_thebEEpLEe6XcLLMfOYuB3xcNumGu-XfSwHeC0,1108
+simple_jwt_decode-0.3.0.dist-info/RECORD,,
