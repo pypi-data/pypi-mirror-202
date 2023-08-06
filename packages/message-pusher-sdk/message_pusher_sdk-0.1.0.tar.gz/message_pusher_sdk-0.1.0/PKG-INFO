@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: message-pusher-sdk
+Version: 0.1.0
+Summary: Python SDK for message-pusher
+Home-page: https://pypi.org/project/message-pusher-sdk
+License: MIT
+Author: 117503445
+Author-email: t117503445@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: click
+Requires-Dist: minilog
+Requires-Dist: types-requests (>=2.28.11.17,<3.0.0.0)
+Project-URL: Documentation, https://message-pusher-sdk.readthedocs.io
+Project-URL: Repository, https://github.com/117503445/message-pusher-python-sdk
+Description-Content-Type: text/markdown
+
+# Overview
+
+Python SDK for message-pusher
+
+This project was generated with [cookiecutter](https://github.com/audreyr/cookiecutter) using [jacebrowning/template-python](https://github.com/jacebrowning/template-python).
+
+[![Unix Build Status](https://img.shields.io/github/actions/workflow/status/117503445/message-pusher-python-sdk/main.yml?branch=main&label=linux)](https://github.com/117503445/message-pusher-python-sdk/actions)
+[![Windows Build Status](https://img.shields.io/appveyor/ci/117503445/message-pusher-python-sdk.svg?label=windows)](https://ci.appveyor.com/project/117503445/message-pusher-python-sdk)
+[![Coverage Status](https://img.shields.io/codecov/c/gh/117503445/message-pusher-python-sdk)](https://codecov.io/gh/117503445/message-pusher-python-sdk)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/117503445/message-pusher-python-sdk.svg)](https://scrutinizer-ci.com/g/117503445/message-pusher-python-sdk)
+[![PyPI License](https://img.shields.io/pypi/l/message-pusher-sdk.svg)](https://pypi.org/project/message-pusher-sdk)
+[![PyPI Version](https://img.shields.io/pypi/v/message-pusher-sdk.svg)](https://pypi.org/project/message-pusher-sdk)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/message-pusher-sdk.svg?color=orange)](https://pypistats.org/packages/message-pusher-sdk)
+
+## Setup
+
+### Requirements
+
+* Python 3.10+
+
+### Installation
+
+Install it directly into an activated virtual environment:
+
+```text
+$ pip install message-pusher-sdk
+```
+
+or add it to your [Poetry](https://poetry.eustace.io/) project:
+
+```text
+$ poetry add message-pusher-sdk
+```
+
+## Usage
+
+After installation, the package can be imported:
+
+```text
+$ python
+>>> import message_pusher_sdk
+>>> message_pusher_sdk.__version__
+```
+
+```sh
+pytest
+```
+
