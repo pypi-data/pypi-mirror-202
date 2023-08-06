@@ -1,0 +1,10 @@
+pure_safetensors/__init__.py,sha256=SUh47_rBTrNSArCwEDPxGpKA5FJnVtd2OO7jPGsK7YY,35
+pure_safetensors/exc.py,sha256=mkyP-Vc2HvLTbsY2wa99Ern4ucfCNMoSZzDu2v-_16I,163
+pure_safetensors/mmap.py,sha256=AZuwb0WMy_u4LeCycnqfvAOPQtLxvcRuKL3SXA2RA-w,6921
+pure_safetensors/numpy.py,sha256=qOOrVOUow7r-DdgNP1w0tz5sqUueCKO9GdXoGeU8a9s,1570
+pure_safetensors/safetensors.py,sha256=0VrNqfgwI2odECuu711kS_H-jv78TaERwyAQYqyfyKw,24148
+pure_safetensors/util.py,sha256=UAWRLV_wYA7Mz9pJ-4k1LwkAOhF87CZpYaWQpgXArB4,1158
+pure_safetensors-0.2.0.dist-info/METADATA,sha256=4_XdGhMrwFOHwL2ArUX4udClA3QlEhQbuD7Q_L28Gx0,3234
+pure_safetensors-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pure_safetensors-0.2.0.dist-info/top_level.txt,sha256=EfZ6VK0WVqhotDHjP5WF2yoBxSgTQjKxAP6a3IEwNBc,17
+pure_safetensors-0.2.0.dist-info/RECORD,,
