@@ -1,0 +1,29 @@
+[package]
+authors = ["GoRules Team <bot@gorules.io>"]
+description = "Zen expression language parser"
+name = "zen-parser"
+license = "MIT"
+version = "0.2.1"
+edition = "2021"
+repository = "https://github.com/gorules/zen.git"
+
+[dependencies]
+ahash = "0.8.3"
+bumpalo = "3.12.0"
+once_cell = "1.17.1"
+phf = { version = "0.11.1", features = ["macros"] }
+thiserror = "1.0.40"
+rust_decimal = "1.29.1"
+rust_decimal_macros = "1.29.1"
+
+[[bench]]
+harness = false
+name = "unary"
+
+[[bench]]
+harness = false
+name = "standard"
+
+[[bench]]
+harness = false
+name = "lexer"
