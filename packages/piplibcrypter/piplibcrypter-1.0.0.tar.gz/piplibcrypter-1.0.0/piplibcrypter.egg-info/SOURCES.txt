@@ -1,0 +1,6 @@
+setup.py
+piplibcrypter/__init__.py
+piplibcrypter.egg-info/PKG-INFO
+piplibcrypter.egg-info/SOURCES.txt
+piplibcrypter.egg-info/dependency_links.txt
+piplibcrypter.egg-info/top_level.txt
