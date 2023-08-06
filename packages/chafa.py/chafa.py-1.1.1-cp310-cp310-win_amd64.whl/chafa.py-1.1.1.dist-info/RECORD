@@ -1,0 +1,13 @@
+chafa/__init__.py,sha256=1u3P9baTdCEZUyE-J2LlmklvwghszEMXtbY1bupz_ZE,579
+chafa/chafa.py,sha256=jbI-q2iF1u4deSy7V-3Xbj6kms260aNxid4T4jTyl1Y,86194
+chafa/loader.py,sha256=JlcOUG4sFR9fjST48ViKvFyJf-jDU7H363pY0CTmtNQ,5966
+chafa/libs/libchafa.dll,sha256=rCu6t4if_6SQK1ah5mmsM9U5UHlC3ppn8I-v8wkP-Y0,289788
+chafa/libs/libglib-2.0-0.dll,sha256=Y3fabMS56XklCasKw_yFHrW5-SmwvK6qmO4qOQyVdSM,1383156
+chafa/libs/libiconv-2.dll,sha256=FyjukGWfiHrlL5d_LFdoTB7IGshMrdsRhigfu4XhQ5A,1114369
+chafa/libs/libintl-8.dll,sha256=Ne0XDF1T0ZCrNoPW26gNzKm-QgzMplAYplg59wBS9_8,136724
+chafa/libs/libpcre2-8-0.dll,sha256=ueGssrpMlrm1K_pewlsWnly1LmiN4CbC2WSvQukggeE,393081
+chafa.py-1.1.1.dist-info/METADATA,sha256=_Tt-JydrVlqvuoH4kRnWyp6uSiOT2PExg77z6eCcSAI,4725
+chafa.py-1.1.1.dist-info/WHEEL,sha256=v-22vTM8G6om63-Waj859jApE4yQ5ZNnXQRURmyoSZA,97
+chafa.py-1.1.1.dist-info/licenses/COPYING,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+chafa.py-1.1.1.dist-info/licenses/COPYING.LESSER,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+chafa.py-1.1.1.dist-info/RECORD,,
