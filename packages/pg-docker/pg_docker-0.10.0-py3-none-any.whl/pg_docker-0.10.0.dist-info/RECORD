@@ -1,0 +1,8 @@
+pg_docker/__init__.py,sha256=IhjXx-qf9D9zSX_vaIYQHbsKtRkY5yzOc-Dzc5w2YKs,88
+pg_docker/_core.py,sha256=uvdD9niHTuf66m8X9wfkOsKjOvOW_o6jjrT_DVI-ezY,8837
+pg_docker/_plugin.py,sha256=Dgnt1GAlpREzty4KHblAVTb-9onxEjzIZDTJSh-8zzY,1169
+pg_docker/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pg_docker-0.10.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pg_docker-0.10.0.dist-info/entry_points.txt,sha256=16FloLmu14jKAnZ6bh9DG65s379QPeZmKsEvbqiJ0PI,40
+pg_docker-0.10.0.dist-info/METADATA,sha256=oJfryoRrCP4BMbLGwzUvJLVYHc7A1c5Ek68Q6agr1q0,2737
+pg_docker-0.10.0.dist-info/RECORD,,
