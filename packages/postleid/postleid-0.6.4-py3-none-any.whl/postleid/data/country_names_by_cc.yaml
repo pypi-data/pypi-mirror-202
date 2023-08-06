@@ -1,0 +1,283 @@
+# Country names mapped to ISO-3166-1 ALPHA-2 country codes
+#
+# Copyright (C) 2023 Rainer Schwarzbach
+#
+# This file is part of postleid.
+#
+# postleid is free software: you can redistribute it and/or modify
+# it under the terms of the MIT License.
+#
+# postleid is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the LICENSE file for more details.
+#
+ad:
+- Andorra
+af:
+- Afghanistan
+- د افغانستان اسلامي امارت
+ai:
+- Anguilla
+al:
+- Albania
+- Shqipëri
+- Albanien
+am:
+- Armenia
+- Հայաստան
+- Armenien
+aq:
+- British Antarctic Territory
+ar:
+- Argentina
+- Argentinien
+as:
+- American Samoa
+at:
+- Austria
+- Österreich
+au:
+- Australia
+- Australien
+ax:
+- Åland
+az:
+- Azerbaijan
+- Azərbaycan
+- Aserbaidschan
+ba:
+- Bosnia and Herzegovina
+- Босна и Херцеговина
+- Bosnien-Herzegowina
+bb:
+- Barbados
+bd:
+- Bangladesh
+- গণপ্রজাতন্ত্রী বাংলাদেশ
+be:
+- Belgium
+- België
+- Belgie
+- Belgien
+bg:
+- Bulgaria
+- България
+- Bulgarien
+bh:
+- Bahrain
+- البحرين
+bm:
+- Bermuda
+bn:
+- Brunei
+br:
+- Brazil
+- Brasil
+- Brasilien
+bt:
+- Bhutan
+- འབྲུག་རྒྱལ་ཁབ
+by:
+- Belarus
+- Рэспубліка Беларусь
+ca:
+- Canada
+- Kanada
+cc:
+- Cocos Island
+ch:
+- Switzerland
+- Schweiz
+- Suisse
+cl:
+- Chile
+cn:
+- China
+- "People's Republic of China"
+- 中国
+- 中华人民共和国
+- VR China
+- Volksrepublik China
+co:
+- Colombia
+- Kolumbien
+cr:
+- Costa Rica
+cu:
+- Cuba
+- Kuba
+cv:
+- Cape Verde
+- Cabo Verde
+- Kapverdische Inseln
+cx:
+- Chrismas Island
+cy:
+- Cyprus
+- Κυπριακή Δημοκρατία
+- Zypern
+cz:
+- Czechia
+- Czech Republic
+- Česko
+- Česká Republika
+- Tschechien
+- Tschechische Republik
+de:
+- Germany
+- Deutschland
+- Alemania
+- Allemagne
+dk:
+- Denmark
+- Danmark
+- Dänemark
+do:
+- Dominican Republic
+- República Dominicana
+- Dominikanische Republik
+dz:
+- Algeria
+- الجزائر
+- Algerien
+ec:
+- Ecuador
+ee:
+- Estonia
+- Estland
+eg:
+- Egypt
+- مصر
+- Ägypten
+et:
+- Ethiopia
+- የኢትዮጵያ ፌዴራላዊ ዴሞክራሲያዊ ሪፐብሊክ
+- Äthiopien
+fi:
+- Finland
+- Suomi
+- Finnland
+fk:
+- Falkland Islands
+- Falklandinseln
+fo:
+- Faroe Islands
+- Føroyar
+- Färöer
+fr:
+- France
+- Frankreich
+ge:
+- Georgia
+- საქართველო
+- Georgien
+gf:
+- French Guiana
+- Guyane
+- Französisch-Guayana
+gg:
+- Guernsey
+gh:
+- Ghana
+- Republic of Ghana
+gi:
+- Gibraltar
+gl:
+- Greenland
+- Kalaallit Nunaat
+- Grönland
+gn:
+- Guinea
+gp:
+- Guadeloupe
+gr:
+- Greece
+- Ελληνική Δημοκρατία
+- Griechenland
+gt:
+- Guatemala
+gu:
+- Guam
+gw:
+- Guinea-Bissau
+hn:
+- Honduras
+hr:
+- Croatia
+- Hrvatska
+- Republika Hrvatska
+- Kroatien
+ht:
+- Haiti
+hu:
+- Hungary
+- Magyarország
+- Ungarn
+id:
+- Indonesia
+- Republik Indonesia
+- Indomesien
+ie:
+- Ireland
+- Éire
+- Irland
+im:
+- Isle of Man
+in:
+- India
+- Bhārat Gaṇarājya
+- Indien
+io:
+- British Indian Ocean Territory
+iq:
+- Iraq
+- جمهورية العراق
+- Irak
+ir:
+- Iran
+- جمهوری اسلامی ایران
+is:
+- Iceland
+- Ísland
+- Island
+it:
+- Italy
+- Italia
+- Italien
+il:
+- Israel
+- יִשְׂרָאֵל
+je:
+- Jersey
+jo:
+- Jordan
+- الأردن
+- المملكة الأردنية الهاشمية
+- Jordanien
+jp:
+- Japan
+- 日本
+- 日本国
+kh:
+- Cambodia
+- កម្ពុជា
+- ព្រះរាជាណាចក្រកម្ពុជា
+- Kampuchea
+ky:
+- Cayman Islands
+li:
+- Liechtenstein
+pf:
+- French Polynesia
+- Polynésie française
+- Pōrīnetia Farāni
+- Französisch-Polynesien
+sv:
+- El Salvador
+sz:
+- Eswatini
+- Umbuso weSwatini
+vg:
+- British Virgin Islands
+- Britische Jungferninseln

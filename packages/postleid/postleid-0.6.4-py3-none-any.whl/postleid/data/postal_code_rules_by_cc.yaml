@@ -1,0 +1,669 @@
+# Postal code rules mapped to ISO-3166-1 ALPHA-2 country codes
+#
+# Copyright (C) 2023 Rainer Schwarzbach
+#
+# This file is part of postleid.
+#
+# postleid is free software: you can redistribute it and/or modify
+# it under the terms of the MIT License.
+#
+# postleid is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# See the LICENSE file for more details.
+#
+# The rules are adapted from
+# <https://github.com/zauberware/postal-codes-json-xml-csv>,
+# <https://en.wikipedia.org/wiki/List_of_postal_codes>,
+# <https://en.youbianku.com/>
+# and linked pages/websites
+#
+ad:
+  comment: Andorra
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Andorra"
+  compound:
+  - pattern: cc
+  - pattern: n
+    min: 1
+    max: 7
+  - pattern: nn
+af:
+  comment: Afghanistan
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Afghanistan"
+  compound:
+  - pattern: nn
+    min: 10
+    max: 43
+  - pattern: nn
+ai:
+  comment: Anguilla
+  compound:
+  - pattern: cc
+  - literal: "-2640"
+al:
+  comment: Albania
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Albania"
+  compound:
+  - pattern: nn
+    min: 10
+    max: 97
+  - pattern: nn
+am:
+  comment: Armenia
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Armenia"
+  compound:
+  - pattern: nn
+    max: 42
+  - pattern: nn
+aq:
+  comment: British Antarctic Territory
+  literal: "BIQQ 1ZZ"
+ar:
+  comment: Argentina
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Argentina"
+  - "https://en.wikipedia.org/wiki/ISO_3166-2:AR"
+  variants:
+  - compound:
+    - pattern: n
+      min: 1
+    - pattern: nnn
+  - compound:
+    - pattern: a
+      except: [I, O]
+    - pattern: n
+      min: 1
+    - pattern: nnn
+    - pattern: aaa
+as:
+  comment: American Samoa (part of US system)
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Oceania"
+  variants:
+  - compound:
+    - literal: "96799-"
+    - pattern: nnnn
+  - literal: "96799"
+at:
+  comment: Austria
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Austria"
+  compound:
+  - pattern: n
+    min: 1
+  - pattern: nnn
+au:
+  comment: Australia
+  urls:
+  - "https://en.wikipedia.org/wiki/Postcodes_in_Australia"
+  compound:
+  - pattern: nn
+    min: 2
+  - pattern: nn
+ax:
+  comment: Åland (part of Finnish system)
+  compound:
+  - pattern: cc
+  - literal: "-22"
+  - pattern: nnn
+az:
+  comment: Azerbaijan
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Azerbaijan"
+  compound:
+  - pattern: cc
+  - literal: " "
+  - pattern: nn
+    min: 1
+    max: 69
+  - pattern: nn
+ba:
+  comment: Bosnia and Herzegovina
+  pattern: nnnnn
+bb:
+  comment: Barbados
+  urls:
+  - "https://en.wikipedia.org/wiki/Barbados_Postal_Service#Postal_codes"
+  compound:
+  - pattern: cc
+  - pattern: nnnnn
+bd:
+  comment: Bangladesh
+  urls:
+  - "https://en.wikipedia.org/wiki/List_of_postal_codes_in_Bangladesh"
+  compound:
+  - pattern: nn
+    min: 10
+  - pattern: nn
+be:
+  comment: Belgium
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Belgium"
+  compound:
+  - pattern: nn
+    min: 10
+  - pattern: nn
+bg:
+  comment: Bulgaria
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Bulgaria"
+  compound:
+  - pattern: n
+    min: 1
+  - pattern: nnn
+bh:
+  comment: Bahrain
+  pattern: nnnn
+  min: 101
+  max: 1216
+  remove_leading_zeroes: yes
+bm:
+  comment: Bermuda
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Bermuda"
+  variants:
+  - compound:
+    - pattern: aa
+    - literal: " "
+    - pattern: nn
+  - compound:
+    - pattern: aa
+    - literal: " "
+    - pattern: aa
+bn:
+  comment: Brunei
+  urls:
+  - "https://en.wikipedia.org/wiki/Postcodes_in_Brunei"
+  compound:
+  - pattern: a
+    only: [B, K, T, P]
+  - pattern: a
+  - pattern: nnnn
+br:
+  comment: Brazil
+  urls:
+  - "https://en.wikipedia.org/wiki/C%C3%B3digo_de_Endere%C3%A7amento_Postal"
+  variants:
+  - pattern: nnnnn
+  - compound:
+    - pattern: nnnnn
+    - literal: "-"
+    - pattern: nnn
+bt:
+  comment: Bhutan
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Bhutan"
+  pattern: nnnnn
+by:
+  comment: Belarus
+  pattern: nnnnnn
+ca:
+  comment: Canada
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Canada"
+  compound:
+  - pattern: a
+    except: [D, F, I, O, Q, U, W, Z]
+  - pattern: n
+  - pattern: a
+    except: [D, F, I, O, Q, U]
+  - literal: " "
+  - pattern: n
+  - pattern: a
+    except: [D, F, I, O, Q, U]
+  - pattern: n
+cc:
+  comment: Cocos (Keeling) Island (part of Australian system)
+  pattern: nnnn
+ch:
+  comment: Switzerland
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Switzerland_and_Liechtenstein"
+  compound:
+  - pattern: n
+    min: 1
+  - pattern: nnn
+cl:
+  comment: Chile
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Chile"
+  variants:
+  - compound:
+    - pattern: n
+      min: 1
+    - pattern: nnnnnn
+  - compound:
+    - pattern: n
+      min: 1
+    - pattern: nn
+    - literal: "-"
+    - pattern: nnnn
+cn:
+  comment: "People's Republic of China"
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_China"
+  compound:
+  - pattern: nn
+    min: 1
+  - pattern: nnnn
+co:
+  comment: Colombia
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Colombia"
+  compound:
+  - pattern: nn
+    max: 32
+  - pattern: nnnn
+cr:
+  comment: Costa Rica
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Costa_Rica"
+  variants:
+  - compound:
+    - pattern: n
+      min: 1
+      max: 7
+    - pattern: nnnn
+  - compound:
+    - pattern: n
+      min: 1
+      max: 7
+    - pattern: nnnn
+    - literal: "-"
+    - pattern: nnnn
+cu:
+  comment: Cuba
+  variants:
+  - pattern: nnnnn
+  - compound:
+    - literal: "CP "
+    - pattern: nnnnn
+cv:
+  comment: Cape Verde
+  pattern: nnnn
+cx:
+  comment: Christmas Island
+  pattern: nnnn
+cy:
+  comment: Cyprus
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Cyprus"
+  compound:
+  - pattern: n
+    min: 1
+  - pattern: nnn
+cz:
+  comment: Czech Republic (common system with Slovakia)
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_the_Czech_Republic"
+  compound:
+  - pattern: n
+    min: 1
+    max: 7
+  - pattern: nn
+  - literal: " "
+  - pattern: nn
+de:
+  comment: Germany
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Germany"
+  compound:
+  - pattern: nn
+    min: 1
+  - pattern: nnn
+dk:
+  comment: Denmark
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Denmark"
+  variants:
+  - pattern: nnnn
+  - compound:
+    - pattern: cc
+    - literal: "-"
+    - pattern: nnnn
+do:
+  comment: Dominican Republic
+  pattern: nnnnn
+dz:
+  comment: Algeria
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Algeria"
+  - "https://en.wikipedia.org/wiki/ISO_3166-2:DZ"
+  compound:
+  - pattern: nn
+    min: 10
+    max: 58
+  - pattern: nnn
+ec:
+  comment: Ecuador
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Ecuador"
+  compound:
+  - pattern: nn
+    min: 1
+    max: 24
+  - pattern: nnnn
+ee:
+  comment: Estonia
+  pattern: nnnnn
+eg:
+  comment: Egypt
+  pattern: nnnnn
+et:
+  comment: Ethiopia
+  pattern: nnnn
+fi:
+  comment: Finland
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Finland"
+  pattern: nnnnn
+fk:
+  comment: Falkland Islands
+  literal: "FIQQ 1ZZ"
+fo:
+  comment: Faroe Islands
+  compound:
+    - pattern: cc
+    - pattern: nnn
+fr:
+  comment: France
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_France"
+  compound:
+    - pattern: nn
+      min: 1
+    - pattern: nnn
+ge:
+  comment: Georgia
+  pattern: nnnn
+gf:
+  comment: French Guiana
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_France"
+  compound:
+    - literal: "973"
+    - pattern: nn
+      max: 90
+gg:
+  comment: Guernsey (part of UK  system)
+  urls:
+  - "https://en.wikipedia.org/wiki/GY_postcode_area"
+  compound:
+  - literal: "GY"
+  - pattern: nn
+    min: 1
+    max: 10
+    remove_leading_zeroes: yes
+  - literal: " "
+  - pattern: n
+  - pattern: aa
+gh:
+  comment: Ghana
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Ghana"
+  variants:
+  - compound:
+    - pattern: a?
+    - pattern: nnn
+  - compound:
+    - pattern: a?
+    - pattern: nnnn
+  - compound:
+    - pattern: a?
+    - pattern: nnnnn
+gi:
+  comment: Gibraltar
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_addresses_in_Gibraltar"
+  literal: "GX11 1AA"
+gl:
+  comment: Greenland (part of Danish system)
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Greenland"
+  compound:
+  - pattern: cc
+  - literal: "-39"
+  - pattern: nn
+gn:
+  comment: Guinea
+  pattern: nnn
+gp:
+  comment: Guadeloupe
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_France"
+  compound:
+    - literal: "971"
+    - pattern: nn
+      max: 90
+gr:
+  comment: Greece
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Greece"
+  compound:
+  - pattern: nnn
+    min: 100
+    max: 899
+  - literal: " "
+  - pattern: nn
+gt:
+  comment: Guatemala
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Guatemala"
+  - "https://en.wikipedia.org/wiki/Departments_of_Guatemala"
+  - pattern: nn
+    min: 1
+    max: 22
+  - pattern: nnn
+gu:
+  comment: Guam (part of US system)
+  variants:
+  - compound:
+    - literal: "969"
+    - pattern: nn
+      min: 10
+      max: 32
+  - compound:
+    - literal: "969"
+    - pattern: nn
+      min: 10
+      max: 32
+    - literal: "-"
+    - pattern: nnnn
+gw:
+  comment: Guinea-Bissau
+  pattern: nnnn
+hn:
+  comment: Honduras
+  urls:
+  - "https://www.grcdi.nl/gsb/honduras.html"
+  - "https://en.youbianku.com/honduras"
+  variants:
+  - compound:
+    - pattern: aa
+    - pattern: nnnn
+    deprecated: probably to avoid confusion of the department with an ISO-3166 code
+  - pattern: nnnnn
+hr:
+  comment: Croatia
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Croatia"
+  compound:
+  - pattern: nn
+    min: 10
+    max: 53
+  - pattern: nnn
+ht:
+  comment: Haiti
+  pattern: nnnn
+hu:
+  comment: Hungary
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Hungary"
+  compound:
+  - pattern: n
+    max: 9
+  - pattern: nnn
+id:
+  comment: Indonesia
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Indonesia"
+  compound:
+  - pattern: nn
+    min: 10
+  - pattern: nnn
+ie:
+  comment: Ireland
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_addresses_in_the_Republic_of_Ireland"
+  - "https://en.youbianku.com/Ireland"
+  compound:
+  - pattern: a
+    except: [B, G, I, J, L, M, O, Q, S, U, Z]
+  - pattern: n
+  - pattern: "?"
+    except: [B, G, I, J, L, M, O, Q, S, U, Z]
+  - literal: " "
+  - pattern: ????
+il:
+  comment: Israel
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Israel"
+  pattern: nnnnnnn
+im:
+  comment: Isle of Man (part of UK system)
+  urls:
+  - "https://en.wikipedia.org/wiki/IM_postcode_area"
+  compound:
+  - pattern: cc
+  - pattern: nn
+    remove_leading_zeroes: yes
+  - literal: " "
+  - pattern: n
+  - pattern: aa
+in:
+  comment: India
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_Index_Number"
+  variants:
+  - compound:
+    - pattern: nn
+      min: 11
+    - pattern: nnnn
+  - compound:
+    - pattern: nn
+      min: 11
+    - pattern: n
+    - literal: " "
+    - pattern: nnn
+io:
+  comment: British Indian Ocean Territory
+  literal: "BBND 1ZZ"
+iq:
+  comment: Iraq
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Iraq"
+  - "https://en.youbianku.com/Iraq"
+  compound:
+  - pattern: nn
+    min: 10
+  - pattern: nnn
+ir:
+  comment: Iran
+  urls:
+  - "https://en.wikipedia.org/wiki/Identity_documents_in_Iran#Postal_code_in_Iran"
+  - "https://en.youbianku.com/Iran"
+  variants:
+  - compound:
+    - pattern: nnnnn
+    - literal: "-"
+    - pattern: nnnnn
+  - compound:
+    - pattern: nnnnn
+    - pattern: nnnnn
+is:
+  comment: Iceland
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Iceland"
+  pattern: nnn
+it:
+  comment: Italy
+  urls:
+  - "https://en.wikipedia.org/wiki/Codice_di_avviamento_postale"
+  pattern: nnnnn
+je:
+  comment: Jersey (part of UK  system)
+  urls:
+  - "https://en.wikipedia.org/wiki/JE_postcode_area"
+  compound:
+  - literal: cc
+  - pattern: nn
+    remove_leading_zeroes: yes
+  - literal: " "
+  - pattern: n
+  - pattern: aa
+jo:
+  comment: Jordan
+  pattern: nnnnn
+jp:
+  comment: Japan
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Japan"
+  compound:
+  - pattern: nnn
+    literal: "-"
+  - pattern: nnnn
+kh:
+  comment: Cambodia
+  pattern: nnnnnn
+ky:
+  comment: Cayman Islands
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_the_Cayman_Islands"
+  compound:
+  - pattern: cc
+  - pattern: n
+    min: 1
+    max: 3
+  - literal: "-"
+  - pattern: nnnn
+li:
+  comment: Liechtenstein (part of Swiss system)
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Liechtenstein"
+  compound:
+  - pattern: nnn
+    min: 948
+    max: 949
+  - pattern: n
+pf:
+  comment: French Polynesia
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_Oceania#French_overseas_territories"
+  compound:
+    - literal: "987"
+    - pattern: nn
+      max: 90
+sv:
+  comment: El Salvador
+  pattern: nnnn
+sz:
+  comment: Eswatini
+  compound:
+  - pattern: a
+    only: [H, M, S, L]
+  - pattern: nnn
+vg:
+  comment: British Virgin Islands
+  urls:
+  - "https://en.wikipedia.org/wiki/Postal_codes_in_the_British_Virgin_Islands"
+  compound:
+  - pattern: cc
+  - pattern: nnn
+    min: 111
+    max: 116
+  - pattern: n
+

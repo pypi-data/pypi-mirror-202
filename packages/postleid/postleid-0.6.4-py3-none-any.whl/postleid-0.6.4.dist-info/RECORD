@@ -1,0 +1,17 @@
+postleid/__init__.py,sha256=JKhVP8-lWW7rjJNBiTDEJTxkVziadUICLFOEBdlGMqA,580
+postleid/__main__.py,sha256=O9KnptkUcOgJ3FNSYmhKlxapOJWxRIab4g4eDc5G08c,7013
+postleid/commons.py,sha256=VtNUBpdcGhDPHmTLaP0IEhAAW0RItms35tK9MA6JoDY,5403
+postleid/fix_excel_files.py,sha256=-nvkApgl5QfeSGmDXyprsP2I-PW31VBwzVNkxl6P1qk,10384
+postleid/paths.py,sha256=LVGfjIYOPH4ndtx7Rev3xAHr35vysOOum5KEF9yFztU,738
+postleid/presets.py,sha256=uw9_h5BrfKyaiQtHXsd5cwfUOS4M2xwQZr-NIdyGZq4,1194
+postleid/rule_checks.py,sha256=baymS5LJzfKkJr3OPGrw5FSsrsm7uu56NCZ2KrTNoZo,13925
+postleid/data/country_names_by_cc.yaml,sha256=mLN-AzJ_FvfA8TkgNJcfy35uuiyXzhqIqtSLVgnPzx8,3709
+postleid/data/default_user_settings.yaml,sha256=qwuyh739CDh56nNLlwYZAZwWvoqH6hIPVTkx2-qzZVk,1490
+postleid/data/postal_code_rules_by_cc.yaml,sha256=Z6P8FBbDFRb_DRpLNGnvR5U2CrOHRxho7xplz1AsciQ,13200
+postleid/locale/de/LC_MESSAGES/argparse.mo,sha256=ebLTZbBq_VFAO2TnQuGZqgX0Zj2UhW4lcMorDZN4r98,3749
+postleid-0.6.4.dist-info/LICENSE,sha256=LaZU96gqeh5MfXqjTs-AL_uWhoaQS8RaLexLx9pfJKc,1075
+postleid-0.6.4.dist-info/METADATA,sha256=j489Nd2cjBLFYtjv0hFdFxAy9X93xYzlhTAK7KyxtCk,3046
+postleid-0.6.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+postleid-0.6.4.dist-info/entry_points.txt,sha256=kiyp90qL7UQCBsTzlvVJ_Wsy02pFY7AALeRXI7s0TgE,52
+postleid-0.6.4.dist-info/top_level.txt,sha256=vz0xYz7Ah81t98TC0zEi7_qEhfcFdyXn0dcZ8v-JIAY,9
+postleid-0.6.4.dist-info/RECORD,,
