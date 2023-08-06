@@ -1,0 +1,10 @@
+carbon/__init__.py,sha256=q3bihTq8Lp9pwGCwAa3bfGkhVbXilFjy7EUzoX1j6aA,888
+carbon/carbon.py,sha256=7jGo7NDS84DAPBnRMKrDI1wU6_Y7cptZx9gtC9jriKI,2764
+carbon/errors.py,sha256=49_euwJ8EbMVn1rG2j1Z-Hv1j9IBotos7ogcieF4hJs,1208
+carbon/opts.py,sha256=Pc4iIiKim8iFB0GkU1IEdCE47ldYdW3v3pt8zqcry_E,4607
+carbon/utils.py,sha256=wxzHoKwRN506qegb_kk7Eb0_dGtNV-loSdX56WzK7jY,1828
+py_carbon-1.0.4.dist-info/LICENSE,sha256=mcmoopMvn7gXH_rQLG3MZD-p6cPWxGyLC1vB-_f1scI,1084
+py_carbon-1.0.4.dist-info/METADATA,sha256=spqksECiMYPHDoZ-vJsVkANLOzfnyQRRmJGXz13NU6k,2199
+py_carbon-1.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+py_carbon-1.0.4.dist-info/top_level.txt,sha256=Xb4e__uyqmllVMehShaKnp4nMUSnPfnMG_sTG-o37qI,7
+py_carbon-1.0.4.dist-info/RECORD,,
