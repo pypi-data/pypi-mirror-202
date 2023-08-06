@@ -1,0 +1,5 @@
+setup.py
+tokenring.egg-info/PKG-INFO
+tokenring.egg-info/SOURCES.txt
+tokenring.egg-info/dependency_links.txt
+tokenring.egg-info/top_level.txt
