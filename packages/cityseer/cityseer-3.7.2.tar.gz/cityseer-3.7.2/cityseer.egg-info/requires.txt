@@ -1,0 +1,12 @@
+matplotlib>=3.5.1
+networkx>=2.8.8
+pyproj>=3.3.0
+requests>=2.27.1
+scikit-learn>=1.0.2
+tqdm>=4.63.1
+utm>=0.7.0
+shapely>=2.0.1
+numba>=0.56.4
+numpy>=1.23.3
+numba-progress>=0.0.4
+geopandas>=0.12.2
