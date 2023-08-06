@@ -1,0 +1,42 @@
+[project]
+name = "sql-scheduler"
+dynamic = ["version"]
+authors = [
+  { name="Henry Jones", email="henryivesjones@gmail.com" },
+]
+description = "sql-scheduler allows you to easily run a suite of SQL scripts against a Postgres/Redshift database."
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text="GPL-3.0-or-later"}
+classifiers = [
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+
+dependencies = [
+  "asyncpg",
+  "python-dateutil",
+  "click>=8"
+]
+
+keywords = [
+  "sql",
+  "postgres",
+  "scheduler",
+  "redshift"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+sql-scheduler = "sql_scheduler.cli:entrypoint"
+
+[tool.setuptools.dynamic]
+version = {attr = "sql_scheduler.__version__"}
