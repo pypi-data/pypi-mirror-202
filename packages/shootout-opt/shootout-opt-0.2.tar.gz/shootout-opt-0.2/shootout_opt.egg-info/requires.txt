@@ -1,0 +1,6 @@
+numpy
+plotly
+kaleido
+matplotlib
+pandas
+pytest

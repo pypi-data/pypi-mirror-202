@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: shootout-opt
+Version: 0.2
+Summary: Run algorithms, store and compare their outputs
+Author: Jeremy E. Cohen
+Author-email: jeremy.cohen@cnrs.fr
+License: MIT
