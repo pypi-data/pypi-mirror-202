@@ -1,0 +1,7 @@
+pydantic
+pyfiglet
+tapipy
+pyperclip
+py2neo
+
+[dev]
