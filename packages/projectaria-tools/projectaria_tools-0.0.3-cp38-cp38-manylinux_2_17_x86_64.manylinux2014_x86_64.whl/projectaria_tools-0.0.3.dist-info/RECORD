@@ -1,0 +1,17 @@
+projectaria_tools.cpython-38-x86_64-linux-gnu.so,sha256=tX6t-I7XQR--9wP8sEdFOziZ2FFerG6G3KXVOuu4Bq4,4129913
+projectaria_tools.libs/libboost_atomic-489c2d94.so.1.81.0,sha256=OG4O8Iwv0f720IYBnV_ui9Kd-wm9laDi1cRhd8JCnBc,30201
+projectaria_tools.libs/libboost_system-4a7650ea.so.1.81.0,sha256=6-sv-sV7z15XZudi3DgTwhoeQwkblVJdAx5g280AeX8,16961
+projectaria_tools.libs/libturbojpeg-d45c57b5.so.0.2.0,sha256=GeWEqfWsXYUbeEg-sT_eFQttkmuGQNWCK07FtGPmtf4,878265
+projectaria_tools.libs/libboost_filesystem-e610b554.so.1.81.0,sha256=0SeSzaJqiC-IGnUVTvwzdmS7q-E_xNEyoQXFEzhJfIU,352473
+projectaria_tools.libs/libboost_chrono-fee1b1d2.so.1.81.0,sha256=57kgoRyY8dTPh2HbJmFlHbAvKhqtUFd6TNo3OU4pY1U,53353
+projectaria_tools.libs/liblz4-af1653fb.so.1.8.3,sha256=aQqG2WEAZR5C4PYMkdMqXAkhEJQ6Lj4mLfPQW-EUDUc,68577
+projectaria_tools.libs/libboost_thread-da82e0e0.so.1.81.0,sha256=IH4bX6-uASw70p2qs_bD1RPAt2_AEaYXCkUkBgl0jJo,163985
+projectaria_tools.libs/libzstd-c67d83a6.so.1.5.4,sha256=ZyR7Vnm4AsQtgO3NHTRwvIrgu0PHhBMF3aBoXrr1TKw,764177
+projectaria_tools.libs/libjpeg-12ce7185.so.8.2.2,sha256=xX7tiVplT61NJCB6CAUwFaMuWWX2D4ozsiMDcHdWMSc,757001
+projectaria_tools.libs/libboost_date_time-32b0e713.so.1.81.0,sha256=TT1a2Yaal-SYOYjUCHNdKhmeiHiVKnDaJgg651ck8pY,16977
+projectaria_tools.libs/libpng15-ce838cd1.so.15.13.0,sha256=IVo72me0GdydvmG7EzLtOuKEjMhvaK3xFIrHXIK7570,187361
+projectaria_tools.libs/libxxhash-e9c981de.so.0.8.1,sha256=GzbYzTOTwSkFtkwwkW9bKQzMSoCdctDS6XMn-6JNCLY,59321
+projectaria_tools-0.0.3.dist-info/WHEEL,sha256=5DQRW5VdkIxH8e7ylwa-YBCXLhSZeqHiz1ZmuOscrlo,148
+projectaria_tools-0.0.3.dist-info/RECORD,,
+projectaria_tools-0.0.3.dist-info/METADATA,sha256=wskwvqbpeUrbOtzPOQFHIyacn9VJLIoLwHteyGwXFbA,292
+projectaria_tools-0.0.3.dist-info/top_level.txt,sha256=8qEbP2svzfx0bwCBtIgPplHWcEom8VdG5-OGUIWZ4mE,18
