@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: usa-net
+Version: 0.0.1
+Summary: USA net project
+Home-page: https://github.com/codekansas/usa-net
+Author: Benjamin Bolte
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# USA Net
+
+USA net project code.
