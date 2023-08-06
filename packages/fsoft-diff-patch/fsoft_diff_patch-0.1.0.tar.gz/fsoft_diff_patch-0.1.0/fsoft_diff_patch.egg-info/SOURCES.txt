@@ -1,0 +1,6 @@
+setup.py
+fsoft_diff_patch/__init__.py
+fsoft_diff_patch.egg-info/PKG-INFO
+fsoft_diff_patch.egg-info/SOURCES.txt
+fsoft_diff_patch.egg-info/dependency_links.txt
+fsoft_diff_patch.egg-info/top_level.txt
