@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: retroperm
+Version: 0.0.0
+Summary: A retro permission library
+Home-page: https://github.com/SpiritSeal/retroperm
+License: MIT
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Retroperm
+A platform-agnostic retroactive effective permission generation system for compiled executables built using angr
+
+## Developer Install
+```sh 
+git clone git@github.com:SpiritSeal/retroperm.git
+cd retroperm
+pip3 install -e .
+```
