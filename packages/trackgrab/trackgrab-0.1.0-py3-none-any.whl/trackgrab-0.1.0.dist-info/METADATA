@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: trackgrab
+Version: 0.1.0
+Summary: Minimal tool to download your favourite songs from Spotify!
+License: MIT
+Author: Somraj Saha
+Author-email: somraj.mle@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: spotipy (>=2.23.0,<3.0.0)
+Requires-Dist: youtube-dl (>=2021.12.17,<2022.0.0)
+Description-Content-Type: text/markdown
+
+# TrackGrab!
+
+A minimal tool to download your favourite songs from Spotify!
+
+## Licensing & Distribution Rights
+
+This tool is created & developed under the guidelines of a FOSS license, more
+specifically the MIT License. You can read the entire licensing details here
+at - [LICENSE](./LICENSE).
+
+On a further note, this project & its author isn't liable for any copyright
+infringements. All copyright of the music you download using this tool is held
+by the original artists of the product & its publishers.
+
