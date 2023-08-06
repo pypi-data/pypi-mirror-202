@@ -1,0 +1,5 @@
+setup.py
+rebellan.egg-info/PKG-INFO
+rebellan.egg-info/SOURCES.txt
+rebellan.egg-info/dependency_links.txt
+rebellan.egg-info/top_level.txt
