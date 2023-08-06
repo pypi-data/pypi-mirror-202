@@ -1,0 +1,605 @@
+{
+  "src/lib/components/MultiDatePicker.react.js": {
+    "description": "ExampleComponent is an example component.\nIt takes a property, `label`, and\ndisplays it.\nIt renders an input with the property `value`\nwhich is editable by the user.",
+    "displayName": "MultiDatePicker",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "value": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "instanceOf",
+              "value": "Date"
+            },
+            {
+              "name": "string"
+            },
+            {
+              "name": "array"
+            }
+          ]
+        },
+        "required": false,
+        "description": "The value displayed in the input."
+      },
+      "multiple": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If `multiple` is true, the date picker allows selecting\nmultiple dates. The `value` prop should be an array of dates.\nExample usage: multiple={true} value={[\"2023-04-12\", \"2023-04-15\"]}"
+      },
+      "range": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If `range` is true, the date picker allows selecting\na date range. The `value` prop should be an array with\ntwo dates representing the start and end of the range.\nExample usage: range={true} value={[\"2023-04-12\", \"2023-04-15\"]}"
+      },
+      "onlyMonthPicker": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If `onlyMonthPicker` is true, the date picker displays\na dropdown for selecting a month, but not a day or year.\nExample usage: onlyMonthPicker={true}"
+      },
+      "onlyYearPicker": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If `onlyYearPicker` is true, the date picker displays\na dropdown for selecting a year, but not a day or month.\nExample usage: onlyYearPicker={true}"
+      },
+      "format": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The `format` prop specifies the format in which the date\nshould be displayed in the input field. The supported\nformats are similar to those in the `Date.prototype.toLocaleDateString()`\nmethod, such as \"dd/MM/yyyy\", \"MM/dd/yyyy\", \"yyyy-MM-dd\", etc.\nExample usage: format=\"yyyy-MM-dd\""
+      },
+      "formattingIgnoreList": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "List of format tokens to ignore when parsing the `value`"
+      },
+      "calendar": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Type of calendar to use (e.g. 'gregorian', 'persian')"
+      },
+      "locale": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Language/locale to use (e.g. 'en-US', 'fa-IR')"
+      },
+      "mapDays": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Custom function to modify the appearance of each day"
+      },
+      "onChange": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Function called when the value changes"
+      },
+      "className": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Custom CSS class name for the component"
+      },
+      "weekDays": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "List of week day names"
+      },
+      "months": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "List of month names"
+      },
+      "showOtherDays": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to show days from other months"
+      },
+      "minDate": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "instanceOf",
+              "value": "Date"
+            },
+            {
+              "name": "object"
+            },
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Earliest selectable date (can be a string, number, or `Date` object)"
+      },
+      "maxDate": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "instanceOf",
+              "value": "Date"
+            },
+            {
+              "name": "object"
+            },
+            {
+              "name": "string"
+            },
+            {
+              "name": "number"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Latest selectable date (can be a string, number, or `Date` object)"
+      },
+      "disableYearPicker": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to disable the year picker"
+      },
+      "disableMonthPicker": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to disable the month picker"
+      },
+      "zIndex": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Custom z-index value for the component"
+      },
+      "plugins": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "List of additional plugins to use"
+      },
+      "sort": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to sort the months and weekdays alphabetically"
+      },
+      "numberOfMonths": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Number of months to display at once"
+      },
+      "currentDate": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Current date to use as a basis for the month(s) displayed"
+      },
+      "digits": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "List of digits to use in the calendar"
+      },
+      "buttons": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to display navigation buttons"
+      },
+      "renderButton": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "func"
+            },
+            {
+              "name": "element"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Custom function or element to render navigation buttons"
+      },
+      "weekStartDayIndex": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Index of the day on which each week starts (0 = Sunday, 1 = Monday, etc.)"
+      },
+      "disableDayPicker": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to disable the day picker"
+      },
+      "onPropsChange": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Function called when any prop changes"
+      },
+      "onMonthChange": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Function called when the selected month changes"
+      },
+      "onYearChange": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Function called when the selected year changes"
+      },
+      "onFocusedDateChange": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Function called when the focused date changes"
+      },
+      "readOnly": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether the input is read-only"
+      },
+      "disabled": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether the input is disabled"
+      },
+      "hideMonth": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to hide the month dropdown"
+      },
+      "hideYear": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to hide the year dropdown"
+      },
+      "shadow": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to display a shadow around the calendar"
+      },
+      "fullYear": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to display the full year (i.e. 12 months)"
+      },
+      "displayWeekNumbers": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to display week numbers"
+      },
+      "weekNumber": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Format string for the week number label"
+      },
+      "weekPicker": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to enable the week picker"
+      },
+      "rangeHover": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to enable the range hover effect"
+      },
+      "arrow": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "bool"
+            },
+            {
+              "name": "element"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Whether to display an arrow next to the input"
+      },
+      "arrowStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Style object for the arrow"
+      },
+      "arrowClassName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "CSS class name for the arrow"
+      },
+      "animations": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "List of animations to apply to the calendar"
+      },
+      "inputClass": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "CSS class name for the input field"
+      },
+      "name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Name of the input field"
+      },
+      "title": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Title of the input field"
+      },
+      "placeholder": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Placeholder text for the input field"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Style object for the input field"
+      },
+      "render": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "elementType"
+            },
+            {
+              "name": "func"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Defines the render function or component for the input field"
+      },
+      "inputMode": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Sets the input mode for the date picker"
+      },
+      "scrollSensitive": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Determines if the date picker should respond to scroll events"
+      },
+      "hideOnScroll": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Controls whether or not the date picker should hide when scrolling"
+      },
+      "calendarPosition": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Specifies the position of the calendar relative to the input field"
+      },
+      "containerStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Defines the style object for the container of the date picker"
+      },
+      "containerClassName": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Sets the CSS class for the container of the date picker"
+      },
+      "editable": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Determines whether the date picker input field is editable or not"
+      },
+      "onlyShowInRangeDates": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Restricts the date picker to only show dates within a specified range"
+      },
+      "onOpen": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Callback function called when the date picker is opened"
+      },
+      "onClose": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Callback function called when the date picker is closed"
+      },
+      "fixMainPosition": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Determines whether the date picker should be fixed in the main position"
+      },
+      "fixRelativePosition": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Determines whether the date picker should be fixed in the relative position"
+      },
+      "offsetY": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Sets the vertical offset for the date picker"
+      },
+      "offsetX": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Sets the horizontal offset for the date picker"
+      },
+      "onPositionChange": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Callback function called when the position of the date picker changes"
+      },
+      "mobileLabels": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Sets the mobile labels for the date picker"
+      },
+      "portal": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Determines whether the date picker should be rendered inside a portal"
+      },
+      "portalTarget": {
+        "type": {
+          "name": "instanceOf",
+          "value": "HTMLElement"
+        },
+        "required": false,
+        "description": "Specifies the target for the portal"
+      },
+      "onOpenPickNewDate": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Determines whether a new date should be picked when the date picker is opened"
+      },
+      "mobileButtons": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "instanceOf",
+            "value": "HTMLButtonElement"
+          }
+        },
+        "required": false,
+        "description": "Sets the buttons for the mobile version of the date picker"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}
