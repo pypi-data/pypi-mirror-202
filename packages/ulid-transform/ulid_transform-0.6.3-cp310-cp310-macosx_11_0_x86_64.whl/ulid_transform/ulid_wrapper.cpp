@@ -1,0 +1,26 @@
+#include "ulid_wrapper.h"
+#include "ulid.hh"
+
+using namespace std;
+
+std::string _cpp_ulid() {
+  ulid::ULID ulid;
+  ulid::EncodeTimeSystemClockNow(ulid);
+  ulid::EncodeEntropyRand(ulid);
+  return ulid::Marshal(ulid);
+}
+
+std::string _cpp_ulid_at_time(double epoch_time) {
+  ulid::ULID ulid;
+  ulid::EncodeTimestamp(static_cast<int64_t>(epoch_time*1000), ulid);
+  ulid::EncodeEntropyRand(ulid);
+  return ulid::Marshal(ulid);
+}
+
+std::string _cpp_ulid_to_bytes(std::string ulid_string) {
+  ulid::ULID ulid;
+  ulid::UnmarshalFrom(ulid_string.c_str(), ulid);
+  std::vector<uint8_t> data = ulid::MarshalBinary(ulid);
+  std::string str(reinterpret_cast<char *>(data.data()), data.size());
+  return str;
+}
