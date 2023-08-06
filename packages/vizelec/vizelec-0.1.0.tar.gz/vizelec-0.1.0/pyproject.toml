@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "vizelec"
+version = "0.1.0"
+description = "Generate drawing and graph of schematic from various files."
+authors = ["Patarimi <38954040+Patarimi@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+
+[tool.poetry.scripts]
+vizelec = "vizelec:main.cli"
+
+[tool.poe.tasks]
+doc         = "typer vizelec.main utils docs --name vizelec --output README.md"
+show-update = "poetry show -l -o"
+publish     = "poetry publish --build --username __token__ --password $PYPI_TOKEN"
+increment   = ""
+release     = ["doc", "publish"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+schemdraw = "^0.16"
+typer = "^0.7.0"
+networkx = "^3.0"
+matplotlib = "^3.7.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+typer-cli = "^0.0.13"
+poethepoet = "^0.19.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
