@@ -1,0 +1,14 @@
+jarvis_leaderboard/__init__.py,sha256=5_xtsTiYQhPcmLXtWzF4OIDOsv6YW1b0cIQeaN2f0H8,49
+jarvis_leaderboard/jarvis_populate_data.py,sha256=ddxATSvsr7isIWihCMXZ2e34TfF84eTw8tK9aIiFh4A,3297
+jarvis_leaderboard/jarvis_serve.py,sha256=mJYM2rL9WNF1BwkmlBAwc7iuDOcVh8IgsKqaUHmvGEo,135
+jarvis_leaderboard/jarvis_upload.py,sha256=P5IXR-DH10eQmSEAROLaWVVW95I_Yex6USCLGJz6CRw,3150
+jarvis_leaderboard/rebuild.py,sha256=iRTmoNTiiFY8fcWY3s6E-jXmN-VzectTIVPIbVizz_w,30447
+jarvis_leaderboard-2023.4.12.data/scripts/jarvis_populate_data.py,sha256=4K_dHQwVwM-aFU49iRTMvUTxAcEStyLQQrnk125juSM,3284
+jarvis_leaderboard-2023.4.12.data/scripts/jarvis_serve.py,sha256=YyuBrAAXYVmjuFsNMwoEyIFTlGCSIvdiXESy2i_YlRU,121
+jarvis_leaderboard-2023.4.12.data/scripts/jarvis_upload.py,sha256=FEq50kNsnr9ZHX12Pee8pUHhiazBbYCaQsd-3Cm41eM,3119
+jarvis_leaderboard-2023.4.12.data/scripts/rebuild.py,sha256=PsU1jq7OEZuL9_5ZbeOAa1-BABlydPdtfBXPH9dcrLM,30433
+jarvis_leaderboard-2023.4.12.dist-info/LICENSE,sha256=3JaIQFkrqcuqvv1eNbfncrPUoWOBI9xtb2FN3_teLew,1064
+jarvis_leaderboard-2023.4.12.dist-info/METADATA,sha256=kxGxumB3BE4TXQ2_w2bWoy1IjIbZSXzTCgfoAxFGYmg,6707
+jarvis_leaderboard-2023.4.12.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+jarvis_leaderboard-2023.4.12.dist-info/top_level.txt,sha256=uSnCH-g9Wi68Ip6CtOr8uJISGasXIcKRKzktaYb7FjE,19
+jarvis_leaderboard-2023.4.12.dist-info/RECORD,,
