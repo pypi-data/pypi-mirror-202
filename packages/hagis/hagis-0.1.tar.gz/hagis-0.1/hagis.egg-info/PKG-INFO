@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: hagis
+Version: 0.1
+Summary: A high availability GIS client
+Home-page: https://github.com/jshirota/Hagis
+Author: Jiro Shirota
+Author-email: jshirota@gmail.com
+License: MIT
