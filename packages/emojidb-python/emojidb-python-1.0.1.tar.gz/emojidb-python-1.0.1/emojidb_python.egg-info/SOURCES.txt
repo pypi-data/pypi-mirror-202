@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+setup.py
+emojidb/__init__.py
+emojidb/client.py
+emojidb/test/__init__.py
+emojidb/test/test_client.py
+emojidb_python.egg-info/PKG-INFO
+emojidb_python.egg-info/SOURCES.txt
+emojidb_python.egg-info/dependency_links.txt
+emojidb_python.egg-info/not-zip-safe
+emojidb_python.egg-info/requires.txt
+emojidb_python.egg-info/top_level.txt
