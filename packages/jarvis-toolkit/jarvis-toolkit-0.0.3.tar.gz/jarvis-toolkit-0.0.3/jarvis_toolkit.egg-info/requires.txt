@@ -1,0 +1,12 @@
+email-validator==1.3.1
+ffmpeg==1.4
+gTTS==2.3.1
+openai
+PyAudio==0.2.13
+pydantic==1.10.4
+pydub==0.25.1
+SpeechRecognition==3.9.0
+vosk==0.3.45
+nltk
+numpy
+silero
