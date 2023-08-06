@@ -1,0 +1,2 @@
+[console_scripts]
+otoe = obsidian:main
