@@ -1,0 +1,3 @@
+[console_scripts]
+pinv=python_invest.cli:cli
+
