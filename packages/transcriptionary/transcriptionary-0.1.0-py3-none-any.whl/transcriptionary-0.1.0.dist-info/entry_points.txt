@@ -1,0 +1,3 @@
+[console_scripts]
+transcriptionary = transcriptionary.transcriptionary:main
+

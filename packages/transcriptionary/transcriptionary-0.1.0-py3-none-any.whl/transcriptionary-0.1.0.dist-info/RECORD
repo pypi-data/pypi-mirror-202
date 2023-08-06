@@ -1,0 +1,15 @@
+transcriptionary/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+transcriptionary/axes.py,sha256=I0hxgocCYuekJqMlB-cGOVS2b_ppd-LrklY0P1TsM_g,3501
+transcriptionary/colors.py,sha256=f1yMS5BBMet6ld34rcP0CbP3D94I1NVIUiJ7cSqXoYI,1210
+transcriptionary/get_coords.py,sha256=xwhewoyjXmbAUIKAl0Nacr7BfwqcGis7JZ29Wo2WvVw,6186
+transcriptionary/glyphs.py,sha256=1kT3f_NukYCbwLAHUvQZWALBkIbUch8lOiabiW74aqA,18418
+transcriptionary/process_gene_gff.py,sha256=sHusPI1xMDqf8BMWShIX0B5vcqi005eLglqgLGMAwgY,3153
+transcriptionary/project_coords.py,sha256=TDyLtdr4KfyjQwYsPDxjgv0525wvdwdUgBwKKr5-Lt8,24181
+transcriptionary/transcriptionary.py,sha256=5FCwfm-GYqnjU4bizjJDxy0u3uRmtDUQEYJyxQBJMec,17011
+transcriptionary/widget_callbacks.py,sha256=1XR_2RQGXetIoR_rjJ_WxW-ee2rw-K7v7PEfeHHE5-M,19860
+transcriptionary-0.1.0.dist-info/LICENSE,sha256=-uYn7g4IrQTOF_G1YJ5t3_FAusY0OL5I8rGtoFi2Z38,1096
+transcriptionary-0.1.0.dist-info/METADATA,sha256=V3lJoA5LbhxJ7PqDc4xb8RbzrG5YkLOyh1b3KShNV9Y,721
+transcriptionary-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+transcriptionary-0.1.0.dist-info/entry_points.txt,sha256=b_33r4olSaBTNgcipuBKguvt5w6qf3GnObDOfh_bTBQ,77
+transcriptionary-0.1.0.dist-info/top_level.txt,sha256=yZLrIRbz43Ps4tyjCmMy7aBLg0GGwd71yadp-l1SEgI,17
+transcriptionary-0.1.0.dist-info/RECORD,,
