@@ -1,0 +1,2 @@
+[console_scripts]
+unvtray = unvtray.__main__:run
