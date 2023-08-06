@@ -1,0 +1,2 @@
+[console_scripts]
+webshoter = webshoter.webshoter:main

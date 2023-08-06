@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+webshoter/__init__.py
+webshoter/utils.py
+webshoter/webshoter.py
+webshoter.egg-info/PKG-INFO
+webshoter.egg-info/SOURCES.txt
+webshoter.egg-info/dependency_links.txt
+webshoter.egg-info/entry_points.txt
+webshoter.egg-info/requires.txt
+webshoter.egg-info/top_level.txt
