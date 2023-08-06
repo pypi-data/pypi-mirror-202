@@ -1,0 +1,8 @@
+README.md
+setup.py
+etica/__init__.py
+etica.egg-info/PKG-INFO
+etica.egg-info/SOURCES.txt
+etica.egg-info/dependency_links.txt
+etica.egg-info/not-zip-safe
+etica.egg-info/top_level.txt
