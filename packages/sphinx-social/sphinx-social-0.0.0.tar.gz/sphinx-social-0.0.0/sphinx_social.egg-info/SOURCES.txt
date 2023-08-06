@@ -1,0 +1,10 @@
+README.rst
+pyproject.toml
+setup.py
+sphinx_social/__init__.py
+sphinx_social.egg-info/PKG-INFO
+sphinx_social.egg-info/SOURCES.txt
+sphinx_social.egg-info/dependency_links.txt
+sphinx_social.egg-info/requires.txt
+sphinx_social.egg-info/top_level.txt
+tests/test_sphinx_social.py
