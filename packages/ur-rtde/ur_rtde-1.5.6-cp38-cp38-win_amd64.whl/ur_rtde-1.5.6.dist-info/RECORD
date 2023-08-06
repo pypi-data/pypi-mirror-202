@@ -1,0 +1,15 @@
+dashboard_client.cp38-win_amd64.pyd,sha256=qf1qxni-E92IZ8F2g8Nc13esqwNB4rcxxPmtwfme46M,1070080
+rtde.dll,sha256=25PbcjUac1Eair_WcrsI46TX11_rvNlnppfEgru5UQE,750592
+rtde_control.cp38-win_amd64.pyd,sha256=Bl0ouYnaED3rOkp2oxEeNTNmS4ylWNH6vGWHpza9Zjg,1070080
+rtde_io.cp38-win_amd64.pyd,sha256=TGQnOzSHLZ7jnRZAuSDt1zqd1ueE_XIpQbRgIYf8_10,1070080
+rtde_receive.cp38-win_amd64.pyd,sha256=FcVzf9PXendPdUQG-xMCsqsObu7r55KR_AgoYs_sTpk,1070080
+script_client.cp38-win_amd64.pyd,sha256=lKSP82rNDrA3R6dW6MmNCg9fwsurPJMhuJwghyiCzhY,1070080
+ur_rtde-1.5.6.data/platlib/.load-order-ur_rtde-1.5.6,sha256=6cMU77Yx6GTp5QlQC8s0mVGdG4y5QxT-H96jwEiW2vY,100
+ur_rtde-1.5.6.data/platlib/msvcp140-fd1396e9225120f839f3d4d82cf6b983.dll,sha256=58iRKi-ja5Q0YKKyMoNyXQ680q-bEa-2-qq6PHAd_ZQ,559616
+ur_rtde-1.5.6.data/platlib/vcruntime140_1-91fdfae7aa5d92f92d6df41662443a01.dll,sha256=e49w3Tva4RDmGCPRym_YlVpWFxGfVAXN1rFMrTZW38c,44328
+ur_rtde-1.5.6.dist-info/DELVEWHEEL,sha256=s9ZoUOXSWrk6tKs-RvOHgF_ULHErZC2GzVHU7Bt274g,436
+ur_rtde-1.5.6.dist-info/LICENSE,sha256=VtkAKO35IoqMCf9oRZ4OOdKv4cz07LgvbUy5rtXRSGc,1113
+ur_rtde-1.5.6.dist-info/METADATA,sha256=njuSIENNl1UufFtNh-Q-Pl1HRq4mNDBjhS7YuxlU_Dk,5849
+ur_rtde-1.5.6.dist-info/RECORD,,
+ur_rtde-1.5.6.dist-info/top_level.txt,sha256=cQHKhzqRqcreja5_610bk4zuPL8gRTlbyD9EqDEkiy8,8
+ur_rtde-1.5.6.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
