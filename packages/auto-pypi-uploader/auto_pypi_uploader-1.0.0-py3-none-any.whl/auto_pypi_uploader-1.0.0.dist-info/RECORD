@@ -1,0 +1,8 @@
+auto_pypi_uploader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_pypi_uploader/pypi_uploader.py,sha256=JDnnLy86u0JH-n6HzLV5eT50Iyfoy0v2bmfKGnqUZ-8,5956
+auto_pypi_uploader/setup_file_creator.py,sha256=wFo2eWdcZqM6sa-0l6OK8WQ1QRuVnP8fOaVGPIQE2dM,11437
+auto_pypi_uploader-1.0.0.dist-info/LICENSE,sha256=yo-K3I_rp6O7gRhtNpGz3ggRUaGCkv26F5NPiFHwJW4,1103
+auto_pypi_uploader-1.0.0.dist-info/METADATA,sha256=HQ5YIWTFuYD0M4prRCaEnu6cxlsJGxEFjtoAT8x2Nk8,13287
+auto_pypi_uploader-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+auto_pypi_uploader-1.0.0.dist-info/top_level.txt,sha256=Ly54xtN-3XDNGp23N-shDjJidvdGz25I-RVWilTd3J4,19
+auto_pypi_uploader-1.0.0.dist-info/RECORD,,
