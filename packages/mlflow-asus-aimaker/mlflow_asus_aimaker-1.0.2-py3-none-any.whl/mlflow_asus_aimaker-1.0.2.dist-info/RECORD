@@ -1,0 +1,8 @@
+mlflow_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlflow_plugin/plugin_model_rest_store.py,sha256=KcyIlNpROzwru6chsL2yPZCfqov5C6jaeaN98KtGgkI,1672
+mlflow_plugin/plugin_rest_store.py,sha256=NvBqDMaCN4fx1Q02UCYl4K15oYnurnGpM6Wc0ge-Mtg,3711
+mlflow_asus_aimaker-1.0.2.dist-info/METADATA,sha256=OED_3kbmhp5CFPw1RytSnE52RSBI73CHOhIcoGc6QXE,233
+mlflow_asus_aimaker-1.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mlflow_asus_aimaker-1.0.2.dist-info/entry_points.txt,sha256=IL6KqdGPn0mqYKlEkL0LXDVxvHlHDLDW4bOqiVZtKI4,193
+mlflow_asus_aimaker-1.0.2.dist-info/top_level.txt,sha256=WJtIlf2BUCfllyrIErxFKlIPPdcYRPXLgaVkb_DhMes,14
+mlflow_asus_aimaker-1.0.2.dist-info/RECORD,,
