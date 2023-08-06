@@ -1,0 +1,3 @@
+[console_scripts]
+pargen = flashcontainer.pargen:pargen_cli
+tc3xx = flashcontainer.tc3xx:tc3xx_cli
