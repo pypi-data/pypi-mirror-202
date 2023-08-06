@@ -1,0 +1,3 @@
+[console_scripts]
+checksum=file_checksum.__main__:app
+
