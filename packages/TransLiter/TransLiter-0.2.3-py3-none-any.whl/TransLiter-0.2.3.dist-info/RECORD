@@ -1,0 +1,11 @@
+TransLiter/__init__.py,sha256=9DIbrwp8FKyLWJbXSaarx-xogi-EsJpAn_6VGZsI3HM,110
+TransLiter/jp_list.py,sha256=GNYrrN7Tp13D4Iexrzjjx5REme5TvMoifTL6tEQ_ByA,3374
+TransLiter/ko_jamo.py,sha256=4vmOcDAnR__UNDequVA6J6e0jcSxc-FT6QT3KHQE5gM,1116
+TransLiter/spacing.py,sha256=8cKCefTqEXU2eqbO_s996MasI1q5rWdUK2zkTT7gDRo,370
+TransLiter/transliter_jp.py,sha256=wWLUvwk6odsI5aTgnU9Q0sFv2cnpWNHquAOARE3TLU0,2060
+TransLiter/transliter_ko.py,sha256=D9UOBT0egq26EsPyuPUu0yJXtOkUr2P1Iq0bGicHT74,2360
+TransLiter-0.2.3.dist-info/LICENSE,sha256=axDh_TxRM4sfxQBaOqV8SM4RY0z-O5akZp_9pbrQHjY,1067
+TransLiter-0.2.3.dist-info/METADATA,sha256=E1xdN2T-0UERMTbhaRgZVv_du_o7UqZBlZh4YIfRFuY,4483
+TransLiter-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+TransLiter-0.2.3.dist-info/top_level.txt,sha256=V95E4QTFN8jZIXvz8MWirUkk6fEfEdYZ8-8VzDpbwTg,11
+TransLiter-0.2.3.dist-info/RECORD,,
