@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/app.py
+src/leaguecloser/__init__.py
+src/leaguecloser/computer.py
+src/leaguecloser/league.py
+src/leaguecloser/sikuli.py
+src/leaguecloser.egg-info/PKG-INFO
+src/leaguecloser.egg-info/SOURCES.txt
+src/leaguecloser.egg-info/dependency_links.txt
+src/leaguecloser.egg-info/requires.txt
+src/leaguecloser.egg-info/top_level.txt
+tests/test_sequence.py

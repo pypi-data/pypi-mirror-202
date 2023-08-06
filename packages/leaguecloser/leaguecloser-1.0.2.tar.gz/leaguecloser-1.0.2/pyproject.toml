@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leaguecloser"
+version = "1.0.2"
+authors = [
+  { name="Giantpizzahead" },
+]
+description = "Mock package that auto-closes the League client"
+readme = "README.md"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Microsoft :: Windows",
+]
+
+dependencies = [
+  "psutil",
+  "pyautogui",
+  "pywin32",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Giantpizzahead/auto-league-closer"
+
+[tool.pytest.ini_options]
+addopts = [
+  "--import-mode=importlib",
+]
