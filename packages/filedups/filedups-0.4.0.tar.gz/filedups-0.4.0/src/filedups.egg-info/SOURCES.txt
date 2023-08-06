@@ -1,0 +1,16 @@
+COPYING
+LICENSE
+README.md
+pyproject.toml
+src/filedups/__init__.py
+src/filedups/classes.py
+src/filedups/common_types.py
+src/filedups/constants.py
+src/filedups/grouper_funs.py
+src/filedups/main.py
+src/filedups/perf_test_main.py
+src/filedups/util.py
+src/filedups.egg-info/PKG-INFO
+src/filedups.egg-info/SOURCES.txt
+src/filedups.egg-info/dependency_links.txt
+src/filedups.egg-info/top_level.txt
