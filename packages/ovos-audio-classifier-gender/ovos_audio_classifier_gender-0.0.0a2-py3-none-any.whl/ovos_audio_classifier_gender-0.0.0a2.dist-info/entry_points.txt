@@ -1,0 +1,3 @@
+[neon.plugin.audio]
+ovos-audio-classifier-gender=ovos_audio_gender_classifier:SpeakerGenderClassifier
+

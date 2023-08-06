@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ovos-audio-classifier-gender
+Version: 0.0.0a2
+Summary: A audio parser/classifier/transformer plugin for OVOS
+Home-page: https://github.com/OpenVoiceOS/ovos-audio-classifier-gender
+Author: JarbasAi
+Author-email: jarbasai@mailfence.com
+License: bsd3
+Keywords: OVOS plugin audio parser/classifier/transformer
+Platform: UNKNOWN
+Requires-Dist: ovos-plugin-manager (~=0.0.3)
+Requires-Dist: neon-transformers (>=0.2.1a3)
+
+UNKNOWN
+
+
