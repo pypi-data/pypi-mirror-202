@@ -1,0 +1,17 @@
+LICENSE-APACHE
+LICENSE-MIT
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+talkwave/__init__.py
+talkwave/__main__.py
+talkwave/core.py
+talkwave/frontend.py
+talkwave.egg-info/PKG-INFO
+talkwave.egg-info/SOURCES.txt
+talkwave.egg-info/dependency_links.txt
+talkwave.egg-info/requires.txt
+talkwave.egg-info/top_level.txt
+tests/test_main.py
