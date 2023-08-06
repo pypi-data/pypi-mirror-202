@@ -1,0 +1,4 @@
+---
+- include_tasks: rabbitmq.yaml
+- include_tasks: rabbitmq-cluster.yaml
+- include_tasks: vhosts.yaml
