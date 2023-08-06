@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+discord_oauth2_flask/__init__.py
+discord_oauth2_flask/setup.py
+discord_oauth2_flask.egg-info/PKG-INFO
+discord_oauth2_flask.egg-info/SOURCES.txt
+discord_oauth2_flask.egg-info/dependency_links.txt
+discord_oauth2_flask.egg-info/top_level.txt
