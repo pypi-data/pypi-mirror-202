@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: xsar
+Version: 1.0.0
+Summary: xarray/dask distributed L1 sar file reader
+Home-page: https://github.com/umr-lops/xsar
+Author: Olivier Archer, Alexandre Levieux, Antoine Grouazel
+Author-email: Olivier.Archer@ifremer.fr, Alexandre.Levieux@gmail.com, Antoine.Grouazel@ifremer.fr
+License: MIT
+License-File: LICENSE
+Requires-Dist: GDAL
+Requires-Dist: dask[array]
+Requires-Dist: dask[distributed]
+Requires-Dist: xarray
+Requires-Dist: affine
+Requires-Dist: rasterio
+Requires-Dist: cartopy
+Requires-Dist: fiona
+Requires-Dist: pyproj
+Requires-Dist: jinja2 (<=3.0.3)
+Requires-Dist: xarray-datatree (>=0.0.9)
+Requires-Dist: lxml
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: shapely
+Requires-Dist: jmespath
+Requires-Dist: geopandas
+Requires-Dist: more-itertools
+Requires-Dist: importlib-resources
+Requires-Dist: pyyaml
+Requires-Dist: fsspec
+Requires-Dist: aiohttp
+Requires-Dist: pytz
+Requires-Dist: psutil
+Requires-Dist: requests
+Requires-Dist: xradarsat2
+
