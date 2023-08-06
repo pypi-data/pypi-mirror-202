@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: eva3d
+Version: 0.0.1.dev0
+Summary: EVA3D: Compositional 3D Human Generation from 2D Image Collections
+Author: Shadow Walker
+Keywords: eva3d
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+
+# EVA3D: Compositional 3D Human Generation from 2D Image Collections
+
+
