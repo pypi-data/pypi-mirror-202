@@ -1,0 +1,2 @@
+[pytest11]
+expect-test = pytest_expect_test
