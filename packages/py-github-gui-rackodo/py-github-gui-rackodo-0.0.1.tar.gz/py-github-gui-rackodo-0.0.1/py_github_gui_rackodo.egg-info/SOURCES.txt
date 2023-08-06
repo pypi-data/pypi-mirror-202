@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+py_github_gui/EntryWithPlaceholder.py
+py_github_gui/__init__.py
+py_github_gui/__main__.py
+py_github_gui_rackodo.egg-info/PKG-INFO
+py_github_gui_rackodo.egg-info/SOURCES.txt
+py_github_gui_rackodo.egg-info/dependency_links.txt
+py_github_gui_rackodo.egg-info/top_level.txt

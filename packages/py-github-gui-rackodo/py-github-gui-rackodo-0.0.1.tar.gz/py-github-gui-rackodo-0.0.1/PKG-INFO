@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: py-github-gui-rackodo
+Version: 0.0.1
+Summary: Python GUI for Github using the Github API.
+Author-email: Bash Elliott <rackodo.business@gmail.com>
+Project-URL: Homepage, https://github.com/rackodo/py-github-gui
+Project-URL: Bug Tracker, https://github.com/rackodo/py-github-gui/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# py-github-gui
+ Python GUI for Github using the Github API.

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "PyGithub", "Pillow", "requests"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py-github-gui-rackodo"
+version = "0.0.1"
+authors = [
+  { name="Bash Elliott", email="rackodo.business@gmail.com" },
+]
+description = "Python GUI for Github using the Github API."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rackodo/py-github-gui"
+"Bug Tracker" = "https://github.com/rackodo/py-github-gui/issues"
