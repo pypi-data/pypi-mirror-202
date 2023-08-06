@@ -1,0 +1,17 @@
+dash
+dash_bootstrap_components
+dash_table
+subprocess.run
+webbrowser
+pickle
+numpy
+zipfile36
+pandas
+scikit-learn
+collections2
+colorlover
+plotly
+bokeh
+imbalanced-learn
+matplotlib
+dash-loading-spinners
