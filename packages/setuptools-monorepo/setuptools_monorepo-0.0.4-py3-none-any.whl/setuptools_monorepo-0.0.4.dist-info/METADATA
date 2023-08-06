@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: setuptools-monorepo
+Version: 0.0.4
+Home-page: https://github.com/recogni/setuptools-monorepo
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tomli (~=2.0.1) ; python_version < "3.11"
+
+Run Python code from a monorepo during Python package installation
