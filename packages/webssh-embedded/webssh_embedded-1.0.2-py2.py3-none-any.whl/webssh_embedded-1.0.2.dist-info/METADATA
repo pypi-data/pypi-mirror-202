@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: webssh-embedded
+Version: 1.0.2
+Summary: Interactive embedded web terminal
+Home-page: https://github.com/TXH2020/webssh_embedded
+Author: Tejas Hegde
+Author-email: 1001.tejas@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: mysql-connector-python
+Requires-Dist: paramiko (>=2.3.1)
+Requires-Dist: tornado (>=4.5.0)
+
+webssh_embedded
+-----------------
+
+Introduction
+~~~~~~~~~~~~
+
+An interactive embedded web terminal built upon Shengdun Hua's original webssh package.
+
+Features
+~~~~~~~~
+
+-  An Embedded terminal(using iframe).
+-  Text input to enter commands to be executed in the remote machine.
+-  Visualize the execution status of the command through color change and also the time taken to execute the command.
+-  Database to keep track of executed commands.
+-  Feature to allow commands to execute in case of webpage reload/refresh events and obtain the status and time for such commands.
+-  Thorough logging to keep track of all events: both on browser's console and server side. An additional file called log.txt is created to log the terminal session.
+-  Prevent empty commands from getting executed.
+-  Prevent user from entering command while a comand is executing.
+-  Commands can also be executed inside tmux, screen or script sessions.
+-  A database setup file has been included in this project's GitHub repo to easily configure the database.
+
+Requirements
+~~~~~~~~~~~~
+
+-  Python 3.8+
+-  MySQL database must be installed on the system where this package is installed. Also make sure root can access without password.
+-  The project is optimized for remote machines running Linux. Hence this package will not work for remote machines with non Linux OS.
+-  SSH service running on the remote machine to connect to.
+-  Commands entered through text input must not run continuously like vi, tmux, screen etc.
+
+Quickstart
+~~~~~~~~~~
+
+1. Install this app, run command ``pip install webssh_embedded``
+2. Start a webserver, run command ``wssh --xsrf=False``
+3. Open your browser, navigate to ``127.0.0.1:8888/static/js/iframetest.html``
+4. The UI will appear with the embedded terminal at the bottom displaying a form to enter the SSH credentials. Fill the form. After successful login, you can enter commands through the text input and click on the submit message function.
+
+For a demo of the application check out these YouTube Videos: 
+https://youtu.be/4FTTdmijDu4
+https://youtu.be/hOAWzgMKqsg
+
+For the code of the project and more information, visit my GitHub page:
+https://github.com/TXH2020/webssh_embedded
+
+
