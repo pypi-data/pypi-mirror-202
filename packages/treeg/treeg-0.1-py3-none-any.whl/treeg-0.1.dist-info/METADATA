@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: treeg
+Version: 0.1
+Summary: TREE-G is a library of decision trees specialized for graph data. The library is scikit compatible, and the implementation follows the paper "Decision Trees with Dynamic Graph Features
+Home-page: https://github.com/mayabechlerspeicher/TREE-G
+Author: Maya Bechler-Speicher
+Author-email: mayab4@mail.tau.ac.il
+License: MIT
+Keywords: Decision Trees,Graph,Graph Learning,Graph Machine Learning,Decision Trees for graphs
+License-File: LICENSE.txt
+
