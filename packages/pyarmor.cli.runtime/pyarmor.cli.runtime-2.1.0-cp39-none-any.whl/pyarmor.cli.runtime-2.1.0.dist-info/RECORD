@@ -1,0 +1,13 @@
+pyarmor/cli/runtime/__init__.py,sha256=qRgCp18m2B-6WN__MYTHi8cas7Nd7EuqjOAhOMoF5p4,1708
+pyarmor/cli/runtime/libs/darwin.arm64/pyarmor_runtime.so,sha256=VXck1jvPrAYPxPAgmLPHvg7n8cqkIwnixd1qpcentfo,648816
+pyarmor/cli/runtime/libs/darwin.x86_64/pyarmor_runtime.so,sha256=WbJvq5albjmQEaPasY-2VMmDgxrfARvVqeuEd25OfnE,852312
+pyarmor/cli/runtime/libs/linux.aarch64/pyarmor_runtime.so,sha256=Veja7k1s4yaA_L_U_8YsvF7M0WGpcPPixNC_60Dk63U,595608
+pyarmor/cli/runtime/libs/linux.armv7/pyarmor_runtime.so,sha256=alOD64p4YzQrpyqo5iDOUkiVL-EW27W8MSwgdIVZNo0,884496
+pyarmor/cli/runtime/libs/linux.x86/pyarmor_runtime.so,sha256=Ixaf3G9a1xjUHFTuWtTLSWf3gH8w4Tv_-dms2yG_qcw,818220
+pyarmor/cli/runtime/libs/linux.x86_64/pyarmor_runtime.so,sha256=lMsBWxz8AoMdcqCjIBs-Hij98TAZspsBxdC9vaKFHco,784104
+pyarmor/cli/runtime/libs/windows.x86/pyarmor_runtime.pyd,sha256=LlZ406MheUCRWp4YgQgPAGDxNxPuBErvIA3ysy3VtAY,754702
+pyarmor/cli/runtime/libs/windows.x86_64/pyarmor_runtime.pyd,sha256=1K19M6mXW7DbO1-zOJbZevrmgCkrr9JkzKLhHv5QOQo,610304
+pyarmor.cli.runtime-2.1.0.dist-info/METADATA,sha256=IXhz-XHNBMIRsxw4FwBjOAa5NGXKW6ewnjkOx0_ft5s,1929
+pyarmor.cli.runtime-2.1.0.dist-info/WHEEL,sha256=QbbyyBnlPXzoGKd-349G69XkCwSd1NFnt4kuAN58gNs,93
+pyarmor.cli.runtime-2.1.0.dist-info/top_level.txt,sha256=UE1ovZ_90YzwF_lZ3LV7o8HKLe-RgzUaUUvdH5UTUus,8
+pyarmor.cli.runtime-2.1.0.dist-info/RECORD,,
