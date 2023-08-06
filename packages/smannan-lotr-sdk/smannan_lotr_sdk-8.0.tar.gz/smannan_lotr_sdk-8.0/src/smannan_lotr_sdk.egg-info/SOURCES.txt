@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/smannan_lotr_sdk/__init__.py
+src/smannan_lotr_sdk/http_service.py
+src/smannan_lotr_sdk/lotr_api_client.py
+src/smannan_lotr_sdk/movie.py
+src/smannan_lotr_sdk/quote.py
+src/smannan_lotr_sdk.egg-info/PKG-INFO
+src/smannan_lotr_sdk.egg-info/SOURCES.txt
+src/smannan_lotr_sdk.egg-info/dependency_links.txt
+src/smannan_lotr_sdk.egg-info/top_level.txt
