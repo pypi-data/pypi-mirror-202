@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+intelligraphs.egg-info/PKG-INFO
+intelligraphs.egg-info/SOURCES.txt
+intelligraphs.egg-info/dependency_links.txt
+intelligraphs.egg-info/requires.txt
+intelligraphs.egg-info/top_level.txt
