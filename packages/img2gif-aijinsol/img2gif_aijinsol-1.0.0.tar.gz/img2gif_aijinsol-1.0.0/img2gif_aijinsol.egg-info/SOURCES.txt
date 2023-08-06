@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+img2gif_aijinsol/__init__.py
+img2gif_aijinsol/converter.py
+img2gif_aijinsol.egg-info/PKG-INFO
+img2gif_aijinsol.egg-info/SOURCES.txt
+img2gif_aijinsol.egg-info/dependency_links.txt
+img2gif_aijinsol.egg-info/not-zip-safe
+img2gif_aijinsol.egg-info/requires.txt
+img2gif_aijinsol.egg-info/top_level.txt
