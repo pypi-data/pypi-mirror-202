@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: web-lmm
+Version: 0.1.0
+Summary: LMM on browser
+Home-page: https://github.com/mlc-ai/web-llm
+Author: Web LMM  contributors
+License: Apache-2.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
