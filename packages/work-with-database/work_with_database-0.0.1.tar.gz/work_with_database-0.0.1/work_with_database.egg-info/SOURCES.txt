@@ -1,0 +1,9 @@
+setup.py
+backend/__init__.py
+frontend/__init__.py
+frontend/get_account_info.py
+frontend/get_book_info.py
+work_with_database.egg-info/PKG-INFO
+work_with_database.egg-info/SOURCES.txt
+work_with_database.egg-info/dependency_links.txt
+work_with_database.egg-info/top_level.txt
