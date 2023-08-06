@@ -1,0 +1,2 @@
+[netbox_plugins]
+netbox_loadbalancer = nnetbox_loadbalancer:Plugin
