@@ -1,0 +1,1 @@
+INSERT_TABLE1 = "INSERT INTO TABLE1 (id, name) VALUES {values}"
