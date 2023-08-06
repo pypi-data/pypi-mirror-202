@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: knyjs
+Version: 1.0.1
+Summary: oss-dev my calculator 0001
+Home-page: https://github.com/knyjs0710/test
+Download-URL: https://github.com/knyjs0710/test/v0.0.1.zip
+Author: sejinchun
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+
+oss-dev calculator python module
