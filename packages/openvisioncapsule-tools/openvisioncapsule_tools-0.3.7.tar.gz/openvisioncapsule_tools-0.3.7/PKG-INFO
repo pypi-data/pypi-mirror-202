@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: openvisioncapsule-tools
+Version: 0.3.7
+Summary: A tool to help users to package, test OpenVisionCapsules
+License: BSD license
+Author: Stephen Li
+Author-email: stephen@aotu.ai
+Requires-Python: >=3.6.6.2,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
