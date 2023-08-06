@@ -1,0 +1,13 @@
+compactdata/__init__.py,sha256=nFwRsR0XCe_NUH6lu7IxxZkHAxBwAzn5PWip5JR0SVU,2852
+compactdata/char_constants.py,sha256=3pjzNgyouzJeIB72LIkLpfv1UNcIEWH_rdLqfY6DFHA,4312
+compactdata/decoder.py,sha256=kXwcm8a22FnpOcEvRzqKyJF4pt99nxMAaHqaXV_kzQY,617
+compactdata/encoder.py,sha256=wcqheB7N1NZtqaMb0ZvMVLHvdJLdVIU2Nv18Pi5l7Jk,15104
+compactdata/escapes.py,sha256=TqtTBTkGVNIsghhXS5AqH9q5_NMx_by4vACHQJwXAbg,2653
+compactdata/exceptions.py,sha256=aoXGi4DvqPlu_gzxDu6HMjf7zNIITQ354Yv4Nc3Ud9U,102
+compactdata/grammar_rules.py,sha256=7v53xFli08SM7pPYZiLFob7MCXvdGPba4_s0iysqDQU,2022
+compactdata/token_definitions.py,sha256=hG7HO0WSoWVJeqt0-zN2Le-JWDA8dE1D5I3Nuef8FG4,1104
+compactdata/unescapes.py,sha256=QX5U5qVz7774Djac2rpXUIiQ8q1Mkqt88IqxjVOFRFI,1158
+compactdata-0.0.4.dist-info/LICENSE,sha256=Ee6ikJeTlWwv6iwOLa6DJfPps9KPt6xLlFCTGcsXeXs,1069
+compactdata-0.0.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+compactdata-0.0.4.dist-info/METADATA,sha256=zO4nJznAfS5nPVwun8ngVXRAvI35bLUMlkaQRCyOxsc,4092
+compactdata-0.0.4.dist-info/RECORD,,
