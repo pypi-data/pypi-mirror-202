@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: fastapi-casdoor
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/winrey/python-fastapi-casdoor
+Author: winrey
+Author-email: i@iaside.com
+License: MIT Licence
+Description: UNKNOWN
+Platform: any
+Requires-Python: >=3.10.0
