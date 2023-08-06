@@ -1,0 +1,2660 @@
+{
+    "names": [
+        {
+            "name": "albedo",
+            "count": 1826,
+            "keyword": {
+                "text": "原神 albedo ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "aetherxalbedo": 1
+                }
+            }
+        },
+        {
+            "name": "alhaitham",
+            "count": 1266,
+            "keyword": {
+                "text": "原神 alhaitham ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "aloy",
+            "count": 63,
+            "keyword": {
+                "text": "原神 aloy ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "amber",
+            "count": 2346,
+            "keyword": {
+                "text": "原神 amber ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "arataki_itto",
+            "count": 13,
+            "keyword": {
+                "text": "原神 arataki_itto ",
+                "excluded": [],
+                "items": 13,
+                "matched": 13,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "barbara",
+            "count": 1488,
+            "keyword": {
+                "text": "原神 barbara ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "beidou",
+            "count": 1121,
+            "keyword": {
+                "text": "原神 beidou ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "bennett",
+            "count": 514,
+            "keyword": {
+                "text": "原神 bennett ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "candace",
+            "count": 319,
+            "keyword": {
+                "text": "原神 candace ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "chongyun",
+            "count": 994,
+            "keyword": {
+                "text": "原神 chongyun ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "collei",
+            "count": 514,
+            "keyword": {
+                "text": "原神 collei ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "cyno",
+            "count": 944,
+            "keyword": {
+                "text": "原神 cyno ",
+                "excluded": [],
+                "items": 60,
+                "matched": 50,
+                "polluted": 10,
+                "pollution": {
+                    "cynonari": 7,
+                    "tighcyno": 3
+                }
+            }
+        },
+        {
+            "name": "dehya",
+            "count": 985,
+            "keyword": {
+                "text": "原神 dehya ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "diluc",
+            "count": 2560,
+            "keyword": {
+                "text": "原神 diluc ",
+                "excluded": [],
+                "items": 60,
+                "matched": 57,
+                "polluted": 3,
+                "pollution": {
+                    "diluchi": 2,
+                    "dilucsultimatebreedingreward": 1
+                }
+            }
+        },
+        {
+            "name": "diona",
+            "count": 671,
+            "keyword": {
+                "text": "原神 diona ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "dori",
+            "count": 168,
+            "keyword": {
+                "text": "原神 dori ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "bandori": 1
+                }
+            }
+        },
+        {
+            "name": "eula",
+            "count": 4199,
+            "keyword": {
+                "text": "原神 eula ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "faruzan",
+            "count": 587,
+            "keyword": {
+                "text": "原神 faruzan ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "fischl",
+            "count": 2277,
+            "keyword": {
+                "text": "原神 fischl ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ganyu",
+            "count": 10753,
+            "keyword": {
+                "text": "原神 ganyu ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "gorou",
+            "count": 999,
+            "keyword": {
+                "text": "原神 gorou ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "hu_tao",
+            "count": 60,
+            "keyword": {
+                "text": "原神 hu_tao ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "jean",
+            "count": 2052,
+            "keyword": {
+                "text": "原神 jean ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "jeanlisa": 1
+                }
+            }
+        },
+        {
+            "name": "kaedehara_kazuha",
+            "count": 8,
+            "keyword": {
+                "text": "原神 kaedehara_kazuha ",
+                "excluded": [],
+                "items": 8,
+                "matched": 8,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "kaeya",
+            "count": 2013,
+            "keyword": {
+                "text": "原神 kaeya ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "kamisato_ayaka",
+            "count": 26,
+            "keyword": {
+                "text": "原神 kamisato_ayaka ",
+                "excluded": [],
+                "items": 26,
+                "matched": 26,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "kamisato_ayato",
+            "count": 2,
+            "keyword": {
+                "text": "原神 kamisato_ayato ",
+                "excluded": [],
+                "items": 2,
+                "matched": 2,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "keqing",
+            "count": 4849,
+            "keyword": {
+                "text": "原神 keqing ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "klee",
+            "count": 2743,
+            "keyword": {
+                "text": "原神 klee ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "kujou_sara",
+            "count": 100,
+            "keyword": {
+                "text": "原神 kujou_sara ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "kuki_shinobu",
+            "count": 21,
+            "keyword": {
+                "text": "原神 kuki_shinobu ",
+                "excluded": [],
+                "items": 21,
+                "matched": 21,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "layla",
+            "count": 648,
+            "keyword": {
+                "text": "原神 layla ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "layla_alstroemeria": 1
+                }
+            }
+        },
+        {
+            "name": "lisa",
+            "count": 1436,
+            "keyword": {
+                "text": "原神 lisa ",
+                "excluded": [],
+                "items": 60,
+                "matched": 56,
+                "polluted": 4,
+                "pollution": {
+                    "jeanlisa": 1,
+                    "lisaether": 1,
+                    "lisaminci": 1,
+                    "monalisa": 1
+                }
+            }
+        },
+        {
+            "name": "mika",
+            "count": 133,
+            "keyword": {
+                "text": "原神 mika ",
+                "excluded": [],
+                "items": 60,
+                "matched": 48,
+                "polluted": 12,
+                "pollution": {
+                    "mikamiruka": 10,
+                    "huffmika": 1,
+                    "whitenamikaze": 1
+                }
+            }
+        },
+        {
+            "name": "mona",
+            "count": 4487,
+            "keyword": {
+                "text": "原神 mona ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "nahida",
+            "count": 3636,
+            "keyword": {
+                "text": "原神 nahida ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "nilou",
+            "count": 2551,
+            "keyword": {
+                "text": "原神 nilou ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ningguang",
+            "count": 1131,
+            "keyword": {
+                "text": "原神 ningguang ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "noelle",
+            "count": 1533,
+            "keyword": {
+                "text": "原神 noelle ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "qiqi",
+            "count": 1110,
+            "keyword": {
+                "text": "原神 qiqi ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "raiden_shogun",
+            "count": 144,
+            "keyword": {
+                "text": "原神 raiden_shogun ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "razor",
+            "count": 662,
+            "keyword": {
+                "text": "原神 razor ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "rosaria",
+            "count": 840,
+            "keyword": {
+                "text": "原神 rosaria ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "sangonomiya_kokomi",
+            "count": 19,
+            "keyword": {
+                "text": "原神 sangonomiya_kokomi ",
+                "excluded": [],
+                "items": 19,
+                "matched": 19,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "sayu",
+            "count": 404,
+            "keyword": {
+                "text": "原神 sayu ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "sasayuri": 1
+                }
+            }
+        },
+        {
+            "name": "shenhe",
+            "count": 3292,
+            "keyword": {
+                "text": "原神 shenhe ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "shikanoin_heizou",
+            "count": 1,
+            "keyword": {
+                "text": "原神 shikanoin_heizou ",
+                "excluded": [],
+                "items": 1,
+                "matched": 1,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "sucrose",
+            "count": 954,
+            "keyword": {
+                "text": "原神 sucrose ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "tartaglia",
+            "count": 3227,
+            "keyword": {
+                "text": "原神 tartaglia ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "thoma",
+            "count": 976,
+            "keyword": {
+                "text": "原神 thoma ",
+                "excluded": [],
+                "items": 60,
+                "matched": 42,
+                "polluted": 18,
+                "pollution": {
+                    "thomato": 10,
+                    "ayathoma": 5,
+                    "thomaether": 3
+                }
+            }
+        },
+        {
+            "name": "tighnari",
+            "count": 1135,
+            "keyword": {
+                "text": "原神 tighnari ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "traveler",
+            "count": 262,
+            "keyword": {
+                "text": "原神 traveler ",
+                "excluded": [],
+                "items": 60,
+                "matched": 58,
+                "polluted": 2,
+                "pollution": {
+                    "travelers": 1,
+                    "旅人traveler": 1
+                }
+            }
+        },
+        {
+            "name": "venti",
+            "count": 4372,
+            "keyword": {
+                "text": "原神 venti ",
+                "excluded": [],
+                "items": 59,
+                "matched": 59,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "wanderer",
+            "count": 1374,
+            "keyword": {
+                "text": "原神 wanderer ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "xiangling",
+            "count": 747,
+            "keyword": {
+                "text": "原神 xiangling ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "xiao",
+            "count": 5293,
+            "keyword": {
+                "text": "原神 xiao ",
+                "excluded": [],
+                "items": 60,
+                "matched": 43,
+                "polluted": 17,
+                "pollution": {
+                    "xiaolumi": 10,
+                    "zhongxiao": 3,
+                    "xiaoaether": 2,
+                    "xiaother": 1,
+                    "xiaoven": 1
+                }
+            }
+        },
+        {
+            "name": "xingqiu",
+            "count": 984,
+            "keyword": {
+                "text": "原神 xingqiu ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "xinyan",
+            "count": 697,
+            "keyword": {
+                "text": "原神 xinyan ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "yae_miko",
+            "count": 109,
+            "keyword": {
+                "text": "原神 yae_miko ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "yanfei",
+            "count": 1199,
+            "keyword": {
+                "text": "原神 yanfei ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "yaoyao",
+            "count": 393,
+            "keyword": {
+                "text": "原神 yaoyao ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "yelan",
+            "count": 2598,
+            "keyword": {
+                "text": "原神 yelan ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "yoimiya",
+            "count": 2467,
+            "keyword": {
+                "text": "原神 yoimiya ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "yun_jin",
+            "count": 1,
+            "keyword": {
+                "text": "原神 yun_jin ",
+                "excluded": [],
+                "items": 1,
+                "matched": 1,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "zhongli",
+            "count": 4478,
+            "keyword": {
+                "text": "原神 zhongli ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "あらたきいっと",
+            "count": 32,
+            "keyword": {
+                "text": "原神 あらたきいっと ",
+                "excluded": [],
+                "items": 32,
+                "matched": 31,
+                "polluted": 1,
+                "pollution": {
+                    "荒瀧一斗あらたきいっと": 1
+                }
+            }
+        },
+        {
+            "name": "うんきん",
+            "count": 13,
+            "keyword": {
+                "text": "原神 うんきん ",
+                "excluded": [],
+                "items": 13,
+                "matched": 13,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "えんひ",
+            "count": 14,
+            "keyword": {
+                "text": "原神 えんひ ",
+                "excluded": [],
+                "items": 14,
+                "matched": 14,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "かえではらかずは",
+            "count": 13,
+            "keyword": {
+                "text": "原神 かえではらかずは ",
+                "excluded": [],
+                "items": 13,
+                "matched": 13,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "かみさとあやか",
+            "count": 57,
+            "keyword": {
+                "text": "原神 かみさとあやか ",
+                "excluded": [],
+                "items": 57,
+                "matched": 57,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "かみさとあやと",
+            "count": 8,
+            "keyword": {
+                "text": "原神 かみさとあやと ",
+                "excluded": [],
+                "items": 8,
+                "matched": 8,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "かんう",
+            "count": 87,
+            "keyword": {
+                "text": "原神 かんう ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ぎょうこう",
+            "count": 12,
+            "keyword": {
+                "text": "原神 ぎょうこう ",
+                "excluded": [],
+                "items": 12,
+                "matched": 12,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "くじょうさら",
+            "count": 30,
+            "keyword": {
+                "text": "原神 くじょうさら ",
+                "excluded": [],
+                "items": 30,
+                "matched": 30,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "こくせい",
+            "count": 72,
+            "keyword": {
+                "text": "原神 こくせい ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "さゆ",
+            "count": 37,
+            "keyword": {
+                "text": "原神 さゆ ",
+                "excluded": [],
+                "items": 37,
+                "matched": 33,
+                "polluted": 4,
+                "pollution": {
+                    "さゆり": 2,
+                    "うさゆく": 1,
+                    "さゆたん": 1
+                }
+            }
+        },
+        {
+            "name": "さんごのみやここみ",
+            "count": 45,
+            "keyword": {
+                "text": "原神 さんごのみやここみ ",
+                "excluded": [],
+                "items": 45,
+                "matched": 45,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "しかのいんへいぞう",
+            "count": 4,
+            "keyword": {
+                "text": "原神 しかのいんへいぞう ",
+                "excluded": [],
+                "items": 4,
+                "matched": 4,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "しょう",
+            "count": 125,
+            "keyword": {
+                "text": "原神 しょう -しょうり -らいでんしょうぐん",
+                "excluded": [
+                    "しょうり",
+                    "らいでんしょうぐん"
+                ],
+                "items": 60,
+                "matched": 9,
+                "polluted": 51,
+                "pollution": {
+                    "干物しょうぐん雷電ちゃん": 20,
+                    "雷らい電でん将しょう軍ぐん": 12,
+                    "しょうじょ": 5,
+                    "びしょうじょ": 3,
+                    "魔女集会で会いましょう": 2,
+                    "しょうぐん": 1,
+                    "しょうた": 1,
+                    "しょうほた": 1,
+                    "なんということをしてくれたのでしょう": 1,
+                    "びしょうねん": 1,
+                    "リーク情報の拡散はやめましょう": 1,
+                    "水曜どうでしょう": 1,
+                    "葡萄畑で会いましょう": 1,
+                    "葡萄畑で会いましょう2": 1
+                }
+            }
+        },
+        {
+            "name": "しょうり",
+            "count": 27,
+            "keyword": {
+                "text": "原神 しょうり ",
+                "excluded": [],
+                "items": 27,
+                "matched": 27,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "しんえん",
+            "count": 2,
+            "keyword": {
+                "text": "原神 しんえん ",
+                "excluded": [],
+                "items": 2,
+                "matched": 2,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "しんかく",
+            "count": 46,
+            "keyword": {
+                "text": "原神 しんかく ",
+                "excluded": [],
+                "items": 46,
+                "matched": 45,
+                "polluted": 1,
+                "pollution": {
+                    "しんかく捆绑": 1
+                }
+            }
+        },
+        {
+            "name": "たびびと",
+            "count": 1,
+            "keyword": {
+                "text": "原神 たびびと ",
+                "excluded": [],
+                "items": 1,
+                "matched": 1,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ちょううん",
+            "count": 3,
+            "keyword": {
+                "text": "原神 ちょううん ",
+                "excluded": [],
+                "items": 3,
+                "matched": 3,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "なな",
+            "count": 17,
+            "keyword": {
+                "text": "原神 なな ",
+                "excluded": [],
+                "items": 17,
+                "matched": 11,
+                "polluted": 6,
+                "pollution": {
+                    "まとめなな": 2,
+                    "大場なな": 2,
+                    "ななついろ": 1,
+                    "森なな子": 1
+                }
+            }
+        },
+        {
+            "name": "ほくと",
+            "count": 9,
+            "keyword": {
+                "text": "原神 ほくと ",
+                "excluded": [],
+                "items": 9,
+                "matched": 9,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "やえみこ",
+            "count": 146,
+            "keyword": {
+                "text": "原神 やえみこ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ゆくあき",
+            "count": 12,
+            "keyword": {
+                "text": "原神 ゆくあき ",
+                "excluded": [],
+                "items": 12,
+                "matched": 12,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "よいみや",
+            "count": 100,
+            "keyword": {
+                "text": "原神 よいみや ",
+                "excluded": [],
+                "items": 60,
+                "matched": 55,
+                "polluted": 5,
+                "pollution": {
+                    "ながのはらよいみや": 4,
+                    "宵宮よいみや": 1
+                }
+            }
+        },
+        {
+            "name": "らいでんしょうぐん",
+            "count": 23,
+            "keyword": {
+                "text": "原神 らいでんしょうぐん ",
+                "excluded": [],
+                "items": 23,
+                "matched": 23,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "アルハイゼン",
+            "count": 2407,
+            "keyword": {
+                "text": "原神 アルハイゼン ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "アルベド",
+            "count": 4100,
+            "keyword": {
+                "text": "原神 アルベド ",
+                "excluded": [],
+                "items": 60,
+                "matched": 58,
+                "polluted": 2,
+                "pollution": {
+                    "アルベド受け": 1,
+                    "保護者アルベド": 1
+                }
+            }
+        },
+        {
+            "name": "アンバー",
+            "count": 7426,
+            "keyword": {
+                "text": "原神 アンバー ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "アーロイ",
+            "count": 71,
+            "keyword": {
+                "text": "原神 アーロイ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "イェラン",
+            "count": 363,
+            "keyword": {
+                "text": "原神 イェラン ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ウェンティ",
+            "count": 8609,
+            "keyword": {
+                "text": "原神 ウェンティ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "エウルア",
+            "count": 9587,
+            "keyword": {
+                "text": "原神 エウルア ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ガイア",
+            "count": 4538,
+            "keyword": {
+                "text": "原神 ガイア ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "キャンディス",
+            "count": 940,
+            "keyword": {
+                "text": "原神 キャンディス ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "クレー",
+            "count": 10268,
+            "keyword": {
+                "text": "原神 クレー ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "コレイ",
+            "count": 1727,
+            "keyword": {
+                "text": "原神 コレイ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ゴロー",
+            "count": 2187,
+            "keyword": {
+                "text": "原神 ゴロー ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "シャンリン",
+            "count": 170,
+            "keyword": {
+                "text": "原神 シャンリン ",
+                "excluded": [],
+                "items": 60,
+                "matched": 58,
+                "polluted": 2,
+                "pollution": {
+                    "シャンリン香菱": 1,
+                    "料理を届けるシャンリン": 1
+                }
+            }
+        },
+        {
+            "name": "ジン",
+            "count": 6734,
+            "keyword": {
+                "text": "原神 ジン ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "ニンジンとお肉のハニーソテー": 1
+                }
+            }
+        },
+        {
+            "name": "スクロース",
+            "count": 2914,
+            "keyword": {
+                "text": "原神 スクロース ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "セノ",
+            "count": 2180,
+            "keyword": {
+                "text": "原神 セノ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 52,
+                "polluted": 8,
+                "pollution": {
+                    "セノナリ": 5,
+                    "アルセノ": 2,
+                    "モブセノ": 1
+                }
+            }
+        },
+        {
+            "name": "タルタリヤ",
+            "count": 9747,
+            "keyword": {
+                "text": "原神 タルタリヤ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ティナリ",
+            "count": 2557,
+            "keyword": {
+                "text": "原神 ティナリ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ディオナ",
+            "count": 2871,
+            "keyword": {
+                "text": "原神 ディオナ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ディシア",
+            "count": 2186,
+            "keyword": {
+                "text": "原神 ディシア ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ディルック",
+            "count": 5516,
+            "keyword": {
+                "text": "原神 ディルック ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "トーマ",
+            "count": 1965,
+            "keyword": {
+                "text": "原神 トーマ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "5秒でおそらくタイツの大穴を抜い終わるトーマ": 1
+                }
+            }
+        },
+        {
+            "name": "ドリー",
+            "count": 492,
+            "keyword": {
+                "text": "原神 ドリー ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "激おこスティックファイナリアリティぷんぷんドリーム": 1
+                }
+            }
+        },
+        {
+            "name": "ナヒーダ",
+            "count": 10876,
+            "keyword": {
+                "text": "原神 ナヒーダ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ニィロウ",
+            "count": 5496,
+            "keyword": {
+                "text": "原神 ニィロウ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ノエル",
+            "count": 4912,
+            "keyword": {
+                "text": "原神 ノエル ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "バーバラ",
+            "count": 9198,
+            "keyword": {
+                "text": "原神 バーバラ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ファルザン",
+            "count": 1315,
+            "keyword": {
+                "text": "原神 ファルザン ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "フィッシュル",
+            "count": 6753,
+            "keyword": {
+                "text": "原神 フィッシュル ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "フータオ",
+            "count": 1841,
+            "keyword": {
+                "text": "原神 フータオ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ベネット",
+            "count": 1362,
+            "keyword": {
+                "text": "原神 ベネット ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ミカ",
+            "count": 264,
+            "keyword": {
+                "text": "原神 ミカ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 53,
+                "polluted": 7,
+                "pollution": {
+                    "聖園ミカ": 3,
+                    "ミカサ": 2,
+                    "ミカヤ": 1,
+                    "原神ミカ": 1
+                }
+            }
+        },
+        {
+            "name": "モナ",
+            "count": 13407,
+            "keyword": {
+                "text": "原神 モナ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "ヨォーヨ",
+            "count": 1081,
+            "keyword": {
+                "text": "原神 ヨォーヨ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "リサ",
+            "count": 4571,
+            "keyword": {
+                "text": "原神 リサ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "レイラ",
+            "count": 1451,
+            "keyword": {
+                "text": "原神 レイラ ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "レザー",
+            "count": 1760,
+            "keyword": {
+                "text": "原神 レザー ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "レザージャケット": 1
+                }
+            }
+        },
+        {
+            "name": "ロサリア",
+            "count": 3028,
+            "keyword": {
+                "text": "原神 ロサリア ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "七七",
+            "count": 6338,
+            "keyword": {
+                "text": "原神 七七 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "丽莎",
+            "count": 700,
+            "keyword": {
+                "text": "原神 丽莎 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "久岐忍",
+            "count": 2190,
+            "keyword": {
+                "text": "原神 久岐忍 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "九条裟罗",
+            "count": 375,
+            "keyword": {
+                "text": "原神 九条裟罗 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "九条裟羅",
+            "count": 3340,
+            "keyword": {
+                "text": "原神 九条裟羅 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "云堇",
+            "count": 1181,
+            "keyword": {
+                "text": "原神 云堇 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "五郎",
+            "count": 591,
+            "keyword": {
+                "text": "原神 五郎 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "优菈",
+            "count": 3433,
+            "keyword": {
+                "text": "原神 优菈 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "八重神子",
+            "count": 19680,
+            "keyword": {
+                "text": "原神 八重神子 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "凝光",
+            "count": 4202,
+            "keyword": {
+                "text": "原神 凝光 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "凯亚",
+            "count": 427,
+            "keyword": {
+                "text": "原神 凯亚 ",
+                "excluded": [],
+                "items": 59,
+                "matched": 59,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "刻晴",
+            "count": 17053,
+            "keyword": {
+                "text": "原神 刻晴 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "北斗",
+            "count": 3141,
+            "keyword": {
+                "text": "原神 北斗 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "可莉",
+            "count": 3081,
+            "keyword": {
+                "text": "原神 可莉 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "坎蒂丝",
+            "count": 224,
+            "keyword": {
+                "text": "原神 坎蒂丝 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "埃洛伊",
+            "count": 5,
+            "keyword": {
+                "text": "原神 埃洛伊 ",
+                "excluded": [],
+                "items": 5,
+                "matched": 5,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "多莉",
+            "count": 204,
+            "keyword": {
+                "text": "原神 多莉 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "夜兰",
+            "count": 2110,
+            "keyword": {
+                "text": "原神 夜兰 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "原神夜兰": 1
+                }
+            }
+        },
+        {
+            "name": "夜蘭",
+            "count": 6676,
+            "keyword": {
+                "text": "原神 夜蘭 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "妮露",
+            "count": 2547,
+            "keyword": {
+                "text": "原神 妮露 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "空妮露": 1
+                }
+            }
+        },
+        {
+            "name": "安柏",
+            "count": 1368,
+            "keyword": {
+                "text": "原神 安柏 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "宵宫",
+            "count": 2259,
+            "keyword": {
+                "text": "原神 宵宫 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "宵宮",
+            "count": 5180,
+            "keyword": {
+                "text": "原神 宵宮 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "托马",
+            "count": 177,
+            "keyword": {
+                "text": "原神 托马 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "提纳里",
+            "count": 471,
+            "keyword": {
+                "text": "原神 提纳里 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "放浪者",
+            "count": 3288,
+            "keyword": {
+                "text": "原神 放浪者 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "荒ぶる放浪者": 1
+                }
+            }
+        },
+        {
+            "name": "旅人",
+            "count": 1384,
+            "keyword": {
+                "text": "原神 旅人 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 52,
+                "polluted": 8,
+                "pollution": {
+                    "旅人攻": 6,
+                    "not旅人": 1,
+                    "旅人巻き込まれ事故": 1
+                }
+            }
+        },
+        {
+            "name": "旅行者",
+            "count": 788,
+            "keyword": {
+                "text": "原神 旅行者 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "早柚",
+            "count": 1958,
+            "keyword": {
+                "text": "原神 早柚 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "枫原万叶",
+            "count": 941,
+            "keyword": {
+                "text": "原神 枫原万叶 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "柯莱",
+            "count": 409,
+            "keyword": {
+                "text": "原神 柯莱 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "楓原万葉",
+            "count": 5130,
+            "keyword": {
+                "text": "原神 楓原万葉 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "流浪者",
+            "count": 484,
+            "keyword": {
+                "text": "原神 流浪者 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "温迪",
+            "count": 2251,
+            "keyword": {
+                "text": "原神 温迪 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "烟绯",
+            "count": 646,
+            "keyword": {
+                "text": "原神 烟绯 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "煙緋",
+            "count": 3200,
+            "keyword": {
+                "text": "原神 煙緋 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "珊瑚宫心海",
+            "count": 1632,
+            "keyword": {
+                "text": "原神 珊瑚宫心海 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "珊瑚宮心海",
+            "count": 6636,
+            "keyword": {
+                "text": "原神 珊瑚宮心海 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "珐露珊",
+            "count": 465,
+            "keyword": {
+                "text": "原神 珐露珊 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "班尼特",
+            "count": 269,
+            "keyword": {
+                "text": "原神 班尼特 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "琴",
+            "count": 1273,
+            "keyword": {
+                "text": "原神 琴 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "沢渡真琴": 1
+                }
+            }
+        },
+        {
+            "name": "瑶瑶",
+            "count": 771,
+            "keyword": {
+                "text": "原神 瑶瑶 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "甘雨",
+            "count": 35379,
+            "keyword": {
+                "text": "原神 甘雨 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "申鶴",
+            "count": 8326,
+            "keyword": {
+                "text": "原神 申鶴 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "申鹤",
+            "count": 3435,
+            "keyword": {
+                "text": "原神 申鹤 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "砂糖",
+            "count": 808,
+            "keyword": {
+                "text": "原神 砂糖 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "神里綾人",
+            "count": 3848,
+            "keyword": {
+                "text": "原神 神里綾人 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "神里綾華",
+            "count": 17301,
+            "keyword": {
+                "text": "原神 神里綾華 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "神里绫人",
+            "count": 400,
+            "keyword": {
+                "text": "原神 神里绫人 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "审神里绫人": 1
+                }
+            }
+        },
+        {
+            "name": "神里绫华",
+            "count": 5835,
+            "keyword": {
+                "text": "原神 神里绫华 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "米卡",
+            "count": 54,
+            "keyword": {
+                "text": "原神 米卡 ",
+                "excluded": [],
+                "items": 54,
+                "matched": 54,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "纳西妲",
+            "count": 4297,
+            "keyword": {
+                "text": "原神 纳西妲 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "草神纳西妲": 1
+                }
+            }
+        },
+        {
+            "name": "罗莎莉亚",
+            "count": 425,
+            "keyword": {
+                "text": "原神 罗莎莉亚 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 58,
+                "polluted": 2,
+                "pollution": {
+                    "原神罗莎莉亚": 2
+                }
+            }
+        },
+        {
+            "name": "胡桃",
+            "count": 26069,
+            "keyword": {
+                "text": "原神 胡桃 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "艾尔海森",
+            "count": 277,
+            "keyword": {
+                "text": "原神 艾尔海森 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "アルハイゼン艾尔海森": 1
+                }
+            }
+        },
+        {
+            "name": "芭芭拉",
+            "count": 3094,
+            "keyword": {
+                "text": "原神 芭芭拉 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "荒泷一斗",
+            "count": 337,
+            "keyword": {
+                "text": "原神 荒泷一斗 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "荒瀧一斗",
+            "count": 1900,
+            "keyword": {
+                "text": "原神 荒瀧一斗 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "莫娜",
+            "count": 3245,
+            "keyword": {
+                "text": "原神 莫娜 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "莱依拉",
+            "count": 424,
+            "keyword": {
+                "text": "原神 莱依拉 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "菲谢尔",
+            "count": 1745,
+            "keyword": {
+                "text": "原神 菲谢尔 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "行秋",
+            "count": 3795,
+            "keyword": {
+                "text": "原神 行秋 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "诺艾尔",
+            "count": 1485,
+            "keyword": {
+                "text": "原神 诺艾尔 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "赛诺",
+            "count": 335,
+            "keyword": {
+                "text": "原神 赛诺 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "辛炎",
+            "count": 768,
+            "keyword": {
+                "text": "原神 辛炎 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "辛焱",
+            "count": 319,
+            "keyword": {
+                "text": "原神 辛焱 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "云堇x辛焱": 1
+                }
+            }
+        },
+        {
+            "name": "达达利亚",
+            "count": 1095,
+            "keyword": {
+                "text": "原神 达达利亚 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "迪卢克",
+            "count": 793,
+            "keyword": {
+                "text": "原神 迪卢克 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "迪奥娜",
+            "count": 700,
+            "keyword": {
+                "text": "原神 迪奥娜 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "迪希雅",
+            "count": 431,
+            "keyword": {
+                "text": "原神 迪希雅 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 59,
+                "polluted": 1,
+                "pollution": {
+                    "迪希雅dehya": 1
+                }
+            }
+        },
+        {
+            "name": "重云",
+            "count": 662,
+            "keyword": {
+                "text": "原神 重云 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "重雲",
+            "count": 3034,
+            "keyword": {
+                "text": "原神 重雲 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "鍾離",
+            "count": 9800,
+            "keyword": {
+                "text": "原神 鍾離 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "钟离",
+            "count": 2922,
+            "keyword": {
+                "text": "原神 钟离 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "阿贝多",
+            "count": 636,
+            "keyword": {
+                "text": "原神 阿贝多 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "雲菫",
+            "count": 1389,
+            "keyword": {
+                "text": "原神 雲菫 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "雷泽",
+            "count": 379,
+            "keyword": {
+                "text": "原神 雷泽 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "雷电将军",
+            "count": 5234,
+            "keyword": {
+                "text": "原神 雷电将军 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "雷電将軍",
+            "count": 25397,
+            "keyword": {
+                "text": "原神 雷電将軍 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "香菱",
+            "count": 2985,
+            "keyword": {
+                "text": "原神 香菱 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "魈",
+            "count": 11267,
+            "keyword": {
+                "text": "原神 魈 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 48,
+                "polluted": 12,
+                "pollution": {
+                    "魈空": 10,
+                    "モブ魈": 1,
+                    "魈蛍": 1
+                }
+            }
+        },
+        {
+            "name": "鹿野院平蔵",
+            "count": 1552,
+            "keyword": {
+                "text": "原神 鹿野院平蔵 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        },
+        {
+            "name": "鹿野院平藏",
+            "count": 240,
+            "keyword": {
+                "text": "原神 鹿野院平藏 ",
+                "excluded": [],
+                "items": 60,
+                "matched": 60,
+                "polluted": 0,
+                "pollution": {}
+            }
+        }
+    ],
+    "last_updated": 1681059561.2623575
+}
