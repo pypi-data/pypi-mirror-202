@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+0.1.0
+-----
+
+* Set README content type to markdown (#3)
+* Update package metadata, build system, and version info (#2)
+* Fix package metadata typo (#1)
+* Don't run CI on unsupported python versions
+* Fix package metadata
+* Finish readme thought about cplex
+* Fix README link
+* Add github actions CI
+* Add plugin to package
+* Initial commit
