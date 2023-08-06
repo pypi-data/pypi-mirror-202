@@ -1,0 +1,9 @@
+pingpong/__init__.py,sha256=xirmMYgHshAdLvF08SJcRffMLDlRPq063HUANLoPyjU,51
+pingpong/alpaca.py,sha256=p99uSPACOseK_vj07JQI4UjUKJ7Rcc9-usdLTUAtw4o,756
+pingpong/gradio.py,sha256=lON2CRQpKAPI_PfeTlaSZ9Jhu8Oa0L3tyzCNSDkGuig,471
+pingpong/pingpong.py,sha256=VOTa-TficgIjXGeFjSoE9JQfYuTTZPlkTh1eR4cMifA,636
+bingbong-0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bingbong-0.1.dist-info/METADATA,sha256=kRsLMcaM-2iofjd1_KrSd1uU5kVPG1e9-HEAoI0QdT4,564
+bingbong-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+bingbong-0.1.dist-info/top_level.txt,sha256=gEn53k5ARNLZodzDYx4bPsQ-F69t7ln5s4vJGgc3dgo,9
+bingbong-0.1.dist-info/RECORD,,
