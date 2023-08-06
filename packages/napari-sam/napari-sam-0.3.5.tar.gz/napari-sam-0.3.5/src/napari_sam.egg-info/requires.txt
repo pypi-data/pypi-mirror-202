@@ -1,0 +1,15 @@
+numpy
+magicgui
+qtpy
+napari
+vispy
+tqdm
+napari-medical-image-formats
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
