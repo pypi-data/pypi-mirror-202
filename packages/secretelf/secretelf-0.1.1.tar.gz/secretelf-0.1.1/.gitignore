@@ -1,0 +1,21 @@
+# Global directories
+__pycache__/
+
+# Global files
+*.py[cod]
+*.so
+*.log
+*.swp
+
+# Root directories
+/.env/
+/.mypy_cache/
+/.pytest_cache/
+/dist/
+/site/
+
+# Root files
+/.coverage*
+
+# Version file
+/src/secretelf/_version.py
