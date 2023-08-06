@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: comwares
+Version: 0.1.4
+Summary: This project provides middlewares for a startup company.
+Author: Kevin Zhu
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
