@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "barsdiary"
+version = "0.1.5"
+description = "Python library for working with API \"БАРС.Web-Образование\""
+license = "MIT"
+readme = "README.md"
+authors = ["mironovmeow <71277890+mironovmeow@users.noreply.github.com>"]
+homepage = "https://github.com/mironovmeow/barsdiary"
+repository = "https://github.com/mironovmeow/barsdiary"
+# documentation = "https://barsdiary.readthedocs.io/ru/latest/"
+keywords = [
+    "python",
+    "aiohttp",
+    "pydantic",
+    "asyncio",
+]
+exclude = ["barsdiary/tests/**"]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/mironovmeow/barsdiary/issues"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+pydantic = "^1.10.2"
+loguru = "^0.6.0"
+httpx = {version = "^0.23.1", optional = true}
+aiohttp = {version = "^3.8.3", optional = true}
+
+[tool.poetry.extras]
+sync = ["httpx"]
+async = ["aiohttp"]
+
+[tool.poetry.group.dev.dependencies]
+httpx = "^0.23.1"
+aiohttp = "^3.8.3"
+
+pre-commit = "^2.20.0"
+black = "^22.12.0"
+isort = "^5.11.4"
+flake8 = "^6.0.0"
+mypy = "^0.991"
+pytest = "^7.2.0"
+
+[tool.isort]
+line_length = 99
+include_trailing_comma = true
+multi_line_output = 3
+
+[tool.mypy]
+warn_unused_configs = true
+
+[tool.black]
+line-length = 99
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
