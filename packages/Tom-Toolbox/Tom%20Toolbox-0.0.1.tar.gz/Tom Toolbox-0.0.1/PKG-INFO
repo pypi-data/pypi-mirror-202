@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Tom Toolbox
+Version: 0.0.1
+Summary: A collection of utilities for python 3.10 and above
+Home-page: https://github.com/Tom5521/Toolbox
+Author: Tom5521
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Tom's Toolbox
+A small toolbox for future proyects
