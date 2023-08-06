@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: vizelec
+Version: 0.1.0
+Summary: Generate drawing and graph of schematic from various files.
+License: MIT
+Author: Patarimi
+Author-email: 38954040+Patarimi@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: networkx (>=3.0,<4.0)
+Requires-Dist: schemdraw (>=0.16,<0.17)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
+Description-Content-Type: text/markdown
+
+# `vizelec`
+
+**Usage**:
+
+```console
+$ vizelec [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `pinout`
+* `schem`: Create a graph representation of the...
+
+## `vizelec pinout`
+
+**Usage**:
+
+```console
+$ vizelec pinout [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `show`
+
+### `vizelec pinout show`
+
+**Usage**:
+
+```console
+$ vizelec pinout show [OPTIONS] CONF_FILE
+```
+
+**Arguments**:
+
+* `CONF_FILE`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `vizelec schem`
+
+Create a graph representation of the schematic given by schem.
+:param schem: path to a spice file.
+
+**Usage**:
+
+```console
+$ vizelec schem [OPTIONS] SCHEM
+```
+
+**Arguments**:
+
+* `SCHEM`: [required]
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
