@@ -1,0 +1,13 @@
+e01loss/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+e01loss/auxfuncs.py,sha256=P-MFjkvZ7WNTQ2k-Y26u_pv1lZ1Cnp1UKhrrsxOZRWc,2791
+e01loss/classifylinear.py,sha256=09uzQqykmVf7pXnCe4zjMQKKFd1rE1uGYYTQEa7-cH0,6265
+e01loss/exact_classify01loss.py,sha256=Dx6Lklb_jvtOSI9BXzNqDNcStAGRigS6f2kbeC2uaOQ,11239
+e01loss/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+e01loss/test/test_classify01loss_data.py,sha256=0kVdANX3xFRTZqw5z7DbphoI9Soai6UU0jDZBJ4hfwQ,766
+e01loss/test/test_classify01loss_synth.py,sha256=iPeGldkVxLbjYkSdng4f2QHc91wbKTp19m1GPm6CbR4,1901
+e01loss/test/voicepath_data.csv,sha256=06DGZa1QP7gARFkLaBuTYqnnfF51axCvx3MK8bdyniA,14648
+e01loss-1.0.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+e01loss-1.0.0.dist-info/METADATA,sha256=znkdPcdE7jfEUOP60XtdCS8vaSEY2QbteRPYzcGPj0g,8366
+e01loss-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+e01loss-1.0.0.dist-info/top_level.txt,sha256=ls33HIsO8URw-sRdvLnmOADMVccFnlIQkLs21hwuH2c,8
+e01loss-1.0.0.dist-info/RECORD,,
