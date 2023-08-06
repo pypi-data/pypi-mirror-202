@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nlp2cron
+Version: 0.1.0
+Summary: Nature language to cron
+Author: quqinglei
+Author-email: quqinglei@icloud.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: cn2an (>=0.5.19,<0.6.0)
+Description-Content-Type: text/markdown
+
+## 中文自然语言转CRON
+
+为了支持一次性任务, 我在cron表达式后面加了个标志位, 
+T 代表是频率任务, F 代表是一次性任务
+
+如果没这个需要,直接去掉最后一位就可以啦
+
