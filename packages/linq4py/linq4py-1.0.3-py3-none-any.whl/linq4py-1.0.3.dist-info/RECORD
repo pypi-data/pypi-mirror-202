@@ -1,0 +1,8 @@
+linq4py/__init__.py,sha256=J3ty44NnflFxUN_Y7shHOUIfljq23U-ca_HxCsF85ag,28
+linq4py/core.py,sha256=4O3ik1v9uOVgSUpfKVg-xjU0S2dx9glTOtNZMb-dgAI,4241
+linq4py/exceptions.py,sha256=zEZy19BfrVsSoBC300KPCAgdZeyhMmAj9MsMbeQNiuU,220
+linq4py/linq4py.py,sha256=hm5mjJosaEVCLo404GUXZrcfiLxxlERgEjmVxnlylro,32067
+linq4py-1.0.3.dist-info/LICENSE,sha256=kAMbymsHzNN2044IEXkBSlCu_2z-HL-S3e3KhCuG9qo,1095
+linq4py-1.0.3.dist-info/METADATA,sha256=X3aQNBOUdv-9QLmhkahrE_LzE0LpCaYefhgbqrOUhBc,1862
+linq4py-1.0.3.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+linq4py-1.0.3.dist-info/RECORD,,
