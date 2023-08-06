@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: time-util-wj
+Version: 1.0.4
+Summary: 提供了各种时间转换的方法
+Home-page: https://github.com/wangjie-jason/time_utils
+Author: WangJie
+Author-email: 1641540482@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+将 python 的 requests 代码转换成 curl 命令
+
+# 安装
+
+```python
+pip install time-util-wj
+```
+
+# 使用
+
+```python
+from time_util_wj import TimeUtil
+
+print(TimeUtil.get_current_time_str())  ###获取当前字符串格式化时间
+print(TimeUtil.get_current_time_unix())  ###获取当前时间戳
+print(TimeUtil.get_seven_days_ago_time_unix())
+print(TimeUtil.str_time_to_unix("2022-07-07 20:28:50"))
+print(TimeUtil.unix_time_to_str(1657197749260))
+print(TimeUtil.get_recently_day(-7, 'unix'))
+print(TimeUtil.get_day_begin_unix())
+print(TimeUtil.get_day_end_unix(-4))
+print(TimeUtil.get_month_datetime_begin(datetime.datetime.now()))
+print(TimeUtil.get_month_datetime_end(datetime.datetime.now()))
+print(TimeUtil.compare_time(datetime.datetime.fromisoformat('2022-07-01 00:00:00'),
+                            datetime.datetime.fromisoformat('2022-05-31 23:59:59')))
+```
+
+
