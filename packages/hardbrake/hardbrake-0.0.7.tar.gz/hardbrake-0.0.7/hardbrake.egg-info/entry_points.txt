@@ -1,0 +1,3 @@
+[console_scripts]
+hardbrake = src.app:cli
+hb = src.app:cli
