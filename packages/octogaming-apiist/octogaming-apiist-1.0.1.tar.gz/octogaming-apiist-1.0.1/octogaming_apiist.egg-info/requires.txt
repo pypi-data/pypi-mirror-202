@@ -1,0 +1,11 @@
+nose2
+chardet
+requests
+jsonpath-ng
+lxml
+unicodecsv
+cssselect
+pyopenssl
+
+[pytest]
+pytest
