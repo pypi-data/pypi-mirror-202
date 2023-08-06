@@ -1,0 +1,3 @@
+[rasterio.rio_plugins]
+faux=rio_faux.cli:faux
+
