@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: qz_doudizhu
+Version: 1.0.1
+Summary: 演示一个斗地主游戏
+Project-URL: Homepage, https://github.com/qinggumeng/wz_doudizhu
+Project-URL: Bug Tracker, https://github.com/qinggumeng/wz_doudizhu/issues
+Author-email: wz <353782686@qq.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Python 斗地主
+
+还没完成，但可以运行了
