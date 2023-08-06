@@ -1,0 +1,8 @@
+setuptools
+Products.CMFCore
+plone.i18n
+zope.viewlet
+
+[test]
+plone.app.testing
+plone.testing
