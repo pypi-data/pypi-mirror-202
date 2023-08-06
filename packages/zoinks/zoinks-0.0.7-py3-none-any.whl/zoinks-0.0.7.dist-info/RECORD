@@ -1,0 +1,10 @@
+zoinks/__init__.py,sha256=4PWccHVtENL6ZHP5GLds37SCACeih-vwAfJbeVSKruU,1493
+zoinks/__main__.py,sha256=p0rClP3KLs8qX7eoP9jaGXmcauGdNE0Xh05tbxmZ7t4,15045
+zoinks/exceptions.py,sha256=leHEk9lzGmVXPrKvmm7mdfNKlLEvjLWxf0qIG57-m2Q,1013
+zoinks/exit_codes.py,sha256=wFAx9H_oxUKVeDi4UKSxP_tZg5iKnVo4o4noUOx_0_o,1394
+zoinks-0.0.7.dist-info/LICENSE,sha256=aCmck0eHJV_UAkzP3mZjEFE2p5wlDT8AT3ieobO5aN8,1622
+zoinks-0.0.7.dist-info/METADATA,sha256=f_KfceHDGCteYjhG1O6VzK998E0gbbCdaksbYKHYMO0,4514
+zoinks-0.0.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+zoinks-0.0.7.dist-info/entry_points.txt,sha256=gziep12CiJlwKvKjVuDwoVhehhrs_3CLSrUtWggnWYQ,64
+zoinks-0.0.7.dist-info/top_level.txt,sha256=4J5BuavdkrqITIjnnLr2343M28NuED5xQRJmpHtX3ec,7
+zoinks-0.0.7.dist-info/RECORD,,
