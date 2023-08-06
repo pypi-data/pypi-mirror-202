@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: yummongi
+Version: 0.0.1
+Summary: oss-dev my calculator 0001
+Home-page: http://github.com/yummongi/setuptools
+Download-URL: http://github.com/yummongi/setuptools/archive/refs/tags/v0.0.1.zip
+Author: yummongi
+Author-email: yummongi@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: mycalc
+
+UNKNOWN
