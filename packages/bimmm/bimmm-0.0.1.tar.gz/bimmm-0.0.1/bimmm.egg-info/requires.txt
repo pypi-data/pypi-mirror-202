@@ -1,0 +1,8 @@
+pandas
+numpy
+itertools
+scipy
+plotly
+statsmodels
+tqdm
+requests
