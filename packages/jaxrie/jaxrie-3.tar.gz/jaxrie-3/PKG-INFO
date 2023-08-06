@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: jaxrie
+Version: 3
+Summary: Riemannian JAX
+Author-Email: Nasy <nasyxx+git@gmail.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: jax>=0.4.6
+Requires-Dist: jaxlib>=0.4.6
+Requires-Dist: dm-haiku>=0.0.9
+Requires-Dist: optax>=0.1.4
+Description-Content-Type: text/markdown
+
+
+# Table of Contents
+
+1.  [Introduction](#orgb1c1de6)
+
+
+
+<a id="orgb1c1de6"></a>
+
+# Introduction
+
+Riemannian JAX
+
