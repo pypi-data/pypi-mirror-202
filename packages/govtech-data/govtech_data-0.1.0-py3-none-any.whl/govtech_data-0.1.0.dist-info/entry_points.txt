@@ -1,0 +1,3 @@
+[console_scripts]
+generate-models=govtech_data.utils.models:generate_models
+

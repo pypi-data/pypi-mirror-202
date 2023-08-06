@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: govtech-data
+Version: 0.1.0
+Summary: Library to easily access and read data from data.gov.sg
+License: Singapore Open Data License
+Author: Khee-Chin Chua
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: black (>=23.3.0,<24.0.0)
+Requires-Dist: datamodel-code-generator (>=0.17.2,<0.18.0)
+Requires-Dist: fuzzywuzzy (>=0.18.0,<0.19.0)
+Requires-Dist: loguru (>=0.7.0,<0.8.0)
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Requires-Dist: python-levenshtein (>=0.20.9,<0.21.0)
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+
