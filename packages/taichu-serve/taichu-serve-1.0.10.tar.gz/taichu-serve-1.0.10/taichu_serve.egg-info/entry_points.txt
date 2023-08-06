@@ -1,0 +1,2 @@
+[console_scripts]
+taichu-serve = model_service.command:infer_server_start
