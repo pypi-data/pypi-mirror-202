@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: fuckvkeypad
+Version: 0.2.0
+Summary: Bypassing vKeyboard using OpenCV
+Home-page: https://github.com/soulee-dev/fuckvkeypad
+Author: Soul Lee
+License: MIT License
+Platform: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (==8.1.3)
+Requires-Dist: colorama (==0.4.6)
+Requires-Dist: mypy-extensions (==1.0.0)
+Requires-Dist: numpy (==1.24.2)
+Requires-Dist: opencv-contrib-python (==4.7.0.72)
+Requires-Dist: packaging (==23.0)
+Requires-Dist: pathspec (==0.11.1)
+Requires-Dist: platformdirs (==3.2.0)
+Requires-Dist: scipy (==1.10.1)
+Requires-Dist: svgpathtools (==1.6.0)
+Requires-Dist: svgwrite (==1.4.3)
+Requires-Dist: tomli (==2.0.1)
+
+# 🖕⌨️ fuckvkeypad
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Lint](https://github.com/soulee-dev/FuckVkeyPad/actions/workflows/black.yml/badge.svg)](https://github.com/soulee-dev/FuckVkeyPad/actions/workflows/black.yml)
+[![codecov](https://codecov.io/gh/soulee-dev/FuckVkeyPad/branch/main/graph/badge.svg?token=V3MK4N5X5X)](https://codecov.io/gh/soulee-dev/FuckVkeyPad)
+
+금융, 정부 웹사이트등에 널리 쓰이는 보안 프로그램인 가상키보드(vKeyboard)를 우회합니다
+
+미리 캡쳐된 이미지와 유사도를 분석하는 방식으로 우회가 이루어집니다
+
+![vKeypad1](images/img1.png)
+![vKeypad2](images/img2.png)
+
+
+# 사용 방법
+## vKeypad-Studio
+[사용 방법 영상 - YouTube](https://www.youtube.com/watch?v=4kE4m3oMGX8)
+1. 가상키보드 이미지를 준비합니다
+2. Figma에서 가상 키보드 이미지를 업로드 합니다
+3. Figma에서 사각형으로 가상 키보드 각각의 키를 덮어줍니다
+4. Figma에서 svg 파일로 Export 합니다
+5. 터미널에서 ``vkeypad-studio [이미지 파일] [svg 파일]`` 을 입력합니다
+6. 새로 뜬 창에서, 이미지에 해당되는 키보드 키를 눌러줍니다
+7. assets 폴더 속 사진들과, data.json을 따로 보관 해둡니다
+
+## fuckvkeypad
+### 설치
+```
+pip install fuckvkeypad
+```
+
+### 예제
+assets의 폴더 위치와, data.json 위치를 매개변수로 넘겨줍니다
+```python
+import cv2
+from fuckvkeypad import get_keymap
+
+img = cv2.imread("test_assets/vKeypad.png")
+keymap = get_keymap(
+    img, asset_path="test_assets/", data_path="test_assets/data.json"
+)
+
+print(keymap)
+```
+
+바운딩 박스의 좌표와 키코드를 순서대로 출력합니다
+```python
+[
+  {"box": [0, 0, 55, 55], "key_code": 49},
+  {"box": [58, 0, 113, 55], "key_code": 50},
+  {"box": [116, 0, 171, 55], "key_code": 51},
+  {"box": [0, 58, 55, 113], "key_code": 52},
+  {"box": [58, 58, 113, 113], "key_code": 53},
+  {"box": [116, 58, 171, 113], "key_code": 54},
+  {"box": [0, 116, 55, 171], "key_code": 55},
+  {"box": [58, 116, 113, 171], "key_code": 56},
+  {"box": [116, 116, 171, 171], "key_code": 57},
+  {"box": [58, 174, 113, 229], "key_code": 48},
+]
+```
+
+# Special Thanks
+이 라이브러리는[simple_bank_korea](https://github.com/Beomi/simple_bank_korea)에서 영감을 받아 제작하였습니다
+
