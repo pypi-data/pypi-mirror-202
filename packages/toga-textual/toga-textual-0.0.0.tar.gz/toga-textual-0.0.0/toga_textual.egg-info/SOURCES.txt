@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+tests/__init__.py
+tests/test_implementation.py
+toga_textual/__init__.py
+toga_textual.egg-info/PKG-INFO
+toga_textual.egg-info/SOURCES.txt
+toga_textual.egg-info/dependency_links.txt
+toga_textual.egg-info/entry_points.txt
+toga_textual.egg-info/not-zip-safe
+toga_textual.egg-info/requires.txt
+toga_textual.egg-info/top_level.txt
