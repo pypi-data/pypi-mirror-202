@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/strictpy/__init__.py
+src/strictpy/decorator.py
+src/strictpy/exceptions.py
+src/strictpy/helpers.py
+src/strictpy.egg-info/PKG-INFO
+src/strictpy.egg-info/SOURCES.txt
+src/strictpy.egg-info/dependency_links.txt
+src/strictpy.egg-info/top_level.txt
+tests/test_helpers.py
