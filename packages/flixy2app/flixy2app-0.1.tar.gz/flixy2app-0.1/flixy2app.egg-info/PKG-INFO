@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: flixy2app
+Version: 0.1
+Summary: A UI-Builder that helps programmers build the front-end without codding it.
+Home-page: https://github.com/SKbarbon/flixy
+Author: SKbarbon
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+
+# flixy2app
+flixy2app is a python library for converting pythonista flixy UI library into mac or windows executble file.
+
+# usage
+- first install pythonista on iPadOS or iOS.
+- install the library from: https://github.com/SKbarbon/flixy .
+- install this tool using pip.
+
+after you install it, write this command:
+```cmd
+python3 -m flixy2app.generate 
+```
+
+then folow the Instructions of the window.
