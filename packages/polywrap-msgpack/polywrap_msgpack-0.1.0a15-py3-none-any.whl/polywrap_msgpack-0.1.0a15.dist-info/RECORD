@@ -1,0 +1,11 @@
+polywrap_msgpack/__init__.py,sha256=G93cmOakB8UZJ51NZXy6D4lJi2vNmrkQcCH_JmJ1OgU,715
+polywrap_msgpack/decoder.py,sha256=VM4lH8Uqjn6-YXiwxX9gbPK3jQWC87ePM2n4wQzKVMg,1447
+polywrap_msgpack/encoder.py,sha256=8iMX7kIKx7F37IT9lWLm8-4Z1dfWe6hRM3b0ct6ZVa4,1749
+polywrap_msgpack/errors.py,sha256=h4XUuYvrLHwBnzlZACy3xYC6dJ9GTnU3Q0sc8bfCffY,642
+polywrap_msgpack/extensions/__init__.py,sha256=Wrzo777nk7qDL44okF_rtI-0DXoUy58hDq6vLXlYvpw,316
+polywrap_msgpack/extensions/generic_map.py,sha256=5QtIBJmbqrnc5hGrHFTGiY4rToqLHVgxBhEtLLr0Frc,2499
+polywrap_msgpack/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polywrap_msgpack/sanitize.py,sha256=6OB6rlTN-D4ZYSHD8DFtpDQ-TnI8YBYiTlKCXlx1gcw,2182
+polywrap_msgpack-0.1.0a15.dist-info/METADATA,sha256=BXCaXky-xXVSdDGy62AwpgpeSXSSQNnWEfek6Ed_BmI,1105
+polywrap_msgpack-0.1.0a15.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+polywrap_msgpack-0.1.0a15.dist-info/RECORD,,
