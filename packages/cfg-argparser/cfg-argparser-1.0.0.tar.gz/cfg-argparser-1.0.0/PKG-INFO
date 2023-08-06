@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cfg-argparser
+Version: 1.0.0
+Summary: A package designed to simplify configurable defaults from argparse.
+Author-email: Zeptofine <zeptofine@gmail.com>
+Project-URL: Homepage, https://github.com/zeptofine/cfg-argparser
+Project-URL: Bug Tracker, https://github.com/zeptofine/cfg-argparser/issues
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+a config parser I made to be easily applied to argparse objects.
