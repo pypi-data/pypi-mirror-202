@@ -1,0 +1,8 @@
+torch_simple_timing/__init__.py,sha256=8SQQfe4HTt1r6TZSxoXg81AZ-uiobZ7mpo5nm8hAZFU,825
+torch_simple_timing/clock.py,sha256=_puyf8qTstj0kcq366Bmxoszq39hdjcw3AIwF3jZdwM,8293
+torch_simple_timing/timer.py,sha256=mD6UD4FDqGlVeTpoVaWX-45xN9fUDoFYjTRGc8rMVps,13131
+torch_simple_timing/utils.py,sha256=2v668rzcvrc9vBuo_Rh6ACkSHp89RyjTXfWQRWK0_Nc,988
+torch_simple_timing-0.1.0.dist-info/LICENSE,sha256=oGCV3ZUzdWM6BHMOuwrEgd8lf93Dd8qrMr1VORb9ZUc,1071
+torch_simple_timing-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+torch_simple_timing-0.1.0.dist-info/METADATA,sha256=XZLfPXSWQiYH9rGpLF7tExgJNxtEELqx4QFAlCMvV5w,2710
+torch_simple_timing-0.1.0.dist-info/RECORD,,
