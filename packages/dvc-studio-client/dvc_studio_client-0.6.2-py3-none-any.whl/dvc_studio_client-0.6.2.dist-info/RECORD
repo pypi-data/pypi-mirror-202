@@ -1,0 +1,9 @@
+dvc_studio_client/__init__.py,sha256=G06m3EuDgOOqu1wrCJ2d5ceRJjVJXKqe3IT8xz7zpvU,25
+dvc_studio_client/env.py,sha256=_hrt1L7Gj5bkG1qF5rr9nVwqfuV0eYtrdmvmcZJQkKg,174
+dvc_studio_client/post_live_metrics.py,sha256=zS3HKG4oB0TQyxE2H_pvPigPI78pklhRxW4rzfgYq8c,6171
+dvc_studio_client/schema.py,sha256=NAIx2UxZDElHBsmQP0KqyKS5Yo5AekS0H91hCgU5ANE,1552
+dvc_studio_client-0.6.2.dist-info/LICENSE,sha256=-1jhbPjoIVHR0cEgahL4Zhct75Ff4MzYCR_jOaJDPq8,11340
+dvc_studio_client-0.6.2.dist-info/METADATA,sha256=Raicrxk0j-Zrm7xxVgkPv0UVtaFDBVycMxgLW1LVzh8,3978
+dvc_studio_client-0.6.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dvc_studio_client-0.6.2.dist-info/top_level.txt,sha256=z1A7GtSbZO4EC0FBceC_0E1ot-C1XYsC8zFzow41uCg,18
+dvc_studio_client-0.6.2.dist-info/RECORD,,
