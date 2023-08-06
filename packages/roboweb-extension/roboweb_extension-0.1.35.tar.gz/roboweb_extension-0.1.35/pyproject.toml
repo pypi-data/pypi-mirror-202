@@ -1,0 +1,107 @@
+[build-system]
+requires = [
+    "hatchling>=1.3.1",
+    "jupyterlab~=3.1",
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "roboweb-extension"
+description = "Roboweb JupyterLab extension"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    { name = "Francisco Uribe", email = "francisco.uribe@gmail.com" },
+]
+keywords = [
+    "Jupyter",
+    "JupyterLab",
+    "JupyterLab3",
+]
+classifiers = [
+    "Framework :: Jupyter",
+    "Framework :: Jupyter :: JupyterLab",
+    "Framework :: Jupyter :: JupyterLab :: 3",
+    "Framework :: Jupyter :: JupyterLab :: Extensions",
+    "Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt",
+    "License :: OSI Approved :: BSD License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+
+
+version = "0.1.35"
+
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+Homepage = "https://roboweb.app/"
+
+[tool.hatch.build]
+artifacts = [
+    "roboweb_extension/labextension",
+]
+
+# The shared data build webhook copies files from the wheel into various directories.
+# Jupyter Lab extensions need to be copied into the Jupyter Lab Application Directory
+# https://jupyterlab.readthedocs.io/en/stable/user/directories.html#jupyterlab-application-directory
+# The underscores in the package name are replaced with hyphens because hyphens are used in the
+# node package name.
+[tool.hatch.build.targets.wheel.shared-data]
+"roboweb_extension/labextension/static" = "share/jupyter/labextensions/roboweb-extension/static"
+"install.json" = "share/jupyter/labextensions/roboweb-extension/install.json"
+"roboweb_extension/labextension/package.json" = "share/jupyter/labextensions/roboweb-extension/package.json"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+    ".github",
+]
+
+[tool.hatch.build.hooks.jupyter-builder]
+dependencies = [
+    "hatch-jupyter-builder>=0.5.0",
+]
+build-function = "hatch_jupyter_builder.npm_builder"
+ensured-targets = [
+    "roboweb_extension/labextension/static/style.js",
+    "roboweb_extension/labextension/package.json",
+]
+skip-if-exists = [
+    "roboweb_extension/labextension/static/style.js",
+]
+
+[tool.hatch.build.hooks.jupyter-builder.editable-build-kwargs]
+build_dir = "roboweb_extension/labextension"
+source_dir = "lib"
+build_cmd = "build"
+
+[tool.hatch.build.hooks.jupyter-builder.build-kwargs]
+build_cmd = "build:prod"
+
+[tool.tbump]
+field = [
+    { name = "channel", default = "" },
+    { name = "release", default = "" },
+]
+file = [
+    { src = "pyproject.toml" },
+    { src = "roboweb_extension/_version.py" },
+    { src = "package.json" },
+]
+
+[tool.tbump.version]
+current = "0.1.2"
+regex = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)((?P<channel>a|b|rc|.dev)(?P<release>\\d+))?"
+
+[tool.tbump.git]
+message_template = "Bump to {new_version}"
+tag_template = "v{new_version}"
+
+[license]
+file = "LICENSE"
