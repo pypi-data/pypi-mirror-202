@@ -1,0 +1,10 @@
+tw_invoice/__init__.py,sha256=bDPddPLpkKHOwufD9VpaJkn94HO_0496hfbJHpVs7vA,175
+tw_invoice/app_client.py,sha256=x8ekVFS1OKE6UFc1q047TkE-xHuFHtzTvWhR3qiTrIg,11832
+tw_invoice/carrier.py,sha256=FCnh03gggsAwJItPeF3gfek5rS9OhBQ8QR_qsnrDjXo,1447
+tw_invoice/exception.py,sha256=avMQP70y-zv-wv7s8FyvD3q42wdJQF3y-EO3sE2Y14U,307
+tw_invoice/schema.py,sha256=BNFcKGgha9PPTvKTqJynDZtjzpE5OwPMMX0X9E0Oqxc,3961
+tw_invoice/utils.py,sha256=9VzR0z-cveSaAbgvRfc1TcfiFur9qQYLRd-ud0hc10Y,2298
+tw_invoice-2023.4.9.dist-info/LICENSE,sha256=eSkx13_excnX-A_wmUs5d0BpvLzsPSGPiqRQ18rryeE,1077
+tw_invoice-2023.4.9.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+tw_invoice-2023.4.9.dist-info/METADATA,sha256=NhF-yFzvkiQMRPO6S7mjKyunspeugs1k-YiUyPUUGOY,2995
+tw_invoice-2023.4.9.dist-info/RECORD,,
