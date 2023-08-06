@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: db-classifier
+Version: 0.0.1
+Summary: A Probabilistic Approach to Multiclass Classification with Unknown Instances
+Author-email: Weld Lucas Cunha <cunha.lucas012@gmail.com>
+Project-URL: Homepage, https://github.com/dwelcaslu/DBCLASS
+Project-URL: Bug Tracker, https://github.com/dwelcaslu/DBCLASS/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DBCLASS
+A Probabilistic Approach to Multiclass Classification with Unknown Instances
+
+
+Use 'pip list --format=freeze > requirements.txt' to create/update requirements.txt file<br>
+Use 'pip install -r requirements.txt' to install dependencies from requirements.txt file
