@@ -1,0 +1,15 @@
+presencedb/__init__.py,sha256=9NDM3Z5GVSmonFkQwhB4fk-pKZzebRqjNw6-Ylr7nPE,414
+presencedb/abc.py,sha256=No5IOAftI2dSiM531oCGQ5KvyB7sJCIs3rAkhhDQ6qw,2118
+presencedb/activity.py,sha256=2V2wdIylvHq_FNAT-CkVA2idjUH3xWnSfRXY1TXjcSA,2647
+presencedb/client.py,sha256=qqbLkc0F9jvH1JWYOGAAmSUNINlLlLZAzK7H3O-JY0k,4888
+presencedb/constants.py,sha256=ZT_zrHhUXjp-1zZbP3SIqp0owldQBbxdAKCUhzTSiqc,650
+presencedb/enums.py,sha256=cLmelsjZyCPmT9kPWvhW465r5_pq_SmDzeV-D1CD5EY,1119
+presencedb/errors.py,sha256=oa33KNZ9Xmor_gd1sDJxycC8t9Q9_EebQeb_TbEBTs0,2511
+presencedb/user.py,sha256=71-eFmahbmSBNmWWS1AY5A6buJmLLh2MrUrjMk_2HOw,6323
+presencedb/utils.py,sha256=K4MAZJfAivsUAeB2k-abwErRFHVRrLwHoeInTnc-P3w,1777
+presencedb-2.0.0.dist-info/AUTHORS.md,sha256=6z56SKj1tQElsfmjuYJ6dJ65Rd9LZ6ATb3n5beEbZ0o,75
+presencedb-2.0.0.dist-info/LICENSE,sha256=YJhLEBF8Zl0pSQV6dmAxxImCw_QcfkgBOJnTi4SnKdA,1083
+presencedb-2.0.0.dist-info/METADATA,sha256=OwOiUneofyFwsPBF9nkvmGZlgkM1j2O_J2Wvyj0m_Uo,783
+presencedb-2.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+presencedb-2.0.0.dist-info/top_level.txt,sha256=HWIpqDPWHgvP3-YMUbdtlCHxPK7qTRKF5pm4NsmKoik,11
+presencedb-2.0.0.dist-info/RECORD,,
