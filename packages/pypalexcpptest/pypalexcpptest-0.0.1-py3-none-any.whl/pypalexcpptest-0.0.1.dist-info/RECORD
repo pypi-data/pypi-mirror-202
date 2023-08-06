@@ -1,0 +1,13 @@
+pypalexcpptest/__init__.py,sha256=4q1rOLljXaz93UIKWs9n6J81rMh85_UlURBFPUL6Tzs,419
+pypalexcpptest/__main__.py,sha256=nuSdOXq1U4d-SVRohpWUEYoGChut4j4JTr8IFObtx0Q,7459
+pypalexcpptest/arg_messages.py,sha256=ggudim03CLrs5bftp0AQ_0dyO0y9_-UBefyiYPk0Edo,2385
+pypalexcpptest/conversion_tests.py,sha256=SCfww4FPCvzuJPmdikc8ADOWlXaYmfDl43PwKL5OeFA,1524
+pypalexcpptest/conversion_utils.py,sha256=E7UJm4gXLafi2DVimwUrQeD-dYIXkHDvXXHO0ZbfdBo,4342
+pypalexcpptest/image_utils.py,sha256=VlNmxNC8tfRFWXVxgsr53xXd24rIdjKL8OmWe0MEq8E,2211
+pypalexcpptest/settings.py,sha256=7VlZukSAYEqdqGh-vtWEMnvckuOKZ-LSkOFdaTJT6LU,640
+pypalexcpptest-0.0.1.dist-info/LICENSE,sha256=QPd3qqhwQmCjb-9omuUQiBGE2cSBARYBw7Gza6jVSK8,1059
+pypalexcpptest-0.0.1.dist-info/METADATA,sha256=qGUo21aF3gfkNtntQD4Pw131cqyZqDAIUvydKHZIZ6Y,1041
+pypalexcpptest-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pypalexcpptest-0.0.1.dist-info/entry_points.txt,sha256=B_Ggkb7oMqLlQfYyWOLovf4oFrgGtEYPG021e5ssA44,63
+pypalexcpptest-0.0.1.dist-info/top_level.txt,sha256=eCHTIxc11T8eqAmcLSjnZwCxs3913PaTotGYFnorXo8,15
+pypalexcpptest-0.0.1.dist-info/RECORD,,
