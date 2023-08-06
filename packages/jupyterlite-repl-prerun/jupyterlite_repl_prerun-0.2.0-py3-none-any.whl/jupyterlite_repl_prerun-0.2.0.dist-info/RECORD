@@ -1,0 +1,13 @@
+jupyterlite_repl_prerun/__init__.py,sha256=wtl7PEDILHfJFWMMkMUv5liF6JEcmlvef8E1PaXSyZo,166
+jupyterlite_repl_prerun/_version.py,sha256=73xmj_rtt0boRuIZ0h5wqHItFsCNZHTC-Wa0tSeAxyY,171
+jupyterlite_repl_prerun-0.2.0.data/data/share/jupyter/labextensions/jupyterlite-repl-prerun/package.json,sha256=jRGdT58GB_WF9XUJmZLEQfk9KPSU48JiS720PV17cZo,5112
+jupyterlite_repl_prerun-0.2.0.data/data/share/jupyter/labextensions/jupyterlite-repl-prerun/static/568.d794d3d66d23dc14a2f4.js,sha256=15TT1m0j3BSi9K715v9eBgTzcIej1cm1XkgJtW3QBiI,727
+jupyterlite_repl_prerun-0.2.0.data/data/share/jupyter/labextensions/jupyterlite-repl-prerun/static/747.a1a07690be9cf9e8e997.js,sha256=oaB2kL6c-ejpl7M7eV4yX2qBs7CahtbAcQWUUEx_vmI,3522
+jupyterlite_repl_prerun-0.2.0.data/data/share/jupyter/labextensions/jupyterlite-repl-prerun/static/remoteEntry.837d91241593cb213d2f.js,sha256=g32RJBWTyyE9L8tIYK-0v0e-cUDTuho1lCJMwh_lW98,6386
+jupyterlite_repl_prerun-0.2.0.data/data/share/jupyter/labextensions/jupyterlite-repl-prerun/static/style.js,sha256=YaoPqiYek6ULnRYS4Ii2Jv3mmEg6XSwHvg_YqJy3tcA,166
+jupyterlite_repl_prerun-0.2.0.data/data/share/jupyter/labextensions/jupyterlite-repl-prerun/static/third-party-licenses.json,sha256=P_VjLKCSMZ3sXuPckg8bDyB8Xn8JD7EsiIoRqvSP3h0,2452
+jupyterlite_repl_prerun-0.2.0.data/data/share/jupyter/labextensions/jupyterlite-repl-prerun/install.json,sha256=WBVaq-G7YAkIPLfCNjKf08gv1LdUYVcmUW2U5bR93kw,207
+jupyterlite_repl_prerun-0.2.0.dist-info/METADATA,sha256=GqPjn049RcB68GTgyflk7Hkt7VkhWXBcfws_8j-O3i0,7585
+jupyterlite_repl_prerun-0.2.0.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+jupyterlite_repl_prerun-0.2.0.dist-info/licenses/LICENSE,sha256=rkzRaqOcq8UbD1p8WT3vTN00tf_roEqYG0Hz1C8EMXg,1515
+jupyterlite_repl_prerun-0.2.0.dist-info/RECORD,,
