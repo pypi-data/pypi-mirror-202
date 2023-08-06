@@ -1,0 +1,8 @@
+dbt_schema_generator/__init__.py,sha256=Op7KNlDHgENQdhwIMXUp57VETzzbLBXxJRdeSIb_S3U,28
+dbt_schema_generator/generator.py,sha256=s5Ije22iMD_FwzbeWTYojKpbGB0MlfVhSm2dlg0SBsQ,6139
+dbt_schema_generator-0.1.0a1.dist-info/LICENSE,sha256=uVbyyVYqSL5uPK3yHq6VfhbG1LPYg4Bl3HiWjhN-bAQ,1062
+dbt_schema_generator-0.1.0a1.dist-info/METADATA,sha256=SwB8750hnKJiIeW_6GioajySaHsjh9V8NyRQ36o_zrY,1757
+dbt_schema_generator-0.1.0a1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dbt_schema_generator-0.1.0a1.dist-info/entry_points.txt,sha256=qQKC6Wb0GiaclD9Ygyz9dP9f4WBc2g6SYWQJSD0mWIA,67
+dbt_schema_generator-0.1.0a1.dist-info/top_level.txt,sha256=Omid3S9D0uq-xBPyeaEVK-OymdiepF7z2sL-8MVRP-o,21
+dbt_schema_generator-0.1.0a1.dist-info/RECORD,,
