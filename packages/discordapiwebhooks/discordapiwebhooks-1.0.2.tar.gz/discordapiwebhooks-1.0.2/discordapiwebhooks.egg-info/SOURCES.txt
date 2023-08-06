@@ -1,0 +1,8 @@
+README.md
+setup.py
+discordapiwebhooks/discordapiwebhooks.py
+discordapiwebhooks/setup.py
+discordapiwebhooks.egg-info/PKG-INFO
+discordapiwebhooks.egg-info/SOURCES.txt
+discordapiwebhooks.egg-info/dependency_links.txt
+discordapiwebhooks.egg-info/top_level.txt
