@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ferre
+Version: 1.0.0
+Summary: Spectral analysis code with synthetic spectral grid
+Home-page: https://github.com/dnidever/ferre
+Author: Carlos Allende Prieto, David Nidever
+Author-email: carlos.allende.prieto@iac.es,dnidever@montana.edu
+Requires: numpy
+Requires: astropy(>=4.0)
+Requires: scipy
+Requires: matplotlib
+
