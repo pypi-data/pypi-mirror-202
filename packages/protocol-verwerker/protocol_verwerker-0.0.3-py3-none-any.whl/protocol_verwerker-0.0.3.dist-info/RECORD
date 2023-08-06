@@ -1,0 +1,10 @@
+protocol_verwerker/__init__.py,sha256=PaxUmPs1zNPK6yVI7FbLQHBjFV8FShK1c1VneSXuqrI,124
+protocol_verwerker/__main__.py,sha256=Dm5v9CxChMa3QIPmWu0A093EeGEubsEHNFmuXRecU9k,726
+protocol_verwerker/frequentietabel_generator.py,sha256=xC70zpclBM8MkzN2FTO_uF9qenA1nHSEDrf29nx4b8M,3552
+protocol_verwerker/sequentietabel_generator.py,sha256=eid1_Fr4ybIiegjYrCAWzMirZIi24mwIAYqKLz6UyPM,2911
+protocol_verwerker-0.0.3.dist-info/LICENSE,sha256=QW9FVf9BA8SsDWfFDPUDpeNu7SN6AzBrK3EoHljz4J4,1074
+protocol_verwerker-0.0.3.dist-info/METADATA,sha256=LMqD3MxtC-AB77NpGD6kpkthTL_37D6RDUz0ENAcheU,343
+protocol_verwerker-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+protocol_verwerker-0.0.3.dist-info/entry_points.txt,sha256=ih2g5bXlw_Glj3s4Q1vsrN2xVShnDr2QGX8OQ4lL_E0,72
+protocol_verwerker-0.0.3.dist-info/top_level.txt,sha256=BNeOxQFTpLmIoz5ewbWeGBkpLOQqmcTPqAP9zWuiihs,19
+protocol_verwerker-0.0.3.dist-info/RECORD,,

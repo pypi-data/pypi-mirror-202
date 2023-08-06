@@ -1,0 +1,2 @@
+[console_scripts]
+protocol_verwerker = protocol_verwerker.__main__:main
