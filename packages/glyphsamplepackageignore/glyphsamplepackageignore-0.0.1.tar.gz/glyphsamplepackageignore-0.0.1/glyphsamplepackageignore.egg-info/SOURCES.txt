@@ -1,0 +1,5 @@
+setup.py
+glyphsamplepackageignore.egg-info/PKG-INFO
+glyphsamplepackageignore.egg-info/SOURCES.txt
+glyphsamplepackageignore.egg-info/dependency_links.txt
+glyphsamplepackageignore.egg-info/top_level.txt
