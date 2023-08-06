@@ -1,0 +1,10 @@
+bazaar_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bazaar_cli/bazaarwrapper.py,sha256=iDZRAtEuRyMywpo-FIHdOHPLuaJ5ji7PzZShtJGHVEM,2612
+bazaar_cli/common.py,sha256=sjlEFBiCAcL5w42pGzMB8EodBww94gSPoFPNM6iwelY,399
+bazaar_cli/main.py,sha256=oBgs8rUq24VT8ZcvcpzYV2Hn-EVpJ4grrhnTBASFSZE,712
+bazaar_cli/mw_dl.py,sha256=-6hGEpE_ayHIeeluj1HPnapUWMT0T-yYNoA458qDEmE,1019
+bazaar_cli/mw_list.py,sha256=1EglSJK08LKQmHgeg1jeSNJ1E2NxHESU-fwVfowsSmw,1719
+bazaar_cli-0.1.0.dist-info/METADATA,sha256=6csWoYyljU3MCNsb3BRQ9nAVtj6xGw9QSW0VDC1eVIg,1050
+bazaar_cli-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+bazaar_cli-0.1.0.dist-info/entry_points.txt,sha256=AmavaQjfhsZ3iumWVsL85_iayMJ523xdB8akoi0pDOY,103
+bazaar_cli-0.1.0.dist-info/RECORD,,

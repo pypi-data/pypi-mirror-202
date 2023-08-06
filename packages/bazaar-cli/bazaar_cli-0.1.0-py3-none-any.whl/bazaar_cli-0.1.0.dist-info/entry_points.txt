@@ -1,0 +1,5 @@
+[console_scripts]
+bazaar=bazaar_cli.main:main
+bazaar-cli=bazaar_cli.main:main
+bz=bazaar_cli.main:main
+
