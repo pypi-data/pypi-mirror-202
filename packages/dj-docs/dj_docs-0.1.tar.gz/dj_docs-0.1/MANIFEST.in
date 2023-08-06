@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+include dj_docs/management/commands/hints/intro.md
+include dj_docs/management/commands/hints/configuration.md
