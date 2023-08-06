@@ -1,0 +1,15 @@
+uxarray/__init__.py,sha256=kUTuKRkrvcHFJb_fR8GlR3fkTooXqM8WIFrWgFMiKqw,43
+uxarray/_exodus.py,sha256=6iZtHk8CZocqvSMUI2sDIz08gckFcT2AYf7F9bODNeE,12925
+uxarray/_mpas.py,sha256=KdH7VZbXpBko8J3tvwTJcsYGiUv0Gs6Vc0THCK_iYho,11474
+uxarray/_scrip.py,sha256=H9a-cVjElHPtw6DxM9Etggvd0ncPOLKHsl6B0jSw7F4,8698
+uxarray/_shapefile.py,sha256=RgMeIlBEF3WXsgqm-0NP0QoVf7PKbs5W4xHDeByElsM,258
+uxarray/_ugrid.py,sha256=P1n85oP5Jcae6XfFPjHhDsFuIFkHP16eGx8yxmOoe2k,3875
+uxarray/constants.py,sha256=5QQ2B0nHKDIE0ka71qWs2c9M9xbuRail21kDEo6DSdc,82
+uxarray/get_quadratureDG.py,sha256=Mo78kuNYK4AL-r7TYKnUruygdN6q4wCs4X1a1Y3DIV4,13193
+uxarray/grid.py,sha256=eYMYwzIe_v11QhmfOM3XqY1hbeD0gpt585i0r5iioUo,20707
+uxarray/helpers.py,sha256=mizU_vzUYIsyrGXpkhUuymSYHSZARq074NqLjNC_Jls,19769
+uxarray-2023.4.0.dist-info/LICENSE,sha256=Dcfy2XK_qDQlzPpuy69ZyT0RQkzGKcWUd9PuhsWCfUY,11377
+uxarray-2023.4.0.dist-info/METADATA,sha256=iOzch1OzCrRgzkzln2ScCWm0Y2_wzm7nB08nLSTRDJs,7916
+uxarray-2023.4.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+uxarray-2023.4.0.dist-info/top_level.txt,sha256=2QUIA2Z4xluf6xseSbRlXgGYuSSsiWACmlYDn3Azg1I,8
+uxarray-2023.4.0.dist-info/RECORD,,
