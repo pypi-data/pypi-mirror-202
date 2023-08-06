@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: opentrain
+Version: 0.0.1
+Summary: 🚂 Fine-tune OpenAI models for text classification, question answering, and more
+Project-URL: Documentation, https://alvarobartt.github.io/opentrain
+Project-URL: Issues, https://github.com/alvarobartt/opentrain/issues
+Project-URL: Source, https://github.com/alvarobartt/opentrain
+Author-email: Alvaro Bartolome <alvarobartt@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: <3.11,>=3.8
+Requires-Dist: openai~=0.27.4
+Provides-Extra: docs
+Requires-Dist: mkdocs-git-revision-date-localized-plugin~=1.1.0; extra == 'docs'
+Requires-Dist: mkdocs-material~=8.5.4; extra == 'docs'
+Requires-Dist: mkdocstrings[python]~=0.19.0; extra == 'docs'
+Requires-Dist: mkdocs~=1.4.0; extra == 'docs'
+Provides-Extra: quality
+Requires-Dist: black~=22.10.0; extra == 'quality'
+Requires-Dist: pre-commit~=2.20.0; extra == 'quality'
+Requires-Dist: ruff~=0.0.194; extra == 'quality'
+Provides-Extra: tests
+Requires-Dist: pytest~=7.1.2; extra == 'tests'
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <h1>opentrain</h1>
+  <p>
+    <em>🚂 Fine-tune OpenAI models for text classification, question answering, and more</em>
+  </p>
+</div>
+
+---
+
+`opentrain` is a simple Python package to fine-tune OpenAI models for task-specific purposes such as text classification, token classification, or question answering.
+
+## Usage
+
+```python
+import openai
+from opentrain.train import OpenAITrainer
+openai.api_key = "<ADD_OPENAI_API_KEY_HERE>"
+trainer = OpenAITrainer(model="ada")
+trainer.train(
+    [
+        {
+            "prompt": "I love to play soccer ->",
+            "completion": " soccer",
+        },
+        {
+            "prompt": "I love to play basketball ->",
+            "completion": " basketball",
+        },
+    ],
+)
+```
