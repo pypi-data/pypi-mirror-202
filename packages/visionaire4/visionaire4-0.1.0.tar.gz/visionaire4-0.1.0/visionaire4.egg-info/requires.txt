@@ -1,0 +1,14 @@
+docker>=4.3.0
+imagesize
+matplotlib
+numpy
+pyyaml
+requests
+tqdm==4.64.1
+
+[dev]
+flake8
+pytest
+pytest-cov
+twine
+wheel
