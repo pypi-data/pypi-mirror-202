@@ -1,0 +1,15 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+openhexa/__init__.py
+openhexa/api.py
+openhexa/cli.py
+openhexa.cli.egg-info/PKG-INFO
+openhexa.cli.egg-info/SOURCES.txt
+openhexa.cli.egg-info/dependency_links.txt
+openhexa.cli.egg-info/entry_points.txt
+openhexa.cli.egg-info/requires.txt
+openhexa.cli.egg-info/top_level.txt
+openhexa.cli.egg-info/zip-safe

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: openhexa.cli
+Version: 0.0.1
+Summary: OpenHexa CLI
+Home-page: https://www.bluesquarehub.com
+Author: Bluesquare
+Author-email: dev@bluesquarehub.com
+License: MIT License
+Keywords: openhexa,pipelines
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENCE

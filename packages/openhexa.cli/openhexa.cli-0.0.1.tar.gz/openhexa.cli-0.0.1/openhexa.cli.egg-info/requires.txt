@@ -1,0 +1,7 @@
+click
+requests
+
+[dev]
+black
+flake8
+build
