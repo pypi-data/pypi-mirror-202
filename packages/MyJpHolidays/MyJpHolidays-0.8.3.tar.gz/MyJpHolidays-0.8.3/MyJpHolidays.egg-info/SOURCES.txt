@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+MyJpHolidays/MyJpHolidays.py
+MyJpHolidays/__init__.py
+MyJpHolidays.egg-info/PKG-INFO
+MyJpHolidays.egg-info/SOURCES.txt
+MyJpHolidays.egg-info/dependency_links.txt
+MyJpHolidays.egg-info/requires.txt
+MyJpHolidays.egg-info/top_level.txt
