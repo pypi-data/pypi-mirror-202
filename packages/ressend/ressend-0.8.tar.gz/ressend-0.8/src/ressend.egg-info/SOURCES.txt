@@ -1,0 +1,10 @@
+LICENSE.rst
+setup.cfg
+setup.py
+src/ressend/__init__.py
+src/ressend/second.py
+src/ressend.egg-info/PKG-INFO
+src/ressend.egg-info/SOURCES.txt
+src/ressend.egg-info/dependency_links.txt
+src/ressend.egg-info/requires.txt
+src/ressend.egg-info/top_level.txt
