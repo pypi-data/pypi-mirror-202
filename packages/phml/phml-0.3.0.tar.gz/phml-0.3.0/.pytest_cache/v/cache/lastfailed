@@ -1,0 +1,4 @@
+{
+  "tests/test_component.py::TestComponentManager::test_validate": true,
+  "tests/utilities/test_transform.py::TestSanatize::test_github_flavor": true
+}

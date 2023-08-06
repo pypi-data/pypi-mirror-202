@@ -1,0 +1,15 @@
+[
+  "test_locate.py::test_find",
+  "test_locate.py::test_find_after",
+  "test_locate.py::test_find_all",
+  "test_locate.py::test_find_all_after",
+  "test_locate.py::test_find_all_before",
+  "test_locate.py::test_find_all_between",
+  "test_locate.py::test_find_before",
+  "test_locate.py::test_index_add_remove",
+  "test_locate.py::test_index_attribute",
+  "test_locate.py::test_index_callable",
+  "test_locate.py::test_select_matches",
+  "test_locate.py::test_select_query",
+  "test_locate.py::test_select_query_all"
+]
