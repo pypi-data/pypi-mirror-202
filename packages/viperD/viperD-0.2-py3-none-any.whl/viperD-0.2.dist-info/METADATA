@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: viperD
+Version: 0.2
+Summary: Example package description
+Author: Mohammad Nawaz Ahmad
+Author-email: mohammad_nawaz_ahmad@mckinsey.com
+License: BSD 3-Clause License
+Keywords: deploy,python applications
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: click
+
