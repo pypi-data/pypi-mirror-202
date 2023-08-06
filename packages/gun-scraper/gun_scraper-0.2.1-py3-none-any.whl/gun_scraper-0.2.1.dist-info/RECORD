@@ -1,0 +1,15 @@
+gun_scraper/__init__.py,sha256=lu5Rt9W7RwvJnm0Fo-gr3pxViv8v7A7NBTL92uPDel0,85
+gun_scraper/__main__.py,sha256=u9iU7jY-eqUbsYvIVyc3DvhXSnwB_nrNqE33QMKTgdY,6123
+gun_scraper/file_io.py,sha256=bbx8sY32Mw67ygu4_9qhmYsSV4Zs8n_Edk4_k8QPn2k,3663
+gun_scraper/notifier.py,sha256=N9i-qZIwK1BPb-pwKhaTy_dCitHuC_M7-7zvT00Cd88,3780
+gun_scraper/scrapers/__init__.py,sha256=WYj7Ykg1UgrcXJmIqTg98PWaCyDJMlR77wIBCaeT1Lo,23
+gun_scraper/scrapers/jaktmarken.py,sha256=o903-WX7hl0340hGQRWEfCse-4PVrkk9ME80myOnboc,4853
+gun_scraper/scrapers/jg.py,sha256=hODseIVBblPlzkt2X-z8O8hckr_Sc4VnNzhRcnVTrvw,8056
+gun_scraper/scrapers/scraper_abc.py,sha256=lAbnXhWaLGfsqFkyFYqyHbYKrjwZ9EnwsEPbuO0CpLU,3245
+gun_scraper/scrapers/torsbo.py,sha256=WDt5AarkVmeyjtrTqY_7BGsBgAhkPyvMeFCu1Lrebs0,6290
+gun_scraper/utils.py,sha256=sqxfOsWnXBNN4X5aEfMVQOx0MSOROWGtZ4_SR9KEDRE,576
+gun_scraper-0.2.1.dist-info/LICENSE,sha256=FaFOGZ5TtGSwuFbe1_-CAb9RPW08guhZSCjt0catbs0,1068
+gun_scraper-0.2.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+gun_scraper-0.2.1.dist-info/entry_points.txt,sha256=qB9UcaOy6_pWjCbQq0NPgI39d5uRNgb1JvNC-ivt6zA,57
+gun_scraper-0.2.1.dist-info/METADATA,sha256=QPNFFk6cDqbs1rbf-NAwd6v3CnV58JotcA66SCzaL2c,2646
+gun_scraper-0.2.1.dist-info/RECORD,,
