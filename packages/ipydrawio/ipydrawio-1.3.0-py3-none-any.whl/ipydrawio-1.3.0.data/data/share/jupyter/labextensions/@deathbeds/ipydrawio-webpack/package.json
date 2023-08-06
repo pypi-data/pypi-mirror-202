@@ -1,0 +1,63 @@
+{
+  "name": "@deathbeds/ipydrawio-webpack",
+  "version": "21.1.600",
+  "description": "A webpack-ready repackaging of drawio",
+  "license": "Apache-2.0",
+  "author": "IPyDrawio Contributors",
+  "homepage": "https://ipydrawio.rtfd.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deathbeds/ipydrawio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deathbeds/ipydrawio/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build:pre": "python -m scripts.patch && python -m scripts.static"
+  },
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "@jupyterlab/application": "^3.1.0"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.6.1",
+    "copy-webpack-plugin": "^11.0.0"
+  },
+  "keywords": [
+    "drawio",
+    "webpack"
+  ],
+  "jupyterlab": {
+    "extension": "lib/plugin.js",
+    "outputDir": "../../py_packages/ipydrawio/_/ipydrawio-webpack",
+    "webpackConfig": "./webpack.config.js",
+    "discovery": {
+      "server": {
+        "base": {
+          "name": "ipydrawio"
+        },
+        "managers": [
+          "pip",
+          "conda"
+        ]
+      }
+    },
+    "_build": {
+      "load": "static/remoteEntry.a6261c925e5500117271.js",
+      "extension": "./extension"
+    }
+  },
+  "scripts_doit": {
+    "build:pre": {
+      "file_dep": [
+        ".npmignore",
+        "scripts/*.py"
+      ],
+      "targets": [
+        "lib/_static.js",
+        "../ipydrawio-mathjax/dio/math/es5/startup.js"
+      ]
+    }
+  }
+}
