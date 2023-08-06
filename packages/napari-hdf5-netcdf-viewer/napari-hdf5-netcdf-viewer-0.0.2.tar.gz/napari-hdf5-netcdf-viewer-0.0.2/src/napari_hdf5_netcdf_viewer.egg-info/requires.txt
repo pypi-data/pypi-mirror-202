@@ -1,0 +1,13 @@
+numpy
+h5py
+netCDF4
+pathlib
+magicgui
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
