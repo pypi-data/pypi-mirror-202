@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pynurex
+Version: 1.9.0
+Summary: Python interface to Nurex library
+Author-Email: Andrej Prochazka <hrocho@vodacionline.sk>
+Requires-Python: >=3.7
