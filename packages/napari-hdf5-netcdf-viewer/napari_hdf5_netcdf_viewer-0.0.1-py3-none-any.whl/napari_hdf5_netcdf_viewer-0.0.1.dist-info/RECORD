@@ -1,0 +1,13 @@
+napari_hdf5_netcdf_viewer/__init__.py,sha256=NZMouH9AQFx3gaHk720i2mWl_LtAsFLi0iRsDJeCJCw,106
+napari_hdf5_netcdf_viewer/_reader.py,sha256=mC-WOn8_1UvW5Maml_0dfheNrkChkCRD28uOPj29DkE,8597
+napari_hdf5_netcdf_viewer/_widget.py,sha256=fCkxWQmdHaPPNWh9yg701qPhfBBaLjvZNaI6viwhy0s,220
+napari_hdf5_netcdf_viewer/napari.yaml,sha256=0FUzR1d00Au-mp-gWQOAVLswhkHUsyo5EIf3tfidm4s,574
+napari_hdf5_netcdf_viewer/quick_hdf5_netcdf_viewer.py,sha256=WAOlqT3BUtz95VuTWEG_36_o15V-YtCXf_voZ1wo3f4,9072
+napari_hdf5_netcdf_viewer/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_hdf5_netcdf_viewer/_tests/test_quick_hdf5_netcdf_viewer.py,sha256=CfILTXr2pTlMce6yTSfvvSerTDTDickJixB74YRhjhw,407
+napari_hdf5_netcdf_viewer-0.0.1.dist-info/LICENSE,sha256=-OBL0OYSdVsH0MkSGaGEombxeiFzV1QBrtbyw2Ttq0k,1517
+napari_hdf5_netcdf_viewer-0.0.1.dist-info/METADATA,sha256=1cxoq2Ec5xdt9TzezQXK9_rczmZSLtyAYPlfxba8uTA,1189
+napari_hdf5_netcdf_viewer-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+napari_hdf5_netcdf_viewer-0.0.1.dist-info/entry_points.txt,sha256=GZ1SMDE8MqYcuMkqzgD7IjsMEKXhECfiILtk19R3RNM,84
+napari_hdf5_netcdf_viewer-0.0.1.dist-info/top_level.txt,sha256=f2K5nPgf8-6MWVhU7H0MSH1DNv8zC3-wW6aRZ8BNhZE,26
+napari_hdf5_netcdf_viewer-0.0.1.dist-info/RECORD,,

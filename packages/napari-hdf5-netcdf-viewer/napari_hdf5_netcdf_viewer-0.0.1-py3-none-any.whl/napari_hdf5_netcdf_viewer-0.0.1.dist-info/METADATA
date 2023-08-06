@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: napari-hdf5-netcdf-viewer
+Version: 0.0.1
+Summary: A napari plugin for quick-viewing HDF5 and NetCDF files
+Home-page: https://github.com/yunhal/napari-hdf5-netcdf-viewer
+Author: Yunha Lee
+Author-email: yunha.lee.00@gmail.com
+Project-URL: Bug Tracker, https://github.com/yunhal/napari-hdf5-netcdf-viewer/issues
+Project-URL: Documentation, https://github.com/yunhal/napari-hdf5-netcdf-viewer#README.md
+Project-URL: Source Code, https://github.com/yunhal/napari-hdf5-netcdf-viewer
+Project-URL: User Support, https://github.com/yunhal/napari-hdf5-netcdf-viewer/issues
+Classifier: Framework :: napari
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: h5py
+Requires-Dist: netCDF4
+Requires-Dist: pathlib
+Requires-Dist: magicgui
+Provides-Extra: testing
+Requires-Dist: tox ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-qt ; extra == 'testing'
+Requires-Dist: napari ; extra == 'testing'
+Requires-Dist: pyqt5 ; extra == 'testing'
+
+# napari-hdf5-netcdf-viewer
+A napari plugin for quick-viewing HDF5 and NetCDF files
