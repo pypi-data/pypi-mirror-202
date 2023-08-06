@@ -1,0 +1,7 @@
+SciAssist
+chatsonic
+convert_pegasus
+data
+pretrained
+process
+temp
