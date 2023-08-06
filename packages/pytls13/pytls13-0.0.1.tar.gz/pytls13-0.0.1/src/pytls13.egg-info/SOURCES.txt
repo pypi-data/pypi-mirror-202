@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.cfg
+src/pytls13.egg-info/PKG-INFO
+src/pytls13.egg-info/SOURCES.txt
+src/pytls13.egg-info/dependency_links.txt
+src/pytls13.egg-info/top_level.txt
