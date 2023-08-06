@@ -1,0 +1,7 @@
+memory_compressed_attention/__init__.py,sha256=ScIlZvJ2SIqJqN7QXZGClTb7OJNuKMO5WQZDvSkCLbY,94
+memory_compressed_attention/memory_compressed_attention.py,sha256=sIjKEOuz6LmfyOOiiWTK2QpH4U_qu0732TVE5sP5UJ8,3351
+memory_compressed_attention-0.0.6.dist-info/LICENSE,sha256=As9u198X-U-vph5noInuUfqsAG2zX_oXPHDmdjwlPPY,1066
+memory_compressed_attention-0.0.6.dist-info/METADATA,sha256=H99nZy75KEyW2ed2Kf6KrHiP6Pw-Tuvew_uhphE51l0,658
+memory_compressed_attention-0.0.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+memory_compressed_attention-0.0.6.dist-info/top_level.txt,sha256=qzw2aVZQqc3zP0HPpHR7uR9NpGajcohQ45d9oArLM_4,28
+memory_compressed_attention-0.0.6.dist-info/RECORD,,
