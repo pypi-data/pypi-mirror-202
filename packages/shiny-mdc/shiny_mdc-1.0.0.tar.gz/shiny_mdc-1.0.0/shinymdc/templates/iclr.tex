@@ -1,0 +1,63 @@
+\documentclass{article}
+
+\usepackage{$iclr$,newtxtext}
+\usepackage{url}
+
+\input{$reqsetup$}
+\input{$floatsetup$}
+\input{$mathsetup$}
+\input{$miscsetup$}
+
+% Optional math commands from https://github.com/goodfeli/dlbook_notation.
+% \input{$mathcommands$.tex}
+
+\title{$title$}
+
+\input{$authsetup$}
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+% Uncomment for camera-ready version, but NOT for submission.
+$if(submission)$
+$else$
+\iclrfinalcopy
+$endif$
+
+$for(includes)$
+$it$
+$endfor$
+
+\begin{document}
+
+\maketitle
+
+$if(skipequal)$
+$if(submission)$
+$else$
+\blfootnote{\textsuperscript{*}\,Equal contribution.}
+$endif$
+$endif$
+
+$if(abstract)$
+\begin{abstract}
+  $abstract$
+\end{abstract}
+$endif$
+
+$if(body)$
+$body$
+$endif$
+
+$for(sections)$
+$it$
+$endfor$
+
+$if(bibliography)$
+\bibliography{$bibliography$}
+\bibliographystyle{$bibstyle$}
+$endif$
+
+\input{$addappendices$}
+
+\end{document}
