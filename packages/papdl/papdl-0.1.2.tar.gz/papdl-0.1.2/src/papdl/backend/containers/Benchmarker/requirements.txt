@@ -1,0 +1,9 @@
+numpy
+keras
+asyncio
+websockets
+watchdog[watchmedo]
+iperf3
+pythonping
+psutil
+Pympler
