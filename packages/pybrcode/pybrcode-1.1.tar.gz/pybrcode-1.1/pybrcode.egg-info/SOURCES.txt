@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pybrcode/__init__.py
+pybrcode/exceptions.py
+pybrcode/pix.py
+pybrcode/qrcode.py
+pybrcode.egg-info/PKG-INFO
+pybrcode.egg-info/SOURCES.txt
+pybrcode.egg-info/dependency_links.txt
+pybrcode.egg-info/requires.txt
+pybrcode.egg-info/top_level.txt
