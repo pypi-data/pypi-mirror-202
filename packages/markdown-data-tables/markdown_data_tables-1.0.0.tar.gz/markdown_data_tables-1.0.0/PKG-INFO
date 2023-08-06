@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: markdown-data-tables
+Version: 1.0.0
+Summary: Embed data files such as YAML as tables in a Markdown document
+Author: Network to Code, LLC
+Author-email: info@networktocode.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: markdown (>=3.3.7,<4.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
