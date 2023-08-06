@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: HGNM
+Version: 0.0.1
+Summary: A small library for the HGNM project. It contains the implementation of the HGNM model. 
+Author-email: Niklas Freimuth <niklas.freimuth@kit.edu>, Philipp Dahlinger <philipp.dahlinger@kit.edu>, Magnus Landwehr <magnus.landwehr@student.kit.edu>
+Maintainer-email: Niklas Freimuth <niklas.freimuth@kit.edu>
+Project-URL: Homepage, https://github.com/sungsy/HGNM
+Project-URL: Bug Tracker, https://github.com/sungsy/HGNM/issues
+Project-URL: Institute, https://alr.anthropomatik.kit.edu/index.php
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 11.0
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Version 0.1.0
+
+
+# HGNM
+Pypi library for DAVIS - ALR - KIT 
+

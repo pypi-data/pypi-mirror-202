@@ -1,0 +1,53 @@
+[build-system]
+requires = [
+    "setuptools>=61.0", 
+    "numpy",
+    "wandb>=0.14.0",
+    "tqdm>=4.65.0",
+    # "torch>=2.0.0", # not from environment.yaml
+    "plotly>=5.6.0",
+    # "scikit-learn", # >=1.2.2"
+    # "scikit-fem",
+    # "optuna",
+    # "stable-baselines3",
+    # "shapely",
+    # "meshio",
+    # "numba",
+
+    # selected from files
+    # "numpy",
+    "torch",
+    "torch_geometric",
+    ]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "HGNM"
+version = "0.0.1"
+authors = [
+  { name="Niklas Freimuth", email="niklas.freimuth@kit.edu" },
+  { name="Philipp Dahlinger", email="philipp.dahlinger@kit.edu"},
+  { name="Magnus Landwehr", email="magnus.landwehr@student.kit.edu"}
+]
+maintainers = [
+    { name="Niklas Freimuth", email="niklas.freimuth@kit.edu" },
+]
+description = "A small library for the HGNM project. It contains the implementation of the HGNM model. "
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Environment :: GPU :: NVIDIA CUDA :: 11.0", # need to check on this
+    "Programming Language :: Python :: 3.9",
+
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sungsy/HGNM"
+"Bug Tracker" = "https://github.com/sungsy/HGNM/issues"
+"Institute" = "https://alr.anthropomatik.kit.edu/index.php"
