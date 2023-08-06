@@ -1,0 +1,2 @@
+[console_scripts]
+cf_changelog = cf_changelog:main
