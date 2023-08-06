@@ -1,0 +1,7 @@
+setup.py
+local_pipeline_lib/main.py
+local_pipeline_lib.egg-info/PKG-INFO
+local_pipeline_lib.egg-info/SOURCES.txt
+local_pipeline_lib.egg-info/dependency_links.txt
+local_pipeline_lib.egg-info/not-zip-safe
+local_pipeline_lib.egg-info/top_level.txt
