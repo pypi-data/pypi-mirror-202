@@ -1,0 +1,25 @@
+country,city,product,sales,growth
+India,Hyderabad,Biscuit,866.1,-0.27
+India,Hyderabad,Cake,26.4,-0.242
+India,Hyderabad,Cream,38.3,-0.291
+India,Hyderabad,Eggs,513.7,-0.113
+India,Bangalore,Biscuit,41.9,-0.402
+India,Bangalore,Cake,52.2,0.064
+India,Bangalore,Cream,17.8,-0.052
+India,Bangalore,Eggs,178.9,-0.261
+India,Coimbatore,Biscuit,217.4,0.114
+India,Coimbatore,Cake,,
+India,Coimbatore,Cream,94.4,-0.288
+India,Coimbatore,Eggs,72.8,-0.066
+Singapore,Singapore,Biscuit,671,-0.014
+Singapore,Singapore,Cake,560.2,-0.197
+Singapore,Singapore,Cream,237.9,0.194
+Singapore,Singapore,Eggs,719,0.118
+USA,South Plainfield,Biscuit,18.3,-0.154
+USA,South Plainfield,Cake,41.6,0.043
+USA,South Plainfield,Cream,32.4,0.068
+USA,South Plainfield,Eggs,12.5,0.084
+USA,Newport Beach,Biscuit,1352.4,0.384
+USA,Newport Beach,Cake,190.2,0.119
+USA,Newport Beach,Cream,148.2,0.053
+USA,Newport Beach,Eggs,,
