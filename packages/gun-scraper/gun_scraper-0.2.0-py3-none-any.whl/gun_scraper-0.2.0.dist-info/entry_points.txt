@@ -1,0 +1,3 @@
+[console_scripts]
+gun_scraper=gun_scraper.__main__:main
+
