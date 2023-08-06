@@ -1,0 +1,5 @@
+setup.py
+wild_without_a_trace.egg-info/PKG-INFO
+wild_without_a_trace.egg-info/SOURCES.txt
+wild_without_a_trace.egg-info/dependency_links.txt
+wild_without_a_trace.egg-info/top_level.txt
