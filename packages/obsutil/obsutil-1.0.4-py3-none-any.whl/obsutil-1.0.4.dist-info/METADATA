@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: obsutil
+Version: 1.0.4
+Summary: hw modelarts obs utils
+Home-page: 
+Requires-Python: >=3.6.0
+Requires-Dist: esdk-obs-python
+
