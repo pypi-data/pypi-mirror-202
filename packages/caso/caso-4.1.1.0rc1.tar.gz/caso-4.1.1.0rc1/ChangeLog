@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+4.1.1.0rc1
+----------
+
+* Use system\_scope for Keystone operations
