@@ -1,0 +1,58 @@
+stages:
+  schema:
+    cmd: "python -m boilercv.stages.schema"
+    deps:
+      - "${paths.stage_schema}"
+      - "${paths.paths_module}"
+    outs:
+      - "${paths.project_schema}"
+  check_cv:
+    cmd: "python -m boilercv.stages.check_cv"
+    deps:
+      - "${paths.stage_check_cv}"
+      - "${paths.samples}"
+
+  binarized_preview:
+    cmd: "python -m boilercv.stages.update_previews.binarized"
+    deps:
+      - "${paths.stage_binarized_preview}"
+      - "${paths.rois}"
+      - "${paths.sources}"
+    outs:
+      - "${paths.binarized_preview}":
+          persist: true
+  gray_preview:
+    cmd: "python -m boilercv.stages.update_previews.gray"
+    deps:
+      - "${paths.stage_gray_preview}"
+      - "${paths.sources}"
+    outs:
+      - "${paths.gray_preview}"
+
+  contours:
+    cmd: "python -m boilercv.stages.contours"
+    deps:
+      - "${paths.stage_contours}"
+      - "${paths.sources}"
+    outs:
+      - "${paths.contours}":
+          persist: true
+
+  fill:
+    cmd: "python -m boilercv.stages.fill"
+    deps:
+      - "${paths.stage_fill}"
+      - "${paths.sources}"
+      - "${paths.contours}"
+    outs:
+      - "${paths.filled}":
+          persist: true
+  filled_preview:
+    cmd: "python -m boilercv.stages.update_previews.filled"
+    deps:
+      - "${paths.stage_filled_preview}"
+      - "${paths.sources}"
+      - "${paths.filled}"
+    outs:
+      - "${paths.filled_preview}":
+          persist: true

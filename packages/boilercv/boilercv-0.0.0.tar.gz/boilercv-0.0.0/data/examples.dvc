@@ -1,0 +1,5 @@
+outs:
+- md5: d0e378db3ed75907019882c2b76adf83.dir
+  size: 2169856488
+  nfiles: 5
+  path: examples

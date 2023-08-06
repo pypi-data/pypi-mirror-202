@@ -1,0 +1,55 @@
+name: "main"
+
+on: ["push", "workflow_dispatch"]
+
+jobs:
+  # * ------------------------------------------------------------------------------ * #
+  # * Changes below may be lost in significant template updates.
+
+  pyright:
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "blakeNaccarato/copier-python-workflow-setup@v0.0.12"
+        with:
+          python-version: "3.11"
+      - run: "pip install --no-deps --requirement .tools/requirements/requirements_nodeps.txt"
+      - run: "pyright"
+  pytest-cov:
+    permissions:
+      contents: "read"
+      id-token: "write"
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "blakeNaccarato/copier-python-workflow-setup@v0.0.12"
+        with:
+          python-version: "3.11"
+      - run: "pip install --no-deps --requirement .tools/requirements/requirements_nodeps.txt"
+      - name: Install PySide6 system dependencies
+        run: |
+          # https://askubuntu.com/questions/900285/libegl-so-1-is-not-a-symbolic-link
+          sudo apt update
+          sudo apt install libegl1
+      # - uses: "google-github-actions/auth@v1.0.0"
+      #   with:
+      #     workload_identity_provider: "projects/326920613558/locations/global/workloadIdentityPools/github-com/providers/github-com-oidc"
+      #     service_account: "iterative-studio@secure-garden-355020.iam.gserviceaccount.com"
+      # - uses: "google-github-actions/setup-gcloud@v1.1.0"
+      - run: "pytest --cov"
+        env:
+          OPENCV_SAMPLES_DATA_PATH: data/samples
+          # GH_TOKEN: ${{ github.token }}
+      - uses: "codecov/codecov-action@v3.1.1"
+  bump_project:
+    needs: ["pyright", "pytest-cov"]
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "blakeNaccarato/copier-python-workflow-setup@v0.0.12"
+        with:
+          python-version: "3.11"
+          install-project: false
+      - uses: "stefanzweifel/git-auto-commit-action@v4.16.0"
+        with:
+          commit_message: "Bump project template and compose `pyproject.toml`."
+
+  # * ------------------------------------------------------------------------------ * #
+  # * Changes below should persist in significant template updates.

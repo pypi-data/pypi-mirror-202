@@ -1,0 +1,151 @@
+schema: '2.0'
+stages:
+  schema:
+    cmd: python -m boilercv.stages.schema
+    deps:
+    - path: src/boilercv/models/paths.py
+      md5: 011cf73b6178fdaa01d4a96150d0b4ba
+      size: 5163
+    - path: src/boilercv/stages/schema.py
+      md5: 6eaac97ab24e94f410ccff1517f42d0e
+      size: 641
+    outs:
+    - path: data/schema
+      md5: b2ffbd511ccedec91631fcf3f530d9e4.dir
+      size: 5437
+      nfiles: 1
+  update_binarized_preview:
+    cmd: python -m boilercv.stages.update_binarized_preview
+    deps:
+    - path: data/rois
+      md5: 1300e5dce1774bdc91feb6365369c7d8.dir
+      size: 186726548
+      nfiles: 308
+    - path: data/sources
+      md5: a409ab9bcababc1baaea4dc53e312bda.dir
+      size: 7424602696
+      nfiles: 308
+    - path: src/boilercv/stages/update_binarized_preview.py
+      md5: 186799fb6a90ec27a63cb274e05eca54
+      size: 1153
+    outs:
+    - path: data/previews/binarized.nc
+      md5: 5598ee8b69f8591e2035194a9054f2c3
+      size: 147879321
+  preview_binarized:
+    cmd: python -m boilercv.stages.preview_binarized
+    deps:
+    - path: data/previews/binarized.nc
+      md5: 312b51939f1ac4ae21bffd45ad91f854
+      size: 38903364
+    - path: src/boilercv/stages/preview_binarized.py
+      md5: aa0adbd6d0409460b55b55ce0a1a5b96
+      size: 349
+  contours:
+    cmd: python -m boilercv.stages.contours
+    deps:
+    - path: data/sources
+      md5: a409ab9bcababc1baaea4dc53e312bda.dir
+      size: 7424602696
+      nfiles: 308
+    - path: src/boilercv/stages/contours.py
+      md5: 48714d9e75d983498dca309896c2c011
+      size: 1889
+    outs:
+    - path: data/contours
+      md5: d43be95333c9df0e76d570f8b11aada2.dir
+      size: 4279876062
+      nfiles: 308
+  fill:
+    cmd: python -m boilercv.stages.fill
+    deps:
+    - path: data/contours
+      md5: d43be95333c9df0e76d570f8b11aada2.dir
+      size: 4279876062
+      nfiles: 308
+    - path: data/sources
+      md5: a409ab9bcababc1baaea4dc53e312bda.dir
+      size: 7424602696
+      nfiles: 308
+    - path: src/boilercv/stages/fill.py
+      md5: d6e9e5582c2f4f24d8e80b7a5c917e27
+      size: 1583
+    outs:
+    - path: data/filled
+      md5: 9d9b406833ae3911940fd4d717bb20e1.dir
+      size: 3482532424
+      nfiles: 308
+  update_filled_preview:
+    cmd: python -m boilercv.stages.update_filled_preview
+    deps:
+    - path: data/filled
+      md5: 9d9b406833ae3911940fd4d717bb20e1.dir
+      size: 3482532424
+      nfiles: 308
+    - path: src/boilercv/stages/update_filled_preview.py
+      md5: 2b467aa2304c045ab9acd4a3c429dd39
+      size: 1273
+    outs:
+    - path: data/previews/filled.nc
+      md5: 913c0dca978f8f3ff088adb765bf8029
+      size: 147879321
+  check_cv:
+    cmd: python -m boilercv.stages.check_cv
+    deps:
+    - path: data/samples
+      md5: 2039f3ac1b4df1e9059cfb4d74b8c1db.dir
+      size: 22147287
+      nfiles: 113
+    - path: src/boilercv/stages/check_cv.py
+      md5: fb029ebceb5076c48f032c9b2ae3da1e
+      size: 97
+  binarized_preview:
+    cmd: python -m boilercv.stages.update_previews.binarized
+    deps:
+    - path: data/rois
+      md5: 1300e5dce1774bdc91feb6365369c7d8.dir
+      size: 186726548
+      nfiles: 308
+    - path: data/sources
+      md5: a409ab9bcababc1baaea4dc53e312bda.dir
+      size: 7424602696
+      nfiles: 308
+    - path: src/boilercv/stages/update_previews/binarized.py
+      md5: 0c528f648e4975729f1642c77e3ae15e
+      size: 835
+    outs:
+    - path: data/previews/binarized.nc
+      md5: a254f85beabe041bf6c4b0820024465d
+      size: 3446443
+  gray_preview:
+    cmd: python -m boilercv.stages.update_previews.gray
+    deps:
+    - path: data/sources
+      md5: a409ab9bcababc1baaea4dc53e312bda.dir
+      size: 7424602696
+      nfiles: 308
+    - path: src/boilercv/stages/update_previews/gray.py
+      md5: 089e35a18791e628d5bcd75e7fdca100
+      size: 768
+    outs:
+    - path: data/previews/gray.nc
+      md5: bca01dd9d72e5a7c25db766c5522652e
+      size: 18686615
+  filled_preview:
+    cmd: python -m boilercv.stages.update_previews.filled
+    deps:
+    - path: data/filled
+      md5: 9d9b406833ae3911940fd4d717bb20e1.dir
+      size: 3482532424
+      nfiles: 308
+    - path: data/sources
+      md5: a409ab9bcababc1baaea4dc53e312bda.dir
+      size: 7424602696
+      nfiles: 308
+    - path: src/boilercv/stages/update_previews/filled.py
+      md5: 879e5a5452d1e5ecc5dfaa79789f3840
+      size: 767
+    outs:
+    - path: data/previews/filled.nc
+      md5: f3596d4b5c08d8701b7630f1136c45aa
+      size: 1661392

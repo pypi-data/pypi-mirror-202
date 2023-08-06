@@ -1,0 +1,156 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    // * -------------------------------------------------------------------------- * //
+    // * Changes below should persist in significant template updates.
+
+    {
+      "name": "auto",
+      "type": "auto-debug",
+      "request": "launch",
+      "map": {
+        "*.py": "Python: Current file, OpenCV debug",
+        "*.ps1": "pwsh",
+        "*": "C++"
+      }
+    },
+    {
+      "name": "Python: Current file, OpenCV debug",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "stopOnEntry": true,
+      "justMyCode": true,
+      "env": {
+        "OPENCV_LOG_LEVEL": "DEBUG"
+      }
+    },
+    {
+      "name": "pwsh",
+      "type": "PowerShell",
+      "request": "launch",
+      "script": "${file}",
+      "cwd": "${file}"
+    },
+    {
+      "name": "C++",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "${workspaceFolder}/.venv/bin/python",
+      "processId": "${command:pickProcess}",
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "Python: WRITE/PREVIEW",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "internalConsole",
+      "justMyCode": true,
+      "env": {
+        "BOILERCV_DEBUG": "True",
+        "BOILERCV_WRITE": "True",
+        "BOILERCV_PREVIEW": "True"
+      }
+    },
+    {
+      "name": "Python: WRITE/PREVIEW, not just my code",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "internalConsole",
+      "justMyCode": false,
+      "env": {
+        "BOILERCV_DEBUG": "True",
+        "BOILERCV_WRITE": "True",
+        "BOILERCV_PREVIEW": "True"
+      }
+    },
+    {
+      "name": "Python: WRITE",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "internalConsole",
+      "justMyCode": true,
+      "env": {
+        "BOILERCV_DEBUG": "True",
+        "BOILERCV_WRITE": "True"
+      }
+    },
+    {
+      "name": "Python: WRITE, not just my code",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "internalConsole",
+      "justMyCode": false,
+      "env": {
+        "BOILERCV_DEBUG": "True",
+        "BOILERCV_WRITE": "True"
+      }
+    },
+    {
+      "name": "Python: PREVIEW",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "internalConsole",
+      "justMyCode": true,
+      "env": {
+        "BOILERCV_DEBUG": "True",
+        "BOILERCV_PREVIEW": "True"
+      }
+    },
+    {
+      "name": "Python: PREVIEW, not just my code",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "internalConsole",
+      "justMyCode": false,
+      "env": {
+        "BOILERCV_DEBUG": "True",
+        "BOILERCV_PREVIEW": "True"
+      }
+    },
+
+    // * -------------------------------------------------------------------------- * //
+    // * Changes below may be lost in significant template updates.
+    {
+      "name": "Python: Current file",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "internalConsole",
+      "env": {
+        "BOILERCV_DEBUG": "True"
+      }
+    },
+    {
+      "name": "Python: Current file, not just my code",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "justMyCode": false,
+      // "purpose": ["debug-test"], // Uncomment to debug tests more deeply.
+      "console": "internalConsole",
+      "env": {
+        "BOILERCV_DEBUG": "True"
+      }
+    }
+  ]
+}
