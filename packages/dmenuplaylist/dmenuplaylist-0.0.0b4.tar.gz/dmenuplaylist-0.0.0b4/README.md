@@ -1,0 +1,18 @@
+# dmenuplaylist
+dmenuplaylist is a simple playlist manager for use with mpv.  You can add files,
+urls, images, whatever mpv will play to your playlist and open that playlist in
+mpv. Checkout the repo for a lua script to automatically remove any item in your
+playlist once you've finished watching it. 
+
+You can set the `remove` value in `dmenuplaylist.conf` to a comma separated list
+of any of the values returned by
+[end-file](https://mpv.io/manual/master/#command-interface-end-file). The
+default value of `remove` is `eof` but you can use something like this if you like:
+
+```conf
+remove=eof,quit,file_error
+```
+
+The `stop` reason seems to come up a lot with torrents or
+youtube/stream links so it is advised to avoid using that
+setting.
