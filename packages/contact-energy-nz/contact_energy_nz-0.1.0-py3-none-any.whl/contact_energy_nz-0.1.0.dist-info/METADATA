@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: contact-energy-nz
+Version: 0.1.0
+Summary: API Connector to fetch usage data from Contact Energy NZ utilities provider
+Author-email: Tkhadimullin <hello@wiseowls.co.nz>
+License: MIT
+License-File: LICENSE
+
