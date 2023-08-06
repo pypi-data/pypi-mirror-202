@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: jsongraphtree
+Version: 0.2
+Summary: json visualization
+Author: sitara
+Author-email: 116959197@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argparse
+Requires-Dist: graphviz
+
+# jsongraphtree
+
+
+jsongraph usage instructions
+jsongraph用法说明
+
+Purpose: Visualize json as a tree to facilitate json visualization of content form
+用途：将json可视化为一棵树，便于json可视化内容形式
+
+jsongraphtree xxx (fill in xxx as path
+用法：jsongraphtree xxx （xxx填写为路径）
+
+Example: jsongraphtree data.json
+例子：jsongraphtree data.json
+
+
+The result: A json visual view is generated with the name json_tree_test.png
+结果：生成一张json可视化视图，图的名字为json_tree_test.png
+
