@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: datrafilcha
+Version: 0.0.1
+Project-URL: Homepage, https://gitlab.com/gitm1993/datrafilcha
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# datrafilcha
+
+
+Data transformed/filtred charted.
+
+
+Give CSV, choose column, choose function, get plot.
+
+### Data filters/transformers
+
+
+
+### Sample code
+
+```
+from datrafilcha import DataFiltersFacade
+
+
+configuration = {
+    'id': 'UniqValues',
+    'column_name': <COLUMN NAME>,
+    'desc': True,
+    'limit': 5,
+}
+
+data_filters_facade = DataFiltersFacade()
+html_plot = data_filters_facade.csv_column(filter_configuration,
+                                            data_source_file,
+                                            column)
+
+with open('new_plot.html', 'w') as f:
+    f.write(html_plot)
+```
