@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: market2
+Version: 0.0.1
+Summary: Market analysis tools
+Home-page: https://github.com/bbb2783/test1
+Download-URL: https://github.com/bbb2783/test1
+Author: yoobeen
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+UNKNOWN

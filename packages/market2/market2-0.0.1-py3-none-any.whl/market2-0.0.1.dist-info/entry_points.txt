@@ -1,0 +1,3 @@
+[console_scripts]
+market-plot = market.market:plot_stock
+market-print = market.market:print_stock_data
