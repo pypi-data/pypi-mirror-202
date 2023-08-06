@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+StratifiedGroupKFoldRequiresGroups/__init__.py
+StratifiedGroupKFoldRequiresGroups.egg-info/PKG-INFO
+StratifiedGroupKFoldRequiresGroups.egg-info/SOURCES.txt
+StratifiedGroupKFoldRequiresGroups.egg-info/dependency_links.txt
+StratifiedGroupKFoldRequiresGroups.egg-info/not-zip-safe
+StratifiedGroupKFoldRequiresGroups.egg-info/requires.txt
+StratifiedGroupKFoldRequiresGroups.egg-info/top_level.txt
+tests/__init__.py
+tests/test_package.py
+tests/test_stratified_group_kfold_requires_groups.py
