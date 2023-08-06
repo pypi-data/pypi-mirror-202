@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: django-concat-js
+Version: 0.2.0
+Summary: Simple tool to concatenate js files when changed.
+Project-URL: Documentation, https://github.com/unknown/concat-js#readme
+Project-URL: Issues, https://github.com/unknown/concat-js/issues
+Project-URL: Source, https://github.com/unknown/concat-js
+Author-email: Antoine Louatron <antoine.louatron@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: watchfiles
+Description-Content-Type: text/markdown
+
+# Concat JS
+
+[![PyPI - Version](https://img.shields.io/pypi/v/concat-js.svg)](https://pypi.org/project/concat-js)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/concat-js.svg)](https://pypi.org/project/concat-js)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install concat-js
+```
+
+## License
+
+`concat-js` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
