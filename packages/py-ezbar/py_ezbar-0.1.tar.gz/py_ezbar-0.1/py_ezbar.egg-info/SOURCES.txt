@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+py_ezbar.egg-info/PKG-INFO
+py_ezbar.egg-info/SOURCES.txt
+py_ezbar.egg-info/dependency_links.txt
+py_ezbar.egg-info/top_level.txt
+tests/test_progress_bar.py
