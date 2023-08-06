@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: markdown-site-utils
+Version: 0.2.1
+Summary: Some utilities for managing Markdown files with metadata.
+Home-page: https://github.com/smulloni/markdown_site_utils
+License: MIT
+Author: Jacob Smullyan
+Author-email: smulloni@smullyan.org
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: MarkupSafe (>=2.1.2,<3.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: markdown2 (>=2.4.8,<3.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Repository, https://github.com/smulloni/markdown_site_utils
+Description-Content-Type: text/markdown
+
+# Markdown Site Utils
+
+Some utilities for managing Markdown files with metadata.
+
+The notion is that a content-oriented website may be written as a 
+hierarchical series of Markdown files (with an ".md" extension) underneath
+some data directory, e.g.:
+
+    DATA_DIR/
+      index.md
+      foo.md
+      bar.md
+      subdir/
+        index.md
+        foo.md
+        bar.md
+
+Each file may contain metadata, written in TOML in a section at
+the top, bounded by '+++' lines:
+
+    +++
+    title = "My Page Title"
+    +++
+
+    # Some Markdown
+
+YAML and JSON may also be used. YAML blocks should start and end with lines
+consisting of three dashes; JSON blocks should consist of a single JSON object
+with opening and closing braces on lines by themselves. The data block is optional
+but if present must begin on the first line of the file.
+
+To use the library, you get create an `mdsite.DB` object with the path to your
+data directory:
+
+    mydb = mdsite.DB("/path/to/data/dir")
+
+Then call `get_data(path)` for the path into the directory you want, leaving
+out the `.md` filename suffix, and, if you are looking for an index file, leaving
+out `index.md`:
+
+    data = mydb.get_data("/node/leaf")
+
+The above gets data for `$DATA_DIR/node/leaf.md`, or for
+`$DATA_DIR/node/leaf/index.md`, if that file exists instead. 
+
+The library also supports hierarchical configuration, also written in TOML,
+YAML, or JSON, stored in files called `config.{toml,yaml,json}` depending on the
+config language employed.
+
