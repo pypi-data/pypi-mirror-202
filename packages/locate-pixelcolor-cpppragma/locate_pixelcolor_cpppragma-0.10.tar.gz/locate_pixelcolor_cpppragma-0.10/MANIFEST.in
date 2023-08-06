@@ -1,0 +1,5 @@
+include locate_pixelcolor_cpppragma/requirements.txt
+include locate_pixelcolor_cpppragma/thirdparty.json
+include locate_pixelcolor_cpppragma/README.md
+include locate_pixelcolor_cpppragma/clooppra.dll
+include locate_pixelcolor_cpppragma/LICENSE
