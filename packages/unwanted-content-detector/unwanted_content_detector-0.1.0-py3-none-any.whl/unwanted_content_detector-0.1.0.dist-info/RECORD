@@ -1,0 +1,11 @@
+unwanted_content_detector/__init__.py,sha256=ekQIToILIvyyZFCDRClFy0KlvIEQZ6pmzU9AZYq5UNs,31
+unwanted_content_detector/detector.py,sha256=Dzt59ReyC18zJR9ugpBGneuMo-m5uTkH9YiTuJKDqbk,497
+unwanted_content_detector/entities.py,sha256=mCnULtp8lCtK3CgLZrjT6grWoXrKcaNgTYXey8KJuk4,161
+unwanted_content_detector/evaluator/evaluator.py,sha256=lF9uAfQ6BfVZ7VekPOZ-uyvUjjB8GK4QM5QO_XZDawo,1228
+unwanted_content_detector/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unwanted_content_detector/models/distilbert_finetuned/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unwanted_content_detector/models/distilbert_finetuned/inference.py,sha256=yBrxlyyDSeEpNWbgl3wEkOmRR_cizGFj19FXvdC5zeM,775
+unwanted_content_detector/models/distilbert_finetuned/train.py,sha256=LayDJW2kZr0LFxbFNe4GN847BMDB7EQhziYDZrKdO6w,3744
+unwanted_content_detector-0.1.0.dist-info/METADATA,sha256=uTejZ063VY675l_RIE-eVjrKavJkW7ECu-yVY9G650c,1912
+unwanted_content_detector-0.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+unwanted_content_detector-0.1.0.dist-info/RECORD,,
