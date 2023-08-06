@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "dxsp"
+version = "1.0.17"
+description = "DXSP (DeX SwaP), A defi swap helper package. Swap made easy."
+authors = ["mraniki <8766259+mraniki@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+
+
+[tool.poetry.urls]
+"Changelog" =  "https://github.com/mraniki/dxsp/blob/dev/CHANGELOG.rst"
+"Support" =  "https://github.com/mraniki/dxsp/discussions"
+"Issues" =  "https://github.com/mraniki/dxsp/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+web3 = ">=6.*"
+pycoingecko = "*"
+python-dotenv = "*"
+asyncio ="*"
+
+[tool.poetry.dev-dependencies]
+python-semantic-release = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version_variable = ["pyproject.toml:version"]
+branch = "main"
+upload_to_pypi = true
+upload_to_release = true
+build_command = "pip install poetry && poetry build"
+
+
