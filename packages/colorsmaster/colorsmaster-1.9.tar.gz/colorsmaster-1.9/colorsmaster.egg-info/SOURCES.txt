@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+colorsmaster/__init__.py
+colorsmaster.egg-info/PKG-INFO
+colorsmaster.egg-info/SOURCES.txt
+colorsmaster.egg-info/dependency_links.txt
+colorsmaster.egg-info/top_level.txt
