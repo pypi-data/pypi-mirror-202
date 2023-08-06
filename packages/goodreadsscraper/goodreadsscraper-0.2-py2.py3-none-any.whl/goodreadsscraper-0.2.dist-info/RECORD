@@ -1,0 +1,11 @@
+goodreadsscraper/__init__.py,sha256=a2cFzUNIueYp_YRNTA_qI3UYJ7CKbYCtMHPtRgIREsk,25305
+goodreadsscraper/author.py,sha256=V-TJQvSceCO-Es2pXsvNL0twvVyWFpM2QDgOnWpFG8o,3660
+goodreadsscraper/book.py,sha256=D9blOnth51yPGdRmb5WIkhD2KatY3dQpFEdDk8WrMK8,2876
+goodreadsscraper/review.py,sha256=pmqHEMSPfj3tPjst6y0tBEWQOuzr0zw2qREPsIPfVKU,2152
+goodreadsscraper/utils.py,sha256=BoyjOljEZV18huFDMylXQ-tTrvV1oOXhjaOyS1m0cdY,12709
+goodreadsscraper/test/debug.html,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+goodreadsscraper-0.2.dist-info/entry_points.txt,sha256=pWiaEiYWjFgvrNQigLub0jyCSTT0QUG6YWSs_Nm2MiA,57
+goodreadsscraper-0.2.dist-info/LICENSE,sha256=CsawHtvMcLVFN_wfcruFoQtW-mnVhkZBWCYj56wSJRw,1098
+goodreadsscraper-0.2.dist-info/WHEEL,sha256=kdeDBNPvBI0w3meLKPoGgAnEr54n1jzrZWUoaLmGzVY,99
+goodreadsscraper-0.2.dist-info/METADATA,sha256=NYDhIxarddxKdEXjXuDJ-zH4zmRUgPBJS0yDH_pHJZM,356
+goodreadsscraper-0.2.dist-info/RECORD,,
