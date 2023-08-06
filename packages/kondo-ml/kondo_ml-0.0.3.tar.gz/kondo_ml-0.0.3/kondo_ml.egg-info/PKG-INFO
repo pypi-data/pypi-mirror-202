@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: kondo-ml
+Version: 0.0.3
+Summary: Python package for instance selection algorithms
+Home-page: https://github.com/lurue101/instance-selection-for-regression
+Download-URL: https://github.com/lurue101/instance-selection-for-regression/archive/0.0.3.tar.gz
+Author: L.Rücker
+Author-email: Lukas Rücker <ruecker.lukas@gmail.com>
+Project-URL: Homepage, https://github.com/lurue101/instance-selection-for-regression
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# kondo-ML
+
+kondo-ML is a package containing various instance selection algorithms
+usable with regression modelsThe implementations are compatible with sklearn and follow
+its outlier detection interface.
