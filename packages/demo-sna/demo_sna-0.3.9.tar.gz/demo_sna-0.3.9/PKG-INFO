@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: demo_sna
+Version: 0.3.9
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Home-page: https://github.com/eng-aomar/demo
+Author: Alaa' Omar
+Author-email: alaa.omer2009@gmail.com
+License: MIT license
+Keywords: demo_sna
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7.0, <3.11
+License-File: LICENSE
+License-File: AUTHORS.rst
