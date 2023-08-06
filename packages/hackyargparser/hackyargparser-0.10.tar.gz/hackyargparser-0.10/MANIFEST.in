@@ -1,0 +1,4 @@
+include hackyargparser/requirements.txt
+include hackyargparser/thirdparty.json
+include hackyargparser/README.md
+include hackyargparser/LICENSE
