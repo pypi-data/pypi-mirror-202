@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: noodle_quiz
+Version: 0.1.2
+Summary: Noodle-Quiz (Not Moodle Quiz generator) is a set of utilities to generate quizzes for Moodle
+Home-page: https://github.com/Epithumia/noodle-quiz
+Author: Epithumia
+Author-email: rafael.lopez@universite-paris-saclay.fr
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Noodle-Quiz
+Noodle-Quiz (Not Moodle Quiz generator) is a set of utilities to generate quizzes for Moodle
+
+## Example usage
+
+```python
+from noodle_quiz import Quiz
+from noodle_quiz.question_types import Description, Numeric 
+q = Quiz()
+d = Description('Exercice 1', 'Description')
+n = Numeric('Question #1', [4], 'Calculate 2+2')
+q.add_questions([d, n])
+q.save_to_path('test.xml')
+```

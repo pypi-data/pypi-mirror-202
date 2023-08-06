@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+noodle_quiz/__init__.py
+noodle_quiz/answer_types.py
+noodle_quiz/exc.py
+noodle_quiz/question_types.py
+noodle_quiz.egg-info/PKG-INFO
+noodle_quiz.egg-info/SOURCES.txt
+noodle_quiz.egg-info/dependency_links.txt
+noodle_quiz.egg-info/not-zip-safe
+noodle_quiz.egg-info/top_level.txt
