@@ -1,0 +1,14 @@
+geotrouvetout/__init__.py,sha256=Kw7jiCwg1pD7yloBWUKTIt7o5sEbNb2nTyI5sLfSy5g,391
+geotrouvetout/__main__.py,sha256=ujqIbEBtXGdF0xjKpYJnn8C4nyKYQfu0Y6aYAcVaGE4,2625
+geotrouvetout/area.py,sha256=OIKuOThGsRfAGPrVMPlcN16iDjZm68kf-TwiQDGcKmk,979
+geotrouvetout/color_analysis.py,sha256=fLOZXJTWtHEyKK1bD0MGUQ67DHc64BY71xG6MZHfL88,11885
+geotrouvetout/combination.py,sha256=VRgmKispjv33kHN5yZFY_P1e0M8Dq-AdDS2nBCjMNXY,6770
+geotrouvetout/language_detection.py,sha256=nu2jIeuuF5T9UsdXM2L5JF7xsd48vZhJIHMItF8Wpyc,19312
+geotrouvetout/object_detection.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geotrouvetout/overpass.py,sha256=3GdoGjRSHf9eiaH8LXBJD62ypCx1XuEdaqEHDeD6eVA,1372
+geotrouvetout/util.py,sha256=SQ93GL46V4PYzvEBL_VoTI77N1KaF9mI9Q-_5a_tppM,412
+geotrouvetout-1.0.0.dist-info/LICENSE,sha256=yjcqfZJWCx-p9tgytEDovNYtmt-ohwyYKH3qtm2YMQ4,35148
+geotrouvetout-1.0.0.dist-info/METADATA,sha256=HgZdV56IHoYreh8-q1woN-NiA7a6QRafRuqbFXirxCQ,7072
+geotrouvetout-1.0.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+geotrouvetout-1.0.0.dist-info/entry_points.txt,sha256=YxHFQc_VidChiwP1we_AVvQxhQhsLMzwrJOs_T30E_Q,52
+geotrouvetout-1.0.0.dist-info/RECORD,,
