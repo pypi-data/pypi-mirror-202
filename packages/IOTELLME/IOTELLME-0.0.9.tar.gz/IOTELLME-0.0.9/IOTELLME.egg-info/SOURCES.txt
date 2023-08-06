@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+IOTELLME/__init__.py
+IOTELLME.egg-info/PKG-INFO
+IOTELLME.egg-info/SOURCES.txt
+IOTELLME.egg-info/dependency_links.txt
+IOTELLME.egg-info/requires.txt
+IOTELLME.egg-info/top_level.txt
