@@ -1,0 +1,13 @@
+casers-0.1.0.dist-info/METADATA,sha256=vyoxvQTxINweSVs2JA8GOnf50921gH8Doex_qh_UDqk,1223
+casers-0.1.0.dist-info/WHEEL,sha256=1zvkuzwquA3Vh7SDOu1Feml03kjKA_anshQZtFycY8Y,136
+casers-0.1.0.dist-info/entry_points.txt,sha256=NBhyXNjTHudSJKgw41VFQN8DkEqmz6blZolH_uXf8KA,44
+casers-0.1.0.dist-info/license_files/LICENSE,sha256=UDFIQQFQ8ZCm4ivf_U4uw0uag4cdIBU9AKP-dFnS4Hw,1092
+casers/_casers.pyi,sha256=WVkC_30EQrQu7GCrOv1es0LAsbZXKOe9KApDVVUwb6o,33
+casers/_version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+casers/__init__.py,sha256=019MLk3u9-zH9hn7ZVi7u3RXw6GBttU50M7dv0SGmBI,103
+casers/__main__.py,sha256=Kk1qCcUdVoOSXxgbgNUcSmGiktwwjIUW9xlPj4AJnC4,32
+casers/cli/app.py,sha256=K6Ii_LzxTMs7-vJP5Sr9bP4bzpgaWR0IkuA18HE3YDQ,360
+casers/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+casers/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+casers/_casers.pypy38-pp73-arm-linux-gnu.so,sha256=vru5ZCVOlQKUap8sY2zS4xQF8czQfAWqWaMAbT7OaQM,4213096
+casers-0.1.0.dist-info/RECORD,,
