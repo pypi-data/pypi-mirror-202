@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: presencedb
+Version: 2.0.0
+Summary: A modern, feature rich, easy to use API wrapper for presencedb
+Home-page: https://github.com/xFGhoul/py-presencedb
+Author: xFGhoul
+License: MIT
+Keywords: discord,api,presencedb,discord-api,discord bot
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.11
+License-File: LICENSE
+License-File: AUTHORS.md

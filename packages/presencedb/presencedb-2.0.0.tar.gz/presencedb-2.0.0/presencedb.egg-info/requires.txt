@@ -1,0 +1,4 @@
+aiohttp>=3.8.4
+humanize>=4.6.0
+yarl>=1.8.2
+aiofile>=3.8.5
