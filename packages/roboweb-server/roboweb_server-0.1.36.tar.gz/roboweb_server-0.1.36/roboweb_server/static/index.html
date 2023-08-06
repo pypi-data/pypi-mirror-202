@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<!-- Copyright 2014 The Flutter Authors. All rights reserved.
+Use of this source code is governed by a BSD-style license that can be
+found in the LICENSE file. -->
+<html>
+    <head>
+        <title>Hello, World</title>
+        <style> 
+            /* #flutter_target {
+              height: 100%;
+              width: 500px;
+              float:left;
+              background-color: powderblue;
+            }
+            #right {
+              height: 100%;
+              width: 500px;
+              float: right; 
+              background-color: powderblue;
+            } */
+            .container {
+            width: 100%;
+          }
+          .left, .right {
+            width: 50%;
+            float: left;
+            height: 100vh;
+          }
+          
+          .left {
+            background-color: blue;
+          }
+          
+          .right {
+            background-color: red;
+          }
+          body {
+            margin: 0;
+            padding: 0;
+          }
+          
+            </style> 
+    </head>
+    <body>
+        <div id="container"> 
+            <div class="left"></div>
+            <div class="right" id="assistant-panel">
+              <script> 
+                //MOCK
+                window.getCurrentJupyterTheme = function() {
+                  const theme = "JupyterLab Dark"; 
+                  return theme;
+                }
+
+                window.changeThemeJupyter = function(theme) {
+                  console.log("Mock changeThemeJupyter: " + theme);
+                }
+
+                var base = ''; 
+                window.isJupyter = true; 
+                window.onCellExecution = function() {
+                  console.log("Mock onCellExecution");
+                  window.logCellExecution('hello', 'world');
+                }
+                window.replaceCodeCurrentCell = function(program, logCellExecution) {
+                  console.log("Mock executing code: " + program);
+                  window.logCellExecution = logCellExecution;
+                }
+                var serviceWorkerVersion = "124778936";
+                const flutter_script = document.createElement('script');
+                flutter_script.src = base+'flutter.js';
+                document.head.appendChild(flutter_script);
+                
+                flutter_script.onload = function() {
+                  console.log('Downloading main.dart.js');
+                  _flutter.loader.loadEntrypoint({
+                    serviceWorker: {
+                      serviceWorkerVersion: serviceWorkerVersion,
+                    }
+                  }).then(function(engineInitializer) {
+                    console.log('Initializing engine');
+                    let target = document.getElementById("assistant-panel");
+                    return engineInitializer.initializeEngine({
+                      hostElement: target,
+                    });
+                  }).then(function(appRunner) {
+                    //remove focus from the sidebar when clicking outside of it
+                    console.log('Running app');
+                    return appRunner.runApp();
+                  });
+                };
+              </script> 
+
+
+    <!-- <script src="main.dart.js"></script> -->
+            </div>
+        </div>
+
+    </body>
+</html>
