@@ -1,0 +1,8 @@
+att_mlops/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+att_mlops/h2o_mlops_client-0.60.1-py2.py3-none-any.whl,sha256=tk1rLJ7z_tWPQYcN1J2cYPgsDzzuDcA7U5arglF5QQY,843827
+att_mlops/mlflow_registrator.py,sha256=yLaGmTC4t_bDY7Qrchn9nnOcujEwz2m8UYflRwzEkCI,8423
+att_mlops/mlops_connector.py,sha256=xHl8hGMOIx54IxZpdePnpUbbNqubqZf6eXYr_d7Js70,1733
+att_mlops/mlops_deployer.py,sha256=Tqbc6XfsI8L2J0_BpMP-27JXUh2JZecW8IejOOXMt88,13614
+att_mlops-0.1.7.dist-info/METADATA,sha256=Q6vmi3bVYmNBr9hLJwBguxBSBkJeV-miyqy4IkuY55I,470
+att_mlops-0.1.7.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+att_mlops-0.1.7.dist-info/RECORD,,
