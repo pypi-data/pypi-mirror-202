@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+bins/idascripter
+idascript/__init__.py
+idascript/ida.py
+idascript/utils.py
+idascript.egg-info/PKG-INFO
+idascript.egg-info/SOURCES.txt
+idascript.egg-info/dependency_links.txt
+idascript.egg-info/requires.txt
+idascript.egg-info/top_level.txt
