@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+jetmlgpt/__init__.py
+jetmlgpt.egg-info/PKG-INFO
+jetmlgpt.egg-info/SOURCES.txt
+jetmlgpt.egg-info/dependency_links.txt
+jetmlgpt.egg-info/not-zip-safe
+jetmlgpt.egg-info/top_level.txt
+jetmlgpt/static/index.js
+jupyter-config/jupyter_notebook_config.d/jetmlgpt.json
+jupyter-config/nbconfig/notebook.d/jetmlgpt.json
