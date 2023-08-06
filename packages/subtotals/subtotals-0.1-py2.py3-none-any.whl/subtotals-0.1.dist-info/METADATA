@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: subtotals
+Version: 0.1
+Summary: Generate subtotals for Pandas DataFrames.
+Author-email: S Anand <root.node@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pandas
+Project-URL: Home, https://github.com/gramener/subtotals
