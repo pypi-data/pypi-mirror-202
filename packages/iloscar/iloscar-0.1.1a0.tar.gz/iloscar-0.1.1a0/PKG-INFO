@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: iloscar
+Version: 0.1.1a0
+Summary: iLOSCAR
+Home-page: https://github.com/Shihan150/iloscar
+Author: Shihan Li
+Author-email: <shihan@tamu.edu>
+License: MIT
+Keywords: python,carbon cycle,model,paleoclimate,global warming,LOSCAR
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.7, <3.11
+Description-Content-Type: text/markdown
+
+
+# iloscar
+ A web-based interactive carbon cycle model, built upon the classic LOSCAR model. Forward and inverse mode incorporated.
