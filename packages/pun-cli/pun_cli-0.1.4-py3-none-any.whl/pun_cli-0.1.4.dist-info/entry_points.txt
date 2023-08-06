@@ -1,0 +1,3 @@
+[console_scripts]
+pun-cli=pun_cli.cli:cli
+
