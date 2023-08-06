@@ -1,0 +1,11 @@
+locate_pixelcolor_numba/LICENSE,sha256=D1zl09NUYVPZHBZlhxMZqm8KZZpk4NpBqWdZAI_v5AU,1090
+locate_pixelcolor_numba/README.md,sha256=273OJ-X2uzlZEC84E1nmeHi5wLCelbn36-L_Iw5rQy8,2142
+locate_pixelcolor_numba/__init__.py,sha256=TYfvmiqltNIEcLCilXPvEysdZJ6Vvx8dmmKKUckEh-0,458
+locate_pixelcolor_numba/requirements.txt,sha256=c90Lr45UONqIFiVKBz7kO2H4ss3vbzk-AFnNvFXLjZw,5
+locate_pixelcolor_numba/searchcolorsnumba.pyd,sha256=-T5K_w1MJ36IyEflNgncX771Y9vX6GBUwQISsrv5QT4,46592
+locate_pixelcolor_numba/thirdparty.json,sha256=L6funx23_Xf36BJONV2Z3_-g1Q-fbsHY0uOCwrXU_CM,49102
+locate_pixelcolor_numba-0.10.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+locate_pixelcolor_numba-0.10.dist-info/METADATA,sha256=zQ-WIQDOpMQDqS_Qi8lctwDsHrLoyXyJWPhP-7-UNPY,3025
+locate_pixelcolor_numba-0.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+locate_pixelcolor_numba-0.10.dist-info/top_level.txt,sha256=V72ug-Lj_t4fWM3g7lcGJAw1Wn-QPmcf6MB-Fkad5gc,24
+locate_pixelcolor_numba-0.10.dist-info/RECORD,,
