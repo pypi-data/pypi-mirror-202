@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: cccrontab
+Version: 1.0
+Summary: CC-Crontab by python
+Home-page: https://github.com/OpenFibers/CCCrontab
+Author: OpenFibers
+Author-email: openfibers@gmail.com
+License: MIT
