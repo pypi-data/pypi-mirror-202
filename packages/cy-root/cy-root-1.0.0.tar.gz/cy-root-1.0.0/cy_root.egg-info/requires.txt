@@ -1,0 +1,9 @@
+dynamic-default-args
+numpy
+sympy
+
+[dev]
+cython
+
+[examples]
+tqdm

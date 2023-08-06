@@ -1,0 +1,12 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "Cython",
+    "dynamic-default-args",
+    "numpy",
+    "sympy",
+]
+
+[tool.cibuildwheel]
+build = ["cp36-*", "cp37-*", "cp38-*", "cp39-*", "cp310-*", "cp311-*"]
