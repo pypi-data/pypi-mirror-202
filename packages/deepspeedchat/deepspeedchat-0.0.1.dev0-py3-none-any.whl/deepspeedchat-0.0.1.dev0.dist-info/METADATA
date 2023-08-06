@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: deepspeedchat
+Version: 0.0.1.dev0
+Summary: DeepSpeed Chat: Easy, Fast and Affordable RLHF Training of ChatGPT-like Models at All Scales
+Author: Shadow Walker
+Keywords: deepspeedchat
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+
