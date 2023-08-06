@@ -1,0 +1,8 @@
+setup.py
+dataroid/__init__.py
+dataroid/dataroid.py
+dataroid.egg-info/PKG-INFO
+dataroid.egg-info/SOURCES.txt
+dataroid.egg-info/dependency_links.txt
+dataroid.egg-info/requires.txt
+dataroid.egg-info/top_level.txt
