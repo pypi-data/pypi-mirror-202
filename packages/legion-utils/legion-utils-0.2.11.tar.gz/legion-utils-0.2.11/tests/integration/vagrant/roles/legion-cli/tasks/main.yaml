@@ -1,0 +1,57 @@
+- name: Package Directory
+  file:
+    state: directory
+    path: /opt/legion-cli
+    mode: u=rwx,g=rx,o=rx
+    owner: root
+    group: root
+
+- name: Source Directory
+  file:
+    state: directory
+    path: /opt/legion-cli/src
+    mode: u=rwx,g=rx,o=rx
+    owner: root
+    group: root
+
+- name: Virtualenv Directory
+  file:
+    state: directory
+    path: /opt/legion-cli/env
+    mode: u=rwx,g=rx,o=rx
+    owner: root
+    group: root
+
+- name: RobotnikMQ Python Package
+  pip:
+    name: '/opt/robotnikmq/src'
+    state: forcereinstall
+    extra_args: "--use-feature=in-tree-build"
+    virtualenv: /opt/legion-cli/env
+    virtualenv_python: /usr/bin/python3.8
+
+- name: Legion-Utils Python Package
+  pip:
+    name: '/opt/legion-utils/src'
+    state: forcereinstall
+    extra_args: "--use-feature=in-tree-build"
+    virtualenv: /opt/legion-cli/env
+    virtualenv_python: /usr/bin/python3.8
+
+- name: Python Package
+  pip:
+    name: "/opt/legion-cli/src"
+    state: forcereinstall
+    extra_args: "--use-feature=in-tree-build"
+    virtualenv: /opt/legion-cli/env
+    virtualenv_python: /usr/bin/python3.8
+  register: legion_cli_package
+
+- name: Sym-link
+  file:
+    src: /opt/legion-cli/env/bin/legion
+    dest: /usr/local/bin/legion
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+    state: link

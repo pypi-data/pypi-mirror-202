@@ -1,0 +1,33 @@
+- hosts: legion-utils-vm
+  become: yes
+  become_user: root
+  roles:
+    - role: rabbitmq
+      vars:
+        security:
+          tls:
+            domains: ['localhost', 'legion-utils-vm']
+            ips: ['127.0.0.1', '11.0.0.10']
+        rabbitmq:
+          erl_ssl_path: /usr/lib/erlang/lib/ssl-9.5.3/ebin
+          ssl_port: 5671
+          admin_user: vagrant
+          admin_password: Uy7ht9qbbakp5h3p2KiyyEjIX8O7VkuQ
+          management:
+            https_port: 15671
+            http_port: 15672
+          erlang_cookie: YENCXNSJWQUIQMASJSJK
+          vhosts:
+          - vhost: /legion
+            user: legion
+            password: hackme
+            configure_priv: .*
+            read_priv: .*
+            write_priv: .*
+    - role: legiond
+      vars:
+        security:
+          tls:
+            domains: ['localhost', 'legion-utils-vm']
+            ips: ['127.0.0.1', '11.0.0.10']
+    - role: legion-cli
