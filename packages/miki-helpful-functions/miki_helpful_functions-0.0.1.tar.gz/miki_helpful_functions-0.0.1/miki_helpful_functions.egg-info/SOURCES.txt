@@ -1,0 +1,7 @@
+setup.py
+libname/__init__.py
+libname/helpful_functions.py
+miki_helpful_functions.egg-info/PKG-INFO
+miki_helpful_functions.egg-info/SOURCES.txt
+miki_helpful_functions.egg-info/dependency_links.txt
+miki_helpful_functions.egg-info/top_level.txt
