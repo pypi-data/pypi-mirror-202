@@ -1,0 +1,5 @@
+setup.py
+jtorskeandeleaepicMyLibrary.egg-info/PKG-INFO
+jtorskeandeleaepicMyLibrary.egg-info/SOURCES.txt
+jtorskeandeleaepicMyLibrary.egg-info/dependency_links.txt
+jtorskeandeleaepicMyLibrary.egg-info/top_level.txt
