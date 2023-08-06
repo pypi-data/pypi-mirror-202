@@ -1,0 +1,52 @@
+[tool.poetry]
+name = "coverage-plot"
+version = "0.3.2"
+description = "Library to plot Python code coverage results"
+readme = "README.md"
+homepage = "https://github.com/imankulov/coverage-plot"
+repository = "https://github.com/imankulov/coverage-plot"
+authors = ["Roman Imankulov <roman.imankulov@gmail.com>"]
+license = "MIT"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+include = [
+    "CHANGELOG.md"
+]
+
+
+[tool.poetry.scripts]
+coverage-plot = "coverage_plot.cli:coverage_plot"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+plotly = "^5"
+pandas = "^1.0.5"
+attrs = ">=21.1.0"
+click = "^8.1.2"
+pydriller = "^1.15.2"
+sphinx = { version = "^3", optional = true }
+
+[tool.poetry.extras]
+docs = ["sphinx"]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+black = "^23.3.0"
+flake8 = "^6.0.0"
+mypy = "^1.2.0"
+coverage = {extras = ["toml"], version = "^7.2.3"}
+
+[tool.coverage.run]
+source = ["coverage_plot"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
