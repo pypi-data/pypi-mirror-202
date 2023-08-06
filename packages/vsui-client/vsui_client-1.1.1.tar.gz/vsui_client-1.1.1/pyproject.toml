@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "vsui-client"
+version = "1.1.1"
+description = "Client module for connecting to Volume Segmantics User Inteface"
+authors = ["Matthew Pimblott <matthew.pimblott@diamond.ac.uk>"]
+readme = "README.md"
+packages = [{include = "vsui_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-socketio = {extras = ["client"], version = "^5.7.2"}
+matplotlib = "^3.6.1"
+pytest = "^7.3.0"
+pytest-cov = "^4.0.0"
+tqdm = "^4.65.0"
+flask = "^2.2.3"
+flask-socketio = "^5.3.3"
+gevent = "^22.10.2"
+gevent-websocket = "^0.10.1"
+
+[tool.pytest.ini_options]
+addopts = "-v --cov=vsui_client --cov-report term-missing"
+testpaths = [
+    "tests",
+]
+filterwarnings = [
+    "ignore:.*Downcasting*:UserWarning",
+    "ignore:.*removed in Pillow 10*:DeprecationWarning"
+    ]
+
+[build-system]
+requires = ["poetry-core"]
+builds-backend = "poetry.core.masonry.api"
