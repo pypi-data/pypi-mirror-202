@@ -1,0 +1,12 @@
+beautifulsoup4==4.*
+defusedxml==0.6.*
+pandas==1.4.*
+pyaxis==0.3.*
+python_Levenshtein==0.20.*
+SQLAlchemy==1.4.*
+sqlparse==0.3.*
+Unidecode==1.1.*
+cx_Oracle==7.3.*
+mysql-connector==2.2.*
+xlrd==2.0.*
+openpyxl==3.0.*
