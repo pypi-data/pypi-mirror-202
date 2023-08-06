@@ -1,0 +1,6 @@
+setup.py
+thrivve_core.egg-info/PKG-INFO
+thrivve_core.egg-info/SOURCES.txt
+thrivve_core.egg-info/dependency_links.txt
+thrivve_core.egg-info/requires.txt
+thrivve_core.egg-info/top_level.txt
