@@ -1,0 +1,5 @@
+rustlets-0.2.1.dist-info/METADATA,sha256=7hOHdGfIIjI6jXpFiqfTTN5JMBDRw7ghpXhz5FU-c0Y,899
+rustlets-0.2.1.dist-info/WHEEL,sha256=wlsRJyzPfnZR68KOQR9Dpa5v5x0Dvv3nHRUfdWDbdzg,129
+rustlets/__init__.py,sha256=80uVAvBSdQA8SAIEXJk985f4leUb8cqrt5fsGu0lBs4,115
+rustlets/rustlets.cpython-312-s390x-linux-gnu.so,sha256=Jl9PpQMS62zlqf1gmORAupbvjblJvRu6-kGL1tydWmw,2694032
+rustlets-0.2.1.dist-info/RECORD,,
