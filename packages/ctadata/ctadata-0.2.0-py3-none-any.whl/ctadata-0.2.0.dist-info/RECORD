@@ -1,0 +1,8 @@
+ctadata/__init__.py,sha256=ULP9W3RhyL-nNOUFS48kT2I-LMHMCMeXfQEMTZVcGhE,828
+ctadata/api.py,sha256=6VvTbc7ceZsxbcl9TICA9llFD9uHTRE4d7UC_-OH388,3220
+ctadata/cli.py,sha256=_nSpEgvWKRzQwpMsLJLm44fHud5D1mBHjD9VAxneHoA,850
+ctadata/util.py,sha256=AZBBRVjOylRL3HVZvrqK4GmfflXTAmh1oUy0zlaYyKI,199
+ctadata-0.2.0.dist-info/METADATA,sha256=Qc3TbUk9zA0VhscPfKY4g9mg5-WmqeYFbVX4i1NE7X8,2418
+ctadata-0.2.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+ctadata-0.2.0.dist-info/entry_points.txt,sha256=6mZIZ1FVn5-jYSfy3AFF6AZx80rq6EehnnjtLOCKWsM,45
+ctadata-0.2.0.dist-info/RECORD,,
