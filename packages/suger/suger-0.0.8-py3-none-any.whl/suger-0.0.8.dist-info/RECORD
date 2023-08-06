@@ -1,0 +1,17 @@
+suger/__init__.py,sha256=hWl_bN6DyzAZDoehwqaslsejZJUTVYmCwW-b33qtT-4,100
+suger/common/CsvUtils.py,sha256=DVZveiTw1zNenlRbnbH7ONdTp8sJIO6M51ACXXn3O34,1356
+suger/common/FileCompareUtils.py,sha256=UhYXsEGfCudOre93tbpj4B3e1CcAYYoR4m4Ii8921SY,9253
+suger/common/FileUtils.py,sha256=pEAfD9dzErSU3z6xOccB3pwk7ZcV8O8yu9d_-QKevpM,2431
+suger/common/JsonUtils.py,sha256=kOg2S-pxJuilSjlZaxoOraNqdrTCT8BM4rYHExqHisA,863
+suger/common/ObjectUtils.py,sha256=Ea_xDqUXWR84_GX7n6lpAjI5jzpTp9pPKl8-tAexsIY,1545
+suger/common/SSH.py,sha256=Qvg_Bhp66XlThlbvOB83ZaS2Xfh5ScqB944SEx7MneQ,1834
+suger/common/StringUtils.py,sha256=7Ke8RdWl0BieevFdqv7qAhJLUfOJ6YB3l0_pcYcwPH0,1196
+suger/common/TerminalUtils.py,sha256=5gjWdBtohmr9Lu5Y8p-Qmcg1IxAyJ9ESehcrugJRNSU,519
+suger/common/__init__.py,sha256=M1aBPG9JLBb1ICUwD0xUs7Pf0L-hc4-VHjfgNzScttw,448
+suger/decorator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suger/decorator/csv_decorator.py,sha256=quPVnALvg_GezAv1Waepzcs_HHz3d_jY693a4dlC9vQ,606
+suger/decorator/string_decorator.py,sha256=XxELWTqwrAuhMR12nqLZnWgFT8u_-vmgiZsZFavmYyo,347
+suger-0.0.8.dist-info/METADATA,sha256=zdApkAVFaF6SDiaD3dCc9vsvYn4WUBQmlWzO3qyKRPk,2275
+suger-0.0.8.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+suger-0.0.8.dist-info/licenses/LICENSE,sha256=SbvpEU5JIU3yzMMkyzrI0dGqHDoJR_lMKGdl6GZHsy4,11558
+suger-0.0.8.dist-info/RECORD,,
