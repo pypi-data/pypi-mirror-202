@@ -1,0 +1,109 @@
+[project]
+name = "pyprojectx"
+version = "1.0.0b3"
+description = "Execute scripts from pyproject.toml, installing tools on-the-fly"
+authors = [
+    { name = "Houbie", email = "ivo@houbrechts-it.be" },
+]
+readme = "README.md"
+keywords = [
+    "build",
+    "dependency",
+    "pyprojectx",
+]
+classifiers = [
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+requires-python = ">=3.7"
+dependencies = [
+    "tomli>=2.0.1",
+    "virtualenv>=20.21.0",
+    "userpath>=1.8.0",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://github.com/pyprojectx/pyprojectx"
+documentation = "https://pyprojectx.github.io"
+
+[project.scripts]
+pyprojectx = "pyprojectx.cli:main"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.3.0",
+    "pytest-mock>=3.10.0",
+]
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint.format]
+max-line-length = 120
+variable-rgx = "^[a-z_][a-z0-9_]*$"
+
+[tool.pylint.similarities]
+ignore-imports = true
+
+[tool.pylint.master]
+init-hook = "import sys\nsys.path.append(f\".venv/lib/python{sys.version_info.major}.{sys.version_info.minor}/site-packages\")\nsys.path.append(f\".venv/Lib/site-packages\")\n"
+
+[tool.pylint.messages_control]
+disable = [
+    "missing-docstring",
+    "unspecified-encoding",
+]
+
+[tool.pyprojectx]
+black = "black==23.3.0"
+isort = "isort==5.12.0"
+pylint = "pylint==2.17.2"
+pre-commit = "pre-commit"
+mkdocs = [
+    "mkdocs ~=1.4",
+    "mkdocs-material ~=9.1",
+    "mkdocstrings[python] ~=0.21",
+    "markdown-include ~=0.8",
+]
+
+[tool.pyprojectx.pdm]
+requirements = "pdm==2.5.2"
+post-install = "pw@pre-commit install"
+
+[tool.pyprojectx.aliases]
+install = "pdm install"
+run = "pdm run pyprojectx -t pyproject.toml "
+outdated = "pdm update --outdated"
+clean = "rm -r .venv .pytest_cache dist"
+clean-all = "pw@clean\nrm -r .pyprojectx"
+black = "black src tests"
+isort = "isort src tests"
+unit-test = "pdm run pytest tests/unit"
+integration-test = "pdm run pytest tests/integration"
+test = "pw@unit-test && pw@integration-test"
+check-pylint = "pylint src tests"
+check-black = "black src tests --check"
+check = "pw@check-black && pw@check-pylint && pw@test"
+build = "pw@install && pw@check && pw@pdm build"
+publish = "pdm publish --username __token__"
+prep-release = "# cleanup\nrm -f wrappers.zip .changelog.md\n# extract version from tag\nRELEASE_VERSION=\"${GITHUB_REF_NAME}\"\n# replace __version__ in wrapper\nsed -i -e \"s/__version__/${RELEASE_VERSION}/g\" src/pyprojectx/wrapper/pw.py\nsed -i -e \"s/1.0.0b3/${RELEASE_VERSION}/g\" pyproject.toml\n# cleanup sed backup\nrm -r src/pyprojectx/wrapper/pw.py?*\nrm -r pyproject.toml?*\nmkdir -p dist-zip\ncp src/pyprojectx/wrapper/pw.py dist-zip/pw\ncp src/pyprojectx/wrapper/pw.bat dist-zip/pw.bat\nzip -j wrappers.zip dist-zip/pw*\nawk '/-{3,}/{flag=1;next}/Release/{if (flag==1)exit}flag' CHANGELOG.md > .changelog.md\n"
+generate-usage = "pw@ --help > docs/docs/usage.txt"
+serve-docs = "@mkdocs: cd docs && mkdocs serve"
+generate-docs = "@mkdocs: pw@generate-usage && cd docs && mkdocs build"
+deploy-docs = "@mkdocs: cd docs && mkdocs gh-deploy"
+
+[tool.pyprojectx.os.win.aliases]
+clean = "rmdir /s/q .venv .pytest_cache dist"
+clean-all = "pw@clean\nrmdir /s/q .pyprojectx"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
