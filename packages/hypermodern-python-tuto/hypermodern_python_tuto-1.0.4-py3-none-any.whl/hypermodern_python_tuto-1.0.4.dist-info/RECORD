@@ -1,0 +1,12 @@
+hypermodern_python_tuto/__init__.py,sha256=PlB47bHM3ZWHnutv1c-mTXPPi2M8sEUDfNTAliMP3bk,221
+hypermodern_python_tuto/__main__.py,sha256=RuJx2Y9qCgmm7Wc8RA6p9r4UuBdHZ-AC1U1eodZxZ90,1064
+hypermodern_python_tuto/ui.py,sha256=sckdG4m00XKVBjGvarxTjWvef9uXfdxdzvgxiCuxx_U,639
+hypermodern_python_tuto/wikipedia/article.py,sha256=mKzriS2J8gBv4KRHGn9OkpS8LTwUDTOEMmvz2urrePo,330
+hypermodern_python_tuto/wikipedia/article_schema.py,sha256=rL3t3ZOVY3b6sTl-TbmP6BITPDUXGNQDaigKXrMlufA,918
+hypermodern_python_tuto/wikipedia/language.py,sha256=OdlWNAW5yNWoJhOOrfiac_lDmp3FqX1anzL-8T4ns_I,2386
+hypermodern_python_tuto/wikipedia/requester.py,sha256=LnbZoEc_4mO6dSrFJoo3LMf05xm4s2HzqJGDLJCdiKw,2593
+hypermodern_python_tuto-1.0.4.dist-info/LICENSE,sha256=Z6tmSmocWA7c6BoE9bfB752GJXkDjBonu5kfHy6dgGg,1072
+hypermodern_python_tuto-1.0.4.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+hypermodern_python_tuto-1.0.4.dist-info/entry_points.txt,sha256=2y0jWc_1bI3wi1iGbguk6rdfdox-oqi2Ogz8waIhOio,81
+hypermodern_python_tuto-1.0.4.dist-info/METADATA,sha256=uhUkOWR6bxJ2kydVFb684YvRpDt9UhIn7FeS8iRavRk,7966
+hypermodern_python_tuto-1.0.4.dist-info/RECORD,,
