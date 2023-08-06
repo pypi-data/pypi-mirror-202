@@ -1,0 +1,2 @@
+[lms.djangoapp]
+cookiecutter_plugin = cookiecutter_plugin.apps:CookiecutterPluginConfig
