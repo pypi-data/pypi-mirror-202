@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rplidar-sharpattack
+Version: 0.9.6
+Summary: Simple and lightweight module for working with RPLidar laser scanners
+Home-page: https://gitlab.com/sharpattack/RPLidar
+Author: Artyom Pavlov, Julien Jehl, Arthur Amalvy
+Author-email: arthur.amalvy@univ-avignon.fr
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Hardware
+License-File: LICENSE
+
+This module aims to implement communication protocol with RPLidar laser scanners.
+
