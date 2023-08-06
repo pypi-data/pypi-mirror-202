@@ -1,0 +1,10 @@
+setup.py,sha256=DxWkRHIeKL-rs2kvLzXKRm6toIfCcu-jyd2x4Kypqb8,2091
+emojidb/__init__.py,sha256=2yqbkhvptd4im-R4WyaxbYWHv5vekpIEsZZx25FcbO0,63
+emojidb/client.py,sha256=qUyYZBDcOmJVCHwVfnNA8gXIyMpcXNoc6O6r6PgtIdM,1778
+emojidb/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emojidb/test/test_client.py,sha256=VBc5ROo_ioBYskXn-dP0SFpkkTi1GVthbPzKNp0dE0U,235
+emojidb_python-1.0.1.dist-info/LICENSE,sha256=E9E_fhlg4GMioC8_mAKYzbYk7cmV48wxaUe_R1cNsMk,11359
+emojidb_python-1.0.1.dist-info/METADATA,sha256=ZyqoYX-3vur53NJ0oDhOYUYdd0-cjRY5BM5nA2FJ_kU,2327
+emojidb_python-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+emojidb_python-1.0.1.dist-info/top_level.txt,sha256=mZsApOlgKXmlPVyjuDgVKnr_xJWTn7Jd3tKkOh7JwII,14
+emojidb_python-1.0.1.dist-info/RECORD,,
