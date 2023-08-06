@@ -1,0 +1,13 @@
+agent/__init__.py,sha256=5FQ0s_2rPa2Vpj_dOhp6usXXAHPT9X-MBVVZLP2Uoqo,23
+agent/agent.py,sha256=DuGMTRXyowaMlwzbIt3Onxx5XilYiioAJEOspK--dng,3537
+agent/log.py,sha256=q6lYsW5P15f0uU1hajX29952sIAIpMDwrPCzMIPKumM,123
+agent/utils.py,sha256=LRCyDUsXYWDXZBPdVn2j6uv64YuZ50k61w9iekCewJw,1795
+agent/backends/__init__.py,sha256=5FQ0s_2rPa2Vpj_dOhp6usXXAHPT9X-MBVVZLP2Uoqo,23
+agent/backends/send_slack.py,sha256=kglT0w_V6V4zNgJ6nCsHLP7XUFp6FoCnvDPgdt4kLjU,2041
+api/__init__.py,sha256=5FQ0s_2rPa2Vpj_dOhp6usXXAHPT9X-MBVVZLP2Uoqo,23
+api/client.py,sha256=Pc_7fpRso2awzfDds4WxOnB1jYUSVmHgfLF4Rfwj1DE,1174
+api/log_handler.py,sha256=qxlcljZpWEi3wTW_ODXJvy30t_hIPMy_itrFgiet9i0,1599
+slackflylog-1.0.0.dist-info/METADATA,sha256=R3_QktR_eYZAN3UEA4X8Koizh__zosW7oIh8GZOhbCE,295
+slackflylog-1.0.0.dist-info/WHEEL,sha256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+slackflylog-1.0.0.dist-info/top_level.txt,sha256=RMaSnqGnzwVMB1tcsO6PeVahvjtngV1qKZ1WvXxS3J8,10
+slackflylog-1.0.0.dist-info/RECORD,,
