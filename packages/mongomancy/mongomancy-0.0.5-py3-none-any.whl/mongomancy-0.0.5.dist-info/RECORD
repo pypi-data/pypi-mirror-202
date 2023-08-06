@@ -1,0 +1,11 @@
+mongomancy/__init__.py,sha256=v9oChvb4qxRSPWluG2U2-RIXJRHYcb7Sxvsr7LcR098,431
+mongomancy/engine.py,sha256=IMXBObvxsbFbO3BoOK_RRjfL2jlBsFNA4xaPj4rfU1E,13857
+mongomancy/mongo_errors.py,sha256=bPtajgW9clRXgitBRZ-0kYKkHRymhyOzByj3AOvLAKY,924
+mongomancy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongomancy/schema.py,sha256=R7zDVWaVAGsrTedfpvLOodV971AYq75vyC1HDYBE0GM,12666
+mongomancy/types.py,sha256=PB4VBNmWxi0LzkY7lJrwslFxubBfcJlc3wK1sCgiTaA,5687
+mongomancy-0.0.5.dist-info/LICENSE,sha256=mtsOsePWFnryoAQLndw4D9PD11g-oRlXLxDIIoaRvJ4,1516
+mongomancy-0.0.5.dist-info/METADATA,sha256=utMe4k-4QkypyAnW01Sd1QNveOqHxPQ2cCz9R7SJwAA,4499
+mongomancy-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mongomancy-0.0.5.dist-info/top_level.txt,sha256=O3uiNtSvEdH9BKVmrBuj4ZVLfRP-uxpi1mT1YvEogz4,11
+mongomancy-0.0.5.dist-info/RECORD,,
