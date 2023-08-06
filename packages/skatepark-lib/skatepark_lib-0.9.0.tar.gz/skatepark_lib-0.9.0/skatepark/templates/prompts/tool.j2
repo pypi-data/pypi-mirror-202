@@ -1,0 +1,6 @@
+Tool: {{ tool.name }}
+{% for action in tool.actions() %}
+Action Name: {{ tool.action_name(action) }}
+Action Description: {{ tool.action_description(action) }}
+
+{% endfor %}

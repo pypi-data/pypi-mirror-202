@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "skatepark-lib"
+version = "0.9.0"
+description = "Python framework for AI workflows and pipelines."
+authors = ["Griptape <hello@griptape.ai>"]
+license = "Apache 2.0"
+readme = "README.md"
+repository = "https://github.com/griptape-ai/skatepark"
+
+packages = [
+    {include = "skatepark"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+griptape-core = ">= 0.7.2"
+python-dotenv = ">=0.21"
+openai = ">=0.27"
+attrs = ">=22"
+jinja2 = ">=3.1"
+jsonschema = ">=4"
+marshmallow = ">=3"
+marshmallow-enum = ">=1.5"
+graphlib = "*"
+tiktoken = ">=0.3"
+rich = ">=13"
+stopit = "*"
+
+[tool.poetry.group.test.dependencies]
+griptape-tools = ">= 0.5.1"
+pytest = "~=7.1"
+pytest-cover = "*"
+twine = ">=4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
