@@ -1,0 +1,15 @@
+click
+pygments
+
+[dev]
+black
+flake8
+isort
+mypy
+coverage
+pytest
+pyinstaller
+
+[test]
+coverage
+pytest
