@@ -1,0 +1,46 @@
+# from now on, no more than three checks are possible
+# no more than three checks are allowed
+```
+import Data_Save
+
+def r20():
+    print('text if 1')
+def r670():
+    print('text if 2')
+def r620():
+    print('text if 3')
+
+Data_Save.Data("save_play.save", "text if 1") # Create a file named "save_play.save" and with the text "text if 1"
+
+test = Data_Save.Upload_data("save_play.save", "Home") # make the initial word for verification
+test.up2("save_play.save", "text if 1", "text if 2", "text if 3", r20, r670, r620)
+
+# call functions (r20, r670, r620)
+```
+
+```
+result:  text if 1
+```
+
+# removed one check
+
+
+```
+import Data_Save
+
+def r20():
+    print('text if 1')
+def r670():
+    print('text if 2')
+
+Data_Save.Data("save_play.save", "text if 1") # Create a file named "save_play.save" and with the text "text if 1"
+
+test = Data_Save.Upload_data("save_play.save", "Home") # make the initial word for verification
+test.up2("save_play.save", "text if 1", "text if 2", r20, r670)
+
+# call functions (r20, r670, r620)
+```
+
+```
+result:  text if 1
+```
