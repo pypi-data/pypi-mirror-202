@@ -1,0 +1,7 @@
+README.md
+setup.py
+tarjimonlib/__init__.py
+tarjimonlib.egg-info/PKG-INFO
+tarjimonlib.egg-info/SOURCES.txt
+tarjimonlib.egg-info/dependency_links.txt
+tarjimonlib.egg-info/top_level.txt

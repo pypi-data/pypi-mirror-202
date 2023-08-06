@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tarjimonlib
+Version: 0.0.1
+Summary: Ushbu kutubxona tarjima qilish uchun ishlatiladi
+Author: Olimov Behruz
+Author-email: olimovbehruz738@gmail.com
+Description-Content-Type: text/markdown
+
+```python
+from tarjimonlib import to_uzbek, to_russian, to_english
+
+print(to_uzbek('Hello!')) # Salom!
+print(to_russian('Hello!')) # РџСЂРёРІРµС‚!
+print(to_english('Salom!')) # Hello!
+```
