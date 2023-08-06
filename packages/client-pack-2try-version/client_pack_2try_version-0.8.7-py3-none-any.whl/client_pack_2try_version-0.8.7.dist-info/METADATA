@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: client-pack-2try-version
+Version: 0.8.7
+Summary: mess_client
+Author: Sergey Kuchko
+Author-email: kuchko.02@gmail.com
+Requires-Dist: PyQt6
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
