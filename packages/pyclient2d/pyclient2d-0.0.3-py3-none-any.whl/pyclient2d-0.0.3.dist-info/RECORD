@@ -1,0 +1,16 @@
+pyclient2d/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyclient2d/Client/Client.py,sha256=jj6Fgb2aD9xe3cgzQLXj-ke9NCSBTi09dNeY0Fqr1Q4,104
+pyclient2d/Client/__init__.py,sha256=yuJLC3hInz5l7pBH1rnsbn-5pR-1IafCz9Wtpt6p8q0,43
+pyclient2d/Math/__init__.py,sha256=TyNxuAsWTRHOuvS8l2f93LxOIMu8fDB_Kj6NTInzZbI,120
+pyclient2d/Math/_time.py,sha256=0_svOg8TUkh1lOWgzY1jMt_Am8-xemn6oRjpJBV4qbw,322
+pyclient2d/Math/_typing.py,sha256=N25NP7eB8rkFWgsxmaqX8ZSBFSM0vRpdav97FqhdnYU,66
+pyclient2d/Math/vector.py,sha256=IPrJFI-w9aBR-EaS0DoVEr5Z4ypmfJ7QsvGDZJc2cM4,2642
+pyclient2d/Server/Server.py,sha256=-I6qTX9FxZVsIap3cjz-HxMeo7EQjm7uFPYU8qFM534,104
+pyclient2d/Server/__init__.py,sha256=rLElGi9EY0nihh-usHuLr5B3VxTUtTBn_AgxjIFzL94,44
+pyclient2d/Shared/Engine.py,sha256=UUfXaQEr_hb2Rtk2XMDGh1XWLWYckeLSEMdRwd18eKk,1806
+pyclient2d/Shared/__init__.py,sha256=xR381AG7kN2qaMyrmypLK7jjbDSrgluMKiPR7erNmGQ,44
+pyclient2d-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyclient2d-0.0.3.dist-info/METADATA,sha256=mYiFUDF6oROqipEEDwsdrd4KpzgVlrJu3FVWQ583xeM,551
+pyclient2d-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pyclient2d-0.0.3.dist-info/top_level.txt,sha256=EO1lWhBRA2-3K7ZGJhB4IAk7wF8kXROvxhwemBVf-SY,11
+pyclient2d-0.0.3.dist-info/RECORD,,

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyclient2d
+Version: 0.0.3
+Summary: Encapsulating game server and client into one package
+Home-page: https://github.com/Jopat2409/pyclient2d
+Author: Jopat2409
+Author-email: joantpat@gmail.com
+Keywords: python,game,client,server,engine
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygame
+
+
+# pyclient
