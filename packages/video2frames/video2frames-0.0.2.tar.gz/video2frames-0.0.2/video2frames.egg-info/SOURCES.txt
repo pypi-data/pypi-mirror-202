@@ -1,0 +1,8 @@
+setup.py
+video2frames/__init__.py
+video2frames/frame_split.py
+video2frames.egg-info/PKG-INFO
+video2frames.egg-info/SOURCES.txt
+video2frames.egg-info/dependency_links.txt
+video2frames.egg-info/requires.txt
+video2frames.egg-info/top_level.txt
