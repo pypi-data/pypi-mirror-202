@@ -1,0 +1,8 @@
+import multiprocessing
+try:
+    multiprocessing.set_start_method("fork")
+except:
+    pass
+from multiprocessing import Pool as Pool1
+
+mypool = Pool1()
