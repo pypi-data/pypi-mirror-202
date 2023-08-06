@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fasthr
+Version: 1.0.0
+Home-page: https://github.com/fanzou99/FastHR
+Author: Fan Zou
+Author-email: fuz64@psu.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+FastHR is a Python tool that efficiently estimates hardness ratios for X-ray sources using a Bayesian approach.
+
+Install
+-------
+
+    pip install fasthr
