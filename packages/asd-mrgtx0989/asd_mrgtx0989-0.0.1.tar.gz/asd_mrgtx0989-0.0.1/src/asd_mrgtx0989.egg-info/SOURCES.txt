@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/asd_mrgtx0989/__init__.py
+src/asd_mrgtx0989/example.py
+src/asd_mrgtx0989.egg-info/PKG-INFO
+src/asd_mrgtx0989.egg-info/SOURCES.txt
+src/asd_mrgtx0989.egg-info/dependency_links.txt
+src/asd_mrgtx0989.egg-info/top_level.txt
