@@ -1,0 +1,50 @@
+# NovelCraft SDK for Python
+
+NovelCraft SDK for Python is a Python library for communicating with NovelCraft Servers and accessing NovelCraft game data.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
+
+```bash
+pip install novelcraft.sdk
+```
+
+## Usage
+
+```python
+import novelcraft.sdk as ncsdk
+
+async def main():
+    await sdk.initialize()
+    get_logger().info('Hello, world!')
+
+    while True:
+        await asyncio.sleep(0)
+
+        if ncsdk.get_agent() is None:
+            await asyncio.sleep(1)
+            continue
+
+        agent = ncsdk.get_agent()
+        agent.set_movement(IAgent.MovementKind.FORWARD)
+
+    await ncsdk.finalize()
+    ncsdk.get_logger().info('Goodbye, world!')
+
+if __name__ == '__main__':
+    asyncio.run(main())
+```
+
+For more information, please refer to the [documentation](https://python.sdk.novelcraft.games).
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+
+[Unlicense](choosealicense.com/licenses/unlicense/)
