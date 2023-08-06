@@ -1,0 +1,7 @@
+[gui_scripts]
+dash_board = itkdb_gtk:dash_board
+getShipments = itkdb_gtk:getShipments
+glueWeight = itkdb_gtk:glueWeight
+groundingTest = itkdb_gtk:groundingTest
+sendShipments = itkdb_gtk:sendShipments
+uploadTest = itkdb_gtk:uploadTest
