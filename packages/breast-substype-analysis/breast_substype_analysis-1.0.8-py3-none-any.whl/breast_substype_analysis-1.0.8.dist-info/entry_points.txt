@@ -1,0 +1,2 @@
+[console_scripts]
+breast-subtype = app.routes:main
