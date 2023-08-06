@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: deep-diff-patch
+Version: 0.1.0
+Summary: Deep compare two objects and produces a diffData to transform object1 to object2
+Author: Fabio Rotondo
+Author-email: fabio.rotondo@gmail.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
