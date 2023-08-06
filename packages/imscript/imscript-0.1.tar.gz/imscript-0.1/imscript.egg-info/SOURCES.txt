@@ -1,0 +1,8 @@
+README
+setup.py
+bin/plambda
+bin/qauto
+imscript.egg-info/PKG-INFO
+imscript.egg-info/SOURCES.txt
+imscript.egg-info/dependency_links.txt
+imscript.egg-info/top_level.txt
