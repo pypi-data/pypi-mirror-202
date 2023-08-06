@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: Fluxion
+Version: 0.0.1
+Summary: Library for colors in python
+Home-page: https://github.com/Evolutionarily/Fluxion
+Author: Sophi
+Author-email: evolutionsdd@outlook.com
+Project-URL: Bug Tracker, https://github.com/Evolutionarily/Fluxion/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Fluxion
+
+Fluxion is a python Coloring library and is very simple to use
+
+this library will be updated in the future
+
+
+# Install
+```bash
+pip install Fluxion
+```
+
+# Examples
+
+```py
+from Fluxion import Colors
+
+print(f"{Colors.Blue}Hello World!")
+#will print out hello world in blue.
+```
+
+## How it Looks like: 
+## Screenshots
+
+![App Screenshot](https://media.discordapp.net/attachments/998676329920741447/1096037920202309692/image.png?width=1181&height=372)
