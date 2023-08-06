@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+audioace/__init__.py
+audioace.egg-info/PKG-INFO
+audioace.egg-info/SOURCES.txt
+audioace.egg-info/dependency_links.txt
+audioace.egg-info/requires.txt
+audioace.egg-info/top_level.txt
