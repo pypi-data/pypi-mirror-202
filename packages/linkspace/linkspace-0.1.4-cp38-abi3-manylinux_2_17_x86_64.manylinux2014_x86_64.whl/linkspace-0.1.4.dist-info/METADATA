@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: linkspace
+Version: 0.1.4
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+
+# linkspace-py
+Python bindings to linkspace
+
+Build with `make`
+And use with `source .env/bin/activate`
+Or `make install`
+
+### Windows
+
+```bat
+python3 -m venv .env 
+.venv\Scripts\activate.bat
+pip3 install maturin 
+cargo build
+maturin develop
+```
+
