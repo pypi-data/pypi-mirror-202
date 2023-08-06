@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyb-utils
+Version: 0.2.1
+Summary: Basic utilities for PyBullet, including collision detection, ghost (i.e. visual-only) objects, and cameras.
+License: MIT
+Author: Adam Heins
+Author-email: mail@adamheins.com
+Requires-Python: >=3.7,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Pillow (>=9.0.0,<10.0.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: numpy (>=1.21.5,<2.0.0)
+Requires-Dist: opencv-python (>=4.5.5,<5.0.0)
+Requires-Dist: pybullet (>=3.2.1,<4.0.0)
+Requires-Dist: spatialmath-python (>=1.0.0)
