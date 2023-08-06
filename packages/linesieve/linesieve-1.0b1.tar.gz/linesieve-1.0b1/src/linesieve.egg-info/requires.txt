@@ -1,0 +1,16 @@
+click>=8
+braceexpand>=0.1
+
+[dev]
+pre-commit
+build
+twine
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+
+[tests]
+pytest
+pytest-cov
