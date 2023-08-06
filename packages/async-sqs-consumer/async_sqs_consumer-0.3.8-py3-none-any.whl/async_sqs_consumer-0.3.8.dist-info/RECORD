@@ -1,0 +1,13 @@
+async_sqs_consumer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+async_sqs_consumer/queue.py,sha256=FAdo43Cdnmp8-SpJ6EJE5vo8Jtbp-6cYMmqvYr1LnfM,5040
+async_sqs_consumer/resources.py,sha256=hzRlWRgfcM9Rz-KO_TV0FVRg_TORf4HROXLW6FlUwJw,2254
+async_sqs_consumer/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+async_sqs_consumer/test/send_message.py,sha256=SXcKJLa-pyLFQ3Xre6RIJArDdVUpsr7NMIFYAel5W6Y,542
+async_sqs_consumer/test/server.py,sha256=sXwgG31bIvTSH_IXpxyVYzWbZ5sxcxef-f7-CtNO8So,543
+async_sqs_consumer/types.py,sha256=VbC-_fwi5uT1_93MsrbhA2FsJq7bfCadoc9vcz5Efz0,753
+async_sqs_consumer/utils/__init__.py,sha256=UMHdN8NDpTN-0Jk4Uc4EsMwPs4mvWoIMkUbAyZaXGg0,971
+async_sqs_consumer/utils/retry.py,sha256=FFkonQqXASkTjJBonI4TqGkYGeuy6ivsqDCPk7WNnqQ,3803
+async_sqs_consumer/worker.py,sha256=XNSZTQuEpKsI_ptfypzV5GZw3l7m2rjx6-26QlsPpQQ,11296
+async_sqs_consumer-0.3.8.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+async_sqs_consumer-0.3.8.dist-info/METADATA,sha256=FvRDlvTcnv_HBn58p-AOaO8O27E5mHDRaOVlGvcqO68,3256
+async_sqs_consumer-0.3.8.dist-info/RECORD,,
