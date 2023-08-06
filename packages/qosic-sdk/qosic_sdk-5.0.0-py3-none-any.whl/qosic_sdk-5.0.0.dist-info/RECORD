@@ -1,0 +1,16 @@
+qosic/__init__.py,sha256=ZfQYrW14fi671E1eFh_zSoqCPjNU1rxX6eSFogtu_44,239
+qosic/client.py,sha256=eKImmqDf4INvQufXgnTNB35wbDRnpnjwkVWRphP3qW0,2324
+qosic/errors.py,sha256=XKT6JvpCAMefgez2k2zGfdw2a8-x5oQG88tjm6xcVF0,373
+qosic/logger.py,sha256=8vYH7gAR-0rPOVSZL2zByQ3juSQGk-AzsTsBtnSDkzg,320
+qosic/mobile_carriers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qosic/mobile_carriers/bj/__init__.py,sha256=fj9Bl_81bwG0Z5WqW3WV0reC8MtxcbA6qNCB7_rpNOw,60
+qosic/mobile_carriers/bj/moov.py,sha256=qIWeMtvbBn4nTCHpTPpPSQppr2a6cLNDYgGSrsrcUpA,1605
+qosic/mobile_carriers/bj/mtn.py,sha256=u6ISyKXMt0-u7eHYkDjMWp1pAq_OWLAQPAfPAjsH35Q,3639
+qosic/mobile_carriers/utils.py,sha256=r5x_StMBqYPZzwdFUsf9BREQ7a4tzHbwEQla8393P2g,2103
+qosic/protocols.py,sha256=7mCow8FtFRdwblzdj9-flBkaXqJUw5qx_etxhb6rIJo,424
+qosic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qosic/utils.py,sha256=EVuHn4zil1-yOW7chT99lfrRPuMmtAZjBqdd6bgcVJM,2036
+qosic_sdk-5.0.0.dist-info/LICENSE,sha256=ehi2kvydgs3O-hT95pLNG0e6tvn094FBHr31bRWCN8Q,1070
+qosic_sdk-5.0.0.dist-info/METADATA,sha256=EN_JZM1f0PuIgYCx8HwuoAaOLeOfemJCwj2XCF0Oa1I,3734
+qosic_sdk-5.0.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+qosic_sdk-5.0.0.dist-info/RECORD,,
