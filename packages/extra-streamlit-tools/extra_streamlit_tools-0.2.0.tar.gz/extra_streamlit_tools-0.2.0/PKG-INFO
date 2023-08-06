@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: extra-streamlit-tools
+Version: 0.2.0
+Summary: Extra tools to use for streamlit applications
+Author: Tomer Gabay
+Author-email: tomergabay001@gmail.com
+Requires-Python: >=3.9, !=2.7.*, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*, !=3.7.*, !=3.8.*
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: streamlit (>=1.20.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+[![Version](https://img.shields.io/pypi/v/extra-streamlit-tools)](https://pypi.org/project/extra-streamlit-tools/)
+![](https://img.shields.io/github/license/sTomerG/extra-streamlit-tools)
+![](https://img.shields.io/pypi/pyversions/extra-streamlit-tools)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+# Package with extra tools to use for Streamlit Applications
+
+## Installation
+
+`pip install extra-streamlit-tools`
+
+## Usage
+
+See [ReadTheDocs](https://extra-streamlit-tools.readthedocs.io/en/latest/) for its official documentation.
+
+```
+import extra_streamlit_tools as est
+
+# for data related functions
+from est.data import ...
+
+# for e.g. cache related functions
+from est.utils import ...
+
+```
