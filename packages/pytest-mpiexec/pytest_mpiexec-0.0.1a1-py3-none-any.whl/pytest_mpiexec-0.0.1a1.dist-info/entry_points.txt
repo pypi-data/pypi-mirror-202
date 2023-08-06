@@ -1,0 +1,2 @@
+[pytest11]
+mpiexec = pytest_mpiexec.pytest_plugin
