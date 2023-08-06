@@ -1,0 +1,55 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+
+#lm-VoiceWidget {
+    width: 20px;
+    height: 27px;
+    display: grid;
+    place-content: center;
+    position: relative;
+}
+
+/* #lm-VoiceWidget::after {
+    content: "Toggle voice recognition (Alt+V)";
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: fit-content;
+    padding: 0.25rem;
+    display: none;
+    background-color: beige;
+} */
+
+#lm-VoiceWidget:hover::after {
+    display: block;
+}
+
+#lm-VoiceWidget-button {
+    height: 10px;
+    border-radius: 50%;
+    background-color: beige;
+    border: 1px solid rgba(0, 0, 0, 0);
+    outline: 2px solid beige;
+}
+
+.jp-mod-active {
+    position: relative;
+}
+
+#lm-VoiceWidget-modalContainer {
+    position: absolute;
+    z-index: 1000;
+}
+
+#lm-VoiceWidget-modal {
+    position: absolute;
+    background-color: rgb(228, 228, 228);
+    padding: 0.5rem;
+}
+
+#lm-VoiceWidget-modal:focus {
+    outline: 1px solid rgba(255, 216, 86, 0.842);
+}
