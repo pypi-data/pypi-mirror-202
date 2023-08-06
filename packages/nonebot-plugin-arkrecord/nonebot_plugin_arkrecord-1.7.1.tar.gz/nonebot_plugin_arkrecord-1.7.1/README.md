@@ -1,0 +1,125 @@
+<h1 align="center"><b>nonebot_plugin_arkrecord</b></h1>
+<p align="center">
+    <img src="https://img.shields.io/badge/Python-3.9+-yellow" alt="python">
+    <img src="https://img.shields.io/badge/Nonebot-2.0.0b4-green" alt="python">
+    <img src="https://img.shields.io/badge/Onebot-11-blue" alt="python">
+</p>
+<h2 align="center"><b>欢迎使用明日方舟抽卡分析NoneBot2插件!</b></h2>
+<h4 align="center">本插件为基于python3.9开发的NoneBot2插件，NoneBot2适配器为OneBotV11，当前版本V1.6.2.2
+</h4>
+
+### **若对插件安装、使用有疑问，或在使用中遇到BUG，欢迎在issue区发问；或直接联系作者：QQ 812325695。我将尽可能地排查并解决问题**
+
+
+## **丨插件功能**
+- 调用明日方舟官方抽卡记录api，获取一个月内的抽卡记录，并将记录储存在nonebot的数据库中
+- 在同一个nonebot机器人的数据库中增量储存某玩家的抽卡记录，做到储存、分析长时间段内的抽卡记录
+- 将玩家的抽卡记录制图发送为消息
+
+## **丨插件部署方法**
+
+1、配置SQLite
+
+本插件依赖于SQLite数据库（版本>=3.38）。
+如果在Linux环境下部署机器人，一般无需配置SQLite环境。但如果你的SQLite版本<3.38，建议将版本升级至至少3.38，否则可能导致无法正确生成分析结果。
+
+如果在Windows环境下部署机器人，请参考网络资源（如[菜鸟教程](https://www.runoob.com/sqlite/sqlite-installation.html)）安装SQLite数据库，但无需控制数据库用户、创建数据库表等操作。
+
+2、安装插件
+
+在命令行（cmd）中
+``` shell
+pip install nonebot_plugin_arkrecord
+```
+3、配置数据库储存路径
+
+运行本插件前，需要在机器人的 **.env.prod** 文件中配置数据库储存路径，如
+```arkrecord_db_path = "/root/.arkrecord"```
+
+如果你是1.7版本之前就在使用本插件的老用户，可以直接该路径为```arkrecord_db_path = "/root/.arkrecord"```以保证与此前版本保持一致
+
+如果没有配置该路径，插件将无法启动
+
+4、载入插件
+
+载入插件方式与载入其他插件方式相同，即在NoneBot2的`bot.py`中添加一行
+
+```python
+nonebot.load_plugin('nonebot_plugin_arkrecord')
+```
+
+
+
+
+## **丨插件使用方法**
+### **步骤1：token设置**
+
+每个方舟玩家第一次使用该插件时，需要设置token（令牌）。
+**请注意，如果你在不同的nonebot机器人中使用本插件，需要多次设置token，因为不同机器人的数据库是不互通的。**
+
+**1.1 token获取方法**：**在官网登录后**，根据你的明日方舟账号所属的服务器，选择复制以下网址中的内容
+ 
+官服：https://web-api.hypergryph.com/account/info/hg ，B服：https://web-api.hypergryph.com/account/info/ak-b
+
+
+**1.2 token设置方法**：使用插件命令`方舟抽卡token 页面内容`(自动识别B服、官服token)
+或`方舟寻访token 页面内容`进行设置
+
+如网页中内容为
+```json
+{"status":0,"msg":"OK","data":{"token":"example123456789"}}
+```
+则使用命令 `方舟抽卡token {"status":0,"msg":"OK","data":{"token":"example123456789"}}`。如果使用`方舟抽卡分析`提示无效token，建议重新使用上述方式设置token。
+
+### **步骤2：寻访记录分析**
+
+设置token后，直接使用`方舟抽卡分析`即可，还可以使用`方舟抽卡分析 数字`，分析最近一定抽数的寻访情况
+
+如`方舟抽卡分析 100`分析最近100抽的情况
+
+
+### **插件维护：更新卡池信息与干员头像**
+**全局更新**
+
+使用`方舟卡池更新`命令，自动从PRTS更新卡池信息及干员头像文件
+
+**手动添加卡池**
+
+在卡池开放后，往往需要在数个小时才能从PRTS上获取正确的卡池名称与内容。此时若希望使用本插件，可以使用手动添加卡池功能，命令格式为。需要添加者QQ号是为了防止误添加。
+
+```手动添加卡池|卡池名称|限定类型（限定 非限定）|添加者QQ号```，如
+
+
+```手动添加卡池|万象伶仃|限定|4008208820```
+
+### **导出记录**
+使用`方舟抽卡导出`命令，可以在群聊中导出你当前关联token的储存于插件数据库中的寻访记录。目前只支持在群聊中导出。
+
+### **其他功能**
+使用`方舟抽卡帮助`命令，可以获取插件帮助。 使用`随机干员`命令，随机给出一张干员头像。
+
+## **丨更新日志**
+- v1.6.0 - v1.6.4 更新内容已隐去，详情请查看既往版本的md文件
+- v1.7.0 调整了关键参数配置方式
+- v1.7.0 **调整了token输入方式，现在可以输入整个token网页内容以设置token**
+- v1.7.0 新增了日志系统，现在可以在arkrecord_db_path文件夹下获取运行报错日志
+- v1.7.0 **新增了手动卡池更新命令，再也不用为更新后无法及时获取寻访分析发愁了！（也许）**
+- v1.7.0 优化了数据库读写的逻辑
+
+- v1.7.1 修复了pip缺失BeautifulSoup4依赖的问题
+- v1.7.1 改进了文档中若干处容易被误解的说法
+- v1.7.1 适配了 新增加的卡池类型：中坚寻访
+
+## **| 更新计划**
+- 敬请期待win-exe版方舟抽卡分析小工具
+## **| 参考**
+作图代码参考于
+
+- [nonebot-plugin-gachalogs](https://github.com/monsterxcn/nonebot-plugin-gachalogs)
+
+- [nonebot_plugin_gamedraw](https://github.com/HibiKier/nonebot_plugin_gamedraw)
+
+## **| 开发人员信息**
+主体开发[本人](https://github.com/zheuziihau)
+
+美术资源及需求设计 [@Alnas1](https://github.com/Alnas1)
