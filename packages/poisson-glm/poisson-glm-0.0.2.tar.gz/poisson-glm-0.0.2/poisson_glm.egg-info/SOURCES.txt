@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+poisson_glm.egg-info/PKG-INFO
+poisson_glm.egg-info/SOURCES.txt
+poisson_glm.egg-info/dependency_links.txt
+poisson_glm.egg-info/requires.txt
+poisson_glm.egg-info/top_level.txt
