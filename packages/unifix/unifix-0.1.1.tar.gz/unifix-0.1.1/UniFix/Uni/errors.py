@@ -1,0 +1,2 @@
+class ProgramDoesNotExist(Exception):
+    pass

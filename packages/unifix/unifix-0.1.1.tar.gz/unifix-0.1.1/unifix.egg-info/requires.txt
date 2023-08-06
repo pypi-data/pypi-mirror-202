@@ -1,0 +1,10 @@
+openai
+subprocess_tee
+glom==23.3.0
+bashlex==0.18
+psutil
+colorama
+pyte==0.8.1
+
+[:python_version<"3.4"]
+pathlib2

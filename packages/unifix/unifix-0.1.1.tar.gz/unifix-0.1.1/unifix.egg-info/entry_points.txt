@@ -1,0 +1,2 @@
+[console_scripts]
+unifix = UniFix.UniFix:main
