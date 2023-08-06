@@ -1,0 +1,11 @@
+kick_sdk/example.py,sha256=yJeBgu7d9uJwc81UykB7u_iEJvT01V3yzLBkIBx08Hg,1630
+kick_sdk/kick_sdk.py,sha256=IUINW4A4N1BidjbScVquiImJGNePhBUTctjUDL8w570,7827
+kick_sdk/simple_moderation_bot.py,sha256=zmh8o24zCLvda0EQ6TEmjWKgpCDgaLJ3bELgopl9PeA,1883
+kick_sdk/data/authenticated_user.py,sha256=7QYdip5AG4nHhQQzL1bskECN4d7oE4VIX1mHhRYbOmw,278
+kick_sdk/data/message_entry.py,sha256=eydY0wSxm36VC_b3Lp-BL5T3w-DB8D4w-VSFkGV_tTo,495
+kick_sdk/util/logger.py,sha256=vY-bGI9hZ5Km8S3-qqsErTBsYZm_cWMdaYUrj5PmXOE,677
+kick_sdk-1.0.1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+kick_sdk-1.0.1.dist-info/METADATA,sha256=h5TldYTtx35WQ5nbeIA4g6vSIypMIeOgTJhjmQupeL4,692
+kick_sdk-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+kick_sdk-1.0.1.dist-info/top_level.txt,sha256=ErY07OmZFJLcKz5lBg4vijfZ1T44kiatctkFPZp-adU,9
+kick_sdk-1.0.1.dist-info/RECORD,,

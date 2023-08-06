@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: kick-sdk
+Version: 1.0.1
+Summary: SDK (Starter Developer Kit) for Kick.com enabling creation of bots
+Author-email: dev-vince <imdevvince@gmail.com>
+Project-URL: Homepage, https://github.com/dev-vince/kick.com-SDK
+Project-URL: Bug Tracker, https://github.com/dev-vince/kick.com-SDK/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Kick SDK
+A simple SDK for kickstarting kick bots.
+
+## Telegram (for support): https://t.me/kicksdk
