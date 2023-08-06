@@ -1,0 +1,3 @@
+[console_scripts]
+remilia=remilia.__main__:main
+
