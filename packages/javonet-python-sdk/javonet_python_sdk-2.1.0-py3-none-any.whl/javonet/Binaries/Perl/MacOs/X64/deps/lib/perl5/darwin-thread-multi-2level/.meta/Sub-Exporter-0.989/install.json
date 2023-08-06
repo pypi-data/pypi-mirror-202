@@ -1,0 +1,1 @@
+{"version":"0.989","name":"Sub::Exporter","target":"Sub::Exporter","pathname":"R/RJ/RJBS/Sub-Exporter-0.989.tar.gz","provides":{"Sub::Exporter":{"file":"lib/Sub/Exporter.pm","version":"0.989"},"Sub::Exporter::Util":{"version":"0.989","file":"lib/Sub/Exporter/Util.pm"}},"dist":"Sub-Exporter-0.989"}

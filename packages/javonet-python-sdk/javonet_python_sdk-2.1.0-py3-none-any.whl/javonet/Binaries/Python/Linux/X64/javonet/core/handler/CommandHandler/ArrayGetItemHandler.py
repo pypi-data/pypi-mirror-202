@@ -1,0 +1,24 @@
+from javonet.core.handler.CommandHandler.AbstractCommandHandler import AbstractCommandHandler
+
+
+class ArrayGetItemHandler(AbstractCommandHandler):
+    def __init__(self):
+        self._required_parameters_count = 2
+
+    def process(self, command):
+        try:
+            if len(command.payload) < self._required_parameters_count:
+                raise Exception("ArrayGetItemHandler parameters mismatch!")
+
+            array = command.payload[0]
+            indexes = command.payload[1:]
+            if len(indexes) == 1:
+                return array[indexes[0]]
+            else:
+                array_copy = array.copy()
+                for i in indexes:
+                    array_copy = array_copy[i]
+                return array_copy
+
+        except Exception as e:
+            raise Exception(e) from e
