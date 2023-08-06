@@ -1,0 +1,2 @@
+[console_scripts]
+yeagerai-agent = yeagerai.interfaces.cli:main
