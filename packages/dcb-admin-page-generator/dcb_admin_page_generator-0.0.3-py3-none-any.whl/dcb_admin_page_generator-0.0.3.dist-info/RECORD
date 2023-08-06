@@ -1,0 +1,10 @@
+dcb_admin_page_generator/__init__.py,sha256=NTfWW-S8QXAjYC8uxWb7SXrGLsJ8wceH2hsys4LDZKo,25
+dcb_admin_page_generator/config.py,sha256=X_Tfxbv7ZodkwIrYim0lyYrBoB9k0uIerEtqgFY-PSU,6720
+dcb_admin_page_generator/main.py,sha256=YHDGFaCePIWOw0XY6K3Qaua6rL4T1R2iHYoCSTScom0,2781
+dcb_admin_page_generator/page_class.py,sha256=B2-GzKUkE9nRqJLwVruztpQedsN1hsJZP7keHmUGFwo,10002
+dcb_admin_page_generator/res_text.vue,sha256=tdclZ-DgXnQ2lFwQISgUQeh4bpRJNEVLDHs-PlFWoVg,4213
+dcb_admin_page_generator-0.0.3.dist-info/LICENSE,sha256=vR2z3eUszyli3pNE5DdS2gRzEwCRuQTwhfjfPkGTXpk,1091
+dcb_admin_page_generator-0.0.3.dist-info/METADATA,sha256=yFIniEc8gX89V_wA6axIFZO15dJ1MFlPXSTIiA8oDlE,664
+dcb_admin_page_generator-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dcb_admin_page_generator-0.0.3.dist-info/top_level.txt,sha256=itfEYL5H9FxPBgv6CepRjx9gdnAEUqtsgv_EtNFibhA,25
+dcb_admin_page_generator-0.0.3.dist-info/RECORD,,
