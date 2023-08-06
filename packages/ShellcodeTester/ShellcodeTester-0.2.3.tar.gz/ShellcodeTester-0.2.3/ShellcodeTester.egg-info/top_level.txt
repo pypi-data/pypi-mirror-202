@@ -1,0 +1,5 @@
+bin
+nasmshell
+shell_libs
+shellcodetester
+tests
