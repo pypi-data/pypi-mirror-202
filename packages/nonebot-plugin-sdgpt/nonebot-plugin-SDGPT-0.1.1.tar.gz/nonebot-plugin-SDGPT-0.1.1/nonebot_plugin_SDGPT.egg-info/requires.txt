@@ -1,0 +1,7 @@
+nonebot2
+python-dotenv
+revChatGPT
+EdgeGPT
+webuiapi
+nonebot-adapter-onebot
+nonebot-plugin-guild-patch
