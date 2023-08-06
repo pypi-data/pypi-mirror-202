@@ -1,0 +1,8 @@
+include README.md
+include requirements.txt
+include Makefile
+recursive-include bin
+recursive-include examples
+recursive-include docs
+recursive-include lib
+recursive-include script
