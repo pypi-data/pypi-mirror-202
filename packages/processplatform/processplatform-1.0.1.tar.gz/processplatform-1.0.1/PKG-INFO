@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: processplatform
+Version: 1.0.1
+Summary: Computer process information
+Home-page: https://google.com
+Author: vesper
+Author-email: google@gmail.com
+License: MIT
+Description: Get any computer information or python plugins path with a simple get command.
+Keywords: process
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
