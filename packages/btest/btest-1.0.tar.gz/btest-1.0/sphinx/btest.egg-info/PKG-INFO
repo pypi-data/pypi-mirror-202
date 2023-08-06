@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: btest
+Version: 1.0
+Summary: A powerful system testing framework
+Home-page: https://github.com/zeek/btest
+Author: The Zeek Team
+Author-email: info@zeek.org
+License: 3-clause BSD License
+Keywords: system tests testing framework baselines
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+License-File: COPYING
+
+See https://github.com/zeek/btest
