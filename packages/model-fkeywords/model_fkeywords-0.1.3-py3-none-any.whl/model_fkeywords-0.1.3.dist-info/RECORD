@@ -1,0 +1,13 @@
+api_model/__init__.py,sha256=hj6pBHaMQ_pUvJBrjrBW7tUQRQPg3b6r8vt7eVDwhtM,92
+api_model/nlextract.py,sha256=OeSuVpRdFPp2MVhA_fPlSnnK6RKk0x4EMCJ7l3QS_ME,22777
+api_model/nlsuper.py,sha256=vRMO-RsaqfoCLr6VlfeibnoiLeH51t_7vE8h_0q0c-c,8318
+api_model/nlvisualization.py,sha256=Vwu4IxnYV03zw-TYVBwcqd6DOnBfL3u-baUFs49cVO4,15692
+api_model/utils/colorize.py,sha256=qSwV1Gy-uM2HcJdeQZZMDd808HgUui0EKNaaLlhTEkE,1483
+api_model/utils/functions.py,sha256=DBT0Cz1stf0QbpTBOKJMGGKetyI0QJJd78C2M05sE-k,8405
+api_model/utils/logger.py,sha256=ZbGtItEPLDcgRLUu9vuv54tHbCe5dZzgz4c1TRNDzE0,1809
+model_fkeywords-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+model_fkeywords-0.1.3.dist-info/METADATA,sha256=HQ4Isg-WbQSQOWSYtBkWEAj2Y4rP9Saq-1l3MDgoe7o,12183
+model_fkeywords-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+model_fkeywords-0.1.3.dist-info/dependency_links.txt,sha256=uxd0s7kUrNxJetV-YjSidZyB6EUAg9Q6rTms01ErGpk,115
+model_fkeywords-0.1.3.dist-info/top_level.txt,sha256=xR0bW01Fj4niidHevzu05VKOrS3qgGXNjs-2EspGkFk,10
+model_fkeywords-0.1.3.dist-info/RECORD,,
