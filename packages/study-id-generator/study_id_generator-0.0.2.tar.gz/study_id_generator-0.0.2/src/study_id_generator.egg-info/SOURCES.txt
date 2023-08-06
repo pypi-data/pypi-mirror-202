@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/study_id_generator/__init__.py
+src/study_id_generator/__main__.py
+src/study_id_generator.egg-info/PKG-INFO
+src/study_id_generator.egg-info/SOURCES.txt
+src/study_id_generator.egg-info/dependency_links.txt
+src/study_id_generator.egg-info/requires.txt
+src/study_id_generator.egg-info/top_level.txt

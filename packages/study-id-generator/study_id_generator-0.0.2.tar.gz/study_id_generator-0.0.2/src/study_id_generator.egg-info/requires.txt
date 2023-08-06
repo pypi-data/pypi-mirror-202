@@ -1,0 +1,5 @@
+requests<3,>=2.28
+scikit-learn<2,>=1.1
+pandas<2,>=1.5
+numpy<2,>=1.23
+wxpython<5,>=4.1
