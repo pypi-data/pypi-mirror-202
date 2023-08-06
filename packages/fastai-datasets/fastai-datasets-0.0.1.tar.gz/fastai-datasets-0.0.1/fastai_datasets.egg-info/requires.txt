@@ -1,0 +1,4 @@
+fastai
+facenet_pytorch
+
+[dev]
