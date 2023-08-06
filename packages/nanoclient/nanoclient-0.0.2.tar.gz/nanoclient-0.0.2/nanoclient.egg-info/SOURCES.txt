@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+nanoclient.egg-info/PKG-INFO
+nanoclient.egg-info/SOURCES.txt
+nanoclient.egg-info/dependency_links.txt
+nanoclient.egg-info/requires.txt
+nanoclient.egg-info/top_level.txt
