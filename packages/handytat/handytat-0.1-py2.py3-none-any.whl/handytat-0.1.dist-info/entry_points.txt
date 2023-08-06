@@ -1,0 +1,3 @@
+[console_scripts]
+handy=handytat:main
+
