@@ -1,0 +1,9 @@
+requests
+lxml
+rich
+mutagen
+pillow
+cssselect
+m3u8
+pycryptodome
+importlib-resources
