@@ -1,0 +1,11 @@
+python-dotenv~=1.0.0
+
+[:python_version < "3.11"]
+tomli
+
+[full]
+PyYAML
+click
+
+[yaml]
+PyYAML
