@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: pytemperatureconverter
+Version: 0.1.1
+Summary: 
+Author: Zeeshan Khalid
+Author-email: nszeeshankhalid@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+#	pytemperatureconverter
+
+This is a python package that provides various functions for converting temperatures between different scales, such as Celsius, Fahrenheit, Kelvin and Rankine.
+
+##	Installation
+
+This package requires Python 3.11 or higher and pytest for testing
+
+##	Usage
+To use this package, you need to import it in your Python code:
+
+from temperatureconverter import converter
+
+The converter module provides the following functions:
+
+celsius_to_fahrenheit(c): Converts Celsius to Fahrenheit.
+celsius_to_kelvin(c): Converts Celsius to Kelvin.
+celsius_to_rankine(c): Converts Celsius to Rankine.
+fahrenheit_to_celsius(f): Converts Fahrenheit to Celsius.
+fahrenheit_to_kelvin(f): Converts Fahrenheit to Kelvin.
+fahrenheit_to_rankine(f): Converts Fahrenheit to Rankine.
+kelvin_to_celsius(k): Converts Kelvin to Celsius.
+kelvin_to_fahrenheit(k): Converts Kelvin to Fahrenheit.
+kelvin_to_rankine(k): Converts Kelvin to Rankine.
+rankine_to_celsius(r): Converts Rankine to Celsius.
+rankine_to_fahrenheit(r): Converts Rankine to Fahrenheit.
+rankine_to_kelvin(r): Converts Rankine to Kelvin.
+
+Each function takes a numeric value as an argument and returns a numeric value as a result. For example:
+
+converter.celsius_to_fahrenheit(0)
+32.0
+converter.fahrenheit_to_kelvin(32)
+273.15
+converter.kelvin_to_rankine(273.15)
+491.67
+## Testing
+
+The functions have been tested using pytest.
+============================= test session starts =============================
+platform win32 -- Python 3.11.0, pytest-7.3.0, pluggy-1.0.0 -- C:\Users\username\AppData\Local\pypoetry\Cache\virtualenvs\pytemperatureconverter-4KrmmL8q-py3.11\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\username\Desktop\pytemperatureconverter
+collecting ... collected 12 items
+
+tests/test_functions.py::test_celsius_to_fahrenheit PASSED               [  8%]
+tests/test_functions.py::test_celsius_to_kelvin PASSED                   [ 16%]
+tests/test_functions.py::test_celsius_to_rankine PASSED                  [ 25%]
+tests/test_functions.py::test_fahrenheit_to_celsius PASSED               [ 33%]
+tests/test_functions.py::test_fahrenheit_to_kelvin PASSED                [ 41%]
+tests/test_functions.py::test_fahrenheit_to_rankine PASSED               [ 50%]
+tests/test_functions.py::test_kelvin_to_celsius PASSED                   [ 58%]
+tests/test_functions.py::test_kelvin_to_fahrenheit PASSED                [ 66%]
+tests/test_functions.py::test_kelvin_to_rankine PASSED                   [ 75%]
+tests/test_functions.py::test_rankine_to_celsius PASSED                  [ 83%]
+tests/test_functions.py::test_rankine_to_fahrenheit PASSED               [ 91%]
+tests/test_functions.py::test_rankine_to_kelvin PASSED                   [100%]
+
+============================= 12 passed in 0.03s ==============================
+
+##	License
+This project is licensed under the MIT License.
