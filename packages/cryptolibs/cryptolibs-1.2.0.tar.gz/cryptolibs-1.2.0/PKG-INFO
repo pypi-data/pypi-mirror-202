@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cryptolibs
+Version: 1.2.0
+Summary: Package that helps with crypto libarys
+Home-page: UNKNOWN
+Author: NHJonas
+Author-email: nick.faltermeier@gmx.de
+License: UNKNOWN
+Description: Package that helps with crypto libarys
+Keywords: python
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
