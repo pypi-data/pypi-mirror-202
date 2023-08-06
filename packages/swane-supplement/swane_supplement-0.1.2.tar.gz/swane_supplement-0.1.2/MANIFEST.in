@@ -1,0 +1,9 @@
+include swane_supplement/icons/*
+include swane_supplement/resources/*
+recursive-include swane_supplement/resources *
+include swane_supplement/shortcuts/*
+recursive-include swane_supplement/shortcuts *
+
+exclude .gitignore
+exclude .spyproject
+exclude makerealease.sh
