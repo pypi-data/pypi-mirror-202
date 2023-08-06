@@ -1,0 +1,12 @@
+flottplot/__init__.py,sha256=QJsgqzF86HFEljN3Is2nWaCBSuQzEOqjGKVMlnhMufA,97
+flottplot/__main__.py,sha256=cOgUzinWbcb43gClpK2-tJwQpw5CtYxsWFlbZ-c43yc,3809
+flottplot/assets.py,sha256=uWVjYN2nc-wHpbytGOVWyViMHvvgKgKdYh2HK6H4jzs,1712
+flottplot/convert.py,sha256=5_SCxmbMKnIwixQEzS2kC4B0Re30ScG89y9mpjp1zF4,3093
+flottplot/ipython.py,sha256=0dLkhc9kY1GapqfRIPj7U3Dkt1Q-XpT1QG0u3lUMPHE,1302
+flottplot/assets/flottplot-min.js,sha256=jgtwHciEhMyWC5rr6lH6kSg8Vs73NyyIAtxNmru-aFI,41582
+flottplot/assets/flottplot-scan-min.js,sha256=e4KdmcvmtcPIDH2Fb1MPFQ9aLeXhLF7BOWAliZWdzN0,41708
+flottplot/assets/flottplot.css,sha256=TXCt1NftHLnO8qWegcgosxidbv6UnP38tbCIN7E9fj4,702
+flottplot-2.2.0.dist-info/METADATA,sha256=9vPVKPHajT4s0p96MQTnZmnragPhw9JaBSdkJAVshtc,251
+flottplot-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flottplot-2.2.0.dist-info/top_level.txt,sha256=8tpuK3Jt-CAxrw-ceg1AhvTvkqOVbs07hxm8F3QGSKk,10
+flottplot-2.2.0.dist-info/RECORD,,
