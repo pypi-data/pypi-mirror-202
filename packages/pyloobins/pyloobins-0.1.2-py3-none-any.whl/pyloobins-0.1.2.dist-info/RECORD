@@ -1,0 +1,11 @@
+LOOBins/pbpaste.yml,sha256=EDxFMoPbqsG1gkPY44cRwy7eqsBXuPyP9vae7Gk3JPw,1295
+pyloobins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyloobins/cli.py,sha256=OxC1mI2blY2MvNwnPp8_Ho6uwd89rIhrBQWTsrowdD8,1498
+pyloobins/models.py,sha256=p8pnJe9u1qveavwVUkqGViD-o4wemLpAN0dDYhjR-Bw,3582
+pyloobins/templates/loobin.md.j2,sha256=5Bj1RFs3zYw6m2BqRZa2v2Eqjgoy4NM5BxplHpXogKc,1177
+pyloobins/util.py,sha256=SLpJLoHMqtJiFkZOaVWpuUn7CebdRufT7ph5SKwNWIY,2610
+pyloobins-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyloobins-0.1.2.dist-info/METADATA,sha256=78Kjtq5vUcp5MrGjOJaUczRojLsXDu4JfFv8Q0DBx6c,1214
+pyloobins-0.1.2.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pyloobins-0.1.2.dist-info/entry_points.txt,sha256=NOskQ5rCHRo5AokV1I1OqBijkY1vPYCaCkPf5bdWbNU,47
+pyloobins-0.1.2.dist-info/RECORD,,
