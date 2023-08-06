@@ -1,0 +1,11 @@
+neosekai_api/__init__.py,sha256=2mTOZgz2NPHku8xLpaSWbESVenEZutISVPG1Zkdkncc,219
+neosekai_api/chapter.py,sha256=hFNqw9TjtQlkjcnfCGAogmkMxgPkSNyzqeQF9DJAxN8,2474
+neosekai_api/constants.py,sha256=AWYQ4gHEit0Zv0vQW6fH_1MMyc0IO3zrT3ngo0xPptg,19
+neosekai_api/helper.py,sha256=pMbC0I3l7-3QIjVzA_omfqqF-N01G0j6-xmSx0OHa_4,294
+neosekai_api/novel.py,sha256=5rO6FwzTOM_u_PKoku0RHw98cWy8ZRxIunlivjPIE1Q,4731
+neosekai_api/test.py,sha256=Eu_I25oZopbrvdx3Jo7tza2PLDNmSd8R0FzjLY1VyQk,789
+neosekai_api-1.0.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+neosekai_api-1.0.0.dist-info/METADATA,sha256=fyNMd08ChoABVK40hbIIujswjB89hKyQV03uWJcUT8Q,1152
+neosekai_api-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+neosekai_api-1.0.0.dist-info/top_level.txt,sha256=yhhnZQTXvjhjj5sIHCH99u0SXUqWkMfdfXrXuR585Us,13
+neosekai_api-1.0.0.dist-info/RECORD,,
