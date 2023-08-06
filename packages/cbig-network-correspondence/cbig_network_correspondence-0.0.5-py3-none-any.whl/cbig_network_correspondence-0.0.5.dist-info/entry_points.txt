@@ -1,0 +1,3 @@
+[console_scripts]
+my-script=cbig_network_correspondence.__install__:main
+
