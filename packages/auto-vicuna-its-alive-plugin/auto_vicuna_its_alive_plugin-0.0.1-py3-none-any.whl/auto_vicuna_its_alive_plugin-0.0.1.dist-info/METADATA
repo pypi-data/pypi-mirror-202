@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: auto_vicuna_its_alive_plugin
+Version: 0.0.1
+Summary: An example plugin for Auto-Vicuna.
+Project-URL: Homepage, https://github.com/BillSchumacher/Auto-Vicuna-Its-Alive-Plugin
+Project-URL: Bug Tracker, https://github.com/BillSchumacher/Auto-Vicuna-Its-Alive-Plugin/issues
+Author-email: Bill Schumacher <34168009+BillSchumacher@users.noreply.github.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: abstract-singleton
+Requires-Dist: auto-vicuna-plugin-template
+Description-Content-Type: text/markdown
+
+# Auto-Vicuna-Plugin-Template
+The plugin template repo for Auto-Vicuna
