@@ -1,0 +1,10 @@
+rgcosm/__init__.py,sha256=xTtUiYMwhyQQ6UAufx3_6fvuTWQy_n_j_5NbU4Z-v48,99
+rgcosm/__main__.py,sha256=EPNx5z8NV4pjXw-fnqd9rbnjPoP1mwlYNweLLyDHKoc,779
+rgcosm/convert.py,sha256=NCgF0DMFQvhIPNKmf--vw_sXL4rve7v3UWo7hlVAAR0,2648
+rgcosm/geocoder.py,sha256=1VloiAJwiHOW8pKqHg7_G9fln42j89XPIbWyzje9KU0,3827
+rgcosm-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+rgcosm-0.0.5.dist-info/METADATA,sha256=GYICX6VZau4sua2WfwlwoGg61CMXrOvve2S2yg7r3s8,6274
+rgcosm-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+rgcosm-0.0.5.dist-info/entry_points.txt,sha256=99Hnvx9oqgx7b-j_M8FnHtCwbig8BcMMisrIoESyWIM,44
+rgcosm-0.0.5.dist-info/top_level.txt,sha256=AiyAI50pcvtS1V8tbrBxTenOSqOC06YbmiY_zC2C8Vw,7
+rgcosm-0.0.5.dist-info/RECORD,,
