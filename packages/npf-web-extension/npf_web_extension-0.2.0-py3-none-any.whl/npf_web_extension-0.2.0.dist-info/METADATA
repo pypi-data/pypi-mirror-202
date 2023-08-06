@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: npf-web-extension
+Version: 0.2.0
+Summary: NPF Web extension designed to export results to a single html web app
+Home-page: https://github.com/dpcodebiz/npf-web-extension
+Project-URL: Bug Tracker, https://github.com/dpcodebiz/npf-web-extension/issues
+Project-URL: Changelog, https://github.com/dpcodebiz/npf-web-extension/releases
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: file: README.md
+License-File: LICENSE
+
