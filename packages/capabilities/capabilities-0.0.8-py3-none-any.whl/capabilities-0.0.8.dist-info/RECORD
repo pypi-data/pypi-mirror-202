@@ -1,0 +1,10 @@
+capabilities/__init__.py,sha256=dltcAP-jEysMUgQoyGLGsx7JBH2PnThD3caa7F_poX8,29
+capabilities/config.py,sha256=z_mS9YKpEMytNLq21T104fYVkkQKf2kDwHSIwde7EbQ,480
+capabilities/core.py,sha256=pe8qaL1Ffj-0Epv9IZwzUBTp4gPpnK3nODidiQyI8Ss,12788
+capabilities/example.py,sha256=WdW6WqynnIzmWXMOwqyD86ffo-PgaV1t08dVNr55sLA,12865
+capabilities/util.py,sha256=Ukmp67PnWYhYT9oFoYCDAgD2OXY5zG9EIAcB8DlcsTI,4729
+capabilities-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+capabilities-0.0.8.dist-info/METADATA,sha256=9JPUUfYBFv01xbFjZObyFMAJj9NvMeWudVpIWMaQfmg,13538
+capabilities-0.0.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+capabilities-0.0.8.dist-info/top_level.txt,sha256=Tfj23DLd1T1rgKnUYp5N0pYNv8Si-NHRc2DqWTGBQLY,13
+capabilities-0.0.8.dist-info/RECORD,,
