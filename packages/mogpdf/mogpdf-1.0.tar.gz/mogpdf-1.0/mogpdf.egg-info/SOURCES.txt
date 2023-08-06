@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mog/__init__.py
+mog/pdf2image.py
+mog/pdf2text.py
+mogpdf.egg-info/PKG-INFO
+mogpdf.egg-info/SOURCES.txt
+mogpdf.egg-info/dependency_links.txt
+mogpdf.egg-info/top_level.txt
