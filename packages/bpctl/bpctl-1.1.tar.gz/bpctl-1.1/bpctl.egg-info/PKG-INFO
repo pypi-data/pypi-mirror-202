@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: bpctl
+Version: 1.1
+Summary: A sample Python package
+Home-page: https://gitlab.com/ot-okts/base/bpctl
+Author: Tajinder kumar
+Author-email: tajinder.kumar@opstree.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
