@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: OSS-Webcrawler
+Version: 0.0.1
+Summary: For Web Crawling with Python
+Author: yoonjin Choi
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pytest
+
+UNKNOWN
