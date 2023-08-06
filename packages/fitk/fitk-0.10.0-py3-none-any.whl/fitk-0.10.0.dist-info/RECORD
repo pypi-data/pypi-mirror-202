@@ -1,0 +1,15 @@
+fitk/VERSION.txt,sha256=3CT-tb01CE2K4ypOr77BI1JwfUZiQB_LzJu9aWzed6k,7
+fitk/__init__.py,sha256=IFLdgVgDUzgGnOQv0x3dvKUIf1A5UySNogcWoTwMjLQ,15537
+fitk/derivatives.py,sha256=yRvRVq04a5GwdsVz17h1HiNajj_vRXBWwhVMWayUM-I,22853
+fitk/graphics.py,sha256=001u1_YeUSp5rJoRv90mpl7fN-NXxJ2L4kTNM2ztB8Q,82161
+fitk/interfaces/__init__.py,sha256=Jblp8UEFs3TZP0ocuIu0pGqPcR2yyvSlEoRvwj8JUmk,4705
+fitk/interfaces/classy_interfaces.py,sha256=5RfJfFD2N4MN1Swgde9vJlCOHO3PcHjg5CslAOw-Hn8,9643
+fitk/interfaces/coffe_interfaces.py,sha256=tZv6EB0AQcNUM7xtKo7urFKxl6LPdGXFB3pp3zE9TKI,20077
+fitk/interfaces/misc_interfaces.py,sha256=a_3ihXE5AfBHivV_ECn3zWeT5E_OKs-jOgZvXyBmi-E,5159
+fitk/operations.py,sha256=Ow_VNHbUdGGYRMkdGbpjhlTda2tFAQSFcoFNeMN9bg4,9254
+fitk/tensors.py,sha256=Q9IHctoUHHh4L5zldLjZV8Zc3_t0yUTPwzqe_FEFlNo,74703
+fitk/utilities.py,sha256=XBdJJSXWC7BadlhIe3IdFbn2e9tfJdg5LBQFEvzcLa8,9912
+fitk-0.10.0.dist-info/LICENSE,sha256=rnTBYFN27-xH_LpYcHmchq9YbEu6mTvhXe25gfW-m0U,1066
+fitk-0.10.0.dist-info/WHEEL,sha256=gSF7fibx4crkLz_A-IKR6kcuq0jJ64KNCkG8_bcaEao,88
+fitk-0.10.0.dist-info/METADATA,sha256=lN-BLQCbpSbBM_R2zMDObhFYt5YA2i8GL1AUMP6WZrk,2796
+fitk-0.10.0.dist-info/RECORD,,
