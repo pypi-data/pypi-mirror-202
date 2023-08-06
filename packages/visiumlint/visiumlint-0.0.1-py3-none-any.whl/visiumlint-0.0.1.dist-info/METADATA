@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: visiumlint
+Version: 0.0.1
+Requires-Dist: black
+Requires-Dist: isort
+Requires-Dist: mypy
+Requires-Dist: pydocstyle
+Requires-Dist: pylint
+Requires-Dist: typer
+
