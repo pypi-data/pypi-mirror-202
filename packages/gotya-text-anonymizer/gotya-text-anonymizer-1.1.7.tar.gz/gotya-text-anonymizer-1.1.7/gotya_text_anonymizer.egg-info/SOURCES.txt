@@ -1,0 +1,8 @@
+setup.py
+gotya_text_anonymizer/__init__.py
+gotya_text_anonymizer/anonymizer.py
+gotya_text_anonymizer.egg-info/PKG-INFO
+gotya_text_anonymizer.egg-info/SOURCES.txt
+gotya_text_anonymizer.egg-info/dependency_links.txt
+gotya_text_anonymizer.egg-info/requires.txt
+gotya_text_anonymizer.egg-info/top_level.txt
