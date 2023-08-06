@@ -1,0 +1,4 @@
+[console_scripts]
+bcache-super-show = bcache_tools.bcache_super_show:main
+make-bcache = bcache_tools.make_bcache:main
+
