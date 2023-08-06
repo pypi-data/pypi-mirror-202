@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "e2xgradingtools"
+version = "0.0.1"
+description = "A package for creating autograder tests in Jupyter notebooks"
+readme = "README.md"
+requires-python = ">3.7"
+license = "MIT"
+authors = [
+    { name = "Tim Metzler", email = "tim.metzler@h-brs.de"}
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9"
+]
+dependencies = [
+    "rapidfuzz"
+]
+
+[project.optional-dependencies]
+dev = [
+    "hatchling",
+    "pre-commit",
+    "sphinx",
+    "sphinx-rtd-theme"
+]
+
+[project.urls]
+Documentation = "https://e2xgradingtools.readthedocs.io"
+Issues = "https://github.com/Digiklausur/e2xgradingtools/issues"
+Source = "https://github.com/Digiklausur/e2xgradingtools"
