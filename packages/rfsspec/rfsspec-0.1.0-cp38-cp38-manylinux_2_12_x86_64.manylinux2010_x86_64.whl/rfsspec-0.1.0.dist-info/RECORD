@@ -1,0 +1,12 @@
+rfsspec-0.1.0.dist-info/METADATA,sha256=0wJdyA4nITcvvUgQ_fVBRijC-CzlvzaLBJ9nvzOKwNc,1610
+rfsspec-0.1.0.dist-info/WHEEL,sha256=h-TCaHGn2tZOESUmcDfMekulY0HibKjedd2FNvEgk4w,129
+rfsspec-0.1.0.dist-info/license_files/LICENSE,sha256=Qu2zMzmU37zzUzIDfimKQ2Y7GMf_TL3DcADoNnkAAfE,1070
+rfsspec.libs/libssl-45779e82.so.3,sha256=2tV0HL4XhNasvc7J-AMqZbNy4dLiVygw6uqOfTgjGBI,853056
+rfsspec.libs/libcrypto-32d097d2.so.3,sha256=Y8pL6ETA9lJkriWM-5fAKysqjbGZlSFeqDjghjmCupw,6229192
+rfsspec/gcs.py,sha256=dQ7LMw4cFjioy5BEycGzoEyNKSpRhsuMZFiGS35qqzA,1527
+rfsspec/s3.py,sha256=VXDGFzKmNRol16T5ghGOh8sjoyJIXBjNrDjf05ChggA,3954
+rfsspec/__init__.py,sha256=zzwpIKpF_rlp6mPgumhudRRNpst2DnqgKUPBSAg8K7k,278
+rfsspec/azure.py,sha256=aUEMZpaTm9DJLnvsY_MyN31_6oSi7LrmHwSbR46kQ4k,1478
+rfsspec/http.py,sha256=lCkeemlGHIRH1UfVjSKfKC1yUT6-4blUxjdJ1ceFyic,4946
+rfsspec/rfsspec.cpython-38-x86_64-linux-gnu.so,sha256=EDhP4S_-IUomTnTzNmz8nTUuISQdKjTqnF8AoZKi3uk,8807368
+rfsspec-0.1.0.dist-info/RECORD,,
