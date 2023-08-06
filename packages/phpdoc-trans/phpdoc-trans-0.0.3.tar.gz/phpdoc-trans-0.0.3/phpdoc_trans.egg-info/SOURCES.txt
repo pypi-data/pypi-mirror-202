@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+phpdoc_trans/__init__.py
+phpdoc_trans/main.py
+phpdoc_trans/spinner.py
+phpdoc_trans.egg-info/PKG-INFO
+phpdoc_trans.egg-info/SOURCES.txt
+phpdoc_trans.egg-info/dependency_links.txt
+phpdoc_trans.egg-info/entry_points.txt
+phpdoc_trans.egg-info/requires.txt
+phpdoc_trans.egg-info/top_level.txt
