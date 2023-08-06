@@ -1,0 +1,6 @@
+setup.py
+vhdx_2_zvol.egg-info/PKG-INFO
+vhdx_2_zvol.egg-info/SOURCES.txt
+vhdx_2_zvol.egg-info/dependency_links.txt
+vhdx_2_zvol.egg-info/entry_points.txt
+vhdx_2_zvol.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+vhdx2zvol = vhdx_2_zvol.main:main
+
