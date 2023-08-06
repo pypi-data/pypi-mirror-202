@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+smannan_lotr_sdk.egg-info/PKG-INFO
+smannan_lotr_sdk.egg-info/SOURCES.txt
+smannan_lotr_sdk.egg-info/dependency_links.txt
+smannan_lotr_sdk.egg-info/top_level.txt
