@@ -1,0 +1,11 @@
+adviz/__init__.py,sha256=Y9n6O5YVjquanclbZTXAJz8QudksjSZLBGz8LyeAI5Y,111
+adviz/_modidx.py,sha256=3a7jikvlekGx9HBFTQpUWRgubTKjFlryodYYYbxzJOw,738
+adviz/core.py,sha256=cWUcICMH3xT_x0ZljrBdj0nrbxCno9ND4o_2PCToglY,142
+adviz/status_codes.py,sha256=pbbBSzp9kX47qJoDfYJMeaik08Zl2b3Qq3LixOltJ3U,2478
+adviz/value_counts_plus.py,sha256=u-SxIUyKitUJ2ugWwE0l64T2R-4g3f7lbckbxs2_0Tc,3921
+adviz-0.0.8.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+adviz-0.0.8.dist-info/METADATA,sha256=ecvaondBVfbAkZr9SxjJpQ5RnMR5glFfikk-TCUALxk,3585353
+adviz-0.0.8.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+adviz-0.0.8.dist-info/entry_points.txt,sha256=VWchZvEMTzcbu6vJwMdK7fhADznOYY0-hqcaGpIfNqM,32
+adviz-0.0.8.dist-info/top_level.txt,sha256=55C9eYPqUJW-HJyxrOVGvTGV8aTW7V1Wk5JFpmOIH9o,6
+adviz-0.0.8.dist-info/RECORD,,
