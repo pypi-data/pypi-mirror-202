@@ -1,0 +1,8 @@
+README.md
+setup.py
+square_ragoza/__init__.py
+square_ragoza/square_formula.py
+square_ragoza.egg-info/PKG-INFO
+square_ragoza.egg-info/SOURCES.txt
+square_ragoza.egg-info/dependency_links.txt
+square_ragoza.egg-info/top_level.txt

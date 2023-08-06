@@ -1,0 +1,1 @@
+This directory includes published version of a basic square formula of (a+b)^2
