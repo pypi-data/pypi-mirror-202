@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+data_visualization/__init__.py
+data_visualization/register.py
+test_data_visualization.egg-info/PKG-INFO
+test_data_visualization.egg-info/SOURCES.txt
+test_data_visualization.egg-info/dependency_links.txt
+test_data_visualization.egg-info/requires.txt
+test_data_visualization.egg-info/top_level.txt
