@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+img-clust/__init__.py
+img-clust/imgclust.py
+img_clust.egg-info/PKG-INFO
+img_clust.egg-info/SOURCES.txt
+img_clust.egg-info/dependency_links.txt
+img_clust.egg-info/requires.txt
+img_clust.egg-info/top_level.txt
