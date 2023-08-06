@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pyGuardPoint
+Version: 0.8.0
+Summary: Easy-to-use Python module implementing GuardPoint's WebAPI
+Author: John Owen
+Maintainer-email: sales@sensoraccess.co.uk
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+pyGuardPoint
+===============
+
+pyGuardPoint providers pythonic programming interface to GuardPoint-10.
+GuardPoint-10 is an Access Control System(ACS) - Learn more about GuardPoint-10 here https://www.sensoraccess.co.uk/guardpoint10/
+
+What is it good for?
+------------------
+Rapid development of applications and scripts using the GuardPoint ACS.
+pyGuardPoint manages your authenticated connection to GuardPoint-10, so there is know need to construct complex OData URLs.
+The Python object Cardholder represent a user/person on the system.
+Modify your Cardholder's attributes and update them with just a couple of lines of code.
+
+Examples
+------------------
+
+For example, to retrieve a list of cardholders::
+
+    cardholders = gp.get_card_holders(search_terms="Jeff Buckley")
+    for cardholder in cardholders:
