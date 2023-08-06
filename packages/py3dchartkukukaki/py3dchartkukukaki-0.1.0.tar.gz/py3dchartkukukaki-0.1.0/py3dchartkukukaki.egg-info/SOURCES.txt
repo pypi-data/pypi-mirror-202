@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+py3dchartkukukaki.egg-info/PKG-INFO
+py3dchartkukukaki.egg-info/SOURCES.txt
+py3dchartkukukaki.egg-info/dependency_links.txt
+py3dchartkukukaki.egg-info/top_level.txt
