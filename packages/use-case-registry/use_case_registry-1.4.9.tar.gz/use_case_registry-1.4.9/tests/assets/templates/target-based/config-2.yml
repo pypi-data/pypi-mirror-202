@@ -1,0 +1,10 @@
+target: "{{ env_var("EXECUTION_ENV", "dev") }}"
+
+options:
+    dev:
+        name: t
+    
+    test:
+        name: a
+    
+
