@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: azuredol
+Version: 0.1.1
+Summary: Azure Storage Data Object Layer
+Home-page: https://github.com/i2mint/azuredol
+Author: OtoSense
+License: apache-2.0
+Description: # azuredol
+        Azure Storage Data Object Layer
+        
+Keywords: azure,storage,blob
+Platform: any
+Description-Content-Type: text/markdown
