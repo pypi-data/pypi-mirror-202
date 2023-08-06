@@ -1,0 +1,3 @@
+[console_scripts]
+pepper=pepper_cli:main
+
