@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: chattychattybangbang
+Version: 0.0.5
+Summary: chat utilities
+Home-page: https://github.com/chattychattybangbang/chattychattybangbang
+Author: chattychattybangbang
+Author-email: pcotton@intechinvestments.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: getjson
+Requires-Dist: hypothesis
+Requires-Dist: openai
+
+# chattychattybangbang
+Utilities for using chatgpt more reliably
+
+
+### Install
+
+    pip install chattychattybangbang
+    
+    
+### Example
+Asks ChatGPT a question, then calls it again to QA the answer. 
+
+
+    from chattychattybangbang.castigateuntilvaluesare import castigate_until_values_are
+    question = """
+      I would like you to pick three companies from the sp500 index. 
+      Return a dictionary containing the main color in their logo (pick one only)
+      The keys of the dictionary should be the company tickers. 
+      Just provide the dict and nothing else in your response, please. 
+    """
+    d = castigate_until_values_are(question=question, value_description='a color', max_retries=5)
+    print(d)
+    
+    {'AAPL': 'white', 'MSFT': 'red', 'GOOGL': 'green'}
+
+### Article
+See [Reliably getting answers out of chatgpt](https://medium.com/@mike.roweprediger/reliably-getting-answers-out-of-chatgpt-by-forcing-it-to-qa-itself-feb1f56782b9) on medium. Thanks to Michael Rowe. 

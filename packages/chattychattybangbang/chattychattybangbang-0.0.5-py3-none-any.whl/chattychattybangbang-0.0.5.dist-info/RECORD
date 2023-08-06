@@ -1,0 +1,15 @@
+chattychattybangbang/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chattychattybangbang/castigateuntilvalid.py,sha256=deQuD8NRz3B3zonROPT1BN1JyFf4VD4WnKpoh9OC-5Y,1780
+chattychattybangbang/castigateuntilvaluesare.py,sha256=eEpHys24rSYUWfIIRdTYHHRBGLASdRt4wzvbya0cLbE,2791
+chattychattybangbang/castigators.py,sha256=N9iPwASmpSEVww6TAIHUCy0ssOcAFKBoPe7W-6P-8fs,301
+chattychattybangbang/jsonutil.py,sha256=6XCLanL-EXzXqMDhWQ4701qTofvY3qgF5z08qZS8lmQ,181
+chattychattybangbang/openaicredentials.py,sha256=BtGailD-H5nqGvWDAqVGyu_Idz0rZhQFTWs3Mh5QtFQ,542
+chattychattybangbang/openutil.py,sha256=J0i46qWfWkJ-PQkRZJ7Q1yzLizN8OINrZlxntmX2bSE,356
+chattychattybangbang/validators.py,sha256=tfmDUyCSfJ8lgPjIefH5tyi2E5saXErX1K_lkSxFtvs,626
+chattychattybangbang/whereami.py,sha256=JDldMeSsuNvExUM4qOpKgC9cuJH17U54c_w1MIQsMJM,154
+chattychattybangbang-0.0.5.dist-info/LICENSE,sha256=5RH-tj_6UEnyqM02GLWvSZbrg0aoAbv_Zpv0ZDC4H7I,1069
+chattychattybangbang-0.0.5.dist-info/METADATA,sha256=ZaScjCClAtZ1Eh-asbmRy78IDBAQ5Nik692x833hS70,1666
+chattychattybangbang-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+chattychattybangbang-0.0.5.dist-info/entry_points.txt,sha256=hEf4smUCN-QeP0YXMq_XMHf7gKqkOGAr2ymMHqL4wME,76
+chattychattybangbang-0.0.5.dist-info/top_level.txt,sha256=teUJl2B8Ux2cxelSLfth8T8dCsjQq-5HGjTz0W76wSE,21
+chattychattybangbang-0.0.5.dist-info/RECORD,,
