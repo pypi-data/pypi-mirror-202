@@ -1,0 +1,4 @@
+postgres_copy_binary/__init__.py,sha256=uVBIIGPw8cGj_2YGmzrzLYkMm89wLLjIrkgMd1_FLeU,723
+postgres_copy_binary-0.4.0.dist-info/METADATA,sha256=fe8qTapHNhAJCagAqEBgctfB2OudPHolXckaExZlg_w,1828
+postgres_copy_binary-0.4.0.dist-info/WHEEL,sha256=HaH99ouOrPevk9rpqY57z9Q0cqbngAEEM9aoS7RPGq0,92
+postgres_copy_binary-0.4.0.dist-info/RECORD,,
