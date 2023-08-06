@@ -1,0 +1,11 @@
+include multi_date_picker/multi_date_picker.min.js
+include multi_date_picker/multi_date_picker.min.js.map
+include multi_date_picker/async-*.js
+include multi_date_picker/async-*.js.map
+include multi_date_picker/*-shared.js
+include multi_date_picker/*-shared.js.map
+include multi_date_picker/metadata.json
+include multi_date_picker/package-info.json
+include README.md
+include LICENSE
+include package.json
