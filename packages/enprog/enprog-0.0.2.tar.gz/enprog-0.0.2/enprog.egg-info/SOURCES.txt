@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+ENPROG/__init__.py
+ENPROG/__main__.py
+ENPROG/code.enprog
+ENPROG/enprog.py
+ENPROG/example.py
+ENPROG/examplescript.ep
+enprog.egg-info/PKG-INFO
+enprog.egg-info/SOURCES.txt
+enprog.egg-info/dependency_links.txt
+enprog.egg-info/entry_points.txt
+enprog.egg-info/top_level.txt

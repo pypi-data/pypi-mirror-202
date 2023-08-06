@@ -1,0 +1,2 @@
+set x to 20
+print x

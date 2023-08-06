@@ -1,0 +1,9 @@
+class Example {
+    def init(self, age) {
+       set self.age to age
+       return age
+    } 
+}
+set example to Example
+set age to example.init(example, 20)
+print age
