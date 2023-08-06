@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: jdFlatpakSnapshot
+Version: 1.0
+Summary: A Program to create Snapshots of Flatpak Apps
+Author-email: JakobDev <jakobdev@gmx.de>
+License: GPL-3
+Project-URL: Source, https://codeberg.org/JakobDev/jdFlatpakSnaphot
+Project-URL: Issues, https://codeberg.org/JakobDev/jdFlatpakSnapshot/issues
+Project-URL: Donation, https://ko-fi.com/jakobdev
+Keywords: JakobDev,Linux,Flatpak
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Other Environment
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyQt6
+Requires-Dist: desktop-entry-lib
+
+# jdFlatpakSnapshot
+
+A Program to create Snapshots of Flatpak Apps
