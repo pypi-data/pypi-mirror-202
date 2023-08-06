@@ -1,0 +1,2 @@
+[console_scripts]
+puploader = puploader.__main__:main

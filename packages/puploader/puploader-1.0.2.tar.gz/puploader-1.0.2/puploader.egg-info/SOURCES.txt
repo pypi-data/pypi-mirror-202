@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+puploader/__init__.py
+puploader/__main__.py
+puploader.egg-info/PKG-INFO
+puploader.egg-info/SOURCES.txt
+puploader.egg-info/dependency_links.txt
+puploader.egg-info/entry_points.txt
+puploader.egg-info/requires.txt
+puploader.egg-info/top_level.txt
