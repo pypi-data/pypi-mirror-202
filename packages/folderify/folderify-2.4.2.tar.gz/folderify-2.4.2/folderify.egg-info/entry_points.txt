@@ -1,0 +1,3 @@
+[console_scripts]
+folderify-v2 = folderify.__main__:main
+
