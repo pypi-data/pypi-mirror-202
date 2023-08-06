@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bazingo
+Version: 0.0.2
+Summary: A `Notebook` replacement for tkinter
+Home-page: https://github.com/Moosems/bazingo
+Author: Moosems
+Author-email: moosems.j@gmail.com
+Description-Content-Type: text/markdown
+
+# Bazingo 0.0.2
+
+Bazingo aims to replace the conventional `Notebook` widget with a less buggy and more customizable alternative.
+
+The following is planned to be implemented:
+- [ ] Put custom widgets to tabbar -->
+- [ ] Tabs can have a close button and an icon at the same time
+- [ ] Tabs can be pinned
+- [ ] Tabs can be grouped
+- [ ] Scroll through tabs 
+- [ ] Search through tabs (list tabs)
