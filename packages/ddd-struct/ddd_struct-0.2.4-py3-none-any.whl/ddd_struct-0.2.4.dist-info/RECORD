@@ -1,0 +1,17 @@
+ddd_struct/__init__.py,sha256=zzpWj9dacTQehkx39zBhZpyA4mvjeUbMyWWqA1-o17A,183
+ddd_struct/version.py,sha256=qfsPKGSX4YbTkJ_mvg4kfAF60Sx0Ol77KSinJilpkVw,21
+ddd_struct/application/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ddd_struct/application/action.py,sha256=W7yBqOFvb_ykXjyp6HbSlGJj__SowVqffsVfRYHq76A,8716
+ddd_struct/domain/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ddd_struct/domain/repository.py,sha256=4XYdp9XbwysMbVW2cK7TplICcDsMoP80-ybcJa9jvhE,924
+ddd_struct/infrastructure/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ddd_struct/infrastructure/repository_impl.py,sha256=0zIn-0q4cAfTgtKcwAjK6fWDZtVBOT_0nobVmjcqW6k,3870
+ddd_struct/lib/__init__.py,sha256=qB2FbTG4O_S0wC4ck9qzpHhYaAogceTQEkjxQaqhvro,68
+ddd_struct/lib/common.py,sha256=m8JgW5Ed63qdE5guw3OgJYd6ogj0oUMpXrdPBVM2ORc,1890
+ddd_struct/lib/thread.py,sha256=8805OFVhJpK5OqxCWPRlN8ZFSQcDIv_dJnifB9qzTZs,5078
+ddd_struct/lib/warning.py,sha256=nvh2rTwPSW2ZjslTDQTUQWPDFfMWlqL_Y2gbFM_vgnY,799
+ddd_struct-0.2.4.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+ddd_struct-0.2.4.dist-info/METADATA,sha256=TwA5pdojpxuxU7l9ZzASqHu3mg4BskrKtdTFpzAQ6-U,332
+ddd_struct-0.2.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ddd_struct-0.2.4.dist-info/top_level.txt,sha256=Nn0Sh6BFqqb8v7n_hF8B07qZ-d_OUDRloSYqVONaM3o,11
+ddd_struct-0.2.4.dist-info/RECORD,,
