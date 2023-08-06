@@ -1,0 +1,7 @@
+falcon_ml_xgboost/__init__.py,sha256=gcm6VTirp1IyNcb_-8PSIiZux0urhqW0VZKSCIvbbz0,74
+falcon_ml_xgboost/model.py,sha256=dViDYsWLRn1Nwj3pBVZpEL93il4bH9-WGDInLhxg-28,6970
+falcon_ml_xgboost/task_configs.py,sha256=0miiYeYHcMuCO_uvPBaG69IKmv7X1ZW68RhuLMy8AEQ,1624
+falcon_ml_xgboost-0.1.0.dist-info/METADATA,sha256=9yhQDoarhnziAKLtBVhui1fB8EZcinoj1-04080KvN8,581
+falcon_ml_xgboost-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+falcon_ml_xgboost-0.1.0.dist-info/top_level.txt,sha256=smx2rOggbdjtUK9s7FfDMa43L6SfWI9P60kNox99ELQ,18
+falcon_ml_xgboost-0.1.0.dist-info/RECORD,,
