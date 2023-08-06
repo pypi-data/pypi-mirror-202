@@ -1,0 +1,9 @@
+cr_obj_naming/VERSION,sha256=XSSKc1S0uwOYYmkC_fs0xKSWJb5x9x3if9NA5sO4Xkw,5
+cr_obj_naming/__init__.py,sha256=1uv3gz09BL1cmYDLPne0PkqXcvqxLP9jy2DjeeyDCrA,187
+cr_obj_naming/__version__.py,sha256=ikxlExFPaHGK8AzUG9pDnI7Sm8GtkjdM12d5iJMRgik,122
+cr_obj_naming/cnd_consul.py,sha256=BGjFqm0UO2TQf-VW_ZhpfyRw0zF6JGswis0XTmTh9Ok,1459
+cr_obj_naming/obj_naming.py,sha256=EFivRyeS8NsRD-QrIrWDAVnkC1BGkgvu0An9vB10m2A,1433
+cnd_cr_obj_naming-0.2.3.dist-info/METADATA,sha256=Fdi0D99PN_ZXnIXGQ1jy_VTgeYqZL0RE7ymGTK_ZHG4,825
+cnd_cr_obj_naming-0.2.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+cnd_cr_obj_naming-0.2.3.dist-info/top_level.txt,sha256=IxheoHqwoyK8b3XMzAfOoe8Owc9qJeKmqwl2BTPOmBU,14
+cnd_cr_obj_naming-0.2.3.dist-info/RECORD,,
