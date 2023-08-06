@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: test-pipinstall-whp
+Version: 0.1.2
+Summary: test pip installation
+Home-page: UNKNOWN
+Author: haopengwu
+Author-email: wuhaopeng106@gmail.com
+License: apache 3.0
+Platform: UNKNOWN
+Requires: numpy
+Requires: matplotlib
+
+UNKNOWN
+
+
