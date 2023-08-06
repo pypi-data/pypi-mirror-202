@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+src/optibot/__init__.py
+src/optibot.egg-info/PKG-INFO
+src/optibot.egg-info/SOURCES.txt
+src/optibot.egg-info/dependency_links.txt
+src/optibot.egg-info/top_level.txt
+src/optibot/core/__init__.py
+src/optibot/core/optibot.py
+src/optibot/core/renderer.py
+src/optibot/core/script.py
+src/optibot/core/splinter.py
