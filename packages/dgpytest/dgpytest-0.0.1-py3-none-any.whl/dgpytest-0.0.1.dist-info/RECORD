@@ -1,0 +1,11 @@
+dgpytest/__init__.py,sha256=QLekL-GzQk_toF2CGejZ4OdVME3Bm3RLQxQpkIo79uQ,743
+dgpytest/__main__.py,sha256=dU61hPpcPEwhTPnl3ri8uFwbCXYNJAeerzyeNRa-zUQ,477
+dgpytest/_meta.py,sha256=6hKy9VqKf1TfUwcUOkSLfGOi9ACCS3UzTiSIfbgZyyE,292
+dgpytest/hooks.py,sha256=aOrGXrwbf48vQH9fHstYvY441vaEBdQ3nfpWFeBWae0,454
+dgpytest/plugin.py,sha256=26Yr0Zsuy_swni441hTdZzkeqsMBXllBcfBVF0WgZJc,2583
+dgpytest/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dgpytest-0.0.1.dist-info/entry_points.txt,sha256=hKGjKulFnzGOthrW8wYuCaXwUKHoC9mBNj4eLUfKSt4,40
+dgpytest-0.0.1.dist-info/LICENSE,sha256=pebds694OgLqzISMvjCcwJQLSFmsZT6bGi4hpP6iJVI,1056
+dgpytest-0.0.1.dist-info/METADATA,sha256=DcNlWHq0_CWOxGKpDxdxGt4bRIeypRaNaWCqFrZwqjM,1974
+dgpytest-0.0.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+dgpytest-0.0.1.dist-info/RECORD,,
