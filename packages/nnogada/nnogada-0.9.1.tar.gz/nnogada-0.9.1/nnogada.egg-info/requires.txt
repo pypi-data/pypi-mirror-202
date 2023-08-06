@@ -1,0 +1,11 @@
+numpy
+scipy
+sklearn
+tensorflow
+deap
+bitstring
+pandas
+torch
+torchinfo
+torch_optimizer
+tqdm
