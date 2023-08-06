@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+text2mapviewer/__init__.py
+text2mapviewer/main.py
+text2mapviewer.egg-info/PKG-INFO
+text2mapviewer.egg-info/SOURCES.txt
+text2mapviewer.egg-info/dependency_links.txt
+text2mapviewer.egg-info/requires.txt
+text2mapviewer.egg-info/top_level.txt
+text2mapviewer/examples/map_embedding.py
+text2mapviewer/fondamental/bases.py

@@ -1,0 +1,7 @@
+click
+torch
+transformers
+sentence-transformers
+nomic
+numpy
+pandas
