@@ -1,0 +1,9 @@
+README.md
+setup.py
+slcan_disco.py
+python_can_slcan_disco.egg-info/PKG-INFO
+python_can_slcan_disco.egg-info/SOURCES.txt
+python_can_slcan_disco.egg-info/dependency_links.txt
+python_can_slcan_disco.egg-info/entry_points.txt
+python_can_slcan_disco.egg-info/requires.txt
+python_can_slcan_disco.egg-info/top_level.txt

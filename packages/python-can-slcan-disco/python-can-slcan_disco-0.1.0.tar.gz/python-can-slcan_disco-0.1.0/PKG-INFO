@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: python-can-slcan_disco
+Version: 0.1.0
+Summary: Python-can slcan driver with discovery
+Home-page: https://github.com/yconst/python-can-slcan_disco
+Author: Yannis Chatzikonstantinou
+Author-email: info@tinymovr.com
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+## python-can-slcan_disco
+
+
+slcan interface for python-can, including auto discovery.
+
+License same as corresponding python-can module.
