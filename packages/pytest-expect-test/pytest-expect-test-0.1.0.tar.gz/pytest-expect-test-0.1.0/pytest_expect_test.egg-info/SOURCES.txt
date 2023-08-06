@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+pytest_expect_test.py
+setup.py
+pytest_expect_test.egg-info/PKG-INFO
+pytest_expect_test.egg-info/SOURCES.txt
+pytest_expect_test.egg-info/dependency_links.txt
+pytest_expect_test.egg-info/entry_points.txt
+pytest_expect_test.egg-info/requires.txt
+pytest_expect_test.egg-info/top_level.txt
+tests/test_expect_test.py
