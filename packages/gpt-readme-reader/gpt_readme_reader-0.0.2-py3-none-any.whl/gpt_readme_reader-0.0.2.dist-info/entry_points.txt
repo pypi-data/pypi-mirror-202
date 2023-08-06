@@ -1,0 +1,3 @@
+[console_scripts]
+gpt-readme-reader = gpt_readme_reader:main
+
