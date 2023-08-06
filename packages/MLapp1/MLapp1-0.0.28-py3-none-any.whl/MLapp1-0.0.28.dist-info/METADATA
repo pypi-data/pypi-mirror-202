@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: MLapp1
+Version: 0.0.28
+Summary: "MLapp"
+Home-page: https://github.com/FunctionalUrology/
+Author: Akshay
+Author-email: akshaysuhag1996@gmail.com
+Project-URL: Bug Tracker, https://github.com/FunctionalUrology/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.toml
+Requires-Dist: dash (==2.5.1)
+Requires-Dist: dash-bootstrap-components (==0.13.0)
+Requires-Dist: dash-table (==5.0.0)
+Requires-Dist: subprocess.run (==0.0.8)
+Requires-Dist: pickle4 (==0.0.1)
+Requires-Dist: numpy (==1.21.2)
+Requires-Dist: zipfile36 (==0.1.3)
+Requires-Dist: pandas (==1.3.3)
+Requires-Dist: scikit-learn (==1.0.2)
+Requires-Dist: collections2 (==0.3.0)
+Requires-Dist: colorlover (==0.3.0)
+Requires-Dist: plotly (==5.10.0)
+Requires-Dist: bokeh (==2.4.3)
+Requires-Dist: imbalanced-learn (==0.9.0)
+Requires-Dist: matplotlib (==3.4.3)
+Requires-Dist: dash-loading-spinners (==1.0.0)
+
+# MLapp
