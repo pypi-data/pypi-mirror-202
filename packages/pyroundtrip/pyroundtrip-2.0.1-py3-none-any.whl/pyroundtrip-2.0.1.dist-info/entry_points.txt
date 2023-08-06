@@ -1,0 +1,2 @@
+[console_scripts]
+roundtrip = pyroundtrip.cli:main
