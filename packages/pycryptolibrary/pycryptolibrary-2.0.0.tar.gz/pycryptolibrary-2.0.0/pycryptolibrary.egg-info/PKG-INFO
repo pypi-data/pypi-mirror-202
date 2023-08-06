@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pycryptolibrary
+Version: 2.0.0
+Summary: Python Library for cryptography
+Home-page: UNKNOWN
+Author: SuSB0t
+Author-email: nick.faltermeier@gmx.de
+License: UNKNOWN
+Description: Python Library for cryptography
+Keywords: python
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
