@@ -1,0 +1,7 @@
+krkn_lib_kubernetes_draft/__init__.py,sha256=PLbObrrOJAQHFoFt0ge9itvxaMkmXrD0Y2crfi2mKB8,63
+krkn_lib_kubernetes_draft/client.py,sha256=H7ZOuMtDNqSoY02kbwVXYbe4uvqF11OXtmN1FcETZP4,42545
+krkn_lib_kubernetes_draft/resources.py,sha256=WGFOq4gge8kKejjtfO2WYtpjllgYVt26qMwYPU9bpbU,1690
+krkn_lib_kubernetes_draft-0.1.10.dist-info/LICENSE,sha256=DOwG4OVfvD3FzuT8qbYH9my49OTbzzs8ATWU3RVnMuk,10173
+krkn_lib_kubernetes_draft-0.1.10.dist-info/METADATA,sha256=VyPzrhS0Nv-c2kCDa5u2bM8hxnIm1OMFRU8URfLiX-8,733
+krkn_lib_kubernetes_draft-0.1.10.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+krkn_lib_kubernetes_draft-0.1.10.dist-info/RECORD,,
