@@ -1,0 +1,8 @@
+backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frontend/__init__.py,sha256=HBdPyMAe-FESQfBOapYAr9-ZNOKTRKVh27NbzFQ1nrw,88
+frontend/get_account_info.py,sha256=5qRM8cn8DXm6AM3mPEuKBo8xkUPhXW9n5jKQie92w44,122
+frontend/get_book_info.py,sha256=Mjhs7zxxW9y3R_ASpBzayFuitxwrsrFFzzmWB9l8GiQ,110
+work_with_database-0.0.1.dist-info/METADATA,sha256=9GxwxQhebsdIWNKfQMCEkFwW41wzl0VZGht-Nl6mMwA,340
+work_with_database-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+work_with_database-0.0.1.dist-info/top_level.txt,sha256=7xo0crJn5dRzmIuCbDBgy7tJWauQa6M7uXafP2-BI0Q,17
+work_with_database-0.0.1.dist-info/RECORD,,

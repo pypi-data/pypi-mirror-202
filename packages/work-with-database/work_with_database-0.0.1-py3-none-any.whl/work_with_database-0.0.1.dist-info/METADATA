@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: work-with-database
+Version: 0.0.1
+Summary: A package to work with a database
+Home-page: https://github.com/y4kenz1/ppy-project
+Author: Yan Novikau
+Author-email: s24238@pjwstk.edu.pl
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Python package to work with a database for our project
