@@ -1,0 +1,5 @@
+windows_dscp_fix-0.2.1.dist-info/METADATA,sha256=_Lu1fKHA8Nvrwy96PUhIebsshmhhP8E6a9esNyxrGek,1844
+windows_dscp_fix-0.2.1.dist-info/WHEEL,sha256=5L9dVgYaD1mxD_cTIVfgD69OKXJIXmbmX0xa6tm8n3Q,97
+windows_dscp_fix/__init__.py,sha256=-cvmYw3tw-in9vUC9NDBNWOozhbyPj70L5T2EAqNzmA,459
+windows_dscp_fix/windows_dscp_fix.cp311-win_amd64.pyd,sha256=HhG4g3KsxGSPuVpgWnK0uMeIbSDNINp2qD-G1o7Z-Yk,231424
+windows_dscp_fix-0.2.1.dist-info/RECORD,,
