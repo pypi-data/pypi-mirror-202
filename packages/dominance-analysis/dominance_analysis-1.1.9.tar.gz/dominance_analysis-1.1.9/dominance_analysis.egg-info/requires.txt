@@ -1,0 +1,13 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+tqdm
+plotly
+cufflinks
+statsmodels
+ipywidgets
+bokeh==2.4.3
+scipy
+nbformat
