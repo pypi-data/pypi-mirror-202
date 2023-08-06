@@ -1,0 +1,13 @@
+pyranker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyranker/preprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyranker/preprocessing/normalizer.py,sha256=9VMOgBU0k4fo-06GMWHCLZHWOwN1a9LdBtO6tUDzwcw,507
+pyranker/preprocessing/tokenizer.py,sha256=GeS6SjmgIxXOnjATMkQSU1rFgFZfnPZABo4eJDwMfbg,216
+pyranker/rankers/__init__.py,sha256=HpfP50YusSq4fohtLLwSXGl0XDd5kWVHgdBMkaQKajk,1274
+pyranker/rankers/bm25.py,sha256=koZmYYe_R89UoY1KExyWyCbn9upKApbVQWmPCVcCMUk,1611
+pyranker/rankers/tf_idf.py,sha256=N8Z8SaX32Rmn-JPSXUJZakr44KmzuWClJmTjzXX7lgU,801
+pyranker/rankers/vspace.py,sha256=XXn0lqSwteU7-eKQ-Mw0ndOVnd408_9Sv82D8KHeYIE,1172
+pyranker-0.1.2.dist-info/LICENSE,sha256=5-dETpK1DgmAC-cXgfwkldJnpVpdt_U0f32yQ3lRBCQ,1072
+pyranker-0.1.2.dist-info/METADATA,sha256=OPx9y500j74-Y3SY83dDrNWPNzI0lqkEDdpCpqY1z1g,1139
+pyranker-0.1.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pyranker-0.1.2.dist-info/top_level.txt,sha256=oJAiLyQwtBSkOcLtjGX9bR5qQwmCiSk2DxIXyxzvr6w,9
+pyranker-0.1.2.dist-info/RECORD,,
