@@ -1,0 +1,224 @@
+{
+ "objects": {
+  "140332287037440": {
+   "strategy": "list",
+   "id": "140332287037440",
+   "typeinfo": {
+    "kind": "tuple",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "items": [
+    "140332332748640",
+    "140332286934256"
+   ]
+  },
+  "140332286290624": {
+   "strategy": "list",
+   "id": "140332286290624",
+   "typeinfo": {
+    "kind": "tuple",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "items": [
+    "140332286867568",
+    "140332458772320",
+    "140332458772352"
+   ]
+  },
+  "140332286867568": {
+   "strategy": "repr",
+   "id": "140332286867568",
+   "typeinfo": {
+    "kind": "str",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "value": "'i8'"
+  },
+  "140332458772320": {
+   "strategy": "repr",
+   "id": "140332458772320",
+   "typeinfo": {
+    "kind": "bool",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "value": "False"
+  },
+  "140332458772352": {
+   "strategy": "repr",
+   "id": "140332458772352",
+   "typeinfo": {
+    "kind": "bool",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "value": "True"
+  },
+  "140332332748640": {
+   "strategy": "reduce",
+   "id": "140332332748640",
+   "typeinfo": {
+    "kind": "dtype[int64]",
+    "module": "numpy"
+   },
+   "comparable": true,
+   "constructor": {
+    "kind": "dtype",
+    "module": "numpy"
+   },
+   "args": "140332286290624",
+   "state": "140332286984256",
+   "listitems": "140332286890624",
+   "dictitems": "140332286889920"
+  },
+  "140332286984256": {
+   "strategy": "list",
+   "id": "140332286984256",
+   "typeinfo": {
+    "kind": "tuple",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "items": [
+    "140332447564080",
+    "140332447119088",
+    "140332458741312",
+    "140332458741312",
+    "140332458741312",
+    "140332447563952",
+    "140332447563952",
+    "140332447563984"
+   ]
+  },
+  "140332447564080": {
+   "strategy": "repr",
+   "id": "140332447564080",
+   "typeinfo": {
+    "kind": "int",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "value": "3"
+  },
+  "140332447119088": {
+   "strategy": "repr",
+   "id": "140332447119088",
+   "typeinfo": {
+    "kind": "str",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "value": "'<'"
+  },
+  "140332458741312": {
+   "strategy": "repr",
+   "id": "140332458741312",
+   "typeinfo": {
+    "kind": "NoneType",
+    "module": "types"
+   },
+   "comparable": true,
+   "value": "None"
+  },
+  "140332447563952": {
+   "strategy": "repr",
+   "id": "140332447563952",
+   "typeinfo": {
+    "kind": "int",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "value": "-1"
+  },
+  "140332447563984": {
+   "strategy": "repr",
+   "id": "140332447563984",
+   "typeinfo": {
+    "kind": "int",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "value": "0"
+  },
+  "140332286890624": {
+   "strategy": "list",
+   "id": "140332286890624",
+   "typeinfo": {
+    "kind": "list",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "items": []
+  },
+  "140332286889920": {
+   "strategy": "dict",
+   "id": "140332286889920",
+   "typeinfo": {
+    "kind": "dict",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "items": {}
+  },
+  "140332286934256": {
+   "strategy": "repr",
+   "id": "140332286934256",
+   "typeinfo": {
+    "kind": "bytes",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "value": "b\"\\xd9'\\x00\\x00\\x00\\x00\\x00\\x00\""
+  },
+  "140332326138480": {
+   "strategy": "reduce",
+   "id": "140332326138480",
+   "typeinfo": {
+    "kind": "int64",
+    "module": "numpy"
+   },
+   "comparable": true,
+   "constructor": {
+    "kind": "scalar",
+    "module": "numpy.core.multiarray"
+   },
+   "args": "140332287037440",
+   "state": "140332429742016",
+   "listitems": "140332154071040",
+   "dictitems": "140332154071424"
+  },
+  "140332429742016": {
+   "strategy": "dict",
+   "id": "140332429742016",
+   "typeinfo": {
+    "kind": "dict",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "items": {}
+  },
+  "140332154071040": {
+   "strategy": "list",
+   "id": "140332154071040",
+   "typeinfo": {
+    "kind": "list",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "items": []
+  },
+  "140332154071424": {
+   "strategy": "dict",
+   "id": "140332154071424",
+   "typeinfo": {
+    "kind": "dict",
+    "module": "builtins"
+   },
+   "comparable": true,
+   "items": {}
+  }
+ }
+}
