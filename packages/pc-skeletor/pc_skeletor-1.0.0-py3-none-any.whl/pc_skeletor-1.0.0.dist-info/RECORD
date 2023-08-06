@@ -1,0 +1,12 @@
+pc_skeletor/L1.py,sha256=Xc03dTpYFa8rvpZ-O0WcHk9-xXUCrJyhHqldkhA-7RE,420
+pc_skeletor/__init__.py,sha256=WgANV3RaQ_edOm-XM6gGGLTXlZqjxPG1jdFqs5WlnpQ,170
+pc_skeletor/base.py,sha256=L60PZOb60QrRVHqsHSbXx4CrBYZW7VlPf5UMbuFNTjk,9556
+pc_skeletor/download.py,sha256=96mczxWeFsn7sDU46vVXSi6nejWgQQD44rNYlE2faQI,4348
+pc_skeletor/laplacian.py,sha256=B35N0v41ZMpUSaSAHS2wmg3jkwe2Ov4cxQ0vNDfPtXQ,23617
+pc_skeletor/point2skeleton.py,sha256=exuxORuf4P_-N0l-D4JbemI-lx0bEFja9WmA6iFkOf8,501
+pc_skeletor/utility.py,sha256=yDGc74gU-VB0aNH3rcFF-mZb1LAp2WTuAbncsW6bNmI,9011
+pc_skeletor-1.0.0.dist-info/LICENSE,sha256=sCN-YbY0XmfagUbFbtWbz-4WlRg10MgmDK-iNvhHDWs,1089
+pc_skeletor-1.0.0.dist-info/METADATA,sha256=7p6yGGK1koSYBMpIqYWaPrBF09HddbRC4XebJNo1Fy0,10840
+pc_skeletor-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pc_skeletor-1.0.0.dist-info/top_level.txt,sha256=A649RcXhGphxKXimXhljbfdpUhJGxHzi0XHv3ouFxMA,12
+pc_skeletor-1.0.0.dist-info/RECORD,,
