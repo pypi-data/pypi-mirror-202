@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: portbt
+Version: 0.1.2
+Summary: Python library designed to make portfolio backtesting easy and intuitive
+Home-page: https://github.com/renanmoretto/portbt
+License: MIT
+Author: renanmoretto
+Author-email: himynameisrenan@outlook.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: datetime (>=5.1,<6.0)
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
+Requires-Dist: pandas (>=2.0.0,<3.0.0)
+Project-URL: Repository, https://github.com/renanmoretto/portbt
+Description-Content-Type: text/markdown
+
+# portbt
+**portbt** is  
