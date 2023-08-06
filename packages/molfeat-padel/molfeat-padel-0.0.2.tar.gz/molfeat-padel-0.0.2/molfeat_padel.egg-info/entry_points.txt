@@ -1,0 +1,2 @@
+[molfeat.calc]
+padel = molfeat_padel.calc.padel:PadelDescriptors
