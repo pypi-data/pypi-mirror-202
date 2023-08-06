@@ -1,0 +1,7 @@
+README.md
+setup.py
+fastapi_casdoor.egg-info/PKG-INFO
+fastapi_casdoor.egg-info/SOURCES.txt
+fastapi_casdoor.egg-info/dependency_links.txt
+fastapi_casdoor.egg-info/requires.txt
+fastapi_casdoor.egg-info/top_level.txt
