@@ -1,0 +1,2 @@
+[console_scripts]
+chattychattybangbang = chattychattybangbang.__main__:main

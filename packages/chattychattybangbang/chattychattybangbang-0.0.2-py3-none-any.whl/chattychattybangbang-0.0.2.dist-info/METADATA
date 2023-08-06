@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: chattychattybangbang
+Version: 0.0.2
+Summary: chat utilities
+Home-page: https://github.com/chattychattybangbang/chattychattybangbang
+Author: chattychattybangbang
+Author-email: pcotton@intechinvestments.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: getjson
+Requires-Dist: hypothesis
+Requires-Dist: openai
+
+# chattychattybangbang
+Utilities for using chatgpt and maybe other LLMs
