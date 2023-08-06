@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+less.build.egg-info/PKG-INFO
+less.build.egg-info/SOURCES.txt
+less.build.egg-info/dependency_links.txt
+less.build.egg-info/requires.txt
+less.build.egg-info/top_level.txt
