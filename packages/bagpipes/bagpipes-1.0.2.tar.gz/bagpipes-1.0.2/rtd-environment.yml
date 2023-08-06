@@ -1,0 +1,16 @@
+name: bagpipes
+
+dependencies:
+    - python
+    - astropy
+    - scipy
+    - matplotlib>=2.2.2
+    - numpy
+    - pybind11
+    - h5py
+    - pip:
+      - corner
+      - pymultinest
+      - msgpack
+      - pandas
+      - spectres
