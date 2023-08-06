@@ -1,0 +1,36 @@
+import uuid
+from .sql_dto import SqlDto
+
+
+class Twin(SqlDto):
+
+    def __init__(self, twin_id=None, name=None):
+        if twin_id is None:
+            self.twin_id = uuid.uuid4()
+        else:
+            self.twin_id = twin_id
+        self.name = name
+
+    def from_json(self, obj):
+        """
+        Load the Twin entity from a dictionary.
+
+        :param obj: Dict version of the Twin.
+        """
+        if "id" in obj.keys():
+            self.twin_id = uuid.UUID(obj["id"])
+        if "name" in obj.keys() and obj["name"] is not None:
+            self.name = obj["name"]
+
+    def to_json(self):
+        """
+        Convert the twin to a dictionary compatible to JSON format.
+
+        :return: dictionary representation of the Twin object.
+        """
+        obj = {
+            "id": str(self.twin_id)
+        }
+        if self.name is not None:
+            obj["name"] = str(self.name)
+        return obj
