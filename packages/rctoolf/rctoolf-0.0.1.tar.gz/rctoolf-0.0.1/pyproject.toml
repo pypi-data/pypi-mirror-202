@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rctoolf"
+version = "0.0.1"
+description = "Tools for RC"
+readme = "README.md"
+authors = [{ name = "Glorin Li", email = "ligr1991@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["rc", "webhook"]
+dependencies = [
+    "urllib",
+    "json"
+]
+requires-python = ">=3.0"
+
+[project.urls]
+Homepage = "https://github.com/glorinli/rctoolf"
