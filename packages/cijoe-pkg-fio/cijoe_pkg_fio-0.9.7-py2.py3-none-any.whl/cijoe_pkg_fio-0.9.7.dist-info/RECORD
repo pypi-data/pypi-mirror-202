@@ -1,0 +1,17 @@
+cijoe/fio/__init__.py,sha256=RcQa7EaTs304WhxJ7lAJ_lelzmRpmed8pgcM1EYP3bo,22
+cijoe/fio/wrapper.py,sha256=x4waxfz7P-_epXMoHaHBj7ZC9fW9jmylbyl6zu5HYSg,8127
+cijoe/fio/configs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cijoe/fio/configs/default-config.toml,sha256=RlxjzOmWAuNuXJOpUmhX6CRxnBeCncxe1XbhYsES1bo,695
+cijoe/fio/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cijoe/fio/scripts/build.py,sha256=AinAX6uCxdT9qnvtPdAlUyWxCMSbVNzuAMMRpr5duvg,588
+cijoe/fio/scripts/check.py,sha256=ZFiNjZ20p1Tw-jBMHNwxoskPifjSB7qR0y9oVRvSR0c,366
+cijoe/fio/scripts/install.py,sha256=H2UXd0cAK0ekNfAzWzzyOqG91bAyc0IbcNJ3nGepq8k,356
+cijoe/fio/selftest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cijoe/fio/selftest/test_fio_wrapper.py,sha256=xoeKg7tw_QLuGqQ9eMcRj-lsoxZQ28-78nWpcFwqp-o,782
+cijoe/fio/workflows/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cijoe/fio/workflows/example.workflow,sha256=6lrqopZPavxmZJJ5vu2G8_9wwnvrZ6AT3TZ3uQXMLW4,193
+cijoe_pkg_fio-0.9.7.dist-info/LICENSE,sha256=TrjUDr0ahtUm1K15JcgkWqkphCObzSi25U2qJnU3CvQ,1524
+cijoe_pkg_fio-0.9.7.dist-info/METADATA,sha256=xFsJ8yMeUdVZHN257LrtBQaoW_OX4DGg6gWhbfdoAX4,856
+cijoe_pkg_fio-0.9.7.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+cijoe_pkg_fio-0.9.7.dist-info/top_level.txt,sha256=MJS7Mr0103yPU9rsSeFpJxYnDEzDeuh6j5XgcMo8jZw,6
+cijoe_pkg_fio-0.9.7.dist-info/RECORD,,
