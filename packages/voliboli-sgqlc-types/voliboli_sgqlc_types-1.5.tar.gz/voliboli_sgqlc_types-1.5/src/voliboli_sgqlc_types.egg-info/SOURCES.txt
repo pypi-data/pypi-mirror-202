@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/voliboli_sgqlc_types.egg-info/PKG-INFO
+src/voliboli_sgqlc_types.egg-info/SOURCES.txt
+src/voliboli_sgqlc_types.egg-info/dependency_links.txt
+src/voliboli_sgqlc_types.egg-info/requires.txt
+src/voliboli_sgqlc_types.egg-info/top_level.txt
