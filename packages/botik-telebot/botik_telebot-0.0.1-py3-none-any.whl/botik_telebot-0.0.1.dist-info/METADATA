@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: botik-telebot
+Version: 0.0.1
+Summary: Extension for Botik to support pyTelegramBot
+Author-email: dasstyx <dasstyx@gmail.com>
+Project-URL: Documentation, https://botik.readthedocs.io
+Project-URL: Homepage, https://github.com/dasstyx/botik-telebot
+Project-URL: Bug Tracker, https://github.com/dasstyx/botik-telebot/issues
+Keywords: api,framework,bot,tg,messenger,async,botik
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: botik
+Requires-Dist: pyTelegramBotAPI (==4.7.0)
+
+# Расширение Botik для работы с Telegram
+
+[Ядро фреймворка](https://github.com/dasstyx/botik)
+
+[Техническая документация](https://botik.readthedocs.io)
