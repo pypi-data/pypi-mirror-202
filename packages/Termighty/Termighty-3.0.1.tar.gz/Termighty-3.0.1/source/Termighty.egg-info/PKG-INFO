@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Termighty
+Version: 3.0.1
+Summary: Cross-Platform Terminal Coloring, Formatting, and Management Utilities.
+Home-page: https://github.com/GabrielSCabrera/Termighty
+Download-URL: https://github.com/GabrielSCabrera/Termightyarchive/v0.0.1.tar.gz
+Author: Gabriel S. Cabrera
+Author-email: gabriel.sigurd.cabrera@gmail.com
+Keywords: terminal,xterm,gui,windows,linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+# Termighty
+
+High-level utilities for cross-platform terminal interaction.
