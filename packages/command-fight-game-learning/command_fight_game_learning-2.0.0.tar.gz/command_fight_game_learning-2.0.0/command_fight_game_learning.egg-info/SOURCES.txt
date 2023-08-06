@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+CFgame/__init__.py
+CFgame/abstractgameunit.py
+CFgame/attackoftheorcs.py
+CFgame/gameuniterror.py
+CFgame/gameutils.py
+CFgame/hut.py
+CFgame/knight.py
+CFgame/orcrider.py
+command_fight_game_learning.egg-info/PKG-INFO
+command_fight_game_learning.egg-info/SOURCES.txt
+command_fight_game_learning.egg-info/dependency_links.txt
+command_fight_game_learning.egg-info/top_level.txt
