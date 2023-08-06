@@ -1,0 +1,2 @@
+[console_scripts]
+vernac = vernac.compile:script_main
