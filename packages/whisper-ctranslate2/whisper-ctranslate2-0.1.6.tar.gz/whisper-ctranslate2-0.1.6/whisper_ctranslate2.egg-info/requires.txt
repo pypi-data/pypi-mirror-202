@@ -1,0 +1,9 @@
+ctranslate2
+faster-whisper>=0.4
+numpy
+tqdm
+
+[dev]
+black==23.*
+flake8==6.*
+nose2
