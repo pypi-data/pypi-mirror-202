@@ -1,0 +1,10 @@
+mriphysio/__init__.py,sha256=bSYVPPQeS5kHoM1PxaSaGfIqHKES-Mpefjcsvvvj2WM,36
+mriphysio/ecg.py,sha256=56bzqgR53cDQAY1Dthl-NpU0R8V0W8rFsSMJLeRW2zU,6190
+mriphysio/physio2bids.py,sha256=x_AfAL7GbFNlcDVTvzr1Z2b3qYOnkwjObvYM647YOm8,2944
+mriphysio/physiodicom.py,sha256=fXAKL9Y5fNcEB_2buspYmW41-NT-829nM8pxHjy5Izo,14554
+mriphysio-2023.4.10.dist-info/LICENSE,sha256=ifT1tjy-zNzLf855LiyOFAfH2kk3DeIRDUTyy-sKPoE,1104
+mriphysio-2023.4.10.dist-info/METADATA,sha256=PnlonMbmxW2OX17QW_rvwqb92lRd7xR0NwE2mqwxiyc,1327
+mriphysio-2023.4.10.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+mriphysio-2023.4.10.dist-info/entry_points.txt,sha256=xwro6LuBq4lLznXN7_q4sO5--_crHrg9YN0R9kVhc2E,59
+mriphysio-2023.4.10.dist-info/top_level.txt,sha256=WtQJgOpvZ7JgAC9bwYFqjYEzcXXSl21zCL67Fv_1Xb0,10
+mriphysio-2023.4.10.dist-info/RECORD,,
