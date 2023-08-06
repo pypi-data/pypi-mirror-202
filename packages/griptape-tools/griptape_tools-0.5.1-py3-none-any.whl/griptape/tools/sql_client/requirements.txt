@@ -1,0 +1,2 @@
+griptape-core>=0.7.2
+sqlalchemy>1
