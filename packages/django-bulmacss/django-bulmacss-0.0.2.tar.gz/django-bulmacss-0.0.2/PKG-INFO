@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: django-bulmacss
+Version: 0.0.2
+Summary: Some Django Templates Base On Bulma.css.
+Home-page: https://github.com/ChanMo/django-bulma/
+Author: ChanMo
+Author-email: chan.mo@outlook.com
+License: MIT
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+License-File: LICENSE
+
+Bulma主题模板
+=============
+
+基于`bulma.css`为Django开发提供常用的页面模板
+
+Screenshots
+-----------
+
+.. figure:: ./login.jpeg
+   :alt: Login Page
+
+   Login Page
+
+.. figure:: ./profile.jpeg
+   :alt: User Profile
+
+   User Profile
+
+Quick Start
+-----------
+
+Install Package
+
+.. code:: bash
+
+   pip install django-bulmacss
+
+修改`settings.py\`
+
+.. code:: bash
+
+   INSTALLED_APPS = [
+       'bulma',
+       ...
+   ]
+
+   FORM_RENDERER = 'django.forms.renderers.TemplatesSetting'
+
+Includes
+--------
+
+Basic Templates
+~~~~~~~~~~~~~~~
+
+-  base.html
+-  index.html
+-  navbar.html
+-  footer.html
+-  profile.html
+-  empty.html
+-  pagination.html
+-  search\ :sub:`bar`.html
+-  messages.html
+
+django.contrib.auth
+~~~~~~~~~~~~~~~~~~~
+
+-  registration
+
+django-allauth
+~~~~~~~~~~~~~~
+
+-  account
+
+form
+~~~~
+
+-  django
+
+django-flatpages
+~~~~~~~~~~~~~~~~
+
+-  flatpages/default.html
+
+django-filters
+~~~~~~~~~~~~~~
+
+-  filters.html
+
+Extra
+-----
+
+Feather Icons
+~~~~~~~~~~~~~
+
+Simply beautiful open source icons
+
+https://feathericons.com/
+
+Jdenticon
+~~~~~~~~~
+
+Open source library for generating identicons.
+
+https://jdenticon.com/
