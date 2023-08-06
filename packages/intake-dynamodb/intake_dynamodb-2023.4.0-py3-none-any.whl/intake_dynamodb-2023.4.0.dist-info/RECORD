@@ -1,0 +1,8 @@
+intake_dynamodb/__init__.py,sha256=OCwEUcwlkpz_yUWiOkHOIJ9-B2-JFbrUO-TaxUL9kV8,92
+intake_dynamodb/dynamodb.py,sha256=Wf7hE2azUsaEHtdWjNDR6Lka7eG71aiIOgSBMEVOk2k,9009
+intake_dynamodb-2023.4.0.dist-info/LICENSE,sha256=fUH-19QZWQKsVH2vOE1QVACzdzwVgvkNBOePhR9d7AU,1330
+intake_dynamodb-2023.4.0.dist-info/METADATA,sha256=rr0pw2trsZ2YK_ZSd26NfEnJ3osbG6-N9xX5673qUP0,1099
+intake_dynamodb-2023.4.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+intake_dynamodb-2023.4.0.dist-info/entry_points.txt,sha256=QOdo6Q_khYVf3Ru1_9NquQbBYfDka08m_Xay7tDuvg4,127
+intake_dynamodb-2023.4.0.dist-info/top_level.txt,sha256=upK5fmfV9xeA1gg7WPs6_fAGZt5TsGZKZyBV-5i7R20,16
+intake_dynamodb-2023.4.0.dist-info/RECORD,,
