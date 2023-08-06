@@ -1,0 +1,6 @@
+folium
+ipyleaflet
+pandas
+openpyxl
+httpx
+geopandas
