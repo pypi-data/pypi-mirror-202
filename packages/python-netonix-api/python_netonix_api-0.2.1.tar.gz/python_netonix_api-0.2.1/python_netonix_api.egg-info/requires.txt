@@ -1,0 +1,6 @@
+requests
+
+[dev]
+deepdiff
+getpass
+urllib3
