@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=Z-cbxwmUEObiamCKLVcd5H7LDdUA4W12mhlDclWyMak,212
+tests/test_understat.py,sha256=DtTT0T3UTXEl2aY8EfULMSmNea2qJ1iIHeMgMBAC54Q,8840
+tests/test_utils.py,sha256=RO74oD6CQXceuXp9xRf33hVpzMTWmN7WM2UuR-DxlGA,2663
+understat/__init__.py,sha256=bDSODpa-mfSJVaaPNhy0RnQEsCoE1OhrtRVMreQHWK0,33
+understat/constants.py,sha256=t-FNuFaJN-Bxf0YLqO-1c4txbzjzALkauuNBsGBOH4U,271
+understat/understat.py,sha256=ejTCbi-caaUuK1XqAxzGZLUm73pSOTjXeLJvPFNn1Yg,14462
+understat/utils.py,sha256=jVTEng8ueQNZlEnDs-xZt6UT83pk0TwJRNVsKjzu1lg,2711
+understat-0.1.10.dist-info/AUTHORS.rst,sha256=sx6aNV8e_AeBt13UJNKI13GZMKMVhtO0UJNYdAn6R4A,315
+understat-0.1.10.dist-info/LICENSE,sha256=kDsVFWWJ9jxEDRvOH9ZFgSK6S6cX_jEPkN49lqGIiyg,1069
+understat-0.1.10.dist-info/METADATA,sha256=SJAL72yzb9dMvHgEhOt2z-c9lAsnZs62FPooDpHSKmM,3853
+understat-0.1.10.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+understat-0.1.10.dist-info/top_level.txt,sha256=1NySp7o-PRpuGuiYgmQ2eP22WxlgecNLm2Y35kZt7SQ,16
+understat-0.1.10.dist-info/RECORD,,
