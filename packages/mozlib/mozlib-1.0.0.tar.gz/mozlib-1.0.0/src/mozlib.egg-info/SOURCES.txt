@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/mozlib.py
+src/mozlib.egg-info/PKG-INFO
+src/mozlib.egg-info/SOURCES.txt
+src/mozlib.egg-info/dependency_links.txt
+src/mozlib.egg-info/top_level.txt

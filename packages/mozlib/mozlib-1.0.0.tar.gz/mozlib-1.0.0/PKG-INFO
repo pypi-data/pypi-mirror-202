@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mozlib
+Version: 1.0.0
+Summary: A Python 3 Package
+Author-email: mozaki <mozakival@gmail.com>
+Project-URL: Homepage, https://github.com/mozakidev/mozlib
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
