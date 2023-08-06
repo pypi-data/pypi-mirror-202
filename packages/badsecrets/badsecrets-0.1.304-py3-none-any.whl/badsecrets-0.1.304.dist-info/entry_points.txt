@@ -1,0 +1,3 @@
+[console_scripts]
+badsecrets=examples.cli:main
+
