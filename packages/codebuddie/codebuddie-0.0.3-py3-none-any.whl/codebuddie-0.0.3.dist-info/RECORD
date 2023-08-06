@@ -1,0 +1,13 @@
+codebuddie/__init__.py,sha256=Ag6uiUDiWCSysTSL5hp4Nol-BieqdaEqs-7xY4Di7u8,707
+codebuddie/cli.py,sha256=q1JRBJ10p9TS0TBqJQv6s7WvV5rJYoMARRBmDYC5fNs,2802
+codebuddie/code_updater.py,sha256=j4AptU6cpGy42p44KrDhebrdUQgKP6huoCp0fhbQq2I,7363
+codebuddie/downloader.py,sha256=vSpcLaICXvUw9O6weZLxe78inRVlfYYZvz2LKJXPi20,3553
+codebuddie/exception_handler.py,sha256=IjV5jnzxzCYDa-zhGyFNSJ5679U8ZlUiN5l0l5uwkKE,1494
+codebuddie/logging_module.py,sha256=sNjoiNQNriz0eAmKWTZF65_67HJyMvsJWd35TsdAIQc,893
+codebuddie/utils.py,sha256=tqU0SjrgBqDYyzsJoSL1Yw1C4UbNtEDFyCGK3q6_fc4,1390
+codebuddie-0.0.3.dist-info/LICENSE,sha256=hqT497hhBTpaWNWjT_DcY6Y16A0KwuT9wXi-5w9by30,1078
+codebuddie-0.0.3.dist-info/METADATA,sha256=XnOQYl98Q4OGElRlhlD63FZyWlAxF30z2qYV6Nz2QV4,2798
+codebuddie-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+codebuddie-0.0.3.dist-info/entry_points.txt,sha256=x_3bHD5ACQvSEubqaTzDmqulpjQjn8IlLy-bzHP4s3Y,51
+codebuddie-0.0.3.dist-info/top_level.txt,sha256=Tf4aNFIGZP8IfwUj6amcPaHKNxIm28xkKV2KjA3U-h4,11
+codebuddie-0.0.3.dist-info/RECORD,,

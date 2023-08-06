@@ -1,0 +1,2 @@
+[console_scripts]
+codebuddie = codebuddie.cli:main
