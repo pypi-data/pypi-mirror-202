@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: promsoft-weight-calc-interface
+Version: 0.1.3
+Summary: Интерфейс для сервиса weight_calc.
+Author: Alena Chegodaikina
+Author-email: alena@promsoft.ru
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Description-Content-Type: text/markdown
+
+# promsoft_weight_calc_interface
+Interface for weight_calc microservice.
+
+Usage:
+```
+from promsoft_weight_calc_interface import Entry, ComplEntry
+
+my_entry = Entry(id=10004, cnt=2)
+print(f"Entry as dict: {my_entry.dict()}")
+
+my_compl_entry = ComplEntry(items=[Entry(id=10004, cnt=2), Entry(id=10005, cnt=2)], return_sizes_goods=True)
+print(f"ComplEntry as dict: {my_compl_entry.dict()}")
+
+```
+
+Feel free to contribute!
+https://git3.promsoft.ru/interfaces/weight_calc_interface
+
