@@ -1,0 +1,16 @@
+# -c constraints_dev.txt
+
+black
+cruft
+click
+typer
+pre-commit
+black
+isort
+pytest
+pytest-runner
+pytest-cookies
+tox
+furo
+twine
+pep517
