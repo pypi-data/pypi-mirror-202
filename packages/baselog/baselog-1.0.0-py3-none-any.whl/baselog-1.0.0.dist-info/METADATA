@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: baselog
+Version: 1.0.0
+Summary: typed 12-factor app configuration helper
+Author-email: Ben Burke <actualben@users.noreply.github.com>
+Project-URL: Homepage, https://github.com/edencehealth/baselog
+Project-URL: Bug Tracker, https://github.com/edencehealth/baselog/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# baselog
+
+`baselog` is a Python library designed to simplify and standardize the process of logging in a Python application, particularly a Dockerized application.
+
+## Example
+
+...
