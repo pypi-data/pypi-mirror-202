@@ -1,0 +1,9 @@
+imod2relion/__init__.py,sha256=wTNJFN1a0IaAPp5tYUlhk4_CqSybwjagHbhYt7jjqIg,81
+imod2relion/_utils.py,sha256=LlM3FVmCYIMJNZDrVj21mrr2ttcSp1ZOeE9R2tekS7A,2790
+imod2relion/main.py,sha256=Ic9c87aEEm_Q3mfvdKJpeE92DkYAlr_NYSKZtRzrtLw,3201
+imod2relion/test.py,sha256=oaOUHVX8OmTDeihybgKvg4dvrgx4diVUyQGZLZbpNvA,1630
+imod2relion-1.0.1.dist-info/METADATA,sha256=xP3_UOL_x1t-xYCkYVOhbBF9DDW0kEo9iTcV0b3XmAM,643
+imod2relion-1.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+imod2relion-1.0.1.dist-info/entry_points.txt,sha256=HmLcaPbDuVpkluzZ1ZCGfYgrpqT9i1eKj77zO1NTY1Q,54
+imod2relion-1.0.1.dist-info/top_level.txt,sha256=veHsNQFk4yrJ_c3uhPIRLwZdZJI85TiAvsu8sxKslHw,12
+imod2relion-1.0.1.dist-info/RECORD,,
