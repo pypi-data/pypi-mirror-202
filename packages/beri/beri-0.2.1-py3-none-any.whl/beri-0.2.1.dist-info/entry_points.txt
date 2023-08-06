@@ -1,0 +1,3 @@
+[console_scripts]
+beri=beri.cli:main
+
