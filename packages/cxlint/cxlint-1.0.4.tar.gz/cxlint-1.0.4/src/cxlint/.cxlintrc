@@ -1,0 +1,137 @@
+# This Dialogflow CX rcfile contains a best-effort configuration to uphold the
+# best-practices and style described in the Dialogflow CX style guides:
+#   https://cloud.google.com/dialogflow/cx/docs/concept/agent-design
+#   https://cloud.google.com/dialogflow/cx/docs/concept/voice-agent-design
+#
+# Additionally, some working best practices from our delivery teams that are
+# not currently documented above have been codified as rules within CX Lint.
+#
+# This version has been modified to expect 4 space indents instead of 2.
+
+# Providing the Agent ID for the Dialogflow CX agent that is being linted will
+# enabled deep linked results from the logger.
+[AGENT ID]
+id=
+
+# Agent linting can be limited to specific resources by adding them to the include
+# list below. Once an item is add to the include list, all other resource types are
+# implicitly excluded. If no resources are added to the include list, then all
+# resources types are included by default.
+[AGENT RESOURCES]
+include=
+#    entityTypes,
+#    flows,
+#    intents,
+#    testCasees,
+#    webhooks
+
+# Certain linter rules are only applicable to Voice-style agents as they can affect
+# attributes that are Voice-only like DTMF, ASR configs, TTS prosody, etc.
+# Agent Types can be oneof: `chat`, `voice`
+# The default setting is `voice`
+[AGENT TYPE]
+type=voice
+
+[FLOWS]
+include=
+
+exclude=
+
+# Linting of intents can be filtered by providing a string pattern to match
+# against the Intent Display Names. You can choose `include` or `exclude` patterns.
+[INTENTS]
+include=
+
+exclude=
+
+language_code=
+
+# Disable the message, report, category or checker with the given id(s).
+# The disable key expects a comma separated list of symbolic names for
+# linter rules to disable them.
+
+# For simplicity, uncomment any line to disable that linting rule.
+[MESSAGES CONTROL]
+disable=
+#    closed-choice-alternative,
+#    wh-questions,
+#    clarifying-questions,
+#    intent-missing-tps,
+#    intent-min-tps,
+#    explicit-tps-in-test-cases,
+#    invalid-intent-in-test-cases,
+#    missing-webhook-event-handlers,
+#    unused-pages,
+#    dangling-pages,
+#    unreachable-pages
+#    naming-conventions
+#    extra-display-name-whitespace
+#    page-form-no-match-handler
+#    page-form-no-input-handler
+
+
+
+
+# For Test Case Tags, you will need to EXCLUDE the `#` preceeding the tag name.
+# The `#` symbol is used as a comment delimiter in config files, so the line 
+# _will not_ be read if you leave the preceeding `# in place.
+[TEST CASE TAGS]
+include=
+
+# For Test Cases 
+[TEST CASE INTENTS]
+include=
+
+
+[TEST CASE DISPLAY NAME PATTERN]
+pattern=
+
+# We can enforce naming conventions and style guides for many resources by
+# defining the specific patterns that we'd like to check for. Each of the below
+# resource types and subtypes accepts a regex pattern that will be applied to
+# the resource display name to determine if it meets the naming convention
+# criteria.
+[NAMING CONVENTIONS]
+
+# Implementation of Agent Name is currently inactive due to the underlying
+# Agent Metadata file not including the Agent Display Name.
+agent_name=
+
+# We are explicitly checking the Entity Type Display Name only.
+entity_type_name=
+
+flow_name=
+
+# If provided and Page does not match Form or Webhook type, we will use this
+# pattern to check _all_ remaining pages.
+page_generic_name=
+
+# If we determine that a Page contains a Form, we will use this pattern
+# to check against the Page Name.
+page_with_form_name=
+
+# If we determine that a Page contains a Webhook, we will use this pattern
+# to check against the Page Name.
+page_with_webhook_name=
+
+# If provided, we will use this pattern to inspect _all_ intents.
+intent_generic_name=
+
+# We determine head intents based on either of these being present:
+#  1. Intent Display name contains word 'head'
+#  2. Intent Tags contain key 'head'
+intent_head_name=
+
+# We determine confirmation intents based on either of the following:
+#  1. Intent Training Phrases contain 'yes'
+#  2. Intent Training Phrases contain 'no'
+intent_confirmation_name=
+
+# We determine escalation intents based on either of the following:
+#  1. Intent Training Phrases contain 'escalate'
+#  2. Intent Training Phrases contain 'operator'
+intent_escalation_name=
+
+test_case_name=
+
+webhook_name=
