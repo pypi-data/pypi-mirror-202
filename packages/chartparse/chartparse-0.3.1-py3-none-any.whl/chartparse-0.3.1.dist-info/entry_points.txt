@@ -1,0 +1,2 @@
+[console_scripts]
+chartparse = chartparse.__main__:main
