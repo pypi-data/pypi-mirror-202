@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: explai
+Version: 0.5
+Summary: A reporting tool for explainable AI
+Home-page: https://github.com/ritwikbd/explai
+Author: Ritwik Bandyopadhyay
+Author-email: ritwikbanrg@gmail.com
+License: MIT
+Download-URL: https://github.com/ritwikbd/explai/archive/refs/tags/v05.tar.gz
+Description: UNKNOWN
+Keywords: Explainable AI,Machine Learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
