@@ -1,0 +1,7 @@
+setup.py
+libname/__init__.py
+libname/helpful_functions.py
+viniciusmikifunctions.egg-info/PKG-INFO
+viniciusmikifunctions.egg-info/SOURCES.txt
+viniciusmikifunctions.egg-info/dependency_links.txt
+viniciusmikifunctions.egg-info/top_level.txt
