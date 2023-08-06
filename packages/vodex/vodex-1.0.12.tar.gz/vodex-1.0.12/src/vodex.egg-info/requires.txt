@@ -1,0 +1,8 @@
+numpy
+tifffile
+tqdm
+
+[testing]
+tox
+pytest
+pytest-cov
