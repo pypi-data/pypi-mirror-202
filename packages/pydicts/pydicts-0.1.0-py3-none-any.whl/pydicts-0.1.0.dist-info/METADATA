@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pydicts
+Version: 0.1.0
+Summary: Module to use dictionaries in various situations
+License: GPL-3.0
+Author: turulomio
+Author-email: turulomio@yahoo.es
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# pydicts
+Module to use dictionaries in various situations
+
+## Testing
+poetry run pytest
+
+## CHANGELOG
+### 0.1.0 (2023-04-10)
+- First version addapting listdict_functions from reusingcode

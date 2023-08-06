@@ -1,0 +1,11 @@
+pydicts/__init__.py,sha256=C2BGJHmS90XytqjzZ0xOJfmp_R_sS1d0OH-L8UfqlH8,143
+pydicts/lod.py,sha256=1_TkOM5tAcMmWq3ip0Trx2uaTFrttvRnMSvaZ8yemOI,8707
+pydicts/row_column_value.py,sha256=NBA_09NcxsNXWNFKCCsRch1_D0mYmjz_DpVGh-C0uz0,1093
+pydicts/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydicts/tests/test_lod.py,sha256=m7FH90yh-k8NRPy9QgX_cRaAoYvmMfQK7tEvXm02a40,350
+pydicts/tests/test_year_month_value.py,sha256=aeeQks6eij27PrUlZnrLszIWoCKL0aX_zv6ZZRUG7Mw,458
+pydicts/year_month_value.py,sha256=_tsMlXh1uCOtM6P6hQk38np80ZvqRxC4E8taknb3kwc,3307
+pydicts-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pydicts-0.1.0.dist-info/METADATA,sha256=Et5hwLWOI-uqP8RPPcii4aF_1-u10jgHOtp6-4aVYlU,662
+pydicts-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pydicts-0.1.0.dist-info/RECORD,,
