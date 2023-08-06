@@ -1,0 +1,8 @@
+setup.py
+pandacolumns/__init__.py
+pandacolumns/dynamic.py
+pandacolumns.egg-info/PKG-INFO
+pandacolumns.egg-info/SOURCES.txt
+pandacolumns.egg-info/dependency_links.txt
+pandacolumns.egg-info/requires.txt
+pandacolumns.egg-info/top_level.txt
