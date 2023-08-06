@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Liveness/anti_spoof_predict.py
+Liveness/generate_patches.py
+Liveness/livecheck.py
+Liveness/utility copy.py
+Liveness/utility.py
+image_liveness.egg-info/PKG-INFO
+image_liveness.egg-info/SOURCES.txt
+image_liveness.egg-info/dependency_links.txt
+image_liveness.egg-info/requires.txt
+image_liveness.egg-info/top_level.txt

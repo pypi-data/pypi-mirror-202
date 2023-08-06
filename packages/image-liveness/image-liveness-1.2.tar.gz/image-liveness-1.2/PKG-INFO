@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: image-liveness
+Version: 1.2
+Summary: This library offers a liveness detection on static images, which can be used to distinguish if it is a live capture or a spoofed image based on facial features and other indicators of authenticity.
+Home-page: https://github.com/ashishf1soft
+Download-URL: https://github.com/ashishf1soft/liveness-detection/archive/refs/tags/v_01.tar.gz
+Author: Ashish Thapa
+Author-email: ashish.f1soft@gmail.com
+License: Apache License 2.0
+Keywords: LIVENESS,FACE FACE,DETECTION
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.txt
