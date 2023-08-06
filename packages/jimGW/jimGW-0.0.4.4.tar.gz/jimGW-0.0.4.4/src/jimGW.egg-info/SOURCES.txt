@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/jimGW.egg-info/PKG-INFO
+src/jimGW.egg-info/SOURCES.txt
+src/jimGW.egg-info/dependency_links.txt
+src/jimGW.egg-info/requires.txt
+src/jimGW.egg-info/top_level.txt
+test/test_IMRPhenomC.py
+test/test_TaylorF2.py
+test/test_interferometer.py
+test/test_likelihood.py
+test/test_likelihood_bilby.py
