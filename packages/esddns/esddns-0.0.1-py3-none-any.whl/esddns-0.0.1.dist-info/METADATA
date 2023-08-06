@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: esddns
+Version: 0.0.1
+Summary: Open Source Dynamic DNS
+Author: Aziz Kurbanov
+Author-email: aziz@platformrnd.com
+License: MIT License
+        
+        Copyright (c) 2023 Aziz Kurbanov
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: issue_tracker, https://github.com/sqe/esddns/issues
+Project-URL: repository, https://github.com/sqe/esddns
+Keywords: dyndns,dynamicdns,dns,dynamic
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+ESDDNS
+======
+
+    --------------|----|----------
+    ,---.,---.,---|,---|,---.,---.
+    |---'`---.|   ||   ||   |`---.
+    `---'`---'`---'`---'`   '`---'
+              For Emil and Stella!
+
+**ESDDNS** (esddns) is an Open Source Dynamic DNS solution to automatically synchronize public 
+WAN IPv4 address with a target DNS A Record when there is a configuration drift 
+due to IPv4 address changes. 
+
+Creates and manages dynamic states for WAN IPv4 and DNS Record.  
+Utilizes dynamic public WAN IPv4 address discovered and retrieved from 
+external IPv4 check services, automatically synchronizes it with 
+managed DNS A record via REST APIs.
+
+[Documentation](https://sqe.github.io/esddns/)
