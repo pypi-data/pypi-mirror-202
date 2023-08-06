@@ -1,0 +1,8 @@
+torch
+fastprogress
+fastcore
+wandb
+numpy
+matplotlib
+diffusers
+denoising_diffusion_pytorch
