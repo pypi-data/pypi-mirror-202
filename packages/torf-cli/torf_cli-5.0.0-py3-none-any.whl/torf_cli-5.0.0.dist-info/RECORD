@@ -1,0 +1,16 @@
+torf_cli-5.0.0.data/data/share/man/man1/torf.1,sha256=LR9yLDMQkR19Q2hFK8fx44cO899zXq-OoAxzve5Sun0,16248
+torfcli/__init__.py,sha256=EfbSXmehifIDfns8xNidhdFPN8c-pjXIigi2wt8EEn4,1236
+torfcli/__main__.py,sha256=XlqHskk5V6iY72imunAw3NGrJuRwqDujPldC311P9dE,646
+torfcli/_config.py,sha256=DdvkcH02_K7a2cYy1-RrHz4ShjqdQTaYbrlzBLA6fC8,14028
+torfcli/_errors.py,sha256=_b5HGVu4XLKbRbw9bRXst9qBGzeyUr9YAY9ZVikGl3A,3533
+torfcli/_main.py,sha256=xCgbuCT7DGJumz5i3I8O6IuW5Sqa3zMUJ6trHKLtwok,9261
+torfcli/_term.py,sha256=i6_d05t1ZvG6GblesjJkL3A8-sOgAF8gBTxkk84uRdY,3027
+torfcli/_ui.py,sha256=fzH4CXpo_BqMU9IlkTe4KW9WJpGMvcIktPVARnowXkM,23553
+torfcli/_utils.py,sha256=9SlI0MEqfIuzlliSzYF0XsvYe-E7t-9iyU7CpniaqUE,10424
+torfcli/_vars.py,sha256=oPDGP1IU9CJF7AQJANZJqVlZR6_phNWp3fs2FTJa4Qo,707
+torf_cli-5.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+torf_cli-5.0.0.dist-info/METADATA,sha256=E9Qjjkhr4zph9qDKEuN031z7EbM1IVGHSkDB3CFJi08,8660
+torf_cli-5.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+torf_cli-5.0.0.dist-info/entry_points.txt,sha256=6dqlV45wmP-jeXA21Y8vn0Eg-BR4gEQoPn22D8Z4JcI,37
+torf_cli-5.0.0.dist-info/top_level.txt,sha256=OqmGbBUyyVzVCurbEMewSTuXQyNkSzrTVBeLUwcHQ8k,8
+torf_cli-5.0.0.dist-info/RECORD,,
