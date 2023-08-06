@@ -1,0 +1,9 @@
+vaporetto-0.3.0.dist-info/METADATA,sha256=yDYsmtpcx_9BZYC1jtwnEyfl_WTWCKiDDkbEPAmUmmY,4091
+vaporetto-0.3.0.dist-info/WHEEL,sha256=VvdY44iN3gVotPLSbm-bn6F9k45H_kxH9jQNBi2QPzw,96
+vaporetto-0.3.0.dist-info/license_files/LICENSE-APACHE,sha256=IP57AOkE7WkOO5_WBzeE0_xCgUHb0QuBwB_RQ9B5f1g,9899
+vaporetto-0.3.0.dist-info/license_files/LICENSE-MIT,sha256=NlFq79yExdWh50hUJZE6ItvaaesZMMXoTWrklytRlLk,1046
+vaporetto/__init__.py,sha256=h6AeBe6vJxNf_ra8l2FpW_PjzDMzgk13v8gks3UQ1xA,119
+vaporetto/__init__.pyi,sha256=BpHJUyXZXVn7CCSSPfHsGWE4UxJXGdWH_gq0LU_nOiQ,961
+vaporetto/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vaporetto/vaporetto.cp38-win_amd64.pyd,sha256=iE2YDYViK_61oZO34JYS8l1b-VoYnfr8K3gLejCGvTs,700928
+vaporetto-0.3.0.dist-info/RECORD,,
