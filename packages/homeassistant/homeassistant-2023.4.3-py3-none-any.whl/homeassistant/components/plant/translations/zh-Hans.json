@@ -1,0 +1,11 @@
+{
+    "entity_component": {
+        "_": {
+            "state": {
+                "ok": "[%key:component::binary_sensor::state::problem::off%]",
+                "problem": "[%key:component::binary_sensor::state::problem::on%]"
+            }
+        }
+    },
+    "title": "\u690d\u7269"
+}
