@@ -1,0 +1,7 @@
+README.md
+setup.py
+tarjimonuzbek/__init__.py
+tarjimonuzbek.egg-info/PKG-INFO
+tarjimonuzbek.egg-info/SOURCES.txt
+tarjimonuzbek.egg-info/dependency_links.txt
+tarjimonuzbek.egg-info/top_level.txt
