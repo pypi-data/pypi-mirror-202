@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: meta-label
+Version: 3.4.12
+Summary: Meta Auto Label Toolkit
+Home-page: https://github.com/CachCheng/cvlabel
+Author: CachCheng
+Author-email: tkggpdc2007@163.com
+License: Apache-2.0
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: opencv-python
+Requires-Dist: pillow
+Requires-Dist: torch
+Requires-Dist: groundingdino
+Requires-Dist: torchvision
+Requires-Dist: pyyaml
+Requires-Dist: transformers
+Requires-Dist: addict
+Requires-Dist: yapf
+Requires-Dist: supervision
+Requires-Dist: matplotlib
+Requires-Dist: pycocotools
+Requires-Dist: timm
+
+# cvlabel
+自动化标注通用框架
