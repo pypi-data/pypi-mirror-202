@@ -1,0 +1,12 @@
+chafa.py-1.1.1.dist-info/RECORD,,
+chafa.py-1.1.1.dist-info/WHEEL,sha256=BJkrN7tfT4-Le4XZdIARVoCYXg4l8TKJAtFCqm_yRzU,105
+chafa.py-1.1.1.dist-info/METADATA,sha256=_Tt-JydrVlqvuoH4kRnWyp6uSiOT2PExg77z6eCcSAI,4725
+chafa.py-1.1.1.dist-info/licenses/COPYING.LESSER,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+chafa.py-1.1.1.dist-info/licenses/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+chafa/__init__.py,sha256=UvUbjEspbxpVKidDCCPbtOktxZ6WEjnI36WOP7IX3aI,559
+chafa/loader.py,sha256=Yci5weclpwMWtQPxf9D5J5yBAbuGfrpJhZ04aWDGMXs,5736
+chafa/chafa.py,sha256=6kLwogU975Bp2jfTMXXM1CAN76mDcmr-CrmKCjnQEaM,83257
+chafa/.dylibs/libpcre.1.dylib,sha256=JT18ULmuVvC4dkA5VfBPvWlRRSiEqOy4KfoKaK7UXZ4,288224
+chafa/.dylibs/libglib-2.0.0.dylib,sha256=7kREsNeBqPnByda_vVdM8oOFQarqIhxxltv50ePR7MM,1143424
+chafa/.dylibs/libintl.8.dylib,sha256=VA763MyvPmJcKyeqznbv1q95URtE4WuES1R-6Tor3OQ,110624
+chafa/libs/libchafa.dylib,sha256=kO_y5K6XjdCHObON-bKlSskPnreG9-u7t5Y_-fESlko,371152
