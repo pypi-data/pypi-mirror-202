@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pulse-cookie"
+description = "Minimal QtWebEngine-based Web UI to extract the Pulse Connect Secure authentication cookie for use with OpenConnect VPN"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Raj Magesh Gauthaman", email = "raj.magesh@protonmail.com"}
+]
+keywords = [
+    "QtWebEngine",
+    "Pulse Connect Secure",
+    "OpenConnect",
+    "VPN",
+    "authentication",
+    "cookie",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: English",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Networking",
+    "Typing :: Typed",
+]
+urls = {repository = "https://codeberg.org/raj-magesh/pulse-cookie"}
+dependencies = [
+    "PyQt6-WebEngine",
+]
+dynamic = ["version"]
+
+[project.scripts]
+get-pulse-cookie = "pulse_cookie._cli:main"
+
+[tool.setuptools_scm]
