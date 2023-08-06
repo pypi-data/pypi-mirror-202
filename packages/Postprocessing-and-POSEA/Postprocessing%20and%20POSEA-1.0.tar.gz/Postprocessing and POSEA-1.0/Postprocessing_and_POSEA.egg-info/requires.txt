@@ -1,0 +1,9 @@
+tkinter
+customtkinter
+os
+cv2
+numpy
+PIL
+math
+pandas
+skimage
