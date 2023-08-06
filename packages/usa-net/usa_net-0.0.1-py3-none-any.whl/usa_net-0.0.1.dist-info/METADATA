@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: usa-net
+Version: 0.0.1
+Summary: USA net project
+Home-page: https://github.com/codekansas/usa-net
+Author: Benjamin Bolte
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: ffmpeg-python
+Requires-Dist: ftfy
+Requires-Dist: imageio
+Requires-Dist: matplotlib
+Requires-Dist: ml-starter
+Requires-Dist: more-itertools
+Requires-Dist: numpy
+Requires-Dist: numpy-quaternion
+Requires-Dist: open3d
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: pyliblzfse
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: timm
+Requires-Dist: torch (>=2.0.0)
+Requires-Dist: torchvision (>=0.13.1)
+Requires-Dist: typed-argument-parser
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: darglint ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: mypy-extensions ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: typing-extensions ; extra == 'dev'
+
+# USA Net
+
+USA net project code.
