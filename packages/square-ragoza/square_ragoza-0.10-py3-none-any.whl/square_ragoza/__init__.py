@@ -1,0 +1,1 @@
+from square_ragoza.square_formula import SquareFunction
