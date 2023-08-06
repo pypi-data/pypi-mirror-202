@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: qsea
+Version: 0.1.6
+Summary: Convenient way to work with Qlik Sense Engine API from Python
+Home-page: https://github.com/ncthuc/qsea
+Download-URL: https://pypi.org/project/qsea/
+Author: Lev Biriukov
+Author-email: lbiryukov@gmail.com
+License: MIT
+Keywords: QlikSense,Qlik
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: datetime
+Requires-Dist: websocket
+
+Description
+
+A convenient way to use Qlik Sense Engine API from Python
+View and edit master measures, master dimensions, variables and sheet objects in pythonic way
+
+
+```python
+Installation
+
+pip install qsea
+```
+
+
