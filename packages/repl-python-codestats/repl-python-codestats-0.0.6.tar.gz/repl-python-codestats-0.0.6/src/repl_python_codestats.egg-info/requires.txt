@@ -1,0 +1,17 @@
+repl-python-wakatime
+
+[dev]
+keyring
+keyrings.alt
+pre-commit
+ptpython[ptipython]
+pytest-cov
+
+[ipython]
+traitlets
+
+[ptipython]
+ptpython[ptipython]
+
+[ptpython]
+ptpython
