@@ -1,0 +1,11 @@
+import typing
+from typing import TypeVar
+from .models import BaseModel
+
+T = TypeVar("T", BaseModel)
+def concatenate(values: list[T]) -> T:
+    assert len(values) > 1
+    table = values[0]._data_table
+    for v in values[1:]:
+        table
+    
