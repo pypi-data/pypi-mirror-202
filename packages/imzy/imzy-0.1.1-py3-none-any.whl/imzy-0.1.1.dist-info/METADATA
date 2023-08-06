@@ -1,0 +1,144 @@
+Metadata-Version: 2.1
+Name: imzy
+Version: 0.1.1
+Summary: imzy: A new reader interface to imzML and other imaging mass spectrometry formats.
+Author-email: "Lukasz G. Migas" <lukas.migas@yahoo.com>
+License: BSD 3-Clause License
+Project-URL: homepage, https://github.com/vandeplaslab/imzy
+Project-URL: repository, https://github.com/vandeplaslab/imzy
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Utilities
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: numba
+Requires-Dist: tqdm
+Requires-Dist: natsort
+Requires-Dist: koyo
+Provides-Extra: all
+Requires-Dist: imzy[hdf5] ; extra == 'all'
+Requires-Dist: imzy[zarr] ; extra == 'all'
+Requires-Dist: imzy[plot] ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black (==22.1.0) ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pdbpp ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: rich ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: imzy[test] ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs ; extra == 'docs'
+Requires-Dist: mkdocs-material ; extra == 'docs'
+Requires-Dist: markdown-changelog ; extra == 'docs'
+Provides-Extra: hdf5
+Requires-Dist: h5py ; extra == 'hdf5'
+Requires-Dist: hdf5plugin ; extra == 'hdf5'
+Provides-Extra: plot
+Requires-Dist: matplotlib ; extra == 'plot'
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0) ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Provides-Extra: zarr
+Requires-Dist: zarr ; extra == 'zarr'
+Requires-Dist: dask ; extra == 'zarr'
+Requires-Dist: rechunker ; extra == 'zarr'
+
+# imzy
+
+<div align="center">
+
+[![Build status](https://github.com/imzy/imzy/workflows/build/badge.svg?branch=master&event=push)](https://github.com/imzy/imzy/actions?query=workflow%3Abuild)
+[![Python Version](https://img.shields.io/pypi/pyversions/imzy.svg)](https://pypi.org/project/imzy/)
+[![Dependencies Status](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)](https://github.com/imzy/imzy/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Aapp%2Fdependabot)
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Security: bandit](https://img.shields.io/badge/security-bandit-green.svg)](https://github.com/PyCQA/bandit)
+[![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/imzy/imzy/blob/master/.pre-commit-config.yaml)
+[![Semantic Versions](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--versions-e10079.svg)](https://github.com/imzy/imzy/releases)
+[![License](https://img.shields.io/github/license/imzy/imzy)](https://github.com/imzy/imzy/blob/master/LICENSE)
+![Coverage Report](assets/images/coverage.svg)
+
+imzy: A simple reader interface to imzML (and maybe in time) other imaging mass spectrometry formats
+
+</div>
+
+## Very first steps
+
+### Initialize your code
+
+1. Initialize `git` inside your repo:
+
+```bash
+cd imzy && git init
+```
+
+2. Create conda environment. We are using `imzy` as its name.
+
+```bash
+conda create -n imzy python=3.9
+```
+
+3. Initialize and install `pre-commit` hooks:
+
+```bash
+make develop
+make pre-commit-install
+```
+
+4. Run the codestyle:
+
+```bash
+make codestyle
+```
+
+5. Upload initial code to GitHub:
+
+```bash
+git add .
+git commit -m ":tada: Initial commit"
+git branch -M main
+git remote add origin https://github.com/imzy/imzy.git
+git push -u origin main
+```
+
+
+## 🛡 License
+
+[![License](https://img.shields.io/github/license/imzy/imzy)](https://github.com/imzy/imzy/blob/master/LICENSE)
+
+This project is licensed under the terms of the `BSD-3` license. See [LICENSE](https://github.com/imzy/imzy/blob/master/LICENSE) for more details.
+
+## 📃 Citation
+
+```bibtex
+@misc{imzy,
+  author = {imzy},
+  title = {imzy: A new reader/writer interface to imzML and other imaging mass spectrometry formats.},
+  year = {2022},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/imzy/imzy}}
+}
+```
