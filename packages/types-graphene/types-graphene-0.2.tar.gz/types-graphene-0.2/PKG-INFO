@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: types-graphene
+Version: 0.2
+Summary: Graphene stubs and mypy plugin
+Home-page: https://github.com/dongzoolee/types-graphene
+Author: dongzoolee
+Author-email: me@leed.at
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# View installation instructions on github
