@@ -1,0 +1,17 @@
+h5py
+numpy
+pyYAML
+chromalog
+
+[dev]
+black
+pylint
+flake8
+twine
+pre-commit
+pyright
+
+[test]
+pytest
+pytest-click
+coverage

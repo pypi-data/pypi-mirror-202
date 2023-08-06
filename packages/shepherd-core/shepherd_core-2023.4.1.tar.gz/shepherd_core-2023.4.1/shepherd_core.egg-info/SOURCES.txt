@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+./shepherd_core/__init__.py
+./shepherd_core/calibration.py
+./shepherd_core/logger.py
+./shepherd_core/reader.py
+./shepherd_core/writer.py
+shepherd_core.egg-info/PKG-INFO
+shepherd_core.egg-info/SOURCES.txt
+shepherd_core.egg-info/dependency_links.txt
+shepherd_core.egg-info/requires.txt
+shepherd_core.egg-info/top_level.txt
+shepherd_core.egg-info/zip-safe
