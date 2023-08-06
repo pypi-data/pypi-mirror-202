@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: intake-dynamodb
+Version: 2023.4.1
+Summary: Intake plugin for reading data from dynamodb
+Author-email: Ray Bell <rayjohnbell0@gmail.com>
+Project-URL: repository, https://github.com/intake-dynamodb/intake-dynamodb
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# Intake Dynamodb
+
+[![Available on pypi](https://img.shields.io/pypi/v/intake-dynamodb.svg)](https://pypi.python.org/pypi/intake-dynamodb/)
+
+intake-dynamodb is a [plugin](https://intake.readthedocs.io/en/latest/plugin-directory.html) for Intake
+for reading data from dynamodb
+
+### Acknowledgements
+
+Developed in the [Met Office Informatics Lab](https://www.metoffice.gov.uk/research/foundation/informatics-lab/index).
