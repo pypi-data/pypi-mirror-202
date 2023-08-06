@@ -1,0 +1,9 @@
+package_jmsierra_fff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+package_jmsierra_fff/dividir.py,sha256=Htn6UML4q1AkNXmstnY3jZ_kUqL22aYlnHF0BP3dy2s,29
+package_jmsierra_fff/multiplicar.py,sha256=1O5UqUV20h6QFbxhenTH9ZmksuetIx5oY98Wpixz8LM,29
+package_jmsierra_fff/restar.py,sha256=FzrsooT0jG6CuUt11Nhb3aYq7WK97hD13Es6fxCN9Hk,29
+package_jmsierra_fff/sumar.py,sha256=d2EOQ2s4vRmxU30lyatpgC5qENFu2LrqvP1y0UwExlA,29
+package_jmsierra_fff-0.1.0.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+package_jmsierra_fff-0.1.0.dist-info/METADATA,sha256=BGuY4smt64-WxDXRJphqfVcRifiFsYSJp9mjM_poch8,2285
+package_jmsierra_fff-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+package_jmsierra_fff-0.1.0.dist-info/RECORD,,
