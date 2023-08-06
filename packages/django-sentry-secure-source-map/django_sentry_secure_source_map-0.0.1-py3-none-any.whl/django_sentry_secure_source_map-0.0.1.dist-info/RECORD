@@ -1,0 +1,6 @@
+sentry_secure_source_map/__init__.py,sha256=6d0AimPK83UaewWemFzehc6cRP5i1GlfdBSamCZrD7g,88
+sentry_secure_source_map/middleware.py,sha256=niL1jBgq26gBfOzzWVZTM-3FKf8t1XMVy5y0pBuvUUs,785
+django_sentry_secure_source_map-0.0.1.dist-info/LICENSE,sha256=lkDNsHPRXdhEyp3IJIlePw_6lp0Gt_qQ2mr8NPXNMUI,1069
+django_sentry_secure_source_map-0.0.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+django_sentry_secure_source_map-0.0.1.dist-info/METADATA,sha256=6NhO04SFma_gGkIEwx37Vye230yctPDS4Dqn2lQy-v4,750
+django_sentry_secure_source_map-0.0.1.dist-info/RECORD,,
