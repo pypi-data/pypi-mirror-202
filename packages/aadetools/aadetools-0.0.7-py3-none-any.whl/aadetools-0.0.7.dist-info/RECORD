@@ -1,0 +1,16 @@
+aadetools.py,sha256=EpGx0m9ukgGesvVX2VzHgys1opoJs2MIpswi3g4B_GM,125
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/aadetools.py,sha256=EpGx0m9ukgGesvVX2VzHgys1opoJs2MIpswi3g4B_GM,125
+src/morph/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/morph/charsets.py,sha256=ziYqIorgK-XOxp8ZdTefWHAooJexRmh_f81v5QgvL6Q,2695
+src/morph/lemmatizeSentence.py,sha256=d03ZLin4EPTs8c_jk-OI1dB_Jd31M6F3h8GjGZ-Qdrw,2765
+src/morph/morph_tagger.py,sha256=jBJoG0R3heTfdSzKPzBj7QVM8GBV9bIBIsuRkcyYYkM,7774
+src/morph/settings.py,sha256=OO9BDH42TNISJD3I2f9ebjp85Nd-OZjz8mlJtODF94Y,47
+src/morph/tokenizers_words.py,sha256=nOwwo8doRG0Pl_Im3V2r1Z7-Il7giD4SHGftN9dNioc,574
+src/parse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/parse/parser.py,sha256=rguU-yxBJuC75mZeLLktvtPaZzigUBQ4_nA7sJLGXVg,4517
+aadetools-0.0.7.dist-info/LICENSE.txt,sha256=6HmgVx9ZT0xI1FmxkZEoOs0nattzXZhqHQ9bcuYxDrc,1090
+aadetools-0.0.7.dist-info/METADATA,sha256=MBh6KQ3Tn-m6xq4oVJm8VxUGBu7gWrlH5y5jII_MkGI,803
+aadetools-0.0.7.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+aadetools-0.0.7.dist-info/top_level.txt,sha256=YLWbOADJ4kQh0Pj_0Z-YpoyCEkj53sPsIIFwVWhQ8Yc,10
+aadetools-0.0.7.dist-info/RECORD,,
