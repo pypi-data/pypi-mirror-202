@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/pydisort/__init__.py
+src/pydisort/main.py
+src/pydisort.egg-info/PKG-INFO
+src/pydisort.egg-info/SOURCES.txt
+src/pydisort.egg-info/dependency_links.txt
+src/pydisort.egg-info/top_level.txt
