@@ -1,0 +1,12 @@
+vclog/__init__.py,sha256=_YW4gZ1MzU85j-TYJI45wJJlvkoCpz-k6jcxER_Z_Gc,51
+vclog/logger.py,sha256=Ijym8sk82kpuvlbkuY23AEo6rWuin0L2zaa6n5W1HpY,6373
+vclog/core/__init__.py,sha256=Zp2M39q3P5CznB23FIWz3aSj7AP_W0-718zWmrOuSqs,51
+vclog/core/codes.py,sha256=hkidMBteV6TlT7vO-V9bvYsd78Zl6YXgZyVf7pWJHx0,472
+vclog/core/colors.py,sha256=8xF6yj6fhe6_zgZDeNnv9fQxmjsvUxFIFmgX5h-bWVM,1130
+vclog/use_cases/__init__.py,sha256=4jwlCOhtuLnp6mAXYlqsQuNwdRMpr12qGaQ5fVrQpWE,32
+vclog/use_cases/formatter.py,sha256=hSu0AC5mtHuRMN2LgTGnRM6A2yfi7Zq82LmcS-s3bZQ,669
+vclog-1.0.0.dist-info/LICENSE,sha256=_8RlkB-okyYuC5cLb4y8Vs1pENNIs1waNa7RuywXqbE,1062
+vclog-1.0.0.dist-info/METADATA,sha256=DZ4UaLArsjYXYaSqxdvJGguBknFeOGMTcYwOHekwp4Y,2563
+vclog-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+vclog-1.0.0.dist-info/top_level.txt,sha256=WEsXzxTsyDdeX_8NaaXgMmtw4rAqAblrOGKWWLqlQhc,6
+vclog-1.0.0.dist-info/RECORD,,
