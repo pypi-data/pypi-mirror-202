@@ -1,0 +1,15 @@
+lumeny/CaldavConnector.py,sha256=eHIds-o8Kp-dTf6bcTF1ICr_sjy7zjWfhbPVnasfZaI,4712
+lumeny/CalendarInteraction.py,sha256=vvcMMYuaxmvXLF0uDUHrB5h29-Majy0OifmO-Gg9_n0,3765
+lumeny/ConfigLoader.py,sha256=0sTBDPRf_2gXj7uCf23sMD7OZnvNTvh1drW_LRl4znQ,1590
+lumeny/EmbeddingGenerator.py,sha256=A9ThpaAQmS53-LqCOiWxlhzQQg9_5BTv3xc5UF6D-Cg,2068
+lumeny/MinifluxConnector.py,sha256=fsUmqAjT1UbgGzlygs81V-GTC19DTAHVr9lZoUU0IIY,3001
+lumeny/QdrantConnector.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lumeny/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lumeny/ai.py,sha256=w8YLri9LBa4Mp_ctXstXF5Y6BcJ21XvihxiRBW1pfyA,2329
+lumeny/cli.py,sha256=k5JKlT_GMNIvAo8s2BoB6-UZIoAf7LGROSL5BgXhlnA,2003
+lumeny/tui.py,sha256=B5SGjftquwVUSBTNiLrrce3bYv0o2mV5JKzkpMrEvNA,1839
+lumeny/utils.py,sha256=PNMUntS-nrviGFwtJmG5VH-EUxHQPILE_R6d0XSVqDc,912
+lumeny-0.1.1.dist-info/METADATA,sha256=A8ZKLFvfFSvQrpYUckNqxXtvuQaqIOePRoBXjZn4uo4,1544
+lumeny-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+lumeny-0.1.1.dist-info/entry_points.txt,sha256=L-Jm4FHTn8Vup6cCfZ-qoXLZqJoj4FONvbmYmlg7_Hg,40
+lumeny-0.1.1.dist-info/RECORD,,
