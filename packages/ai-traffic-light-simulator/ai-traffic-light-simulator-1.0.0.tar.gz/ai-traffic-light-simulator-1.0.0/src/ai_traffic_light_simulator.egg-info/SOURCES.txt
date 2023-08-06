@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/traffic_simulation.py
+src/traffic_simulation_numba.py
+src/ai_traffic_light_simulator.egg-info/PKG-INFO
+src/ai_traffic_light_simulator.egg-info/SOURCES.txt
+src/ai_traffic_light_simulator.egg-info/dependency_links.txt
+src/ai_traffic_light_simulator.egg-info/requires.txt
+src/ai_traffic_light_simulator.egg-info/top_level.txt
