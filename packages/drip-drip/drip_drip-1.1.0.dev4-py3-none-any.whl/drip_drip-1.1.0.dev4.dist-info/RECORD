@@ -1,0 +1,13 @@
+drip/__init__.py,sha256=eNPgMwiFuHqjFDNDqPzh0CebLs_wFcSMMo8w_HbIDLQ,363
+drip/drip_feed.py,sha256=AgBVGUx1brbLJ-BzufmlmyK4RazZkqr7J8Ap7uwObb4,4726
+drip/dropper.py,sha256=ZSFREd8u9YisgTnmhCmU9Vt7F7rtyTFAfGPoybnqyi8,1832
+drip/feeder.py,sha256=_corfS1_iXEhAWyiX9V-ebBbBqP26cMViz5RKuBorow,5080
+drip/file_dropper.py,sha256=LO6ku6B1vlege6jModz940UXl8wWe2pLNZyIhAg3Cvw,4409
+drip/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drip/utils.py,sha256=PWs9PS8I7sxbFGblLNuahf9xmnb6ilZYf7YM7uoyF5w,3589
+drip_drip-1.1.0.dev4.dist-info/LICENSE.txt,sha256=MT_oX51g2JDBHl6WgqcC-t_bFpzs0hb1lVzgJKyxYHI,2426
+drip_drip-1.1.0.dev4.dist-info/METADATA,sha256=i_dUT6qSGsoa0OLt4A4JyUYhrTwJ16pmfbDWXMKmJlM,1439
+drip_drip-1.1.0.dev4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+drip_drip-1.1.0.dev4.dist-info/entry_points.txt,sha256=pFsRYq1jbwMVUJFpXcwXQIoVhuClmG_Rf2fokETMI24,95
+drip_drip-1.1.0.dev4.dist-info/top_level.txt,sha256=Rtw4oOruzgGQ7dyw6ZiWS37UbjnGkQG-D71PjXyX9QE,15
+drip_drip-1.1.0.dev4.dist-info/RECORD,,
