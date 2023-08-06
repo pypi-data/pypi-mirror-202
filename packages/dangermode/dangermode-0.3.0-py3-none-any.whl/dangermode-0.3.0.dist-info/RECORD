@@ -1,0 +1,11 @@
+dangermode/__init__.py,sha256=M7EuY_Kf_UDGgjMlan-diIvt641uIbHT1QlOX-aYEgY,707
+dangermode/__main__.py,sha256=2QsfdhHtIibuT68R5bqBYneWpb5_lAavOIqNuGdKKdo,738
+dangermode/app.py,sha256=TqQqvyLHM_2tdXAa8I0oJwq3JWx3xGTxbWxan0ILTMk,2202
+dangermode/models.py,sha256=SSK6fmRiZWN8eh7mblCThYUaC30yoJXTKJiG_ZSjbrQ,2889
+dangermode/routes.py,sha256=vP4I8hEm7Ts-52Z2G67Sm5RV5-Cc7AlgWBx154u9ghk,2927
+dangermode/static/images/logo.png,sha256=h9ilUrAsqIKXYUiVSggsqEAAZLtF7x7gJ93UEhk8mkM,38480
+dangermode/suggestions.py,sha256=qYY6LNVLPBa43d2Fd58C-yTCl6W8fG1vAGxIplEwE0g,184
+dangermode-0.3.0.dist-info/LICENSE,sha256=XfV73LKR87fAOCnoEMRikCj1HDWSm7WXd8l5ZsQdZIQ,1498
+dangermode-0.3.0.dist-info/METADATA,sha256=uuFuEklhus6kNURsZsM8RCTnVgFD3lWAGcJz1dVNk7A,4690
+dangermode-0.3.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+dangermode-0.3.0.dist-info/RECORD,,
