@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: env_color_logger
+Version: 0.0.1
+Summary: Simple logging using env variables
+Home-page: https://github.com/ofersadan85/env_color_logger
+Author: Ofer Sadan
+Author-email: ofersadan85@gmail.com
+License: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# envlogger

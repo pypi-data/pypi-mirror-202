@@ -1,0 +1,8 @@
+README.md
+setup.py
+env_color_logger/__init__.py
+env_color_logger/color.py
+env_color_logger.egg-info/PKG-INFO
+env_color_logger.egg-info/SOURCES.txt
+env_color_logger.egg-info/dependency_links.txt
+env_color_logger.egg-info/top_level.txt
