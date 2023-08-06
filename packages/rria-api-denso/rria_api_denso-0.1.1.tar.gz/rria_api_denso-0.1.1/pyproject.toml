@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rria-api-denso"
+version = "0.1.1"
+description = ""
+authors = ["Felipe Augusto <97059009+felipeadsm@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "rria_api_denso"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pywin32 = "^306"
+
+[tool.poetry.dev-dependencies]
+ipython = "^8.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
