@@ -1,0 +1,6 @@
+filetype
+numpy
+Pillow
+requests
+rich
+typer
