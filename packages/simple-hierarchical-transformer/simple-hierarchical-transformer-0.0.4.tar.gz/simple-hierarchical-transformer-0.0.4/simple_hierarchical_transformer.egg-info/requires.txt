@@ -1,0 +1,4 @@
+accelerate
+einops>=0.4
+torch>=1.6
+vector-quantize-pytorch
