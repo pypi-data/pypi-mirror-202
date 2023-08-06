@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pyspark-functions"
+version = "0.0.3"
+description = ""
+authors = ["wiseupdata <silvio.liborio@wiseupdata.com>"]
+readme = "README.md"
+packages = [{include = "pyspark_functions"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyspark = "^3.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
