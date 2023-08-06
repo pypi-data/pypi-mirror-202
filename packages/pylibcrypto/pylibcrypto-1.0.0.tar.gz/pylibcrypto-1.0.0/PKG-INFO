@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pylibcrypto
+Version: 1.0.0
+Summary: Hello World
+Home-page: UNKNOWN
+Author: SuSB0t
+Author-email: nick.faltermeier@gmx.de
+License: UNKNOWN
+Description: Hello World
+Keywords: python
+Platform: UNKNOWN
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
