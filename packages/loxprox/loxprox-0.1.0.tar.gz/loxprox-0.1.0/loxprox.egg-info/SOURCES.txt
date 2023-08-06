@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+loxprox/__init__.py
+loxprox/colors.py
+loxprox/config.py
+loxprox/converter.py
+loxprox/main.py
+loxprox.egg-info/PKG-INFO
+loxprox.egg-info/SOURCES.txt
+loxprox.egg-info/dependency_links.txt
+loxprox.egg-info/entry_points.txt
+loxprox.egg-info/requires.txt
+loxprox.egg-info/top_level.txt

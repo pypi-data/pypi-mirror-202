@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: loxprox
+Version: 0.1.0
+Summary: Control Philips Hue lights from Loxone Miniserver
+Author: Kevin Bortis
+License-File: LICENSE
