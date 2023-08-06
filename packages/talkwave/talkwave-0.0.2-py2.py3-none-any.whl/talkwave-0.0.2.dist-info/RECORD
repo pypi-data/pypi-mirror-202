@@ -1,0 +1,10 @@
+talkwave/__init__.py,sha256=jfZPieK3h29zqcaM_x6JhNAvBMEVWYStI7tnr5QUK74,2433
+talkwave/__main__.py,sha256=W3lBQpTlpcHInIBWkMQtjmylmRVKeVyjkFBh1I-hWk0,1788
+talkwave/core.py,sha256=qSOFDzftqV-y1EAFMnN_mehJzztKfrRM2s3K3U-qqp0,4809
+talkwave/frontend.py,sha256=iLYbvSQMtpx2togcbt-GMiec82sHh5zJluhBgkz3aR0,2542
+talkwave-0.0.2.dist-info/LICENSE-APACHE,sha256=Kc_sxrlbtLp1fOB5zpkRXlyeP8QqXq4AXdS_8mE_oXQ,10870
+talkwave-0.0.2.dist-info/LICENSE-MIT,sha256=JYjqbSch7QXtvoXH19HaZe4lWWAfAVY6ozcQlZRYhsQ,1080
+talkwave-0.0.2.dist-info/METADATA,sha256=yBUa2ArTXRKHBCBqkFVqOMiq8wGR5stopHb88qZdQ5Y,4626
+talkwave-0.0.2.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+talkwave-0.0.2.dist-info/top_level.txt,sha256=WFrFbnSUGSm9PENKsLqXmif8EMOJ5JWGBHkgOOSz2lg,9
+talkwave-0.0.2.dist-info/RECORD,,
