@@ -1,0 +1,12 @@
+Change Log
+==========
+
+0.1 (10/4/2023)
+----------------
+- First release
+----------------
+0.2 (11/4/2023)
+----------------
+- added move() function to objects
+- added collisionCheck() function
+- added GetKeysPressed() function
