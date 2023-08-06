@@ -1,0 +1,9 @@
+selenium
+requests
+selenium-interceptor
+undetected-chromedriver
+selenium-wire
+webdriver-manager
+
+[dev]
+check-manifest
