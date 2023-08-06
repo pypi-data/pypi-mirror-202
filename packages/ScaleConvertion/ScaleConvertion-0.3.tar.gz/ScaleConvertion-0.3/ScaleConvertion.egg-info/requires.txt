@@ -1,0 +1,12 @@
+tqdm
+numpy
+pandas
+torch
+timm
+exifread
+qt5_applications
+matplotlib
+torchvision
+requests
+colour
+opencv-python

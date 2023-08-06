@@ -1,0 +1,33 @@
+Metadata-Version: 1.2
+Name: ScaleConvertion
+Version: 0.3
+Summary: Helps achieve surface reflectance scale conversion
+Home-page: https://github.com/qxcnwu
+Author: qxcnwu
+Author-email: qxcnwu@gmail.com
+Maintainer: qxcnwu
+Maintainer-email: qxcnwu@gmail.com
+License: MIT License
+Description: ScaleConvertion
+        -----------------------------------------------------------------
+        
+        ResTransformer-based surface reflectance scale conversion tool
+        
+        .. code:: python
+        
+            from ScaleConvertion.PicProcess.Draw_Window import read_
+            from ScaleConvertion.main import getSeds
+        
+            if __name__ == '__main__':
+                img_path = r""
+                save_dir = "tmp"
+                a, b = getSeds()
+                read_(img_path, save_dir, a, sensors_altitude=b, pixel=[2, 4, 8, 10, 20, 30])
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.4
