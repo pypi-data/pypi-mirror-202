@@ -1,0 +1,15 @@
+inspector_django/__init__.py,sha256=PhBswhhlbLm_BIJl2CFrC_gOkPy8H8bOQJWoP87N1OM,1192
+inspector_django/middleware.py,sha256=HMk_n44VO7-ZPWGtb_xRoZDZ0DsCAFr_WNVWMHpQVI4,2053
+inspector_django/enums/__init__.py,sha256=wmI3WoLObafg9ZVGdEyfq7nE7_M4g8uwdeVVm9fKzjw,39
+inspector_django/enums/settings_enum.py,sha256=kyGmSwqQJ9ejocPLHshrFKrydhi3MHegqCbGHEmFQe0,318
+inspector_django/lib/__init__.py,sha256=kl0FvQRvMMRY0EAWZRMMBtT2OYgMyja-NmXTJ9iBFBY,99
+inspector_django/lib/app_configurations.py,sha256=BBRJYPnupX8wWLm1vcCoxiaZP3TMI4ZmBkpfv6Lj_Pg,1065
+inspector_django/lib/inspector_django.py,sha256=WKKQFBFuBXjLP3I0ZvcPpEMbvR7ylX98bpN6wad5q6s,2744
+inspector_django/tracking/__init__.py,sha256=ze-uTLA5vyHtj8ZRXe0jpWE8caBq-WADJD8sdYxXpTs,78
+inspector_django/tracking/guard_transaction.py,sha256=LhzKi_WZ5we5jjJKMpodPnQstTADtilAD9toIyzXLqY,1259
+inspector_django/tracking/sql_hook.py,sha256=jbOaz0kNFW_vkmuyIs8HWuDz1vN9ariYHthu8XkTwBc,3389
+inspector_django-0.1.3.dist-info/LICENSE,sha256=eC9RU3ZwkOxIg8S6bZSgzbbIGl753FB4LrY1keFZ9BY,1072
+inspector_django-0.1.3.dist-info/METADATA,sha256=CwCIn60A0kuTEm7q8M2csdTcTjK7fgHo5cELcvluGx8,2442
+inspector_django-0.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+inspector_django-0.1.3.dist-info/top_level.txt,sha256=CgTd15rFD_YSHmonJmR8rBdrEvtezAVBCkcTH-ZxgVQ,17
+inspector_django-0.1.3.dist-info/RECORD,,
