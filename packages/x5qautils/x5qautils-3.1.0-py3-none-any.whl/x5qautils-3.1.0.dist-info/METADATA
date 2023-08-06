@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: x5qautils
+Version: 3.1.0
+Summary: Project with test methods
+Home-page: https://git.do.x5.ru/auto-qa/qautils
+Author: anastasiy.kordyukova, vladislav.grigorev, maria.snopok
+Author-email: vladislav.grigorev@x5.ru, maria.snopok@x5.ru
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: async-timeout
+Requires-Dist: allure-pytest
+Requires-Dist: asn1crypto
+Requires-Dist: atomicwrites
+Requires-Dist: cachecontrol
+Requires-Dist: contextlib2
+Requires-Dist: cssselect
+Requires-Dist: deprecated
+Requires-Dist: distro
+Requires-Dist: faker
+Requires-Dist: flake8-awesome
+Requires-Dist: idna-ssl
+Requires-Dist: lockfile
+Requires-Dist: more-itertools
+Requires-Dist: openpyxl
+Requires-Dist: ordered-set
+Requires-Dist: pandas (<=1.3.5,>=1.3.2)
+Requires-Dist: pip-chill
+Requires-Dist: pony
+Requires-Dist: progress
+Requires-Dist: pydantic
+Requires-Dist: pyhamcrest
+Requires-Dist: pylint
+Requires-Dist: pyopenssl
+Requires-Dist: python-arptable
+Requires-Dist: pytoml
+Requires-Dist: retrying
+Requires-Dist: validation
+Requires-Dist: wcwidth
+Requires-Dist: xlrd
+Requires-Dist: xlsxwriter
+Provides-Extra: all
+Requires-Dist: selenium ; extra == 'all'
+Requires-Dist: lxml ; extra == 'all'
+Requires-Dist: lz4 ; extra == 'all'
+Requires-Dist: html5lib ; extra == 'all'
+Requires-Dist: pytest-selenium ; extra == 'all'
+Requires-Dist: furl ; extra == 'all'
+Requires-Dist: jsonpickle ; extra == 'all'
+Requires-Dist: pyjwt ; extra == 'all'
+Requires-Dist: aiohttp ; extra == 'all'
+Requires-Dist: requests ; extra == 'all'
+Requires-Dist: psycopg2-binary ; extra == 'all'
+Requires-Dist: clickhouse-cityhash ; extra == 'all'
+Requires-Dist: confluent-kafka ; extra == 'all'
+Provides-Extra: api
+Requires-Dist: furl ; extra == 'api'
+Requires-Dist: jsonpickle ; extra == 'api'
+Requires-Dist: pyjwt ; extra == 'api'
+Requires-Dist: aiohttp ; extra == 'api'
+Requires-Dist: requests ; extra == 'api'
+Provides-Extra: db
+Requires-Dist: psycopg2-binary ; extra == 'db'
+Requires-Dist: clickhouse-cityhash ; extra == 'db'
+Provides-Extra: dev
+Requires-Dist: pallets-sphinx-themes ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pygments-pytest ; extra == 'dev'
+Requires-Dist: sphinx-removed-in ; extra == 'dev'
+Requires-Dist: sphinxcontrib-confluencebuilder ; extra == 'dev'
+Requires-Dist: sphinxcontrib-trio ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Provides-Extra: kafka
+Requires-Dist: confluent-kafka ; extra == 'kafka'
+Provides-Extra: ui
+Requires-Dist: selenium ; extra == 'ui'
+Requires-Dist: lxml ; extra == 'ui'
+Requires-Dist: lz4 ; extra == 'ui'
+Requires-Dist: html5lib ; extra == 'ui'
+Requires-Dist: pytest-selenium ; extra == 'ui'
+
+UNKNOWN
+
