@@ -1,0 +1,16 @@
+jaxrie-5.dist-info/METADATA,sha256=1YypyEd5ITANOcqm_nBx6IfoHhi6WUlvDKPv_8c0HxM,418
+jaxrie-5.dist-info/WHEEL,sha256=7dGFtUmOf30dPBLpGD2z643cxg89joO7p3JHBAwDv6E,90
+jaxrie/__init__.py,sha256=09Y9nF6NvGwsfZj93F3-CXTSmnWTFSMfRsL-S2HY3ps,240
+jaxrie/__version__.py,sha256=HfXYsZe1Ag4tVR6SouqkD7CJU58eCItSOSMOFrSEiY0,18
+jaxrie/manifold/__init__.py,sha256=Fc1o1J08cOnV2wLq7Se6HLM8MXDR8EjpB-GE7LghhXE,274
+jaxrie/manifold/base.py,sha256=Ns9MW9KCibg9yVai51o0d6hc3b42BxD2OMfGbWJAY4M,4015
+jaxrie/manifold/euclidean.py,sha256=MenhEzXclzbe6Uh6a9eZwqm6gQaKNu1PUXQUjkUkvdo,4749
+jaxrie/manifold/lorentz.py,sha256=F6xx0n3El_dN4V8NPPk20qNxkRQloFabPRDBDHe_JYM,1456
+jaxrie/manifold/math.py,sha256=H5oBv_RHb2O6y8Ek-BKTY6-OOZw7JP_8Kkzf52yB7LA,22649
+jaxrie/manifold/stereographic.py,sha256=LuPHBgdTGZDoVQ9tlhgG39xODG5RjIEuaLmBTH9Cu0U,5304
+jaxrie/modules/__init__.py,sha256=baT_Vh_TL9ESzwh3XmPnbs3PTehVeYzA_-xYerAUn3s,93
+jaxrie/modules/basic.py,sha256=aYI9cTqK4kpHWR8gSCEZmruEn6KVBgDle_CRXYjf_DU,4816
+jaxrie/nets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jaxrie/nets/basic.py,sha256=OtKdmOYorpMpDk9vCQjS-kaeOC-gHbKjPDRugcFbMoM,2282
+jaxrie/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jaxrie-5.dist-info/RECORD,,
