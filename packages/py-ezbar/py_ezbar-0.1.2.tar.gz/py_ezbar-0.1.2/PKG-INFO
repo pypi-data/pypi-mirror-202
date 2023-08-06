@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: py_ezbar
+Version: 0.1.2
+Summary: Simple progress bar for terminal
+Home-page: https://github.com/kdrkrgz/ez-bar
+Author: kadir-karagoz
+Author-email: Kadir Karagoz <kadir@kadirkaragoz.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2023 Kadir Karagoz
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+        
+Project-URL: Home, https://github.com/kdrkrgz/ez-bar
+Keywords: progress,bar,terminal
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Ez-Bar
+
+Very simple customizable progress bar.
+
+## Installation
+```bash
+pip install py-ezbar
+```
+
+## Usage and Examples
+
+import, configure and use it's easy
+```bash
+from py_ezbar import ProgressBar, BarStyles, BarColors
+    
+progress_bar = ProgressBar(color=BarColors.YELLOW, style=BarStyles.DEFAULT, show_fractions=True)
+t = range(327)
+x = [fake.bs() for _ in range(5)]
+y = {
+    "1": "a",
+    "2": "b",
+    "3": "c",
+    "4": "d",
+    "5": "e",
+}
+
+for i in t:
+    progress_bar(index=i, iterable=t, current=i)
+    sleep(0.01)
+
+for i, v in enumerate(x):
+    progress_bar(index=i, iterable=x, current=v)
+    sleep(0.01)
+
+for i, (k, v) in enumerate(y.items()):
+    progress_bar(index=i, iterable=x, current=v)
+    sleep(0.01)
+```
+
+![example](https://raw.githubusercontent.com/kdrkrgz/ez-bar/master/docs/gifs/example.gif)

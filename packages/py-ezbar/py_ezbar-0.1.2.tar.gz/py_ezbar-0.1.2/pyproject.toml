@@ -1,0 +1,17 @@
+[build-system]
+requires = ["pybuilder>=0.12.0"]
+build-backend = "pybuilder.pep517"
+
+[project]
+name = "py_ezbar"
+authors = [{name = "Kadir Karagoz", email = "kadir@kadirkaragoz.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+keywords = ["progress", "bar", "terminal"]
+
+requires-python = ">=3.7"
+
+[project.urls]
+Home = "https://github.com/kdrkrgz/ez-bar"
