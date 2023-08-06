@@ -1,0 +1,10 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/cross_validation/__init__.py,sha256=AfHLP_770xnOMQ2vhUcheQnqbD4KZ8j1Qwp9tha451o,133
+src/cross_validation/cross_validation.py,sha256=Z6eAR8Wn0OUpieKdsCLSUzjhXY1aGC666dlWVbls2bA,5420
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cross_validation.py,sha256=Hl9WKsaifR741dPF_k7siqNyg7BFOC6zhLSp12l48VI,787
+cross_validation_package-1.0.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+cross_validation_package-1.0.0.dist-info/METADATA,sha256=kpFBks9mHid7BdhjqyG3YK6_40uXKwAgDzgOEMgPa3M,4263
+cross_validation_package-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cross_validation_package-1.0.0.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+cross_validation_package-1.0.0.dist-info/RECORD,,
