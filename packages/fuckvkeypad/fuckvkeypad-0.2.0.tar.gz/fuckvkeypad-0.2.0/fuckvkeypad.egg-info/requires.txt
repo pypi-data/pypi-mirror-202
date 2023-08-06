@@ -1,0 +1,12 @@
+click==8.1.3
+colorama==0.4.6
+mypy-extensions==1.0.0
+numpy==1.24.2
+opencv-contrib-python==4.7.0.72
+packaging==23.0
+pathspec==0.11.1
+platformdirs==3.2.0
+scipy==1.10.1
+svgpathtools==1.6.0
+svgwrite==1.4.3
+tomli==2.0.1
