@@ -1,0 +1,5 @@
+[console_scripts]
+vehicle = vehicle_lang:main
+
+[pygments.lexers]
+vehicle = vehicle_lang.pygments:VehicleLexer
