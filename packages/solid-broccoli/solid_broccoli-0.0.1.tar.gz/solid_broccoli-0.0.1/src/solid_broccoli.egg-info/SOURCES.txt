@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/solid_broccoli/__init__.py
+src/solid_broccoli/__main__.py
+src/solid_broccoli/convert.py
+src/solid_broccoli.egg-info/PKG-INFO
+src/solid_broccoli.egg-info/SOURCES.txt
+src/solid_broccoli.egg-info/dependency_links.txt
+src/solid_broccoli.egg-info/entry_points.txt
+src/solid_broccoli.egg-info/requires.txt
+src/solid_broccoli.egg-info/top_level.txt

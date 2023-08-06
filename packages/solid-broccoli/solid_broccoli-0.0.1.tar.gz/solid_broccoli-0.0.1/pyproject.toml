@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="solid_broccoli"
+version="0.0.1"
+authors=[{name="im_coding", email="imcodingproj@gmail.com"}]
+description="Unix timestamp to Human readable format and backwards"
+readme="README.md"
+requires-python=">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/IM-coding/solid-broccoli"
+"Bug Tracker" = "https://github.com/IM-coding/solid-broccoli/issues"
