@@ -1,0 +1,23 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "nanobind>=1.1.0",
+    "scikit-build>=0.16.7",
+    "cmake>=3.18",
+    "ninja"
+]
+
+build-backend = "setuptools.build_meta"
+
+[tool.cibuildwheel]
+build = "*"
+# Disable building of PyPy wheels on all platforms
+skip = "pp*"
+test-requires = "pytest"
+test-command = "pytest {project}/test --color=yes -v"
+build-verbosity = 1
+
+# nanobind does not support 32-bit architectures
+# static_assert(sizeof(nb_inst) == sizeof(PyObject) + sizeof(void *)); fails
+archs = "auto64"
