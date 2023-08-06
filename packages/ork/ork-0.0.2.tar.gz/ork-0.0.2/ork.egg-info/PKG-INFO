@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ork
+Version: 0.0.2
+Summary: Toolbox for Warhammer 40k
+Home-page: http://github.com/bonnal-enzo/ork
+Author: bonnal-enzo
+Author-email: bonnal.enzo.dev@gmail.com
+License: Apache 2.
+License-File: LICENSE
