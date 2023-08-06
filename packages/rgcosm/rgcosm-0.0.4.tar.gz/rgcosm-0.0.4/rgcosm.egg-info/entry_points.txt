@@ -1,0 +1,2 @@
+[console_scripts]
+pdf4cat = rgcosm:__main__
