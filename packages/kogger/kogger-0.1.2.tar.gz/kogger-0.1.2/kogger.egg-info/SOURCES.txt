@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kogger/__init__.py
+kogger/logger.py
+kogger.egg-info/PKG-INFO
+kogger.egg-info/SOURCES.txt
+kogger.egg-info/dependency_links.txt
+kogger.egg-info/top_level.txt
