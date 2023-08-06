@@ -1,0 +1,8 @@
+LICENCE
+setup.py
+simple-arith/__init__.py
+simple-arith/arith.py
+simple_arith.egg-info/PKG-INFO
+simple_arith.egg-info/SOURCES.txt
+simple_arith.egg-info/dependency_links.txt
+simple_arith.egg-info/top_level.txt
