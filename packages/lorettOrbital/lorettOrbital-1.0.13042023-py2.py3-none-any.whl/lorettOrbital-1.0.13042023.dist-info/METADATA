@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: lorettOrbital
+Version: 1.0.13042023
+Summary: LorettOrbital Python 3 library for orbital calculations and planning
+Home-page: https://gitlab.com/lpmrfentazis/lorettorbital
+Author: MrFentazis
+Author-email: lpmrfentazis@mail.ru
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: requests (>=2.26.0)
+Requires-Dist: pyorbital (>=1.6.1)
+Requires-Dist: beautifulsoup4 (>=4.10.0)
+Requires-Dist: prettytable (>=2.2.0)
+Requires-Dist: verboseLogs (>=1.7)
+
+**LorettOrbital**
+
+A module that makes it easier to interact with LORETT hardware and software complexes.
+
+Author:
+MrFentazis
+lpmrfentazis@mail.ru
+
