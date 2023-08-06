@@ -1,0 +1,12 @@
+python_compose/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_compose/compose.py,sha256=_4kAHf5DAB4y59nzgytnb1X-Cv1GRjK36UJnob1tjk8,3048
+python_compose/spec.py,sha256=_QBMWsQic-mbITd96ApeXyEI6rl8c-wpJUY2iWR2JdY,2950
+python_compose/unit/compose_unit.py,sha256=hMW8vaO4JQGtF8K1YGRgXZgOY7J78c3_TRceMotVmm8,980
+python_compose/unit/conda.py,sha256=VlVqXhN4-yqygSCKuU2gDq0jjkwTHgevtMSpORxPkS0,2990
+python_compose/unit/pyenv_virtualenv.py,sha256=3SgXILbch41A762KMf_Zm7jWyawGs2Z0HaDfgCcQGfU,2830
+python_compose/unit/venv.py,sha256=NuJ3hsX2J0RA6qYYzHzdlSC9G6dVEHysBJALlaiapBA,2356
+python_compose-1.1.0.dist-info/METADATA,sha256=T6N1kZtj3cYgGKfxg5jxj7_7o62e56LrHpliNeIc_lg,9253
+python_compose-1.1.0.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+python_compose-1.1.0.dist-info/entry_points.txt,sha256=iiGnJSP_FIYW5zjhgPoZixfr49r0WHB-3FeQVYvHoIw,63
+python_compose-1.1.0.dist-info/licenses/LICENSE,sha256=3JvFUuWjBId3PzeLTxQ9LQIy1b_JrDDy1ChqJ7msWsg,1092
+python_compose-1.1.0.dist-info/RECORD,,
