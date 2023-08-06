@@ -1,0 +1,35 @@
+<!-- 
+  This static page handles the redirect from the OAuth2 server.
+  It is used to get the authorization code from the OAuth2 server 
+  and then forward it to the flutter app.
+
+  See: https://pub.dev/packages/oauth2_client#web
+-->
+<html>
+<head>
+    <title>OAuth 2.0 Redirect Page</title>
+</head>
+<body>
+    <h1>OAuth 2.0 Redirect Page</h1>    
+    <script type="text/javascript">
+        window.onload = function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const code = urlParams.get('code');
+        if(code) {
+          // see: https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage
+          // The message is the full URL of the redirect page. The URL will contain query arguments
+          // with the authorization code and state and we want to pass those to the flutter app.
+          message = window.location.href
+          // URL will be the URL of the redirect page without the query arguments.
+          // We use this as the targetOrigin for the postMessage call because the redirect URI
+          // should be the same origin as main window since they are being served on the same origin.
+          // The redirect URI includes the path e.g. "assets/oauth2redirect.html" but that appears
+          // to be ignored by the postMessage call.
+          url = window.location.href.split('?')[0];
+          console.log("Sending message:  to url: " + url);
+          // TODO(jeremy): This is commented out to allow debugging of the redirect page.
+          window.opener.postMessage(message, url);
+        }
+      }
+    </script>
+</html>
