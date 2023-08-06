@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: proteoxystis
+Version: 0.0.1
+Summary: Minimal python project that exposes a commandline feature
+Home-page: https://github.com/retospect/proteoxystis
+License: GPL-3
+Keywords: example
+Author: Reto Stamm
+Maintainer: Reto Stamm
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Project-URL: Repository, https://github.com/retospect/proteoxystis
+Description-Content-Type: text/markdown
+
+[![check](https://github.com/retospect/proteoxystis/actions/workflows/check.yml/badge.svg)](https://github.com/retospect/proteoxystis/actions/workflows/check.yml)
+# Proteoxystis - Crystal solvent prediction for XRay Crystallography
+
+**Under Construction**
+
+Given the DNA sequence, predicts a set of likely solvents for that protein
+
+## Things to replace
+
+- ```grep -ri word .``` will find the *word* in all the files
+- ```find . | grep word``` will find the *word* in any filenames
+- *retospect* - changed to your github user name
+- *proteoxystis* - change to the name of your project
+- *wobble* - change to the internal package name you want to use 
+- *fafa* - change to whatever your commandline command should be if you are providing a script
+- update the pyproject.py file to have your name and the right description. 
+
