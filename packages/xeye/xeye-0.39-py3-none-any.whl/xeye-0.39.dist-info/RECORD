@@ -1,0 +1,10 @@
+xeye/__init__.py,sha256=rh-SH91w0oMEXPEllCxBTBWLKfjkTNy12x7SJEeWjKU,268
+xeye/build_dataset.py,sha256=DIb1AMNB72uSZslE-TSzMxTHSm6e6pfl-YL8pH3ccSs,5924
+xeye/dataset.py,sha256=aCJ-kbFvG-gzOPN5blXPt7JWl-vOdDTKwSitmF3NKhA,14901
+xeye/fast_dataset.py,sha256=INHdVfT-ZSyVZhcPHF5cmqQUuMqxIw1_3n6tk_OsTL4,14881
+xeye/manual_dataset.py,sha256=ETfwxdQEb9mMuZj_Qh3SEiqCBjq070KEzAbiBr_EmpY,4518
+xeye-0.39.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+xeye-0.39.dist-info/METADATA,sha256=QeleanxQg63vmVdygRFH0zGuQyjx2cgWUD5gJfZD1W0,16182
+xeye-0.39.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+xeye-0.39.dist-info/top_level.txt,sha256=gxrHEpBrJyMnRKNTPkfT6aUteavj0qjkTZglQ73pbpw,5
+xeye-0.39.dist-info/RECORD,,
