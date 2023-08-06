@@ -1,0 +1,7 @@
+setup.py
+src/examples/__init__.py
+src/examples/options.py
+src/hambit.egg-info/PKG-INFO
+src/hambit.egg-info/SOURCES.txt
+src/hambit.egg-info/dependency_links.txt
+src/hambit.egg-info/top_level.txt
