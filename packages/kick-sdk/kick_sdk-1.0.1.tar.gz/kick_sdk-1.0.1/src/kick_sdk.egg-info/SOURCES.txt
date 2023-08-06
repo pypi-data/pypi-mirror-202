@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/kick_sdk/example.py
+src/kick_sdk/kick_sdk.py
+src/kick_sdk/simple_moderation_bot.py
+src/kick_sdk.egg-info/PKG-INFO
+src/kick_sdk.egg-info/SOURCES.txt
+src/kick_sdk.egg-info/dependency_links.txt
+src/kick_sdk.egg-info/top_level.txt
+src/kick_sdk/data/authenticated_user.py
+src/kick_sdk/data/message_entry.py
+src/kick_sdk/util/logger.py
