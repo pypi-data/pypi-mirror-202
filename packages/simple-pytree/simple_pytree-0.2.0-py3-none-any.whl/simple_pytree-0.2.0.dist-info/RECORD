@@ -1,0 +1,7 @@
+simple_pytree/__init__.py,sha256=Q-gccFgFbAiAGbTRH0yBcSMWGG97qR1Hf4aTgffT8oQ,190
+simple_pytree/dataclass.py,sha256=Je6sWXBFmVaf5cYrvfHkTlz73GMUgthgVywVNLAXN-Q,2293
+simple_pytree/pytree.py,sha256=YMl8DnMLStJ6m-bBZi7aCw83GRnrqkfOisSqfBEKnuU,8421
+simple_pytree-0.2.0.dist-info/LICENSE,sha256=nEeqZTgRHhGmbWc6BWQ5ZWubB-K7KxcGA4mU4Vwc98c,1072
+simple_pytree-0.2.0.dist-info/METADATA,sha256=FbNgSjmfFvjqAqJkUfE3ZChXy_il0s2SQAOziTzkDFY,4140
+simple_pytree-0.2.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+simple_pytree-0.2.0.dist-info/RECORD,,
