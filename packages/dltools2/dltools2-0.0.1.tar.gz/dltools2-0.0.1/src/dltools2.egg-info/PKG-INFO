@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dltools2
+Version: 0.0.1
+Summary: Datalake Tools
+Home-page: https://github.com/stonezhong/dltools
+Author: Stone Zhong
+Author-email: stonezhong@hotmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Datalake Tools
+
+## schema
+json schema check tools
+
+## streaming
+streaming framework
+
