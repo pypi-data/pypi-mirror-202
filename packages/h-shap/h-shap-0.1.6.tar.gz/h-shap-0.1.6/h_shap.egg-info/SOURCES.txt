@@ -1,0 +1,12 @@
+README.md
+setup.py
+h_shap.egg-info/PKG-INFO
+h_shap.egg-info/SOURCES.txt
+h_shap.egg-info/dependency_links.txt
+h_shap.egg-info/requires.txt
+h_shap.egg-info/top_level.txt
+hshap/__init__.py
+hshap/src.py
+hshap/test_src.py
+hshap/test_utils.py
+hshap/utils.py
