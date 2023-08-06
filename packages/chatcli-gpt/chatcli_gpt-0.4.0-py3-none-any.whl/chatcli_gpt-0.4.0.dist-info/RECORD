@@ -1,0 +1,10 @@
+chatcli_gpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatcli_gpt/__main__.py,sha256=bAG5RPI_vsCTS3GyS8PmfuFToT9PvVM5I5tRkmWEqqc,34
+chatcli_gpt/chatcli.py,sha256=Yyd3vvGVAa9nJiofPDSDpTesPHG9ABJSV7EDYmeWRVE,14346
+chatcli_gpt/log.py,sha256=RE5VB3OUk5c8SjONi1VRK91gq3yFrpN_0JflIoVIPSA,7808
+chatcli_gpt/plugins.py,sha256=NsbbQV4WMq1t-rLRgGeWtb_VxCOeFs-7H90E0BT9rFs,2847
+chatcli_gpt-0.4.0.dist-info/LICENSE,sha256=GjbJk5wp2BLoYZQTXwKF1_ATZkubcpSAq_V4gFPim-E,1067
+chatcli_gpt-0.4.0.dist-info/METADATA,sha256=z_pjqzZXw4QPOvBfOrwDR8aRMnwv03RUmUC_XgfZ8ao,4651
+chatcli_gpt-0.4.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+chatcli_gpt-0.4.0.dist-info/entry_points.txt,sha256=Dn-BvyUtSB-BquCI0ZKuTWgqT-L8lglTmFnMPaGrE94,52
+chatcli_gpt-0.4.0.dist-info/RECORD,,
