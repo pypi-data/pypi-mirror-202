@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+infinitesimals.egg-info/PKG-INFO
+infinitesimals.egg-info/SOURCES.txt
+infinitesimals.egg-info/dependency_links.txt
+infinitesimals.egg-info/requires.txt
+infinitesimals.egg-info/top_level.txt
+src/__init__.py
+src/example.py
+src/infinitesimals.py
