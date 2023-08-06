@@ -1,0 +1,11 @@
+chromoformer/__init__.py,sha256=jiXgjzu012AQHpRg1cQTKnJN9-JZsQ2LTHj4OUvbsGc,75
+chromoformer/data.py,sha256=pCKLk7h4LiF9a-M9o1kuY7zZpLGZjPolV9wKvCoqvwQ,7726
+chromoformer/modules.py,sha256=p-DAurGUx1Ydfqqa1CYIHs66V6CRSh0erqk3N45bquc,9461
+chromoformer/net.py,sha256=ye788ZFdk6vnAZHs1z4MdRYh_FP6Ell41Dljnm1Bn3Y,17148
+chromoformer/train.py,sha256=OIC0PK0ExR1g61mrd0PTMGG6IGBqFMf5NGomwSlUg6E,7720
+chromoformer/util.py,sha256=sO71ansrntls7KGTyTW1Q8SFViI2qP8bMPV4Le7iYqQ,375
+chromoformer-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+chromoformer-1.1.0.dist-info/METADATA,sha256=B1TDZcWcahrN1Q-7W779qMvFZ-i7183CfOCMysyHlZo,684
+chromoformer-1.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+chromoformer-1.1.0.dist-info/top_level.txt,sha256=Os8s5e0Y73nQDhIPfjPtMv2lyZ7cWVQIEIoBLINP0AU,13
+chromoformer-1.1.0.dist-info/RECORD,,
