@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tempmail-lol
+Version: 2.0.0
+Summary: A Python API for TempMail
+Home-page: https://github.com/tempmail-lol/api-python
+Author: Alex Torres, Alexander Epolite
+Author-email: cloudbotsedc@gmail.com
+License: UNKNOWN
+Keywords: tempmail,api,lol,tempmail-lol,tempmail.lol,email,free
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+
