@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: marpdown
+Version: 0.1.0
+Summary: A package of RL algorithms
+Home-page: https://github.com/leoxiang66/marpdown
+Author: Tao Xiang
+Author-email: tao.xiang@tum.de
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# marpdown
+Python SDK for Marp markdown.
