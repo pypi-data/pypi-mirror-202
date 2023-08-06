@@ -1,0 +1,4 @@
+fastapi[all]
+python-dateutil
+pyjwt
+pydantic

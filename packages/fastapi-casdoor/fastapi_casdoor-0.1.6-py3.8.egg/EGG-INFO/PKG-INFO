@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: fastapi-casdoor
+Version: 0.1.6
+Summary: Integration Casdoor with FastAPI
+Home-page: https://github.com/winrey/python-fastapi-casdoor
+Author: Winrey
+Author-email: i@iaside.com
+License: UNKNOWN
+Description: # fastAPI Casdoor
+        Integration Casdoor with FastAPI
+        
+        ## Installation
+        
+        ```bash
+        pip install fastapi-casdoor
+        ```
+        
+        ## Usage
+        
+        ```python
+        from typing import Annotated, Depends
+        from fastapi import FastAPI
+        from fastapi_casdoor.deps import get_current_user
+        from fastapi_casdoor.models import User
+        
+        
+        @app.get("/")
+        async def root(user: Annotated[User, Depends(get_current_user)]):
+            return {
+                "user": user,
+            }
+        ```
+        
+Keywords: auth,casdoor,fastapi,dependency
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Chinese (Simplified)
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
