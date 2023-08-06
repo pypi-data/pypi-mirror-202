@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyntone
+Version: 0.2.1
+Summary: Kintone Rest API Wrapper
+Home-page: https://github.com/kashi03/pyntone
+Author: kashi03
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.27.1)
+
