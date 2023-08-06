@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: data2vec
+Version: 0.0.2
+Summary: data2Vec是一种用于数据向量表征的工具，它将数据转换为向量矩阵并可以将其存储在向量数据库中。
+Home-page: https://github.com/xuehangcang/data2vec
+Author: Xuehang Cang
+Author-email: xuehangcang@outlook.com
+License: MIT License
+Keywords: Vector Pytorch Vector Database
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# data2vec
+data2Vec是一种用于数据向量表征的工具，它将数据转换为向量矩阵并可以将其存储在向量数据库中。
+
+
+
+Available models
+
+
+| Model name | Return vector length |
+|------------|----------------------|
+| Resnet-18  | 1000                 |

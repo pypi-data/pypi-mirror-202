@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+data2vec/__init__.py
+data2vec/img_to_vec.py
+data2vec.egg-info/PKG-INFO
+data2vec.egg-info/SOURCES.txt
+data2vec.egg-info/dependency_links.txt
+data2vec.egg-info/requires.txt
+data2vec.egg-info/top_level.txt
