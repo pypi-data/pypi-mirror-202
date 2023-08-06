@@ -1,0 +1,3 @@
+[console_scripts]
+protex=proteoxystis.protex:protex
+
