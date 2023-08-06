@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: viperD
+Version: 0.2.1
+Summary: package for running python applications using dockers
+Author: Mohammad Nawaz Ahmad
+Author-email: nawazahmad20@hotmail.com
+License: BSD 3-Clause License
+Keywords: deploy,python applications,docker
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
