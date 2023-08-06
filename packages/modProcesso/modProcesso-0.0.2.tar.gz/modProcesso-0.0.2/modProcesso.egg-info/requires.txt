@@ -1,0 +1,4 @@
+automaton2bpmn
+ipywidgets
+pm4py
+teocomp

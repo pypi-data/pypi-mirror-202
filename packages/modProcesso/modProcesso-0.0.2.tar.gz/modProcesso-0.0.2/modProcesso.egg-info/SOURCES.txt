@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+modProcesso/__init__.py
+modProcesso/modProcesso.py
+modProcesso.egg-info/PKG-INFO
+modProcesso.egg-info/SOURCES.txt
+modProcesso.egg-info/dependency_links.txt
+modProcesso.egg-info/requires.txt
+modProcesso.egg-info/top_level.txt
