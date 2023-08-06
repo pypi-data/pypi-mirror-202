@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "base16-colorlib"
+version = "0.2.0"
+description = "base16 color schemes for your python projects"
+authors = ["MOIS3Y <stepan@zhukovsky.me>"]
+readme = "README.md"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/MOIS3Y/base16-colorlib"
+keywords = ["base16", "color", "colorlib", "theme", "scheme"]
+include = ["CHANGELOG.md"]
+packages = [{include = "base16_colorlib"}]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
