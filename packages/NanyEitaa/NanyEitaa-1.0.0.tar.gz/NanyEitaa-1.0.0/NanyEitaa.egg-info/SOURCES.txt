@@ -1,0 +1,9 @@
+LICENCE
+setup.py
+NanyEitaa/NanyEitaa.py
+NanyEitaa/__init__.py
+NanyEitaa.egg-info/PKG-INFO
+NanyEitaa.egg-info/SOURCES.txt
+NanyEitaa.egg-info/dependency_links.txt
+NanyEitaa.egg-info/requires.txt
+NanyEitaa.egg-info/top_level.txt
