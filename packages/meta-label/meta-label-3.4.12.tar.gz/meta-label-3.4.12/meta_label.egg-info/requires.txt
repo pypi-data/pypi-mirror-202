@@ -1,0 +1,16 @@
+setuptools
+numpy
+requests
+opencv-python
+pillow
+torch
+groundingdino
+torchvision
+pyyaml
+transformers
+addict
+yapf
+supervision
+matplotlib
+pycocotools
+timm
