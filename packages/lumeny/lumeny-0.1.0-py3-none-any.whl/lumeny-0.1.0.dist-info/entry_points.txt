@@ -1,0 +1,3 @@
+[console_scripts]
+lumen=lumen-young.cli:cli
+
