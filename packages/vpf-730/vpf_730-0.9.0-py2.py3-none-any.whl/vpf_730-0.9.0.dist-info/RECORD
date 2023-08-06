@@ -1,0 +1,15 @@
+server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+server/app.py,sha256=k8aQKKH3QFMaziv9IDpGRiXB8ycbXBLI1hJzX6QSBtQ,414
+vpf_730/__init__.py,sha256=-tcwgpKqDrnaXaZNbvzRmoo06UC1H2iyeBuTc8LpIT4,400
+vpf_730/__main__.py,sha256=evLq9NDAxSTMRGZzXHGBGWiEjaTtNZrgP2yPptG6V-Q,87
+vpf_730/logger.py,sha256=WsC_M0h7ORp65aG67_VhoeFfQbyFWNBmqhgqV3iSt_E,4118
+vpf_730/main.py,sha256=MDpG5J2K6ZRCpXtWUa4aXL1x0zcEz2l4FxAuLy-75CA,8551
+vpf_730/sender.py,sha256=TROTcEokZyJijpOXWxMl9Qx2Ki41Crc7IChpf9X3Vew,9081
+vpf_730/utils.py,sha256=KpY0ajyBJ_wYHMheM-QBPmwpnMXw5UvNEr5SzoGkiEE,3110
+vpf_730/vpf_730.py,sha256=okwP5NzJX1uwOcqlJoGDWmIBeunqWBxdMXCL-hIS38w,14842
+vpf_730-0.9.0.dist-info/LICENCE,sha256=zY6Xi7fXfTSdjUD0uyTvzQR4RckOKxpkno3JyRUKkI0,1070
+vpf_730-0.9.0.dist-info/METADATA,sha256=9zalbK99ffCJe2lok7IvKTu4ZN6EC2kpqoBx63BcqZM,2619
+vpf_730-0.9.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+vpf_730-0.9.0.dist-info/entry_points.txt,sha256=EiRzm09P70Y7wDEmYTSL7piHdOiHARNxtPqBz9iS_go,46
+vpf_730-0.9.0.dist-info/top_level.txt,sha256=X87rxkfv0iZ8Qi2EKdT4FWBbDJz8-QO8G9gq6XV_yyQ,15
+vpf_730-0.9.0.dist-info/RECORD,,
