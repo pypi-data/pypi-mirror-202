@@ -1,0 +1,2 @@
+[console_scripts]
+dbt_schema_generator = dbt_schema_generator:main
