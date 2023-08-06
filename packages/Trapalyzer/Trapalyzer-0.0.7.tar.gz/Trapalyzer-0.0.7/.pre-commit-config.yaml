@@ -1,0 +1,44 @@
+default_language_version:
+    python: python3.8
+
+repos:
+-   repo: https://github.com/psf/black
+    rev: 23.1.0
+    hooks:
+    - id: black
+      pass_filenames: true
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.4.0
+    hooks:
+    - id: check-json
+    - id: check-yaml
+    - id: check-merge-conflict
+    - id: end-of-file-fixer
+    - id: trailing-whitespace
+      exclude: .*\.md
+    - id: debug-statements
+    - id: mixed-line-ending
+-   repo: https://github.com/asottile/setup-cfg-fmt
+    rev: v2.2.0
+    hooks:
+    - id: setup-cfg-fmt
+      args: ["--include-version-classifiers", "--max-py-version", "3.10"]
+-   repo: https://github.com/asottile/pyupgrade
+    rev: v3.3.1
+    hooks:
+    - id: pyupgrade
+      args: ["--py38-plus"]
+-   repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.10.0
+    hooks:
+    -   id: rst-backticks
+-   repo: https://github.com/PyCQA/isort
+    rev: '5.12.0'  # Use the revision sha / tag you want to point at
+    hooks:
+    -   id: isort
+
+-   repo: https://github.com/myint/autoflake
+    rev: 'v2.0.1'  # Use the revision sha / tag you want to point at
+    hooks:
+    -   id: autoflake
+        args: ["--remove-all-unused-imports", "-i"]

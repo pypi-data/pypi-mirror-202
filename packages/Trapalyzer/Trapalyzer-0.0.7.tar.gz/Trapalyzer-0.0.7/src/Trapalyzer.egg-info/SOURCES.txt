@@ -1,0 +1,37 @@
+.gitignore
+.pre-commit-config.yaml
+License.txt
+Readme.md
+pyproject.toml
+setup.cfg
+setup.py
+Tutorial/Readme.md
+Tutorial/example_profile.json
+Tutorial/Figs/0.png
+Tutorial/Figs/1.png
+Tutorial/Figs/2.png
+Tutorial/Figs/3.png
+Tutorial/Figs/4.png
+Tutorial/Figs/5.png
+Tutorial/Figs/download.png
+Tutorial/Figs/fig 6_2.png
+Tutorial/Figs/fig 6_3.png
+Tutorial/Figs/fig10.png
+Tutorial/Figs/fig6.png
+Tutorial/Figs/fig6_1.png
+Tutorial/Figs/fig7.png
+Tutorial/Figs/fig8.png
+Tutorial/Figs/fig9.png
+Tutorial/Figs/release_img.png
+src/Trapalyzer/__init__.py
+src/Trapalyzer/_version.py
+src/Trapalyzer/measurement.py
+src/Trapalyzer/napari_functions.py
+src/Trapalyzer/segmentation.py
+src/Trapalyzer/widgets.py
+src/Trapalyzer.egg-info/PKG-INFO
+src/Trapalyzer.egg-info/SOURCES.txt
+src/Trapalyzer.egg-info/dependency_links.txt
+src/Trapalyzer.egg-info/entry_points.txt
+src/Trapalyzer.egg-info/requires.txt
+src/Trapalyzer.egg-info/top_level.txt
