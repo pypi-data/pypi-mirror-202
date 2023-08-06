@@ -1,0 +1,6 @@
+README.txt
+pyproject.toml
+libdnf5_cli.egg-info/PKG-INFO
+libdnf5_cli.egg-info/SOURCES.txt
+libdnf5_cli.egg-info/dependency_links.txt
+libdnf5_cli.egg-info/top_level.txt
