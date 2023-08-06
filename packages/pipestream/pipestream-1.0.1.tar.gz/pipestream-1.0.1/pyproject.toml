@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pipestream"
+version = "1.0.1"
+authors = [
+  { name="Rafael Acioly", email="aciolyr@gmail.com" },
+]
+description = "A convenient way to 'pipe' a given input through a series of classes or callables"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["pipeline", "middleware"]
+
+[project.urls]
+"Homepage" = "https://github.com/rafa-acioly/pipestream"
+"Bug Tracker" = "https://github.com/rafa-acioly/pipestream/issues"
