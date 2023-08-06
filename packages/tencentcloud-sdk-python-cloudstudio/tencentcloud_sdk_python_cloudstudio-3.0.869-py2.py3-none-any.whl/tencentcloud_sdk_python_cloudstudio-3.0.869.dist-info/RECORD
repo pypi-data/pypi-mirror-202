@@ -1,0 +1,10 @@
+tencentcloud/__init__.py,sha256=SNjgnguD0esvAb7E7lRdzW3vyboih6gb5w3Yw3mRDRs,630
+tencentcloud/cloudstudio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/cloudstudio/v20210524/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/cloudstudio/v20210524/cloudstudio_client.py,sha256=DkKlthFOqb7aIe5mnBPqPTWdIwGHuZFquIc3GdEkxgs,21809
+tencentcloud/cloudstudio/v20210524/errorcodes.py,sha256=WYLBJjI1Ue2-ATkl6kzyEcXwOqaSgQ2qhTbsYRuzEjk,718
+tencentcloud/cloudstudio/v20210524/models.py,sha256=JSE41k07npHjGmN_Oo_7v3lG_mJOktdCKjz2vF45siI,70025
+tencentcloud_sdk_python_cloudstudio-3.0.869.dist-info/METADATA,sha256=fa6FbzcW73C-Y_khHad0YKCJF92ly7DUGWu2oEV87Xc,1472
+tencentcloud_sdk_python_cloudstudio-3.0.869.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+tencentcloud_sdk_python_cloudstudio-3.0.869.dist-info/top_level.txt,sha256=g-8OyzoqI6O6LiS85zkeNzhB-osEnRIPZMdyRd_0eL0,13
+tencentcloud_sdk_python_cloudstudio-3.0.869.dist-info/RECORD,,
