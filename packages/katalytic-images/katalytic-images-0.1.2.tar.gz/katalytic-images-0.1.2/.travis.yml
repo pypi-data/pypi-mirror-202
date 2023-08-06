@@ -1,0 +1,34 @@
+language: python
+python:
+  - "3.6"
+  - "3.7"
+  - "3.8"
+  - "3.9"
+
+branches:
+  only:
+  - main
+
+before_install:
+  - source scripts/should_skip_travis_build.sh
+
+install:
+  - pip install --upgrade pip
+  - pip install tox
+
+script:
+  - tox --develop
+
+after_success:
+  - source scripts/should_skip_release.sh
+
+  # security
+  - pip install bandit
+  - bandit -r **/katalytic
+
+  # code coverage
+  - pip install coveralls
+  - coveralls
+
+  # build -> check -> release
+  - source scripts/release.sh
