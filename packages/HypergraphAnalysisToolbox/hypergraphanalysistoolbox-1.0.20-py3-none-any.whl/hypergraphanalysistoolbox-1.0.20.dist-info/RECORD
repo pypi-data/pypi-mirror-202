@@ -1,0 +1,11 @@
+HAT/HAT.py,sha256=WBEKEPcHZv4g15-DV5jkIzvWHiHXBP5T66KOCW60oNo,15744
+HAT/Hypergraph.py,sha256=u_Ne1fhMFpiy5NFujTgfHHDI_y_VNX3CPHBaDb2Xq00,23930
+HAT/__init__.py,sha256=zhnQzyjQlOc565idqNk7XqeEhG5L2Zxh6e83MPXRnsA,116
+HAT/draw.py,sha256=O0djWC6MdIVZPZjxWB3ODU_9RMLrRtNm86xFza2zWsI,2062
+HAT/graph.py,sha256=1NyJh2r3_isYOR0nL_MrqrDoeSsWqXWuENknK6_1g1U,4634
+HAT/multilinalg.py,sha256=ke_akqlu86HcPLmemn1e3Xf6T7FsBxgBqTZaDvZfxDk,3663
+docs/conf.py,sha256=U_j-SWfFjD_Q_HRbvJXRhabbZuTsIvLV0kVPOEO7A0Q,1719
+hypergraphanalysistoolbox-1.0.20.dist-info/METADATA,sha256=HxKZT4Vu4qnFDLUNW0ES6JmTgy3JIqaqJWcUL1xvKTg,1137
+hypergraphanalysistoolbox-1.0.20.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+hypergraphanalysistoolbox-1.0.20.dist-info/licenses/LICENSE,sha256=2LVHNCPTXDbkfjXOVAcUzw9NAV9EELHMh4ByKuuh54o,1071
+hypergraphanalysistoolbox-1.0.20.dist-info/RECORD,,
