@@ -1,0 +1,3 @@
+[console_scripts]
+bot_helper = B0tHe1Per_test_api.bot_interface:main
+bot_notes = B0tHe1Per_test_api.notes_main:main_note_book
