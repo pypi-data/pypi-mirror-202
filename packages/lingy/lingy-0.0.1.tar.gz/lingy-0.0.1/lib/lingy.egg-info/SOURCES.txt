@@ -1,0 +1,12 @@
+.long_description.md
+MANIFEST.in
+ReadMe.md
+setup.cfg
+setup.py
+lib/lingy/__init__.py
+lib/lingy.egg-info/PKG-INFO
+lib/lingy.egg-info/SOURCES.txt
+lib/lingy.egg-info/dependency_links.txt
+lib/lingy.egg-info/requires.txt
+lib/lingy.egg-info/top_level.txt
+test/test.py
