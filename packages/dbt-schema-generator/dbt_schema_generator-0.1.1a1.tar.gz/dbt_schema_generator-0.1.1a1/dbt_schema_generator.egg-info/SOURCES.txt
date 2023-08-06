@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dbt_schema_generator/__init__.py
+dbt_schema_generator/generator.py
+dbt_schema_generator.egg-info/PKG-INFO
+dbt_schema_generator.egg-info/SOURCES.txt
+dbt_schema_generator.egg-info/dependency_links.txt
+dbt_schema_generator.egg-info/entry_points.txt
+dbt_schema_generator.egg-info/top_level.txt
