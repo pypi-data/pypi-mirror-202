@@ -1,0 +1,14 @@
+README.md
+setup.py
+mapper/__init__.py
+mapper/client.py
+mapper/errors.py
+mapper/partner.py
+strongmind_id_mapper_client.egg-info/PKG-INFO
+strongmind_id_mapper_client.egg-info/SOURCES.txt
+strongmind_id_mapper_client.egg-info/dependency_links.txt
+strongmind_id_mapper_client.egg-info/top_level.txt
+test/test_identifier_mapper_client.py
+test/test_partner_api.py
+test/test_post_pairs_api.py
+test/test_uuid_link_api.py
