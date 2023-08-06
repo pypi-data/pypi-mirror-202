@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+happydomain/__init__.py
+happydomain.egg-info/PKG-INFO
+happydomain.egg-info/SOURCES.txt
+happydomain.egg-info/dependency_links.txt
+happydomain.egg-info/requires.txt
+happydomain.egg-info/top_level.txt
