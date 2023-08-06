@@ -1,0 +1,10 @@
+fire
+requests
+dacite
+asyncio
+aiohttp
+pdfminer.six
+tiktoken
+blobfile
+pydantic
+termcolor
