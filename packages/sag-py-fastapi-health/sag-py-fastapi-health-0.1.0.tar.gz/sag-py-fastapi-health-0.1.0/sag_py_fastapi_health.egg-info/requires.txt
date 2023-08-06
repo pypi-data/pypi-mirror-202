@@ -1,0 +1,6 @@
+fastapi>=0.70.1
+pydantic>=1.9
+aiohttp[speedups]<4,>=3
+
+[dev]
+pytest
