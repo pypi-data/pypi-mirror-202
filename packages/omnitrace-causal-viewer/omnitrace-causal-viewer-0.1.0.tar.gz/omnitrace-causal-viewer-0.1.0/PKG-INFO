@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: omnitrace-causal-viewer
+Version: 0.1.0
+Summary: GUI for viewing causal profilers
+Home-page: https://github.com/AMDResearch/omnitrace
+Author: AMD Research
+Maintainer: AMD Research
+License: MIT
+Download-URL: https://github.com/AMDResearch/omnitrace.git
+Description: # Omnitrace Causal Viewer
+        
+        ## Installation
+        
+        ```console
+        python -m pip install .
+        ```
+        
+        ## Execution
+        
+        ### From installation
+        
+        #### Console Script
+        
+        ```console
+        omnitrace-causal-plot <args...>
+        ```
+        
+        #### Module
+        
+        ```console
+        python -m omnitrace_causal_viewer <args...>
+        ```
+        
+        ### From source tree
+        
+        ```console
+        python -m source <args...>
+        ```
+        
+Keywords: gui,causal profiling,performance,profiling,sampling
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
