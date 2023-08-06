@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ds2g
+Version: 1.0.1
+Summary: Services of ds2g.io
+Author-email: ds2g <support@ds2g.io>
+Project-URL: Homepage, https://ds2g.io
+Keywords: tracking,ds2g
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE

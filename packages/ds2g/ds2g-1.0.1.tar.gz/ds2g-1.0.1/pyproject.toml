@@ -1,0 +1,34 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ds2g"
+version = "1.0.1"
+description = "Services of ds2g.io"
+readme = "README.md"
+authors = [{ name = "ds2g", email = "support@ds2g.io" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["tracking", "ds2g"]
+dependencies = [
+    'httpx >= 0.23.3',
+    'asyncio >= 3.4.3',
+    'tomli; python_version < "3.11"',
+]
+requires-python = ">=3.6"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://ds2g.io"
+
+[project.scripts]
+ds2g = "ds2g.__main__:main"
