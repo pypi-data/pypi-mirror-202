@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pixano
+Version: 0.1.0
+Summary: Data-centric AI building blocks for computer vision applications
+Project-URL: Documentation, https://github.com/pixano/pixano#readme
+Project-URL: Issues, https://github.com/pixano/pixano/issues
+Project-URL: Source, https://github.com/pixano/pixano
+Author-email: Pixano Developpers <pixano@cea.fr>
+License-Expression: CECILL-C
+License-File: LICENSE.txt
+Keywords: computer vision,data,machine learning,visualization
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: duckdb
+Requires-Dist: etils
+Requires-Dist: fastapi
+Requires-Dist: fastapi-pagination
+Requires-Dist: imageio
+Requires-Dist: importlib-resources
+Requires-Dist: jinja2
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: pillow
+Requires-Dist: pyarrow
+Requires-Dist: pycocotools
+Requires-Dist: tqdm
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+<p alig="center">
+
+<img src="images/pixano_logo.png" alt="Pixano" height="100"/>
+
+**Data Centric AI Building Blocks for Computer Vision Application**
+
+[![License](https://img.shields.io/badge/license-CeCILL--C-blue.svg)](LICENSE)
+![Python version](https://img.shields.io/badge/python-3.10+-important)
+
+
+**UNDER ACTIVE DEVELOPMENT, SUBJECT TO API CHANGE!**
+
+</p>
+
+</div>
+
+<hr/>
+
+## Installation
+
+```shell
+pip install pixano
+```
