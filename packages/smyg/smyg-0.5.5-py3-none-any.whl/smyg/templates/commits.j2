@@ -1,0 +1,10 @@
+{% for commit in ctx %}
+----------------------------------------
+{{ commit.sha }} | {{ commit.msg }}
+{{ commit.author_date }} | {{ commit.author_email }}
+Refs:    {{ commit.branches }}
+Parents: {{ commit.parents }}
+Added lines:    {{ "%5d"|format(commit.added)  }}
+Deleted lines:  {{ "%5d"|format(commit.deleted) }}
+Changed files:  {{ "%5d"|format(commit.changed_files) }}
+{% endfor %}
