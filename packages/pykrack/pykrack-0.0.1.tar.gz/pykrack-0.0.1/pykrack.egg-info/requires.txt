@@ -1,0 +1,10 @@
+numpy
+pandas
+networkx
+rpy2
+jupyter
+notebook
+networkx
+rpy2
+
+[dev]
