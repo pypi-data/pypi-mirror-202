@@ -1,0 +1,438 @@
+[
+  {
+    "parent": null,
+    "title": "第三方登录配置",
+    "key": "third",
+    "value": null,
+    "sort": 2,
+    "status": true,
+    "data_options": null,
+    "form_item_type": 0,
+    "rule": null,
+    "placeholder": null,
+    "setting": null,
+    "children": [
+      {
+        "title": "微信校验文件",
+        "key": "wx_check_file",
+        "value": [
+          {
+            "id": null,
+            "key": "oeKstaTGZv",
+            "title": "微信小程序校验",
+            "value": "81afbe3644dd7748dae999eefb55c84b",
+            "_X_ROW_KEY": "row_63"
+          }
+        ],
+        "sort": 1,
+        "status": true,
+        "data_options": null,
+        "form_item_type": 11,
+        "rule": [
+          {
+            "message": "必填项不能为空",
+            "required": true
+          }
+        ],
+        "placeholder": "请输入微信校验文件",
+        "setting": null,
+        "children": [
+          {
+            "title": "微信小程序校验",
+            "key": "oeKstaTGZv",
+            "value": "81afbe3644dd7748dae999eefb55c84b",
+            "sort": 0,
+            "status": true,
+            "data_options": null,
+            "form_item_type": 0,
+            "rule": null,
+            "placeholder": null,
+            "setting": null,
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "parent": null,
+    "title": "扫码登录配置",
+    "key": "default_scan",
+    "value": null,
+    "sort": 3,
+    "status": true,
+    "data_options": null,
+    "form_item_type": 0,
+    "rule": null,
+    "placeholder": null,
+    "setting": null,
+    "children": [
+      {
+        "title": "后端地址",
+        "key": "backend_address",
+        "status": false,
+        "value": "127.0.0.1",
+        "description": "访问后端时的IP地址"
+      },
+      {
+        "title": "后端端口",
+        "key": "backend_port",
+        "status": false,
+        "value": "80",
+        "description": "访问后端时的端口"
+      }
+    ]
+  },
+  {
+    "title": "微信公众号扫码",
+    "key": "wechat_official_scan",
+    "value": [],
+    "sort": 4,
+    "status": false,
+    "data_options": null,
+    "form_item_type": 11,
+    "rule": [
+      {
+        "message": "必填项不能为空",
+        "required": true
+      }
+    ],
+    "placeholder": "请输入标题",
+    "setting": null,
+    "children": [
+      {
+        "key": "dev",
+        "title": "开发模式",
+        "status": false,
+        "value": false,
+        "form_item_type": 9,
+        "description": "是否使用开发模式的配置，开发者模式需要另启一个uniapp的服务，在./template/dvadmin_third/目录下"
+      },
+      {
+        "key": "uniapp_address",
+        "title": "uniapp地址",
+        "status": false,
+        "value": "http://127.0.0.1:8081",
+        "description": "如果开发模式是True，则该键值必须填写"
+      },
+      {
+        "key": "appid",
+        "title": "APPID",
+        "status": false,
+        "value": "xxxxxxxxxxxxxxxxxx",
+        "description": "微信公众号的appid"
+      },
+      {
+        "key": "appsecret",
+        "title": "APPsecret",
+        "status": false,
+        "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "description": "微信公众号的appsecret"
+      },
+      {
+        "key": "api",
+        "title": "获取登录授权code",
+        "status": false,
+        "value": "https://open.weixin.qq.com/connect/oauth2/authorize?appid={appid}&redirect_uri={redirect_uri}&response_type=code&scope={scope}&state={state}#wechat_redirect",
+        "description": "获取微信公众号登录授权的地址"
+      },
+      {
+        "key": "scope",
+        "title": "Scope",
+        "status": false,
+        "value": "snsapi_base",
+        "description": "登录方式，snsapi_base不弹窗直接登录|snsapi_userinfo弹窗用户确认登录"
+      },
+      {
+        "key": "confirm",
+        "title": "用户确认跳转",
+        "status": false,
+        "value": "http://{local_ip}/api/dvadmin_third/confirm/wx_official_confirm_login/",
+        "description": "用户确认登录后跳转的地址"
+      },
+      {
+        "key": "token_api",
+        "title": "获取用户token",
+        "status": false,
+        "value": "https://api.weixin.qq.com/sns/oauth2/access_token?appid={appid}&secret={secret}&code={code}&grant_type=authorization_code",
+        "description": "获取用户登录token的地址"
+      },
+      {
+        "key": "userinfo_api",
+        "title": "拉取用户信息",
+        "status": false,
+        "value": "https://api.weixin.qq.com/sns/userinfo?access_token={access_token}&openid={openid}&lang={lang}",
+        "description": "拉取用户信息的地址"
+      },
+      {
+        "key": "userinfo_lang",
+        "title": "用户信息语言",
+        "status": false,
+        "value": "zh_CN",
+        "description": "拉取用户信息时使用的语言"
+      }
+    ]
+  },
+  {
+    "title": "飞书扫码",
+    "key": "feishu_scan",
+    "value": [],
+    "sort": 5,
+    "status": false,
+    "data_options": null,
+    "form_item_type": 11,
+    "rule": [
+      {
+        "message": "必填项不能为空",
+        "required": true
+      }
+    ],
+    "placeholder": "请输入标题",
+    "setting": null,
+    "children": [
+      {
+        "key": "dev",
+        "title": "开发模式",
+        "status": false,
+        "value": false,
+        "form_item_type": 9,
+        "description": "是否使用开发模式的配置，开发者模式需要另启一个uniapp的服务，在./template/dvadmin_third/目录下"
+      },
+      {
+        "key": "uniapp_address",
+        "title": "uniapp地址",
+        "status": false,
+        "value": "http://127.0.0.1:8081",
+        "description": "如果开发模式是True，则该键值必须填写"
+      },
+      {
+        "key": "appid",
+        "title": "APPID",
+        "status": false,
+        "value": "xxxxxxxxxxxxxxxxxxxx",
+        "description": "飞书应用的appid"
+      },
+      {
+        "key": "appsecret",
+        "title": "APPsecret",
+        "status": false,
+        "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "description": "飞书应用的appsecret"
+      },
+      {
+        "key": "api",
+        "title": "获取登录授权code",
+        "status": false,
+        "value": "https://passport.feishu.cn/suite/passport/oauth/authorize?client_id={appid}&redirect_uri={redirect_uri}&response_type=code&state={state}",
+        "description": "获取飞书登录授权的地址"
+      },
+      {
+        "key": "confirm",
+        "title": "用户确认跳转",
+        "status": false,
+        "value": "http://{local_ip}/api/dvadmin_third/confirm/feishu_confirm_login/",
+        "description": "用户确认登录后跳转的地址"
+      },
+      {
+        "key": "token_api",
+        "title": "获取用户token",
+        "status": false,
+        "value": "https://passport.feishu.cn/suite/passport/oauth/token/",
+        "description": "获取用户登录token的地址"
+      },
+      {
+        "key": "userinfo_api",
+        "title": "拉取用户信息",
+        "status": false,
+        "value": "https://passport.feishu.cn/suite/passport/oauth/userinfo/",
+        "description": "拉取用户信息的地址"
+      }
+    ]
+  },
+  {
+    "title": "钉钉扫码",
+    "key": "dingtalk_scan",
+    "value": [],
+    "sort": 6,
+    "status": false,
+    "data_options": null,
+    "form_item_type": 11,
+    "rule": [
+      {
+        "message": "必填项不能为空",
+        "required": true
+      }
+    ],
+    "placeholder": "请输入标题",
+    "setting": null,
+    "children": [
+      {
+        "key": "dev",
+        "title": "开发模式",
+        "status": false,
+        "value": false,
+        "form_item_type": 9,
+        "description": "是否使用开发模式的配置，开发者模式需要另启一个uniapp的服务，在./template/dvadmin_third/目录下"
+      },
+      {
+        "key": "uniapp_address",
+        "title": "uniapp地址",
+        "status": false,
+        "value": "http://127.0.0.1:8081",
+        "description": "如果开发模式是True，则该键值必须填写"
+      },
+      {
+        "key": "appid",
+        "title": "APPID",
+        "status": false,
+        "value": "xxxxxxxxxxxxxxxxxxxx",
+        "description": "钉钉应用的appid"
+      },
+      {
+        "key": "appsecret",
+        "title": "APPsecret",
+        "status": false,
+        "value": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "description": "钉钉应用的appsecret"
+      },
+      {
+        "key": "api",
+        "title": "获取登录授权code",
+        "status": false,
+        "value": "https://login.dingtalk.com/oauth2/auth?redirect_uri={redirect_uri}&response_type=code&client_id={appid}&scope=openid&state={state}&prompt=consent",
+        "description": "获取钉钉登录授权的地址"
+      },
+      {
+        "key": "confirm",
+        "title": "用户确认跳转",
+        "status": false,
+        "value": "http://{local_ip}/api/dvadmin_third/confirm/dingtalk_confirm_login/",
+        "description": "用户确认登录后跳转的地址"
+      },
+      {
+        "key": "token_api",
+        "title": "获取用户token",
+        "status": false,
+        "value": "https://api.dingtalk.com/v1.0/oauth2/userAccessToken",
+        "description": "获取用户登录token的地址"
+      },
+      {
+        "key": "userinfo_api",
+        "title": "拉取用户信息",
+        "status": false,
+        "value": "https://api.dingtalk.com/v1.0/contact/users/{unionId}/",
+        "description": "拉取用户信息的地址"
+      }
+    ]
+  },
+  {
+    "key": "loginStatusDev",
+    "title": "第三方登录状态地址(dev)",
+    "value": [],
+    "sort": 7,
+    "status": false,
+    "data_options": null,
+    "form_item_type": 11,
+    "rule": [
+      {
+        "message": "必填项不能为空",
+        "required": true
+      }
+    ],
+    "placeholder": "请输入标题",
+    "setting": null,
+    "description": "登录后的提示跳转地址（开发时的配置，uniapp的地址）",
+    "children": [
+      {
+        "key": "success",
+        "title": "登录成功提示地址",
+        "status": false,
+        "value": "http://{address}/#/pages/loginstatus/success/",
+        "description": "登录成功提示的地址"
+      },
+      {
+        "key": "fail",
+        "title": "登录成功提示地址",
+        "status": false,
+        "value": "http://{address}/#/pages/loginstatus/fail/",
+        "description": "登录失败提示的地址"
+      },
+      {
+        "key": "invalid",
+        "title": "登录成功提示地址",
+        "status": false,
+        "value": "http://{address}/#/pages/loginstatus/invalidcode/",
+        "description": "无效二维码提示的地址"
+      },
+      {
+        "key": "pastdue",
+        "title": "登录成功提示地址",
+        "status": false,
+        "value": "http://{address}/#/pages/loginstatus/pastduecode/",
+        "description": "过期二维码提示的地址"
+      },
+      {
+        "key": "scanned",
+        "title": "登录成功提示地址",
+        "status": false,
+        "value": "http://{address}/#/pages/loginstatus/scannedcode/",
+        "description": "二维码已扫过提示的地址"
+      }
+    ]
+  },
+  {
+    "key": "loginStatus",
+    "title": "第三方登录状态地址",
+    "value": [],
+    "sort": 8,
+    "status": false,
+    "data_options": null,
+    "form_item_type": 11,
+    "rule": [
+      {
+        "message": "必填项不能为空",
+        "required": true
+      }
+    ],
+    "placeholder": "请输入标题",
+    "setting": null,
+    "description": "登录后的提示跳转地址（uniapp编译后的配置，静态文件地址）",
+    "children": [
+      {
+        "key": "success",
+        "title": "登录成功提示地址",
+        "status": false,
+        "value": "/api/dvadmin_third/index/#/pages/loginstatus/success/",
+        "description": "登录成功提示的地址"
+      },
+      {
+        "key": "fail",
+        "title": "登录成功提示地址",
+        "status": false,
+        "value": "/api/dvadmin_third/index/#/pages/loginstatus/fail/",
+        "description": "登录失败提示的地址"
+      },
+      {
+        "key": "invalid",
+        "title": "登录成功提示地址",
+        "status": false,
+        "value": "/api/dvadmin_third/index/#/pages/loginstatus/invalid/",
+        "description": "无效二维码提示的地址"
+      },
+      {
+        "key": "pastdue",
+        "title": "登录成功提示地址",
+        "status": false,
+        "value": "/api/dvadmin_third/index/#/pages/loginstatus/pastdue/",
+        "description": "过期二维码提示的地址"
+      },
+      {
+        "key": "scanned",
+        "title": "登录成功提示地址",
+        "status": false,
+        "value": "/api/dvadmin_third/index/#/pages/loginstatus/scanned/",
+        "description": "二维码已扫过提示的地址"
+      }
+    ]
+  }
+]
