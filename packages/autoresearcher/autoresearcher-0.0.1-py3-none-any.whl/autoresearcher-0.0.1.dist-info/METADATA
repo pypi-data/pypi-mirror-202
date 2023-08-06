@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: autoresearcher
+Version: 0.0.1
+Summary: Automating scientic workflows with AI
+Home-page: https://github.com/eimenhmdt/autoresearcher
+Author: Eimen Hamedat
+Author-email: eimen.hamedat@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai (==0.27.0)
+Requires-Dist: python-dotenv (==1.0.0)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: jellyfish (==0.11.2)
+
