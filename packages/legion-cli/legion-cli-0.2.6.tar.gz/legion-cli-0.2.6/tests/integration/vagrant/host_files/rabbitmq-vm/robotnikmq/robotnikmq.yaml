@@ -1,0 +1,25 @@
+tiers:
+- - ca_cert: /etc/tls/robotnik-ca.crt
+    cert: /etc/tls/https.crt
+    host: 127.0.0.1
+    key: /etc/tls/https.key
+    password: hackme
+    port: 1
+    user: legion
+    vhost: /legion
+  - ca_cert: /etc/tls/robotnik-ca.crt
+    cert: /etc/tls/https.crt
+    host: 1
+    key: /etc/tls/https.key
+    password: hackme
+    port: 5671
+    user: legion
+    vhost: /legion
+- - ca_cert: /etc/tls/robotnik-ca.crt
+    cert: /etc/tls/https.crt
+    host: 127.0.0.1
+    key: /etc/tls/https.key
+    password: hackme
+    port: 5671
+    user: legion
+    vhost: /legion
