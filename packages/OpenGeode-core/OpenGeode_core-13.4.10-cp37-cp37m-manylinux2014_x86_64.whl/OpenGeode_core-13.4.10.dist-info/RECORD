@@ -1,0 +1,10 @@
+opengeode/__init__.py,sha256=imbhNGAjgBSOOXgDrSBsMTQlS4FQcAnNnuOHo1r0j_c,153
+opengeode/basic.py,sha256=XjrBM8vgFL-cum4w4Pa7AGYgJNz4Qae1ppGjMfsXS1A,1170
+opengeode/geometry.py,sha256=C5Wgr2SkszxfVu8wuYNe-etV4hYHMTWQ7u_gevXa7VI,1176
+opengeode/image.py,sha256=M49qPQf--QHkY1wEjRDtfbdSLkHyp9W64Aofb4ueCFU,1170
+opengeode/mesh.py,sha256=DVB8zP3oJE8YF2Zkg0UdVPB5BVAtl6eqDgLkQG2bm24,1168
+opengeode/model.py,sha256=ce9cj6zKAT9oVgL5amY89vtk23Nb18HMzo15sXpAJKA,1170
+OpenGeode_core-13.4.10.dist-info/METADATA,sha256=0gjLRhhMgG12X1kF8Qw-Sr92Vwz4zUSDnihZUs3Wqho,5658
+OpenGeode_core-13.4.10.dist-info/WHEEL,sha256=VFy1EzBg9VBWCg6bpqQYyHoeotVPQ3hrQBWcnIPsDBM,104
+OpenGeode_core-13.4.10.dist-info/top_level.txt,sha256=vHSvsqxNADdiGN7bE-Ingb2yiv95EC1oZWwBnRZo0pI,10
+OpenGeode_core-13.4.10.dist-info/RECORD,,
