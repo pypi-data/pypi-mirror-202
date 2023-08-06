@@ -1,0 +1,5 @@
+setup.py
+ronaldosLibraries.egg-info/PKG-INFO
+ronaldosLibraries.egg-info/SOURCES.txt
+ronaldosLibraries.egg-info/dependency_links.txt
+ronaldosLibraries.egg-info/top_level.txt
