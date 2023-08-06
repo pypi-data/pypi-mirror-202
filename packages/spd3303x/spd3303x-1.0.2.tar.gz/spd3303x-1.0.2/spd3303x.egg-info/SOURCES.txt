@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+spd3303x/__init__.py
+spd3303x/cli.py
+spd3303x.egg-info/PKG-INFO
+spd3303x.egg-info/SOURCES.txt
+spd3303x.egg-info/dependency_links.txt
+spd3303x.egg-info/entry_points.txt
+spd3303x.egg-info/requires.txt
+spd3303x.egg-info/top_level.txt
+tests/test_api.py
