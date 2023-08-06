@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/vmi485tousb/__init__.py
+src/vmi485tousb/_uartChannel.py
+src/vmilog/__init__.py
+src/vmilog/_logging.py
+src/vmilog_py.egg-info/PKG-INFO
+src/vmilog_py.egg-info/SOURCES.txt
+src/vmilog_py.egg-info/dependency_links.txt
+src/vmilog_py.egg-info/top_level.txt
