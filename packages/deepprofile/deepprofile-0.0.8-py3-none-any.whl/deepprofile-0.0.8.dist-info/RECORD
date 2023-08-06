@@ -1,0 +1,8 @@
+deepprofile/__about__.py,sha256=Urb_0iq6QntW08Ej1TZI2DgYq4xT07NquK4LTBUfjU4,127
+deepprofile/__init__.py,sha256=cVQPEGqvLPJtIwfQIUa0vkfQbEn7JSJrrLOst908Flk,145
+deepprofile/dcgm.py,sha256=e-XUgb1mtHS0Lw3qWkoVHPWknXKIQ6ZTSQO8LCIAnHQ,3647
+deepprofile/nsight.py,sha256=9-TLB6UjaJN2ZydvY6qcYInWyJs-xhEICqxFBx6Nutk,4718
+deepprofile-0.0.8.dist-info/METADATA,sha256=frecIHLgtKxaDF_6iapZpY-UdCXprIAbme03nYDJOnU,1440
+deepprofile-0.0.8.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+deepprofile-0.0.8.dist-info/licenses/LICENSE.txt,sha256=rA1x8pFLzjZO0zbYkYClkOXKaUqS-gHpVh_Q9xKpPkA,1097
+deepprofile-0.0.8.dist-info/RECORD,,
