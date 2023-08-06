@@ -1,0 +1,39 @@
+- name: Configure /etc/hosts file
+  lineinfile:
+    line: "{{ item.ip }}  {{ item.hostname }}"
+    path: /etc/hosts
+    create: yes
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
+  loop: "{{ rabbitmq.cluster.hosts }}"
+  when: rabbitmq.cluster is defined and rabbitmq.cluster.hosts is defined
+  notify: restart rabbitmq-server
+
+- name: Create a file to indicate what cluster we are part of
+  copy:
+    content: |
+      {{ rabbitmq.cluster.main }}
+    dest: /etc/rabbitmq/cluster
+    owner: rabbitmq
+    group: rabbitmq
+    mode: u=r,g=,o=
+  register: cluster_file
+  when: rabbitmq.cluster is defined and rabbitmq.cluster.main is defined
+  notify: restart rabbitmq-server
+
+- name: Stop the app to join the cluster (for all but the main node)
+  command: rabbitmqctl stop_app
+  when: "rabbitmq.cluster is defined and rabbitmq.cluster.main is defined and inventory_hostname != rabbitmq.cluster.main and cluster_file.changed"
+
+- name: Join the cluster (for all but the main node)
+  command: "rabbitmqctl join_cluster rabbit@{{ rabbitmq.cluster.main }}"
+  register: join_cluster
+  when: "rabbitmq.cluster is defined and rabbitmq.cluster.main is defined and inventory_hostname != rabbitmq.cluster.main and cluster_file.changed"
+  changed_when:
+  - "join_cluster.rc == 0"
+  - "'The node is already a member of this cluster' not in join_cluster.stdout"
+
+- name: Start the app after joining the cluster (for all but the main node)
+  command: rabbitmqctl start_app
+  when: "rabbitmq.cluster is defined and rabbitmq.cluster.main is defined and inventory_hostname != rabbitmq.cluster.main and cluster_file.changed"

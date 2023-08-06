@@ -1,0 +1,199 @@
+- name: OS Release Data
+  slurp:
+    src: /etc/os-release
+  register: os_release
+  changed_when: no
+
+- name: Pre-requisites
+  apt:
+    name: ['apt-transport-https', 'socat', 'logrotate',
+           'init-system-helpers', 'adduser']
+    update_cache: true
+    state: latest
+
+- name: RabbitMQ repository key
+  apt_key:
+    id: "{{ item }}"
+    #keyserver: hkps://keys.openpgp.org
+    keyserver: keyserver.ubuntu.com
+    state: present
+  loop: ['0A9AF2115F4687BD29803A206B73A36E6026DFCA', 'F77F1EDA57EBB1CC', 'F6609E60DC62814E']
+
+- name: Erlang Repository
+  apt_repository:
+    repo: deb http://ppa.launchpad.net/rabbitmq/rabbitmq-erlang/ubuntu bionic main
+    update_cache: yes
+    state: present
+    filename: erlang
+  notify: restart rabbitmq-server
+
+- name: RabbitMQ Repository
+  apt_repository:
+    repo: deb https://packagecloud.io/rabbitmq/rabbitmq-server/ubuntu/ bionic main
+    update_cache: yes
+    state: present
+    filename: rabbitmq
+  notify: restart rabbitmq-server
+
+- name: Erlang Packages
+  apt:
+    name: ['erlang-base', 'erlang-asn1', 'erlang-crypto', 'erlang-eldap', 'erlang-ftp', 'erlang-inets', 'erlang-mnesia', 'erlang-os-mon', 'erlang-parsetools', 'erlang-public-key', 'erlang-runtime-tools', 'erlang-snmp', 'erlang-ssl', 'erlang-syntax-tools', 'erlang-tftp', 'erlang-tools', 'erlang-xmerl']
+    update_cache: yes
+    state: latest
+  notify: restart rabbitmq-server
+
+- name: RabbitMQ Server Package
+  apt:
+    name: ['rabbitmq-server']
+    update_cache: yes
+    state: latest
+  notify: restart rabbitmq-server
+
+- name: Enables the rabbitmq_management plugin
+  rabbitmq_plugin:
+    names: rabbitmq_management
+    state: enabled
+  notify: restart rabbitmq-server
+
+- name: Configure erlang cookie
+  copy:
+    content: |
+      {{ rabbitmq.erlang_cookie }}
+    dest: /var/lib/rabbitmq/.erlang.cookie
+    owner: rabbitmq
+    group: rabbitmq
+    mode: u=r,g=,o=
+  notify: restart rabbitmq-server
+
+- name: CA cert for rabbitmq
+  copy:
+    remote_src: yes
+    src: /etc/tls/robotnik-ca.crt
+    dest: /etc/rabbitmq/ca.crt
+    owner: rabbitmq
+    group: rabbitmq
+    mode: "u=rw,g=,o="
+  notify: restart rabbitmq-server
+
+- name: TLS key for rabbitmq
+  copy:
+    remote_src: yes
+    src: /etc/tls/https.key
+    dest: /etc/rabbitmq/rabbitmq.key
+    owner: rabbitmq
+    group: rabbitmq
+    mode: "u=rw,g=,o="
+  notify: restart rabbitmq-server
+
+- name: TLS cert for rabbitmq
+  copy:
+    remote_src: yes
+    src: /etc/tls/https.crt
+    dest: /etc/rabbitmq/rabbitmq.crt
+    owner: rabbitmq
+    group: rabbitmq
+    mode: "u=rw,g=,o="
+  notify: restart rabbitmq-server
+
+- name: Combined key/cert for rabbitmq
+  copy:
+    remote_src: yes
+    src: /etc/tls/combined.pem
+    dest: /etc/rabbitmq/combined.pem
+    owner: rabbitmq
+    group: rabbitmq
+    mode: "u=rw,g=,o="
+  notify: restart rabbitmq-server
+
+- name: Rabbitmq configuration
+  template:
+    src: "{{ role_path }}/templates/rabbitmq.conf.j2"
+    dest: /etc/rabbitmq/rabbitmq.conf
+    owner: rabbitmq
+    group: rabbitmq
+    mode: "u=rw,g=,o="
+  notify: restart rabbitmq-server
+
+- name: Rabbitmq environment configuration
+  template:
+    src: "{{ role_path }}/templates/rabbitmq-env.conf.j2"
+    dest: /etc/rabbitmq/rabbitmq-env.conf
+    owner: rabbitmq
+    group: rabbitmq
+    mode: "u=rw,g=,o="
+  notify: restart rabbitmq-server
+
+- name: RabbitMQ Server should be running and enabled
+  service:
+    name: rabbitmq-server
+    state: started
+    enabled: yes
+
+- meta: flush_handlers
+
+- name: Configure administrative user
+  rabbitmq_user:
+    user: "{{ rabbitmq.admin_user }}"
+    password: "{{ rabbitmq.admin_password }}"
+    vhost: /
+    configure_priv: .*
+    read_priv: .*
+    write_priv: .*
+    state: present
+    tags: 'management, administrator'
+  no_log: yes
+  register: admin_user_config
+
+- debug: msg="{{ admin_user_config }}"
+
+- name: Remove the guest user
+  rabbitmq_user:
+    user: guest
+    state: absent
+  no_log: yes
+  notify: restart rabbitmq-server
+
+- meta: flush_handlers
+
+- name: Download rabbitmqadmin executable
+  get_url:
+    url: http://{{ rabbitmq.admin_user }}:{{ rabbitmq.admin_password }}@127.0.0.1:{{ rabbitmq.management.http_port }}/cli/rabbitmqadmin
+    dest: /usr/local/bin/rabbitmqadmin
+    owner: root
+    group: root
+    mode: u=rwx,g=r,o=r
+
+- name: UFW Status
+  command: which ufw
+  register: ufw_check
+  changed_when: no
+  ignore_errors: yes
+
+- name: RabbitMQ HTTP API UFW Port from Localhost
+  ufw:
+    rule: allow
+    port: "{{ rabbitmq.management.http_port }}"
+    proto: tcp
+    src: 127.0.0.1
+  when: ufw_check.rc == 0
+
+- name: RabbitMQ HTTPS API UFW Port
+  ufw:
+    rule: allow
+    port: "{{ rabbitmq.management.https_port }}"
+    proto: tcp
+  when: ufw_check.rc == 0
+
+- name: RabbitMQ Clustering UFW Port
+  ufw:
+    rule: allow
+    port: "25672"
+    proto: tcp
+  when: ufw_check.rc == 0
+
+- name: RabbitMQ HTTPS API UFW Port
+  ufw:
+    rule: allow
+    port: "5671"
+    proto: tcp
+  when: ufw_check.rc == 0

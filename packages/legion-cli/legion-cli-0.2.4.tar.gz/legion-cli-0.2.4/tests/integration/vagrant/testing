@@ -1,0 +1,8 @@
+vagrant-vms:
+  children:
+    rabbitmq-hosts:
+      hosts:
+        rabbitmq-vm:
+          ansible_port: 22
+          ansible_host: 11.0.0.10
+          ansible_user: vagrant
