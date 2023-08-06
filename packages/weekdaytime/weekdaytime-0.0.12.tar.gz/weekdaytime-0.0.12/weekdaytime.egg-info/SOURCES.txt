@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+weekdaytime/__init__.py
+weekdaytime/period.py
+weekdaytime/weekdaytime.py
+weekdaytime.egg-info/PKG-INFO
+weekdaytime.egg-info/SOURCES.txt
+weekdaytime.egg-info/dependency_links.txt
+weekdaytime.egg-info/not-zip-safe
+weekdaytime.egg-info/requires.txt
+weekdaytime.egg-info/top_level.txt
