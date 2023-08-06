@@ -1,0 +1,11 @@
+server/__init__.py,sha256=aPEL1ng4e60xZhtrBAlBH2jmNkNniViPOf-iNF-D6eE,191
+server/render.py,sha256=PuBS8NHglWJvZ1S6BDwKLvATQKuxKjYTRhsPzX4rYqk,5364
+server/request.py,sha256=ClaAxlm-cby4Z1tndszFc-k8i8r7wM3R4eNab74slJk,2150
+server/responses.py,sha256=aLBbnH90cA2X1RFjgvLQuK1HIryZ5H8kCJr-0nkZVho,3930
+server/routes.py,sha256=LgLtkS6P_wMHfb1X6tfnRqx9QgHeau1hOFsBxPEpfQw,3656
+server/server.py,sha256=YbMXa0PVkSH3PxuKgnlwTX2EG1ZxXvT3Y6xQinbVTpQ,4229
+HTTP_PyServer-0.0.3.dist-info/LICENSE,sha256=0VA-m_9Qk6Z7_fQrZToYo1JYH-fwGPQAmmWPBjWGIiU,1067
+HTTP_PyServer-0.0.3.dist-info/METADATA,sha256=5vvmemMJoVAaURhY0klpWlPX_-vZZlXmaHawHOU6FXI,2024
+HTTP_PyServer-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+HTTP_PyServer-0.0.3.dist-info/top_level.txt,sha256=StKOSmRhvWS5IPcvhsDRbtxUTEofJgYFGOu5AAJdSWo,7
+HTTP_PyServer-0.0.3.dist-info/RECORD,,
