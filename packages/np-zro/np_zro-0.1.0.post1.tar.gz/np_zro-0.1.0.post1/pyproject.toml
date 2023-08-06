@@ -1,0 +1,85 @@
+[project]
+name = "np_zro"
+version = "0.1.0.post1"
+description = "Just the `zro.Proxy` class extracted from `mpeconfig`, with `zmq` as a dependency."
+authors = [
+    { name = "derricw", email = "derricw@alleninstitute.org" },
+    { name = "rossh", email = "rossh@alleninstitute.org" },
+]
+maintainers = [
+    { name = "bjhardcastle", email = "ben.hardcastle@alleninstitute.org" },
+]
+dependencies = [
+    "zmq>=0.0.0",
+    "typing-extensions>=4.5.0",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.scripts]
+ruff = "ruff --fix src"
+blue = "blue src"
+pytest = "pytest --cov"
+bump = "pdm bump patch"
+
+[tool.pdm.scripts.prebuild]
+composite = [
+    "blue",
+    "ruff",
+    "pytest",
+]
+
+[tool.pdm.scripts.build]
+composite = [
+    "prebuild",
+    "pdm build",
+]
+
+[tool.pdm.scripts.dry-run]
+composite = [
+    "prebuild",
+    "pdm build",
+    "pdm publish --no-build --repository https://test.pypi.org/simple",
+]
+
+[tool.pdm.scripts.publish]
+composite = [
+    "prebuild",
+    "pdm build",
+    "pdm publish --no-build",
+]
+
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+    "--doctest-modules",
+]
+doctest_optionflags = [
+    "NORMALIZE_WHITESPACE",
+    "IGNORE_EXCEPTION_DETAIL",
+    "ELLIPSIS",
+]
+testpaths = [
+    "tests",
+    "src",
+]
+
+[tool.coverage.paths]
+source = [
+    "src",
+]
+
+[tool.coverage.run]
+branch = true
+source = [
+    "np_zro",
+]
+
+[tool.coverage.report]
+show_missing = true
