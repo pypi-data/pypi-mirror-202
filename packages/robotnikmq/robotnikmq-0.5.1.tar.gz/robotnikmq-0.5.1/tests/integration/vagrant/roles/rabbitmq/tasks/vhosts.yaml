@@ -1,0 +1,19 @@
+- name: Configure Virtual Hosts
+  community.rabbitmq.rabbitmq_vhost:
+    name: "{{ item.vhost }}"
+    state: present
+  when: rabbitmq.vhosts is defined
+  loop: "{{ rabbitmq.vhosts }}"
+
+- name: Legion RabbitMQ User
+  community.rabbitmq.rabbitmq_user:
+    user: "{{ item.user }}"
+    password: "{{ item.password }}"
+    permissions:
+      - vhost: "{{ item.vhost }}"
+        configure_priv: "{{ item.configure_priv }}"
+        read_priv: "{{ item.read_priv }}"
+        write_priv: "{{ item.write_priv }}"
+    state: present
+  when: rabbitmq.vhosts is defined
+  loop: "{{ rabbitmq.vhosts }}"
