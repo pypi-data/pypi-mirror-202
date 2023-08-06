@@ -1,0 +1,11 @@
+buttervolume/VERSION,sha256=ekGkE1SrgEkJHvGgAlPKAFZ_Wh0_mu9VAsC0tc6a5wc,5
+buttervolume/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buttervolume/btrfs.py,sha256=rQCD--ikMgV39w8uH4fQVmmGikJyy9WOtASOOrzNfnM,1929
+buttervolume/cli.py,sha256=skAkE2lMGlj1-M7PBy2TlqCZ1QORRdId7-nsPrmi-wM,16317
+buttervolume/plugin.py,sha256=1fFcKrg3vhqy7LISIQhiLZMqjzvrv12NqC_kg7Wgqfk,16898
+buttervolume-3.10.dist-info/LICENSE,sha256=xllut76FgcGL5zbIRvuRc7aezPbvlMUTWJPsVr2Sugg,11358
+buttervolume-3.10.dist-info/METADATA,sha256=msHk_OdEZgIGNxQZYjhrMVOqqYKWYHwX352kduj918M,27225
+buttervolume-3.10.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+buttervolume-3.10.dist-info/entry_points.txt,sha256=qtsQBDfPsvclIKVra7oV7gw5dClxf_nHvo2MqJveqc4,55
+buttervolume-3.10.dist-info/top_level.txt,sha256=3C4mOY59SU_F1u5N1QZOJ58s1e9vJLLKV3ZTx3MnzW8,13
+buttervolume-3.10.dist-info/RECORD,,
