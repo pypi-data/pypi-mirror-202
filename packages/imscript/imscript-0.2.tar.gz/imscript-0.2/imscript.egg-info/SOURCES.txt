@@ -1,0 +1,7 @@
+MANIFEST.in
+README
+setup.py
+imscript.egg-info/PKG-INFO
+imscript.egg-info/SOURCES.txt
+imscript.egg-info/dependency_links.txt
+imscript.egg-info/top_level.txt
