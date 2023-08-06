@@ -1,0 +1,7 @@
+mlopsatt/__init__.py,sha256=7FrG_hoTdzHAaPbPgHjkvw0BTQuWQ9CbzHpBmjvVGR8,579
+mlopsatt/mlflow_registrator.py,sha256=yCT4U8QY1PO0i4k9Sz9dxRDtrSz3yFCcKRYwb42GwZs,4788
+mlopsatt/mlops_connector.py,sha256=2l9VtzUVh0LOAlwZAMm-LX0a46QoLx5UX7O90oaqg7w,1804
+mlopsatt/mlops_deployer.py,sha256=-MLaI7hPNEkaQXq3LI4X06z15LwLM_tDbjIONlS6H7s,13718
+mlopsatt-0.1.0.dist-info/METADATA,sha256=QURHu--89AmxR90CD3APisp91y66YayvaOSvpvpJEFc,482
+mlopsatt-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+mlopsatt-0.1.0.dist-info/RECORD,,
