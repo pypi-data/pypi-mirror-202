@@ -1,0 +1,5 @@
+recursive-include roboweb_server/ *
+include settings.ini
+include LICENSE
+include CONTRIBUTING.md
+include README.md
