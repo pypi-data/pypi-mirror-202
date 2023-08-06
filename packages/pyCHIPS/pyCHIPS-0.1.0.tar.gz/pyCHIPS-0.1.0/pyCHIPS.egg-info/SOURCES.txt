@@ -1,0 +1,11 @@
+README.md
+setup.py
+chips/__init__.py
+chips/chips.py
+chips/fetch.py
+chips/utils.py
+pyCHIPS.egg-info/PKG-INFO
+pyCHIPS.egg-info/SOURCES.txt
+pyCHIPS.egg-info/dependency_links.txt
+pyCHIPS.egg-info/requires.txt
+pyCHIPS.egg-info/top_level.txt
