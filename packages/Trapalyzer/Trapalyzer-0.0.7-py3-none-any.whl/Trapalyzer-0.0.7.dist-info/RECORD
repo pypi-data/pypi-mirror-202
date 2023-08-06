@@ -1,0 +1,12 @@
+Trapalyzer/__init__.py,sha256=ZzFRDj-5fVb0AKaWTkntkfTrxPrIgSa9A3jsgRq1CwU,2099
+Trapalyzer/_version.py,sha256=1LmWOIRIipDRwt63Rd4fYP3hKkUXXOCBB_3JUTMCoEs,160
+Trapalyzer/measurement.py,sha256=zwDinaAgvvFtk9hCwmRFOajG8lkwYTIQKcxuv2qb9J0,6829
+Trapalyzer/napari_functions.py,sha256=CEysa_Xhvnjp9n0l2Y-3xuBDpTuUVrUzWr45vct7xQw,1445
+Trapalyzer/segmentation.py,sha256=gn3tnhh-xLd1F1JQg1JiIIUkF-AmyMg_KmL0DyAq5dU,28769
+Trapalyzer/widgets.py,sha256=978EPQikPlM5OcRh4QvYdO03-iq-Ji6Ub2J_d6gE5k0,4426
+Trapalyzer-0.0.7.dist-info/License.txt,sha256=duv6m5kUeaJaS9tLaPC_FzCOO8mgRafWvjlNR9u4uIA,1111
+Trapalyzer-0.0.7.dist-info/METADATA,sha256=NEyyHYsDQF9hqcEmdGicMDAuaAZjE_XEmFMUqbNtBiw,2173
+Trapalyzer-0.0.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+Trapalyzer-0.0.7.dist-info/entry_points.txt,sha256=RXPfg8I6Xfl8j7HUsobX-K2zGZTYv3q-Z3xwkAX_rgc,103
+Trapalyzer-0.0.7.dist-info/top_level.txt,sha256=1F4mAMBw--MtZ_GR1LioV2-ATkxSWf87OEHus_gnBw4,11
+Trapalyzer-0.0.7.dist-info/RECORD,,
