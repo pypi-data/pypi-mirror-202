@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/extr_nlp/__init__.py
+src/extr_nlp/entities.py
+src/extr_nlp/iterutils.py
+src/extr_nlp/models.py
+src/extr_nlp/regex.py
+src/extr_nlp/relations.py
+src/extr_nlp.egg-info/PKG-INFO
+src/extr_nlp.egg-info/SOURCES.txt
+src/extr_nlp.egg-info/dependency_links.txt
+src/extr_nlp.egg-info/top_level.txt
