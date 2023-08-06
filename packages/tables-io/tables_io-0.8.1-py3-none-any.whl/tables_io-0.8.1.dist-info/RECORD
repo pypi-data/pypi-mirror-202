@@ -1,0 +1,14 @@
+tables_io/__init__.py,sha256=MNnxthKSuJfKcdHl6siiTv7OPLQaYL99Xb1Fn_rdMK0,621
+tables_io/_version.py,sha256=L_gEOgdT7gAa9D1y6iNVRbzDLJwjvbUyUUsqNLh_b9M,160
+tables_io/arrayUtils.py,sha256=-ejzg6T4HJbUi1q2dw5lkFmqjhrobSrLRbbF9MXq7co,4998
+tables_io/convUtils.py,sha256=rbAUDLqmnuZSjXjN-Wi7C2L2aJT9k7X0P46eamneSIc,9925
+tables_io/ioUtils.py,sha256=6JNheO9TYeWx1Q0BF2Vz1oveF2QWcfojewUo-r_ZxCc,31624
+tables_io/lazy_modules.py,sha256=Jidx1wxF_CTUwIwbJaACVeInEpA0Z99SorCmmtJJyig,1473
+tables_io/tableDict.py,sha256=MY69DJevOjf9s9UwjLktoetemh4_aQSHEPJIXJfTt1w,2129
+tables_io/testUtils.py,sha256=llLUJpRobCRaZDTN-07Tra03DIXqwo9WRH7L6xabdBc,2781
+tables_io/types.py,sha256=YfhsqOVvU06fiW-WugYSb_-iYJnNSRCMM2SeRP1YNvA,5328
+tables_io-0.8.1.dist-info/LICENSE,sha256=AQFVvAJorB2ILtA4nUffq9a9b-5TuYcVZ5j5LWdH_IY,1069
+tables_io-0.8.1.dist-info/METADATA,sha256=NCoZckIIcXcJ5Jd0nnJvnWHPi6ezb-JqZE5a1eIw-II,2949
+tables_io-0.8.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tables_io-0.8.1.dist-info/top_level.txt,sha256=lforluUCTI5IZOMY6tr6T467gIsq2v4SiL3IwXHKMzw,10
+tables_io-0.8.1.dist-info/RECORD,,
