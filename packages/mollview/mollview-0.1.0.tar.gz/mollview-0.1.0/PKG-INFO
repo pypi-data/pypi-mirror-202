@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mollview
+Version: 0.1.0
+Summary: Plot HEALPix maps from the commandline.
+License: GNU
+Author: Metin San
+Author-email: metinisan@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: healpy (>=1.16.2,<2.0.0)
+Requires-Dist: matplotlib (>=3.7.1,<4.0.0)
+Requires-Dist: typer (>=0.7.0,<0.8.0)
