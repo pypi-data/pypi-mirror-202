@@ -1,0 +1,12 @@
+musconv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+musconv/chkconv.py,sha256=-Pu8ZSPVMeUi-ibekT8p1F4Ykrb-QxKFsSBI2j7_oVs,8548
+musconv/supcgen.py,sha256=TwKoH0zb3OSPwOwA_8aDB5CGrk9y17b8mK_3elGe7Ng,6289
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=0A2d-8OwSa1o5pTFDWNrE2GQeYN454DxkGaLfBh-8qU,584
+tests/test_chkconv.py,sha256=CXYP_4M4vPpSt8emuPgzGgn6Dua8RDdPtZluLBVIhkI,803
+tests/test_supcgen.py,sha256=2H6YyE2xdhP8d_mrzMsKiqA33jr_IfguslKtu9CIkZQ,1425
+musconv-0.0.2.dist-info/LICENSE,sha256=SJ-rlZgWlyrw-x5LKqBKi4sbH6QfLgzinzZ7sVbcX_Q,1081
+musconv-0.0.2.dist-info/METADATA,sha256=t8jStH5GLB9qj8NMPMZFsxSpfGEpAGzCUUBLnI9umMk,2647
+musconv-0.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+musconv-0.0.2.dist-info/top_level.txt,sha256=WjBpqNEC4guDX2yItA7B91hXNTTmTub60_VFosCFdNE,14
+musconv-0.0.2.dist-info/RECORD,,
