@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: gitstorage
+Version: 23.4.10.1
+Summary: A library that uses git version control system to store and synchronize files
+Home-page: https://github.com/themasterofmagic/gitstorage
+Author: TheMasterOfMagic
+Author-email: 
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# gitstorage
+
+A library that uses git version control system to store and synchronize files.
+
+# Install
+
+*(not yet published)*
+
+# Usage
+
+*(not yet published)*

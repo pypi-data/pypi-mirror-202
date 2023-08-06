@@ -1,0 +1,8 @@
+setup.py
+src/gitstorage/__init__.py
+src/gitstorage/__version__.py
+src/gitstorage.egg-info/PKG-INFO
+src/gitstorage.egg-info/SOURCES.txt
+src/gitstorage.egg-info/dependency_links.txt
+src/gitstorage.egg-info/requires.txt
+src/gitstorage.egg-info/top_level.txt
