@@ -1,0 +1,7 @@
+setup.py
+notionshell.egg-info/PKG-INFO
+notionshell.egg-info/SOURCES.txt
+notionshell.egg-info/dependency_links.txt
+notionshell.egg-info/entry_points.txt
+notionshell.egg-info/requires.txt
+notionshell.egg-info/top_level.txt
