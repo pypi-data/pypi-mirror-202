@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+CustomGPT.egg-info/PKG-INFO
+CustomGPT.egg-info/SOURCES.txt
+CustomGPT.egg-info/dependency_links.txt
+CustomGPT.egg-info/requires.txt
+CustomGPT.egg-info/top_level.txt
+src/__init__.py
+src/custom_gpt.py
