@@ -1,0 +1,10 @@
+cos_alerter/alerter.py,sha256=QbT0IypahezaD6ATGz3MUn_ODCquzY1N-Chx55tumtI,6324
+cos_alerter/daemon.py,sha256=2WGHoPVqroyBLDBk2O3JhcFIaBWVTRNMOhxuvgl_B7I,3518
+cos_alerter/logging.py,sha256=2mEH1Ij1KLopiOMvHtcY0H5pw6Y9dfguDzyyCLwrVnY,1126
+cos_alerter/server.py,sha256=DMhld05T3oUuiZh-ZJ_Mi5UIpXk3S_SVbRbuLiRyRJo,1465
+cos_alerter-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cos_alerter-0.2.0.dist-info/METADATA,sha256=W7dFIzjhXhnCmNX9Z-rhV1txCv5GI9Kdfjb6b0EM-Cw,2071
+cos_alerter-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+cos_alerter-0.2.0.dist-info/entry_points.txt,sha256=mViLymbmQpzjr2RAtjw3DRdnncAoxU1OHLEoLha0Tb8,56
+cos_alerter-0.2.0.dist-info/top_level.txt,sha256=B9grCepCxcCrM72tmSeYUIu-ikcR3zmJZGU1W3XKQCc,12
+cos_alerter-0.2.0.dist-info/RECORD,,
