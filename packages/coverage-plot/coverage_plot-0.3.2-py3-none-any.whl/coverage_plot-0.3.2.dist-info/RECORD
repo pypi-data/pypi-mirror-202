@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=4oaCn8-5VKphQoEu6rAea82WwUPb2aCX3HGHg7rF8bU,690
+coverage_plot/__init__.py,sha256=vQ7JTi4J-1oGAduepTuY3YbXq84VrKho3Y_HamZ0wXo,195
+coverage_plot/cli.py,sha256=RS7Cd43I1JrNJIhJG3RJL9nEM2DDUGCkQxTB93BG9Vg,1561
+coverage_plot/fake_implementations.py,sha256=fF9w0yYC20CZ6lv_gW6r1OZ27iGu5ZsLEpTS1tjuW5w,1201
+coverage_plot/git_changes.py,sha256=6fTBd-qomGf0XYFqL8TCguGftEocK0BFEEQvdvH0E2Q,5481
+coverage_plot/importance_filesize.py,sha256=JFBp_kWJ_IxbiF7Rgronm1Lk6tGQoNA35kdmgkAf9cM,490
+coverage_plot/importance_interface.py,sha256=omxSscaj5ZK3zkBR1F0OlsTOkGAo_SKcmqcM7Xjpqd0,367
+coverage_plot/importance_recency.py,sha256=m2MWNBkHwIDBJtCqKPB7dY4wQLMDXNUh4mWliwL1kTs,2920
+coverage_plot/plot.py,sha256=75yqOemhAUtpowxYaa7s6VIGdDfAO5ySJyjmjdBtGCE,4577
+coverage_plot-0.3.2.dist-info/METADATA,sha256=PhwqAsTKkgkE7ccGhLKI_GuJTXZEDse2yeRMP_Ro_AU,2395
+coverage_plot-0.3.2.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+coverage_plot-0.3.2.dist-info/entry_points.txt,sha256=C2jG-ZXGaHJui2cKN6iPxcJFpguEIIOL5WmjXsKL9Mw,65
+coverage_plot-0.3.2.dist-info/RECORD,,
