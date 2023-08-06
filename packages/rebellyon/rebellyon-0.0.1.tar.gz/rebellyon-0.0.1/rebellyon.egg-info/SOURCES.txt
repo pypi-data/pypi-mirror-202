@@ -1,0 +1,5 @@
+setup.py
+rebellyon.egg-info/PKG-INFO
+rebellyon.egg-info/SOURCES.txt
+rebellyon.egg-info/dependency_links.txt
+rebellyon.egg-info/top_level.txt
