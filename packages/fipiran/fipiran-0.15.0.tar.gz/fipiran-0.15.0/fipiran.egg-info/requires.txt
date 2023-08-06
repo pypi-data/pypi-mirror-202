@@ -1,0 +1,8 @@
+aiohttp[speedups]
+pandas>=2.0.0
+beautifulsoup4
+lxml
+jdatetime
+
+[test]
+aiohttp_test_utils
