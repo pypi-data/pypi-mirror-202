@@ -1,0 +1,6 @@
+requests
+qrcode
+pyOpenSSL
+colorama
+requests-pkcs12
+Deprecated
