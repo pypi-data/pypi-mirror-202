@@ -1,0 +1,9 @@
+influxdb_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+influxdb_cli/influx3.py,sha256=CmiJ66iF3JjCE0V-EERED0EsZ1IVeZuWPgrSNl4peGo,6201
+influxdb_client_3/__init__.py,sha256=6YeRvvtNuCzCabCt2gA5MDJeZQbvEyobe8oisoUsnzs,1854
+pyinflux3_cli-0.7.4.data/data/influx3/influx3.py,sha256=CmiJ66iF3JjCE0V-EERED0EsZ1IVeZuWPgrSNl4peGo,6201
+pyinflux3_cli-0.7.4.dist-info/METADATA,sha256=idpN0Tb3iVdRxjqIgZ2CZFw_zioOp9Ua88L38HdtEfM,2653
+pyinflux3_cli-0.7.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyinflux3_cli-0.7.4.dist-info/entry_points.txt,sha256=QkILBa2v5ve1QdwCOqaG7QShdgPSTq2IVho1NNdBuxg,54
+pyinflux3_cli-0.7.4.dist-info/top_level.txt,sha256=RtFAWC4UQC1YRSlswozaXZoa6wdrsU9PpMRdx2Fa9w8,13
+pyinflux3_cli-0.7.4.dist-info/RECORD,,
