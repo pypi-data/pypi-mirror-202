@@ -1,0 +1,9 @@
+sentencepiece-0.1.98.dist-info/WHEEL,sha256=5qaUL7R7UuAgTpV1hnYjoipMHezG5YJtRxtV3_rU2Ew,150
+sentencepiece-0.1.98.dist-info/top_level.txt,sha256=NIXVKmsq-xdZ5KROMHHV0gkLA3fvbNTb1g1KtgiYFOk,130
+sentencepiece-0.1.98.dist-info/RECORD,,
+sentencepiece-0.1.98.dist-info/METADATA,sha256=RgQIe6Y9AjTWO-F_angDQZteAxGuOSjRzWRjJtLwDA8,7684
+sentencepiece/sentencepiece_pb2.py,sha256=rM66m59gmR3VpueIDYifpAx6QsBGmbR2bKxjq3OQYWY,8128
+sentencepiece/_version.py,sha256=r0ncDAtMD3EfdiKZx-v-OTb5oPKt2zl2o7X7pGbaJvE,23
+sentencepiece/sentencepiece_model_pb2.py,sha256=54r51tJe39XndhAuuAKAk42zTctunMCl9zzQWDav6FE,40692
+sentencepiece/_sentencepiece.cpython-37m-x86_64-linux-gnu.so,sha256=naT2mOF-c2pio2R3R0b1qI_JElIiv0N8FVb4uWFfOcc,2946848
+sentencepiece/__init__.py,sha256=CI-6FTQIb5mHyzNKxydlpM6ZI1ylUy5jkRWmAxy0ZYk,43910
