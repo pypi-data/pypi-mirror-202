@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: quintus
+Version: 0.1
+Summary: Document Embedding and Inference
+Home-page: https://github.com/rjmacarthy/quintus
+Author: rjmacarthy
+Author-email: rjmacarthy@protonmail.com
+Requires-Dist: beautifulsoup4
+Requires-Dist: pgvector
+Requires-Dist: json
+Requires-Dist: numpy
+Requires-Dist: pathlib
+Requires-Dist: pydash
+Requires-Dist: sentence-transformers
+Requires-Dist: spacy
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: unittest
+Requires-Dist: openai
+
