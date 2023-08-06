@@ -1,0 +1,2 @@
+# The Library For Organised Dir Output
+## Uses `Os` For List Of Dirs, `Colorama` For Colorized Output and `typing` for literals

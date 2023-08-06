@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README
+setup.py
+dirhelp/__init__.py
+dirhelp.egg-info/PKG-INFO
+dirhelp.egg-info/SOURCES.txt
+dirhelp.egg-info/dependency_links.txt
+dirhelp.egg-info/requires.txt
+dirhelp.egg-info/top_level.txt

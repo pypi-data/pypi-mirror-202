@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dirhelp
+Version: 0.0.1
+Summary: Dir Helping Library For Simplifying Your Work
+Home-page: UNKNOWN
+Author: Monil Darediya
+Author-email: monildarediya1@gmail.com
+License: MIT
+Keywords: dir-organise
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENCE.txt
+
+# The Library For Organised Dir Output
+## Uses `Os` For List Of Dirs, `Colorama` For Colorized Output and `typing` for literals
+
+Change Log
+==========
+
+0.0.1 (19/04/2020)
+-------------------
+- First Release
+
+
