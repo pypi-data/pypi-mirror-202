@@ -1,0 +1,2 @@
+[console_scripts]
+ldap2pg = ldap2pg.script:main
