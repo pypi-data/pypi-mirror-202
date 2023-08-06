@@ -1,0 +1,11 @@
+README.md
+setup.py
+InstaReq/__init__.py
+InstaReq/__main__.py
+InstaReq/instareq.py
+InstaReq.egg-info/PKG-INFO
+InstaReq.egg-info/SOURCES.txt
+InstaReq.egg-info/dependency_links.txt
+InstaReq.egg-info/entry_points.txt
+InstaReq.egg-info/requires.txt
+InstaReq.egg-info/top_level.txt
