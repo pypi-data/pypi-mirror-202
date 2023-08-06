@@ -1,0 +1,11 @@
+wring/__init__.py,sha256=nD2jvrWTbGGSUxOnQpxo86BJ9otJBDSeFDCI6EiVzD4,283
+wring/_app.py,sha256=Zw92JliC69_cXR-5vPQ8VC-eledsoMl9Di3xM3WOPfc,95
+wring/_version.py,sha256=C_sEDFDxz5lXxlK-Oo8_UXoTORDgjzXO4KLRiUAkVKA,160
+wring/csv.py,sha256=Rn1-S75bVXc9K-K3bJ5AJZegxgkCHKisCe9fMslVCfw,2066
+wring/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wring/tar_zst.py,sha256=jRO5OH1NdgLe5tALEdR_UBEJ_f7J2CXXnW1LZCe9uQc,7923
+wring-0.0.4.dist-info/METADATA,sha256=fKBzyt7_1ovIO-DH3ro1hBtH9AMnzoalIliuCNSiML8,1505
+wring-0.0.4.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+wring-0.0.4.dist-info/entry_points.txt,sha256=KaN_kQufYsrLvxqdybol4_nri375PX3_VkOJ621Ohh0,36
+wring-0.0.4.dist-info/licenses/LICENSE,sha256=pduggcshs5x3prPDyrqfynme86Nka1w_63YvaothbBY,1092
+wring-0.0.4.dist-info/RECORD,,
