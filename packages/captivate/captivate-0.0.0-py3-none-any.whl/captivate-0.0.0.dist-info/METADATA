@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: captivate
+Version: 0.0.0
+Summary: Short description of your project.
+Author-email: Blake Naccarato <blake.naccarato+captivate@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Project-URL: Home, https://github.com/blakeNaccarato/captivate
+
+# captivate
+
+Long description of your project.
+
