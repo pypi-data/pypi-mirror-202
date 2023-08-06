@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: time_series_cross_validation
+Version: 1.0.2
+Summary: Library for cross-validating time series
+Home-page: https://github.com/biazotogabriel/deep_tracking
+Author: Gabriel Nuernberg Biazoto
+Author-email: biazotogabriel@gmail.com
+License: MIT
+Keywords: deep time series cross validation data science
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENCE.txt
+
+Library for cross-validating time series
