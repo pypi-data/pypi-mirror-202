@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: calculator-test-oss
+Version: 0.0.1
+Summary: oss-dev my calculator
+Home-page: https://github.com/hyuntohoon/calc_test
+Download-URL: https://github.com/hyuntohoon/calc_test
+Author: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pytest
+
+UNKNOWN
