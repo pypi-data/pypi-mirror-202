@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+logo.png
+setup.py
+PyDesmos/__init__.py
+PyDesmos/logo.png
+PyDesmos.egg-info/PKG-INFO
+PyDesmos.egg-info/SOURCES.txt
+PyDesmos.egg-info/dependency_links.txt
+PyDesmos.egg-info/requires.txt
+PyDesmos.egg-info/top_level.txt
