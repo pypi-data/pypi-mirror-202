@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rapidpredict
+Version: 0.0.0.1
+Summary: rapid predict is a python package to simplifies the process of fitting and evaluating multiple machine learning models on a dataset.
+Author: Synthetic Dataset AI Team
+Author-email: <admin@syntheticdataset.ai>
+Keywords: python,pandas,numpy,scikit-learn,scipy,matplotlib,seaborn
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: Free To Use But Restricted
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+
+# RapidPredict
+RapidPredict is a Python library that simplifies the process of fitting and evaluating multiple machine learning models from scikit-learn. It's designed to provide a quick way to test various algorithms on a given dataset and compare their performance. 
