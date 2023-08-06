@@ -1,0 +1,6 @@
+{% extends request.htmx|yesno:dispatch_template %}
+
+
+{% block main %}
+  {% block htmx_main %}{{block.super}}{% endblock %}
+{% endblock %}
