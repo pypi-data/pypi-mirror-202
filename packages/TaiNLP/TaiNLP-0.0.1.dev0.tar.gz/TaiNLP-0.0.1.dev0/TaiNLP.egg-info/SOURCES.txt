@@ -1,0 +1,9 @@
+README.md
+setup.py
+TaiNLP.egg-info/PKG-INFO
+TaiNLP.egg-info/SOURCES.txt
+TaiNLP.egg-info/dependency_links.txt
+TaiNLP.egg-info/not-zip-safe
+TaiNLP.egg-info/requires.txt
+TaiNLP.egg-info/top_level.txt
+tainlp/__init__.py
