@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: praxis
+Version: 1.0.0
+Summary: Functionalities such as a layers for building neural networks in Jax.
+Home-page: https://github.com/google/praxis
+Author: PAX team
+Author-email: pax-dev@google.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Requires-Dist: absl-py (==1.4.0)
+Requires-Dist: clu (==0.0.8)
+Requires-Dist: einops (==0.6.0)
+Requires-Dist: fiddle (==0.2.6)
+Requires-Dist: flax (==0.6.8)
+Requires-Dist: jax-bitempered-loss (==0.0.2)
+Requires-Dist: jax (==0.4.7)
+Requires-Dist: lingvo (==0.12.6)
+Requires-Dist: numpy (~=1.24.2)
+Requires-Dist: optax-shampoo (==0.0.6)
+Requires-Dist: optax (==0.1.4)
+Requires-Dist: tensorflow-text (==2.9.0)
+Requires-Dist: tensorflow (==2.9.3)
+
+UNKNOWN
+
+
