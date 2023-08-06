@@ -1,0 +1,8 @@
+qnabot/QnABot.py,sha256=hfxxlkQyeW9WYLOix-im74IHEwri6eSfRemtV2Pe8Pk,3070
+qnabot/__init__.py,sha256=7UDIkCUQ-1lrhE90tuOaFY862LygJXDTc-7FeVptJas,27
+qnabot/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qnabot/tests/test_QnABot.py,sha256=PUNJbZAWhp6-eyqgse0jagID4wVlsUGvNV35hOp3z0k,1484
+qnabot-0.0.4.dist-info/METADATA,sha256=FikXnyzT1qXGb97WblFpk8Qm6rgBUcgCaEk_BC7xQlg,3361
+qnabot-0.0.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+qnabot-0.0.4.dist-info/top_level.txt,sha256=K7zb2-6wEj7PqHfeS-zToWOrl4Zsr5MW2XQ_Sfw7Wco,7
+qnabot-0.0.4.dist-info/RECORD,,
