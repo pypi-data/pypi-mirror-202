@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: seungminpark-calc
+Version: 0.0.1
+Summary: oss-dev my calculator 0001
+Home-page: https://github.com/ParkSeungMin1/calc0001
+Download-URL: https://github.com/ParkSeungMin1/calc0001/archive/refs/tags/v0.0.1.zip
+Author: seungminpark
+Author-email: 1828421@donga.ac.kr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest
+
+oss-dev calculator python module
