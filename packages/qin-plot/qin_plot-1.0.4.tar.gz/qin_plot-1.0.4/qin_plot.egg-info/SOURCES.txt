@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+C://Users//Administrator//Desktop//ML_figures-master//qin_plot/composition.py
+C://Users//Administrator//Desktop//ML_figures-master//qin_plot/figures.py
+qin_plot.egg-info/PKG-INFO
+qin_plot.egg-info/SOURCES.txt
+qin_plot.egg-info/dependency_links.txt
+qin_plot.egg-info/requires.txt
+qin_plot.egg-info/top_level.txt
