@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: yodapa
+Version: 1.0.0
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: Pillow
+Requires-Dist: pychalk
+Requires-Dist: apiai
+Requires-Dist: emoji
+Requires-Dist: pyyaml
+Requires-Dist: lepl
+Requires-Dist: pycrypto
+Requires-Dist: pyspeedtest
+Requires-Dist: forex-python
+Requires-Dist: dulwich
+Requires-Dist: PyGithub
+Requires-Dist: future
+Requires-Dist: speedtest-cli
+Requires-Dist: imageio
+Requires-Dist: requests
+Requires-Dist: pydub
+Requires-Dist: pandas
+Requires-Dist: fuzzywuzzy
+Requires-Dist: python-levenshtein
+
