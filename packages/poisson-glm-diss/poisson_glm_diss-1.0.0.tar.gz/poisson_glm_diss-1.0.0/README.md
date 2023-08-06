@@ -1,0 +1,1 @@
+This is a Poisson GLM package for Python implemented as part of my UG4 dissertation.

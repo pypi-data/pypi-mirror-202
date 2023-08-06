@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+data_RGCs/Stim.mat
+poisson_glm_diss/PoissonGLM.py
+poisson_glm_diss/__init__.py
+poisson_glm_diss.egg-info/PKG-INFO
+poisson_glm_diss.egg-info/SOURCES.txt
+poisson_glm_diss.egg-info/dependency_links.txt
+poisson_glm_diss.egg-info/top_level.txt
