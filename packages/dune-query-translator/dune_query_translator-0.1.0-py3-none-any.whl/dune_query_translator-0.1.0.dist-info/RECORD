@@ -1,0 +1,8 @@
+dune/translate/constants.py,sha256=melW42pK8DG4SwhgIOlyr1EZzZ5t8zsPgo8Iom1Pyfs,54
+dune/translate/errors.py,sha256=tGCY4GszKq0aCOkccG5AGGh5sCwL3uhIsSEQuK6t6Ug,101
+dune/translate/helpers.py,sha256=OrEBknSoaVfcpsAUjFBX0eldSs4tI8oPHforO5-zdw0,19878
+dune/translate/translate.py,sha256=RrI8-VbUy4biJ7gI2cj0XRMk_5-KjKSEkcANS8pOQiI,2203
+dune_query_translator-0.1.0.dist-info/LICENSE,sha256=goRUlXioimEukqqurTK349mZ4oSBiM_bwD7ox1aVItU,1061
+dune_query_translator-0.1.0.dist-info/METADATA,sha256=KeHmfrE1Lq9Kk1_Pd_22Qgp6afZurbMuJl8jeI_42Bs,1497
+dune_query_translator-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+dune_query_translator-0.1.0.dist-info/RECORD,,
