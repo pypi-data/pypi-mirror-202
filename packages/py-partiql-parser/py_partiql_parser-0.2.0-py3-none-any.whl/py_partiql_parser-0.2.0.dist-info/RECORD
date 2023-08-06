@@ -1,0 +1,16 @@
+py_partiql_parser/__init__.py,sha256=VZvmaH2YDwYCVTxzgGIFfLU28Q5gWa9R0gnVhGwaME4,112
+py_partiql_parser/_internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_partiql_parser/_internal/case_insensitive_dict.py,sha256=PpAI_ckkR0FCshl-94QgPVynu4VRqIfnU0IWOPSW6tA,1724
+py_partiql_parser/_internal/clause_tokenizer.py,sha256=byO-M42KnM2tSgthhytTC4gNpAybyQvzlKGv1XY5FsQ,1784
+py_partiql_parser/_internal/csv_converter.py,sha256=D3iaEcjDmgu6EHUc0S3cBIP2xri2fxa3Rwe_e55TCTI,637
+py_partiql_parser/_internal/from_parser.py,sha256=CTzM9ieniQ4VeY-L4aVbGmkdcsfOyjGUYtXo4b3m_Pk,2368
+py_partiql_parser/_internal/json_parser.py,sha256=Iv3j2xcKQk1akUChFluM94KY6Zz20HQUO7epMLFmjaE,8093
+py_partiql_parser/_internal/parser.py,sha256=RMa3d0zNYOrwm29Chk1aNa-lMZqE08_Gz1vu1C3G0aE,1531
+py_partiql_parser/_internal/select_parser.py,sha256=nT6yVULLEij2OnIOyZW-8yEwQ82DNMk4VGcsYpEdELk,3341
+py_partiql_parser/_internal/utils.py,sha256=ZWoyRRcJmsEryIdLFVa9IH4bz8DtF7Cd7kImkoQA-4U,2908
+py_partiql_parser/_internal/where_parser.py,sha256=Zj7gVbjuIK2L0evsBQPM86iX6hHsWDjp8DKJqpXEd-E,2670
+py_partiql_parser-0.2.0.dist-info/LICENSE,sha256=-Ugddul9kGCJlynIRFbrJPqeRgpe9pp7YZr6GydEBNc,1070
+py_partiql_parser-0.2.0.dist-info/METADATA,sha256=dqt9F1hggGp1u11oeTVeS9cURCZqFzRZlB2DZaZn6qg,1785
+py_partiql_parser-0.2.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+py_partiql_parser-0.2.0.dist-info/top_level.txt,sha256=qy2qMAfjc-fGJ_lem9U971z2nSx6j4lCML4cne-ufw4,18
+py_partiql_parser-0.2.0.dist-info/RECORD,,
