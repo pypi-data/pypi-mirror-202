@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: libdnf5
+Version: 0.0.1a1
+Summary: Placeholder for libdnf5 Python bindings
+License: BSD-3-Clause
+Description-Content-Type: text/plain
+
+This content is a placeholder in case the project is ever packaged for external distribution.
+
