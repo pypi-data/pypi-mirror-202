@@ -1,0 +1,5 @@
+python-dotenv
+aiofiles
+dotenv
+colored
+gmqtt
