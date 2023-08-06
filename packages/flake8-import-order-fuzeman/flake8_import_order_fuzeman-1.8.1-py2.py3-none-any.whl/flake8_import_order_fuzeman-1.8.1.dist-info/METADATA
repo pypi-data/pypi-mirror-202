@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: flake8-import-order-fuzeman
+Version: 1.8.1
+Summary: "@fuzeman's import order style for flake8-import-order"
+Author: Dean Gardiner
+Author-email: me@dgardiner.net
+Maintainer: Dean Gardiner
+Maintainer-email: me@dgardiner.net
+License: GPLv3 or later
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Flake8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+License-File: LICENSE
+
+README.rst
