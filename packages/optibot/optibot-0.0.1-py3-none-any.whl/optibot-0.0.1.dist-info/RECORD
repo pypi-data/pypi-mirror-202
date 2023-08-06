@@ -1,0 +1,10 @@
+optibot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optibot/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optibot/core/optibot.py,sha256=2X_X4cDTT0P3dcUX9uXPgWt9aa39GhKiwqW0F6ecsNs,5791
+optibot/core/renderer.py,sha256=8Di97gD2c3k4Ct8ercoV8oqGlwkFEIOZ9MEreRaO1W8,4262
+optibot/core/script.py,sha256=l-CAg8z7wtviYYJRxvy9tk8PV6545PCD7zdzl4OCEr4,902
+optibot/core/splinter.py,sha256=yD821hzqd15Wcq2Nf7F2qKbALDPsihpEVN_NxDLBmRQ,1534
+optibot-0.0.1.dist-info/METADATA,sha256=s1GmdBmop6Wh-D-d5-B6pEgUXk5iDMRZL0WDbOcKLhQ,1878
+optibot-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+optibot-0.0.1.dist-info/top_level.txt,sha256=i7onqNSQAY0Zx1Yagtpl58lD3sdyJU0iY1POHyvB0Z8,8
+optibot-0.0.1.dist-info/RECORD,,
