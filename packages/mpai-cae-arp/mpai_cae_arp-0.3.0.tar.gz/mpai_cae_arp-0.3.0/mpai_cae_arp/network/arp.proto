@@ -1,0 +1,67 @@
+syntax = "proto3";
+
+/**
+* This file is part of the Audio Restoration Package (ARP).
+* to compile it run:
+* 
+* protoc -I protos --python_out=protos --grpc_python_out=protos protos/arp.proto
+*/
+
+package arp;
+
+service AudioAnalyser {
+    rpc getAimInfo (InfoRequest) returns (Info) {}
+    rpc analyse(ComputationRequest) returns (stream ComputationResult) {}
+}
+
+service VideoAnalyser {
+    rpc getAimInfo (InfoRequest) returns (Info) {}
+    rpc analyse(ComputationRequest) returns (stream ComputationResult) {}
+}
+
+service TapeIrregularityClassifier {
+    rpc getAimInfo (InfoRequest) returns (Info) {}
+    rpc classify(ComputationRequest) returns (stream ComputationResult) {}
+}
+
+service TapeAudioRestoration {
+    rpc getAimInfo (InfoRequest) returns (Info) {}
+    rpc restore(ComputationRequest) returns (stream ComputationResult) {}
+}
+
+service Packager {
+    rpc getAimInfo (InfoRequest) returns (Info) {}
+    rpc package(ComputationRequest) returns (stream ComputationResult) {}
+}
+
+message InfoRequest {
+    optional string field = 1;
+}
+
+message Contact {
+    string name = 1;
+    string email = 2;
+}
+
+message License {
+    string name = 1;
+    string url = 2;
+}
+
+message Info {
+    string title = 1;
+    string description = 2;
+    string version = 3;
+    Contact contact = 4;
+    License license = 5;
+}
+
+message ComputationRequest {
+    string working_dir = 1;
+    string files_name = 2;
+}
+
+message ComputationResult {
+    bool success = 1;
+    string message = 2;
+}
