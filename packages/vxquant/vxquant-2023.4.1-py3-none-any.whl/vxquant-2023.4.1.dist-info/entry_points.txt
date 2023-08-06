@@ -1,0 +1,3 @@
+[console_scripts]
+vxquant=vxquant.__main__:main
+
