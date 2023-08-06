@@ -1,0 +1,9 @@
+astro_hh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+astro_hh/ccd/__init__.py,sha256=RhCYQDkf2VuB0oh9j2h2Asq6LKtAgRCpBHbAPf68Y3k,49
+astro_hh/ccd/ccd_io.py,sha256=2KSWna4Km3UgMZ1H4k4vqZEUp9PX-7b-deDFAaBs1A8,312
+astro_hh/ccd/ccd_process.py,sha256=okkoini4CNked1WFwUiMiIqhbUKNKPSUh3vpg2NiTP0,2863
+astro_hh-0.0.3.dist-info/LICENSE,sha256=vR2z3eUszyli3pNE5DdS2gRzEwCRuQTwhfjfPkGTXpk,1091
+astro_hh-0.0.3.dist-info/METADATA,sha256=rYh40VYCvm7BqcFR-9PmR4EmRAVU_BEUV8nxqy7lLng,416
+astro_hh-0.0.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+astro_hh-0.0.3.dist-info/top_level.txt,sha256=UjKyi6toYxhTmJohVYfJHvj1Bs2dDQn2soZxZFjyGFE,9
+astro_hh-0.0.3.dist-info/RECORD,,
