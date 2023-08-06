@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: admin-form-image-preivew
+Version: 1.1
+Summary: Sami Test Pip
+Home-page: https://github.com/humblesami/admin_form_image_preivew.git
+Author: Sami Akram
+Author-email: Sami Akram <samiakram@live.com>
+Maintainer-email: Sami Akram <samiakram@live.com>
+Project-URL: Changelog, https://github.com/humblesami/admin_form_image_preivew/CHANGES.rst
+Project-URL: Code, https://github.com/humblesami/admin_form_image_preivew
+Project-URL: Issue tracker, https://github.com/humblesami/admin_form_image_preivew/issues
+Keywords: urllib,httplib,http
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: development
+Provides-Extra: deploy
+License-File: LICENSE.txt
+
+Test Django Package
+
+See the sample app for usage/code
+
+
+**Instructions to install/use**
+1. `git clone https://github.com/humblesami/admin_form_image_preivew.git`
+2. `cd admin_form_image_preivew/sample_usage`
+3. `pip install -r requirements.txt`
+
+*Not required* but if you want to reset the database, you can do this
+3.1. `python manage.py initsql.py`
+
+
+4. `python manage.py runsever`
+
+5. Open following url in your browser and login with given username and password
+http://127.0.0.1:8000/admin/login/?next=/admin/login
+username
+sa
+password
+123
+
+6. Go to
+http://127.0.0.1:8000/admin/admin_image_preview/model1/add/
+
+7. Add image to check preview
+
+8. See docs/make_pip.txt to make/build/test and upload your own pip package
+

@@ -1,0 +1,14 @@
+Django>=3
+Pillow>=9
+
+[deploy]
+bump2version
+readme_renderer[md]
+git-changelog
+
+[development]
+Django>=3
+Pillow>=9
+bump2version
+readme_renderer[md]
+git-changelog
