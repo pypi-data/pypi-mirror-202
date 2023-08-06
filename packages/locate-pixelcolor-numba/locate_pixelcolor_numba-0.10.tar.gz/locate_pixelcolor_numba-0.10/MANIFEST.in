@@ -1,0 +1,5 @@
+include locate_pixelcolor_numba/requirements.txt
+include locate_pixelcolor_numba/thirdparty.json
+include locate_pixelcolor_numba/README.md
+include locate_pixelcolor_numba/searchcolorsnumba.pyd
+include locate_pixelcolor_numba/LICENSE
