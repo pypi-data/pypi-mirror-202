@@ -1,0 +1,243 @@
+#########
+ka_ut_air
+#########
+
+Overview
+========
+
+**ka_ut_air** is a Command Line Package with Utility Sub Package uts.
+
+- pwf2dag is used to create dags in ``Python source format`` from files 
+  in ``portable Workflow DSL yaml format``
+
+Installation
+============
+
+.. start installation
+
+``ka_ut_air`` can be installed from PyPI or Anaconda.
+
+To install with ``pip``:
+
+.. code-block:: shell
+
+        $ python -m pip install ka_uts
+
+To install with ``conda``:
+
+.. code-block:: shell
+
+        $ conda install -c conda-forge ka_uts
+
+.. end installation
+
+Sub Packages
+============
+
+The Package ``ka_ut_air`` contains the following Sub Packages.
+
+.. _sub-packages-label:
+.. list-table:: *Sub Packages*
+   :widths: auto
+   :header-rows: 1
+
+   * - Sub Package
+     - Description
+     - Type
+   * - pwf2dag
+     - Dag Source Factory for Workflow files in pwf format
+     - Application
+   * - uts
+     - Dag Source Factory Utilities
+     - Utility
+
+---
+uts
+---
+
+The Sub Package ``uts`` of Package ``ka_ut_air`` contains the following Base and two general Utility Modules: __init__.py, __main__.py.
+
+base Modules
+^^^^^^^^^^^^
+
+.. _uts-modules-label:
+.. list-table:: *uts Modules*
+   :widths: auto
+   :header-rows: 1
+
+   * - Module
+     - Description
+   * - fac.py
+     - Factory Utilities
+   * - src.py
+     - Source Processing Utilities
+   * - uts.py
+     - Package Utilities
+   * - __init__.py
+     - 
+
+Configuration
+=============
+
+-----------------------------------
+Configuration Files of Sub Packages
+-----------------------------------
+
+The Configuration of Application Sub Packages are defined in Yaml Configuration Files
+with the Sub Package name located in the data directory of the Package.
+
+.. _application-sub-package-configuration-file-label:
+.. list-table:: *Sub Package Configuration File*
+   :widths: auto
+   :header-rows: 1
+
+   * - Sub Package
+     - Configuration File Path
+   * - dfs
+     - ka_ut_air/data/dfs.yml
+
+The Configuration file could be changed according to the Rules described inherently.
+
+Usage Convention
+================
+
+---------------------------------
+Input Project Directory Structure
+---------------------------------
+
+Example
+^^^^^^^
+
+.. code-block::
+
+ /data/DB/prj
+ │   └── PWF
+ │       ├── var
+ │       │   ├── rbk
+ │       │   │   ├── r_mon.json
+ │       │   │   ├── ...
+ │       │   ├── tsk
+ │       │   │   ├── all
+ │       │   │   │   ├── t_1000000.json
+ │       │   │   │   ├── t_1000000.yaml
+ │       │   │   │   ├── ...
+ │       │   │   ├── mon
+ │       │   │   │   ├── t_1000000.json
+ │       │   │   │   ├── t_1000000.yaml
+ │       │   │   │   ├── ...
+ │       │   │   └── str
+ │       │   │       ├── t_100023.json
+ │       │   │       ├── t_100023.yaml
+ │       │   │       ├── ...
+ │       └── wfl
+ │           ├── rbk
+ │           │   ├── r_mon10.yaml
+ │           │   ├── ...
+ │           ├── tsk
+ │           │   ├── all
+ │           │   │   ├── t_1000000.json
+ │           │   │   ├── t_1000000.yaml
+ │           │   │   ├── ...
+ │           │   ├── ctm
+ │           │   │   ├── t_M_CHK_GLOB_PARM.yaml
+ │           │   │   ├── t_M_EPE_CHK_IF_FULL_PRECALC.yaml
+ │           │   │   ├── t_M_INTE1_CHK_GLOB_PARM.yaml
+ │           │   │   ├── t_M_INTE1_FW_ECB.yaml
+ │           │   │   ├── t_M_INTE1_IF_1.yaml
+ │           │   │   ├── t_M_INTE1_IF_INTERIM_HYPERSTAR.yaml
+ │           │   │   ├── t_M_LOAD_CHK_GLOB_PARM.yaml
+ │           │   │   ├── t_M_PREP_CHK_GLOB_PARM.yaml
+ │           │   │   ├── t_M_PREP_CHK_IF_RCV_MXR.yaml
+ │           │   │   └── t_M_PREP_FW_LOAD_SWWR.yaml
+ │           │   ├── mon
+ │           │   │   ├── t_1000000.json
+ │           │   │   ├── t_1000000.yaml
+ │           │   │   ├── ...
+
+----------------------------------
+Output Project Directory Structure
+----------------------------------
+
+Example
+^^^^^^^
+
+.. code-block::
+
+ /data/DB/prj
+ ├── FDW
+ │   ├── AIR
+ │   │   ├── dags
+ │   │   │   ├── rbk
+ │   │   │   │   ├── r_mon10.py
+ │   │   │   │   ├── ...
+ │   │   │   ├── tsk
+ │   │   │   │   ├── all
+ │   │   │   │   │   ├── t_1000000.py
+ │   │   │   │   │   ├── ...
+ │   │   │   │   ├── mon
+ │   │   │   │   │   ├── t_1000000.py
+ │   │   │   │   │   ├── ...
+ │   │   │   │   ├── str
+ │   │   │   │   │   ├── t_100023.py
+ │   │   │   │   │   ├── ...
+
+-----------------------
+Run Directory Structure
+-----------------------
+
+Directory Tree if sw_filename_pid_ts=True
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block::
+
+  data/
+  ├── <tenant>/
+  │   └── RUN/
+  │       └── ka_ut_air_dfs/
+  │           └── dfs/
+  │               ├── debs/
+  │               │   └── debs_<pid>_<timestamp>.log
+  │               ├── errs/
+  │               │   └── errs_<pid>_<timestamp>.log
+  │               ├── logs/
+  │               │   └── logs_<pid>_<timestamp>.log
+  │               └── reps/
+  │                   └── <email>_logs_<pid>_<timestamp>.txt
+  ...
+
+Directory Tree if sw_filename_pid_ts=False
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. code-block::
+
+  data/
+  ├── <tenant>/
+  │   └── RUN/
+  │       └── ka_ut_air_dfs/
+  │           └── dfs/
+  │               ├── debs/
+  │               │   └── debs.log
+  │               ├── errs/
+  │               │   └── errs.log
+  │               ├── logs/
+  │               │   └── logs.log
+  │               └── reps/
+  │                   └── <email>.txt
+  ...
+
+Rationale
+=========
+
+---------------
+Library Purpose
+---------------
+
+The purpose of this library is to migrate files in portable Workflow DSL yaml file format into Dags in Python source format.
+
+# .. include:: ka_ut_air_dfs/data/dfs.yml.rst
+# .. include:: KA-Architecture.rst
+
+Appendix
+========
+
+.. contents:: **Table of Content**
