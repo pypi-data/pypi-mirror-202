@@ -1,0 +1,5 @@
+setup.py
+ConfigoParser.egg-info/PKG-INFO
+ConfigoParser.egg-info/SOURCES.txt
+ConfigoParser.egg-info/dependency_links.txt
+ConfigoParser.egg-info/top_level.txt
