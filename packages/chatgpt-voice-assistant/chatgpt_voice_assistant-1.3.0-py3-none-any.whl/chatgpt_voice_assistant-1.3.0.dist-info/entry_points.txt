@@ -1,0 +1,2 @@
+[console_scripts]
+chatgpt-assist = chatgpt_voice_assistant.main:main
