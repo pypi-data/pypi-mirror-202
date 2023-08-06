@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mitz-datagen
+Version: 0.0.1
+Summary: Fake data generator using gpt3
+Home-page: https://github.com/pypa/sampleproject
+Author: Rishad M
+Author-email: rishad.m@mitz.ai
+Project-URL: Bug Tracker, https://github.com/rishadm-ai7/mitz_datagen
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
