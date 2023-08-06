@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: battleshippygame
+Version: 1.0.0
+Summary: Play Battleship in the Terminal!
+Author: David Huang Peterson
+Author-email: holypenguin.david@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+######################
+This project is made for educational and entertainment purposes only
+I (David H Peterson) do not own the rights to the original game, aka "Battleship"
+######################
+
+To play the game, please type the following into a python source file:
+
+######################
+import battleship
+battleship.startup()
+battleship.game()
+######################
+
+There, now you can play battleship in the terminal!

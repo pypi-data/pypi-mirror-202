@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+battleshippygame/__init__.py
+battleshippygame/battleshippygame.py
+battleshippygame.egg-info/PKG-INFO
+battleshippygame.egg-info/SOURCES.txt
+battleshippygame.egg-info/dependency_links.txt
+battleshippygame.egg-info/top_level.txt
