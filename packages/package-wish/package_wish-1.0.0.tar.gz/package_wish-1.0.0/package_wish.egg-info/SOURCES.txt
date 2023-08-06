@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+package_wish/Preprocess.py
+package_wish/__init__.py
+package_wish.egg-info/PKG-INFO
+package_wish.egg-info/SOURCES.txt
+package_wish.egg-info/dependency_links.txt
+package_wish.egg-info/requires.txt
+package_wish.egg-info/top_level.txt

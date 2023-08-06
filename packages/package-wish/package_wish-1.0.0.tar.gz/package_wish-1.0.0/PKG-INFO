@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: package_wish
+Version: 1.0.0
+Summary: A simple module for image preprocess
+Home-page: https://blog.csdn.net/qq_40672115/article/details/127012332?spm=1001.2014.3001.5502
+Author: Z
+Author-email: 1941981477@qq.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
