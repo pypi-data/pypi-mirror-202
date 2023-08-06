@@ -1,0 +1,11 @@
+LICENSE.txt
+README.txt
+setup.py
+admath1/__init__.py
+admath1/area.py
+admath1/parameter.py
+admath1/trignometry.py
+admath1.egg-info/PKG-INFO
+admath1.egg-info/SOURCES.txt
+admath1.egg-info/dependency_links.txt
+admath1.egg-info/top_level.txt
