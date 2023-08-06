@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: Deepurify
+Version: 1.1.0.3
+Summary: The purification tool for improving the quality of MAGs.
+Home-page: https://github.com/zoubohao/Deepurify/
+Author: Bohao Zou
+Author-email: csbhzou@comp.hkbu.edu.hk
+License: MIT
+Requires-Python: >=3.6
