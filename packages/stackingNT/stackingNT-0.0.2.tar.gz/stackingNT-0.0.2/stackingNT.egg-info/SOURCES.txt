@@ -1,0 +1,8 @@
+README.md
+setup.py
+stackingNT/__init__.py
+stackingNT/stackingnonlineartransformations.py
+stackingNT.egg-info/PKG-INFO
+stackingNT.egg-info/SOURCES.txt
+stackingNT.egg-info/dependency_links.txt
+stackingNT.egg-info/top_level.txt

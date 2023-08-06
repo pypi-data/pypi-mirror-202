@@ -1,0 +1,69 @@
+# Prostate_cancer_related_research
+
+#### 介绍
+研究前列腺癌的低中高风险分层问题
+对stacking算法进行优化
+
+
+#### 安装教程
+
+1.  pip install stackingNT
+
+#### 使用说明
+
+1.  您需要传入您的base model pool、meta model
+
+```
+classifiers_ = {
+    'RandomForest': RandomForestClassifier(random_state=random_seed, n_estimators=100, max_depth=None),
+    'DecisionTree': DecisionTreeClassifier(random_state=random_seed),
+    'XGBoost': XGBClassifier(reg_lambda=0.5,
+                             max_depth=8,
+                             learning_rate=0.93,
+                             n_estimators=100, 
+                             min_child_weight=1,
+                             gamma=0.3,
+                             # min_weight=5,
+                             colsample_bytree=0.8,
+                             verbosity=0,
+                             num_class=len(n_classes),
+                             objective='multi:softmax',
+                             random_state=random_seed),
+    # 'AdaBoost': AdaBoostClassifier(n_estimators=100, learning_rate=0.9, random_state=random_seed),
+    'LogisticRegression':LogisticRegression(random_state=random_seed),
+    'SVM': SVC(kernel='linear', C=1, probability=True, tol=1.e-4, random_state=random_seed),
+}
+
+base_models = classifiers_
+```
+
+`meta_model = {'SVM': SVC(kernel='linear', C=1, probability=True, tol=1.e-4, random_state=random_seed)}`
+
+具体的传入模型过程如下：
+
+```
+from stackingNT import StackingNonlinearTransformations
+meta_model = {'SVM': SVC(kernel='linear', C=1, probability=True, tol=1.e-4, random_state=random_seed)}
+base_models = classifiers_
+SNT = StackingNonlinearTransformations(base_models, meta_model)
+```
+
+
+2.  SNT.fit()使用说明：
+
+传入参数：
+train_X=train_df_lassoCV, train_y=Y, test_X=test_df_lassoCV, test_y=Y_test,NT="relu"
+train_X、train_y、test_X、test_y分别代表训练集和测试集。NT代表一种非线性变换的方法。（有关非线性变换具体介绍可参考论文：Predictions of Prostate Cancer Risk Stratification Based on A Non-Linear Transformation Stacking Learning Strategy）
+具体fit函数调用如下所示：
+
+```
+train_pred, test_pred, train_pred_prob, test_pred_prob = SNT.fit(train_X=train_df_lassoCV, train_y=Y, test_X=test_df_lassoCV, test_y=Y_test,NT="relu")
+
+```
+train_pred：训练集预测值
+test_pred：测试集预测值
+train_pred_prob：训练集预测概率
+test_pred_prob ：测试集预测概率
+
+### 相关论文：
+Predictions of Prostate Cancer Risk Stratification Based on A Non-Linear Transformation Stacking Learning Strategy
