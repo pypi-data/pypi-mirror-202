@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pdm-manage-version
+Version: 0.1.0
+Summary: `pdm version` working like `poetry version`
+Author-Email: Marco Acierno <marcoaciernoemail@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: packaging>=23.0
+Description-Content-Type: text/markdown
+
+# pdm-manage-version
+
+Wanted something like `poetry version` in `pdm`
+
+## Alternatives
+
+I found [https://github.com/abersheeran/pdm-version/](https://github.com/abersheeran/pdm-version/) but
+it doesn't really behave like `poetry version` unfortunately
+
+## ToDo:
+
+- [] Tests
+- [] Better bump logic
