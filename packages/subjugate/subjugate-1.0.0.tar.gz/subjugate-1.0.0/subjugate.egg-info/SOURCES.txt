@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+subjugate/__init__.py
+subjugate/__version__.py
+subjugate.egg-info/PKG-INFO
+subjugate.egg-info/SOURCES.txt
+subjugate.egg-info/dependency_links.txt
+subjugate.egg-info/not-zip-safe
+subjugate.egg-info/requires.txt
+subjugate.egg-info/top_level.txt
+subjugate/template/__init__.py
+subjugate/template/engine.py
+subjugate/template/loaders/__init__.py
+subjugate/template/loaders/app_directories.py
+subjugate/template/loaders/base.py
