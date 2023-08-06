@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+auto_pypi_uploader/__init__.py
+auto_pypi_uploader/pypi_uploader.py
+auto_pypi_uploader/setup_file_creator.py
+auto_pypi_uploader.egg-info/PKG-INFO
+auto_pypi_uploader.egg-info/SOURCES.txt
+auto_pypi_uploader.egg-info/dependency_links.txt
+auto_pypi_uploader.egg-info/requires.txt
+auto_pypi_uploader.egg-info/top_level.txt
