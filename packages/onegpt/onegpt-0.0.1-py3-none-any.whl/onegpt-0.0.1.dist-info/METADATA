@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: onegpt
+Version: 0.0.1
+Summary: OneGPT
+Author: Longxing Tan
+Author-email: tanlongxing888@163.com
+License: Apache 2.0
+Keywords: GPT NLP LLM
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+
+SimpleGPT for everyone
