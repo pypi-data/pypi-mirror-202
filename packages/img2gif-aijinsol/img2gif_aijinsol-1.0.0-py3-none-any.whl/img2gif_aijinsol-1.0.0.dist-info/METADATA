@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: img2gif-aijinsol
+Version: 1.0.0
+Summary: Images to GIF Converter
+Home-page: 
+Download-URL: 
+Author: aijinsol
+Author-email: jinsolkim719@gmail.com
+Keywords: img2gif,gifconverter
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: pillow
+
