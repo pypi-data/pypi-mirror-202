@@ -1,0 +1,9 @@
+map_pde/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+map_pde/client.py,sha256=G7fDQ5lrtJ7WU1lQssrZgEIr8qaK765LZ87abHltm7w,35342
+map_pde/constant.py,sha256=lKTpLL0LJlPZa6XE9kBuCJa71V7CeUYJ7yICIJfUm8U,5774
+map_pde/util.py,sha256=x61Y8O_9jufHcDTx8oUJOJpyMsnuYCqAX3LhUZrNpMI,14086
+map_pde-0.2.1.dist-info/LICENSE,sha256=kZv_G-mVGtQ6Uys8x23Tos_u0kj7AJhVCQolP50EOBA,1083
+map_pde-0.2.1.dist-info/METADATA,sha256=-kF-og0KW7-Uz1BFrYh6B1eT2lRFMa8pzeHS8PqJ_xo,287
+map_pde-0.2.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+map_pde-0.2.1.dist-info/top_level.txt,sha256=fL2OzKGODDK-p122HrnX-PmxdU2l5imWrRRD3k2Fsaw,8
+map_pde-0.2.1.dist-info/RECORD,,
