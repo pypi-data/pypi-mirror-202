@@ -1,0 +1,6 @@
+setup.py
+SweIoTCommon.egg-info/PKG-INFO
+SweIoTCommon.egg-info/SOURCES.txt
+SweIoTCommon.egg-info/dependency_links.txt
+SweIoTCommon.egg-info/requires.txt
+SweIoTCommon.egg-info/top_level.txt
