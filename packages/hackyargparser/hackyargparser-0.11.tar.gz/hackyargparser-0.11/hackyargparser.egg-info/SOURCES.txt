@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+hackyargparser/LICENSE
+hackyargparser/README.md
+hackyargparser/__init__.py
+hackyargparser/requirements.txt
+hackyargparser/thirdparty.json
+hackyargparser.egg-info/PKG-INFO
+hackyargparser.egg-info/SOURCES.txt
+hackyargparser.egg-info/dependency_links.txt
+hackyargparser.egg-info/top_level.txt
