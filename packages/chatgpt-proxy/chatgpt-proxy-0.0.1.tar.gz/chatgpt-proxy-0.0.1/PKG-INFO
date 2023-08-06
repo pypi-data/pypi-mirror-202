@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: chatgpt-proxy
+Version: 0.0.1
+Summary: Reverse proxy for OpenAI chatgpt website API
+Author: 18870
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+License-File: LICENSE
