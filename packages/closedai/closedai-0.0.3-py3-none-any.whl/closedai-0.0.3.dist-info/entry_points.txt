@@ -1,0 +1,2 @@
+[console_scripts]
+closedai = closedai.cli_main:main

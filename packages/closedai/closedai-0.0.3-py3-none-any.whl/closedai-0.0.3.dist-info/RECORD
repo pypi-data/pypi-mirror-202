@@ -1,0 +1,16 @@
+closedai/__init__.py,sha256=fza2iUxroSwHnmcVyaVrB6S9W_WUfA5G2G_HLbNdAaU,3539
+closedai/cli_main.py,sha256=ARosS6G_nNy2iUlAmnynEJoQ5izXt9rADi3RTZCHVrk,348
+closedai/client.py,sha256=H1tq2wwnYsjfSCdhfkpmhHNl3_FqJueuOXLgMLqDw4s,81
+closedai/runtime.py,sha256=FM0keR0PWzMHE-vofFZU71DGeuzOrkZMSqMT9FauqYI,1448
+closedai/schema.py,sha256=Z3jd6oOc2QjVVuIohgQhQFGracosnbUa5WPb86Rbj5k,1050
+closedai/server.py,sha256=UVUVXfM0lo0hSbZYGpDIuW6kp9khCcytxDdFdm8ILTw,5068
+closedai/pipelines/__init__.py,sha256=F986bmeH_vSY7SS55CkngunC4DCLsQ_4cXj6GPF47L8,800
+closedai/pipelines/pipeline_base.py,sha256=KbsTpffgANWibUCgP734ciJE7DhbcDUOWTbQ7XuiqKg,674
+closedai/pipelines/pipeline_dummy.py,sha256=MfX1Eo9McxmSTawip3E_Ro6Ixtg5su4CzBTsBv-3KzE,490
+closedai/pipelines/pipeline_huggingface.py,sha256=wjMNbAS6w1Ax7Ak_229FDRbpyjNjFJSfUTl3lVfaWVc,1208
+closedai-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+closedai-0.0.3.dist-info/METADATA,sha256=4AMwd3QSp2M_-7ywf1RT3Q9ZcCGZkzgmhMcrJDBOWnQ,3118
+closedai-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+closedai-0.0.3.dist-info/entry_points.txt,sha256=qqoVCzZTDb9pS2iA4ohdC9W1pahNtGECXomI4Ic5zAQ,52
+closedai-0.0.3.dist-info/top_level.txt,sha256=jMnzk1uX5hNq03yI0OrNaw3uoLSyQE_riPa2D_1VijA,9
+closedai-0.0.3.dist-info/RECORD,,
