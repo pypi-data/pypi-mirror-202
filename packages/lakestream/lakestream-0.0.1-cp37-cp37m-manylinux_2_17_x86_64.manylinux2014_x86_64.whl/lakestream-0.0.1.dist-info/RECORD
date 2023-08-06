@@ -1,0 +1,6 @@
+lakestream-0.0.1.dist-info/METADATA,sha256=lVsRTWmQRzYqoCrMnhLTxnriAdgaqD6xFXSnO6gmBI0,778
+lakestream-0.0.1.dist-info/WHEEL,sha256=Ggivn3lwKKkSRrsnXEutpndROP0W4Lb-zFigMNXslq0,130
+lakestream/__init__.py,sha256=58dQ6HMtr5PvBdXwPXUCssQJLzvIUV1ElIKX-WOBKAo,26
+lakestream/__main__.py,sha256=xr7eLgpO69jZg9UWPLQ2ovAZhTFwGXwIEQxumqGvxZM,163
+lakestream/lakestream.cpython-37m-x86_64-linux-gnu.so,sha256=SwKCrrjpcvxfJMF31geDdQW_vJjQ9g2af__GgT4wX_M,4229664
+lakestream-0.0.1.dist-info/RECORD,,
