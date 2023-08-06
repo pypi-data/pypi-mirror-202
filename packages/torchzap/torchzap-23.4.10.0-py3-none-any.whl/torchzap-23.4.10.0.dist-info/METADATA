@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: torchzap
+Version: 23.4.10.0
+Summary: PyTorch Zap
+Home-page: https://github.com/private_repo/
+Author: tompz
+Author-email: mailto@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: fire
+Requires-Dist: codefast (>=0.9.9)
+Requires-Dist: pydantic
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: tqdm
+Requires-Dist: transformers
+
+TODO
+
+
