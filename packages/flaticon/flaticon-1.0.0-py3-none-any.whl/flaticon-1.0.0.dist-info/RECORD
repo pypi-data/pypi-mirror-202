@@ -1,0 +1,12 @@
+setup.py,sha256=dWDGM5D4m71TLaMMfb4BDoC21LtnvNA6Bq3NJmMP8hI,2016
+flaticon/__init__.py,sha256=hg4gyr6tVIgIydrKBdcTnm2CevhDz56rj93rxMVqFWM,136
+flaticon/client.py,sha256=YHobrCfFc9RVIObcrwXHJw6fmyNTWKJMjQ75cfCtS5s,3037
+flaticon/models.py,sha256=qV7jcsqq-n_AGaPVU9EH-waKlDI4SDIWoZl4t37_YqE,493
+flaticon/utils.py,sha256=bTq9C4luTNpS0gpo4LYUDHkZ8_OT8SKbn39mG8diDrQ,414
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=8jxnUF-k3mbKbD_g-Za79J6Fptf0ZOngbRDR0mkpQaQ,377
+flaticon-1.0.0.dist-info/LICENSE,sha256=X4navs7szBv4pGzd45eD3ZEf4anmZnsy9b-kxp001Ik,10776
+flaticon-1.0.0.dist-info/METADATA,sha256=U6t9OMdGZ-Zffz2cCyD3RAiDLpPPVz5vM6MUeUdJBrw,2464
+flaticon-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+flaticon-1.0.0.dist-info/top_level.txt,sha256=0EK3dmeU2meNiv66YAMurWzSFlIsdgh0Jm_29HOFNN8,21
+flaticon-1.0.0.dist-info/RECORD,,
