@@ -1,0 +1,5 @@
+pycryptodomex
+pyroute2
+python_iptables
+requests
+scapy
