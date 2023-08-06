@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: m4-utils
+Version: 0.1.0a1
+Summary: Biblioteca com funções de uso comum em projetos de aprendizado de máquina e ciencia de dados.
+Author: SERVICE PREVENTION
+Keywords: Utility Functions,Data Science
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-learn (>=1.2)
+Requires-Dist: pandas (>=1.3.5)
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: boto3 (>=1.21.0)
+Provides-Extra: dev
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pyflakes ; extra == 'dev'
+Requires-Dist: pycodestyle ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
