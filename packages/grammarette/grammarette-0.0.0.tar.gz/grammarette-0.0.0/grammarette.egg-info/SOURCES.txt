@@ -1,0 +1,14 @@
+HISTORY.md
+LICENSE.md
+README.md
+setup.py
+tests.py
+grammarette/__init__.py
+grammarette/_version.py
+grammarette/grammarette.py
+grammarette/msa.py
+grammarette.egg-info/PKG-INFO
+grammarette.egg-info/SOURCES.txt
+grammarette.egg-info/dependency_links.txt
+grammarette.egg-info/requires.txt
+grammarette.egg-info/top_level.txt
