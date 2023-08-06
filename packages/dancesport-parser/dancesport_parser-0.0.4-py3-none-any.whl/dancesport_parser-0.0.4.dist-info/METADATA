@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dancesport_parser
+Version: 0.0.4
+Summary: Parsing library for dancesport information
+Project-URL: Homepage, https://github.com/ballroombookkeeper/dancesport-parser
+Project-URL: Bug Tracker, https://github.com/ballroombookkeeper/dancesport-parser/issues
+Author-email: Eric Lam <eric@ericblam.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: bs4
+Requires-Dist: pytidylib
+Description-Content-Type: text/markdown
+
+# dancesport-parser
+Parsing library for dancesport information
