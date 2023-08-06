@@ -1,0 +1,17 @@
+anytree
+structlog
+tabulate
+wimpy
+cachetools
+oyaml
+toml
+pip
+packaging>=17
+wheel>=0.32.0
+pkginfo>=1.4.2
+
+[:python_version < "3.7"]
+importlib_metadata
+
+[:python_version < "3.7" or platform_system == "Windows"]
+colorama
