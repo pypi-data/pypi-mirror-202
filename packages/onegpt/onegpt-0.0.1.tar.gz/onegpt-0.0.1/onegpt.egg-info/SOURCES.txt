@@ -1,0 +1,10 @@
+README.md
+setup.py
+onegpt/__init__.py
+onegpt/version.py
+onegpt.egg-info/PKG-INFO
+onegpt.egg-info/SOURCES.txt
+onegpt.egg-info/dependency_links.txt
+onegpt.egg-info/not-zip-safe
+onegpt.egg-info/top_level.txt
+tests/__init__.py
