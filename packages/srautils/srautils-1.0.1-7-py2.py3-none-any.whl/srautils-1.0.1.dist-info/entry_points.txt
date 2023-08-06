@@ -1,0 +1,2 @@
+[console_scripts]
+srautils = srautils.main:main
