@@ -1,0 +1,3 @@
+[console_scripts]
+playfromtext = playfromtext.__init__:main
+
