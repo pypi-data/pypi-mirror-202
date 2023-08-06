@@ -1,0 +1,10 @@
+tdfpy/__init__.py,sha256=_gCj9tHyaCUF2LQpoQnS3GpkD0QWhfnV-Jg1kKtUNJA,33
+tdfpy/constants.py,sha256=TvZieXJumnsF0ZEkr8yDL9STooZHIkaY8spHxaEXanw,809
+tdfpy/libtimsdata.so,sha256=qXCGEyxkvtdUlvfaAqpDp0Go26Sx3AMeGUzZxRpvPp0,13529648
+tdfpy/pandas_tdf.py,sha256=tSLrzA2q1XrzZpb_a-xeDX9mHBWIeEidgFaqrahzIC4,3176
+tdfpy/timsdata.dll,sha256=i1M8ZqXClh38KkqRpYnYPwJf6Z4IbnzSKoINp0pMUM8,2861288
+tdfpy/timsdata.py,sha256=zJMe4OKvk-189v0JVYU8jW7svm-_17iqXFIOETJXFqI,18058
+tdfpy-0.1.3.dist-info/METADATA,sha256=OwnLVvyzfgSkWkNZtyEaaz67zGzv_UvMnq_TXPXt9_M,512
+tdfpy-0.1.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tdfpy-0.1.3.dist-info/top_level.txt,sha256=CF_hwgKZdR2MyWO2eHGw9d7Yp7Xaw7oLtW_Df51BzUI,6
+tdfpy-0.1.3.dist-info/RECORD,,
