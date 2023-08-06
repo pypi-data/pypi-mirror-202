@@ -1,0 +1,2 @@
+[console_scripts]
+genereer_sequentietabel = protocol_verwerker.cli:main
