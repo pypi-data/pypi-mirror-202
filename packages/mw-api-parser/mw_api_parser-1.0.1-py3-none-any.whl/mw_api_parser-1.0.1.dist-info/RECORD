@@ -1,0 +1,11 @@
+mw_api_parser/__init__.py,sha256=16LmiqXehf9izwP0Wg3BTrVqYAMOaLCiwud-zA6kQf4,289
+mw_api_parser/def_audio_links.py,sha256=10tYyyxx1JYgn7ht0fIsIDZ8k--EmADEeJe1bTJvtpQ,1265
+mw_api_parser/get_def_html.py,sha256=64QrpKwKyc4EFhf_HrKJxgGLEI0mZr5mJGgY8hayOlk,1613
+mw_api_parser/get_def_original.py,sha256=YWPZOhA3t9nxlgHW_XhkF7OILOM7q-54ZH_3t9tDxfw,816
+mw_api_parser/get_def_plain_text.py,sha256=VtbRA3XfGIIcXRbIATEFDIBrRQTotYh3YchtnpD69Xo,906
+mw_api_parser/mw_api_response.py,sha256=q3RILwV16uf59eQdpnpVWv7jrXm36gNeJwbHYeyZ8Vo,1235
+mw_api_parser-1.0.1.dist-info/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+mw_api_parser-1.0.1.dist-info/METADATA,sha256=9rT31_-_5nmblZlarBH8RdkK71zB9OH2xhuwvOY8wZs,4153
+mw_api_parser-1.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+mw_api_parser-1.0.1.dist-info/top_level.txt,sha256=A9XbTlK2f9s3H5n9mawUyca9zlqJzl_iAXnt2i_f5yU,14
+mw_api_parser-1.0.1.dist-info/RECORD,,
