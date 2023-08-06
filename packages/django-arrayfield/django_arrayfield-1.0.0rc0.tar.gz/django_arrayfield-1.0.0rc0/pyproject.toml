@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "django-arrayfield"
+description = "Django dependency providing ArrayField<Type> functionality"
+version = "1.0.0-rc"
+license = "./LICENSE.txt"
+authors = [
+    "Michał Gawor <michal@clarin.eu>",
+]
+maintainers = [
+    "Michał Gawor <michal@clarin.eu>",
+]
+packages = [
+    { include = "djangoarrayfield", from = "src" },
+]
+
+
+[tool.poetry.urls]
+changelog = "https://github.com/clarin-eric/djangoarrayfield/blob/main/CHANGELOG.md"
+documentation = "https://github.com/clarin-eric/djangoarrayfield/blob/main/README.md"
+homepage = "https://centres.clarin.eu/"
+repository = "https://github.com/clarin-eric/djangoarrayfield"
+
+[tool.poetry.dependencies]
+python = '>=3.10'
+Django = '4.1.7'
+django-debug-toolbar = '4.0.0'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
