@@ -1,0 +1,11 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/pde/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/pde/client.py,sha256=JmmGIw-5ZHXXELBCKHxSSrzsNjDg4owx2dO0oueS_sE,35301
+src/pde/constant.py,sha256=lKTpLL0LJlPZa6XE9kBuCJa71V7CeUYJ7yICIJfUm8U,5774
+src/pde/util.py,sha256=Glo2Xqvi0uf6azzVy_hkfMGm0RtYIeDXNwgqnWBosyc,14085
+map_pde-0.1.dist-info/LICENSE,sha256=kZv_G-mVGtQ6Uys8x23Tos_u0kj7AJhVCQolP50EOBA,1083
+map_pde-0.1.dist-info/METADATA,sha256=ED08VbMbwKUE2xHTza3DaKTZt_hnlMEk4561wvZI73E,280
+map_pde-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+map_pde-0.1.dist-info/license.txt,sha256=T01FC8OSJDIZ6mZOak8vwF5m9AD8EHF9HmMX29t3HdM,625
+map_pde-0.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+map_pde-0.1.dist-info/RECORD,,
