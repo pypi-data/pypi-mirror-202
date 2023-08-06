@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: simpled
+Version: 0.0.0
+Summary: simpled
+Home-page: http://github.com/serwy/simpled
+Author: Roger D. Serwy
+Author-email: roger.serwy@gmail.com
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+
