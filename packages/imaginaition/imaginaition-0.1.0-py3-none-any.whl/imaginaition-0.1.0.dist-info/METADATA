@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: imaginaition
+Version: 0.1.0
+Summary: Imagination and technology for a better world.
+Author: jtpotato
+Author-email: 
+License-File: LICENSE
+Requires-Dist: auto-editor
+Requires-Dist: rgbprint
+
