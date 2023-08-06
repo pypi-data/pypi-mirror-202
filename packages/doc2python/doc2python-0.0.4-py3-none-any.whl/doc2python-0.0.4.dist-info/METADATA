@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: doc2python
+Version: 0.0.4
+Summary: A simple .doc to string converter for python
+Project-URL: Homepage, https://github.com/Flymeck/doc2python
+Project-URL: Bug Tracker, https://github.com/Flymeck/doc2python/issues
+Author-email: Julian Mecking <jmeck2013@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
