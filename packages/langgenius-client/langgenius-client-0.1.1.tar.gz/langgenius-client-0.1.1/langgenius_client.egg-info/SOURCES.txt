@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+langgenius/__init__.py
+langgenius/client.py
+langgenius_client.egg-info/PKG-INFO
+langgenius_client.egg-info/SOURCES.txt
+langgenius_client.egg-info/dependency_links.txt
+langgenius_client.egg-info/requires.txt
+langgenius_client.egg-info/top_level.txt
+tests/test_client.py
