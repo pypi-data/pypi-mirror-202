@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aiogram-ext
+Version: 0.0.3
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: aiogram>=2.25.1
+Description-Content-Type: text/markdown
+
+# aiogram_tools
+
+
+
