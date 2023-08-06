@@ -1,0 +1,3 @@
+[console_scripts]
+tvault = tvault.__init__:cli_main
+
