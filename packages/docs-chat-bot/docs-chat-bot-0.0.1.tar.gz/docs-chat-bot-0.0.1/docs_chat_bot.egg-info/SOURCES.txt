@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+docs_chat_bot/__init__.py
+docs_chat_bot/docs_chat_bot_server.py
+docs_chat_bot/indexing.py
+docs_chat_bot/plugin.py
+docs_chat_bot.egg-info/PKG-INFO
+docs_chat_bot.egg-info/SOURCES.txt
+docs_chat_bot.egg-info/dependency_links.txt
+docs_chat_bot.egg-info/entry_points.txt
+docs_chat_bot.egg-info/requires.txt
+docs_chat_bot.egg-info/top_level.txt
+docs_chat_bot/js/chat-dialog-plugin.css
+docs_chat_bot/js/chat-dialog-plugin.js
