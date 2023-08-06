@@ -1,0 +1,9 @@
+pyyaml
+numpy
+scipy
+tqdm
+tifffile
+scikit-image
+
+[gpu]
+cupy
