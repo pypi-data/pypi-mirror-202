@@ -1,0 +1,17 @@
+jsonpickle>=2.0
+
+[dev]
+pytest~=7.0
+pytest-cov~=4.0
+pylint~=2.13
+PyMySQL~=1.0
+psycopg2cffi~=2.8
+
+[mongo]
+pymongo~=4.1
+
+[redis]
+redis~=4.3
+
+[sql]
+SQLAlchemy~=1.4
