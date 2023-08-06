@@ -1,0 +1,20 @@
+---
+title: Proto Board Data
+boards:
+  EV06X38A:
+    description: PIC32CXSG41 Curiosity Ultra
+    partNumber: EV06X38A
+    web_link: https://www.microchip.com/en-us/development-tool/EV06X38A
+    img: https://www.microchip.com/content/dam/mchp/mrt-dam/products/mc32/230112-mc32-ev06x38a-145x145-md.jpg
+    serial_series: AZP222800023
+    mcu_part_number: 32CX1025SG41128
+    program_tool: PKOB4
+    kit_name: MPLAB® PKoB4 In-Circuit Debugger
+    product_string: MPLAB® PKoB 4
+    kit_parser_pid: 8978
+    kit_parser_version: v3.0.4
+    connection:
+      interfaceType: hid
+      vid: 1240
+      pid: 33035
+
