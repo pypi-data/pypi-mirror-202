@@ -1,0 +1,16 @@
+bpnet_lite-0.3.0.data/scripts/bpnet,sha256=50s_NV-O0KNC5hs8-BNhnKfkch-EuspXE7ozEfg9f28,8723
+bpnet_lite-0.3.0.data/scripts/chrombpnet,sha256=-q6JKUd4uPZfPjWRkmB0tKbWDTnvsdHwlR4Z9vP7ohQ,8649
+bpnetlite/__init__.py,sha256=q6bovXNUCw0oGZuDdUUoGMr157Tkxdi1-VQ9RyEFaoM,175
+bpnetlite/attributions.py,sha256=5n1PKmAc_XBPTGILEgas7YyZh87L4ZlLb7emRFSJGHU,10712
+bpnetlite/bpnet.py,sha256=GaJdYf2fNf5c9Jl3I-3Bxzg4oGbXHwtpsVYFOp0LtrE,15776
+bpnetlite/chrombpnet.py,sha256=aTtNg9hkXdlNPswmQczERSn9HZkEUYw38QBnjzKnrm0,5827
+bpnetlite/io.py,sha256=JCqy5evhTgjJGZ7PlWddBe8ESeonPOk4CaXHZ3bWUvo,17015
+bpnetlite/logging.py,sha256=7dT7lGHcMxZgbI6_kqOBPN87WzJMvVrsA0XXLd3ZbAQ,1643
+bpnetlite/losses.py,sha256=2kPpx-_HpmjGdOaHgG9eKVEOQga2wCzkYuxXgBc64OE,2418
+bpnetlite/marginalize.py,sha256=DWv764jJmkQK4NYErIheD3GLh-9i-Yts6fo-7mwSa6k,3674
+bpnetlite/performance.py,sha256=P6hbqcGsZscN8ee_R10TftQCt1moi0kU4s3Pa8LQGM4,13599
+bpnet_lite-0.3.0.dist-info/LICENSE,sha256=7INkXi8uNRhuIecag4RwrinhCQmP-P6pAWoK6UOxi1U,1072
+bpnet_lite-0.3.0.dist-info/METADATA,sha256=37Z4Db4BId3c8I4vAgh4mr8j9ZrerEdI3jHBqNt66TA,533
+bpnet_lite-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bpnet_lite-0.3.0.dist-info/top_level.txt,sha256=SKuFVvK8spuR4slxk09vQL-IR3R_x4ahC68BLEU7y3g,10
+bpnet_lite-0.3.0.dist-info/RECORD,,
