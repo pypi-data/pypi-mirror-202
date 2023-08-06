@@ -1,0 +1,2 @@
+[console_scripts]
+mtenv_set = mtenv.__init__:set_data_account
