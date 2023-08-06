@@ -1,0 +1,11 @@
+close_numerical_matches/__init__.py,sha256=IPNboFgp5hOgqaq_jRhG3mZ0WX_L3a7-zalWLdThgW0,244
+close_numerical_matches/find_matches.cp310-win_amd64.pyd,sha256=oY0P_O1sCO5t3MxdJO8gQn1lChMlzuIxOS0oOv5afu8,10752
+close_numerical_matches/find_matches.py,sha256=FaB1niWCB5wzYD9EfweAhn8wcazx5UlQV-z4PgFQlK8,11311
+close_numerical_matches/find_matches__mypyc.cp310-win_amd64.pyd,sha256=Y0Iiw1ZKzFmaa5w6BkH_AGdfeJrUWzPzzEzAzivUXBQ,85504
+close_numerical_matches/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+close_numerical_matches/version.py,sha256=feohWA8qale6QI0nFuoLEkPvTPnZ2sPiyd-wrNfOdHo,61
+close_numerical_matches-0.1.4.dist-info/LICENSE,sha256=yViaJgGtGk6xO97_B19m2cdUL0eNmH9M7PaBGzf5kMM,1101
+close_numerical_matches-0.1.4.dist-info/METADATA,sha256=ULdcOkMJ8WYyDC7KnEBKWnL6ssj68NcrtfnA6nmbC5E,7613
+close_numerical_matches-0.1.4.dist-info/WHEEL,sha256=jrOhEbqKwvzRFSJcbYXlJCyVkgVdHg4_7__YHrdTUfw,102
+close_numerical_matches-0.1.4.dist-info/top_level.txt,sha256=czM2dobUrxyWUCqo3-iGecd1JX1bHspVUljbpBXrjDk,24
+close_numerical_matches-0.1.4.dist-info/RECORD,,
