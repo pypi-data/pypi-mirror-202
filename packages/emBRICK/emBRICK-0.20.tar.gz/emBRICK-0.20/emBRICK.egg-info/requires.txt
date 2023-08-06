@@ -1,0 +1,7 @@
+threaded
+pyserial
+pymodbus
+sockets
+DateTime
+numpy
+scipy

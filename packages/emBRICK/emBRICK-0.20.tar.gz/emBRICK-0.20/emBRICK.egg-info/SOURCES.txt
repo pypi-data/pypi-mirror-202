@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+emBRICK/__init__.py
+emBRICK/binary_utils.py
+emBRICK/bricks.py
+emBRICK/ethernet.py
+emBRICK/modbus_rtu.py
+emBRICK/modbus_tcp.py
+emBRICK.egg-info/PKG-INFO
+emBRICK.egg-info/SOURCES.txt
+emBRICK.egg-info/dependency_links.txt
+emBRICK.egg-info/requires.txt
+emBRICK.egg-info/top_level.txt
