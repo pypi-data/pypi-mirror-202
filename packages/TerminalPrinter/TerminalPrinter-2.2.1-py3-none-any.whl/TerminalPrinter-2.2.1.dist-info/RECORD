@@ -1,0 +1,13 @@
+printer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+printer/font_helper.py,sha256=uz8tqCxA-EmT8t6SEt_r8hYy2aalAfBWCMrElqB3p8I,3466
+printer/http.py,sha256=dg77t-nudOmueQ-EZwtaVEE9A5YZYi5K33QeINl1ld0,17831
+printer/painter.py,sha256=ACg7TOJZBIPwZ9GiSglWWvfjSa4uRgm4TBDdC4gRXG0,5378
+printer/run.py,sha256=HxF8dXkmjxu2LbTHmFt4XDAPDtfbieeii4gCdkG6Tck,4280
+printer/utils.py,sha256=OYBxYhBOSKDkO3hOMe63KKawlt6oKI2lcsGejIeg884,753
+printer/version.py,sha256=DaMFxnwXZeRkoxtQLo-FYZC0OV_HYUkub9wN_jyPK-o,106
+TerminalPrinter-2.2.1.dist-info/LICENSE,sha256=QhH5LScDakiCl2NDKwzWS2MxQesBm_9YIZfb3nH8b_8,1077
+TerminalPrinter-2.2.1.dist-info/METADATA,sha256=vuU5O6MP8qgspqz4PQVW35Vr_brYnLYpaLzNGBK1PH0,931
+TerminalPrinter-2.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+TerminalPrinter-2.2.1.dist-info/entry_points.txt,sha256=Q89mMSfTUYF2QoE3xo15-fK64XoBvF0bV1TdOw_pdkA,50
+TerminalPrinter-2.2.1.dist-info/top_level.txt,sha256=f5Q2aIKx_PV7LCTVKGudMoKkize-H7QNVggUMRMgY2w,8
+TerminalPrinter-2.2.1.dist-info/RECORD,,
