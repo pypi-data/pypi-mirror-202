@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: django-juss2
+Version: 0.1.0
+Summary: A Django Admin Template Base On Bulma.css.
+Home-page: https://github.com/ChanMo/django-juss2/
+Author: ChanMo
+Author-email: chan.mo@outlook.com
+License: MIT
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+License-File: LICENSE
+
+Django Juss Admin
+=================
+
+`v1 <https://github.com/ChanMo/django-juss/>`__
+
+使用\ `Bulma.css <https://bulma.io/documentation/>`__\ 重写Admin模板
+
+.. figure:: ./login.png
+   :alt: Login Page
+
+   Login Page
+
+.. figure:: ./changelist.png
+   :alt: ChangeList Page
+
+   ChangeList Page
+
+Quick Start
+-----------
+
+Install
+~~~~~~~
+
+.. code:: bash
+
+   pip install django-juss2
+
+Update Settings.py
+~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+   INSTALLED_APPS = [
+       'juss',
+       'bulma',
+       ...
+   ]
+   ...
+   FORM_RENDERER = 'django.forms.renderers.TemplatesSetting'  
+
+Create Basic Menus
+~~~~~~~~~~~~~~~~~~
+
+.. code:: bash
+
+   python manage.py create_menus
+
+Todo
+----
+
+-  [x] Menu In Model
+-  [ ] Update Filter
+-  [ ] default useful dashboard
+-  [ ] dark mode

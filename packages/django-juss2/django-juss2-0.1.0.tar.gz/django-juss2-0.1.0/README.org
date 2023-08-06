@@ -1,0 +1,45 @@
+* Django Juss Admin
+
+[[https://github.com/ChanMo/django-juss/][v1]]
+
+使用[[https://bulma.io/documentation/][Bulma.css]]重写Admin模板
+
+#+CAPTION: Login Page
+[[./login.png]]
+
+#+CAPTION: ChangeList Page
+[[./changelist.png]]
+
+
+** Quick Start
+
+*** Install
+
+#+BEGIN_SRC bash
+  pip install django-juss2
+#+END_SRC
+
+*** Update Settings.py
+
+#+BEGIN_SRC python
+  INSTALLED_APPS = [
+      'juss',
+      'bulma',
+      ...
+  ]
+  ...
+  FORM_RENDERER = 'django.forms.renderers.TemplatesSetting'  
+#+END_SRC
+
+*** Create Basic Menus
+
+#+BEGIN_SRC bash
+  python manage.py create_menus
+#+END_SRC
+
+** Todo
+
+- [x] Menu In Model
+- [ ] Update Filter
+- [ ] default useful dashboard
+- [ ] dark mode
