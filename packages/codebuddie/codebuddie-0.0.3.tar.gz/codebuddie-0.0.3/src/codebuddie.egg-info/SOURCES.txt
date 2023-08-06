@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/codebuddie/__init__.py
+src/codebuddie/cli.py
+src/codebuddie/code_updater.py
+src/codebuddie/downloader.py
+src/codebuddie/exception_handler.py
+src/codebuddie/logging_module.py
+src/codebuddie/utils.py
+src/codebuddie.egg-info/PKG-INFO
+src/codebuddie.egg-info/SOURCES.txt
+src/codebuddie.egg-info/dependency_links.txt
+src/codebuddie.egg-info/entry_points.txt
+src/codebuddie.egg-info/requires.txt
+src/codebuddie.egg-info/top_level.txt

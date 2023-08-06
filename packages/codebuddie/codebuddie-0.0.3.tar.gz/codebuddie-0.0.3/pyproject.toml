@@ -1,0 +1,85 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codebuddie"
+version = "0.0.3"
+description = "codebuddie is a Python-based command-line interface (CLI) utility that uses OpenAI chatGPT API to help you in updating comments, docstring, module docstings in your code"
+authors = [
+    {name = "c17hawke", email = "sunny.c17hawke@gmail.com"},
+]
+dependencies = [
+    "requests==2.28.2",
+    "openai",
+    "python-dotenv",
+    "gitpython==3.1.31",
+    ]
+requires-python = ">=3.7"
+readme = "README.md"
+license = {text = "MIT"}
+classifiers = [
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+[options]
+package_dir = "src"
+
+
+[project.optional-dependencies]
+testing = [
+    "ruff==0.0.261",
+    "pytest>=7.2.2",
+    "tox>=4.4.11",
+    "pytest-mock>=3.10.0",
+    "pytest-cov>=4.0.0",
+    "mypy>=1.1.1"
+]
+
+[project.scripts]
+codebuddie = "codebuddie.cli:main"
+
+[project.urls]
+"Bug Tracker" = "https://github.com/c17hawke/codebuddie/issues"
+"Documentation" = "https://c17hawke.github.io/codebuddie/"
+"Source" = "https://github.com/c17hawke/codebuddie"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+    ]
+
+[tool.mypy]
+mypy_path = "src"
+ignore_missing_imports = true
+implicit_optional = true # update for latest mypy
+
+[tool.ruff]
+# Decrease the maximum line length to 127 characters.
+line-length = 127
+src = ["src"]
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+# rules reference - https://beta.ruff.rs/docs/rules/
+select = [
+    "E9",
+    "F63",
+    "F7",
+    "F82",
+    "ANN001",
+    "ANN201",
+    "ANN202",
+    "ANN205",
+    "ANN206",
+]
+
+[tool.ruff.mccabe]
+# Unlike Flake8, default to a complexity level of 10.
+max-complexity = 10
+
+[tool.pyright]
+include = ["src"]
