@@ -1,0 +1,6 @@
+pyproject.toml
+src/pythonmonkey/__init__.py
+src/pythonmonkey.egg-info/PKG-INFO
+src/pythonmonkey.egg-info/SOURCES.txt
+src/pythonmonkey.egg-info/dependency_links.txt
+src/pythonmonkey.egg-info/top_level.txt
