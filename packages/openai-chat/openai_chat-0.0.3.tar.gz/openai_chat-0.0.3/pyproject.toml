@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "openai-chat"
+version = "0.0.3"
+python_requires = ">=3.9"
+description = "CLI for chatting through OpenAI's API."
+authors = [
+    {name = "Ryan Young", email = "dev@ryayoung.com"}
+]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/ryayoung/openai-chat"
+repository = "https://github.com/ryayoung/openai-chat"
+documentation = "https://openai-chat.readthedocs.io"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries"
+]
+dependencies = [
+    'requests',
+    'openai',
+    'colorama',
+    'click',
+    'prompt-toolkit',
+]
+
+[project.scripts]
+ai = "gpt_ai.main:main"
