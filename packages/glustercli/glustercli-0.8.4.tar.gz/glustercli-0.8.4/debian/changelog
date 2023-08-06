@@ -1,0 +1,6 @@
+glustercli (0.8) unstable; urgency=medium
+
+  [ Caleb St. John ]
+  * initial debian package
+
+ -- Caleb <yocalebo@gmail.com>  Wed, 05 May 2021 15:10:00 -0400
