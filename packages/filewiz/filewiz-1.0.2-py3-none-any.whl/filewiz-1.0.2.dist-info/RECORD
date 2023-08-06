@@ -1,0 +1,9 @@
+filewiz/__init__.py,sha256=h6XM453nbkThemCiZjJAMG5D3pBvGf8IvLEQTzDHkN4,1499
+filewiz/__main__.py,sha256=CY8qwuyOoczArXVRxBmp1xgyPXJopAQ4eANFpfLXAJY,74
+filewiz/handler.py,sha256=ma-YH4h_XzH43M5q0slrWaK8VbKh8Dk3fhkAsNH7SGM,103
+filewiz/readline_util.py,sha256=-4vMUHXSmIiv0EMwoZIzqgyvDgqP0gYV1EJZgLsNIRw,1283
+filewiz-1.0.2.dist-info/METADATA,sha256=ncS-ZeOzaDsyODlF3Kz5a09vLTgoQK-KgF6jELD8LPI,1634
+filewiz-1.0.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+filewiz-1.0.2.dist-info/entry_points.txt,sha256=A02ui2Xn3D3ZM03bzI6PJs0-F9VD1B7d9tdaKIEa_IM,49
+filewiz-1.0.2.dist-info/top_level.txt,sha256=JXSqxjYdgIoDtbRCDQ_NdYjTwKwPjiDr_3LPzn117Eg,8
+filewiz-1.0.2.dist-info/RECORD,,
