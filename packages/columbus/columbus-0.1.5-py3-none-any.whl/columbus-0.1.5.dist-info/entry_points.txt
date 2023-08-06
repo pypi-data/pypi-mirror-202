@@ -1,0 +1,4 @@
+[console_scripts]
+run=columbus.run:app
+start=columbus.start:app
+
