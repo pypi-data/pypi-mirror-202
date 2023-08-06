@@ -1,0 +1,6 @@
+py3curl.py
+setup.py
+py3curl.egg-info/PKG-INFO
+py3curl.egg-info/SOURCES.txt
+py3curl.egg-info/dependency_links.txt
+py3curl.egg-info/top_level.txt
