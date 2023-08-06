@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+haicu.egg-info/PKG-INFO
+haicu.egg-info/SOURCES.txt
+haicu.egg-info/dependency_links.txt
+haicu.egg-info/requires.txt
+haicu.egg-info/top_level.txt
