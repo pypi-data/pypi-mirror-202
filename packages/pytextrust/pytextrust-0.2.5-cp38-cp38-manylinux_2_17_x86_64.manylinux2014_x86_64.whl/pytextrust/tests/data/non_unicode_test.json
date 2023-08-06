@@ -1,0 +1,28 @@
+{
+    "patterns": [
+        "çañ",
+        "\\wçañ\\w",
+        "hola mundo",
+        "\\bni\\W{1}q\\b",
+        "Isaac (?!Asimov)",
+        "España",
+        "ça va",
+        "\\b(ni|nada) ((\\w|>|<)*\\s){0,3}idea\\b",
+        "\\b(ni|nada) (\\w*\\s){0,3}idea\\b",
+        "\\bno \\w* nada",
+        "miércoles en españa"
+    ],
+    "texts": [
+        "çañ- çañé úçañ .çañ, @çañ",
+        "vale hola mundo ok",
+        "ni q me parece mal",
+        "no es Isaac Peral",
+        "es Issac Asimov",
+        "en el pais españa ça va",
+        "no tengo ni puñetera idea porque",
+        "no tengo ni çava idea",
+        "no corrí nada",
+        "para no leña nada",
+        "hoy es miércoles en españa"
+    ]
+}
