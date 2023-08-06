@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: adb-logger
+Version: 0.1
+Summary: Check ADB logs of multiple android devices
+Author: Jawad Chowdhury
