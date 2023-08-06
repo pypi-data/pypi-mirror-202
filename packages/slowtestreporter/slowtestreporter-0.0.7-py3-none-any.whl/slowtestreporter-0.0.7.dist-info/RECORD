@@ -1,0 +1,9 @@
+slowtestreporter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slowtestreporter/cli.py,sha256=PlswoZ0D5yKuQ-RXdlR_X1sV6VUVtKIHz2x7HxxY1js,3361
+slowtestreporter/slowtestreporter.py,sha256=cW1ppwp8gA0KjYVbUScp8W_DNSCzBVDT1q-FyIOclTA,3446
+slowtestreporter-0.0.7.dist-info/LICENSE,sha256=nluG0S0qgj7SX5ZREqR61KLZEmYdZIdNuDYUXtxX_7E,1065
+slowtestreporter-0.0.7.dist-info/METADATA,sha256=WRllS1AAzExGfQF-LCUGzyjEDy2nrJz7gSt_COplR04,1490
+slowtestreporter-0.0.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+slowtestreporter-0.0.7.dist-info/entry_points.txt,sha256=cMQZShNvpofMTUk9v-9F1eITqXfKlzIib_6Vgqs5RCo,63
+slowtestreporter-0.0.7.dist-info/top_level.txt,sha256=IfipFZoS0OCEaYNcgaSWiIhqGNcEyhW_WSqrykv4b68,17
+slowtestreporter-0.0.7.dist-info/RECORD,,
