@@ -1,0 +1,14 @@
+jaxrie-2.dist-info/METADATA,sha256=PBEX4qaK4GIAkFJiYX1S8vmWve1yCLCf1QrxoADCkQs,418
+jaxrie-2.dist-info/WHEEL,sha256=7dGFtUmOf30dPBLpGD2z643cxg89joO7p3JHBAwDv6E,90
+jaxrie/__init__.py,sha256=09Y9nF6NvGwsfZj93F3-CXTSmnWTFSMfRsL-S2HY3ps,240
+jaxrie/__version__.py,sha256=ixUZ84NH0AaU3TvGyUqERwFnab7ipWpQibGbAvES-xw,18
+jaxrie/manifold/__init__.py,sha256=MPTc5J_66175u1HoX-_AAb-eHPVcZXboRFU5YdLp3QA,183
+jaxrie/manifold/base.py,sha256=Ns9MW9KCibg9yVai51o0d6hc3b42BxD2OMfGbWJAY4M,4015
+jaxrie/manifold/lorentz.py,sha256=F6xx0n3El_dN4V8NPPk20qNxkRQloFabPRDBDHe_JYM,1456
+jaxrie/manifold/math.py,sha256=H5oBv_RHb2O6y8Ek-BKTY6-OOZw7JP_8Kkzf52yB7LA,22649
+jaxrie/manifold/stereographic.py,sha256=LuPHBgdTGZDoVQ9tlhgG39xODG5RjIEuaLmBTH9Cu0U,5304
+jaxrie/modules/__init__.py,sha256=baT_Vh_TL9ESzwh3XmPnbs3PTehVeYzA_-xYerAUn3s,93
+jaxrie/modules/basic.py,sha256=mkLtJvHAWcpzoX7tL00SrMEU9mGYG7jmQAdqOaM2Ptc,4816
+jaxrie/nets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jaxrie/nets/basic.py,sha256=pTWD5nai5gz_Tb2DVQTYlG1MRSX8R3USIx6PxNFLxGE,2342
+jaxrie-2.dist-info/RECORD,,
