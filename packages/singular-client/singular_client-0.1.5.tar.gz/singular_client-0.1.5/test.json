@@ -1,0 +1,12 @@
+'filters': [
+    {
+        "dimension": "os",
+        "operator": "in",
+        "values": [1, 4]
+    },
+    {
+        "dimension": "source",
+        "operator": "not in",
+        "values": ["adwords"]
+    }
+]
