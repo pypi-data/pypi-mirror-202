@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: unfqt
+Version: 0.2.3
+Author-email: Joe Schr <joe.vandelay@gmail.com>
+Requires-Python: >=3.7
+Requires-Dist: detecta
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: psutil
+
