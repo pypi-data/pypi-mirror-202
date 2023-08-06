@@ -1,0 +1,16 @@
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/requirements.txt
+src/llama_inference/__init__.py
+src/llama_inference/app.py
+src/llama_inference/model.py
+src/llama_inference.egg-info/PKG-INFO
+src/llama_inference.egg-info/SOURCES.txt
+src/llama_inference.egg-info/dependency_links.txt
+src/llama_inference.egg-info/requires.txt
+src/llama_inference.egg-info/top_level.txt
