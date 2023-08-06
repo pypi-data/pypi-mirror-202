@@ -1,0 +1,8 @@
+setup.py
+slackflylog/__init__.py
+slackflylog/setup.py
+slackflylog.egg-info/PKG-INFO
+slackflylog.egg-info/SOURCES.txt
+slackflylog.egg-info/dependency_links.txt
+slackflylog.egg-info/requires.txt
+slackflylog.egg-info/top_level.txt
