@@ -1,0 +1,100 @@
+[project]
+name = "qp-prob"
+license = {file = "LICENSE"}
+readme = "README.md"
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+]
+dynamic = ["version"]
+dependencies = [
+    "numpy",
+    "scipy >= 1.9.0",
+    "tables-io >= 0.8.0",
+    "deprecated",
+]
+
+
+[metadata]
+author = "Alex Malz, Phil Marshall, Eric Charles"
+author_email = "aimalz@nyu.edu, pjm@slac.stanford.edu, echarles@slac.stanford.edu"
+description = "Quantile parametrization of probability distribution functions"
+long_description = { file = "README.md" }
+url = "https://github.com/LSSTDESC/qp"
+
+[build-system]
+requires = [
+    "setuptools>=61",
+    "wheel",
+    "setuptools_scm[toml]>=7.0.0",
+    "setuptools_scm_git_archive"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+"qp.data" = ["*.npy"]
+
+[tool.setuptools_scm]
+write_to = "src/qp/_version.py"
+
+[project.optional-dependencies]
+full = [
+    "tables-io[full]",
+]
+all = [
+    "tables-io[full]",
+    "matplotlib",
+    "scikit-learn",
+]
+dev = [
+    "tables-io[full]",
+    "matplotlib",
+    "scikit-learn",
+    "pytest",
+    "pytest-cov",
+    "packaging",
+    "pillow",
+    "cycler",
+    "python-dateutil",
+    "kiwisolver",
+    "joblib",
+    "threadpoolctl",
+    "pylint",
+    "mpi4py",
+    "coverage",
+]
+
+[tool.coverage.run]
+source = ["qp"]
+branch = true
+
+[tool.pytest.ini_options]
+addopts = [
+    "--cov=qp",
+    "--cov-report=html"
+]
+
+[tool.pylint]
+disable = [
+    "abstract-method",
+    "invalid-name",
+    "too-many-statements",
+    "too-many-arguments",
+    "too-many-instance-attributes",
+    "missing-module-docstring",
+    "missing-class-docstring",
+    "missing-function-docstring",
+    "too-few-public-methods",
+    "duplicate-code",
+    "use-dict-literal",
+    "consider-using-f-string",
+]
+max-line-length = 150
+max-locals = 50
+max-branches = 25
+max-public-methods = 50
