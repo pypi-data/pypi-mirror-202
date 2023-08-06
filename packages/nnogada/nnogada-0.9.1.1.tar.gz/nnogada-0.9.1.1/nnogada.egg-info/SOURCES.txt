@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nnogada.egg-info/PKG-INFO
+nnogada.egg-info/SOURCES.txt
+nnogada.egg-info/dependency_links.txt
+nnogada.egg-info/requires.txt
+nnogada.egg-info/top_level.txt
