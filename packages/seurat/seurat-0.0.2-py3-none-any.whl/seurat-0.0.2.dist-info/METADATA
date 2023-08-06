@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: seurat
+Version: 0.0.2
+Summary: 
+Author: Mac Prible
+Author-email: prible@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: mediapipe (>=0.9.2.1,<0.10.0.0)
+Requires-Dist: opencv-contrib-python (>=4.7.0.72,<5.0.0.0)
+Requires-Dist: opencv-python (>=4.7.0.72,<5.0.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Description-Content-Type: text/markdown
+
+# seurat
+Give Seurat a picture and get requested (x,y) points in return.
+
+
+A working project intended to interface with [Pyxy3d](github.com/mprib/pyxy3d)
+
