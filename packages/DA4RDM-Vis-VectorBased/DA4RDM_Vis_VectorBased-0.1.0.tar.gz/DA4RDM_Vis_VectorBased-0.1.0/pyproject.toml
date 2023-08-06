@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DA4RDM_Vis_VectorBased"
+version = "0.1.0"
+description = "Package that can be used to perform RDLC analysis by determining the correlations for the different phases of the development life cycle."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'plotly >= 5.8.2',
+  'numpy >= 1.18.1',
+  'pandas >= 1.0.1',
+  'python_dateutil >= 2.8.2',
+  'scipy >= 1.4.1',
+  'kaleido >= 0.2.1',
+]
+
