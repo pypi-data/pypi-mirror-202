@@ -1,0 +1,11 @@
+prcssr/Controller.py,sha256=za7a_drGuMDjarGjebbR9rB_qsJR3xFq7uv8Mx3isMU,1118
+prcssr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prcssr/__main__.py,sha256=xqb7eTSENlG0dAnPHzFsfdgtRjHr1k_2qdxehKk0pwI,721
+prcssr/model/Processor.py,sha256=MQibDvtepzdjZsgG6TYyei3MinfStBvcJn7cCZcjOv4,1019
+prcssr/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prcssr-1.0.0.dist-info/LICENSE.md,sha256=snvcgke-lQnZUwgw7zHPEZrn7882rjNLHIhl1ATfZ1s,1094
+prcssr-1.0.0.dist-info/METADATA,sha256=Uyy59i8YIu1aNhVrTkwBSdBlXXcyBHciXp9Xp2ch1mE,1552
+prcssr-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+prcssr-1.0.0.dist-info/entry_points.txt,sha256=l7j19hc2RAUOWU4W3cclYrX-fL5MbxPDWX5PLjXeqTE,48
+prcssr-1.0.0.dist-info/top_level.txt,sha256=HsK8vLO5NEFqAVOlu77sNdeMnGaLIqxon0blXuFY1mY,7
+prcssr-1.0.0.dist-info/RECORD,,
