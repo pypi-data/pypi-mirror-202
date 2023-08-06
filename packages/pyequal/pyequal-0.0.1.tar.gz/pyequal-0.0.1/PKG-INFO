@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyequal
+Version: 0.0.1
+Summary: This will compare two numbers.
+Home-page: 
+Author: Madhav .S. Kurup
+Author-email: madhavshibu2010@gmail.com
+License: MIT
+Keywords: compare
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This will compare two numbers.
+
+Change Log
+==========
+
+0.0.1(10/4/2023)
+-----------------
+-First Release
+

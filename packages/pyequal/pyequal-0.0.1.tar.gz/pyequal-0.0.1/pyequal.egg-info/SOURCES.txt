@@ -1,0 +1,7 @@
+LICENCE.txt
+README.txt
+setup.py
+pyequal.egg-info/PKG-INFO
+pyequal.egg-info/SOURCES.txt
+pyequal.egg-info/dependency_links.txt
+pyequal.egg-info/top_level.txt
