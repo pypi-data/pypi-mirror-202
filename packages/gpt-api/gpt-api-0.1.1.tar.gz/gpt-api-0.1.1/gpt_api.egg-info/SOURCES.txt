@@ -1,0 +1,8 @@
+setup.py
+api/__init__.py
+api/gpt.py
+gpt_api.egg-info/PKG-INFO
+gpt_api.egg-info/SOURCES.txt
+gpt_api.egg-info/dependency_links.txt
+gpt_api.egg-info/requires.txt
+gpt_api.egg-info/top_level.txt
