@@ -1,0 +1,10 @@
+tencentcloud/__init__.py,sha256=pIoFzkgY80-rwwDp8mlfgl1It_dF5Q_XHrBxt4eoCts,630
+tencentcloud/vrs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/vrs/v20200824/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/vrs/v20200824/errorcodes.py,sha256=szKdNBgmUD2PTKtUYmRnl_ZwFbxJba7eL99ItrAsNdo,1709
+tencentcloud/vrs/v20200824/models.py,sha256=bE0112Fy1obF_rks5QA0zB_9ZmUjE-a2SapcPkqgHa4,15237
+tencentcloud/vrs/v20200824/vrs_client.py,sha256=Q1pxo9lOqRod-cb3puJZ5cMsh_G5A2FOIpXXkyx4ZGc,5710
+tencentcloud_sdk_python_vrs-3.0.871.dist-info/METADATA,sha256=cYF6x_i_E0uM8-MzaJrDPWplb-94y1lgdak5H4kuJFA,1432
+tencentcloud_sdk_python_vrs-3.0.871.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+tencentcloud_sdk_python_vrs-3.0.871.dist-info/top_level.txt,sha256=g-8OyzoqI6O6LiS85zkeNzhB-osEnRIPZMdyRd_0eL0,13
+tencentcloud_sdk_python_vrs-3.0.871.dist-info/RECORD,,
