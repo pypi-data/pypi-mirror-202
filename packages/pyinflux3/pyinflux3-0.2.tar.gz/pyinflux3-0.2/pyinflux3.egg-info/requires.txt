@@ -1,0 +1,5 @@
+pyarrow
+flightsql-dbapi
+influxdb-client
+pygments
+prompt_toolkit
