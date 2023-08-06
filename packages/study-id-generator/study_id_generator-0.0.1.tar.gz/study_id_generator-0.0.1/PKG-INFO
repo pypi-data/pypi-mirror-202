@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: study_id_generator
+Version: 0.0.1
+Summary: Study ID Generator.
+Author-email: Sushant Obeja <sobeja@umich.edu>, Adam Patterson <adpatter@umich.edu>
+Project-URL: Homepage, https://git.umms.med.umich.edu/feldman-lab/study_id_generator
+Project-URL: Bug Tracker, https://git.umms.med.umich.edu/feldman-lab/study_id_generator/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Study ID Generator
