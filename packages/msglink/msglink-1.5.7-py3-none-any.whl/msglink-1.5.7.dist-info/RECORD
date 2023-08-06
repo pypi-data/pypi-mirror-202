@@ -1,0 +1,10 @@
+msglink/__init__.py,sha256=ctsEdpcdipcGS6N1I5qTWEUjcDZSXK3JRYg6Ub9xBcA,114
+msglink/packets.py,sha256=Ep7wM991gG144kphXILTQEZr9gbWX9CPF1d_YefK6aE,5063
+msglink/protocol.py,sha256=IJPbhFw02TVISEI-jcx6fiNs6x-qR86JNjKKbODQU8I,13590
+msglink/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msglink/router.py,sha256=jAplfW-qE1SkN9aIyatkVKPEh1MyWm6N0416OvmhDG0,10652
+msglink-1.5.7.dist-info/LICENSE.txt,sha256=LPNKwDiu5awG-TPd0dqYJuC7k4PBPY4LCI_O0LSpW1s,7814
+msglink-1.5.7.dist-info/METADATA,sha256=zJC7yMj3MMqNB773viJxEAtD2msvEZPAw4jc0Jfi_VM,177
+msglink-1.5.7.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+msglink-1.5.7.dist-info/top_level.txt,sha256=Hwg-3n2eonQrNKIaUNjeqLQ_MyMS6HwOwyZ9gvukGcY,8
+msglink-1.5.7.dist-info/RECORD,,
