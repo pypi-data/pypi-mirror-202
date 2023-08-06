@@ -1,0 +1,2 @@
+[console_scripts]
+mycommand = my_package.my_module:my_function
