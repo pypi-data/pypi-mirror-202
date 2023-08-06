@@ -1,0 +1,8 @@
+README.md
+setup.py
+bazingo/__init__.py
+bazingo/bazingo.py
+bazingo.egg-info/PKG-INFO
+bazingo.egg-info/SOURCES.txt
+bazingo.egg-info/dependency_links.txt
+bazingo.egg-info/top_level.txt
