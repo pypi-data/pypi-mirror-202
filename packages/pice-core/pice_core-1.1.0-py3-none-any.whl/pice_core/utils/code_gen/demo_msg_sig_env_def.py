@@ -1,0 +1,1 @@
+from enum import Enumclass Message(Enum):    passclass Signal(Enum):    passclass EnvName(Enum):    pass

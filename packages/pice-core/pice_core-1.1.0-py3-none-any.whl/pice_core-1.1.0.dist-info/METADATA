@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pice-core
+Version: 1.1.0
+Summary: this is a program for pice_core
+Author: siwei.lu
+Author-email: siwei.lu@keboda.com
+Requires-Dist: cantools (==38.0.2)
+Requires-Dist: nidaqmx (==0.7.0)
+Requires-Dist: numpy (==1.24.2)
+Requires-Dist: odxtools (==3.0.2)
+Requires-Dist: openpyxl (==3.1.2)
+Requires-Dist: pyserial (==3.5)
+Requires-Dist: python-can (==3.3.4)
+Requires-Dist: pyvisa (==1.13.0)
+Requires-Dist: pywin32 (==306)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: requests (==2.28.2)
+
