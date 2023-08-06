@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+magpy_nc.egg-info/PKG-INFO
+magpy_nc.egg-info/SOURCES.txt
+magpy_nc.egg-info/dependency_links.txt
+magpy_nc.egg-info/requires.txt
+magpy_nc.egg-info/top_level.txt
