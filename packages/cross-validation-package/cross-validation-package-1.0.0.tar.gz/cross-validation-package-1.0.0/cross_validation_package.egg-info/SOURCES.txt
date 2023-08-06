@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cross_validation_package.egg-info/PKG-INFO
+cross_validation_package.egg-info/SOURCES.txt
+cross_validation_package.egg-info/dependency_links.txt
+cross_validation_package.egg-info/requires.txt
+cross_validation_package.egg-info/top_level.txt
+src/__init__.py
+src/cross_validation/__init__.py
+src/cross_validation/cross_validation.py
+tests/__init__.py
+tests/test_cross_validation.py
