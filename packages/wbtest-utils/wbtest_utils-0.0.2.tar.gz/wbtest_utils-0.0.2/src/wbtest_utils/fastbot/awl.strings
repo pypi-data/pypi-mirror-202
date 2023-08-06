@@ -1,0 +1,4 @@
+com.sina.weibo.SplashActivity
+com.sina.weibo.NewProjectModeActivity
+com.sina.weibo.wboxsdk.page.acts.WBXPageActivity
+com.sina.weibo.browser.WeiboBrowser

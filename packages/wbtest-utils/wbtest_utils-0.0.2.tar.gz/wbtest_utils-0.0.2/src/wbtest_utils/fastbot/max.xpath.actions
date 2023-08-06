@@ -1,0 +1,25 @@
+{
+    "prob": 1,
+    "activity":"com.sina.weibo.wboxsdk.page.acts.WBXPageActivity",
+    "times": 1,
+    "actions": [
+        {
+            "xpath":"//*[@text='连续包季']",
+            "action":"CLICK",
+            "index": 0,
+            "throttle": 1000
+        },
+        {
+            "xpath":"//*[@text='连续包月']",
+            "action":"CLICK",
+            "index": 1,
+            "throttle": 1000
+        },
+        {
+            "xpath":"//*[@text='连续包年']",
+            "action":"CLICK",
+            "index": 2,
+            "throttle": 1000
+        },
+    ]
+}

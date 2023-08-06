@@ -1,0 +1,14 @@
+[
+{
+    "activity":"com.sina.weibo.wboxsdk.page.acts.WBXPageActivity",
+    "xpath":"//*[@resource-id='com.sina.weibo:id/tv_menu' and @text='返回首页']"
+},
+{
+    "activity":"com.sina.weibo.wboxsdk.page.acts.WBXPageActivity",
+    "xpath":"//*[@resource-id='com.sina.weibo:id/btn_title_left']"
+},
+{
+    "activity":"com.bbk.launcher2.Launcher",
+    "xpath":"//*[@resource-id='com.android.systemui:id/nav_buttons']"
+}
+]

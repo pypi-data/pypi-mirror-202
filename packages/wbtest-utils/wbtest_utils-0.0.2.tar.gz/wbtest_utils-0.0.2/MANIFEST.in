@@ -1,0 +1,1 @@
+recursive-include src/wbtest_utils/fastbot *.strings *.jar *.config *.schema *.black *.actions *.so
