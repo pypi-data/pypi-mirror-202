@@ -1,0 +1,4 @@
+pyjwt
+
+[dev]
+check-manifest
