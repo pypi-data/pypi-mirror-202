@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: hitchprojectsync
+Version: 0.1.0
+Summary: Sync project up to a base project.
+Author-email: Colm O'Connor <colm.oconnor.github@gmail.com>
+License: MIT
+Project-URL: homepage, https://hitchdev.com/hitchprojectsync
+Project-URL: documentation, https://hitchdev.com/hitchprojectsync/using
+Project-URL: repository, https://github.com/hitchdev/hitchprojectsync
+Project-URL: changelog, https://hitchdev.com/hitchprojectsync/changelog
+Keywords: project,sync
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# HitchProjectSync

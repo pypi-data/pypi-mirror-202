@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE.txt
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.py
+hitchprojectsync/__init__.py
+hitchprojectsync/app.py
+hitchprojectsync.egg-info/PKG-INFO
+hitchprojectsync.egg-info/SOURCES.txt
+hitchprojectsync.egg-info/dependency_links.txt
+hitchprojectsync.egg-info/entry_points.txt
+hitchprojectsync.egg-info/requires.txt
+hitchprojectsync.egg-info/top_level.txt
