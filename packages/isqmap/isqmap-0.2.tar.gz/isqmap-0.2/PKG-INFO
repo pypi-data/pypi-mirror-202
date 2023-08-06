@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: isqmap
+Version: 0.2
+Summary: a qubit mapping package
+Home-page: UNKNOWN
+Author: arclightquantum
+Author-email: louhz@arclightquantum.com
+License: UNKNOWN
+Description: # mapping
+        
+        该软件包提供了量子比特映射功能，通过`transpile`接口完成
+Platform: python 3.7+
+Description-Content-Type: text/markdown
