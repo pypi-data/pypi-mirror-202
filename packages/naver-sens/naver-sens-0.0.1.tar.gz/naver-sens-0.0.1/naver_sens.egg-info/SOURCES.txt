@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+naver_sens/__init__.py
+naver_sens/naver_sens.py
+naver_sens.egg-info/PKG-INFO
+naver_sens.egg-info/SOURCES.txt
+naver_sens.egg-info/dependency_links.txt
+naver_sens.egg-info/requires.txt
+naver_sens.egg-info/top_level.txt
