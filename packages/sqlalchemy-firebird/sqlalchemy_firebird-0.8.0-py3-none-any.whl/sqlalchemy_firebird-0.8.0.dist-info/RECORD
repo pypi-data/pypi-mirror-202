@@ -1,0 +1,12 @@
+sqlalchemy_firebird/__init__.py,sha256=Xf20KhJSkNnsnIBxqz61wRiPClmTvrFdh-1eqk6pW40,1109
+sqlalchemy_firebird/base.py,sha256=6y9yCDFAVOhvWC3knuzPSxPXpm3UYPqH6trQn9Xewus,35223
+sqlalchemy_firebird/fdb.py,sha256=FZjXoEzVbOVsK_dl1CnyzdFf9iZ2d3yUORUByOlPIKk,4082
+sqlalchemy_firebird/kinterbasdb.py,sha256=aSu4pXSc8cWDIGmuoyC-uLQTFqNdELIQntl3ssFWpIw,6415
+sqlalchemy_firebird/provision.py,sha256=lhiG3_gJoSXl2GSBgnDAxbGx4RlzyuaEQtst2Btm7kY,348
+sqlalchemy_firebird/requirements.py,sha256=f4ZeLg_4VGS5lcam3hdofWPlrKA9HxMPGKP19w27vnk,2984
+sqlalchemy_firebird-0.8.0.dist-info/LICENSE,sha256=w9NtQr55N0mxk_6HwKlL-pfhAs7uCTAA4k07_yMwEOs,1117
+sqlalchemy_firebird-0.8.0.dist-info/METADATA,sha256=OSNWd96jIdLuefnrr7Wq0fzI_OLWM6E9lzsNObkW7Wk,2328
+sqlalchemy_firebird-0.8.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+sqlalchemy_firebird-0.8.0.dist-info/entry_points.txt,sha256=H8qq8DmedohQWC9tIzrVrMZ8bxG5XPfTTJbPWkLyRTU,124
+sqlalchemy_firebird-0.8.0.dist-info/top_level.txt,sha256=vyr06RFBy-co_vx2iweHdXEyBr6ojKax0aKAc_cuHrI,20
+sqlalchemy_firebird-0.8.0.dist-info/RECORD,,
