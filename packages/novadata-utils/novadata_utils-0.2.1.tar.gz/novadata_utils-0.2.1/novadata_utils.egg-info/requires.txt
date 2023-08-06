@@ -1,0 +1,5 @@
+django
+django-admin-list-filter-dropdown
+django-import-export
+django-object-actions>=4.0.0
+djangorestframework
