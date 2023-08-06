@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: test-package-lenin
+Version: 0.0.1
+Summary: A sample test package
+Home-page: https://github.com/leninloitongbam/test-package-lenin
+Author: Lenin Loitongbam
+Author-email: clear.lenin@gmail.com
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# package_test
+pypi
