@@ -1,0 +1,5 @@
+pydash<7
+python-graphql-client
+requests
+cachetools
+pygithub
