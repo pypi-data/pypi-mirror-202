@@ -1,0 +1,10 @@
+jupyter_ai_magics/__init__.py,sha256=XEr4OhHo8R2jRoAFTEfraz2BftUgH-XJX0SV7SWSuzg,395
+jupyter_ai_magics/_version.py,sha256=efv02WZz012b3Yfi0__4d2EvXfJa-MdSeKtd2PmarsQ,171
+jupyter_ai_magics/magics.py,sha256=F7iiZHAHZ314u0PzOthKUJ-gBmHAvK6v51i_dIPs9TI,7053
+jupyter_ai_magics/providers.py,sha256=sdMe4W-zpk0bbLnguZGZtp6TQojL5stobUYxcvfRKng,5633
+jupyter_ai_magics/tests/__init__.py,sha256=68xsPjPdZEIUM4riX3kTX8KZ3GoeXoDZWwSWNt_u-nU,47
+jupyter_ai_magics-0.4.0.dist-info/METADATA,sha256=zDh0kCyrNitrVSzhTvMwA5Uz5BSbtX6kTW7nKyzI0VM,3404
+jupyter_ai_magics-0.4.0.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+jupyter_ai_magics-0.4.0.dist-info/entry_points.txt,sha256=6F-Ne4lTPj7zl5qj1skkCo1PPNAb349cJl5oGbE7qqo,358
+jupyter_ai_magics-0.4.0.dist-info/licenses/LICENSE,sha256=wMVD2Kl_IyhVyrcy1ScHkwjEWwyEHqhtKzOFbhEH_B0,1523
+jupyter_ai_magics-0.4.0.dist-info/RECORD,,
