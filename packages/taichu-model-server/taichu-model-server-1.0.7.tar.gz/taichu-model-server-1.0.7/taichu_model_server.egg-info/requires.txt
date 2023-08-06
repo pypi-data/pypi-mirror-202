@@ -1,0 +1,7 @@
+grpcio
+grpc-tools
+protobuf
+Flask
+gunicorn
+Jinja2
+Pillow
