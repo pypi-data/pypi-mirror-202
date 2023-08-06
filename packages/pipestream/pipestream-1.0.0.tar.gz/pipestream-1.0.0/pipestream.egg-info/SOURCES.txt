@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pipestream/__init__.py
+pipestream/pipeline.py
+pipestream.egg-info/PKG-INFO
+pipestream.egg-info/SOURCES.txt
+pipestream.egg-info/dependency_links.txt
+pipestream.egg-info/top_level.txt
+tests/test_pipeline.py
