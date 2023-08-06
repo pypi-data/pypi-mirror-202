@@ -1,0 +1,4 @@
+click
+
+[all]
+test-mqc-module

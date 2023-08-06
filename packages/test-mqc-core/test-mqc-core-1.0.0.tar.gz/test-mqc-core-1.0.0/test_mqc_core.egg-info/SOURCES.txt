@@ -1,0 +1,7 @@
+setup.py
+test_mqc_core.egg-info/PKG-INFO
+test_mqc_core.egg-info/SOURCES.txt
+test_mqc_core.egg-info/dependency_links.txt
+test_mqc_core.egg-info/not-zip-safe
+test_mqc_core.egg-info/requires.txt
+test_mqc_core.egg-info/top_level.txt
