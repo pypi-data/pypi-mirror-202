@@ -1,0 +1,5 @@
+pyproject.toml
+shaka.egg-info/PKG-INFO
+shaka.egg-info/SOURCES.txt
+shaka.egg-info/dependency_links.txt
+shaka.egg-info/top_level.txt
