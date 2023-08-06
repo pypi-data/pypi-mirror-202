@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: astro-gdt
+Version: 2.0.0
+Summary: Gamma-ray Data Tools: Core Components
+Home-page: https://github.com/USRA-STI/gdt-core
+Author: Cleveland, Goldstein, Kocevski
+Project-URL: Documentation, https://astro-gdt.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/USRA-STI/gdt-core
+Project-URL: Tracker, https://github.com/USRA-STI/gdt-core/issues
+Keywords: astronomy,gammaray,gamma-ray,usra
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Provides-Extra: all
+License-File: license.txt
+
+======================================
+Gamma-ray Data Tools - Core Components
+======================================
+
+The Gamma-ray Data Tools (GDT) is centralized toolkit for hard X-ray and
+gamma-ray astrophysics data analysis, with a focus on providing a uniform
+interface to the data provided by several different missions and instruments.
+
+The GDT Core Package (``astro-gdt``) contains the core components of the GDT that
+can be utilized for various instruments and is a generalized version of the
+`Fermi GBM Data Tools <https://fermi.gsfc.nasa.gov/ssc/data/analysis/gbm/gbm_data_tools/gdt-docs>`_.
+Individual mission or instrument packages can be developed using ``astro-gdt``
+and released under the ``gdt.missions`` namespace (see ``astro-gdt-fermi`` as an example).
+
+
+Normal Installation
+-------------------
+
+If you don't plan to contribute code to the project, the recommended install method is installing from PyPI using:
+
+.. code-block:: sh
+
+   pip install astro-gdt
+   gdt data init
+
+The ``gdt data init`` is required to initialize the library after installation.
+
+
+Contributing Code or Documentation
+----------------------------------
+
+If you plan to help with the development or documentation of astro-gdt, then please visit our github site at
+https://github.com/USRA-STI/gdt-core.
