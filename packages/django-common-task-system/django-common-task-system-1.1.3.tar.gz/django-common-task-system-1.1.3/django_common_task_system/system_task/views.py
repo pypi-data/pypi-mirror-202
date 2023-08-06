@@ -1,0 +1,171 @@
+from datetime import datetime
+from django.dispatch import receiver
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework.views import APIView
+from rest_framework.request import Request
+from rest_framework import status
+from django.utils.module_loading import import_string
+from django.db.models.signals import post_save, post_delete
+from django.db import connection
+from django.http.response import HttpResponse
+from django_common_task_system import serializers
+from django_common_task_system.choices import TaskScheduleStatus
+from django_common_task_system.system_task.models import SystemScheduleQueue, SystemSchedule, \
+    SystemScheduleLog, SystemProcess
+from .models import builtins
+from queue import Empty
+from threading import Lock
+import os
+
+
+schedule_queue_lock = Lock()
+# 后面可以改用类重写，然后可以自定义配置使用什么队列，比如redis
+
+
+def get_schedule_queue(schedule: SystemSchedule):
+    return builtins.queues.system_task_queue
+
+
+@receiver(post_delete, sender=SystemScheduleQueue)
+def delete_queue(sender, instance: SystemScheduleQueue, **kwargs):
+    builtins.queues.system_task_queue.pop(instance.code, None)
+
+
+@receiver(post_save, sender=SystemScheduleQueue)
+def add_queue(sender, instance: SystemScheduleQueue, created, **kwargs):
+    if instance.status and instance.code not in builtins.queues:
+        builtins.queues[instance.code] = import_string(instance.module)()
+    elif not instance.status:
+        builtins.queues.pop(instance.code, None)
+
+
+class ScheduleProduceView(APIView):
+
+    def post(self, request: Request, pk: int):
+        try:
+            schedule = SystemSchedule.objects.get(id=pk)
+        except SystemSchedule.DoesNotExist:
+            return Response({'message': 'schedule_id(%s)不存在' % pk}, status=status.HTTP_404_NOT_FOUND)
+        sql: str = schedule.task.config.get('sql', '').strip()
+        if not sql:
+            return Response({'message': 'sql语句不能为空'}, status=status.HTTP_400_BAD_REQUEST)
+        if not sql.startswith('select'):
+            return Response({'message': 'sql语句必须以select开头'}, status=status.HTTP_400_BAD_REQUEST)
+        try:
+            queue = builtins.queues[schedule.task.config['queue']]
+            max_size = schedule.task.config.get('max_size', 10000)
+            if queue.qsize() > max_size:
+                return Response({'message': '队列(%s)已满(%s)' % (schedule.task.config['queue'], max_size)},
+                                status=status.HTTP_400_BAD_REQUEST)
+            with connection.cursor() as cursor:
+                cursor.execute(sql)
+                rows = cursor.fetchall()
+                col_names = [desc[0] for desc in cursor.description]
+                nums = len(rows)
+                for row in rows:
+                    obj = {}
+                    for index, value in enumerate(row):
+                        obj[col_names[index]] = value
+                    queue.put(obj)
+        except Exception as e:
+            return Response({'message': 'sql语句执行失败: %s' % e}, status=status.HTTP_400_BAD_REQUEST)
+        return Response({'message': '成功产生%s条数据' % nums})
+
+
+class SystemScheduleQueueAPI:
+
+    @staticmethod
+    def query_system_schedules():
+        now = datetime.now()
+        queue = builtins.queues.system_task_queue
+        queryset = SystemSchedule.objects.filter(next_schedule_time__lte=now, status=TaskScheduleStatus.OPENING.value)
+        for schedule in queryset:
+            queue.put(serializers.QueueScheduleSerializer(schedule).data)
+            schedule.generate_next_schedule()
+        return queryset
+
+    @staticmethod
+    @api_view(['GET'])
+    def get(request: Request, code: str):
+        queue = builtins.queues.get(code, None)
+        if queue is None:
+            return Response({'message': '队列(%s)不存在' % code}, status=status.HTTP_404_NOT_FOUND)
+        try:
+            task = queue.get_nowait()
+        except Empty:
+            if code == builtins.queues.system_task_instance.code:
+                if schedule_queue_lock.acquire(blocking=False):
+                    try:
+                        SystemScheduleQueueAPI.query_system_schedules()
+                    except Exception as e:
+                        return Response({'error': '查询任务失败: %s' % e}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+                    finally:
+                        schedule_queue_lock.release()
+            return Response({'message': 'no schedule for %s' % code}, status=status.HTTP_204_NO_CONTENT)
+        return Response(task)
+
+    @staticmethod
+    @api_view(['GET'])
+    def retry(request: Request, pk: int):
+        try:
+            # 重试失败的任务, 这里的pk应该是schedule_log的id，schedule是会变的
+            log = SystemScheduleLog.objects.get(id=pk)
+        except SystemScheduleLog.DoesNotExist:
+            return Response({'error': 'sys_schedule_log_id(%s)不存在, 重试失败' % pk}, status=status.HTTP_404_NOT_FOUND)
+        try:
+            queue = get_schedule_queue(log.schedule)
+            queue.put(serializers.QueueScheduleSerializer(log.schedule).data)
+            return Response({'message': '成功添加到重试队列'})
+        except Exception as e:
+            return Response({'error': '重试失败: %s' % e}, status=status.HTTP_400_BAD_REQUEST)
+
+    @staticmethod
+    @api_view(['GET'])
+    def put(request: Request, pk: int):
+        try:
+            schedule = SystemSchedule.objects.get(id=pk)
+        except SystemSchedule.DoesNotExist:
+            return Response({'error': 'sys_schedule_id(%s)不存在, 重试失败' % pk}, status=status.HTTP_404_NOT_FOUND)
+        try:
+            queue = get_schedule_queue(schedule)
+            queue.put(serializers.QueueScheduleSerializer(schedule).data)
+            return Response({'message': '成功添加到队列'})
+        except Exception as e:
+            return Response({'error': '添加到队列失败: %s' % e}, status=status.HTTP_400_BAD_REQUEST)
+
+    @staticmethod
+    @api_view(['GET'])
+    def status(request: Request):
+        data = {
+            k: v.qsize() for k, v in builtins.queues.items()
+        }
+        return Response(data)
+
+
+class SystemProcessView:
+
+    @staticmethod
+    def show_logs(request: Request, process_id: int):
+        # 此处pk为进程id
+        try:
+            process = SystemProcess.objects.get(process_id=process_id)
+        except SystemProcess.DoesNotExist:
+            return HttpResponse('SystemProcess(%s)不存在' % process_id)
+        if not os.path.isfile(process.log_file):
+            return HttpResponse('log文件不存在')
+        offset = int(request.GET.get('offset', 0))
+        with open(process.log_file, 'r', encoding='utf-8') as f:
+            f.seek(offset)
+            logs = f.read(offset + 1024 * 1024 * 8)
+        return HttpResponse(logs, content_type='text/plain; charset=utf-8')
+
+    @staticmethod
+    def stop_process(request: Request, process_id: int):
+        try:
+            process = SystemProcess.objects.get(process_id=process_id)
+        except SystemProcess.DoesNotExist:
+            return HttpResponse('SystemProcess(%s)不存在' % process_id)
+        process.delete()
+        return HttpResponse('SystemProcess(%s)已停止' % process_id)
+
