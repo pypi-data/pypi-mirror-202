@@ -1,0 +1,8 @@
+keenetic_client/__init__.py,sha256=vPwFrU2uFzb9fmsHVYZiwDpcUT0HkGC2mUOjds1ejWw,212
+keenetic_client/client.py,sha256=b_3aRvuP-HnQl0URHK4TKmD03YFJO07UJHNbi4D2u3s,11584
+keenetic_client/connection.py,sha256=AbQ1h6KQXEqrDt0yNbUkVy6Ofy48lrKgEl1J6z3ENQQ,4768
+keenetic_client/exceptions.py,sha256=rIF4yAEkuEXzpB-JsA6xhGMBbIut4vNiNhLSOOCq6_U,183
+keenetic_client-1.0.0.dist-info/METADATA,sha256=T-owMV_8PIi8vBa4mFSojNcn0_UWupdlLqSfGAo5utg,575
+keenetic_client-1.0.0.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+keenetic_client-1.0.0.dist-info/licenses/LICENSE,sha256=2qu051wfS5ByzaFoOyOUj4YqgPTq8zUrROO0pUJyNiY,1094
+keenetic_client-1.0.0.dist-info/RECORD,,
