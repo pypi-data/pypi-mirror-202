@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: lantools-nsa
+Version: 0.0.1
+Home-page: 
+Author: Alaa' Omar
+Author-email: 
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: six (==1.16.0)
+Requires-Dist: farasapy (==0.0.14)
+Requires-Dist: tqdm (==4.62.2)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: regex (==2021.4.4)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# Hello World
+
+This is an example project demonstrating how to publish a python module to PyPI.
+
+## Installation
+
+Run the following to install:
+
+```python
+pip install helloworld-judy2k
+```
+
+## Usage
+
+```python
+from helloworld import say_hello
+
+# Generate "Hello, World!"
+say_hello()
+
+# Generate "Hello, Everybody!"
+say_hello("Everybody")
+```
