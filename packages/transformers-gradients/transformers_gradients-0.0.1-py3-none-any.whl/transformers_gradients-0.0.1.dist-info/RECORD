@@ -1,0 +1,12 @@
+transformers_gradients/__init__.py,sha256=QUWwqLnOpIop65X2LJxEd_jCihEJtxxYBRqNN2tdNIM,357
+transformers_gradients/config.py,sha256=kLMRcl8a1J7UK4cZ33KIjLyxqKMa7FEA0o0A-svDNMY,5377
+transformers_gradients/model_wrapper.py,sha256=tNx3--aCsQj8Co8JWzMjKXV7jCbRgORunL2MmmVb7-0,1086
+transformers_gradients/py.typed,sha256=zlBhTdAQBRfJxeJXD-QnlXiZYsiAJYYkr3mbEsmwSac,64
+transformers_gradients/types.py,sha256=vl2JoyKE4scqNDAHllasNVOBalAD5f44vRsQPR4hr20,1715
+transformers_gradients/util.py,sha256=WN8FRySlL8FIQrputMM-tqIcuhft2Hf3i_NBkqPlX58,1221
+transformers_gradients/text_classification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transformers_gradients/text_classification/explanation_func.py,sha256=Xtwwpu3o2ADbQ3UFz7sSoxg-a3HjTVMoYpu5ESWJCAI,19237
+transformers_gradients/text_classification/explanation_func.pyi,sha256=NqvhHVYMJhrHnsWiJNqfJXaNY2iibT3wlYMK_lyUYo0,2519
+transformers_gradients-0.0.1.dist-info/WHEEL,sha256=rSgq_JpHF9fHR1lx53qwg_1-2LypZE_qmcuXbVUq948,81
+transformers_gradients-0.0.1.dist-info/METADATA,sha256=QcVXY4lh9NXdsw0nObTaJW7BuepJBLHmPTVbmVcKUsY,1431
+transformers_gradients-0.0.1.dist-info/RECORD,,
