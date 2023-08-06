@@ -1,0 +1,5 @@
+requests
+tablib
+curlify
+keyring
+stdiomask
