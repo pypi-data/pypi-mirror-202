@@ -1,0 +1,8 @@
+pynurex.libs/libgcc_s-a04fdf82.so.1,sha256=YxqJNaesQMhDswHEQpXsiLnVvMBBbYO6KYMDZFPWKSM,81257
+pynurex.libs/libstdc++-a9383cce.so.6.0.28,sha256=Wy9UCdwS1rwI9GU5e7qE61S0AkRqqwti1q_adWSs-Rk,2447393
+pynurex/__init__.py,sha256=HxNGjGJGAu62oznZvxfyYdN9nJ0_9STYO03M1Cqz588,24
+pynurex/_pynurex.cpython-37m-x86_64-linux-gnu.so,sha256=drF7MKlX8aedmfaOzbrq4bvd_CQCMDVZZPLt5GxLJyY,2415169
+pynurex-1.9.0.dist-info/WHEEL,sha256=G3b9UtYwEZ12pUZD1YtcrPhJIsxFfDd1yC9dfXqb8wQ,115
+pynurex-1.9.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynurex-1.9.0.dist-info/RECORD,,
+pynurex-1.9.0.dist-info/METADATA,sha256=p7iCATpvB9cfLWDIOnCjMJHopKvYyuwJynYALufTUPY,173
