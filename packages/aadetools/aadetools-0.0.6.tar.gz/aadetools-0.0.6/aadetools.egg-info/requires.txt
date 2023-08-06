@@ -1,0 +1,8 @@
+six==1.16.0
+farasapy==0.0.14
+tqdm==4.62.2
+requests==2.25.1
+regex==2021.4.4
+
+[Dev]
+pytest>=3.7
