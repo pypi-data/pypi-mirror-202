@@ -1,0 +1,12 @@
+click
+scikit-learn
+pandas
+tqdm
+joblib
+lightgbm
+xgboost
+itables
+catboost
+colorlover
+plotly
+IPython
