@@ -1,0 +1,8 @@
+chatgpt_proxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatgpt_proxy/__main__.py,sha256=vRihA-pCamQr69uS2Lbu603BGHNi1m4yKorfc1oyTDk,918
+chatgpt_proxy/proxy.py,sha256=v78D4RTEFDJ_UjqFuVo1Pxil4G10eC1_ITkibtKNieA,6607
+chatgpt_proxy-0.0.1.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+chatgpt_proxy-0.0.1.dist-info/METADATA,sha256=dA9xkfXN1FizDKf3_NrpfLdlSm-WOajZMgZ-Dct13fo,298
+chatgpt_proxy-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+chatgpt_proxy-0.0.1.dist-info/top_level.txt,sha256=iKcCP-mRKmS2wQwkIGeoyL1nKedBk7AIyuNnkRSt6v0,14
+chatgpt_proxy-0.0.1.dist-info/RECORD,,
