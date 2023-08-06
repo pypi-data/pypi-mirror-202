@@ -1,0 +1,4 @@
+[console_scripts]
+load-workflow-state=c8connector.util:load_state
+start-periodic-save=c8connector.util:start_periodic_save
+
