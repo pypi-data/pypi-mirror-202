@@ -1,0 +1,14 @@
+pure_safetensors/__init__.py,sha256=SUh47_rBTrNSArCwEDPxGpKA5FJnVtd2OO7jPGsK7YY,35
+pure_safetensors/__main__.py,sha256=89GV-sRDrE_O8lNjZ-h7uIi2YD-Ije_CWRiLNFlNnuU,2270
+pure_safetensors/adapter.py,sha256=cPwA4DYXTjGuQ4jw-umViULyeifniFvv9Rvr25rlNlQ,2329
+pure_safetensors/exc.py,sha256=mkyP-Vc2HvLTbsY2wa99Ern4ucfCNMoSZzDu2v-_16I,163
+pure_safetensors/mmap.py,sha256=5OzYyrwye-j8vhguZdFzbtznZCV3IV0u9NYEDuoprvA,4194
+pure_safetensors/numpy.py,sha256=0aBNsfiQMGbgWWLktwI0BoA5cfXXVrH6o1bNTVuGr_I,1472
+pure_safetensors/safetensors.py,sha256=FgLxBk2-SsviuDlI-sp1Bk-lr8HEXB6AAyQ42w2g7Zc,26018
+pure_safetensors/util.py,sha256=SFDaLObaqaYSD2EpzNTBxXNQlPxFk6TKnpxC43pl5H8,1159
+pure_safetensors/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pure_safetensors/ext/torch.py,sha256=aRF1BUg4Q3lnk8uI6U7uu_WBqB4D8YxIzw-RmWJy0nY,3305
+pure_safetensors-0.3.1.dist-info/METADATA,sha256=VfyM0dAmu8TzRpj-sgEG2NHe3MA4UA_ifp9kC66E_MY,3667
+pure_safetensors-0.3.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pure_safetensors-0.3.1.dist-info/top_level.txt,sha256=EfZ6VK0WVqhotDHjP5WF2yoBxSgTQjKxAP6a3IEwNBc,17
+pure_safetensors-0.3.1.dist-info/RECORD,,
