@@ -1,0 +1,2 @@
+[console_scripts]
+solid-broccoli = solid_broccoli.convert:unix_to_human_and_versa
