@@ -1,0 +1,5 @@
+[distutils.setup_keywords]
+monorepo_call = monorepo_loader.setuptools_monorepo:handle_monorepo_keywords
+
+[setuptools.finalize_distribution_options]
+setuptools_monorepo = monorepo_loader.setuptools_monorepo:handle_monorepo_dist
