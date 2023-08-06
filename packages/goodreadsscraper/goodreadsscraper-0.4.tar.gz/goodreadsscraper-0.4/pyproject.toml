@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=3.2,<4","firefox","geckodriver"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "goodreadsscraper"
+authors = [{name = "brazafonso", email = "a93178@uminho.pt"},{name = "Tiago Silva", email = "a93277@uminho.pt"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = ["jellyfish","pandas","bs4","selenium","argparse"]
+readme = "readme.md"
+
+
+[project.scripts]
+grs = "goodreadsscraper:goodreadsscraper"
+
