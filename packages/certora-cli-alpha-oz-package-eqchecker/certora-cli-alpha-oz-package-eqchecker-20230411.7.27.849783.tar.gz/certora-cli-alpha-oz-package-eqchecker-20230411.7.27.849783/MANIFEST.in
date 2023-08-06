@@ -1,0 +1,2 @@
+recursive-include certora_jars *.jar gambit*                   
+recursive-include certora_cli EQ_* Eq_*
