@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Gestor-CSprog87
+Version: 1.0.0
+Summary: Gestor para una base de datos de clientes con fichero .csv
+Home-page: https://github.com/CSprog87
+Author: Camilo Andres Sanabria - CSprog87
+Author-email: csmarketing.global@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Gestor para la creacion, modificacion, borrado y guardado de una base de datos de clientes con fichero .csv
+El programa se puede utilizar desde la terminal con el argumento -t, de lo contrario inicia la interfaz grafica.

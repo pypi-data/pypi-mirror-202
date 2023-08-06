@@ -1,0 +1,2 @@
+Gestor para la creacion, modificacion, borrado y guardado de una base de datos de clientes con fichero .csv
+El programa se puede utilizar desde la terminal con el argumento -t, de lo contrario inicia la interfaz grafica.
