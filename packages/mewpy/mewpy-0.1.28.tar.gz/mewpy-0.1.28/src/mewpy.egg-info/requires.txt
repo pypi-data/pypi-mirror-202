@@ -1,0 +1,9 @@
+cobra
+inspyred
+jmetalpy
+reframed
+networkx
+matplotlib
+joblib
+tdqm
+httpx<=0.23.0
