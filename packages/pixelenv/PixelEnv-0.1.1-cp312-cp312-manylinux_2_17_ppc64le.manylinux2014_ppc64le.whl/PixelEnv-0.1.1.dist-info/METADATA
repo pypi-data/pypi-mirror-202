@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: PixelEnv
+Version: 0.1.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# PixelEnv
+Python Gymansium package environment which is developed in rust. 
+
