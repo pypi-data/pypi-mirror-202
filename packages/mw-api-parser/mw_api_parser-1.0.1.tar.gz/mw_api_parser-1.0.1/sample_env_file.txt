@@ -1,0 +1,2 @@
+MW_API_KEY=<Your API Key Here>
+MW_API_REF=collegiate

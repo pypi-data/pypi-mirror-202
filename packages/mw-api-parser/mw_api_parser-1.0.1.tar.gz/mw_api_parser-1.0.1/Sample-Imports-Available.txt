@@ -1,0 +1,110 @@
+** This first script will retrieve the definition for the word passed into the function. In this case, the word passed in is "jaded".
+
+from mw_api_response import MW_Response
+
+response = MW_Response('jaded')
+
+** If you receive an error, make sure that the ".env" file is in the same folder as the location you are running this script from!
+
+####
+Examples from scripts in MW_API:
+####
+
+*1. from MW_API.def_audio_links import Build_Audio_Links
+
+Sample Usage:
+
+    links = Build_Audio_Links(test1)
+
+    Results:
+
+      print(type(links))
+        Class: List
+
+      for x in range(0, len(links)):
+          print(links[x])
+
+    Answer:
+
+      https://media.merriam-webster.com/audio/prons/en/us/MP3/['j']/jaded01ld.MP3
+
+*2. from MW_API.get_def_html import Get_Def_HTML
+
+Sample Usage:
+
+      html_response = Get_Def_HTML(test1)
+
+Results:
+
+      print(type(html_response))
+
+    Answer: Class: List
+
+      for x in range(0, len(html_response + '\n'))
+
+    Answer:
+
+      <b>:</b>fatigued by overwork <b>:</b>{sx|exhausted|exhausted|} 
+a {wi}jaded{/wi} horse
+<b>:</b>made dull, apathetic, or cynical by experience or by having or seeing too much of something 
+{wi}jaded{/wi} network viewers
+{wi}jaded{/wi} voters
+<b>:</b>to become weary or dulled
+<b>:</b>to wear out by overwork or abuse
+<b>:</b>to tire or dull through repetition or excess
+<b>:</b>to make ridiculous
+
+
+*3. from MW_API.get_def_original import Get_Def_Original
+
+Sample Usage:
+
+      orig_response = Get_Def_Original(test1)
+
+Results:
+
+      print(type(orig_response))
+
+    Answer:
+
+      class: List
+
+    for x in range(0, len(orig_response)):
+        print(orig_response[x] + '\n')
+
+    Answer:
+
+{bc}fatigued by overwork {bc}{sx|exhausted|exhausted|} 
+a {wi}jaded{/wi} horse
+{bc}made dull, apathetic, or cynical by experience or by having or seeing too much of something 
+{wi}jaded{/wi} network viewers
+{wi}jaded{/wi} voters
+{bc}to become weary or dulled
+{bc}to wear out by overwork or abuse
+{bc}to tire or dull through repetition or excess
+{bc}to make ridiculous
+      
+
+*4. from MW_API.get_def_plain_text import Get_Def_Plain_Text
+
+Sample Usage:
+
+    plain_text = Get_Def_Plain_Text(test2)
+
+Results:
+
+      print(type(plain_text))
+
+    Answer:
+
+      class: List
+
+      for x in range(0, len(plain_text)):
+          print(plain_text[x])
+
+    Answer:
+
+      fatigued by overwork  a jaded horsemade dull, apathetic, or cynical by experience or by having or seeing too much of something jaded network viewersjaded votersto become weary or dulledto wear out by overwork or abuseto tire or dull through repetition or excessto make ridiculous
+
+
+
