@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+api_model/__init__.py
+api_model/nlextract.py
+api_model/nlsuper.py
+api_model/nlvisualization.py
+api_model/utils/colorize.py
+api_model/utils/functions.py
+api_model/utils/logger.py
+model_fkeywords.egg-info/PKG-INFO
+model_fkeywords.egg-info/SOURCES.txt
+model_fkeywords.egg-info/dependency_links.txt
+model_fkeywords.egg-info/not-zip-safe
+model_fkeywords.egg-info/requires.txt
+model_fkeywords.egg-info/top_level.txt
