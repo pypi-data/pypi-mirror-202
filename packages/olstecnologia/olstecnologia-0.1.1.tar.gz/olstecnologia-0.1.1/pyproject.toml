@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "olstecnologia"
+version = "0.1.1"
+description = ""
+authors = ["Julio Pereira <juliopereira.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.9"
+sqlalchemy-firebird = "^0.7.6"
+fdb = "^2.0.2"
+firebird = "^0.0.2"
+tqdm = "^4.65.0"
+
+[tool.poetry.scripts]
+tests = "scripts:tests"
+atualiza_endereco = "olstecnologia.features.atualiza_endereco:atualiza_endereco"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
