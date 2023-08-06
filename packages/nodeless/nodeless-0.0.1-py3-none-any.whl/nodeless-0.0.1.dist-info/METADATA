@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nodeless
+Version: 0.0.1
+Summary: python nodeless.io sdk
+Home-page: UNKNOWN
+Author: BitKarrot
+Author-email: me@bitkarrot.co
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: PyYAML
+Requires-Dist: aiohttp
+
+UNKNOWN
+
