@@ -1,0 +1,8 @@
+README.md
+setup.py
+SentenceMatcher/SentenceMatcher.py
+SentenceMatcher/__init__.py
+SentenceMatcher.egg-info/PKG-INFO
+SentenceMatcher.egg-info/SOURCES.txt
+SentenceMatcher.egg-info/dependency_links.txt
+SentenceMatcher.egg-info/top_level.txt
