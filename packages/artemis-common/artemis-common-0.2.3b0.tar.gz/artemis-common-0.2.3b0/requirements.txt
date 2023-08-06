@@ -1,0 +1,14 @@
+aiohttp
+asgi-correlation-id
+async-lru
+ddtrace
+fastapi
+httpx
+pydantic
+PyJWT
+python-dateutil
+python-json-logger
+pytz
+requests
+structlog
+uvicorn
