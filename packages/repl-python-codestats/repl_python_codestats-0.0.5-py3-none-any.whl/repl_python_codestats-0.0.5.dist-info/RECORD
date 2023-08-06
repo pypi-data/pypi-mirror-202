@@ -1,0 +1,13 @@
+repl_python_codestats/__init__.py,sha256=ZXhSRX6qYq7uFg2FmDZbEJ1XaVHLAt-kriAlIM1ptUw,4667
+repl_python_codestats/_metainfo.py,sha256=c6Rl5ZOYxh6_KBD3ZqEGj7KlbkMJwTAmnscKnQY0WKw,606
+repl_python_codestats/_version.py,sha256=nnYR4S84mIxKXXq6yv2-1x3dlDR_IsX50CLTYdbXNWw,160
+repl_python_codestats/ipython.py,sha256=uKgXGHP34-1z9_8DX-FNIcYPSUvFqf79dgNpEdpS5tQ,583
+repl_python_codestats/ptpython.py,sha256=rC-20gRSTYNg_jJ87bsrkScfF2HXbC8PjCASpCdTCTc,608
+repl_python_codestats/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repl_python_codestats/python.py,sha256=6-TwX7geX9E1SwaFIWbF-UcDOJ_eF0FumGFaM8tuT2I,465
+repl_python_codestats/utils.py,sha256=MRiEmImTO0_Vz84mIB-0wUrfkr-P00RG-m6e4zYQ_sI,708
+repl_python_codestats-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+repl_python_codestats-0.0.5.dist-info/METADATA,sha256=w2Pjr_i-b9Cr0nfTdwaFQUl7puiZJ5tP1CGFq2ESLIw,8628
+repl_python_codestats-0.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+repl_python_codestats-0.0.5.dist-info/top_level.txt,sha256=7CAIiO_3xpLEV3bg1ktQxRPk7QwlVAPXTPcWvlI-rik,22
+repl_python_codestats-0.0.5.dist-info/RECORD,,
