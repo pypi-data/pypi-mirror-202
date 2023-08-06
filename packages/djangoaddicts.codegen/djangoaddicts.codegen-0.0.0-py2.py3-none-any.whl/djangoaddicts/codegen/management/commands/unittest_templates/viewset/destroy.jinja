@@ -1,0 +1,43 @@
+{% if view|attr('destroy') %}
+    {% if view.permission_dict and view.permission_dict.DELETE %}
+    def test_{{ route.name.split("-")[0] }}_destroy_authorized(self):
+        """ verify that a delete request to the {{ route.name }} endpoint for an authorized user returns a 204 and the
+        record is deleted """
+        model = apps.get_model("{{ view.model._meta.label }}")
+        url = reverse("{{ route.app_name }}:{{ route.name }}", args=[getattr(self.row, "{% if view.lookup_field == 'pk' %}{{ view.model._meta.pk.name }}{% else %}{{ view.lookup_field }}{% endif %}")])
+        client = create_custom_client('{{ view.permission_dict.DELETE|random }}')
+        response = client.delete(url, pk=self.row.pk, format="json")
+        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
+        self.assertNotIn(self.row, model.objects.all())
+
+    def test_test_{{ route.name.split("-")[0] }}_destroy_unauthorized(self):
+        """ verify that a delete request to the {{ route.name }} endpoint for an unauthorized user returns a 403 and the
+        record is not deleted """
+        model = apps.get_model("{{ view.model._meta.label }}")
+        url = reverse("{{ route.app_name }}:{{ route.name }}", args=[getattr(self.row, "{% if view.lookup_field == 'pk' %}{{ view.model._meta.pk.name }}{% else %}{{ view.lookup_field }}{% endif %}")])
+        response = self.client.delete(url, pk=self.row.pk, format="json")
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        self.assertNotIn(getattr(self.row, "{% if view.lookup_field == 'pk' %}{{ view.model._meta.pk.name }}{% else %}{{ view.lookup_field }}{% endif %}"), response.json())
+        self.assertEqual(response.json()["detail"], "You do not have permission to perform this action.")
+        self.assertIn(self.row, model.objects.all())
+    {% elif view.permission_dict and not view.permission_dict.DELETE  %}
+    def test_{{ route.name.split("-")[0] }}_destroy(self):
+        """ verify that a delete request to the {{ route.name }} endpoint returns a 403 and the
+        record is not deleted """
+        model = apps.get_model("{{ view.model._meta.label }}")
+        url = reverse("{{ route.app_name }}:{{ route.name }}", args=[getattr(self.row, "{% if view.lookup_field == 'pk' %}{{ view.model._meta.pk.name }}{% else %}{{ view.lookup_field }}{% endif %}")])
+        response = self.client.delete(url, pk=self.row.pk, format="json")
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        self.assertIn(self.row, model.objects.all())
+    {% else %}
+    def test_{{ route.name.split("-")[0] }}_destroy(self):
+        """ verify that a delete request to the {{ route.name }} endpoint returns a 204 and the
+        record is deleted """
+        # destroy should succeed for all users
+        model = apps.get_model("{{ view.model._meta.label }}")
+        url = reverse("{{ route.app_name }}:{{ route.name }}", args=[getattr(self.row, "{% if view.lookup_field == 'pk' %}{{ view.model._meta.pk.name }}{% else %}{{ view.lookup_field }}{% endif %}")])
+        response = self.client.delete(url, pk=self.row.pk, format="json")
+        self.assertEqual(response.status_code, status.HTTP_204_NO_CONTENT)
+        self.assertNotIn(self.row, model.objects.all())
+    {% endif %}
+{% endif %}

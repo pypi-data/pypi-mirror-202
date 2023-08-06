@@ -1,0 +1,15 @@
+{%- if route.related_data_action_dict %}
+    {% if route.related_data_action_dict['permission_dict'] %}
+        {% if route.related_data_action_dict['permission_dict']['GET'] %}
+{% include 'viewset/action/action_auth.jinja' %}
+        {% else %}
+{% include 'viewset/action/action_noauth.jinja' %}
+        {% endif %}
+    {% elif view.permission_dict and view.permission_dict['GET'] %}
+{% include 'viewset/action/action_auth.jinja' %}
+    {% else %}
+{% include 'viewset/action/action_noauth.jinja' %}
+    {% endif %}
+{%- else -%}
+    # placeholder: endpoint {{ route.name }} appears to be a custom action and a test could not be automatically generated
+{% endif -%}

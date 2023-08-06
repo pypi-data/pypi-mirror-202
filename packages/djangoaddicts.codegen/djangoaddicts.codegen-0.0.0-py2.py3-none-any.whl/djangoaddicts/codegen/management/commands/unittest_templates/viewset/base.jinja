@@ -1,0 +1,11 @@
+{% if '-list' in route.name %}
+    {% include 'viewset/list.jinja' %}
+    {% include 'viewset/create.jinja' %}
+{% elif '-detail' in route.name %}
+    {% include 'viewset/retrieve.jinja' %}
+    {% include 'viewset/destroy.jinja' %}
+    {% include 'viewset/patch.jinja' %}
+    {% include 'viewset/put.jinja' %}
+{% else %}
+    {% include 'viewset/action/action_base.jinja' %}
+{% endif %}

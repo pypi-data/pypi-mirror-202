@@ -1,0 +1,44 @@
+{% if view|attr('create') %}
+    {% if view.permission_dict and view.permission_dict.POST %}
+    def test_{{ route.name.split("-")[0] }}_post_authorized(self):
+        """verify that a post request to the {{ route.name }} endpoint returns a 200 and the row content is found"""
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        model = apps.get_model("{{ view.model._meta.label }}")
+        client = create_custom_client('{{ view.permission_dict.POST|random }}')
+        prepare = baker.prepare("{{ view.model._meta.app_label }}.{{ view.model.__name__}}")
+        data = {k: v for k, v in prepare.__dict__.items() if not k.startswith("_") and v}
+        pre_post_row_count = model.objects.count()
+        response = client.post(url, data=data, format="json")
+        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+        self.assertGreater(model.objects.count(), pre_post_row_count)
+
+    def test_{{ route.name.split("-")[0] }}_post_unauthorized(self):
+        """verify that a post request to the {{ route.name }} endpoint returns a 403 and the row content is not found"""
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        model = apps.get_model("{{ view.model._meta.label }}")
+        pre_post_row_count = model.objects.count()
+        response = self.client.post(url, data={}, format="json")
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        self.assertEqual(model.objects.count(), pre_post_row_count)
+    {% elif view.permission_dict and not view.permission_dict.POST %}
+    def test_{{ route.name.split("-")[0] }}_post(self):
+        """verify that a post request to the {{ route.name }} endpoint returns a 403 and the row content is not found"""
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        model = apps.get_model("{{ view.model._meta.label }}")
+        pre_post_row_count = model.objects.count()
+        response = self.client.post(url, data={}, format="json")
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        self.assertEqual(model.objects.count(), pre_post_row_count)
+    {% else %}
+    def test_{{ route.name.split("-")[0] }}_post(self):
+        """verify that a post request to the {{ route.name }} endpoint returns a 200 and the row content is found"""
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        model = apps.get_model("{{ view.model._meta.label }}")
+        prepare = baker.prepare("{{ view.model._meta.app_label }}.{{ view.model.__name__}}")
+        data = {k: v for k, v in prepare.__dict__.items() if not k.startswith("_") and v}
+        pre_post_row_count = model.objects.count()
+        response = self.client.post(url, data=data, format="json")
+        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+        self.assertGreater(model.objects.count(), pre_post_row_count)
+    {% endif %}
+{% endif %}

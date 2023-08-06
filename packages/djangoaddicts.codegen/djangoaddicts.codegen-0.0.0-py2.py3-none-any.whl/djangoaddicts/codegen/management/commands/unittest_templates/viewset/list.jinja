@@ -1,0 +1,30 @@
+{% if view|attr('list') %}
+    {% if view.permission_dict and view.permission_dict.GET %}
+    def test_{{ route.name.split("-")[0] }}_list_authorized(self):
+        """verify that a get request to the {{ route.name }} endpoint for an authorized user returns a 200 and
+        the row content is found"""
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        client = create_custom_client('{{ view.permission_dict.GET|random }}')
+        response = client.get(url, format="json")
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertIn(str(getattr(self.row, '{{ view.lookup_field }}')), response.content.decode('utf-8'))
+        self.assertGreater(len(response.json()['results']), 0)
+
+    def test_{{ route.name.split("-")[0] }}_list_unauthorized(self):
+        """verify that a get request to the {{ route.name }} endpoint for an unauthorized user returns a 403
+        and the row content is not found"""
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        response = self.client.get(url, format="json")
+        self.assertEqual(response.status_code, status.HTTP_403_FORBIDDEN)
+        self.assertNotIn('results', response.json())
+        self.assertNotIn(str(getattr(self.row, "{{ view.lookup_field }}")), response.content.decode("utf-8"))
+    {% else %}
+    def test_{{ route.name|replace("-", "_") }}(self):
+        """ verify that a get request to the {{ route.name }} endpoint returns a 200 and the row content is found """
+        url = reverse('{{ route.app_name }}:{{ route.name }}'{% if '-list' not in route.name %}, args=[getattr(self.row, '{{ view.lookup_field }}')]{% endif %})
+        response = self.client.get(url, format='json')
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+        self.assertIn(str(getattr(self.row, '{{ view.lookup_field }}')), response.content.decode('utf-8'))
+        self.assertGreater(len(response.json()['results']), 0)
+    {% endif %}
+{% endif %}
