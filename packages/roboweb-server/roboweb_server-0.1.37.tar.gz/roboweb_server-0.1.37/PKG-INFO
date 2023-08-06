@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: roboweb_server
+Version: 0.1.37
+Summary: ChatGPT plugin for Jupyter Server
+Home-page: https://github.com/jlewi/roboweb
+Author: Jeremy Lewi
+Author-email: jeremy@lewi.us
+License: Apache Software License 2.0
+Keywords: gpt jupyter-server llm
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+# A Jupyter Server Extension for ChatGPT
+
+## Installation
+
+```bash
+python -m pip install roboweb-extension
+python -m pip install roboweb-server
+```
+
+Activate the extension
+
+```bash
+python -m jupyter serverextension enable --py roboweb_server
+```
+
+## Usage
+
+See [these instructions](https://roboweb.app/docs/quickstart/).
+
