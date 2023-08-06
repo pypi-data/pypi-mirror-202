@@ -1,0 +1,14 @@
+dist/*
+build
+*.egg-info/*
+.venv
+.mypy_cache
+.pytest_cache
+*.py[co]
+__pycache__
+.cache
+MANIFEST
+.tox
+.coverage
+_build
+.mypy_cache

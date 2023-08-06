@@ -1,0 +1,98 @@
+version: 2
+
+test: &test
+  steps:
+    - checkout
+    - run:
+        name: install less pager dependency
+        command: apt-get update && apt-get install -y less
+    - run:
+        name: install python dependencies
+        command: pip install -r requirements.txt -r dev-requirements.txt
+    - run:
+        name: run pytest
+        command: |
+          mkdir -p /tmp/test-results
+          PYTHONPATH="." pytest --cov=s4 --cov=tests --cov-report xml --junitxml=/tmp/test-results/pytest-results.xml
+          bash <(curl -s https://codecov.io/bash)
+
+    - store_test_results:
+        path: /tmp/test-results
+
+
+jobs:
+  lint:
+    docker:
+      - image: "python:3.7-stretch"
+    steps:
+      - checkout
+      - run:
+          name: install requirements
+          command: pip install -r lint-requirements.txt
+      - run:
+          name: run linter
+          command: flake8 s4 tests
+
+      - run:
+          name: check isort ordering
+          command: isort s4 tests --diff
+
+      - run:
+          name: Check rst formatting
+          command: python -m readme_renderer README.rst
+
+      - run:
+          name: check black formatting
+          command: black s4 tests --check
+
+      - run:
+          name: version lint
+          command: |
+            pip install .
+
+            CLIENT_VERSION="$(s4 version)"
+            GIT_VERSION="$(git tag --sort "v:refname" | tail -1)"
+
+            echo "CLIENT=${CLIENT_VERSION}"
+            echo "GIT=${GIT_VERSION}"
+            test "$CLIENT_VERSION" = "$GIT_VERSION"
+            grep "$CLIENT_VERSION" CHANGELOG.rst
+
+  test-3.7:
+    docker:
+      - image: "python:3.7-stretch"
+    <<: *test
+
+  test-3.6:
+    docker:
+      - image: "python:3.6-stretch"
+    <<: *test
+
+  test-3.5:
+    docker:
+      - image: "python:3.5-stretch"
+    <<: *test
+
+
+workflows:
+  version: 2
+  monthly_test:
+    triggers:
+      - schedule:
+          cron: "0 0 1 * *"
+          filters:
+            branches:
+              only:
+              - master
+    jobs:
+      - lint
+      - test-3.5
+      - test-3.6
+      - test-3.7
+
+  s4_test:
+    jobs:
+      - lint
+      - test-3.5
+      - test-3.6
+      - test-3.7
