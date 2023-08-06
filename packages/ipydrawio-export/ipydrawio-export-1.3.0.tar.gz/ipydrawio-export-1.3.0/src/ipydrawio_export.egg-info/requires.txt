@@ -1,0 +1,9 @@
+ipydrawio==1.3.0
+lxml
+pillow
+pypdf
+requests_cache
+
+[test]
+pytest
+pytest-console-scripts
