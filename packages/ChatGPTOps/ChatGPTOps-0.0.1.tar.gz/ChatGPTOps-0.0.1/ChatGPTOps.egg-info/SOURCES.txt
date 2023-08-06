@@ -1,0 +1,8 @@
+ChatGPTHandler.py
+README.md
+setup.py
+ChatGPTOps.egg-info/PKG-INFO
+ChatGPTOps.egg-info/SOURCES.txt
+ChatGPTOps.egg-info/dependency_links.txt
+ChatGPTOps.egg-info/requires.txt
+ChatGPTOps.egg-info/top_level.txt
