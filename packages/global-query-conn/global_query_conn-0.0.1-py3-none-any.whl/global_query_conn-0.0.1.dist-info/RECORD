@@ -1,0 +1,11 @@
+setup.py,sha256=br0VS4572-IIKxQDFq89odJzC0vMlKhN9ghoOJz7bRs,509
+package_conn/__init__.py,sha256=5k5BjIu26x9QdGuh2twYzFX7uGwfwnllEoEs6b-7PU4,51
+package_conn/conn.py,sha256=Nk7ffWoZkOxKmvqP3WK4ihRWRBMKI9QyiTXicein_OU,3780
+package_logger/__init__.py,sha256=UyIfXnsMCQ4fpwK34xq17RI1vNchmOMIoZhg56cUvI8,47
+package_logger/logger.py,sha256=u2NPuHihAtIpYM4UJ9fvVjZM5IIELbTe44WhmUDogas,1363
+package_query/__init__.py,sha256=bkq2N9MV4zYAWL4jRkVpWzb2fZIrec12VB7UlwYDK_w,272
+package_query/query.py,sha256=_1-o1MCldRpZN27A5bY0hXPf8B4NvJSzf58O1RxmRFk,30390
+global_query_conn-0.0.1.dist-info/METADATA,sha256=eYWG_TTL1wxVWUx3Qaj6t_onskmot-q8OpUxAfsd4OY,488
+global_query_conn-0.0.1.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+global_query_conn-0.0.1.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+global_query_conn-0.0.1.dist-info/RECORD,,
