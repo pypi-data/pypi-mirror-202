@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+src/prcssr/Controller.py
+src/prcssr/__init__.py
+src/prcssr/__main__.py
+src/prcssr.egg-info/PKG-INFO
+src/prcssr.egg-info/SOURCES.txt
+src/prcssr.egg-info/dependency_links.txt
+src/prcssr.egg-info/entry_points.txt
+src/prcssr.egg-info/top_level.txt
+src/prcssr/model/Processor.py
+src/prcssr/model/__init__.py
