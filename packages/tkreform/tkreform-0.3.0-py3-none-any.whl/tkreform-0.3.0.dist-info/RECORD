@@ -1,0 +1,13 @@
+tkreform/__init__.py,sha256=oDzPQ9dWQ5ezXjflFyi5p2c95shCG14yHZ7TYGJD2IE,966
+tkreform/base.py,sha256=BvM9ZBN3R4x98ecsHwHXghabZrftolmrGXN9Dk2iZ-g,18527
+tkreform/declarative.py,sha256=-DoY3FuEnjnQK30IP7kUzipPNtD9fvdE1eRXn8okhpc,3450
+tkreform/events.py,sha256=AWhRwClDqwxRR76ri9-VN9yhQZ-Zzze7b2Ns3_F1_WQ,2355
+tkreform/exceptions.py,sha256=mAnQXXeJV9FMQ-Dw1OmOE-QTu0VHHVyp5whRPvuD8xE,133
+tkreform/groups.py,sha256=4iDlE4qVgFW0G7Mn_PLD5cgNdnPJ4xMKF2cRXOFUMDI,2001
+tkreform/linguist.py,sha256=W129Ao3ZviQ8qy29V1ppANw1bor0l5WURxERwOIcIJk,2266
+tkreform/menu.py,sha256=4FeAQV80e0o1MU89-BKjU3youz16JfOD2liQdTiCGf0,1218
+tkreform-0.3.0.dist-info/LICENSE,sha256=tqLc-QLUV9a9QmBA1C_TsczFY5OnfgxzszFdvqKObFA,1066
+tkreform-0.3.0.dist-info/METADATA,sha256=30Pt-vbTLfI7fVbGZ6102wa-H_G9Gis6l48qt6gq1xM,1319
+tkreform-0.3.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+tkreform-0.3.0.dist-info/top_level.txt,sha256=RuzlxD8g2t_OHZfBXVWeFiZoO7fwIE7usT6unkOQzGc,9
+tkreform-0.3.0.dist-info/RECORD,,
