@@ -1,0 +1,12 @@
+README.md
+setup.py
+imod2relion/__init__.py
+imod2relion/_utils.py
+imod2relion/main.py
+imod2relion/test.py
+imod2relion.egg-info/PKG-INFO
+imod2relion.egg-info/SOURCES.txt
+imod2relion.egg-info/dependency_links.txt
+imod2relion.egg-info/entry_points.txt
+imod2relion.egg-info/requires.txt
+imod2relion.egg-info/top_level.txt
