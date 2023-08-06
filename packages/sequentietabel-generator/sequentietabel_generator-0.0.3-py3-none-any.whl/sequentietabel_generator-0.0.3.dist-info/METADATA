@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sequentietabel-generator
+Version: 0.0.3
+Summary: sequentietabel_generator is now protocol_verwerker
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: protocol-verwerker
+
+# sequentietabel_generator is now protocol_verwerker
+
+This package has been renamed. Use `pip install protocol_verwerker` instead.
+
+New package: https://pypi.org/project/protocol_verwerker/
