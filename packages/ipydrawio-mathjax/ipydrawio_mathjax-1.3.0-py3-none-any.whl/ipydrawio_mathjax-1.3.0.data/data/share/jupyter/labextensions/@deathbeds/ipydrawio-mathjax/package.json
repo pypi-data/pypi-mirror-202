@@ -1,0 +1,48 @@
+{
+  "name": "@deathbeds/ipydrawio-mathjax",
+  "version": "1.3.0",
+  "description": "MathJax for ipydrawio",
+  "license": "Apache-2.0",
+  "author": "IPyDrawio Contributors",
+  "homepage": "https://ipydrawio.rtfd.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deathbeds/ipydrawio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deathbeds/ipydrawio/issues"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "@deathbeds/ipydrawio-webpack": "^21.1.600",
+    "@jupyterlab/application": "^3.1.0"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.6.1"
+  },
+  "keywords": [
+    "drawio",
+    "webpack"
+  ],
+  "jupyterlab": {
+    "extension": "lib/plugin.js",
+    "outputDir": "../../py_packages/ipydrawio-mathjax/_/ipydrawio-mathjax",
+    "webpackConfig": "./webpack.config.js",
+    "discovery": {
+      "server": {
+        "base": {
+          "name": "ipydrawio-mathjax"
+        },
+        "managers": [
+          "pip",
+          "conda"
+        ]
+      }
+    },
+    "_build": {
+      "load": "static/remoteEntry.6abe8eb6564d5e102902.js",
+      "extension": "./extension"
+    }
+  }
+}
