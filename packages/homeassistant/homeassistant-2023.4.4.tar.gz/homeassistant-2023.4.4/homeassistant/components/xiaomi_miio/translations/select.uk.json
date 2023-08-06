@@ -1,0 +1,9 @@
+{
+    "state": {
+        "xiaomi_miio__display_orientation": {
+            "forward": "\u0412\u043f\u0435\u0440\u0435\u0434",
+            "left": "\u041b\u0456\u0432\u043e\u0440\u0443\u0447",
+            "right": "\u041f\u0440\u0430\u0432\u043e\u0440\u0443\u0447"
+        }
+    }
+}

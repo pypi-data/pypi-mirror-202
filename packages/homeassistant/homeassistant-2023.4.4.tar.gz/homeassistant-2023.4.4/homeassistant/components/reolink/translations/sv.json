@@ -1,0 +1,23 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "{error}"
+            }
+        }
+    },
+    "entity": {
+        "select": {
+            "auto_quick_reply_message": {
+                "state": {
+                    "off": "Av"
+                }
+            },
+            "floodlight_mode": {
+                "state": {
+                    "off": "Av"
+                }
+            }
+        }
+    }
+}
