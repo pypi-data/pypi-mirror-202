@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+web_poe_api/__init__.py
+web_poe_api.egg-info/PKG-INFO
+web_poe_api.egg-info/SOURCES.txt
+web_poe_api.egg-info/dependency_links.txt
+web_poe_api.egg-info/top_level.txt
