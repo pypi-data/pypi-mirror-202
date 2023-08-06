@@ -1,0 +1,16 @@
+battetl/BattETL.py,sha256=eLVAWlqb7HQjWB7R7cuaFPKbs8_WK86VvAy0htHfJbY,7291
+battetl/__init__.py,sha256=JYVM1kqJIw-4aBocfmiqzrp9o5XvnoOFvwSwmQwqQnI,116
+battetl/constants.py,sha256=NmZoSnrQf5rLshDgE-uf7R2SwoioW0IcafLw9dmlSZ4,8243
+battetl/logger.py,sha256=pZysFWQ5Uyr5ga9NVFergukyaZLOvz6rvUqT1MyBijI,1573
+battetl/utils.py,sha256=rkLYKPpEC6zBvInxVLRlrS351uhJ3yTHCu_dZV82M74,12219
+battetl/extract/Extractor.py,sha256=DB6ew-RYF10BxRYM0e7ASSOHbUmnMVIikYAfWHYBe7k,27305
+battetl/extract/__init__.py,sha256=bc5VQQR-VS2hqD50qbCHNX9ZozJBwvgnnrvN4oPCjjE,34
+battetl/load/Loader.py,sha256=wFfciE0IiO1IiVgor__WnRyeSr_4UucJFGMgJtASLoY,33698
+battetl/load/__init__.py,sha256=nR-1ZxhpEVLdsF34sV0niUM1cfVk31kRoGulv7KG2y4,28
+battetl/transform/Transformer.py,sha256=wx0BdNCRD-GIvZOZ3OjAjwbNdVCDKYiov385y2ZURGg,23437
+battetl/transform/__init__.py,sha256=9_LGzf1Wt80946CGpQ4R1HDTOWcCbZY1CuckSSMCG6U,38
+battetl-1.0.0.dist-info/LICENSE,sha256=NAP1qBRTAknHyy8vXCaEBzJlYQps4GBrULuQ4vY8ElQ,1087
+battetl-1.0.0.dist-info/METADATA,sha256=ndilPbtKk3FGQrtQHTnM-vWTCnNaCgUkjIrUHI0wJ2Q,14511
+battetl-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+battetl-1.0.0.dist-info/top_level.txt,sha256=7GzvGrRv_X2KfeRvovqwMnZQj79tc1Ak7yDUqiwexJ0,8
+battetl-1.0.0.dist-info/RECORD,,
