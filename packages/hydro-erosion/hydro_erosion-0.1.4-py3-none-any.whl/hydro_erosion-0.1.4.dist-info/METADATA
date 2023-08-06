@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: hydro_erosion
+Version: 0.1.4
+Summary: Model of rain eroding a landscape
+Project-URL: Homepage, https://github.com/mfigurski80/HydroErosion/tree/master
+Project-URL: Bug Tracker, https://github.com/mfigurski80/HydroErosion/issues
+Author-email: Mikolaj Figurski <miko.f80@gmail.com>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: numpy
+Description-Content-Type: text/markdown
+
+# HydroErosion
+Python model of rain eroding a landscape. HydroErosion model places random 'drops' on terrain and moves the terrain based on their movement
+
+## File Descriptions
+### generateLandscape.py
+Creates two matrices to describe height and bedrock, using perlin noise
+
+### viewLandscape.py
+Graphs given matrix in 3D
+
+### erodeLandscape.py
+Performs Naive algorithm to erode given landscape, accounting for bedrock
+
+## Results (so far):
+Performed erosion on 300x200 terrain with 600,000 iterations (current maps)
+
+Before: ![Before Erosion](/images/before2.png)
+
+After: ![After Erosion](/images/after2.png)
