@@ -1,0 +1,12 @@
+pydicts/__init__.py,sha256=AQ1JvyRDlNfLTjV_dAuOG1JU0NkNABpgRc-i5zhDHlQ,143
+pydicts/classes.py,sha256=TH2-62epmkBSteRLX6KuUXEQkx7LiiBmO_pqytN9xzQ,2814
+pydicts/lod.py,sha256=mPBmMTg5cn5pgTzmStZ8sFwHh-tp3kpzdrFpTXg7UNk,5382
+pydicts/lod_xyv.py,sha256=9cihUKvDsmuGu-iaKGSLIAgGcOAhtLGX1U6wdeMD2vs,1052
+pydicts/lod_ymv.py,sha256=i58GDIKo9BO8dfxPpzyBoMemWROULUF_SRoQbkxUlg4,3199
+pydicts/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydicts/tests/test_lod.py,sha256=GCUz3P2z0OniI7D4u3mDrnWnr5EjNoC1Zjfu9VrXdUs,913
+pydicts/tests/test_lod_ymv.py,sha256=_mvgzV_n2r1UeXB5c8PrpiMvVmbq-t20UyLa-_UivKU,409
+pydicts-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pydicts-0.2.0.dist-info/METADATA,sha256=GpUHaJmKQFonE9BgdGZBGM4a6t1JeQ_tsHxyMi9L_-0,2561
+pydicts-0.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+pydicts-0.2.0.dist-info/RECORD,,
