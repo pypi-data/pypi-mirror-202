@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+libname/__init__.py
+libname/approximators.py
+libname/intergrators.py
+rootdescent.egg-info/PKG-INFO
+rootdescent.egg-info/SOURCES.txt
+rootdescent.egg-info/dependency_links.txt
+rootdescent.egg-info/top_level.txt
