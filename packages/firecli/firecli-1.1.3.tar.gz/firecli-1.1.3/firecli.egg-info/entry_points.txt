@@ -1,0 +1,2 @@
+[console_scripts]
+firecli = firecli.cli:main

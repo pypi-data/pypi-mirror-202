@@ -1,0 +1,2 @@
+firecli
+test
