@@ -1,0 +1,10 @@
+dune/translate/__init__.py,sha256=Y2XfBj4K9NTub_K1OIjyvOuiGiQDcn0nZLLegdrjJIo,431
+dune/translate/constants.py,sha256=melW42pK8DG4SwhgIOlyr1EZzZ5t8zsPgo8Iom1Pyfs,54
+dune/translate/custom_transforms.py,sha256=dsJh23B5xc_5FP_6lpFdtHUXQtKjQT4ehJS3u518gyo,19492
+dune/translate/errors.py,sha256=iqCf-FLpPSt--EZFZvCHvaJsVOXqVoyYjOcCcbiG4tw,105
+dune/translate/table_replacements.py,sha256=jZ0OvRhs0gNNAGIT8yf5rATShxZ7N9MdqiJDKdBNafQ,2018
+dune/translate/translate.py,sha256=08xStdrxPXv0CZIsESp6ND0009nE1KXHsF-3jh7QvhQ,3048
+dune_query_translator-0.6.0.dist-info/LICENSE,sha256=goRUlXioimEukqqurTK349mZ4oSBiM_bwD7ox1aVItU,1061
+dune_query_translator-0.6.0.dist-info/METADATA,sha256=B_HKoXatbcoe6-6KIueNzAh_MnRMkgPuk9E1gSWsXk8,2133
+dune_query_translator-0.6.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+dune_query_translator-0.6.0.dist-info/RECORD,,
