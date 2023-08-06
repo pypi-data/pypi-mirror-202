@@ -1,0 +1,15 @@
+LICENCE.txt
+README.md
+setup.py
+dr_lord_of_the_rings_sdk.egg-info/PKG-INFO
+dr_lord_of_the_rings_sdk.egg-info/SOURCES.txt
+dr_lord_of_the_rings_sdk.egg-info/dependency_links.txt
+dr_lord_of_the_rings_sdk.egg-info/requires.txt
+dr_lord_of_the_rings_sdk.egg-info/top_level.txt
+lotr_sdk/__init__.py
+lotr_sdk/api_methods.py
+lotr_sdk/conf.py
+lotr_sdk/movies.py
+lotr_sdk/quotes.py
+tests/__init__.py
+tests/test.py
