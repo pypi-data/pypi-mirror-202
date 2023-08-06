@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: django-sentry-secure-source-map
+Version: 0.0.1
+Summary: 
+Author-email: Torchbox <tech@torchbox.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: Django>=3.0,<5.0
+Requires-Dist: ruff==0.0.261 ; extra == "lint"
+Requires-Dist: black==23.3.0 ; extra == "lint"
+Requires-Dist: pytest-cov==3.0.0 ; extra == "test"
+Requires-Dist: pytest-mock==3.8.2 ; extra == "test"
+Requires-Dist: pytest-django==4.5.2 ; extra == "test"
+Requires-Dist: pytest==7.1.2 ; extra == "test"
+Project-URL: Home, https://torchbox.com
+Provides-Extra: lint
+Provides-Extra: test
+
+# django-sentry-secure-source-map
+
+A middleware to ensure only Sentry can access source maps.
+
