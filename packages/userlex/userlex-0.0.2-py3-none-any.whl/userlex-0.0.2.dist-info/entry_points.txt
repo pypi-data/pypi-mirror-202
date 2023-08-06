@@ -1,0 +1,2 @@
+[console_scripts]
+userlex = userlex.cli:main
