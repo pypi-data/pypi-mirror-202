@@ -1,0 +1,13 @@
+duckingit/__init__.py,sha256=MnUKS2Oye4sXsAVUGV1tn-rv3nCThyMMR2VujLjJuLI,66
+duckingit/_analyze.py,sha256=cvW_B3lt7mRA-o6x9apm2LF7yDt8pm52sqcnSwugr8E,1350
+duckingit/_config.py,sha256=Rm55XVpIiuR1-iB-rk5x_-Hbiql8_kK9BPU1NJ6v4k0,1773
+duckingit/_controller.py,sha256=17bfRAl2lTY2syNz-svpj-lpoYt7LNMFq8QvOVWelpU,2104
+duckingit/_encode.py,sha256=_z7Wgc6ceVIXc0V_EiuVMl13SWp5lueo6PeZ6Mwtkro,760
+duckingit/_exceptions.py,sha256=giqX-2AGQvkMTanzvrrGdO_OHP1e5cMkbE9KIy4YO5k,186
+duckingit/_parser.py,sha256=cTgnx97o8OeE8DVo2XdT_PABvr6Dwn0O2Hfd6Se6Ttg,2322
+duckingit/_planner.py,sha256=aTfQuxa0030cEu4wOyvnWiuj_t6jsPR8R_5bXN9hZTo,2294
+duckingit/_session.py,sha256=humLukQr097ZX0LNI9a4BfgZGOEk6WKKftpoY8Ju81o,5502
+duckingit-0.0.3.dist-info/METADATA,sha256=aLKJjgtaYIbKSyk7evNVevKJVcRDEPyBj9YgaEU5CKM,4022
+duckingit-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+duckingit-0.0.3.dist-info/top_level.txt,sha256=LqTB_dzc3-I50PwSoZ9lmfYZiflRnFsHUKPneYzI_p4,10
+duckingit-0.0.3.dist-info/RECORD,,
