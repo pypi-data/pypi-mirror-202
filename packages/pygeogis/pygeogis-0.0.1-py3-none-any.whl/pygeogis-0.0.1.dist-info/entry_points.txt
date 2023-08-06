@@ -1,0 +1,2 @@
+[console_scripts]
+pygeogis = pygeogis.main:main
