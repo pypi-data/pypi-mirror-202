@@ -1,0 +1,31 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Al geconfigureerd. Slechts \u00e9\u00e9n configuratie mogelijk."
+        },
+        "step": {
+            "confirm": {
+                "description": "Zorg ervoor dat u de 'split topic' gegevensbronnen configureert in DSMR Reader."
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "rejected_telegrams": {
+                "name": "Afgewezen telegrammen"
+            },
+            "total_cost": {
+                "name": "Totale kosten"
+            },
+            "voltage_sag_l1": {
+                "name": "Spanningsdip L1"
+            },
+            "voltage_sag_l2": {
+                "name": "Spanningsdip L2"
+            },
+            "voltage_sag_l3": {
+                "name": "Spanningsdip L3"
+            }
+        }
+    }
+}

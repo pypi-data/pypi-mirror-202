@@ -1,0 +1,11 @@
+{
+    "entity": {
+        "select": {
+            "basic_nightvision": {
+                "state": {
+                    "1": "Izklopljeno"
+                }
+            }
+        }
+    }
+}
