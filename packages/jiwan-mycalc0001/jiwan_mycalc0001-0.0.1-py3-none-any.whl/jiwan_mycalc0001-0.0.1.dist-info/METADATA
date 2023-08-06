@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: jiwan-mycalc0001
+Version: 0.0.1
+Summary: my calculator
+Home-page: https://github.com/sejin-chun/calc0001
+Download-URL: https://github.com/sejin-chun/calc0001/archive/refs/tags/v0.0.1.zip
+Author: seojiwan
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: pytest
+
+UNKNOWN
