@@ -1,0 +1,7 @@
+pyhmmer==0.7.1
+biopython==1.81
+numpy>=1.21
+pyyaml>=6
+snakemake==7.22
+pandas==1.5.3
+tqdm==4.64.1
