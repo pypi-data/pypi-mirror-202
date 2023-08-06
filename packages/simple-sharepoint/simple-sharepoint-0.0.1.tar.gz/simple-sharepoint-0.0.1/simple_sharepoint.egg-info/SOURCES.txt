@@ -1,0 +1,7 @@
+setup.py
+simple_sharepoint/__init__.py
+simple_sharepoint/sharepoint.py
+simple_sharepoint.egg-info/PKG-INFO
+simple_sharepoint.egg-info/SOURCES.txt
+simple_sharepoint.egg-info/dependency_links.txt
+simple_sharepoint.egg-info/top_level.txt
