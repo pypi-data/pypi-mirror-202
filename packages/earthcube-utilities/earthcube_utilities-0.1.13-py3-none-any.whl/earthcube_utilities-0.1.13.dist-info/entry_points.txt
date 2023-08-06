@@ -1,0 +1,5 @@
+[console_scripts]
+check_sitemap = ec.check_sitemap:start
+generategraphstats = ec.generate_graph_stats:start
+missing_report = ec.missing_report:start
+query_graph = ec.query_graph:start
