@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: config-joker
+Version: 0.1.0
+Summary: A package to ease usage of different configuration conditions in your projects.
+Author: Joao Pedro Mendes Goulart
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Description-Content-Type: text/markdown
+
+# config-joker
+A package to ease usage of different configuration conditions in your projects.
+
+## How to use in
+
+Import the sources you'll use and the Config class:
+
+    from config_joker.sources.environment import EnvironmentSource
+    from config_joker.config import Config
+
+Initialize the config class implementing the sources you want to use:
+
+    config = Config(
+            sources=[
+                EnvironmentSource(})
+            ]
+        )
+
+Find the configurations you want to use:
+
+    import os
+    os.environ['env_variable'] = '1'
+    number_one_from_env_source_as_int = config.required(key='env_variable', value_type=int)
+
