@@ -1,0 +1,2 @@
+docassemble.ALToolbox>=0.6.2
+docassemble.GithubFeedbackForm>=0.2.0
