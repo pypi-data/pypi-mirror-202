@@ -1,0 +1,11 @@
+docs/conf.py,sha256=JzEG_zKHud7ml9aeQtQisiLZ5KLPIKFnPPNqjQH6Jdg,9759
+hooks/post_gen_project.py,sha256=ad96zad7mXO2Mn_vVBMsKsYBuXPOzEDFOArnX8-9PJ8,1056
+{{cookiecutter.project_name}}/docs/conf.py,sha256=_KHZkokoz3SemSLBle3uKoTkPkZhMAmQqIM4W6ISwZs,5196
+{{cookiecutter.project_name}}/{{cookiecutter.namespace}}/__init__.py,sha256=7-fqr2ey1xzKz0xPjpbxm7nYU_6Sli2YeleirOy-NtA,74
+{{cookiecutter.project_name}}/{{cookiecutter.namespace}}/{{cookiecutter.package_name}}/__init__.py,sha256=j8d73HSlCE-JFFn3Pjn304EDKMMoPVH0fMYYKlz7tiA,590
+{{cookiecutter.project_name}}/{{cookiecutter.namespace}}/{{cookiecutter.package_name}}/cli.py,sha256=FLtTk38jjNOFW7g0syE9tjYLps_41Fn4S_QovUBK3Uw,1651
+{{cookiecutter.project_name}}/{{cookiecutter.namespace}}/{{cookiecutter.package_name}}/main.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+cookiecutter_namespace_template-0.4.0.dist-info/METADATA,sha256=Uw2yD1HpBsb9BcI9bL5E-FQD2vGbP3r5ktM8Y0D7uss,5638
+cookiecutter_namespace_template-0.4.0.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+cookiecutter_namespace_template-0.4.0.dist-info/licenses/LICENSE,sha256=7Gu26sWKMNoltNBFw8tJ3qvRSr5aIhoeUVJB70-0IxM,1527
+cookiecutter_namespace_template-0.4.0.dist-info/RECORD,,
