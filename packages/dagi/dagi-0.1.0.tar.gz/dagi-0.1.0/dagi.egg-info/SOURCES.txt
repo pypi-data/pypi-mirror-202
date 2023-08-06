@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dagi/__init__.py
+dagi.egg-info/PKG-INFO
+dagi.egg-info/SOURCES.txt
+dagi.egg-info/dependency_links.txt
+dagi.egg-info/top_level.txt
