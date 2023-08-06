@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "att-mlops"
+version = "0.1.7"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "att_mlops"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mlflow = "^2.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+h2o-mlops-client = {path = "att_mlops/h2o_mlops_client-0.60.1-py2.py3-none-any.whl"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
