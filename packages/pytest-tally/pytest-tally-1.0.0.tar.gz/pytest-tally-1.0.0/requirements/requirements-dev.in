@@ -1,0 +1,7 @@
+black
+faker
+isort
+pyflakes
+pytest-rerunfailures
+twine
+wheel
