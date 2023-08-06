@@ -1,0 +1,14 @@
+pyserial
+
+[docs]
+sphinx
+sphinx_rtd_theme
+sphinx-autodoc-typehints
+
+[tests]
+pytest
+pytest-cov
+mypy
+ruff
+black
+isort
