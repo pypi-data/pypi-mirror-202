@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+LibCode.egg-info/PKG-INFO
+LibCode.egg-info/SOURCES.txt
+LibCode.egg-info/dependency_links.txt
+LibCode.egg-info/requires.txt
+LibCode.egg-info/top_level.txt
+myLib/__init__.py
