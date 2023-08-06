@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fastsim
+Version: 2.0.10
+Summary: Tool for modeling vehicle powertrains
+Author-email: MBAP Group <fastsim@nrel.gov>
+Project-URL: Homepage, https://www.nrel.gov/transportation/fastsim.html
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: <3.11,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.md
+Requires-Dist: pandas (>=1)
+Requires-Dist: matplotlib (>=3.3)
+Requires-Dist: numpy (>=1.18)
+Requires-Dist: seaborn (>=0.10)
+Requires-Dist: pymoo (==0.6)
+Requires-Dist: typing-extensions
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: maturin ; extra == 'dev'
+
+[docs/README.md](fastsim/docs/README.md)
