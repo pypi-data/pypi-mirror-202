@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.py
+src/cmlibs/__init__.py
+src/cmlibs.maths.egg-info/PKG-INFO
+src/cmlibs.maths.egg-info/SOURCES.txt
+src/cmlibs.maths.egg-info/dependency_links.txt
+src/cmlibs.maths.egg-info/not-zip-safe
+src/cmlibs.maths.egg-info/top_level.txt
+src/cmlibs/maths/__init__.py
+src/cmlibs/maths/algorithms.py
+src/cmlibs/maths/vectorops.py
