@@ -1,0 +1,62 @@
+{
+    "WindowText": {
+      "Active": "#dfdfdf",
+      "Inactive": "#dfdfdf",
+      "Disabled": "#dfdfdf"
+    },
+    "Button": {
+      "Active": "#373737",
+      "Inactive": "#373737",
+      "Disabled": "#373737"
+    },
+    "Light": {
+      "Active": "#7f1e1b",
+      "Inactive": "#7f1e1b",
+      "Disabled": "#7f1e1b"
+    },
+    "Text": {
+      "Active": "#dfdfdf",
+      "Inactive": "#dfdfdf",
+      "Disabled": "#dfdfdf"
+    },
+    "ButtonText": {
+      "Active": "#dfdfdf",
+      "Inactive": "#dfdfdf",
+      "Disabled": "#dfdfdf"
+    },
+    "Base": {
+      "Active": "#383838",
+      "Inactive": "#383838",
+      "Disabled": "#383838"
+    },
+    "Window": {
+      "Active": "#2b2a2a",
+      "Inactive": "#2b2a2a",
+      "Disabled": "#2b2a2a"
+    },
+    "Highlight": {
+      "Active": "#811f1c",
+      "Inactive": "#811f1c",
+      "Disabled": "#811f1c"
+    },
+    "Link": {
+      "Active": "#811f1c",
+      "Inactive": "#811f1c",
+      "Disabled": "#811f1c"
+    },
+    "LinkVisited": {
+      "Active": "#e2ba2c",
+      "Inactive": "#e2ba2c",
+      "Disabled": "#e2ba2c"
+    },
+    "AlternateBase": {
+      "Active": "#515050",
+      "Inactive": "#515050",
+      "Disabled": "#515050"
+    },
+    "PlaceholderText": {
+      "Active": "#dfdfdf",
+      "Inactive": "#dfdfdf",
+      "Disabled": "#dfdfdf"
+    }
+}
