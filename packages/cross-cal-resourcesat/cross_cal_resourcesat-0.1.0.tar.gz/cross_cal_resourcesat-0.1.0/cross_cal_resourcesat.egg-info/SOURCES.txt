@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+cross_cal_resourcesat/__init__.py
+cross_cal_resourcesat/cross_cal_resourcesat.py
+cross_cal_resourcesat.egg-info/PKG-INFO
+cross_cal_resourcesat.egg-info/SOURCES.txt
+cross_cal_resourcesat.egg-info/dependency_links.txt
+cross_cal_resourcesat.egg-info/not-zip-safe
+cross_cal_resourcesat.egg-info/requires.txt
+cross_cal_resourcesat.egg-info/top_level.txt
