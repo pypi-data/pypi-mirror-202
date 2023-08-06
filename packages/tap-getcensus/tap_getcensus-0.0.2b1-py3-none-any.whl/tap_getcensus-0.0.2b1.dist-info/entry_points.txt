@@ -1,0 +1,3 @@
+[console_scripts]
+tap-getcensus=tap_getcensus.tap:TapCensus.cli
+

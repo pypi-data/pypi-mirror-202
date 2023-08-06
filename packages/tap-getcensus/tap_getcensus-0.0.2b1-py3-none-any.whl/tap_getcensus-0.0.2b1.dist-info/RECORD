@@ -1,0 +1,9 @@
+tap_getcensus/__init__.py,sha256=q2NbGq6pxkRBWAOoBPoAvm1juaNuNdwLLzJcdHFQLe4,84
+tap_getcensus/__main__.py,sha256=P6Oc8F-A-mkqFP8qOqlOGMN4i4-zXLbBdkv0U1v9hs4,116
+tap_getcensus/client.py,sha256=nzauUeryunNp_4uSDkT2DXtVJCVZF_BQfEAUQSPB0Nk,2287
+tap_getcensus/streams.py,sha256=vfJcYpwURXceAXHpp6-5MMCASEQbqyDIqiYdcWti8XA,20605
+tap_getcensus/tap.py,sha256=kcyJl_izFBuRZj4i08cnDs47vMD2eljDg3AlnOhZp2A,955
+tap_getcensus-0.0.2b1.dist-info/METADATA,sha256=CMZEYWqgm4S6fwlzp1GYe-hhBXI_lPAnTT70Zv9UBzw,5279
+tap_getcensus-0.0.2b1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+tap_getcensus-0.0.2b1.dist-info/entry_points.txt,sha256=Dpg0NmJ-J6d0zxyEo4RvgnmO1KoCr5TUIgV6yY2hB3A,65
+tap_getcensus-0.0.2b1.dist-info/RECORD,,
