@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tests/test_readme.py
+yomu/__init__.py
+yomu/readme.py
+yomu.egg-info/PKG-INFO
+yomu.egg-info/SOURCES.txt
+yomu.egg-info/dependency_links.txt
+yomu.egg-info/entry_points.txt
+yomu.egg-info/requires.txt
+yomu.egg-info/top_level.txt
