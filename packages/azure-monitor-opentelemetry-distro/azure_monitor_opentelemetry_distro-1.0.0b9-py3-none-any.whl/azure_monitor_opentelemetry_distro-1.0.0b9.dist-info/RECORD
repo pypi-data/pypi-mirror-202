@@ -1,0 +1,8 @@
+azure/monitor/opentelemetry/distro/configurator.py,sha256=jlvXLELeGcXvTg7Gnu-2hc2c8s3x1Sf_q9w655i2uBs,449
+azure/monitor/opentelemetry/distro/distro.py,sha256=vBmguVKOwQNoQQmHEEdptzl-_6eTxee8qxR-GzDRrS0,978
+azure/monitor/opentelemetry/distro/version.py,sha256=2cERR-He853tbMj_timqRCeEKFSUjEXLzjfiE3D82jg,334
+azure_monitor_opentelemetry_distro-1.0.0b9.dist-info/METADATA,sha256=ptmzRP39tc5YBJOrsIQNPt1RsWbv9OwGHqj6NEaKkvY,1322
+azure_monitor_opentelemetry_distro-1.0.0b9.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+azure_monitor_opentelemetry_distro-1.0.0b9.dist-info/entry_points.txt,sha256=s_qGO9rl3ZRuACkenIVKSxtgZYT_zlSPIcVglUcWDk8,267
+azure_monitor_opentelemetry_distro-1.0.0b9.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
+azure_monitor_opentelemetry_distro-1.0.0b9.dist-info/RECORD,,
