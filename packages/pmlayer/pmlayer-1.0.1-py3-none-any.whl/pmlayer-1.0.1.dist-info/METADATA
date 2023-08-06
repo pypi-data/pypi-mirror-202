@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pmlayer
+Version: 1.0.1
+Summary: pmlayer: partially monotone layer
+Home-page: https://github.com/IBM/pmlayer
+Author: Hiroki Yanagisawa
+Author-email: yanagis@jp.ibm.com
+Maintainer: Hiroki Yanagisawa
+Maintainer-email: yanagis@jp.ibm.com
+License: Apache 2.0
+Download-URL: https://github.com/IBM/pmlayer
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: torch (>=1.5)
+Requires-Dist: numpy (>=0.1)
+
+# Partially Monotone Layer
+
+Partially monotome layer (`pmlayer`) is a library for neural network models.
+It provides several neural network layers to add monotonicity constraints on neural network models.
+Current implementation is available only for PyTorch.
+
+Read the [documentation](https://ibm.github.io/pmlayer/) to get started, and feel free to contact us for any inquiry.
+
+# Installation
+
+You can install `pmlayer` by using the `pip` command:
+
+```pip install pmlayer```
+
+
+# Citation
+
+Please consider citing this paper.
+> H. Yanagisawa, K. Miyaguchi, and T. Katsuki, "Hierarchical Lattice Layer for Partially Monotone Regression," NeurIPS 2022.
+
+
