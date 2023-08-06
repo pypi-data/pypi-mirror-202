@@ -1,0 +1,17 @@
+vehicle_lang-0.2.0a4.dist-info/RECORD,,
+vehicle_lang-0.2.0a4.dist-info/LICENSE,sha256=SV8Hlp68VUBzK8sc1GPhX-CBvx9lRY_TRYQ2SF1VcOg,1066
+vehicle_lang-0.2.0a4.dist-info/WHEEL,sha256=9u5azgharjYBfdIrZMb7YtYWGPqS21BRmRBngkXCmzk,110
+vehicle_lang-0.2.0a4.dist-info/entry_points.txt,sha256=ZIeUDXEd3fVQ1K7yxQmAMeEUtuvLMHjWrNKD3H1FJBs,110
+vehicle_lang-0.2.0a4.dist-info/top_level.txt,sha256=1cYkuqPeT7mEFz8UNWBscTH3VjOUhtvYquKhEE8KewY,13
+vehicle_lang-0.2.0a4.dist-info/METADATA,sha256=zc_JPeBImzFNxkPEL486XsfxTX_1OR8_oOZN6pbM-9Y,5729
+vehicle_lang/_internal.py,sha256=Z7mWvHUNtSEqmou9xxmpXd1utksRC_dxeLkkyWVx9t4,549
+vehicle_lang/_version.py,sha256=MqAZPuEw8jC_MG0xdUfAHe0FpeQXO_TvYtm0XBF8aJg,25
+vehicle_lang/_tempfiles.py,sha256=o8q2ax4EPjCiyxy3M5ikSOuJO_QYm5tw59p904n0QvA,1336
+vehicle_lang/__init__.py,sha256=9QaL2G6MXNy3QqJ1IvD3EIMVrGhDgF0Hs9Y0P5I_BTs,762
+vehicle_lang/binding.def,sha256=x7gLyv2JWYW4bNIcn-2mQaMqx9liTEIhilaw-N6J144,26
+vehicle_lang/binding.i,sha256=2pPv4kogS_zYgKjfsphaNTLSJAlDO0I1e9nLN3iRCSk,981
+vehicle_lang/_binding.cpython-311-darwin.so,sha256=8I0-MQwFefcE4GWD4ulyEHeJru-TbqmkcgE_70VTAH0,78785406
+vehicle_lang/binding.py,sha256=-5W5JTAOgvvxjprzhluBwasE-lOtWvwJYst_fQO2ADY,2175
+vehicle_lang/__main__.py,sha256=D07pdFnOA04XRN0T5RIx-puQ4OOfQGdk15xQvJTLmIs,72
+vehicle_lang/pygments/__init__.py,sha256=0Gw0iqy3ZDGakkqni14ng9HYOQSFCxskLhSEgqqYlHY,3528
+vehicle_lang/pygments/_external/__init__.py,sha256=dWUfszDUty5xpCfHKsmW2_wCJx_iScpMW7pWKhINqfQ,3038
