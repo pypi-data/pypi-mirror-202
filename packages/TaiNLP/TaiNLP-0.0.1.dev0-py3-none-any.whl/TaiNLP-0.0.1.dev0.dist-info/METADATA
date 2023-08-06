@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: TaiNLP
+Version: 0.0.1.dev0
+Summary: Tai Natural Language Processing library
+Home-page: https://github.com/TaiNLP/tainlp
+Author: Wannaphong
+Author-email: wannaphong@yahoo.com
+License: Apache Software License 2.0
+Project-URL: Documentation, https://github.com/TaiNLP/tainlp/wiki
+Project-URL: Source, https://github.com/TaiNLP/tainlp
+Project-URL: Bug Reports, https://github.com/TaiNLP/tainlp/issues
+Keywords: tai,NLP,natural language processing,text analytics,text processing,localization,computational linguistics,Tai language
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pythainlp
+Requires-Dist: laonlp
+
+# tainlp
+
+Tai NLP
+
+
