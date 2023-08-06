@@ -1,0 +1,38 @@
+[build-system]
+requires = [
+    "setuptools==65.5.0",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jarvis-toolkit"
+version = "0.0.1"
+authors = [
+    { name = "Artur Aliiev", email = "pastordev@jarvis-toolkit.com" },
+]
+description = "Jarvis Toolkit"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "email-validator==1.3.1",
+    "ffmpeg==1.4",
+    "gTTS==2.3.1",
+    "openai",
+    "PyAudio==0.2.13",
+    "pydantic==1.10.4",
+    "pydub==0.25.1",
+    "SpeechRecognition==3.9.0",
+    "vosk==0.3.45",
+    "nltk",
+    "numpy",
+    "silero"
+]
+[project.urls]
+"Homepage" = "https://bitbucket.org/jarvis-toolkit/jarvis-core/src/master/t"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+

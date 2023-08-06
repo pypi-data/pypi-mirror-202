@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jarvis-toolkit
+Version: 0.0.1
+Summary: Jarvis Toolkit
+Author-email: Artur Aliiev <pastordev@jarvis-toolkit.com>
+Project-URL: Homepage, https://bitbucket.org/jarvis-toolkit/jarvis-core/src/master/t
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# jarvis-core
+
+Package for support AI tools based on OpenAI
