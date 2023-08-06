@@ -1,0 +1,11 @@
+gqlpycgen/__init__.py,sha256=ikU7pdglFy0eeeVxHJPRQgS5cPK_gKjKjbTE2zyZDGk,3219
+gqlpycgen/api.py,sha256=GcH0eLLJ_NVG_dL0o4M1hHcYTLbKQdgeUgnY6vhdFj0,5871
+gqlpycgen/client.py,sha256=fh6kb--h5gpOrM6rXRzkEXFxHYBqoAQDj46IYrp1LfU,5081
+gqlpycgen/loader.py,sha256=1cPhuHZHBHxnq4Ar1Z3iTlRanK-pVGnp2rZZXMEk4z8,3129
+gqlpycgen/models.py,sha256=9RfDxRxFts70UPA6OzCJVNBvH3Wue9JdFn5nU_Ffses,7833
+gqlpycgen/utils.py,sha256=GpcJTeLKC-UnAZVJOm2ARxpS4viBZKil1je7t6jOB5Y,1063
+wf_gqlpycgen-0.7.4.dist-info/entry_points.txt,sha256=dg3GfYyfZrGmIHSuXl_ZpysA5hDVH3gCAqfsaW6PE6U,46
+wf_gqlpycgen-0.7.4.dist-info/LICENSE,sha256=p3OduKIhM_EHmRFCy-Sf8Xid4PT2r8Hln9UzSBjh_n4,1087
+wf_gqlpycgen-0.7.4.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+wf_gqlpycgen-0.7.4.dist-info/METADATA,sha256=L6sZu2G5-8vrFQ6U3GQXCnT9D0HYwWqIRV2z3G6TWxg,1243
+wf_gqlpycgen-0.7.4.dist-info/RECORD,,
