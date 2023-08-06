@@ -1,0 +1,9 @@
+idascript/__init__.py,sha256=L5PLmJ8WP4HFhVrTJT31vnERwGSj7B7H6wspIUIe2ME,989
+idascript/ida.py,sha256=27gVNHIsIKOv4pnZyzkLvCcPiS3NMX1x9vL1Zsc-cL8,9037
+idascript/utils.py,sha256=gaFYCooEjWrh0P9AAQ9HbTdD4Sd3j5Q8owJwwGGEleI,1135
+idascript-0.1.0.data/scripts/idascripter,sha256=l1uEiEdBfT46txfFmRVC2IFCmzwc6DJvMcjVlVC_w1o,4852
+idascript-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+idascript-0.1.0.dist-info/METADATA,sha256=UsRmc-Jeu6VnnDD2G7j-rPwEEfba0PjLDBBphNo_NlY,5138
+idascript-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+idascript-0.1.0.dist-info/top_level.txt,sha256=GkDyMq5zvRUcCO0sQyvSYVXFLOg9s8hFQXynqbIgK0w,10
+idascript-0.1.0.dist-info/RECORD,,
