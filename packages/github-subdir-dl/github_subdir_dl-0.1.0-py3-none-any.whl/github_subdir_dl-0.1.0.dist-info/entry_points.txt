@@ -1,0 +1,2 @@
+[console_scripts]
+github_sub_dl = github_subdir_dl:github_subdir_dl
