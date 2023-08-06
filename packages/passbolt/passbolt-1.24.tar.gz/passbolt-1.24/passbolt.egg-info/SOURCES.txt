@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.py
+passbolt/__init__.py
+passbolt/passbolt.py
+passbolt.egg-info/PKG-INFO
+passbolt.egg-info/SOURCES.txt
+passbolt.egg-info/dependency_links.txt
+passbolt.egg-info/requires.txt
+passbolt.egg-info/top_level.txt
