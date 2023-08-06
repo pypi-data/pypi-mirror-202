@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: h-shap
+Version: 0.1.6
+Summary: Fast Hierarchical Games for Image Explanations
+Home-page: https://github.com/Sulam-Group/h-shap
+Author: Jacopo Teneggi
+Author-email: jtenegg1@jhu.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: numpy
+Requires-Dist: torch
+
+`h-shap` provides a fast, hierarchical implementation of Shapley coefficients for image explanations. It is exact, and it does not rely on approximation. In binary classification scenarios, `h-shap` guarantees an exponential computational advantage when explaining an important concept contained in the image.
+
