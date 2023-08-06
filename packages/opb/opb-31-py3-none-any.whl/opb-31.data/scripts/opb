@@ -1,0 +1,98 @@
+#!python
+# This file is placed in the Public Domain.
+# pylint: disable=C0115,C0116,C0413,W0212,E0611,E0401
+
+
+'object programming bot'
+
+
+import os
+import sys
+import termios
+import time
+
+
+sys.path.insert(0, os.getcwd())
+
+
+import opb.modules
+
+
+from opb.handler import Client, Error, command, parse, spl
+from opb.scanner import importer, scandir, scanpkg, starter
+from opb.threads import launch
+
+
+class CLI(Client):
+
+    def announce(self, txt):
+        pass
+
+    def raw(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+class Console(CLI):
+
+    def handle(self, evt):
+        CLI.handle(self, evt)
+
+    def poll(self):
+        return self.event(input("> "))
+
+
+def waiter():
+    got = []
+    for ex in Error.errors:
+        traceback.print_exception(type(ex), ex, ex.__traceback__)
+        got.append(ex)
+    for exc in got:
+        Error.errors.remove(exc)
+
+
+def wrap(func):
+    fds = sys.stdin.fileno()
+    gotterm = True
+    try:
+        old = termios.tcgetattr(fds)
+    except termios.error:
+        gotterm = False
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        print('')
+    finally:
+        if gotterm:
+            termios.tcsetattr(fds, termios.TCSADRAIN, old)
+        waiter()
+      
+
+def main():
+    dowait = False
+    cfg = parse(' '.join(sys.argv[1:]))
+    if os.path.exists("modules"):
+        scandir("modules", importer, doall=True)
+    scanpkg(opb.modules, importer, doall=True)
+    if cfg.txt:
+        cli = CLI()
+        command(cli, cfg.otxt)
+    elif 'd' in cfg.opts:
+        daemon()
+        dowait = True
+    elif 'c' in cfg.opts:
+        date = time.ctime(time.time()).replace('  ', ' ')
+        print(f'OPB started {date}')
+        csl = Console()
+        launch(csl.loop)
+        dowait = True
+    if dowait:
+        scanpkg(opb.modules, starter, doall=True)
+        scandir("modules", starter, doall=True)
+        while 1:
+            time.sleep(1.0)
+            waiter()
+
+
+wrap(main)
+waiter()
