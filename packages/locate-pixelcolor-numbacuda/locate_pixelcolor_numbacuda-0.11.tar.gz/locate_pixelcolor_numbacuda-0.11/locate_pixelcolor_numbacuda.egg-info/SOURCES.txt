@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+locate_pixelcolor_numbacuda/LICENSE
+locate_pixelcolor_numbacuda/README.MD
+locate_pixelcolor_numbacuda/__init__.py
+locate_pixelcolor_numbacuda/requirements.txt
+locate_pixelcolor_numbacuda/thirdparty.json
+locate_pixelcolor_numbacuda.egg-info/PKG-INFO
+locate_pixelcolor_numbacuda.egg-info/SOURCES.txt
+locate_pixelcolor_numbacuda.egg-info/dependency_links.txt
+locate_pixelcolor_numbacuda.egg-info/requires.txt
+locate_pixelcolor_numbacuda.egg-info/top_level.txt
