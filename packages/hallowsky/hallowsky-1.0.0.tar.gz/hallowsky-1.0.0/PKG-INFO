@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hallowsky
+Version: 1.0.0
+Summary: Python Lib for c++ calls
+Home-page: https://github.com
+Author: Python_lib_dev201
+Author-email: death114@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com
+Description: DESCRIPTION
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

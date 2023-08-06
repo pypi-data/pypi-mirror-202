@@ -1,0 +1,7 @@
+setup.py
+src/examples/__init__.py
+src/examples/options.py
+src/hallowsky.egg-info/PKG-INFO
+src/hallowsky.egg-info/SOURCES.txt
+src/hallowsky.egg-info/dependency_links.txt
+src/hallowsky.egg-info/top_level.txt
