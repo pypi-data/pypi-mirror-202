@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: yaag
+Version: 0.0.1
+Summary: Yet another auto GPT
+Author-email: Tom Dyson <tom@torchbox.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/tomdyson/yaag
+
+# YAAG
+
+yet another auto gpt
+
+## Installation
+
+`pip install yaag`
+
+## Usage
+
