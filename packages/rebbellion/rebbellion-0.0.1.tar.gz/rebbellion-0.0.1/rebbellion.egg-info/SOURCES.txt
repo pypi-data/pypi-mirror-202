@@ -1,0 +1,5 @@
+setup.py
+rebbellion.egg-info/PKG-INFO
+rebbellion.egg-info/SOURCES.txt
+rebbellion.egg-info/dependency_links.txt
+rebbellion.egg-info/top_level.txt
