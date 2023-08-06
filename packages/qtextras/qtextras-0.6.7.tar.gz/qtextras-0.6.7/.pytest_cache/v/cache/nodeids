@@ -1,0 +1,18 @@
+[
+  "tests/test_actionstack.py::test_bad_redo",
+  "tests/test_actionstack.py::test_bad_undo",
+  "tests/test_actionstack.py::test_deferred_stack",
+  "tests/test_actionstack.py::test_group",
+  "tests/test_actionstack.py::test_grp_composite",
+  "tests/test_actionstack.py::test_ignore_acts",
+  "tests/test_actionstack.py::test_invalidate_redos",
+  "tests/test_actionstack.py::test_max_len",
+  "tests/test_actionstack.py::test_nested_doable",
+  "tests/test_actionstack.py::test_reassign_backward",
+  "tests/test_actionstack.py::test_recursive",
+  "tests/test_actionstack.py::test_savepoint",
+  "tests/test_dockgroup.py::test_dockgrouping",
+  "tests/test_parameditor.py::test_default_use",
+  "tests/test_parameditor.py::test_shortcut",
+  "tests/test_parameditor.py::test_state_manager"
+]
