@@ -1,0 +1,3 @@
+[console_scripts]
+palexcpptest = pypalexcpptest.__main__:main
+
