@@ -1,0 +1,9 @@
+CHANGELOG.md,sha256=KoesOH2ZeD4YnLsxgqahaQy28E2OGOkIDnGJHLbf_WE,301
+base16_colorlib/__init__.py,sha256=T2ZRZHZuMp_yvkx27oTmIjtZohXdojgxlgbwCz257bQ,752
+base16_colorlib/color_scheme.py,sha256=NPkfUJwgW1EKmr2UsRv2DZtOmdVfq80a8BVvLnaFsYk,21633
+base16_colorlib/utils.py,sha256=S8jFXRrYySplqkMNTJAtrtKA3Lc6vc01J137ORliUsA,8995
+base16_colorlib/version.py,sha256=4z4B-tNWhlcTNd7EUpP0x7TlmIcGlI2uy8ZAoY5ecHg,68
+base16_colorlib-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+base16_colorlib-0.2.0.dist-info/METADATA,sha256=-gMMQQNryaS2k4hjgBPhMnHCAP3oH5RLFNq8dFT2-e8,30491
+base16_colorlib-0.2.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+base16_colorlib-0.2.0.dist-info/RECORD,,
