@@ -1,0 +1,11 @@
+gportal/__init__.py,sha256=VEtLzWsv3mBV88t05XlnR2iQ11WWXtXzA3BQbmzBgIg,286
+gportal/data/datasets.json,sha256=bjrnL0V6h9J-WKqOt43TUwZWlaPPC7gt-M1ZxAv9OB4,28946
+gportal/dataset.py,sha256=v1zjLjLoQYnd3-kh1wW6hVYwUORv-ojYISQlIa1HkS4,1663
+gportal/http_client.py,sha256=iLRyLB_vZCBTK6c0JNC6IhZdE3nTgX4p2tg3oi2e1Xc,422
+gportal/product.py,sha256=du8-5nSk5hV-ggWZ8E5uQ296n94mOIMUW0Bn__Xyu38,5257
+gportal/search.py,sha256=6JeyFjA7e17Utjt65s9Fsq_CC61CkxwFtXEad7RUY4s,4192
+gportal/sftp.py,sha256=QL_x9xmuRWVQDC1ZP1YQloIu7pxh3FDcrQHsh-Ki9LU,4894
+gportal-0.3.0.dist-info/LICENSE,sha256=D72lugpUl0v3X6-AqwyqLRgLLTKofNj2jTfWZlMOopg,1073
+gportal-0.3.0.dist-info/METADATA,sha256=B90Ax9D3njvwlQOTwdD0dDcWLR2SUJoaO7UpTVOopY0,2721
+gportal-0.3.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+gportal-0.3.0.dist-info/RECORD,,
