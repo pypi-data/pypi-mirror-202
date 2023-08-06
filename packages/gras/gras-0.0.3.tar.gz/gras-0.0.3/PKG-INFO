@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gras
+Version: 0.0.3
+Summary: Github Repository Activity Scanning (GRAS).
+Home-page: https://github.com/math280h/GRAScanner
+License: Apache-2.0 license
+Author: Mathias V. Nielsen
+Author-email: 1547127+math280h@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pygithub (>=1.58.1,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: rich (>=13.3.3,<14.0.0)
+Project-URL: Repository, https://github.com/math280h/GRAScanner
+Description-Content-Type: text/markdown
+
+# GRAScanning
+
+GitHub repository activity scanning.
+
