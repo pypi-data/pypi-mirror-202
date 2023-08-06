@@ -1,0 +1,9 @@
+chafa/chafa.py,sha256=6kLwogU975Bp2jfTMXXM1CAN76mDcmr-CrmKCjnQEaM,83257
+chafa/loader.py,sha256=Yci5weclpwMWtQPxf9D5J5yBAbuGfrpJhZ04aWDGMXs,5736
+chafa/__init__.py,sha256=UvUbjEspbxpVKidDCCPbtOktxZ6WEjnI36WOP7IX3aI,559
+chafa/libs/libchafa.so,sha256=lgKy0RCDu0ki2Yz5WUwE2dD_6N0KeUIiutVp1yYJeHk,1165136
+chafa.py-1.1.1.dist-info/RECORD,,
+chafa.py-1.1.1.dist-info/METADATA,sha256=_Tt-JydrVlqvuoH4kRnWyp6uSiOT2PExg77z6eCcSAI,4725
+chafa.py-1.1.1.dist-info/WHEEL,sha256=TGmSuS2z4zpj-Ky588CyE77cyevHZocv67qzXD2cdtQ,146
+chafa.py-1.1.1.dist-info/licenses/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+chafa.py-1.1.1.dist-info/licenses/COPYING.LESSER,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
