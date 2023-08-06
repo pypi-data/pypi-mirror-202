@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/tlcGIS/__init__.py
+src/tlcGIS/wct.py
+src/tlcGIS.egg-info/PKG-INFO
+src/tlcGIS.egg-info/SOURCES.txt
+src/tlcGIS.egg-info/dependency_links.txt
+src/tlcGIS.egg-info/requires.txt
+src/tlcGIS.egg-info/top_level.txt
