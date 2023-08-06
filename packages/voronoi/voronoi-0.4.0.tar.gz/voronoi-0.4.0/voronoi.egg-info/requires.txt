@@ -1,0 +1,8 @@
+dendroid<2.0,>=1.6.1
+prioq<1.0,>=0.6.0
+reprit<1.0,>=0.8.0
+
+[tests]
+hypothesis<7.0,>=6.71.0
+hypothesis-geometry>=7.0.0
+pytest<8.0,>=7.3.0
