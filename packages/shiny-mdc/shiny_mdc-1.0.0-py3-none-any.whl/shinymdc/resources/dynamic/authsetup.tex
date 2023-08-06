@@ -1,0 +1,9 @@
+\author{%
+  $for(author)$
+    \mbox{$it.name$$if(it.equalcontrib)$$if(skipequal)$$else$\textsuperscript{*}$endif$$endif$}$if(it.institute)$\\%
+    $for(it.institute)$\mbox{{\textsmaller{$it$}}}$sep$\\%
+    $endfor$$endif$$if(it.email)$\\%
+    \mbox{\texttt{\textsmaller{$it.email$}}}$endif$%
+  $sep$\and%
+  $endfor$%
+}
