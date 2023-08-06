@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-sso-bridge
+Version: 0.0.3
+Summary: Bridge to connect django project with SSO System
+Home-page: https://github.com/PedroHenriqueDevBR/django-sso-bridge
+Author: PedroHenriqueDevBR
+Author-email: Pedro Henrique <pedro.henrique.particular@gmail.com>
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/PedroHenriqueDevBR/django-sso-bridge
+Project-URL: Bug Tracker, https://github.com/PedroHenriqueDevBR/django-sso-bridge/issues
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-sso-bridge
+Bridge to connect Django project to SSO system

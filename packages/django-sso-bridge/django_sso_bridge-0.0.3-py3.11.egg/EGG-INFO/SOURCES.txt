@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+django_sso_bridge.egg-info/PKG-INFO
+django_sso_bridge.egg-info/SOURCES.txt
+django_sso_bridge.egg-info/dependency_links.txt
+django_sso_bridge.egg-info/not-zip-safe
+django_sso_bridge.egg-info/requires.txt
+django_sso_bridge.egg-info/top_level.txt
