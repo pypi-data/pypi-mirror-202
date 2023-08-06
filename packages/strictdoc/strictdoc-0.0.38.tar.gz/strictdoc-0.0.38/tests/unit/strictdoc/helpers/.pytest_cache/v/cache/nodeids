@@ -1,0 +1,4 @@
+[
+  "test_rst.py::test_01_text_starting_with_rst_directive",
+  "test_rst.py::test_01_text_with_multiple_paragraphs"
+]
