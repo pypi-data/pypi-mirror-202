@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: fastapi-casdoor
+Version: 0.1.5
+Summary: Integration Casdoor with FastAPI
+Home-page: https://github.com/winrey/python-fastapi-casdoor
+Author: winrey
+Author-email: i@iaside.com
+License: MIT Licence
+Description: Integration Casdoor with FastAPI
+Platform: any
