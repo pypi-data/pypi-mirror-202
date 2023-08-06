@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "atprotocol"
+version = "0.0.1"
+description = "Python wrapper for the ATProtocol API"
+authors = ["Jett Hollister <jett.hollister@proton.me>"]
+readme = "README.md"
+packages = [{include = 'protopy'}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.0"
+requests = "^2.28.2"
+pydantic = "^1.10.7"
+pre-commit = "^3.2.2"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.2.0"
+ruff = "^0.0.261"
+black = "^23.3.0"
+isort = "^5.12.0"
+ipykernel = "^6.22.0"
+types-requests = "^2.28.11.17"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+exclude = [
+".bzr",
+".direnv",
+".eggs",
+".git",
+".hg",
+".mypy_cache",
+".nox",
+".pants.d",
+".pytype",
+".ruff_cache",
+".svn",
+".tox",
+".venv",
+"__pypackages__",
+"_build",
+"buck-out",
+"build",
+"dist",
+"node_modules",
+"venv",
+]
+line-length = 88
+target-version = "py310" # Python 3.10
+
+[tool.isort]
+profile = "black"
+
