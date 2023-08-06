@@ -1,0 +1,16 @@
+LICENSE,sha256=1S5f86R2185zkp8FeegBkOR_IiFjDdiFW4WnqDO9IJI,1063
+pynpc/__init__.py,sha256=Q5SmdKcftbwfyR2J5W7X5-XzFQdwIZEtlJ78Ac0viSU,189
+pynpc/console.py,sha256=Q6-W5vLdzEXMD_5tnCC6EtclfC1QjRwNRHlBBJSyXJc,8789
+pynpc/data/archetypes.txt,sha256=n_wnipmGc2lWNuZoIe7BZQyavI3fBnjtIfpeGkJxleY,8252
+pynpc/data/cards.json,sha256=5O1kgUO8tHS5LkvlHSzy5PmTBdgwAsJJmRPW0LiH5Ho,80041
+pynpc/data/fantasy-professions.txt,sha256=6hwr3sXT7uekbDEF4Ys4pgGEZ561C_ZBsdFjhB5U-ag,843
+pynpc/data/idiosyncrasies.txt,sha256=G7GsnIThKj_4XmaKoHcS_EPfo9782GLKdLZ0Eu9MaSY,662
+pynpc/data/phobia.txt,sha256=jgBsuKSx5xjuQGf533Q-_tVe3HhlhHUNJ3GYhG60aro,9672
+pynpc/npc.py,sha256=NwI67MKAScNVVjxc8sNdAdWcvN-hrPMjuwhFuXvJ-_I,8906
+pynpc/skills.py,sha256=mdiIM0erVMPhADGuUK31jPYMFynmqm3jIdLPLAwregQ,733
+pynpc/utils.py,sha256=ClNjJuUiexpmhmmqiDxvLqQkbp9PoEk_06Hz38cSKSI,2852
+pynpc-0.1.0.dist-info/LICENSE,sha256=1S5f86R2185zkp8FeegBkOR_IiFjDdiFW4WnqDO9IJI,1063
+pynpc-0.1.0.dist-info/METADATA,sha256=wkeTu-c-53Bc_ja5FfLFxFMhh55ZX_q46nUyg5q2kjA,2733
+pynpc-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pynpc-0.1.0.dist-info/entry_points.txt,sha256=ogFPiBKQajdPiRbL9TLoVKKZY-F8ahjL93BeZW6dzbM,44
+pynpc-0.1.0.dist-info/RECORD,,
