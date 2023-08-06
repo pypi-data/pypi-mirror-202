@@ -1,0 +1,32 @@
+{
+    "version": "0.2",
+    "ignorePaths": [],
+    "dictionaryDefinitions": [],
+    "dictionaries": [],
+    "words": [
+        "assoc",
+        "Clisson",
+        "codepoint",
+        "Colm",
+        "Composably",
+        "defaultdict",
+        "dunder",
+        "everseen",
+        "frozensets",
+        "HOCON",
+        "ified",
+        "parsable",
+        "Peekable",
+        "regexes",
+        "replacer",
+        "replacers",
+        "strictyaml",
+        "subtable",
+        "typeable"
+    ],
+    "ignoreWords": [
+        "lkndd",
+        "lolknd"
+    ],
+    "import": []
+}
