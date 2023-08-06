@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: jupyterlab-nbconvert-nocode
+Version: 0.4.0
+Summary: A simple helper library with 2 NBConvert exporters for PDF/HTML export with no code cells
+Home-page: https://github.com/timkpaine/jupyterlab_nbconvert_nocode
+Author: Tim Paine
+Author-email: t.paine154@gmail.com
+License: Apache 2.0
+Keywords: jupyter jupyterlab
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Jupyter
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: jupyterlab (>=3.5) ; extra == 'dev'
+Requires-Dist: nbconvert (>=6.0.0) ; extra == 'dev'
+Requires-Dist: black (>=23) ; extra == 'dev'
+Requires-Dist: bump2version (>=1.0.0) ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: flake8 (>=3.7.8) ; extra == 'dev'
+Requires-Dist: flake8-black (>=0.2.1) ; extra == 'dev'
+Requires-Dist: jupyter-packaging ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'dev'
+Requires-Dist: Sphinx (>=1.8.4) ; extra == 'dev'
+Requires-Dist: sphinx-markdown-builder (>=0.5.2) ; extra == 'dev'
+Provides-Extra: develop
+Requires-Dist: jupyterlab (>=3.5) ; extra == 'develop'
+Requires-Dist: nbconvert (>=6.0.0) ; extra == 'develop'
+Requires-Dist: black (>=23) ; extra == 'develop'
+Requires-Dist: bump2version (>=1.0.0) ; extra == 'develop'
+Requires-Dist: check-manifest ; extra == 'develop'
+Requires-Dist: flake8 (>=3.7.8) ; extra == 'develop'
+Requires-Dist: flake8-black (>=0.2.1) ; extra == 'develop'
+Requires-Dist: jupyter-packaging ; extra == 'develop'
+Requires-Dist: mock ; extra == 'develop'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'develop'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'develop'
+Requires-Dist: Sphinx (>=1.8.4) ; extra == 'develop'
+Requires-Dist: sphinx-markdown-builder (>=0.5.2) ; extra == 'develop'
+
+# jupyterlab_nbconvert_nocode
+A simple helper library with 2 NBConvert exporters for PDF/HTML export with no code cells
+
+[![Build Status](https://github.com/timkpaine/jupyterlab_nbconvert_nocode/workflows/Build%20Status/badge.svg?branch=main)](https://github.com/timkpaine/jupyterlab_nbconvert_nocode/actions?query=workflow%3A%22Build+Status%22)
+[![codecov](https://codecov.io/gh/timkpaine/jupyterlab_nbconvert_nocode/branch/main/graph/badge.svg)](https://codecov.io/gh/timkpaine/jupyterlab_nbconvert_nocode)
+[![GitHub issues](https://img.shields.io/github/issues/timkpaine/jupyterlab_nbconvert_nocode.svg)]()
+[![PyPI](https://img.shields.io/pypi/l/jupyterlab_nbconvert_nocode.svg)](https://pypi.python.org/pypi/jupyterlab_nbconvert_nocode)
+[![PyPI](https://img.shields.io/pypi/v/jupyterlab_nbconvert_nocode.svg)](https://pypi.python.org/pypi/jupyterlab_nbconvert_nocode)
+
+![](https://raw.githubusercontent.com/timkpaine/jupyterlab_nbconvert_nocode/main/docs/1.png)
