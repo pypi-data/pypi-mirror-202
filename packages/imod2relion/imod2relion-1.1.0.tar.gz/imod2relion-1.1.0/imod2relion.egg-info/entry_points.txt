@@ -1,0 +1,2 @@
+[console_scripts]
+imod2relion = imod2relion.main:main
