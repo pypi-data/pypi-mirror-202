@@ -1,0 +1,9 @@
+dpyhr/__init__.py,sha256=0D_YqFrh-JyLs2-JTwi9RhAglfc8X800Gt1NjvFLRx0,3380
+dpyhr/log_dummy.py,sha256=TBl8jp3WGue49QguZjE8BOMp-UeHhoUT45nlEk9EkTg,362
+dpyhr/normal.py,sha256=oeK69ANXcO6ZHVEKyneP3C757MjY_NxA2Z0EZipKYak,1844
+dpyhr/polling.py,sha256=NmCceVN1qfmA7ZUmiGsl_z1cwzTdRQ-kHrkjXu3xsx4,1899
+dpyhr/utils.py,sha256=aQ9Ne_y3BuobY6e-IJMprz1RF8qoRfdUccuLmuLunIA,1158
+dpyhr-0.1.1.dist-info/LICENSE,sha256=x7zUAq-EHaoVzAinrjPqW7Ybw3r7pfr1fLqr6oxbv9g,1076
+dpyhr-0.1.1.dist-info/METADATA,sha256=bMItSrA8qTC9dYBx5ZWvM6KBwQTa4jiQOz7SDGM2Ph8,2520
+dpyhr-0.1.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+dpyhr-0.1.1.dist-info/RECORD,,
