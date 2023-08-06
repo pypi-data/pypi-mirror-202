@@ -1,0 +1,15 @@
+MANIFEST.in
+Readme.md
+setup.py
+py_shiftmanager/__init__.py
+py_shiftmanager/exceptions.py
+py_shiftmanager/logger.py
+py_shiftmanager/shiftmanager_compute.py
+py_shiftmanager/shiftmanager_io.py
+py_shiftmanager/timeout.py
+py_shiftmanager/worker.py
+py_shiftmanager.egg-info/PKG-INFO
+py_shiftmanager.egg-info/SOURCES.txt
+py_shiftmanager.egg-info/dependency_links.txt
+py_shiftmanager.egg-info/requires.txt
+py_shiftmanager.egg-info/top_level.txt
