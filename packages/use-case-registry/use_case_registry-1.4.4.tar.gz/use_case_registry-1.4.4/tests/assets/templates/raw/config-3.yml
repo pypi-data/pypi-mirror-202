@@ -1,0 +1,4 @@
+version: 1
+
+name: "{{ env_var("NAME") }}"
+last_name: "{{ env_var("LAST_NAME", "perez") }}"

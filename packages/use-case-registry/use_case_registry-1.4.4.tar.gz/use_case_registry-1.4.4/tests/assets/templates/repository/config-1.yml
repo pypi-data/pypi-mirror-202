@@ -1,0 +1,14 @@
+target: "{{ env_var("EXECUTION_ENV") }}"
+
+connections:
+  dev:
+    engine: sqlalchemy
+    url:
+      drivername: sqlite
+      database: dev-database.db
+
+  test:
+    engine: sqlalchemy
+    url:
+      drivername: sqlite
+      database: dev-database.db
