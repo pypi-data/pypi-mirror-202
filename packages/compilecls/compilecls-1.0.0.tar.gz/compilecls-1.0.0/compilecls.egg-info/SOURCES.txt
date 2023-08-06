@@ -1,0 +1,6 @@
+setup.py
+compilecls/__init__.py
+compilecls.egg-info/PKG-INFO
+compilecls.egg-info/SOURCES.txt
+compilecls.egg-info/dependency_links.txt
+compilecls.egg-info/top_level.txt
