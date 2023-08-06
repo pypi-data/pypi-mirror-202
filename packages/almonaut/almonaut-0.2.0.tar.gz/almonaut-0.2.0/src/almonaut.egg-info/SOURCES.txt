@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+src/almonaut/__init__.py
+src/almonaut/client.py
+src/almonaut/common_validators.py
+src/almonaut/exceptions.py
+src/almonaut/session.py
+src/almonaut.egg-info/PKG-INFO
+src/almonaut.egg-info/SOURCES.txt
+src/almonaut.egg-info/dependency_links.txt
+src/almonaut.egg-info/requires.txt
+src/almonaut.egg-info/top_level.txt
+src/almonaut/acquisitions/__init__.py
+src/almonaut/acquisitions/acquisitions_models.py
+src/almonaut/electronic_resources/__init__.py
+src/almonaut/electronic_resources/electronic_resources_models.py
