@@ -1,0 +1,14 @@
+board_game_recommender/__init__.py,sha256=PJXeqH_IMcg3opXqDDrC1W8LvgJdr2cVws-XgUGNWps,429
+board_game_recommender/__main__.py,sha256=aotQLIQ5GAbJTvwZrsNBIyIWn0om8PlixjP40mi1c-k,5079
+board_game_recommender/__version__.py,sha256=e_UJwFvEc4WSVea4ez5-PKI9Vt_LsrxLcEmrwf4xSmM,78
+board_game_recommender/base.py,sha256=oOeBElOJs7-DV9mOk3xgVxLTUa5GyUVzQF-eEZSPm28,1846
+board_game_recommender/light.py,sha256=2ewDk8IvbsES0RwFQKH_sPR177QYdsivqCZjjHvMDbw,9358
+board_game_recommender/rankings.py,sha256=le8d57JwkWbwd_nP6Sbize_P8Z16c5bC3Du8UJV3-c4,4766
+board_game_recommender/recommend.py,sha256=E1C-QmQK-dzLur21OAOUPhFM1oV0iW8Hhj1QtAYcdG4,31608
+board_game_recommender/trust.py,sha256=jgSqN2F9hJM8NkiPBJm7zB-7p4i9Cdk7WSj08M1V3K8,2099
+board_game_recommender/utils.py,sha256=N1rc7zNdnmZDTPKnDehQCd5NmJibQxpLT_T_4RFYr3U,3767
+board_game_recommender-3.2.0.dist-info/LICENSE,sha256=WcYkIFKvE2InORAE70AfXkBoQqXLLRsXETBDkNkwxNc,1072
+board_game_recommender-3.2.0.dist-info/METADATA,sha256=o6ybjjWF15xyqfLuT8GgD2QinI0xmGAV1Q4YJtpLyek,4254
+board_game_recommender-3.2.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+board_game_recommender-3.2.0.dist-info/top_level.txt,sha256=jKIazzF16Ebf6__Rw9SdytOFlfhyKQ0drGyjTT-GX8k,23
+board_game_recommender-3.2.0.dist-info/RECORD,,
