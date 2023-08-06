@@ -1,0 +1,11 @@
+mecord_crawler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mecord_crawler/main.py,sha256=l6fRAxbwjGQdGCyMrpl-pi4eHUTt6MII-JG8pc3E0eI,25143
+mecord_crawler/test.py,sha256=rEKUFrPyrXC8p5ElYLBCaAifDDvwVL5L60Ru5YpDiyw,2773
+mecord_crawler/utils.py,sha256=Da4vCvgTMEXFzKUZhzaqhkuTO57n572dmfLoUChUNIE,12215
+mecord_crawler/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+p_template_crawler-0.0.53.dist-info/LICENSE,sha256=5hk5-PypMEFzj-YVsMgaHkR7R7rQlk9FMY__Vi3-AXE,1074
+p_template_crawler-0.0.53.dist-info/METADATA,sha256=hTxT0Wx4R4lI6s75R8fRGsVDvI_MDZjBXBn5fmtOXOg,635
+p_template_crawler-0.0.53.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+p_template_crawler-0.0.53.dist-info/entry_points.txt,sha256=0K7arVPkRPz5ftlW7EQalgQIkn8m2jv9feEr0PydEYg,53
+p_template_crawler-0.0.53.dist-info/top_level.txt,sha256=bNGyrAj6c0PekVW2OJkEfefj2Sg5Hb12af6ug_lphSI,15
+p_template_crawler-0.0.53.dist-info/RECORD,,
