@@ -1,0 +1,11 @@
+extr_nlp/__init__.py,sha256=Ciurlu4R0cJEHPUzQtjqpIIpdEg7jwob8pGyawgwfso,226
+extr_nlp/entities.py,sha256=kOvvc5iuE8tP7nHp067CCmzqQswgeQrhSjMXNjP0ZJc,1526
+extr_nlp/iterutils.py,sha256=9OMpkmOWsX6_E5lomSxmUIzpcl3Kh0XQtXlnK4fSf9M,158
+extr_nlp/models.py,sha256=ucqtqAMsUASDieyMJok63Jh_517dHOdlL3VKAoZuZmY,1034
+extr_nlp/regex.py,sha256=CHat9N6CNDhLNwkeMmEYaUcAlY1QyAbVRU3cHewheWg,2510
+extr_nlp/relations.py,sha256=8hVz-VhR5GJF6F7nJ3P8_R57daqQIKMCUOqUmEhMJj8,1166
+extr_nlp-0.0.1.dist-info/LICENSE,sha256=M0xHH4Tw7PYxnrNhA5yK6ZzlB0hwO2K7uK0sgWBGqPA,1084
+extr_nlp-0.0.1.dist-info/METADATA,sha256=AQ6kQR5b0yYUHjMQ-kLBrSzvK-SllXg4eIy3Jhsn29A,1703
+extr_nlp-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+extr_nlp-0.0.1.dist-info/top_level.txt,sha256=zTWwH56fnIlAEATr_O93IlTCqOEC3oRBdmprhnPmSIo,9
+extr_nlp-0.0.1.dist-info/RECORD,,
