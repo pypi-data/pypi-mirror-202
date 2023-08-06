@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: susass
+Version: 0.0.1
+Summary: A dataframe formatting tool
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: SimoneCallegarin <simone.callegarin00@gmail.com>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# DataframeFormatting
+This is a tool that uses stylers in order to format pandas dataframes
