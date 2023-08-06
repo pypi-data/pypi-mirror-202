@@ -1,0 +1,9 @@
+ophyd
+pcdscalc
+pcdsutils
+prettytable
+qtpy
+setuptools-scm
+
+[test]
+pytest
