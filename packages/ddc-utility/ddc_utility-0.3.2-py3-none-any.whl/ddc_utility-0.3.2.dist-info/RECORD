@@ -1,0 +1,16 @@
+ddc_utility/__init__.py,sha256=3ryqXTKitXG6bRDoZaEEa6UW3-MzB2Z7i_EP0nBIJZU,159
+ddc_utility/__version__.py,sha256=yCZNJ6FBLhrb1NMU-sJWxEs-ebN6hL1l4z8LIW6yesk,19
+ddc_utility/auth.py,sha256=23haRVeY26aY8AnxKkAm7jQ2NU4AxPxgRiWVh4yWHXM,1922
+ddc_utility/chunkstore.py,sha256=NWZkI_6FYFvrrqMnrSH5DFZCDWlM19_zk0yzqaJ57s4,26196
+ddc_utility/config.py,sha256=j1zOfbalZ1bzx7t-UuPhZ5Kdb-zEnsl0FYPNLrg6guk,17691
+ddc_utility/constants.py,sha256=Ee0rBNyEuCzBwdQOCNyyrvgxCosexa3kEBlB3qpZb6g,188
+ddc_utility/cube.py,sha256=7FmPYXxArCziYieoGN-DDgiMKP3_VrwPysOmyfLBMGc,1789
+ddc_utility/ddc.py,sha256=-oWAYXh6Gaw864MMZxB-PJqFzoLyEnL7V9B4ylbs6ko,12622
+ddc_utility/errors.py,sha256=UYVBc4i4erSSozxQc6u0a5_0wjyZUSQXWtC0NTqduCc,3207
+ddc_utility/metadata.py,sha256=iCiewbunq9oC3phfxeccmoXat-BInUgKsiTs-mUb4SM,10627
+ddc_utility/utils.py,sha256=hwgiuchhtuFCKtL8cv6VT-ftjNGf8-aP649PSIoduDc,8079
+ddc_utility-0.3.2.dist-info/LICENSE,sha256=q7pvuQtSoCDLpy-WEJbBU6tYgkv6Y5CuLGnVs3W9Lo0,1110
+ddc_utility-0.3.2.dist-info/METADATA,sha256=yvnpZRzaE24A26RUaRvmqZtrrIvHiDLEwOV_6D-DZ9Q,1805
+ddc_utility-0.3.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+ddc_utility-0.3.2.dist-info/top_level.txt,sha256=I8bPoAYL1Cy5qBitRQOtEjCOU7v0bSvtD6NKK0fd0zY,12
+ddc_utility-0.3.2.dist-info/RECORD,,
