@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: AttentionMOI
+Version: 0.0.5
+Summary: A Denoised Multi-omics Integration Framework for Cancer Subtype Classification and Survival Prediction.
+Home-page: https://github.com/BioAI-kits/AttentionMOI
+Author: Billy
+Author-email: liangbilin0324@163.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.9.*
+License-File: LICENSE
+Requires-Dist: captum (==0.4.1)
+Requires-Dist: mygene (==3.2.2)
+Requires-Dist: openpyxl (==3.0.9)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pandas (==1.2.5)
+Requires-Dist: pandocfilters (==1.5.0)
+Requires-Dist: seaborn (==0.11.2)
+Requires-Dist: torch (==1.13.1)
+Requires-Dist: scikit-learn (==1.2.2)
+Requires-Dist: numpy (==1.23.5)
+Requires-Dist: matplotlib (==3.6.2)
+Requires-Dist: xgboost (==1.7.4)
+Requires-Dist: livelossplot
+Requires-Dist: tensorboardX
+Requires-Dist: tqdm
+
+UNKNOWN
+
