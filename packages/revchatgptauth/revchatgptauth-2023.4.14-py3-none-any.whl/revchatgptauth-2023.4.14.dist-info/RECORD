@@ -1,0 +1,10 @@
+revChatGPTAuth/__init__.py,sha256=9jfUd5dNFfgbjWoeFbGIuWVtbfB-X0-raLzfgxbXNM4,247
+revChatGPTAuth/chatgpt_access_token_parser.py,sha256=kvgNbeTqnUm9Nt0oUl7SEhEk7lTHheXuOuwzPL6-0Uo,1056
+revChatGPTAuth/openai_cookie_parser.py,sha256=_rtAnY3ixDjL0vZqUyRK2Ga6frxBFe8PQxNhcG6R7Vc,1561
+revChatGPTAuth/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revChatGPTAuth/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+revChatGPTAuth/test/test_chatgpt_access_token_parser.py,sha256=7wSt5NnUYuJWN61Bsds6qvTQZ7LJAbLW4VOThNbHnHU,1989
+revChatGPTAuth/test/test_openai_cookie_parser.py,sha256=a8tinxQnz7fZDdCUgkrKCeV_3UNRdos2q1UeOwmuhXE,3124
+revchatgptauth-2023.4.14.dist-info/METADATA,sha256=wE_GMzk8-TCQxtckE1uxYCs76padid-2ZKcsMzIRo5c,1674
+revchatgptauth-2023.4.14.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+revchatgptauth-2023.4.14.dist-info/RECORD,,
