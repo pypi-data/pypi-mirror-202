@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: obeenya
+Version: 0.0.1
+Summary: A basic machine learning package
+Home-page: UNKNOWN
+Author: Benjamin Aubignat
+Author-email: <benjamin.aubignat@gmail.com>
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
