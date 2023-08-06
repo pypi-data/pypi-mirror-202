@@ -1,0 +1,42 @@
+variables:
+  # relative namespace of project
+  REL_NAMESPACE: "/structure/python/"
+  
+release:
+  image: python:latest
+  before_script:
+      - pip install anybadge
+  stage: build
+  script:
+    # create badges (use version from python compiled spec)
+    - version_var=`sed -n "s/__version__ = '\(.*\)/\1/p" < . lbsnstructure/version.py`
+    - echo "Version is ${version_var::-1}"
+    - anybadge -l version --value="${version_var::-1}" --file=version.svg --color=green
+    - pypi_version=$(pip search lbsnstructure | cut -d "(" -f2 | cut -d ")" -f1 | sed -r "s/[latest]+//g")
+    - echo "Pypi version was $pypi_version"
+    - anybadge -l pypi --value="$pypi_version" --file=pypi.svg --color=green
+    - anybadge -l pipeline --value=passing --file=pipeline.svg passing=green failing=red
+    # create folder public for badges
+    - mkdir -p "public/${REL_NAMESPACE}"
+    - cp *.svg "public/${REL_NAMESPACE}"
+  artifacts:
+    name: pages
+    paths:
+    - public
+  only:
+  - master
+
+rsync:
+  stage: deploy
+  image: registry.gitlab.vgiscience.org/lbsn/lbsn.vgiscience.org/rsync-ssh:latest
+  before_script:
+  - eval $(ssh-agent -s)
+  - echo "${SSH_PRIVKEY}" | ssh-add -
+  - mkdir -p ~/.ssh
+  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  script:
+  - ssh "${STAGING_SERVER}" mkdir -p "${STAGING_PATH}${REL_NAMESPACE}"
+  - rsync -avu -zz --no-perms --omit-dir-times --del --chown=www-data:www-data --chmod=D775,F664 "public/${REL_NAMESPACE}" "${STAGING_SERVER}:${STAGING_PATH}${REL_NAMESPACE}"
+  only:
+  - master
+
