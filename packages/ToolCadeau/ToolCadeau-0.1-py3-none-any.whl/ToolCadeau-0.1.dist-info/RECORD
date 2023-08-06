@@ -1,0 +1,15 @@
+ToolCadeau/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ToolCadeau/loaders/__init__.py,sha256=izMzXWL05HnIUI2oBbuaGrGow4ZkC9Z0ymEtOUnlbNU,81
+ToolCadeau/loaders/engine.py,sha256=n9N209Jjbcz450loW0UwbWGvzd8tSCwFgLqhKBydfEw,3356
+ToolCadeau/loaders/loader.py,sha256=Xp6wtfJHif6xxPWDYG057QBlCTW8pfXV7Aq9lGGKrOQ,1666
+ToolCadeau/preprocessors/__init__.py,sha256=lKfqTpu4SBNK2sLq3aVXCYbZnTkuBsCcQ6JmPBIB4cw,97
+ToolCadeau/preprocessors/lang_identifier.py,sha256=7rUShvPHUzhhkCouGtVCV-rivIKa3H97AtvtbmcE9Ro,1054
+ToolCadeau/preprocessors/refiner.py,sha256=u1jMnbwb1T4tGBSTuSFHviR87PznD3J_O-V7DfRcKag,1431
+ToolCadeau/summarizers/__init__.py,sha256=8rUfLry8FrooDfZjYLM7RnAo_BE4zosjA7cNJuUq3nc,88
+ToolCadeau/summarizers/bartplm.py,sha256=5sjpca6LEBYEVCN3IYFJx6BrGkXjIE7ki4J9lYtABUY,3150
+ToolCadeau/summarizers/textrank.py,sha256=L3wAl92qgKd827mgrc3ar6FDT-h6hPt90os2j2tqf54,15542
+ToolCadeau-0.1.dist-info/LICENSE.txt,sha256=xCo7QKy8Pe7iIV3PWbIpHrz2BBhp1XpbHyK_ZalyrRw,1053
+ToolCadeau-0.1.dist-info/METADATA,sha256=vzLuG9_g8_0UTYXo7jbhAHrfUyd_y4vgrEeKRAv0Zso,591
+ToolCadeau-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+ToolCadeau-0.1.dist-info/top_level.txt,sha256=vZS3Y99my7ZUh4izV7bqLKIfZ2nWdhGmY_5GkP_fqb8,11
+ToolCadeau-0.1.dist-info/RECORD,,

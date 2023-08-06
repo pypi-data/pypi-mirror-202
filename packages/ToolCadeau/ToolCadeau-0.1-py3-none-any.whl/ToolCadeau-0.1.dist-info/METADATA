@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ToolCadeau
+Version: 0.1
+Summary: self-made python package utils
+Home-page: https://github.com/Eungis/ToolBox
+Author: Eungis
+Author-email: eungizoa@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# ToolCadeau Package: FOR PERSONAL USAGE
+
+This is a package for personal usage. 
+Query data from database, summarize text using BART or Textrank, Identify language, etc.
