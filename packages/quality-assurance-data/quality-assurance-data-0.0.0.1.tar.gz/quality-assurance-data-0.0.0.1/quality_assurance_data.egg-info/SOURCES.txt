@@ -1,0 +1,7 @@
+README.md
+setup.py
+quality_assurance_data.egg-info/PKG-INFO
+quality_assurance_data.egg-info/SOURCES.txt
+quality_assurance_data.egg-info/dependency_links.txt
+quality_assurance_data.egg-info/requires.txt
+quality_assurance_data.egg-info/top_level.txt
