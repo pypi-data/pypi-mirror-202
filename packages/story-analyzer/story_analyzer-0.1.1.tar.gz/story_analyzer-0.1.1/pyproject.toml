@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "story-analyzer"
+version = "0.1.1"
+description = ""
+authors = [
+    "Francisco Alexandre Neves <pg50375@alunos.uminho.pt>",
+    "Henrique Parola Costa <pg50415@alunos.uminho.pt>",
+    "José Pedro Fernandes <pg50525@alunos.uminho.pt>"
+]
+readme = "README.md"
+packages = [{include = "story_analyzer"}]
+license= "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+transformers = "^4.27.4"
+torch = "^2.0.0"
+sentencepiece = "^0.1.97"
+spacy = "^3.5.1"
+gensim = "^4.3.1"
+beautifulsoup4 = "^4.12.2"
+sortedcontainers = "^2.4.0"
+colorama = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+story_analyzer = 'story_analyzer.main:main'
