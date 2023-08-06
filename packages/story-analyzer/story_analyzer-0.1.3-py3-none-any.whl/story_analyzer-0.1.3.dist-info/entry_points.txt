@@ -1,0 +1,3 @@
+[console_scripts]
+story_analyzer=story_analyzer.main:main
+

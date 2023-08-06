@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: story-analyzer
+Version: 0.1.3
+Summary: 
+License: MIT
+Author: Francisco Alexandre Neves
+Author-email: pg50375@alunos.uminho.pt
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: gensim (>=4.3.1,<5.0.0)
+Requires-Dist: sentencepiece (>=0.1.97,<0.2.0)
+Requires-Dist: sortedcontainers (>=2.4.0,<3.0.0)
+Requires-Dist: spacy (>=3.5.1,<4.0.0)
+Requires-Dist: torch (>=2.0.0,<3.0.0)
+Requires-Dist: transformers (>=4.27.4,<5.0.0)
+Description-Content-Type: text/markdown
+
+# Story Analyzer
+
+Get all the details of a story. From summaries to character information, explore your book like never before!
+
+![Banner](banner.jpg)
+
+## Features
+
+* Quiz game
+* Translation 
+* Summarization  
+* Most relevant topics
+* Characteres list 
+* Lines list
+* Number of sentences
+* Match of input phrase with a storie excert
+
+## Usage
+
+```
+usage: main.py [-h] [-m {local,web}] [-q] [-t [{English,Spanish,French,German,Italian,Portuguese}]] [-d] [-s] [-l] [-c] [-a [ACTIONS]]
+               [--save title] [-p PROJECTION]
+               input output
+
+Book Analyzer: get insight informations of your storie
+
+positional arguments:
+  input                 input file path or book name (only in web mode)
+  output                output file path
+
+options:
+  -h, --help            show this help message and exit
+  -m {local,web}, --mode {local,web}
+                        app modes
+  -q, --quiz            quiz game
+  -t [{English,Spanish,French,German,Italian,Portuguese}], --translate [{English,Spanish,French,German,Italian,Portuguese}]
+                        translate the book
+  -d, --discussions     list the book discussions (topics)
+  -s, --summary         summarize the book
+  -l, --language        detect book language
+  -c, --characters      get informations of the book characters
+  -a [ACTIONS], --actions [ACTIONS]
+                        get the top most actions of a book
+  --save title          the book will be saved and so will any queries invoked deemed savable.
+  -p PROJECTION, --projection PROJECTION
+                        project queries in the text range. Projection type is [<bottom>;<higher>]
+  -sa, --sentiment-analysis
+                        get the sentiment analysis of the book
+```
+
+## Dependencies
+
+* Quiz game is made with https://huggingface.co/gpt2
+* Transaltion is made with https://huggingface.co/docs/transformers/main/en/model_doc/t5#overview
+* Summarization is made with https://huggingface.co/docs/transformers/model_doc/pegasus
+* Most Relevent Topics is made with https://radimrehurek.com/gensim/
+* Language detection is made with https://huggingface.co/papluca/xlm-roberta-base-language-detection
+* Actions, Characters and places list is made with https://spacy.io/
+* HTML extraction is made with https://www.crummy.com/software/BeautifulSoup/bs4/doc/
