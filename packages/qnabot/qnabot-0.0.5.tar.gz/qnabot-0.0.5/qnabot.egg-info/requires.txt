@@ -1,0 +1,5 @@
+langchain
+tiktoken
+unstructured
+fastapi
+faiss-cpu
