@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+pyCOARE.egg-info/PKG-INFO
+pyCOARE.egg-info/SOURCES.txt
+pyCOARE.egg-info/dependency_links.txt
+pyCOARE.egg-info/requires.txt
+pyCOARE.egg-info/top_level.txt
+pycoare/__init__.py
+pycoare/coare.py
+pycoare.egg-info/PKG-INFO
+pycoare.egg-info/SOURCES.txt
+pycoare.egg-info/dependency_links.txt
+pycoare.egg-info/requires.txt
+pycoare.egg-info/top_level.txt
+tests/test_coare.py
