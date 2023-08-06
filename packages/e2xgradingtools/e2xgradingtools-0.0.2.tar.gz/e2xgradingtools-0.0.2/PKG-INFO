@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: e2xgradingtools
+Version: 0.0.2
+Summary: A package for creating autograder tests in Jupyter notebooks
+Project-URL: Documentation, https://e2x-grading-tools.readthedocs.io
+Project-URL: Issues, https://github.com/Digiklausur/e2xgradingtools/issues
+Project-URL: Source, https://github.com/Digiklausur/e2xgradingtools
+Author-email: Tim Metzler <tim.metzler@h-brs.de>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >3.7
+Requires-Dist: rapidfuzz
+Provides-Extra: dev
+Requires-Dist: hatchling; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# e2xgradingtools
+Python package to write test cases for Jupyter Notebook assignments
+
+Please consult the [docs](https://e2x-grading-tools.readthedocs.io/en/latest) and look at the example notebook in this repository.
