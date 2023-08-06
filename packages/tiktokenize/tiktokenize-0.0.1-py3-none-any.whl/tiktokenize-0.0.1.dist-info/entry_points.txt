@@ -1,0 +1,3 @@
+[console_scripts]
+tiktokenize=tiktokenize.tokenize:cli
+
