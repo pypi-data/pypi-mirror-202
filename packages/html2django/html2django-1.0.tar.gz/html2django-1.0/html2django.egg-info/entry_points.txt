@@ -1,0 +1,2 @@
+[console_scripts]
+djangohtml = djangohtml:djangoify
