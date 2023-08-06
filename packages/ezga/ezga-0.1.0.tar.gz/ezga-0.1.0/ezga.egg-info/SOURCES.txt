@@ -1,0 +1,5 @@
+setup.py
+ezga.egg-info/PKG-INFO
+ezga.egg-info/SOURCES.txt
+ezga.egg-info/dependency_links.txt
+ezga.egg-info/top_level.txt
