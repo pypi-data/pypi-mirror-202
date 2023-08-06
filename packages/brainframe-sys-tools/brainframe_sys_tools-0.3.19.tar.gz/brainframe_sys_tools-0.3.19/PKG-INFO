@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: brainframe-sys-tools
+Version: 0.3.19
+Summary: This is the package including tools for BrainFrame developers to monitor and debug the system.
+Author: Stephen Li
+Author-email: stephen@aotu.ai
+Requires-Python: >=2.7,<4.0
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: brainframe-api (>=0.29.1,<0.30.0)

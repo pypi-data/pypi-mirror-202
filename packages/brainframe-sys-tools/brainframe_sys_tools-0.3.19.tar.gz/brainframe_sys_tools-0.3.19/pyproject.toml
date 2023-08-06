@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "brainframe-sys-tools"
+version = "0.3.19"
+description = "This is the package including tools for BrainFrame developers to monitor and debug the system."
+authors = ["Stephen Li <stephen@aotu.ai>"]
+
+[tool.poetry.dependencies]
+python = "^2.7 || ^3.0"
+brainframe-api = "^0.29.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+brainframe-sys-tools = 'brainframe_sys_tools.cli:cli_main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
