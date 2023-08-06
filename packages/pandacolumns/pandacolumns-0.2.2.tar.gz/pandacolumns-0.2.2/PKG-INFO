@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pandacolumns
+Version: 0.2.2
+Summary: Easily work with the pandas dataframes with an interactive interface
+Author: Asif Syed
+License: MIT
