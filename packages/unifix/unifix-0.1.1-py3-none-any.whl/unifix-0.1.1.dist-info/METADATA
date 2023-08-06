@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: unifix
+Version: 0.1.1
+Summary: Magnificent app which corrects your previous console command
+Home-page: 
+Author: Mengyu Yao
+Author-email: 191840305@smail.nju.com
+License: MIT
+Requires-Python: >=3.3
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: subprocess-tee
+Requires-Dist: glom (==23.3.0)
+Requires-Dist: bashlex (==0.18)
+Requires-Dist: psutil
+Requires-Dist: colorama
+Requires-Dist: pyte (==0.8.1)
+Requires-Dist: pathlib2 ; python_version<"3.4"
+
