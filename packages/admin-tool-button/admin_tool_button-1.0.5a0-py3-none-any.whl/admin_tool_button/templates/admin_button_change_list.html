@@ -1,0 +1,25 @@
+{% extends "admin/change_list.html" %}
+
+
+{% block object-tools-items %}
+  {{ block.super }}
+  {% if button_actions %}
+    {% for name, desc in button_actions %}
+  <li>
+    <form method="post" action="" id="button_action_form_{{ forloop.counter }}">
+      {% csrf_token %}
+      <input type="hidden" name="button_action" value="{{ name }}">
+    </form>
+    <a href="" class="link" id="button_action_{{ forloop.counter }}">{{ desc }}</a>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById('button_action_{{ forloop.counter }}').addEventListener("click", function(el) {
+          el.preventDefault();
+          document.getElementById('button_action_form_{{ forloop.counter }}').submit();
+        });
+      });
+    </script>
+  </li>
+    {% endfor %}
+  {% endif %}
+{% endblock %}
