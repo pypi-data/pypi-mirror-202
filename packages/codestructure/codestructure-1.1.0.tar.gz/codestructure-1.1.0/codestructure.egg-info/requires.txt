@@ -1,0 +1,13 @@
+pyperclip
+rich
+
+[docs]
+pandas
+tabulate
+tqdm
+
+[test]
+pytest
+pre-commit
+coverage
+pytest-cov
