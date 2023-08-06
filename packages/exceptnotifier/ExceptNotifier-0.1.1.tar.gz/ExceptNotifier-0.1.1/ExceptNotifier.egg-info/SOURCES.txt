@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ExceptNotifier/__init__.py
+ExceptNotifier/__main__.py
+ExceptNotifier/mail_sender.py
+ExceptNotifier.egg-info/PKG-INFO
+ExceptNotifier.egg-info/SOURCES.txt
+ExceptNotifier.egg-info/dependency_links.txt
+ExceptNotifier.egg-info/entry_points.txt
+ExceptNotifier.egg-info/top_level.txt
