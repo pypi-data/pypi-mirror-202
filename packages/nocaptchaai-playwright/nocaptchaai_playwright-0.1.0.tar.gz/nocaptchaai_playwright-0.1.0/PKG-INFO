@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nocaptchaai_playwright
+Version: 0.1.0
+Summary: Playwright implementation of the NoCaptchaAI API
+Home-page: https://github.com/claudiofepereira/nocaptchaai-playwright
+Author: Cláudio Pereira
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+nocaptchaai-playwright is a Python library that uses Playwright and NoCaptchaAI.com API to solve hCaptcha challenges.
+
+An example of how to use this library can be found in examples/nopecha_solver_example.py.
+

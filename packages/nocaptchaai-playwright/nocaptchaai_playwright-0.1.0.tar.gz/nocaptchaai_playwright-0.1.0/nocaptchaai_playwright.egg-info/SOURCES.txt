@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nocaptchaai_playwright/__init__.py
+nocaptchaai_playwright/solver.py
+nocaptchaai_playwright.egg-info/PKG-INFO
+nocaptchaai_playwright.egg-info/SOURCES.txt
+nocaptchaai_playwright.egg-info/dependency_links.txt
+nocaptchaai_playwright.egg-info/requires.txt
+nocaptchaai_playwright.egg-info/top_level.txt
