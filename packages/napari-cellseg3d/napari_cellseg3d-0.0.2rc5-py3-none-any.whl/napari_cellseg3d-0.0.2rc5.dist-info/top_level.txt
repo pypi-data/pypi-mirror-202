@@ -1,0 +1,2 @@
+docs
+napari_cellseg3d
