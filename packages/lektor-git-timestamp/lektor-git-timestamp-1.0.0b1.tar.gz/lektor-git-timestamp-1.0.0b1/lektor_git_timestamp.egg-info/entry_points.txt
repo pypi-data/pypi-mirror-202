@@ -1,0 +1,2 @@
+[lektor.plugins]
+git-timestamp = lektor_git_timestamp:GitTimestampPlugin
