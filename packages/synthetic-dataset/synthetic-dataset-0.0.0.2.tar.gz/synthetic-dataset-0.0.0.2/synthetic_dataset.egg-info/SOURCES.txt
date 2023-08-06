@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+synthetic_dataset.egg-info/PKG-INFO
+synthetic_dataset.egg-info/SOURCES.txt
+synthetic_dataset.egg-info/dependency_links.txt
+synthetic_dataset.egg-info/requires.txt
+synthetic_dataset.egg-info/top_level.txt
