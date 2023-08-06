@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: dgpytest
+Version: 0.0.1
+Summary: dgpytest = dgpy + pytest
+Home-page: https://github.com/dynamic-graphics-inc/dgpy-libs/tree/main/libs/dgpytest
+License: MIT
+Keywords: pytest,dgpy,typed,plugin
+Author: jesse
+Author-email: jesse@dgi.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Dist: pytest (>=7.2.2)
+Requires-Dist: pytest-asyncio (>=0.21.0,<0.22.0)
+Project-URL: Repository, https://github.com/dynamic-graphics-inc/dgpy-libs
+Description-Content-Type: text/markdown
+
+<a href="https://github.com/dynamic-graphics-inc/dgpy-libs">
+<img align="right" src="https://github.com/dynamic-graphics-inc/dgpy-libs/blob/main/docs/images/dgpy_banner.svg?raw=true" alt="drawing" height="120" width="300"/>
+</a>
+
+# dgpytest
+
+[![Wheel](https://img.shields.io/pypi/wheel/dgpytest.svg)](https://img.shields.io/pypi/wheel/dgpytest.svg)
+[![Version](https://img.shields.io/pypi/v/dgpytest.svg)](https://img.shields.io/pypi/v/dgpytest.svg)
+[![py_versions](https://img.shields.io/pypi/pyversions/dgpytest.svg)](https://img.shields.io/pypi/pyversions/dgpytest.svg)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+**Install:** `pip install dgpytest` OR `poetry add dgpytest`
+
+**What:** pytest lib with pytest plugins (as deps) used by dgpy
+
