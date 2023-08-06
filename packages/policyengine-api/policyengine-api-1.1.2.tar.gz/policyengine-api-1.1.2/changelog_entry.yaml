@@ -1,0 +1,4 @@
+- bump: patch
+  changes:
+    fixed:
+    - Economic impact runtimes cut down by 9 seconds.

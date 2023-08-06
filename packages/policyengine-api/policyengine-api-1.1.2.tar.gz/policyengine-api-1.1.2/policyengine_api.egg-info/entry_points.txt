@@ -1,0 +1,2 @@
+[console_scripts]
+policyengine-api-setup = policyengine_api.setup_data:setup_data
