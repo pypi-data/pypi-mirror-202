@@ -1,0 +1,3 @@
+[console_scripts]
+writemore=writemore.cli:run
+
