@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+speech2speech/speech2speech.egg-info/PKG-INFO
+speech2speech/speech2speech.egg-info/SOURCES.txt
+speech2speech/speech2speech.egg-info/dependency_links.txt
+speech2speech/speech2speech.egg-info/top_level.txt
