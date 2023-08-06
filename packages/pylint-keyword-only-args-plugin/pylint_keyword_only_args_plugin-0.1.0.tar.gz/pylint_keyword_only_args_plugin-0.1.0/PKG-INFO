@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pylint-keyword-only-args-plugin
+Version: 0.1.0
+Summary: Plugin for pylint which checks that call statements has only keyword args
+Home-page: https://github.com/winmasta
+License: MIT
+Keywords: pylint,positional,args,lint
+Author: Konstantin Shestakov
+Author-email: winmasta@yandex.ru
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta 
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Dist: pylint
+Requires-Dist: pytest
+Project-URL: Repository, https://github.com/winmasta
+Description-Content-Type: text/markdown
+
+## Plugin for pylint which checks that call statements has only keyword args
+
+Install:
+```bash
+pip install pylint-keyword-only-args-plugin
+```
+
+Usage:
+```bash
+pylint --load-plugins pylint_keyword_only_args_plugin FILES_TO_CHECK
+```
+
