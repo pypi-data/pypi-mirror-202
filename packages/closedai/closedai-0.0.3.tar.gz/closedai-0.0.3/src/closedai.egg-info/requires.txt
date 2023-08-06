@@ -1,0 +1,10 @@
+fastapi>=0.63.0
+pydantic>=1.8.1
+uvicorn[standard]>=0.13.4
+openai
+fire
+packaging>=20.0
+
+[quality]
+black~=23.1
+ruff>=0.0.241
