@@ -1,0 +1,16 @@
+categories_api/__init__.py,sha256=LFfSsuWicpTNyaNM3tBsF9Gk5Z6PLUMgGxNkj4lNi8M,51
+categories_api/urls.py,sha256=d5EhLBbJKggmRM9AvsgwUTzLA5gi3qBPiReLCfHQ50U,185
+categories_api/viewsets.py,sha256=f5uBescVP2wtf59gTzpdxDceJv9fChiweVuhvRAPZdU,3507
+categories_api/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+categories_api/api/urls.py,sha256=d5EhLBbJKggmRM9AvsgwUTzLA5gi3qBPiReLCfHQ50U,185
+categories_api/api/viewsets.py,sha256=OXSoFCEc-b9NwbfhEEIpbbzZ7Will8cOe64jlYNOqvc,3498
+categories_api/api/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+categories_api/api/tests/test_api.py,sha256=hq6T0ECvD6gyExQglDlI6lkGbXXqayH01wOjFkgIRFM,2124
+categories_api/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+categories_api/tests/test_api.py,sha256=hq6T0ECvD6gyExQglDlI6lkGbXXqayH01wOjFkgIRFM,2124
+django_categories_api-0.0.1.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+django_categories_api-0.0.1.dist-info/METADATA,sha256=lDmP1MzlTy9Gbc8y7fRuqUkdh2TI11vpYA3eORbW_2A,809
+django_categories_api-0.0.1.dist-info/NOTICES.txt,sha256=h3wnaHNXQKpDZz-qkJhZ2u1O8dNBBA7-3m2Erdg42mI,298
+django_categories_api-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+django_categories_api-0.0.1.dist-info/top_level.txt,sha256=jW9cJK1CJoIh4yv8oIZocRePv0bAriwi_CCASRdJNLs,15
+django_categories_api-0.0.1.dist-info/RECORD,,
