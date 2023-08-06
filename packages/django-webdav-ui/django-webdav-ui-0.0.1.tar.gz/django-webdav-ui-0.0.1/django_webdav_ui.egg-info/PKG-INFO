@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: django-webdav-ui
+Version: 0.0.1
+Summary: A webdav client app for django.
+Home-page: https://github.com/ChanMo/django-webdav/
+Author: ChanMo
+Author-email: chan.mo@outlook.com
+License: MIT
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+License-File: LICENSE
+
+Django Webdav Client
+====================
+
+File Manager like dropbox
+
+Features
+--------
+
+-  文件管理
+-  多级目录
+-  分片上传
+-  文件预览
+-  评论
+-  分享
+-  操作历史
+
+Depends on
+----------
+
+-  Django
+-  djangorestframework
+-  requests
+-  Webdav
+-  React + Vite
+-  @mui/material
+
+Quick Start
+-----------
+
+Install
+~~~~~~~
+
+.. code:: bash
+
+   pip install django-webdav
+
+Update Settings.py
+~~~~~~~~~~~~~~~~~~
+
+.. code:: python
+
+   INSTALLED_APPS = [
+       ...
+       'webdav',
+       ...
+   ]
+
+   WEBDAV_HOST = 'localhost'
+   WEBDAV_USER = 'demo'
+   WEBDAV_PASSWORD = 'demopassword'
+
+Update Urls.py
+~~~~~~~~~~~~~~
+
+.. code:: python
+
+   urlpatterns = [
+       ...
+       path('webdav/', include('webdav.urls')),
+       ...
+   ]
+
+Sync database
+~~~~~~~~~~~~~
+
+.. code:: bash
+
+   python manage.py migrate
+
+Reference
+---------
+
+-  Dropbox
+-  Nextcloud
+
+Todo
+----
+
+-  [ ] 优化安全
+-  [ ] 排序
+-  [ ] 搜索
+-  [ ] Permission Controls
+-  [ ] 收藏
+-  [ ] 最近
+-  [ ] 共享
+-  [ ] 标签
+-  [ ] Grid Display
+-  [ ] 批量操作
+-  [ ] 移动文件
