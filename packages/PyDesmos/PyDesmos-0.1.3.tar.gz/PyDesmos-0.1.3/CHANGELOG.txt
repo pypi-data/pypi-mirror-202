@@ -1,0 +1,26 @@
+Change Log
+==========
+
+0.0.1 (12/04/2023)
+-------------------
+- First Release
+
+0.1.0 (12/04/2023)
+-------------------
+- Entered Alpha
+- Major code revisions
+- improved README.md
+
+0.1.1 (13/04/2023)
+-------------------
+- Minor tweaks (mostly to README.md)
+- Fixed optional kwargs with tables
+
+0.1.2 (13/04/2023)
+-------------------
+- Added simple OEIS integration
+- Added support for all greek letters
+
+0.1.3 (13/04/2023)
+-------------------
+- Increased OEIS support. (allows for querying the most relevant sequences based off a list of terms or keywords)
