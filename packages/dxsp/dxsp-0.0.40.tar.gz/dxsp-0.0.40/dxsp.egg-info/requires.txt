@@ -1,0 +1,5 @@
+web3
+pycoingecko
+dotenv
+asyncio
+many_abis
