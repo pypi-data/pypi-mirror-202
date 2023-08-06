@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: paintmind
+Version: 0.0
+Author: Qiyuan Ge
+Author-email: 542801615@qq.com
+Keywords: artificial intelligence,deep learning,generate model
+License-File: LICENSE
+Requires-Dist: einops
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: torch (>=1.6)
+Requires-Dist: torchvision
+Requires-Dist: lpips
+Requires-Dist: kornia
+Requires-Dist: accelerate
+Requires-Dist: tqdm
+Requires-Dist: pycocotools
+Requires-Dist: datasets
+Requires-Dist: sentencepiece
+Requires-Dist: open-clip-torch
+Requires-Dist: transformers
+
