@@ -1,0 +1,12 @@
+fastq_handler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastq_handler/__main__.py,sha256=4geUZG3DhZ-06Gfh_o9ncjUKPap2PiW8sbqziPW6VSA,2121
+fastq_handler/actions.py,sha256=X2BHVbXwGz_G5IuNZvL27kOx6ZjyI_D3beI7eFtJkqY,3535
+fastq_handler/configs.py,sha256=5Q7EvJJL0gC7T5dyKE5Wh6p1iz5NFt4VBzdb9unMPDI,1068
+fastq_handler/fastq_handler.py,sha256=B5KCYZXeL9ekM3Zxy8ejLgXUVcdAbcGzwIH5-YzbT0Y,11309
+fastq_handler/records.py,sha256=r_mmgrl7db1jb91W_Yz7Q0YBFSGR4Y9YI15_-_W0tR4,6758
+fastq_handler/utilities.py,sha256=d2IWS5erwWLfTd84y0UOmnHOl6N-Y6R36tYspKNvf-8,4588
+fastq_handler-0.2.0.dist-info/entry_points.txt,sha256=xsusEKFYUsxOIeZOdfp0y58wvFdREypaaX7iu6bNNNM,61
+fastq_handler-0.2.0.dist-info/LICENSE,sha256=_5zrkHa3LDEv_m48zCxBpzgdOoy9GsXm6G3SqQIQ8xQ,31904
+fastq_handler-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fastq_handler-0.2.0.dist-info/METADATA,sha256=oyZzjQftjIgE5BY1IGpBIxkiwr6vF4J9BeNMAacnx7A,3402
+fastq_handler-0.2.0.dist-info/RECORD,,
