@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+numba_aot_compiler/LICENSE
+numba_aot_compiler/README.md
+numba_aot_compiler/__init__.py
+numba_aot_compiler/requirements.txt
+numba_aot_compiler/thirdparty.json
+numba_aot_compiler.egg-info/PKG-INFO
+numba_aot_compiler.egg-info/SOURCES.txt
+numba_aot_compiler.egg-info/dependency_links.txt
+numba_aot_compiler.egg-info/requires.txt
+numba_aot_compiler.egg-info/top_level.txt

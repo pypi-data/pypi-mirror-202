@@ -1,0 +1,4 @@
+include numba_aot_compiler/requirements.txt
+include numba_aot_compiler/thirdparty.json
+include numba_aot_compiler/README.md
+include numba_aot_compiler/LICENSE
