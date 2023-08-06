@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: roof_mask
+Version: 0.5.3
+Summary: upload pip package test
+Home-page: https://github.com/lrxjason/roof_model_test/
+Author: Ruixu
+Author-email: lrxjason@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+v0.5.3: backend errors (coded as 11, 21, 31, and 41) from image vender and geo-coding vender are raised as exceptions and passed back to the caller.
