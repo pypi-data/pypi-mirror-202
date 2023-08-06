@@ -1,0 +1,7 @@
+target: "{{ env_var("EXECUTION_ENV_MOCKED") }}"
+
+options:
+    mock:
+        name: t
+        last_name: p
+    
