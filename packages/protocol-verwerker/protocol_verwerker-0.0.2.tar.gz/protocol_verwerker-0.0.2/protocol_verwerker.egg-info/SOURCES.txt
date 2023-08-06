@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+protocol_verwerker/__init__.py
+protocol_verwerker/__main__.py
+protocol_verwerker/frequentietabel_generator.py
+protocol_verwerker/sequentietabel_generator.py
+protocol_verwerker.egg-info/PKG-INFO
+protocol_verwerker.egg-info/SOURCES.txt
+protocol_verwerker.egg-info/dependency_links.txt
+protocol_verwerker.egg-info/entry_points.txt
+protocol_verwerker.egg-info/requires.txt
+protocol_verwerker.egg-info/top_level.txt
