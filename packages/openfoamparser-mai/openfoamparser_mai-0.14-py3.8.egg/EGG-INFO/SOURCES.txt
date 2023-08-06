@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+openfoamparser_mai/__init__.py
+openfoamparser_mai/field_parser.py
+openfoamparser_mai/mesh_parser.py
+openfoamparser_mai/utils.py
+openfoamparser_mai.egg-info/PKG-INFO
+openfoamparser_mai.egg-info/SOURCES.txt
+openfoamparser_mai.egg-info/dependency_links.txt
+openfoamparser_mai.egg-info/requires.txt
+openfoamparser_mai.egg-info/top_level.txt
