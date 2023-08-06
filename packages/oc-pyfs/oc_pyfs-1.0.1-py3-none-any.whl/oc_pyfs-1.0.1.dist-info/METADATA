@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: oc-pyfs
+Version: 1.0.1
+Summary: PyFilesystem interfaces
+Home-page: UNKNOWN
+License: LGPLv2
+Platform: UNKNOWN
+Requires-Python: >=2.6
+License-File: LICENSE
+Requires-Dist: chardet (>=2.3.0)
+Requires-Dist: fs
+Requires-Dist: oc-cdtapi
+
+UNKNOWN
+
