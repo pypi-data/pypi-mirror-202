@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tspop
+Version: 0.0.2
+Summary: Extracts population-based ancestry from simulated tree sequence datasets.
+Home-page: https://github.com/gtsambos/tspop
+Author: Georgia Tsambos
+Author-email: g.tsambos@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Description-Content-Type: text/x-rst
+License-File: LICENCE.txt
+Requires-Dist: tskit (>=0.2.3)
+Requires-Dist: pandas (>=1.2.0)
+Requires-Dist: numpy (>=1.21.0)
+Requires-Dist: matplotlib (>=3.4.0)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+Requires-Dist: msprime (==1.1.1) ; extra == 'dev'
+
+
+About ``tspop``
+===============
+
+``tspop`` extracts information about population-based ancestry
+from tree sequences simulated with ``msprime`` and ``SLiM``,
+and provides the output in easy-to-analyse pandas dataframes.
+
+See the `documentation page <https://tspop.readthedocs.io>`_.
