@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dagi
+Version: 0.1.0
+Summary: LLM Dag execution
+Home-page: https://github.com/shyamsn97/dagi
+Author: Shyam Sudhakaran
+Author-email: shyamsnair@protonmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Base Template
+
