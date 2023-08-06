@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: cf-changelog
+Version: 0.2.5
+Summary: Conflict-Free Changelog manager
+Home-page: https://gitlab.com/salekpawel/cf_changelog
+Author: Paweł Sałek
+Author-email: salekpawel@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cf_changelog - Conflict-Free Changelog manager
+
+Simple tool to support changelog modifications on different git branches without conflicts on merging.
+Written in python, installable with pip.
+
+## Usage
+1. Install it from pip:
+```bash
+pip install cf_changelog
+```
+2. Create some changelog on different branches entries using:
+```bash
+cf_changelog.py add
+```
+It is recommended to run this from root of your repository.
+This will invoke standard text editor (or notepad if standard editor is not configured), where you can fill a template with new features, bug fixes etc. Example:
+```yaml
+New:
+    - One new cool feature
+    - Another cool feature
+Bugfix:
+    - Fixed bug of previous feature
+    - Fixed another bug
+```
+
+3. Commit newly created files.
+4. Repeat 2 and 3 on different branches as many times as you need.
+5. Merge all branches.
+6. On merged branch run:
+```bash
+cf_changelog.py release X.Y.Z
+```
+where X.Y.Z is description of version you wan't to see in final changelog.
+7. Commit registered changes in git repository
+8. Enjoy your updated changelog.
+
+## Project status
+It is very initial version. Manual tests passed. Waiting for some feedback before moving on.
