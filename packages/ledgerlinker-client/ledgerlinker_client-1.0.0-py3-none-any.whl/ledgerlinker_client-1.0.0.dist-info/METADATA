@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ledgerlinker-client
+Version: 1.0.0
+Summary: Syncronize your financial institution data to plain text accounting ledgers.
+Home-page: https://github.com/ledgerlinker/ledgerlinker-client
+Author: LedgerLinker
+Author-email: help@ledgerlinker.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: commentjson
+
+# LedgerLinker Client
+
+A syncronization client for the LedgerLinker service to sync your financial institution data with your plain text accounting ledger.
+
+Learn more at https://www.ledgerlinker.com
