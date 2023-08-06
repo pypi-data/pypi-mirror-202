@@ -1,0 +1,13 @@
+makefun>=1.15.1
+
+[dev]
+black~=23.1
+ruff
+pytest
+pytest-cov
+pytest-sugar
+hypothesis
+
+[doc]
+sphinx
+sphinx_rtd_theme
