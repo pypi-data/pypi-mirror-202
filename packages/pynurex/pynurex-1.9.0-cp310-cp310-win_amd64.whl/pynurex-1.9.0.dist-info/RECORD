@@ -1,0 +1,6 @@
+pynurex/__init__.py,sha256=cLLrBFb5r-cN1KxXnj2zwPSN9scuM9lXMaZ8zeAfugA,25
+pynurex/_pynurex.cp310-win_amd64.pyd,sha256=8OqRiOeFVdQ6i9-v_0zAf8rSbKUgD250ZBg1SxROm-8,1944576
+pynurex-1.9.0.dist-info/METADATA,sha256=p7iCATpvB9cfLWDIOnCjMJHopKvYyuwJynYALufTUPY,173
+pynurex-1.9.0.dist-info/WHEEL,sha256=DHPr9bOCHXM4IlgQL8JoKfthldQKQhfOYCSG96z_SDE,105
+pynurex-1.9.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pynurex-1.9.0.dist-info/RECORD,,
