@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: apa-logbook-parser
+Version: 0.1.1
+Summary: logbook-parser_short_description
+Keywords: Python
+Author: Chad Lowe
+Author-email: pfmsoft.dev@gmail.com
+Requires-Python: >=3.10
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: airportsdata
+Requires-Dist: more-itertools
+Requires-Dist: pydantic
+Requires-Dist: click
+Requires-Dist: nox ; extra == "dev"
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: black ; extra == "dev"
+Requires-Dist: isort ; extra == "dev"
+Requires-Dist: Sphinx ; extra == "doc"
+Requires-Dist: sphinx-autobuild ; extra == "doc"
+Requires-Dist: sphinx-autodoc-typehints ; extra == "doc"
+Requires-Dist: sphinx_rtd_theme ; extra == "doc"
+Requires-Dist: myst-parser ; extra == "doc"
+Requires-Dist: sphinx-click ; extra == "doc"
+Requires-Dist: pylint ; extra == "lint"
+Requires-Dist: mypy ; extra == "lint"
+Requires-Dist: pytest ; extra == "testing"
+Requires-Dist: coverage[toml] ; extra == "testing"
+Requires-Dist: pygments ; extra == "testing"
+Requires-Dist: pytest-cov ; extra == "testing"
+Requires-Dist: pysnooper ; extra == "testing"
+Requires-Dist: devtools ; extra == "testing"
+Requires-Dist: esbonio ; extra == "vscode"
+Requires-Dist: rst2html ; extra == "vscode"
+Requires-Dist: rstcheck ; extra == "vscode"
+Project-URL: Documentation, https://github.com/DonalChilde/apa-logbook-parser#readme
+Project-URL: Documentation_rtd, https://apa-logbook-parser.readthedocs.io
+Project-URL: Issues, https://github.com/DonalChilde/apa-logbook-parser/issues
+Project-URL: Source, https://github.com/DonalChilde/apa-logbook-parser
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: lint
+Provides-Extra: testing
+Provides-Extra: vscode

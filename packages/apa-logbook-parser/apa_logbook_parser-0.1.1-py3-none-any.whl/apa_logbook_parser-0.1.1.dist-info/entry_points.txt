@@ -1,0 +1,3 @@
+[console_scripts]
+apa-logbook-parser=apa_logbook_parser.cli.main:main
+
