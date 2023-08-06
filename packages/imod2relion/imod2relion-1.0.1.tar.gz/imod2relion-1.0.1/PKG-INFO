@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: imod2relion
+Version: 1.0.1
+Summary: A tool reading IMOD points, obtaining particles' info and generating .star file for RELION
+Home-page: https://github.com/ZhenHuangLab/imod2relion
+Author: Zhen Huang
+Author-email: hzvictor@zju.edu.cn
+License: BSD 3-Clause License
+Keywords: cryo-em,cryo-et,imod,relion,starfile
+Requires-Python: >=3.9
+
+# imod2relion
+
+
+
+A tool reading IMOD points, obtaining particles' info and generating .star file for RELION.
+
+
+
+More info in [Github](https://github.com/ZhenHuangLab/imod2relion).
