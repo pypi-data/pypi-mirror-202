@@ -1,0 +1,10 @@
+dxsp/__init__.py,sha256=EXh8IuiEIi5S8Rrf_RdE0sfIMLk3ICEutgTOipg7BFs,47
+dxsp/main.py,sha256=NKUR48NTBM5XlKPtwczGiAyyqVQ183_ekdhXmnikI38,18681
+dxsp/assets/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+dxsp/assets/blockchains.py,sha256=4dQVkJN58pMS-U5r9YFlrBafFLJrOgOSjA87ZMdXr_k,11542
+dxsp/assets/exchanges.py,sha256=i-I4xM_e9mYHgWU3a03CberSv46fWNApgB_zqejf6q8,337309
+dxsp-0.0.38.dist-info/LICENSE,sha256=Ym-WJCFdWfn0XKn-qLQI-u5nxBJX6F2kl-hPeRJp1fI,1064
+dxsp-0.0.38.dist-info/METADATA,sha256=v2Kkq7mwIHUK0DLvlVhlqlPALW7QhxRQjy060iqrJpE,3843
+dxsp-0.0.38.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dxsp-0.0.38.dist-info/top_level.txt,sha256=k_uYar3RVjqTc5bYnox3s06RQfoi9a6xtn0Ddg21pxA,5
+dxsp-0.0.38.dist-info/RECORD,,
