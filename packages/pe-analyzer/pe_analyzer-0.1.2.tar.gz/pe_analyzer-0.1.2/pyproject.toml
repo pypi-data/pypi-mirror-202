@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "pe-analyzer"
+version = "0.1.2"
+description = "A Python module to analyze Portable Executable (PE) files on Windows systems. It parses and extracts various details about the file header, optional header, sections, imports, and exports. The module provides an easy-to-use class, PEAnalyzer, which returns analysis data in JSON format and supports pretty-printing of the information when used with the print() function."
+authors = [
+	"DJ Stomp <85457381+DJStompZone@users.noreply.github.com>",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "pe_analyzer"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pefile = "^2023.2.7"
+
+
+[tool.poetry.group.dev.dependencies]
+twine = "^4.0.2"
+build = "^0.10.0"
+pytest = "^7.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
