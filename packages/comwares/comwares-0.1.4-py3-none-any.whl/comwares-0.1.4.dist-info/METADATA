@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: comwares
+Version: 0.1.4
+Summary: This project provides middlewares for a startup company.
+Author: Kevin Zhu
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: tencentcloud-sdk-python
+Requires-Dist: cos-python-sdk-v5
+Requires-Dist: ffmpeg
+Requires-Dist: ffmpeg-python
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: matplotlib
+Requires-Dist: mplfinance
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: pdfplumber
+Requires-Dist: Pillow
+Requires-Dist: pymongo
+Requires-Dist: requests
+Requires-Dist: retry
+Requires-Dist: setuptools
+Requires-Dist: SQLAlchemy
+
