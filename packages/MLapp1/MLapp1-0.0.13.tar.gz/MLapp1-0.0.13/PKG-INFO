@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: MLapp1
+Version: 0.0.13
+Summary: "MLapp"
+Home-page: https://github.com/FunctionalUrology/
+Author: Akshay
+Author-email: akshaysuhag1996@gmail.com
+Project-URL: Bug Tracker, https://github.com/FunctionalUrology/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.toml
+
+# MLapp
