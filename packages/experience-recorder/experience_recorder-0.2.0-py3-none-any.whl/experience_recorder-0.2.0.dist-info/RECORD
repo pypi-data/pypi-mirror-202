@@ -1,0 +1,13 @@
+experience_recorder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+experience_recorder/configuration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+experience_recorder/configuration/configuration.py,sha256=3FYjhpWCBW1ZTcUR0d3nURDiqI80WXtPQOOk4NlCMh0,8031
+experience_recorder/main.py,sha256=1FYEyZHB0RjozU-3eLEf1ka1kFPL2999P0EJxAphjpk,604
+experience_recorder/perceptions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+experience_recorder/perceptions/perceptions.py,sha256=nY9KF6eABysgwNjS1JFoANLqepgD17kgvVCqvbawF7w,2443
+experience_recorder/recorder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+experience_recorder/recorder/recorder.py,sha256=n9Y6_s46KFjSqIi6K-3Cx0CyCcltIHk1V80JTNKQSEQ,5157
+experience_recorder/senses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+experience_recorder/senses/senses.py,sha256=Z0OXvpmzttTSRT1AvZUP7OfSEiv1dXRWe-vHK7elPAk,1440
+experience_recorder-0.2.0.dist-info/METADATA,sha256=1yI2JehhZ3P60kiGKLv6H-duTcejFsCLS8czd594t3c,675
+experience_recorder-0.2.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+experience_recorder-0.2.0.dist-info/RECORD,,
