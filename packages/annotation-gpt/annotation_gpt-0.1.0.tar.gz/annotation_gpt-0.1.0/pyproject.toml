@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "annotation-gpt"
+version = "0.1.0"
+description = "A annotation tool powered by GPT model."
+authors = ["Allen Chou <f1470891079@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "annotation_gpt"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8.0,<4.0.0"
+rich = "*"
+pytz = "*"
+openai = {version = ">=0.27.0", optional = true}
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+flake8 = "*"
+flake9 = "*"
+pytest = "*"
+pytest-asyncio = "*"
+yapf = "*"
+
+[tool.poetry.extras]
+all = ["openai"]
+openai = ["openai"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

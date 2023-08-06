@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: annotation-gpt
+Version: 0.1.0
+Summary: A annotation tool powered by GPT model.
+License: MIT
+Author: Allen Chou
+Author-email: f1470891079@gmail.com
+Requires-Python: >=3.8.0,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: all
+Provides-Extra: openai
+Requires-Dist: openai (>=0.27.0) ; extra == "all" or extra == "openai"
+Requires-Dist: pytz
+Requires-Dist: rich
+Description-Content-Type: text/markdown
+
+# annotation-gpt
+A annotation tool through GPT model.
+
