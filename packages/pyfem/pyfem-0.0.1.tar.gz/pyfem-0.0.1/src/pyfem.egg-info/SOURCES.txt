@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/pyfem/__init__.py
+src/pyfem.egg-info/PKG-INFO
+src/pyfem.egg-info/SOURCES.txt
+src/pyfem.egg-info/dependency_links.txt
+src/pyfem.egg-info/top_level.txt
