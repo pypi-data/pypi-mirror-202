@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "mollview"
+version = "1.0.0"
+description = "mollview is a command line tool for plotting HEALPix maps from fits files."
+authors = ["Metin San <metinisan@gmail.com>"]
+license = "GNU General Public License v3.0"
+readme = "README.md"
+
+[tool.poetry.scripts]
+mollview = "mollview:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+healpy = "^1.16.2"
+typer = "^0.7.0"
+matplotlib = "^3.7.1"
+
+[tool.poetry.dev-dependencies]
+black = "^23.3.0"
+pytest = "^7.3.0"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore:The get_cmap function was deprecated",
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
