@@ -1,0 +1,38 @@
+{% import 'plantuml_class.jinja' as uml_class %}
+{% import 'plantuml_package.jinja' as uml_package %}
+{% import 'plantuml_connection.jinja' as uml_connection %}
+
+@startuml
+hide empty members
+skinparam linetype ortho
+top to bottom direction
+
+{% for class in model.classes %}
+    {{ uml_class.render(class) }}
+{% endfor %}
+
+{% for package in model.packages %}
+    {{ uml_package.render(package, model.options) }}
+{% endfor %}
+
+{% for connection in model.connections %}
+    {% for association in connection.associations %}
+        {{ uml_connection.renderAssosiations(association) }}
+    {% endfor %}
+{% endfor %}
+
+{% for class in model.classes %}
+    {% for parent_class in class.extends %}
+        {{ uml_connection.renderInheritance(class, parent_class) }}
+    {% endfor %}
+    
+    {% for aggregation in class.aggregations %}
+        {{ uml_connection.renderAggregation(class, aggregation) }}
+    {% endfor %}
+
+    {% for composition in class.compositions %}
+        {{ uml_connection.renderComposition(class, composition) }}
+    {% endfor %}
+{% endfor %}
+
+@enduml

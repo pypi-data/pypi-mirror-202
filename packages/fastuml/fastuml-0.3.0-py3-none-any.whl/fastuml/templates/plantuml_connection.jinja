@@ -1,0 +1,34 @@
+{% macro renderAssosiations(con) -%}
+    {% if con.target | edgeVisible and con.source | edgeVisible %}
+        {% set dir = "none" %}
+        {% if con.arrow.backward and con.arrow.forward %}
+            {% set dir = "<-->" %}
+        {% elif con.arrow.backward %}
+            {% set dir = "-->" %}
+        {% elif con.arrow.forward %}
+            {% set dir = "<--" %}
+        {% endif %}
+        {% if con.arrow.binding | length >= 2 %} 
+            {% set dir = "<.." %}
+        {% endif %}
+        {{ con.target.name }} {{ dir }} {{ con.source.name }} {% if con.label %}: {{ con.label }}{% endif %}
+    {% endif %}
+{% endmacro %}
+
+{% macro renderInheritance(child, parent) -%}
+{% if child | edgeVisible and parent.type | edgeVisible %}
+{{ child.name }} <|-- {{ parent.type.name }}
+{% endif %}
+{% endmacro %}
+
+{% macro renderAggregation(class, con) -%}
+{% if class | edgeVisible and con.type | edgeVisible %}
+{{ class.name }} o-- {{ con.type.name }}
+{% endif %}
+{% endmacro %}
+
+{% macro renderComposition(class, con) -%}
+{% if class | edgeVisible and con.type | edgeVisible %}
+{{ class.name }} *-- {{ con.type.name }}
+{% endif %}
+{% endmacro %}
