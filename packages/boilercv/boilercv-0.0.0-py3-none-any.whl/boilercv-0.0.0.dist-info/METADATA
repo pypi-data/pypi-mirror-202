@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: boilercv
+Version: 0.0.0
+Summary: Computer vision routines suitable for nucleate pool boiling bubble analysis
+Author: Kwang Jin Kim
+Author-email: Blake Naccarato <blake.naccarato+captivate@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: dvc[gs]>=2.53.0
+Requires-Dist: imageio[pyav]>=2.27.0
+Requires-Dist: loguru>=0.6.0
+Requires-Dist: matplotlib>=3.7.1
+Requires-Dist: numpy>=1.24.2
+Requires-Dist: opencv-contrib-python>=4.7.0.72
+Requires-Dist: pandera>=0.14.5
+Requires-Dist: pillow>=9.5.0
+Requires-Dist: pyarrow>=11.0.0
+Requires-Dist: pydantic>=1.10.7
+Requires-Dist: pyjanitor>=0.24.0
+Requires-Dist: pytz>=2023.3
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: ruamel.yaml>=0.17.21
+Requires-Dist: scikit-image>=0.20.0
+Requires-Dist: scipy>=1.10.1
+Requires-Dist: seaborn>=0.12.2
+Requires-Dist: bottleneck>=1.3.7
+Requires-Dist: pandas[hdf5,parquet]>=2.0.0
+Requires-Dist: numexpr>=2.8.4
+Requires-Dist: pyqtgraph>=0.13.2
+Requires-Dist: pyside6>=6.4.3,<6.5
+Requires-Dist: netcdf4>=1.6.3
+Requires-Dist: python-dateutil>=2.8.2
+Project-URL: changes, https://blakenaccarato.github.io/boilercv/changelog.html
+Project-URL: docs, https://blakenaccarato.github.io/boilercv/
+Project-URL: home, https://github.com/blakeNaccarato/boilercv
+Project-URL: tracker, https://github.com/blakeNaccarato/boilercv/issues
+
+# boilercv
+
+[![DOI](https://zenodo.org/badge/503551174.svg)](https://zenodo.org/badge/latestdoi/503551174)
+
+Computer vision routines suitable for nucleate pool boiling bubble analysis.
+
