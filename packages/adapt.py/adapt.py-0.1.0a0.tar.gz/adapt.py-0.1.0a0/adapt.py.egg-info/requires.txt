@@ -1,0 +1,9 @@
+aiohttp>=3.8.0
+
+[docs]
+sphinx>=4.1.1
+furo
+
+[performance]
+aiohttp[speedups]
+msgpack
