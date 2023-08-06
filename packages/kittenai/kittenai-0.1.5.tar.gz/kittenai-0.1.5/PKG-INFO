@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: kittenai
+Version: 0.1.5
+Summary: AI for kittencode python ide
+Home-page: https://gitee.com/KittenTech/pylib_kittenai
+Author: riven
+Author-email: riven@kittenbot.cc
+License: MIT
+Keywords: kittenai
+License-File: LICENSE
