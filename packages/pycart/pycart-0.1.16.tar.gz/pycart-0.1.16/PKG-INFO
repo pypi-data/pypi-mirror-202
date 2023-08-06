@@ -1,0 +1,113 @@
+Metadata-Version: 2.1
+Name: pycart
+Version: 0.1.16
+Summary: A Python package for generating Cartograms using GeoDataFrames.
+Home-page: https://github.com/ARundle01/ecmm428-pycart
+License: BSD-3-Clause
+Author: Alex Rundle
+Author-email: alexrundle01@gmail.com
+Requires-Python: >=3.9.7,<3.10
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development
+Requires-Dist: beautifulsoup4 (==4.12.0)
+Requires-Dist: fonttools (==4.39.2)
+Requires-Dist: geojson (==3.0.1)
+Requires-Dist: geopandas (==0.12.2)
+Requires-Dist: importlib-metadata (==6.1.0)
+Requires-Dist: jinja2 (==3.0.3)
+Requires-Dist: libpysal (==4.7.0)
+Requires-Dist: matplotlib (==3.7.1)
+Requires-Dist: mkdocs (==1.4.2)
+Requires-Dist: mkdocstrings[python] (>=0.21.2,<0.22.0)
+Requires-Dist: numpy (==1.24.2)
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: pillow (==9.4.0)
+Requires-Dist: pyproj (==3.4.1)
+Requires-Dist: pytz (==2023.2)
+Requires-Dist: shapely (==2.0.1)
+Project-URL: Repository, https://github.com/ARundle01/ecmm428-pycart
+Description-Content-Type: text/markdown
+
+ecmm428 - The `pycart` package
+==============================
+
+![GitHub](https://img.shields.io/github/license/ARundle01/ecmm428-pycart)
+![GitHub code size in bytes](https://img.shields.io/github/repo-size/ARundle01/ecmm428-pycart)
+![GitHub last commit](https://img.shields.io/github/last-commit/ARundle01/ecmm428-pycart)
+![GitHub top language](https://img.shields.io/github/languages/top/ARundle01/ecmm428-pycart)
+
+## Contributors
+Contributors to this project are
+- Alex Rundle (ARundle01)
+
+## License
+This project is licensed under the BSD 3-Clause License
+
+SPDX-License-Identifier: BSD-3-Clause
+
+## Installation
+### Using Pip
+Make sure you have the latest version of PIP installed:
+```pycon
+py -m pip install --upgrade pip
+```
+
+This package is currently hosted on PyPi and TestPyPi, as it is currently in unstable development. To install 
+and use this package from PyPi:
+```pycon
+py -m pip install pycart
+```
+
+To install
+and use this package from TestPyPi:
+```pycon
+py -m pip install -i https://test.pypi.org/simple/ pycart
+```
+
+## Pre-requisites
+All code in this Repository and Package was developed and tested on Windows 10.
+
+This Repository requires:
+- **Python >=3.9**
+
+# [Read the Docs!](http://ecmm428-pycart.readthedocs.io/)
+# pycart - Python Cartogram Generation
+
+`pycart` is a Python software package that allows generation of Cartograms from 
+a GeoPandas GeoDataFrame.
+
+The library provides a `cartogram` generator class, alongside individual methods 
+based on popular Cartogram generation algorithms.
+
+### Quick Install
+`pycart` can be installed from PyPI, or the development version from TestPyPI.
+
+Install from PyPI with:
+```pycon
+pip install pycart
+```
+
+Install the development version from TestPyPI:
+```pycon
+pip install -i https://test.pypi.org/simple/ pycart
+```
+
+For further details on installation, please see the [installation guide](install.md).
+
+### Contributors
+
+| Name                                        | Role           |
+|---------------------------------------------|----------------|
+| [Alex Rundle](https://github.com/ARundle01) | Lead Developer |
+
+### License
+
+This project is licensed under the BSD 3-Clause License. For further details, please see 
+the [about section](about.md).
+
