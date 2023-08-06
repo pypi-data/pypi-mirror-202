@@ -1,0 +1,9 @@
+xarray>=0.17
+rioxarray>=0.12.2
+scikit-learn>=0.22
+geopandas>=0.3
+shapely>=1.6
+numpy>=1.21
+pandas>=0.20
+matplotlib>=2.2.4
+seaborn>=0.12.1
