@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: awc
+Version: 1.0.1
+Summary: wrapper for ari-web comments API
+Home-page: https://ari-web.xyz/gh/awc
+Author: Ari Archer
+Author-email: ari.web.xyz@gmail.com
+License: GPLv3+
+Keywords: http,http-client,comments,api,wrapper,https
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: types-requests
+Requires-Dist: furl
+Requires-Dist: pypika
+
+# awc
+
+> ari-web comments ( awc ) API wrapper
+
+## what
+
+this libarary is a wrapper for <https://server.ari-web.xyz/> API
+to help you manage, query and edit content using it
+
+awc wraps pypika for sql queries and in `sql.helpers` you can access
+some pre-made SQL queries, i suggest you use pypika for all ( or at least
+most ) sql queries, reason being that manually writing them is
+fairly insecure, especially with concat and f-strings
+
+## examples
+
+see the [examples](/examples) folder
+
+## installation
+
+```sh
+python3 -m pip install --user awc
+```
+
+or ( in the cloned repo dir )
+
+```sh
+python3 -m pip install -e .
+```
+
+`-e` is for editable, you can also leave it out if you
+wont be editing the library
