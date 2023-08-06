@@ -1,0 +1,33 @@
+requests>=2.16.0
+six
+urllib3>=1.24.2
+setuptools
+
+[:python_version < "3"]
+enum34
+
+[:python_version < "3.3"]
+backports.functools-lru-cache
+
+[dev]
+build
+coverage[toml]
+pre-commit
+pytest
+types-requests
+types-six
+
+[dev:python_version < "3"]
+mock
+
+[dev:python_version > "3"]
+sphinx-autodoc-typehints
+
+[dev:python_version >= "3.7"]
+black
+furo
+sphinx
+sphinx-copybutton
+
+[dev:python_version >= "3.7" and platform_python_implementation != "PyPy"]
+mypy
