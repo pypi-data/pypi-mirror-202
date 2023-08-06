@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: example-pkg-data-pomelo-bi
+Version: 0.0.1
+Summary: Data cross lib packages
+Home-page: https://github.com/pomelo-la/morbius-service
+Author: data owner
+Author-email: data@pomelo.la
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# morbius-service
+selfservice - Managed via CloudFormation
+
+
