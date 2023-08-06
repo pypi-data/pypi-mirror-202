@@ -1,0 +1,16 @@
+spyderml/__init__.py,sha256=mioqIwe_pO4mnRpbQclMRGnEKqSPQTtLarQivVnJIGk,73
+spyderml/bin/spyderml,sha256=jFeqqD2nEROGi7fy0aKNEpF9xl4C8wGpOsobb2GBM3s,93
+spyderml/main.py,sha256=gseHRFM6ZMMnXQPU5_w8I9FtBT4RDGiHrH5VJ3doX3Q,9970
+spyderml/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spyderml/src/asciiarts.py,sha256=wCKJxa9j-TpSqQtHYpSFdKf5DaG-4Xly7xSxdNs1ttE,3038
+spyderml/src/detectos.py,sha256=fwP69n-X30jLnSlSCsX0ZgKuiIByNsLf_2ft4KRfBmw,234
+spyderml/src/file.py,sha256=4IaoNq9X4HgHXpeX_9MBqqUMfJHNKAXijuQhIYNEdWE,908
+spyderml/src/handle_headers_and_proxy.py,sha256=ZhZQD69DHezusWuNHM3x03_D3WSSWmnnZ4GgCagYIdg,1365
+spyderml/src/spidercrawler.py,sha256=vY-TBSeTgW_IAJf7Py6Bk1st6LmGSRutVYErGIrpUkg,5406
+spyderml/src/spyder_reqs.py,sha256=Nnfmyv2vnBvik46C78-NGVEPYhjZECvX7yFC2jwDk6c,6118
+spyderml/src/utils.py,sha256=mbncWic95Fbdu6_D_YCkbobm94ggsyeoJX7KqVlS2Ao,4197
+spyder_ml-2.1.4.dist-info/LICENSE,sha256=n-Ie7ac0LzaWopBNx_fFwhj6IiBNwcs82kL1EI3nEPQ,1077
+spyder_ml-2.1.4.dist-info/METADATA,sha256=J0kAVyFZr1eM1gQTyVdjwGliHl4G_kbvO1wZDaL8Sq0,4390
+spyder_ml-2.1.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+spyder_ml-2.1.4.dist-info/entry_points.txt,sha256=E_KTWzRxP39njZujH77hWRim_GSXH1yr2vvvqXiwW0w,47
+spyder_ml-2.1.4.dist-info/RECORD,,
