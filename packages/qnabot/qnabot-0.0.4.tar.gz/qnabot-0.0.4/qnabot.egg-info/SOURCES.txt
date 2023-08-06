@@ -1,0 +1,11 @@
+README.md
+setup.py
+qnabot/QnABot.py
+qnabot/__init__.py
+qnabot.egg-info/PKG-INFO
+qnabot.egg-info/SOURCES.txt
+qnabot.egg-info/dependency_links.txt
+qnabot.egg-info/requires.txt
+qnabot.egg-info/top_level.txt
+qnabot/tests/__init__.py
+qnabot/tests/test_QnABot.py
