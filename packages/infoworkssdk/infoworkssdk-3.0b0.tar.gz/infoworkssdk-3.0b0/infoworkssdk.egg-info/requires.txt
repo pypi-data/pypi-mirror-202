@@ -1,0 +1,5 @@
+requests
+bson
+urllib3
+pandas
+networkx
