@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kimsehyeon
+Version: 0.0.1
+Summary: Nice calculator
+Home-page: https://github.com/kimsehyeon10/oss-study-02
+Download-URL: https://github.com/kimsehyeon10/oss-study-02/archive/refs/tags/v0.0.1.zip
+Author: Kim Sehyeon
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+
+oss-dev calculator python module
