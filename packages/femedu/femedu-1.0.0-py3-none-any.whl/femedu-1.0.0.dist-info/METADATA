@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: femedu
+Version: 1.0.0
+Summary: FEM.edu is nonlinear finite element code designed for use in higher education
+Author-email: Peter Mackenzie-Helnwein <pmackenz@uw.edu>
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: numpy >=1.23
+Requires-Dist: scipy >=1.10.1
+Requires-Dist: matplotlib >=3.5
+Project-URL: Home, https://pmackenz.github.io/FEM.edu.documentation/
+
+# FEM.edu
+A python-based general finite element analysis package for simple testing and developing of finite elements and material models and solution algorithms.
+
+For a detailed documentation visit https://pmackenz.github.io/FEM.edu.documentation/
+
