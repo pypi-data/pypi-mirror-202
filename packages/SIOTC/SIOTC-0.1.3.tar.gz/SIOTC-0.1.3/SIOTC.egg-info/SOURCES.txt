@@ -1,0 +1,11 @@
+README.txt
+setup.py
+SIOTC/DatabaseLayer.py
+SIOTC/Operations.py
+SIOTC/__init__.py
+SIOTC/helperhttps.py
+SIOTC.egg-info/PKG-INFO
+SIOTC.egg-info/SOURCES.txt
+SIOTC.egg-info/dependency_links.txt
+SIOTC.egg-info/requires.txt
+SIOTC.egg-info/top_level.txt
