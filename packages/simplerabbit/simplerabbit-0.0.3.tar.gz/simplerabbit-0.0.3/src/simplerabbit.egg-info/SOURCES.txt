@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/simplerabbit.egg-info/PKG-INFO
+src/simplerabbit.egg-info/SOURCES.txt
+src/simplerabbit.egg-info/dependency_links.txt
+src/simplerabbit.egg-info/top_level.txt
+tests/test.py
