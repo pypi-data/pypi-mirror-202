@@ -1,0 +1,10 @@
+statscend/__init__.py,sha256=jObgtVh4dFtwIEVQBv1e1cqcYpAdjyLscasrUsKpIKE,384
+statscend/bn_logistic_regression.py,sha256=sYFttO672yn_l8eiV3ouaFQzFwPWMxitnAdaCZf0DTE,2414
+statscend/datasets.py,sha256=Zt-syMIbcmK_zN51LAAdnfwWU2wPVuZOtgPf5_N92K0,1030
+statscend/linear_regression.py,sha256=IReN3rOXsQDlfb0Od-mHNH3mZjUwDy5ae5NVdw7eG4U,2046
+statscend/mn_logistic_regression.py,sha256=f1fvC2MEKcddqGAfDomaONW9OPLplTJW0kWuMkgpBfk,1689
+statscend/ordinal_regression.py,sha256=Rx_4vne6zNNOeyRpn3PLa7cEaiEWflS7F5tWxfTMr04,1817
+statscend-0.1.4.dist-info/METADATA,sha256=rN7FHAS0KwsxcN4rDN__0qkJF2nTnR8Q7EbXR7M8HMo,7325
+statscend-0.1.4.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+statscend-0.1.4.dist-info/licenses/LICENSE,sha256=XPLgPo6AJMgUjQyrj2zTWmgXoZGxYQhDmiCXdnfRZFU,1075
+statscend-0.1.4.dist-info/RECORD,,
