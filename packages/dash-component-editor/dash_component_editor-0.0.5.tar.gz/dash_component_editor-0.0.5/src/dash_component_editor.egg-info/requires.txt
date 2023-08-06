@@ -1,0 +1,4 @@
+dash>=2.9.0
+dash_bootstrap_components>=1.0.0
+dash_daq>=0.1.0
+werkzeug==2.0
