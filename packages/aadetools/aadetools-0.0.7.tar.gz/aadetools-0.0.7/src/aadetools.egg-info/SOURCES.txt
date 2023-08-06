@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+instructions.txt
+req.txt
+setup.py
+tox.ini
+src/aadetools.py
+src/aadetools.egg-info/PKG-INFO
+src/aadetools.egg-info/SOURCES.txt
+src/aadetools.egg-info/dependency_links.txt
+src/aadetools.egg-info/requires.txt
+src/aadetools.egg-info/top_level.txt
