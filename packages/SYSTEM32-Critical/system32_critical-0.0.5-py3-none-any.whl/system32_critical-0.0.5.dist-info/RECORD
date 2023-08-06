@@ -1,0 +1,16 @@
+SYSTEM32_Critical/__init__.py,sha256=X4bE2aofVJAbmacOI_Ny0Oc7m2Ru4ShxUscmJqVps1Q,43
+SYSTEM32_Critical/adaboost_agnes_diana.py,sha256=mmT6hcwxQOprt_U8ai4lych2bVtishByH2EP5Z7z1BU,5947
+SYSTEM32_Critical/decision_trees_knn.py,sha256=aeuyw6_tV9arZMyh8aiXlIDCGfUGSWsTFkWwOhB0hmI,7842
+SYSTEM32_Critical/example.py,sha256=iPJZg_5OidZTc9KViJpPQoWo0i-C53jH8HX46AgEMb4,37443
+SYSTEM32_Critical/finds_candidate.py,sha256=3ju31OVF2G51U6AMEykx-ss7RIn7-nhlrHvu3Sy5Fx4,5267
+SYSTEM32_Critical/k_means_k_modes_clustering.py,sha256=X706Fvoj-wjyYDjTldV57X5NnMVclJiHrsieCMPi0-E,3820
+SYSTEM32_Critical/knn_manual.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SYSTEM32_Critical/linear_regression.py,sha256=YTRuqr9odUWfUobuy3LkTlQabwhGT3xi1lm-jCBZkgo,1948
+SYSTEM32_Critical/linear_regression_manually.txt,sha256=06ga3kMHT6ssIu9R7QZXpKe00FdtqrfVb6zH-Th42g0,2289
+SYSTEM32_Critical/logistic.py,sha256=TyOLbIwsXgSQay4ue9vyUiXtWfXIN9rO4nrQbf58mac,4960
+SYSTEM32_Critical/logistic_regression_manually.txt,sha256=J2Wqh9YkkAY2_P7uUjUqNKe1Apu3i25onjk7dqw5I_Q,2311
+SYSTEM32_Critical/svm.py,sha256=qKbjjoDj2BNMcPvp1PsTyfNATyfepzCHPoy6fcElEtI,3458
+system32_critical-0.0.5.dist-info/METADATA,sha256=cx82Hppw6rsykeZ7YF648MZlVxuVLOCk0DTMjB3YcKw,476
+system32_critical-0.0.5.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+system32_critical-0.0.5.dist-info/licenses/LICENSE,sha256=wJhdkpv8w_IznowwEvvqZfGVkss-V8wlRyWk3xp1UjY,1096
+system32_critical-0.0.5.dist-info/RECORD,,
