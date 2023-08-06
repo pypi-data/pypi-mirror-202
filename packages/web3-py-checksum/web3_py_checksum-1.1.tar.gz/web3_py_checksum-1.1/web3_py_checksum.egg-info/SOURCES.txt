@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.cfg
+setup.py
+web3_py_checksum/__init.py
+web3_py_checksum/get_checksum_address.py
+web3_py_checksum.egg-info/PKG-INFO
+web3_py_checksum.egg-info/SOURCES.txt
+web3_py_checksum.egg-info/dependency_links.txt
+web3_py_checksum.egg-info/top_level.txt
