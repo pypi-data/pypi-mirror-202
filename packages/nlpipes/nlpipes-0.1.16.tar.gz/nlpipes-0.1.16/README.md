@@ -1,0 +1,81 @@
+<!-- PROJECT NAME -->
+<div align="center">
+   <img src="https://ik.imagekit.io/m0ci8dgk4/nlpipes_logo_eSBhzDKCZ.png?updatedAt=1679840445991" alt="nlpipes_logo" title="nlpipes logo">
+  <h2>Text Classification with Transformers</h2>
+</div>
+
+<div align="center">
+    <a href="https://opensource.org/licenses/Apache-2.0">
+       <img alt="Licence" src="https://img.shields.io/badge/License-Apache_2.0-blue.svg">
+    </a>
+     <a href="https://pypi.org/project/nlpipes/">
+       <img alt="PyPi Version" src="https://img.shields.io/pypi/pyversions/nlpipes">
+    </a> 
+    <a href="https://pypi.org/project/nlpipes/">
+        <img alt="PyPi Package Version" src="https://img.shields.io/pypi/v/nlpipes">
+    </a>
+    <!--
+    <a href="https://pepy.tech/project/nlpipes/">
+        <img alt="PyPi Downloads" src="https://static.pepy.tech/badge/nlpipes/month">
+    </a>
+    -->
+</div>
+
+<div align="center">
+    <a href=""><strong>Documentation</strong></a>
+    • <a href=""><strong>References</strong></a>
+</div>
+
+
+<div align="center">
+  <img src="https://ik.imagekit.io/m0ci8dgk4/nlpipes_screenshot_Y84VIVDHa.png?updatedAt=1679841161048" alt="nlpipes_screenshot" title="nlpipes screenshot">
+</div>
+
+
+## Overview
+`NLPipes` is designed for people unfamiliar with Transformers who want an end to end solution to solve practical text classification problems, including:
+
+* **Single-label classification**: A typical use case is sentiment detection where one want to detect the overall sentiment polarity (e.g., positive, neutral, negative) in a review.
+* **Multi-labels classification**: A typical use case is aspect categories detection where one want to detect the multiple aspects mentionned in a review (e.g., product_quality, delivery_time, price, ...).
+* **Aspect-based classification** [Not yet implemented]: A typical use case is aspect based sentiment analysis where one want to detect each aspect categories mentionned in a review along his assocated sentiment polarity (e.g., product_quality: neutral, delivery_time: negative, price: positive, ...).
+
+`NLPipes` expose a `Model` API that provide a simple abstraction for all text classification tasks. The library maintain a common usage pattern across models (train, evaluate, predict, save) with also a clear and consistent data structure (python lists as inputs/outputs data). Most of `NLPipes` functionnalities are based on callbacks functions. This provide a modular architecture that allow new ideas to be implemented without having to increase the complexity of the core.
+
+#### Built with
+`NLPipes` is built with TensorFlow and HuggingFace Transformers:
+* [TensorFlow](https://www.tensorflow.org/): An end-to-end open source deep learning framework
+* [Transformers](https://huggingface.co/transformers/): An general-purpose open-sources library for transformers-based architectures
+
+## Getting Started
+
+#### Installation
+1. Create a virtual environment
+
+ ```console
+ python3 -m venv nlpipesenv
+ source nlpipesenv/bin/activate
+ ```
+
+2. Install the package
+
+ ```console
+ pip install nlpipes
+ ```
+
+#### Tutorials
+
+Here are some examples on open datasets that show how to use `NLPipes` on different tasks:
+
+Name|Notebook|Description|Task|Size|Memory|Speed| 
+----|-----------|-----|---------|---------|---------|---------|
+GooglePlay Sentiment Detection|Available|Train a model to detect the sentiment polarity from the GooglePlay store |Single-label classification|  |  |  
+StackOverflow tags Detection|Available|Train a model to detect tags from the StackOverFlow questions |Multiple-labels classification|  |  |
+GooglePlay Aspect and Sentiment Detection|Coming soon|Train a model to detect the aspects from GooglePlay store reviews along their assocated sentiment polarity |Aspect-based classification|  |  | 
+
+
+## Notices
+- `NLPipes` is still in its early stage. The library comes with no warranty and future releases could bring substantial API and behavior changes.
+- `NLPipes` will improve in the future releases, but the library is currently not optimized for high speed or low memory footprint.
+
+
+<div>Logo created with <a href="https://www.designevo.com/" title="Free Online Logo Maker">DesignEvo logo maker</a></div>
