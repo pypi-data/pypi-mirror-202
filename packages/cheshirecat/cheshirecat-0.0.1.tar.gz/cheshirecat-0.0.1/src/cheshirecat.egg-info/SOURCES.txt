@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/cheshirecat/__init__.py
+src/cheshirecat.egg-info/PKG-INFO
+src/cheshirecat.egg-info/SOURCES.txt
+src/cheshirecat.egg-info/dependency_links.txt
+src/cheshirecat.egg-info/top_level.txt

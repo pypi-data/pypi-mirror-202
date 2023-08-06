@@ -1,0 +1,17 @@
+[project]
+name = "cheshirecat"
+version = "0.0.1"
+authors = [
+  { name="ch35hireC4t", email="sim.teich@gmail.com" },
+]
+description = "Prints the cheshire cat."
+readme = "README.md"
+requires-python = ">=3.9.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SimchaTeich/My_First_Python_PyPI_Package"
