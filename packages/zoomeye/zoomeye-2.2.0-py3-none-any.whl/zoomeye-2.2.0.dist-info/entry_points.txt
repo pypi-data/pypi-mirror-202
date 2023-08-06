@@ -1,0 +1,2 @@
+[console_scripts]
+zoomeye = zoomeye.cli:main
