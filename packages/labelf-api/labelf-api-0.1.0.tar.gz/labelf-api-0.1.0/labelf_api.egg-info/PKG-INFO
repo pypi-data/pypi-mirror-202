@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: labelf-api
+Version: 0.1.0
+Summary: A Python package for interacting with the Labelf API
+Author: Viktor Alm
+Author-email: viktor@labelf.ai
+License: MIT
+Keywords: labelf,api,client
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: test
