@@ -1,0 +1,11 @@
+visioncapsule_tools/__init__.py,sha256=96MpvpnRmaBwGlPjHjzUPsc6Q3dkv_i5CV7ALvBaAcY,82
+visioncapsule_tools/capsule_downloader.py,sha256=l3T1DwFSQQz2nwJ56thU0sSfkPWzpgY80S9ITUKRrsY,19620
+visioncapsule_tools/cli.py,sha256=owNx_lxFLtnqd8ahnzDsprYQwVhDPSgJViXuYd03_Bc,1123
+visioncapsule_tools/command_utils.py,sha256=8vmBRhFWsn642U74MeW4Hvgv8P5Fn_HJ6rf8xrkLPfk,571
+visioncapsule_tools/print_utils.py,sha256=Ah3uQqWluk3i5REY8Mk7XH5TmXdZecVdKzePFLHlmVQ,734
+visioncapsule_tools/translations/portal.en.yml,sha256=_97aE259Xp0isef8OP28VqMBnU61NDZVSAsauh33MWs,530
+visioncapsule_tools-0.3.19.dist-info/METADATA,sha256=mznL_MAbliVobDVAOratGPG-pijP-YsRcsfj127Y3OY,778
+visioncapsule_tools-0.3.19.dist-info/entry_points.txt,sha256=6Revs3MOZhLM8xRYGfsmCYYypHvDAt1T-uaPffOA3ac,72
+visioncapsule_tools-0.3.19.dist-info/COPYING,sha256=gUdx8BDkY31TjlE3BXyajv8oSs-1hxBD4NUn-hUZi6w,1502
+visioncapsule_tools-0.3.19.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+visioncapsule_tools-0.3.19.dist-info/RECORD,,
