@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/proxy_decorator/__init__.py
+src/proxy_decorator/proxy_decorator.py
+src/proxy_decorator.egg-info/PKG-INFO
+src/proxy_decorator.egg-info/SOURCES.txt
+src/proxy_decorator.egg-info/dependency_links.txt
+src/proxy_decorator.egg-info/top_level.txt

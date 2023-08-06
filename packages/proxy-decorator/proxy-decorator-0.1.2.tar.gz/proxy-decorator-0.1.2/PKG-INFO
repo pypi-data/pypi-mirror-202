@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: proxy-decorator
+Version: 0.1.2
+Summary: A simple proxy decorator for Python functions
+Author-email: joe_zhouman <man.man.man.man.a@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# proxy decorator
+
+## usage
+
+1. create a `ini` file or add to exist `ini` file
+
+2. put this in your `ini` file
+
+   ```ini
+   [http]
+   http = http://your_proxy_server:your_proxy_port
+   https = https://your_proxy_server:your_proxy_port
+   username = your_username
+   password = your_password
+   ```
+
+3. use it in your program
+
+   ```python
+   from proxy_decorator.proxy_decorator import proxy_http
+   
+   config_file = "path/to/proxy_config.ini"
+   
+   @proxy_http(config_file)
+   def your_function():
+       # 您的函数实现
+       pass
+   
