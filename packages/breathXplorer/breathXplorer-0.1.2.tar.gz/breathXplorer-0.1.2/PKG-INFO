@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: breathXplorer
+Version: 0.1.2
+Summary: A tool to do peak picking and feature extraction on breath data
+Home-page: https://github.com/wykswr/breathXplorer
+Author: wykswr
+Author-email: bifocal.above.0y@icloud.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# breathXplorer
+
+BreathXplorer is a tool to do peak picking and feature extraction on breath data.
+
+## Installation
+
+`pip install breathXplorer`
+
+## Usage
+
