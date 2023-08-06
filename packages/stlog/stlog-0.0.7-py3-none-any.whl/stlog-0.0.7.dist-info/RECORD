@@ -1,0 +1,13 @@
+stlog/__init__.py,sha256=OwbmarEzBq6mPzw324bsbVhk02PFC5CQT4kKD2ANx10,300
+stlog/__init__.py.restore_version,sha256=2Xquphdxnuepw7yrcGoDCN9lejOiL8p9pzqSTOBLj7k,301
+stlog/adapter.py,sha256=3fDLyIIm6eSiIKVTw25iKLEd7TBKVEqXzqq92RaLyY8,2641
+stlog/base.py,sha256=OiBpYb1W8s_8XtdRGtUCpaQ_mZ9LZ4WJ6UoRbdEJ56M,7277
+stlog/context.py,sha256=fkv7GRlBOv7p5TYahBEFU3R700r29rktVusw1QCRSEw,2638
+stlog/formatter.py,sha256=f_BiEyJKAyD4y-S6IlBW1eo5MVY1w-xbztiOVowOeZo,12794
+stlog/handler.py,sha256=w-qDGirrm3AxrrizTBe0E7Bcx15R0YLBCB6BY56VjDU,2499
+stlog/output.py,sha256=ziSCVXl5VOSvr74ytAcwpa0f6tDQ5nvAak-SYk2Rj6I,4920
+stlog/setup.py,sha256=4yvy4xnYeGzMnOu8a2roozduPqwtVoCmBYN6fXszPpI,4793
+stlog-0.0.7.dist-info/LICENSE,sha256=ZzgVG3514rFKF24woGgZxV_JyxbO1cZdWBzza2HQptE,1069
+stlog-0.0.7.dist-info/METADATA,sha256=El6pB_ugN8Xl7cJaNwdPQuvUwuaWD_1BqF3ZdIXR5NI,8562
+stlog-0.0.7.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+stlog-0.0.7.dist-info/RECORD,,
