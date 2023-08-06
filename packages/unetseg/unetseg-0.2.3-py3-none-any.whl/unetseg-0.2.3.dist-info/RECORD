@@ -1,0 +1,12 @@
+unetseg/__init__.py,sha256=1EjIh2P672eNM2wxxeBwpg3v2UrlLdVZtUxDcKrTEGg,363
+unetseg/console/predict.py,sha256=-FgznkADshbeAWen-I9gVWeQNDM7TzCNXioEgKhW5kc,3537
+unetseg/console/train.py,sha256=DGdkKKsgIfEp6EMDzpU8jZR3TyXyOFNenJeKzeGGlVs,4998
+unetseg/evaluate.py,sha256=sFJhnQ9Uvc_jy72Wompjq0ifyCAzbz1R9SP5LgYl_Dc,3861
+unetseg/postprocess.py,sha256=22bC7BH0LI3YTMg8VLgY81mMCC5b1N2v_hqlPkPjr24,3662
+unetseg/predict.py,sha256=30ssnaZfsYDPo_X-CJrKn3lEbli7fz9du1F7-N3MPTM,3810
+unetseg/train.py,sha256=wi03Ah43lj9p4F__maJqjDsfXzlfMoAOnr-X42FUQuE,22083
+unetseg/utils.py,sha256=hFWkdYXWTE5q1KmxwXbV78sl-cDLeXsghPPuUmv7r1U,842
+unetseg-0.2.3.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+unetseg-0.2.3.dist-info/METADATA,sha256=dBfFBtuBAPNoCz82NJt0Yl7WYJuUUda6p7quXAhngnA,865
+unetseg-0.2.3.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+unetseg-0.2.3.dist-info/RECORD,,
