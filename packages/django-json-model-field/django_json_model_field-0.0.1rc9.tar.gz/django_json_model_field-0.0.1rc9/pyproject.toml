@@ -1,0 +1,17 @@
+[project]
+name = "django_json_model"
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "django_json_model_field"
+version = "0.0.1-pre.9"
+description = "Use a model class to provide a strict data structure for JSON fields"
+authors = ["Daniel Schaffer <dschaffer@instawork.com>"]
+
+[tool.poetry.dependencies]
+python = "~=3.9"
+Django = "~=3.2"
+
