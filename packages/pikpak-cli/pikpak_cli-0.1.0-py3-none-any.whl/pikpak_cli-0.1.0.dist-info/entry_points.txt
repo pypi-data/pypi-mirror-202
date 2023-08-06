@@ -1,0 +1,3 @@
+[console_scripts]
+pikpak_cli=pikpak_cli.main:main
+
