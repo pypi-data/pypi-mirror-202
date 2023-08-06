@@ -1,0 +1,5 @@
+pytube
+pywhatkit
+requests
+moviepy
+spotipy
