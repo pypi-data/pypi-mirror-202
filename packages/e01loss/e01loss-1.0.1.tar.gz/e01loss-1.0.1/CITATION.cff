@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Xi"
+  given-names: "He"
+  orcid: "https://orcid.org/0000-0002-4284-9067"
+- family-names: "Little"
+  given-names: "Max A."
+  orcid: "https://orcid.org/0000-0002-1507-3822"
+title: "Exact 0-1 loss linear classification algorithms"
+version: 1.0.1
+doi: 10.5281/zenodo.7814259
+date-released: 2023-4-10
+url: "https://github.com/XiHegrt/E01Loss"
