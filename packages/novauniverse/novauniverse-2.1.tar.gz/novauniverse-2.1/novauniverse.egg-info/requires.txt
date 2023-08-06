@@ -1,0 +1,14 @@
+requests
+devgoldyutils>=2.4.3
+prettyprinter
+python-decouple>=3.8
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[dev]
+ruff
+Sphinx
+furo
+pytest
+pytest-cov
