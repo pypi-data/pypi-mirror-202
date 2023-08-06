@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sapcloudconnectorpythonsocket
+Version: 0.0.1
+Summary: Python Package to open socket to SAP Cloud Connector via Connectivity Proxy
+Home-page: https://github.com/fyx99/sap-cloud-connector-python-socket
+Author: fxy99
+Author-email: 
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
+
