@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+playfromtext/__init__.py
+playfromtext/play_it.py
+playfromtext.egg-info/PKG-INFO
+playfromtext.egg-info/SOURCES.txt
+playfromtext.egg-info/dependency_links.txt
+playfromtext.egg-info/entry_points.txt
+playfromtext.egg-info/requires.txt
+playfromtext.egg-info/top_level.txt
