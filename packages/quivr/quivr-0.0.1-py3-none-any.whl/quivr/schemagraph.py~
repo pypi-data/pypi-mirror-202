@@ -1,0 +1,2 @@
+def walk_schema(schema: pa.Schema, visitor: Any):
+    # Visit every struct in the schema in depth-first fashion.

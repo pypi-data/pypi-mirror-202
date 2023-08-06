@@ -1,0 +1,26 @@
+from quiver import QuiverBaseModel, QuiverMatrix
+import pyarrow as pa
+
+
+class CartesianCoordinates(QuiverBaseModel):
+    schema = pa.schema(
+        [
+            pa.field("x", pa.float64()),
+            pa.field("y", pa.float64()),
+            pa.field("z", pa.float64()),
+            pa.field("vx", pa.float64()),
+            pa.field("vy", pa.float64()),
+            pa.field("vz", pa.float64()),
+        ]
+    )
+
+
+class Orbit(QuiverBaseModel):
+    schema = pa.schema(
+        [
+            CartesianCoordinates.as_field("coords"),
+            pa.field("epoch", pa.float64()),
+            pa.field("object_id", pa.string()),
+        ]
+    )
+

@@ -1,0 +1,29 @@
+import pyarrow as pa
+
+
+class CustomExtensionType(pa.PyExtensionType):
+    def __init__(self):
+        pa.PyExtensionType.__init__(self, pa.int64())
+
+    def __reduce__(self):
+        return CustomExtensionType, ()
+
+
+def make_array_ok():
+    data = [1, 2, 3, 4, 5]
+    typ = CustomExtensionType()
+    return pa.array(data, typ)
+
+
+def make_struct_array_not_ok():
+    data = [{"val": 1}, {"val": 2}, {"val": 3}, {"val": 4}, {"val": 5}]
+    typ = CustomExtensionType()
+    struct_type = pa.struct([("val", typ)])
+    return pa.array(data, type=struct_type)
+
+
+def make_struct_array_explicitly():
+    data = [1, 2, 3, 4, 5]
+    typ = CustomExtensionType()
+    return pa.StructArray.from_arrays(pa.array(data, typ), fields=[("val", typ)])
+    

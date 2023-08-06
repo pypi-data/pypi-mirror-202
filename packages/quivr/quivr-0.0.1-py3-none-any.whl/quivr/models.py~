@@ -1,0 +1,222 @@
+import pyarrow as pa
+from typing import Optional, TypeVar, Generic
+import functools
+import pickle
+import pandas as pd
+import numpy as np
+import numpy.typing as npt
+from abc import ABC, abstractmethod
+
+_METADATA_MODEL_KEY = b"__quiver_model_pickle"
+_METADATA_NAME_KEY = b"__quiver_model_name"
+_METADATA_UNPICKLE_KWARGS_KEY = b"__quiver_model_unpickle_kwargs"
+
+
+class ModelMetaclass(type):
+    """ModelMetaclass is a metaclass which attaches accessors
+    to Models based on their schema class-level attribute.
+
+    Each field in the class's schema becomes an attribute on the class.
+
+    """
+
+    def __new__(cls, name, bases, attrs):
+        # Invoked when a class is created. We use this to generate
+        # accessors for the class's schema's fields.
+        if "schema" not in attrs:
+            raise TypeError(f"Model {name} requires a schema attribute")
+        if not isinstance(attrs["schema"], pa.Schema):
+            raise TypeError(
+                f"Model {name} schema attribute must be a pyarrow.Schema"
+            )
+        accessors = dict(cls.generate_accessors(attrs["schema"]))
+        attrs.update(accessors)
+        return super().__new__(cls, name, bases, attrs)
+
+    def generate_accessors(schema: pa.Schema):
+        """Generate all the property accessors for the schema's fields.
+
+        Each field is accessed by name. When getting the field, its
+        underlying value is unloaded out of the Arrow array. If the
+        field has a model attached to it, the model is instantiated
+        with the data. Otherwise, the data is returned as-is.
+
+        """
+
+        def getter(_self, field: pa.Field, field_index: int):
+            if field.metadata is not None and _METADATA_MODEL_KEY in field.metadata:
+                # If the field has type information attached to it in
+                # metadata, pull it out. The metadata store the model
+                # (as a class object), and may optionally have some
+                # keyword arguments to be used when instantiating the
+                # model from the data.
+                model = pickle.loads(field.metadata[_METADATA_MODEL_KEY])
+                if _METADATA_UNPICKLE_KWARGS_KEY in field.metadata:
+                    init_kwargs = pickle.loads(
+                        field.metadata[_METADATA_UNPICKLE_KWARGS_KEY]
+                    )
+                else:
+                    init_kwargs = {}
+                return model(data=_self._data_array.field(field_index), **init_kwargs)
+            return _self._data_array.field(field_index)
+
+        def setter(_self):
+            raise NotImplementedError("Models are immutable")
+
+        def deleter(_self):
+            raise NotImplementedError("Models are immutable")
+
+        for idx, field in enumerate(schema):
+            g = functools.partial(getter, field=field, field_index=idx)
+            prop = property(fget=g, fset=setter, fdel=deleter, doc=None)
+            yield (field.name, prop)
+
+
+class QuiverBaseModel(metaclass=ModelMetaclass):
+    _data_array: pa.Array
+    schema: pa.Schema = pa.schema([])
+
+    def __init__(self, data: pa.Array):
+        if not isinstance(data, pa.Array):
+            raise TypeError(
+                f"Data must be a pyarrow.Array for {self.__class__.__name__}"
+            )
+        if data.type != pa.struct(self.schema):
+            raise TypeError(
+                f"Data type must match schema for {self.__class__.__name__}"
+            )
+        self._data_array = data
+
+    @classmethod
+    def from_list(cls, l: list):
+        data = pa.array(l, type=pa.struct(cls.schema))
+        return cls(data=data)
+
+    @classmethod
+    def as_field(
+        cls, name: str, nullable: bool = True, metadata: Optional[dict] = None
+    ):
+        metadata = metadata or {}
+        metadata[_METADATA_NAME_KEY] = cls.__name__
+        metadata[_METADATA_MODEL_KEY] = pickle.dumps(cls)
+        field = pa.field(
+            name, pa.struct(cls.schema), nullable=nullable, metadata=metadata
+        )
+        return field
+
+    def __repr__(self):
+        return f"{self.__class__.__name__}(size={len(self._data_array)})"
+
+    def __len__(self):
+        return len(self._data_array)
+
+    def __getitem__(self, idx):
+        if isinstance(idx, int):
+            return self.__class__(self._data_array[idx : idx + 1])
+        return self.__class__(self._data_array[idx])
+
+    def __iter__(self):
+        for i in range(len(self)):
+            yield self[i : i + 1]
+
+    def __arrow_array__(self, type=None):
+        if type is None:
+            return self._data_array()
+        return pa.array(self._data_array, type=type)
+
+    def to_arrow(self) -> pa.Array:
+        return self._data_array
+
+
+class Matrix:
+    """Matrix is a container for a 2D matrix of data which is
+    stored in memory using an Arrow array.
+
+    The main expected use of this is through the as_field class
+    method, embedding it into the schema of a Quiver model class. For
+    example, to add a 3x3 covariance matrix to a class with x, y, and
+    z, one might do something like this:
+
+        class XYZ(QuiverBaseModel):
+            schema = pa.schema([
+                pa.field("x", pa.float64()),
+                pa.field("y", pa.float64()),
+                pa.field("z", pa.float64()),
+                Matrix.as_field("covariance", (3, 3), pa.float64()),
+            ])
+
+    Then, to access
+
+    """
+
+    def __init__(
+        self,
+        data: pa.Array,
+        shape: tuple[int, int],
+        nullable: bool,
+        element_dtype: pa.DataType,
+    ):
+        self.data = data
+        self.shape = shape
+        self.nullable = nullable
+        self.element_dtype = element_dtype
+
+    def to_numpy(self):
+        # The matrix is used as a field in some other type. That means
+        # it is actually going to get stored as an array of
+        # fixed-size-lists.
+        #
+        # This list-of-lists isn't stored in quite the same way as
+        # numpy arrays, so this takes a bunch of special logic.
+        if self.data.null_count == 0:
+            raw = self.data.values.to_numpy()
+        else:
+            # There are nulls. We need to mask them out as nans.
+            if not _is_float_type(self.element_dtype):
+                raise NotImplementedError(
+                    "Matrix does not yet support nullable non-floating point dtypes"
+                )
+            raw = self.data.values.fill_null(np.nan).to_numpy()
+
+        stacked = np.stack(raw)
+        return raw.reshape((len(self.data), self.shape[0], self.shape[1]))
+
+    @classmethod
+    def as_field(
+        cls,
+        name: str,
+        shape: tuple[int, int],
+        element_dtype: pa.DataType,
+        nullable: bool = True,
+        metadata: Optional[dict] = None,
+    ):
+        metadata = metadata or {}
+        metadata[_METADATA_NAME_KEY] = cls.__name__
+        metadata[_METADATA_MODEL_KEY] = pickle.dumps(cls)
+        metadata[_METADATA_UNPICKLE_KWARGS_KEY] = pickle.dumps(
+            {
+                "shape": shape,
+                "element_dtype": element_dtype,
+                "nullable": nullable,
+            }
+        )
+        return pa.field(
+            name,
+            pa.list_(element_dtype, shape[0] * shape[1]),
+            nullable=nullable,
+            metadata=metadata,
+        )
+
+
+
+
+_PYARROW_FLOATING_POINT_TYPE_IDS = {pa.float16().id, pa.float32().id, pa.float64().id}
+
+
+def _is_float_type(pyarrow_type: pa.DataType) -> bool:
+    # This turns out to be about 100x faster than
+    #
+    #   if pyarrow_type in {pa.float16(), pa.float32(), pa.float64()}
+    #
+    # so this bit of complexity seems worth it.
+    return pyarrow_type.id in _PYARROW_FLOATING_POINT_TYPE_IDS
