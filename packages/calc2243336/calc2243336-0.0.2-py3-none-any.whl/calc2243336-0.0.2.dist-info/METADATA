@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: calc2243336
+Version: 0.0.2
+Summary: calc example for Pypi
+Home-page: https://github.com/jsk0910/calc2243336
+Download-URL: https://github.com/jsk0910/calc2243336/archive/refs/tags/v.0.0.2.zip
+Author: SangKyunJeon
+Author-email: sangkyun.jeon@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+
+oss-dev calculator example
