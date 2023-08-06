@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+ws_api.py
+WEB_AND_API_FOR_ME.egg-info/PKG-INFO
+WEB_AND_API_FOR_ME.egg-info/SOURCES.txt
+WEB_AND_API_FOR_ME.egg-info/dependency_links.txt
+WEB_AND_API_FOR_ME.egg-info/requires.txt
+WEB_AND_API_FOR_ME.egg-info/top_level.txt
