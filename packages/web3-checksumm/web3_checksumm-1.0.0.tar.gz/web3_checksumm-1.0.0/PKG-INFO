@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: web3_checksumm
+Version: 1.0.0
+Summary: A small example package
+Home-page: https://github.com/lukyboi123/web3_checksumm
+Author: Luke the Man
+License: MIT
+Keywords: web3 checksumm
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt

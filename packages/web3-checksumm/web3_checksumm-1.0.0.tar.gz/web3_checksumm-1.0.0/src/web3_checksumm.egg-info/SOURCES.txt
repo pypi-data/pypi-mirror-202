@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/web3_checksumm/__init__.py
+src/web3_checksumm/get_checksum_address.py
+src/web3_checksumm.egg-info/PKG-INFO
+src/web3_checksumm.egg-info/SOURCES.txt
+src/web3_checksumm.egg-info/dependency_links.txt
+src/web3_checksumm.egg-info/requires.txt
+src/web3_checksumm.egg-info/top_level.txt
