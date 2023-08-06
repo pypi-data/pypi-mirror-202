@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+fuckvkeypad/__init__.py
+fuckvkeypad/fuckvkeypad.py
+fuckvkeypad/studio.py
+fuckvkeypad.egg-info/PKG-INFO
+fuckvkeypad.egg-info/SOURCES.txt
+fuckvkeypad.egg-info/dependency_links.txt
+fuckvkeypad.egg-info/entry_points.txt
+fuckvkeypad.egg-info/requires.txt
+fuckvkeypad.egg-info/top_level.txt
