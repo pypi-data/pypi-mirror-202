@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: abcd_seth
+Version: 1.0.0
+Summary: Shared models for microservices
+Author: Daniyar Auezkhan
+Author-email: nurovich14@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
