@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: chaepy
+Version: 0.1.0
+Summary: A library for working with pandas and matplotlib
+Author: Chae
+Author-email: 1924245@donga.ac.kr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+UNKNOWN
