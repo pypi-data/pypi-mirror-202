@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: libgpiod
+Version: 2.0.1
+Summary: Python bindings for libgpiod
+Author: Bartosz Golaszewski
+Author-email: brgl@bgdev.pl
+License: LGPLv2.1
+Platform: linux
+
+This is a package spun out of the main libgpiod repository containing python bindings to the underlying C library.
