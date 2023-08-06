@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+tox.ini
+src/arabic_parser.py
+src/lantools_nsa.egg-info/PKG-INFO
+src/lantools_nsa.egg-info/SOURCES.txt
+src/lantools_nsa.egg-info/dependency_links.txt
+src/lantools_nsa.egg-info/requires.txt
+src/lantools_nsa.egg-info/top_level.txt
