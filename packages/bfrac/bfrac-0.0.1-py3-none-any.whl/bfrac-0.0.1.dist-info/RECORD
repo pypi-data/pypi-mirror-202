@@ -1,0 +1,9 @@
+bfrac/__about__.py,sha256=65_F0gZ0bZIzyh-Jeq5PqZiCisiMSdFTa8P3c7VN0GU,239
+bfrac/__init__.py,sha256=4h-e9u64Elq4eHWT-v2_5qP3_SIxND9nZu0qM9tvMMw,121
+bfrac/app_config.py,sha256=q-oJL-fx3jGdOIWUB4B9FqPcZ9ci4SpP3IGWz7iiUUk,996
+bfrac/riot_api_caller.py,sha256=6j29dTG1pVA8s9Wv-CwTukPIv7YwT4Xoqr9hiYwqHDY,2662
+bfrac/riot_api_helper.py,sha256=6rTvYPoCDxVI4tKLuAVPboHgE8NHTejsA5rm2k1zUIk,2618
+bfrac-0.0.1.dist-info/METADATA,sha256=LohbBoQjuGEWNs3fE35YSb5OsMWh0NGMTCyfSkCVSeQ,996
+bfrac-0.0.1.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+bfrac-0.0.1.dist-info/licenses/LICENSE,sha256=9IwbI65t9SazC_t3D0RTA2kpRDgmhPBAsftL0XQjsXI,1107
+bfrac-0.0.1.dist-info/RECORD,,
