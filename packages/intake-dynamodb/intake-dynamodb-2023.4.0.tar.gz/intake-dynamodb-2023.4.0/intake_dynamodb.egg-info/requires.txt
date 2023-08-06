@@ -1,0 +1,12 @@
+dask[dataframe]
+intake
+s3fs
+
+[dev]
+black
+moto[dynamodb,s3]
+mypy
+pre-commit
+pytest
+ruff
+yamllint
