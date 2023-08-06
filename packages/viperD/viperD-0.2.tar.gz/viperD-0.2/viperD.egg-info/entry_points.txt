@@ -1,0 +1,2 @@
+[console_scripts]
+viper = viperD.command_line:cli
