@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: kondo-ml
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/lurue101/instance-selection-for-regression
+Download-URL: https://github.com/erdogant/relevantpackage/archive/0.0.1.tar.gz
+Author: L.Rücker
+Author-email: Lukas Rücker <ruecker.lukas@gmail.com>
+Project-URL: Homepage, https://github.com/lurue101/instance-selection-for-regression
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# instance-selection-for-regression
+This repo contains the code for various instance selection algorithms
+usable with regression models. The implementations are compatible with sklearn and follow
+its outlier detection interface.
+The repo is not yet finished. More documentation and examples will be added soon.
+
+The SelCon algorithm is taken from the authors and their repo here: https://github.com/abir-de/SELCOn
