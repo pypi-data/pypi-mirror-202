@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: stathub
+Version: 0.1.4.2
+Summary: A python package used for getting data from Statistics Sharing Hub.
+Home-page: https://pypi.org/project/stathub
+Author: Government Strategic Information Center​
+Author-email: sdmx.tnso@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: openpyxl
+
+This python package can be used for accessing and getting datasets from Statistics Sharing Hub (stathub.nso.go.th) maintained by Government Strategic Information Center​, National Statistical Office of Thailand.
+
+# Prerequisite Packages
+- pandas
+- requests
+- openpyxl
+
+# Basic Usage
+## Get data from Statistics Sharing Hub
+```
+getdata(dataflow,version,start,end,language,label)
+```
+## Export data
+```
+dataexport(data,path,exporttype)
+```
+
+# Contact
+sdmx.tnso@gmail.com
