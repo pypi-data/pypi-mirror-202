@@ -1,0 +1,11 @@
+durguestprofile/__init__.py,sha256=VqTkA6U3OIaFpyOD8XDhmpayC6TBuVul9UnGNbQGfeU,1013
+durguestprofile/functions.py,sha256=jMs7Cq4P4cgon0-VAByopfsbvfqXf3Ofj_pSe5V7kz8,16940
+durguestprofile/guest_profile.py,sha256=n7k170nK5XIMvbWI3Q65wIPSi9vVp26BYxa4u9NwFi0,394
+durguestprofile/utilities.py,sha256=0VU2i-BvnccTeYW3QT-k2fv9qaVm3yE1CvsdH8RDCh8,4956
+durguestprofile/xmltodict.py,sha256=-LtU4iO5Hiq_RMvETtCr6MZCCDkS6MlFI-4qozrraZM,19209
+durguestprofile/support/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+durguestprofile-1.1.8.dist-info/LICENSE,sha256=PfVzPFfdRJl-OoTpg5cPC3tHdz9bIX_tBX_OaFf_qTs,2240
+durguestprofile-1.1.8.dist-info/METADATA,sha256=B3CteDsi5qKHKhCOZ7oNpAHHHJqo1JXVpkEHEM2KlUA,4125
+durguestprofile-1.1.8.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+durguestprofile-1.1.8.dist-info/top_level.txt,sha256=YFf4Bdf1yfouD9L5GydcX9TS4JN6U5aN7Lx9iuFhbJM,16
+durguestprofile-1.1.8.dist-info/RECORD,,
