@@ -1,0 +1,9 @@
+CHANGELOG.md,sha256=S_7NdzTFst_poFv327SU-1FPL_hBpSAyrdRmZvC46Ag,5488
+dramatiq_mongodb/__init__.py,sha256=rW2D1jedlWak4_4kibnfJ1OlVqZyBEYgTRtOsbGBV2s,172
+dramatiq_mongodb/backend.py,sha256=o5BEbjRLHCzy5OZ0h39ou10kQa3nYBCLi3VuKb76wJ4,6300
+dramatiq_mongodb/broker.py,sha256=RvL-e3jvjTe1UL0EnhtUbdyyzUjq2y1MaPgDshSZ4V0,8224
+dramatiq_mongodb/state.py,sha256=TSyx_SnAyMudY5ubsVFOWPwmWkbPZAJ_Qi2ocrI-P_g,181
+dramatiq_mongodb-0.7.1.dist-info/LICENSE,sha256=UMAoo06bBV9NuIG_3maMOgw_9qx3enakswKaSmDt4wQ,1071
+dramatiq_mongodb-0.7.1.dist-info/METADATA,sha256=Sh7EpVr_ZpFzIdi77yf6HYB_whN-fY8nlYeHaSkfTIQ,2921
+dramatiq_mongodb-0.7.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+dramatiq_mongodb-0.7.1.dist-info/RECORD,,
