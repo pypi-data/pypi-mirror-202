@@ -1,0 +1,14 @@
+pyspmp/__init__.py,sha256=D_mwFNMe4lfXo7at3ha1F-FbAhDapSqipWdRB7iQCxE,412
+pyspmp/buscar_dados_pi.py,sha256=fCceo2JNDQ0He8IrdRmgfKv2jOlawr6saD7ZcuLuuE0,4436
+pyspmp/carregar_csv.py,sha256=Tc0HXodOEDII_NLXtKP8qu9HxLieKcZKjluxktedeu4,717
+pyspmp/dataset/dataset.csv,sha256=xs4rYcSNs9xparGgnlMdNrxh3Gi-m93hFVu518Xhobs,8285393
+pyspmp/dataset.py,sha256=MBtx96PPwrLQbu1VhHVBEleD2-8JGpx-WAZwKnYsZDE,4001
+pyspmp/parametros/parametros.csv,sha256=_liC01GTWblSFIHbIf1HwB8F7cch2hmGgrdORyPd7zI,8511
+pyspmp/parametros/parametros_pi.csv,sha256=Y_GvMrYvyNhmGx8EsYXGX5my-qfYKyVkiZ79wijqsmg,8588
+pyspmp/periodos.py,sha256=tRCqgpxtPwDwCa7tvmLivBi2lmiSfZd8Ct8UZf_Q5h0,2532
+pyspmp/resultado_busca/df_sp_TGA_P62.csv,sha256=w4hxiTC7dvUALT2mkkvlCEYkB_n1fLFppijozffKJV8,11306
+pyspmp/resultado_busca/df_tagsout_TGA_P62.csv,sha256=eq55RqvOw050EPWbMTvja8Yd8ptpPiGb2YvwxqK9D4g,659569
+pyspmp/variaveis_out.py,sha256=L4YIg6lhF84JNzzQ5iTZVLayah5nV9ZpIpN8TEPY07E,1870
+pyspmp-0.1.5.dist-info/METADATA,sha256=JMnokFF51hOuSOssFawi6oY-kbPHSzaqxRCaYgkDvxY,1106
+pyspmp-0.1.5.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+pyspmp-0.1.5.dist-info/RECORD,,
