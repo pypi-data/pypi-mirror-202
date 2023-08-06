@@ -1,0 +1,7 @@
+README.md
+setup.py
+spykes.egg-info/PKG-INFO
+spykes.egg-info/SOURCES.txt
+spykes.egg-info/dependency_links.txt
+spykes.egg-info/not-zip-safe
+spykes.egg-info/top_level.txt
