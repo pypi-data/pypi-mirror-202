@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+random_greetings/__init__.py
+random_greetings/constants.py
+random_greetings/generate_greeting.py
+random_greetings.egg-info/PKG-INFO
+random_greetings.egg-info/SOURCES.txt
+random_greetings.egg-info/dependency_links.txt
+random_greetings.egg-info/top_level.txt
