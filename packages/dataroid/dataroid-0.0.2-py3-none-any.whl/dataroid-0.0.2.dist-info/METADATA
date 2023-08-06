@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dataroid
+Version: 0.0.2
+Summary: A Simple Wrapper For Synthetic Data Generation
+Home-page: UNKNOWN
+Author: torchd3v (Burak Egeli)
+Author-email: <burak96egeli@gmail.com>
+License: UNKNOWN
+Keywords: python,data,generate,synthetic,deep learning,model
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: ctgan (==0.7.1)
+Requires-Dist: pandas (==1.5.3)
+
+UNKNOWN
+
