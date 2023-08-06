@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: loxprox
+Version: 0.1.1
+Summary: Control Philips Hue lights from Loxone Miniserver
+Home-page: https://github.com/kwinsch/loxprox
+Author: Kevin Bortis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+License-File: LICENSE
