@@ -1,0 +1,9 @@
+README.md
+setup.py
+bimmm/__init__.py
+bimmm/analyse_mmm_models.py
+bimmm.egg-info/PKG-INFO
+bimmm.egg-info/SOURCES.txt
+bimmm.egg-info/dependency_links.txt
+bimmm.egg-info/requires.txt
+bimmm.egg-info/top_level.txt
