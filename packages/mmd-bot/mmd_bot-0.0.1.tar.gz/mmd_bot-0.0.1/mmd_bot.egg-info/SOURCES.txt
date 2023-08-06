@@ -1,0 +1,16 @@
+LICENCE
+README.md
+setup.cfg
+setup.py
+mmd_bot/PostData.py
+mmd_bot/WebAdress.py
+mmd_bot/__init__.py
+mmd_bot/mmd_bot.py
+mmd_bot/sendserver.py
+mmd_bot.egg-info/PKG-INFO
+mmd_bot.egg-info/SOURCES.txt
+mmd_bot.egg-info/dependency_links.txt
+mmd_bot.egg-info/not-zip-safe
+mmd_bot.egg-info/requires.txt
+mmd_bot.egg-info/top_level.txt
+mmd_bot/Configs/__init__.py

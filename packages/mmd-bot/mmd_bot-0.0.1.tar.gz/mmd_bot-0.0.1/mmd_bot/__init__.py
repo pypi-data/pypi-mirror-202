@@ -1,0 +1,1 @@
+from mmd_bot.mmd_bot import *
