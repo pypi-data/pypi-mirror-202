@@ -1,0 +1,5 @@
+include locate_pixelcolor_cpp_parallelfor/requirements.txt
+include locate_pixelcolor_cpp_parallelfor/thirdparty.json
+include locate_pixelcolor_cpp_parallelfor/README.md
+include locate_pixelcolor_cpp_parallelfor/cloop.dll
+include locate_pixelcolor_cpp_parallelfor/LICENSE
