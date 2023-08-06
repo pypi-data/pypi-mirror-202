@@ -1,0 +1,12 @@
+os2ds_rules-0.0.2.dist-info/WHEEL,sha256=tKZiJ-8qs89H4jiMYJ9zPLebV3XqQ7HKlKZoEj1uOeI,149
+os2ds_rules-0.0.2.dist-info/LICENSE,sha256=x290DRUhub7ZynoErVJsMQSTxiYhsTQdYjtDFzZTOzA,16725
+os2ds_rules-0.0.2.dist-info/RECORD,,
+os2ds_rules-0.0.2.dist-info/METADATA,sha256=BillJwfMSFXiqTDWGD407snGpqbidqm2SpwOLS0Hwtw,25239
+os2ds_rules-0.0.2.dist-info/top_level.txt,sha256=aMXEVpRX2qJMvgcSiUXq5igpMgzS5d3NPchORT0wJo8,12
+os2ds_rules/name_rule.cpp,sha256=pJ8ygfxEXtOpFqVJ27G4Fdy5aXxiHd_QMv8YncwtnT4,1511
+os2ds_rules/__init__.py,sha256=oUM1KRd-ifAapRPVwc9_JFQqC4Qxkw8CyyKtOPVDOCY,962
+os2ds_rules/cpr.cpp,sha256=RzWFE8mIdh_T0yyuKxKjBUJmvjWMzHxJZuFbmrELRUM,1636
+os2ds_rules/cpr_detector.cpython-39-x86_64-linux-gnu.so,sha256=FvTUObP73J65_rxaMekzrs1Bj_UMiYQLLu9-ccxXlMI,526496
+os2ds_rules/name_rule.cpython-39-x86_64-linux-gnu.so,sha256=uA1dfLLtrQ0XgKdlEBMvN7ZXrt_FI98P_1wVjn_veys,5447328
+os2ds_rules/address_rule.cpython-39-x86_64-linux-gnu.so,sha256=kx2J2qiQ5nCd44v_0gHDpyVJDc1WlFwd4hcNhnl01CI,2880224
+os2ds_rules/address_rule.cpp,sha256=9mu2qOcQBb3ftPotWU6xIyhN3yWtQUIucysrGVPB3Kk,1393
