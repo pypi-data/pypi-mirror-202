@@ -1,0 +1,8 @@
+llama_inference/__init__.py,sha256=qjs9prv50sUXPZZ9KmGSfwaMvjnTmogt7YDFspB8LZs,88
+llama_inference/app.py,sha256=dsiqGtINBVIeD0BH67m72RJaYB5JppCnkIeH_RAXIrQ,695
+llama_inference/model.py,sha256=8CLNFWm3tp2nNzefUeoHARZ2GT6YQb7wp67UW9-60Hk,4465
+llama_inference-0.0.1.dist-info/LICENSE,sha256=Mkmn-8XuNWKsneGVYgjadWmV8Ukon1yXgIL0gQdotzM,1070
+llama_inference-0.0.1.dist-info/METADATA,sha256=-6ICMQNxMO6M6Zzw1cD-nRZCs9nXHCC_BfrMx-zgBuQ,817
+llama_inference-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+llama_inference-0.0.1.dist-info/top_level.txt,sha256=91dHLE_fcsD0CFIBJUjXQxOr2WABkLNsDrGuLTVETDA,16
+llama_inference-0.0.1.dist-info/RECORD,,
