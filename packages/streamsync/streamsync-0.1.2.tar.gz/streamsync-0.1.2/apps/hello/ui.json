@@ -1,0 +1,1154 @@
+{
+  "metadata": {
+    "streamsync_version": "0.1.1"
+  },
+  "components": {
+    "root": {
+      "id": "root",
+      "type": "root",
+      "content": {
+        "appName": "Hacker Pigeons"
+      },
+      "parentId": null,
+      "position": 0
+    },
+    "c1cb10d3-4775-4d76-8353-cf2891258536": {
+      "id": "c1cb10d3-4775-4d76-8353-cf2891258536",
+      "type": "heading",
+      "content": {
+        "text": "Heading Text",
+        "alignment": "left"
+      },
+      "parentId": "96f33576-6efc-45d8-bbec-676b1b5c6b93",
+      "position": 6
+    },
+    "4a80873e-3f03-4aee-8582-19ed9696de4a": {
+      "id": "4a80873e-3f03-4aee-8582-19ed9696de4a",
+      "type": "page",
+      "content": {
+        "pageMode": "compact",
+        "accentColor": "#6b36ba",
+        "key": "primary"
+      },
+      "parentId": "root",
+      "position": 0
+    },
+    "5740a107-5585-4dc7-918c-ecec954120c7": {
+      "id": "5740a107-5585-4dc7-918c-ecec954120c7",
+      "type": "header",
+      "content": {
+        "text": "The Breakfast Cereal Market"
+      },
+      "parentId": "4a80873e-3f03-4aee-8582-19ed9696de4a",
+      "position": 0
+    },
+    "a29a7152-821f-46bf-873d-c2ca35c0d492": {
+      "id": "a29a7152-821f-46bf-873d-c2ca35c0d492",
+      "type": "image",
+      "content": {
+        "src": "https://images.unsplash.com/photo-1626369310934-50b439f7fed0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1498&q=80",
+        "caption": "Bowl of cereal. Courtesy of Mind Studio on Unsplash.",
+        "maxHeight": ""
+      },
+      "parentId": "9e0e9493-b33e-4fe6-8aa2-2d218d02509a",
+      "position": 0
+    },
+    "b9b34864-3c66-4097-9072-fae387b8590d": {
+      "id": "b9b34864-3c66-4097-9072-fae387b8590d",
+      "type": "columns",
+      "content": {},
+      "parentId": "4a80873e-3f03-4aee-8582-19ed9696de4a",
+      "position": 1
+    },
+    "631d46dc-40c7-4b1e-9747-6490a3318665": {
+      "id": "631d46dc-40c7-4b1e-9747-6490a3318665",
+      "type": "column",
+      "content": {
+        "title": "",
+        "width": "1",
+        "isCollapsible": ""
+      },
+      "parentId": "b9b34864-3c66-4097-9072-fae387b8590d",
+      "position": 0
+    },
+    "1281d4e2-7046-419c-96f0-0b46ddee5c70": {
+      "id": "1281d4e2-7046-419c-96f0-0b46ddee5c70",
+      "type": "column",
+      "content": {
+        "width": "2"
+      },
+      "parentId": "b9b34864-3c66-4097-9072-fae387b8590d",
+      "position": 1
+    },
+    "9e0e9493-b33e-4fe6-8aa2-2d218d02509a": {
+      "id": "9e0e9493-b33e-4fe6-8aa2-2d218d02509a",
+      "type": "section",
+      "content": {
+        "title": "An ever-evolving staple",
+        "snapMode": ""
+      },
+      "parentId": "631d46dc-40c7-4b1e-9747-6490a3318665",
+      "position": 0
+    },
+    "5c48b1b1-559d-416f-b3c3-30cdf11e61f6": {
+      "id": "5c48b1b1-559d-416f-b3c3-30cdf11e61f6",
+      "type": "tabs",
+      "content": {},
+      "parentId": "1281d4e2-7046-419c-96f0-0b46ddee5c70",
+      "position": 0
+    },
+    "6e7fb732-03e3-498f-b408-49b5d91400c8": {
+      "id": "6e7fb732-03e3-498f-b408-49b5d91400c8",
+      "type": "tab",
+      "content": {
+        "name": "Discussion"
+      },
+      "parentId": "5c48b1b1-559d-416f-b3c3-30cdf11e61f6",
+      "position": 1
+    },
+    "ad98f178-37b5-4463-866f-df984f63e7ea": {
+      "id": "ad98f178-37b5-4463-866f-df984f63e7ea",
+      "type": "text",
+      "content": {
+        "text": "We don't have anything interesting to say about this cereal data.\n\nBut, we wanted to tell you that you can use Markdown in *Text* components. You'll need to enable the *\"Use Markdown\"* option in the component.\n",
+        "useMarkdown": "yes",
+        "alignment": "left"
+      },
+      "parentId": "643952ef-9587-463c-ba0e-16748cea99e2",
+      "position": 0
+    },
+    "b6a8a40b-2f40-4262-b08c-6ad9b1b65be8": {
+      "id": "b6a8a40b-2f40-4262-b08c-6ad9b1b65be8",
+      "type": "separator",
+      "content": {},
+      "parentId": "9e0e9493-b33e-4fe6-8aa2-2d218d02509a",
+      "position": 1
+    },
+    "6503455b-000e-4504-b6e2-9731b1ae7c81": {
+      "id": "6503455b-000e-4504-b6e2-9731b1ae7c81",
+      "type": "text",
+      "content": {
+        "text": "\"Breakfast cereal is more than just a meal;\nit's a symbol of the joy that can be found\nin the simplest of things.\"\n\n*ChatGPT*",
+        "useMarkdown": "yes",
+        "alignment": "right"
+      },
+      "parentId": "9e0e9493-b33e-4fe6-8aa2-2d218d02509a",
+      "position": 2
+    },
+    "3b40f858-8e2c-4639-8c21-5cbb930b6419": {
+      "id": "3b40f858-8e2c-4639-8c21-5cbb930b6419",
+      "type": "button",
+      "content": {
+        "text": "Click me!",
+        "buttonColor": "#ef9906",
+        "buttonTextColor": "#ffffff",
+        "buttonShadow": "0px 2px 12px 1px #bcc6d2"
+      },
+      "parentId": "9e0e9493-b33e-4fe6-8aa2-2d218d02509a",
+      "handlers": {
+        "click": "increment"
+      },
+      "position": 4
+    },
+    "146d3748-785f-40bb-b760-cbe7ef9ad3cd": {
+      "id": "146d3748-785f-40bb-b760-cbe7ef9ad3cd",
+      "type": "separator",
+      "content": {},
+      "parentId": "9e0e9493-b33e-4fe6-8aa2-2d218d02509a",
+      "position": 3
+    },
+    "8e57e21c-4c95-4310-9e01-6b35ef4312ab": {
+      "id": "8e57e21c-4c95-4310-9e01-6b35ef4312ab",
+      "type": "tab",
+      "content": {
+        "name": "Data"
+      },
+      "parentId": "5c48b1b1-559d-416f-b3c3-30cdf11e61f6",
+      "position": 0
+    },
+    "822987ef-dcb9-4cc3-a9c4-386937af35e0": {
+      "id": "822987ef-dcb9-4cc3-a9c4-386937af35e0",
+      "type": "dataframe",
+      "content": {
+        "dataframe": "@{data_cereal}",
+        "dataframeHeaderRowBackgroundColor": "#f0f0f0"
+      },
+      "parentId": "8e57e21c-4c95-4310-9e01-6b35ef4312ab",
+      "position": 4
+    },
+    "cc938d94-3fd6-442f-bbf2-af0ac5d46474": {
+      "id": "cc938d94-3fd6-442f-bbf2-af0ac5d46474",
+      "type": "separator",
+      "content": {},
+      "parentId": "8e57e21c-4c95-4310-9e01-6b35ef4312ab",
+      "position": 1
+    },
+    "9ecaebbf-d6c9-4bb3-abeb-7a4c428dd73e": {
+      "id": "9ecaebbf-d6c9-4bb3-abeb-7a4c428dd73e",
+      "type": "separator",
+      "content": {},
+      "parentId": "8e57e21c-4c95-4310-9e01-6b35ef4312ab",
+      "position": 3
+    },
+    "7094bf31-6260-4304-ba05-d2890c51ed5f": {
+      "id": "7094bf31-6260-4304-ba05-d2890c51ed5f",
+      "type": "vegalitechart",
+      "content": {
+        "spec": "@{chart}"
+      },
+      "parentId": "e7775833-4c2d-4e4a-8071-b321d7a054bc",
+      "position": 1
+    },
+    "adf67a55-9de6-495f-afff-5307d139c376": {
+      "id": "adf67a55-9de6-495f-afff-5307d139c376",
+      "type": "columns",
+      "content": {},
+      "parentId": "8e57e21c-4c95-4310-9e01-6b35ef4312ab",
+      "position": 2
+    },
+    "e7775833-4c2d-4e4a-8071-b321d7a054bc": {
+      "id": "e7775833-4c2d-4e4a-8071-b321d7a054bc",
+      "type": "column",
+      "content": {
+        "width": "1",
+        "alignment": "center"
+      },
+      "parentId": "adf67a55-9de6-495f-afff-5307d139c376",
+      "position": 0
+    },
+    "efba8391-52c0-4bd9-8562-1a686d5b589b": {
+      "id": "efba8391-52c0-4bd9-8562-1a686d5b589b",
+      "type": "column",
+      "content": {
+        "width": "1"
+      },
+      "parentId": "adf67a55-9de6-495f-afff-5307d139c376",
+      "position": 2
+    },
+    "bb9849e5-7c3e-4958-b295-3248cea6e5e7": {
+      "id": "bb9849e5-7c3e-4958-b295-3248cea6e5e7",
+      "type": "separator",
+      "content": {},
+      "parentId": "adf67a55-9de6-495f-afff-5307d139c376",
+      "position": 1
+    },
+    "221720d8-4f81-4af9-8e16-995deb4f497f": {
+      "id": "221720d8-4f81-4af9-8e16-995deb4f497f",
+      "type": "sliderinput",
+      "content": {
+        "label": "Fat",
+        "initialValue": "0",
+        "minValue": "0",
+        "maxValue": "100",
+        "stepSize": "1"
+      },
+      "parentId": "11674811-2213-4747-8db8-b316a2298bd0",
+      "position": 2
+    },
+    "1ddca53f-1f34-4c72-b799-840e3ed348a1": {
+      "id": "1ddca53f-1f34-4c72-b799-840e3ed348a1",
+      "type": "sliderinput",
+      "content": {
+        "label": "Calories",
+        "initialValue": "0",
+        "minValue": "0",
+        "maxValue": "100",
+        "stepSize": "1"
+      },
+      "parentId": "b78f1464-ced8-467f-a979-e30fa0a32916",
+      "position": 0
+    },
+    "c3ebae36-fe91-4078-b004-a5c4cc8ea1ec": {
+      "id": "c3ebae36-fe91-4078-b004-a5c4cc8ea1ec",
+      "type": "form",
+      "content": {
+        "submitDesc": "Filter",
+        "clearFormAfterSubmission": "yes"
+      },
+      "parentId": "8e57e21c-4c95-4310-9e01-6b35ef4312ab",
+      "position": 0
+    },
+    "11ecfeb1-05be-482d-8b58-476ecc736333": {
+      "id": "11ecfeb1-05be-482d-8b58-476ecc736333",
+      "type": "columns",
+      "content": {},
+      "parentId": "c3ebae36-fe91-4078-b004-a5c4cc8ea1ec",
+      "position": 0
+    },
+    "11674811-2213-4747-8db8-b316a2298bd0": {
+      "id": "11674811-2213-4747-8db8-b316a2298bd0",
+      "type": "column",
+      "content": {
+        "width": "1"
+      },
+      "parentId": "11ecfeb1-05be-482d-8b58-476ecc736333",
+      "position": 0
+    },
+    "b78f1464-ced8-467f-a979-e30fa0a32916": {
+      "id": "b78f1464-ced8-467f-a979-e30fa0a32916",
+      "type": "column",
+      "content": {
+        "width": "1"
+      },
+      "parentId": "11ecfeb1-05be-482d-8b58-476ecc736333",
+      "position": 1
+    },
+    "2f8d606c-e7ed-485d-9bb4-8fad8d9e2d16": {
+      "id": "2f8d606c-e7ed-485d-9bb4-8fad8d9e2d16",
+      "type": "columns",
+      "content": {},
+      "parentId": "6e7fb732-03e3-498f-b408-49b5d91400c8",
+      "position": 0
+    },
+    "643952ef-9587-463c-ba0e-16748cea99e2": {
+      "id": "643952ef-9587-463c-ba0e-16748cea99e2",
+      "type": "column",
+      "content": {
+        "width": "2",
+        "title": "Markdown",
+        "startCollapsed": ""
+      },
+      "parentId": "2f8d606c-e7ed-485d-9bb4-8fad8d9e2d16",
+      "position": 0
+    },
+    "a91435df-0acb-429c-a6a0-bf63bf79dd66": {
+      "id": "a91435df-0acb-429c-a6a0-bf63bf79dd66",
+      "type": "column",
+      "content": {
+        "width": "2",
+        "title": "HTML elements",
+        "isCollapsible": "yes",
+        "alignment": ""
+      },
+      "parentId": "2f8d606c-e7ed-485d-9bb4-8fad8d9e2d16",
+      "position": 2
+    },
+    "45050406-31f6-4ff2-ba6a-d75df9c37f9d": {
+      "id": "45050406-31f6-4ff2-ba6a-d75df9c37f9d",
+      "type": "html",
+      "content": {
+        "styles": "{\n  \"padding\": \"16px\",\n  \"margin-bottom\": \"16px\",\n  \"min-height\": \"64px\",\n  \"min-width\": \"64px\",\n  \"border-radius\": \"8px\",\n  \"background\": \"linear-gradient(90deg, rgba(239,153,6,1) 1%, rgba(209,123,188,1) 100%)\",\n  \"transform\": \"rotate(-5deg)\"\n}"
+      },
+      "parentId": "a91435df-0acb-429c-a6a0-bf63bf79dd66",
+      "position": 1
+    },
+    "c0df3910-bddf-4313-88c0-5157943e0ad6": {
+      "id": "c0df3910-bddf-4313-88c0-5157943e0ad6",
+      "type": "text",
+      "content": {
+        "text": "Sometimes you just need a custom HTML element with custom CSS, and that's fine.\n",
+        "useMarkdown": "no",
+        "alignment": "left",
+        "primaryTextColor": "#ffffff"
+      },
+      "parentId": "45050406-31f6-4ff2-ba6a-d75df9c37f9d",
+      "position": 0
+    },
+    "603811d9-aafe-432b-aada-4101a0290b10": {
+      "id": "603811d9-aafe-432b-aada-4101a0290b10",
+      "type": "text",
+      "content": {
+        "text": "Most of the time, Streamsync's components will cover your use cases.\n\n",
+        "useMarkdown": "no",
+        "alignment": "right"
+      },
+      "parentId": "a91435df-0acb-429c-a6a0-bf63bf79dd66",
+      "position": 0
+    },
+    "ebf57e28-cb68-41a1-bc43-7bcdc739fdfe": {
+      "id": "ebf57e28-cb68-41a1-bc43-7bcdc739fdfe",
+      "type": "button",
+      "content": {
+        "text": "You can still use built-in components inside",
+        "buttonShadow": "0px 11px 12px -14px #000000"
+      },
+      "parentId": "45050406-31f6-4ff2-ba6a-d75df9c37f9d",
+      "position": 1
+    },
+    "3f6096f9-cc16-4321-a3c0-e99220f7cc37": {
+      "id": "3f6096f9-cc16-4321-a3c0-e99220f7cc37",
+      "type": "separator",
+      "content": {},
+      "parentId": "2f8d606c-e7ed-485d-9bb4-8fad8d9e2d16",
+      "position": 1
+    },
+    "e4849ab4-195b-42da-aa9a-73929be1b678": {
+      "id": "e4849ab4-195b-42da-aa9a-73929be1b678",
+      "type": "horizontalstack",
+      "content": {
+        "alignment": "left"
+      },
+      "parentId": "6e7fb732-03e3-498f-b408-49b5d91400c8",
+      "position": 4
+    },
+    "ed17c791-33c1-47dd-90e6-915f964a19cc": {
+      "id": "ed17c791-33c1-47dd-90e6-915f964a19cc",
+      "type": "button",
+      "content": {
+        "text": "Button"
+      },
+      "parentId": "e4849ab4-195b-42da-aa9a-73929be1b678",
+      "position": 2
+    },
+    "2bde2b34-91fd-429e-8108-5dc5650f0d7d": {
+      "id": "2bde2b34-91fd-429e-8108-5dc5650f0d7d",
+      "type": "text",
+      "content": {
+        "text": "If you want to stack things horizontally: Horizontal Stack.",
+        "useMarkdown": "no",
+        "alignment": "left"
+      },
+      "parentId": "e4849ab4-195b-42da-aa9a-73929be1b678",
+      "position": 0
+    },
+    "f5c6db76-5ed9-4532-bec6-ca44b9cbe565": {
+      "id": "f5c6db76-5ed9-4532-bec6-ca44b9cbe565",
+      "type": "separator",
+      "content": {},
+      "parentId": "e4849ab4-195b-42da-aa9a-73929be1b678",
+      "position": 1
+    },
+    "99e07632-fcee-4443-bef3-4ab02348be1c": {
+      "id": "99e07632-fcee-4443-bef3-4ab02348be1c",
+      "type": "columns",
+      "content": {},
+      "parentId": "6e7fb732-03e3-498f-b408-49b5d91400c8",
+      "position": 2
+    },
+    "7652941b-bf45-4840-88e8-1545c74f6661": {
+      "id": "7652941b-bf45-4840-88e8-1545c74f6661",
+      "type": "column",
+      "content": {
+        "width": "1"
+      },
+      "parentId": "99e07632-fcee-4443-bef3-4ab02348be1c",
+      "position": 2
+    },
+    "ebba4af4-c27a-4d4e-9e0b-9d49d530baef": {
+      "id": "ebba4af4-c27a-4d4e-9e0b-9d49d530baef",
+      "type": "column",
+      "content": {
+        "width": "0.5",
+        "title": "Another collapsible column",
+        "isCollapsible": "yes",
+        "startCollapsed": "yes"
+      },
+      "parentId": "99e07632-fcee-4443-bef3-4ab02348be1c",
+      "position": 0
+    },
+    "9ddcb15c-78e5-4fa5-ab2e-e7a1725845ad": {
+      "id": "9ddcb15c-78e5-4fa5-ab2e-e7a1725845ad",
+      "type": "text",
+      "content": {
+        "text": "The direction in which the collapsible columns open depends on the position of the non-collapsible content. ",
+        "useMarkdown": "no",
+        "alignment": "left"
+      },
+      "parentId": "ebba4af4-c27a-4d4e-9e0b-9d49d530baef",
+      "position": 0
+    },
+    "d2c1a934-6edd-47ef-92fe-8b97f776b3b1": {
+      "id": "d2c1a934-6edd-47ef-92fe-8b97f776b3b1",
+      "type": "separator",
+      "content": {},
+      "parentId": "99e07632-fcee-4443-bef3-4ab02348be1c",
+      "position": 1
+    },
+    "794ba122-bb2f-4d1d-b4b8-bd30b354a5b9": {
+      "id": "794ba122-bb2f-4d1d-b4b8-bd30b354a5b9",
+      "type": "separator",
+      "content": {},
+      "parentId": "6e7fb732-03e3-498f-b408-49b5d91400c8",
+      "position": 1
+    },
+    "d1e583d0-023d-4fcf-9158-322380800784": {
+      "id": "d1e583d0-023d-4fcf-9158-322380800784",
+      "type": "separator",
+      "content": {},
+      "parentId": "6e7fb732-03e3-498f-b408-49b5d91400c8",
+      "position": 3
+    },
+    "fd74ca35-8f32-4d5e-9d8e-53ea03b2932f": {
+      "id": "fd74ca35-8f32-4d5e-9d8e-53ea03b2932f",
+      "type": "section",
+      "content": {
+        "title": "There are no nesting restrictions. All components can be nested as you please.",
+        "containerBackgroundColor": "#ededed",
+        "snapMode": "no"
+      },
+      "parentId": "7652941b-bf45-4840-88e8-1545c74f6661",
+      "position": 0
+    },
+    "3199f531-ab60-4d01-9a15-c6faeafc2eca": {
+      "id": "3199f531-ab60-4d01-9a15-c6faeafc2eca",
+      "type": "section",
+      "content": {
+        "title": "But...",
+        "containerBackgroundColor": "#dbdbdb",
+        "snapMode": "no"
+      },
+      "parentId": "fd74ca35-8f32-4d5e-9d8e-53ea03b2932f",
+      "position": 0
+    },
+    "181ac191-a581-4a00-9ab0-d277e8f50526": {
+      "id": "181ac191-a581-4a00-9ab0-d277e8f50526",
+      "type": "section",
+      "content": {
+        "title": "applying common sense...",
+        "containerBackgroundColor": "#c2c2c2",
+        "snapMode": "no"
+      },
+      "parentId": "3199f531-ab60-4d01-9a15-c6faeafc2eca",
+      "position": 0
+    },
+    "8f145b26-77cc-4c88-803d-e265db23e0b6": {
+      "id": "8f145b26-77cc-4c88-803d-e265db23e0b6",
+      "type": "button",
+      "content": {
+        "text": "Button"
+      },
+      "parentId": "e4849ab4-195b-42da-aa9a-73929be1b678",
+      "position": 3
+    },
+    "3c5d0eb4-9797-4557-92a8-57d27aba15ed": {
+      "id": "3c5d0eb4-9797-4557-92a8-57d27aba15ed",
+      "type": "heading",
+      "content": {
+        "text": "calories / protein correlation",
+        "alignment": "center",
+        "headingType": "h4"
+      },
+      "parentId": "e7775833-4c2d-4e4a-8071-b321d7a054bc",
+      "position": 0
+    },
+    "b3e2fb1d-3969-49cf-8cf3-ab234f09edaf": {
+      "id": "b3e2fb1d-3969-49cf-8cf3-ab234f09edaf",
+      "type": "page",
+      "content": {
+        "key": "secondary",
+        "pageMode": "compact",
+        "accentColor": "#b651b8",
+        "emptinessColor": "#415471",
+        "containerBackgroundColor": "#ffffff"
+      },
+      "parentId": "root",
+      "position": 1
+    },
+    "967eda71-a4d2-4114-bd70-9746a80c1a74": {
+      "id": "967eda71-a4d2-4114-bd70-9746a80c1a74",
+      "type": "button",
+      "content": {
+        "text": "Click me to go back",
+        "buttonColor": "#ef9906",
+        "buttonTextColor": "#ffffff",
+        "buttonShadow": "0px 2px 12px 1px #bcc6d2"
+      },
+      "parentId": "cb9a1b79-0140-405d-8f8f-e8323ea5aa91",
+      "handlers": {
+        "click": "$goToPage_primary"
+      },
+      "position": 0
+    },
+    "bf076249-0058-440a-940f-98ee5a0115ae": {
+      "id": "bf076249-0058-440a-940f-98ee5a0115ae",
+      "type": "section",
+      "content": {
+        "title": "is recommended...",
+        "primaryTextColor": "#ffffff",
+        "containerBackgroundColor": "#969696",
+        "snapMode": "no"
+      },
+      "parentId": "181ac191-a581-4a00-9ab0-d277e8f50526",
+      "position": 0
+    },
+    "b43040e6-50d5-419f-83e8-c0d77641bb64": {
+      "id": "b43040e6-50d5-419f-83e8-c0d77641bb64",
+      "type": "text",
+      "content": {
+        "text": "to avoid confusing your users.",
+        "useMarkdown": "no",
+        "alignment": "left"
+      },
+      "parentId": "bf076249-0058-440a-940f-98ee5a0115ae",
+      "position": 0
+    },
+    "cb9a1b79-0140-405d-8f8f-e8323ea5aa91": {
+      "id": "cb9a1b79-0140-405d-8f8f-e8323ea5aa91",
+      "type": "section",
+      "content": {
+        "title": "You've made it to the secondary page.",
+        "snapMode": "no"
+      },
+      "parentId": "b3e2fb1d-3969-49cf-8cf3-ab234f09edaf",
+      "position": 1
+    },
+    "b0e37d00-5d6b-4031-8745-a3c55b468588": {
+      "id": "b0e37d00-5d6b-4031-8745-a3c55b468588",
+      "type": "header",
+      "content": {
+        "text": "Header Text",
+        "emptinessColor": "#ffffff"
+      },
+      "parentId": "b3e2fb1d-3969-49cf-8cf3-ab234f09edaf",
+      "position": 0
+    },
+    "f322c9e0-d088-4579-8cf5-bd4384b29e1c": {
+      "id": "f322c9e0-d088-4579-8cf5-bd4384b29e1c",
+      "type": "tab",
+      "content": {
+        "name": "Repeater"
+      },
+      "parentId": "5c48b1b1-559d-416f-b3c3-30cdf11e61f6",
+      "position": 2
+    },
+    "1a299d38-d3fb-46d3-870b-6401a91aaaf1": {
+      "id": "1a299d38-d3fb-46d3-870b-6401a91aaaf1",
+      "type": "horizontalstack",
+      "content": {
+        "alignment": "left"
+      },
+      "parentId": "f322c9e0-d088-4579-8cf5-bd4384b29e1c",
+      "position": 0
+    },
+    "3dd71360-11ce-4cb9-aa07-8e6375ae2280": {
+      "id": "3dd71360-11ce-4cb9-aa07-8e6375ae2280",
+      "type": "repeater",
+      "content": {
+        "repeaterObject": "@{data_records}",
+        "keyVariable": "itemId",
+        "valueVariable": "item"
+      },
+      "parentId": "1a299d38-d3fb-46d3-870b-6401a91aaaf1",
+      "position": 0
+    },
+    "d533e762-96bf-4405-ab41-14532983ee0a": {
+      "id": "d533e762-96bf-4405-ab41-14532983ee0a",
+      "type": "section",
+      "content": {
+        "title": "@{item.name}",
+        "snapMode": "no",
+        "containerShadow": "0px 4px 15px -12px #000000"
+      },
+      "parentId": "3dd71360-11ce-4cb9-aa07-8e6375ae2280",
+      "position": 0
+    },
+    "08710dea-aa61-45bc-977c-6cc9a6f23875": {
+      "id": "08710dea-aa61-45bc-977c-6cc9a6f23875",
+      "type": "text",
+      "content": {
+        "text": "**Age**: @{item.age}\n\nRepeat components,\nbased on a dictionary,\nusing *Repeater*.",
+        "useMarkdown": "yes"
+      },
+      "parentId": "d533e762-96bf-4405-ab41-14532983ee0a",
+      "position": 1
+    },
+    "a5908ffa-ace5-41c8-a24c-0fc24480509b": {
+      "id": "a5908ffa-ace5-41c8-a24c-0fc24480509b",
+      "type": "separator",
+      "content": {},
+      "parentId": "d533e762-96bf-4405-ab41-14532983ee0a",
+      "position": 0
+    },
+    "485be84b-32d8-43c2-8d99-86a35187fffd": {
+      "id": "485be84b-32d8-43c2-8d99-86a35187fffd",
+      "type": "sidebar",
+      "content": {
+        "containerBackgroundColor": "#e4e0e6",
+        "sidebarBackgroundColor": "#d5d0d7",
+        "buttonColor": "#ededed",
+        "startCollapsed": "yes"
+      },
+      "parentId": "4a80873e-3f03-4aee-8582-19ed9696de4a",
+      "position": -2
+    },
+    "e86ef061-ec2e-49a1-870b-5989b80f3d9c": {
+      "id": "e86ef061-ec2e-49a1-870b-5989b80f3d9c",
+      "type": "section",
+      "content": {
+        "title": "About this application",
+        "snapMode": "no"
+      },
+      "parentId": "485be84b-32d8-43c2-8d99-86a35187fffd",
+      "position": 0
+    },
+    "ed597343-337a-4e9d-9299-2da7011dd482": {
+      "id": "ed597343-337a-4e9d-9299-2da7011dd482",
+      "type": "text",
+      "content": {
+        "text": "This is a demo application for Streamsync. It's not intended to provide a comprehensive demo of its capabilities, but rather serve as an introduction to the framework.",
+        "useMarkdown": "no",
+        "alignment": "left"
+      },
+      "parentId": "e86ef061-ec2e-49a1-870b-5989b80f3d9c",
+      "position": 1
+    },
+    "43acbea5-6f66-4722-a811-292bceae5645": {
+      "id": "43acbea5-6f66-4722-a811-292bceae5645",
+      "type": "separator",
+      "content": {},
+      "parentId": "e86ef061-ec2e-49a1-870b-5989b80f3d9c",
+      "position": 0
+    },
+    "054a8f10-2f93-464b-bff0-fb1ca863be77": {
+      "id": "054a8f10-2f93-464b-bff0-fb1ca863be77",
+      "type": "section",
+      "content": {
+        "title": "Section Title",
+        "snapMode": "no"
+      },
+      "parentId": "485be84b-32d8-43c2-8d99-86a35187fffd",
+      "position": 1
+    },
+    "17612c5f-2f88-4d65-8495-7a2ef9e6326a": {
+      "id": "17612c5f-2f88-4d65-8495-7a2ef9e6326a",
+      "type": "horizontalstack",
+      "content": {
+        "alignment": "left"
+      },
+      "parentId": "efba8391-52c0-4bd9-8562-1a686d5b589b",
+      "position": 0
+    },
+    "5acaed47-2ef7-445d-8d46-ac1812f91761": {
+      "id": "5acaed47-2ef7-445d-8d46-ac1812f91761",
+      "type": "text",
+      "content": {
+        "text": "@{counter}"
+      },
+      "parentId": "efba8391-52c0-4bd9-8562-1a686d5b589b",
+      "position": 1
+    },
+    "d0be4f01-3a4f-4c78-bb7d-0971b24f98bc": {
+      "id": "d0be4f01-3a4f-4c78-bb7d-0971b24f98bc",
+      "type": "button",
+      "content": {
+        "text": "Increment"
+      },
+      "parentId": "17612c5f-2f88-4d65-8495-7a2ef9e6326a",
+      "handlers": {
+        "click": "increment"
+      },
+      "position": 0
+    },
+    "8c181da0-e185-41a3-a7db-52358e7ac4c3": {
+      "id": "8c181da0-e185-41a3-a7db-52358e7ac4c3",
+      "type": "text",
+      "content": {
+        "text": "About Us"
+      },
+      "parentId": "5740a107-5585-4dc7-918c-ecec954120c7",
+      "handlers": {
+        "click": "$goToPage_secondary"
+      },
+      "position": 0
+    },
+    "7dcc4352-17c7-4944-b442-99bd77ac511e": {
+      "id": "7dcc4352-17c7-4944-b442-99bd77ac511e",
+      "type": "text",
+      "content": {
+        "text": "Careers"
+      },
+      "parentId": "5740a107-5585-4dc7-918c-ecec954120c7",
+      "handlers": {
+        "click": "$goToPage_secondary"
+      },
+      "position": 1
+    },
+    "7dc65c7e-dacc-4cfe-8d86-54743177d44e": {
+      "id": "7dc65c7e-dacc-4cfe-8d86-54743177d44e",
+      "type": "page",
+      "content": {
+        "emptinessColor": "#b2c7cd",
+        "accentColor": "#e3761c",
+        "pageMode": "compact"
+      },
+      "parentId": "root",
+      "position": 2
+    },
+    "d910d466-f49a-4b87-a030-ddfad391df14": {
+      "id": "d910d466-f49a-4b87-a030-ddfad391df14",
+      "type": "header",
+      "content": {
+        "text": "Visit Tucson, Arizona",
+        "emptinessColor": "#ffffff"
+      },
+      "parentId": "7dc65c7e-dacc-4cfe-8d86-54743177d44e",
+      "position": 0
+    },
+    "10192aea-2fa1-4f22-bc57-cb51e55e2ae2": {
+      "id": "10192aea-2fa1-4f22-bc57-cb51e55e2ae2",
+      "type": "columns",
+      "content": {},
+      "parentId": "7dc65c7e-dacc-4cfe-8d86-54743177d44e",
+      "position": 1
+    },
+    "e536d8ab-4642-47ea-ad3b-bcc024324482": {
+      "id": "e536d8ab-4642-47ea-ad3b-bcc024324482",
+      "type": "column",
+      "content": {
+        "width": "1"
+      },
+      "parentId": "10192aea-2fa1-4f22-bc57-cb51e55e2ae2",
+      "position": 0
+    },
+    "5b56048d-0562-4aa7-8f2e-9c2ca1815cde": {
+      "id": "5b56048d-0562-4aa7-8f2e-9c2ca1815cde",
+      "type": "column",
+      "content": {
+        "width": "1"
+      },
+      "parentId": "10192aea-2fa1-4f22-bc57-cb51e55e2ae2",
+      "position": 1
+    },
+    "9f42b81f-8530-42c6-bc32-eea89cff3159": {
+      "id": "9f42b81f-8530-42c6-bc32-eea89cff3159",
+      "type": "section",
+      "content": {
+        "title": "Why should I visit Tucson?",
+        "snapMode": "no"
+      },
+      "parentId": "5b56048d-0562-4aa7-8f2e-9c2ca1815cde",
+      "position": 0
+    },
+    "eb2fa60c-cf63-4f1b-bd4b-40627054d89b": {
+      "id": "eb2fa60c-cf63-4f1b-bd4b-40627054d89b",
+      "type": "text",
+      "content": {
+        "text": "Tucson, Arizona is a city with a rich cultural heritage and natural beauty. Here are some reasons why you should visit Tucson:\n\nFirstly, Tucson is a great destination for outdoor enthusiasts. The city is surrounded by mountains, including the Santa Catalina Mountains, and has several national parks and reserves nearby. Visitors can enjoy hiking, biking, rock climbing, and birdwatching in these areas. The Saguaro National Park is a must-visit for those interested in desert landscapes and the famous saguaro cactus.\n\nSecondly, Tucson has a vibrant art scene with many galleries and museums, such as the Tucson Museum of Art and the Center for Creative Photography. The city also hosts several art and cultural festivals throughout the year, including the Tucson Gem and Mineral Show and the All Souls Procession.\n\nLastly, Tucson is a hub of southwestern culture, with a rich history of Native American, Mexican, and Spanish influences. Visitors can explore the city's many historic sites, including the Mission San Xavier del Bac and the Barrio Historico neighborhood. Tucson is also home to many great restaurants that serve regional cuisine, such as Sonoran-style Mexican food and local craft breweries.\n\nOverall, Tucson offers a unique blend of outdoor adventures, cultural experiences, and natural beauty that make it a great destination for travelers looking to explore the southwest United States."
+      },
+      "parentId": "9f42b81f-8530-42c6-bc32-eea89cff3159",
+      "position": 0
+    },
+    "d92b423d-b8ee-48f3-b3f5-1526a8c6d218": {
+      "id": "d92b423d-b8ee-48f3-b3f5-1526a8c6d218",
+      "type": "section",
+      "content": {
+        "title": "How much does it cost?",
+        "snapMode": "no"
+      },
+      "parentId": "5b56048d-0562-4aa7-8f2e-9c2ca1815cde",
+      "position": 1
+    },
+    "552c48b9-ab77-4895-b818-87a4fbf6367a": {
+      "id": "552c48b9-ab77-4895-b818-87a4fbf6367a",
+      "type": "form",
+      "content": {
+        "submitDesc": "Calculate",
+        "clearFormAfterSubmission": "yes"
+      },
+      "parentId": "d92b423d-b8ee-48f3-b3f5-1526a8c6d218",
+      "handlers": {
+        "ss-submit": "failing_handler"
+      },
+      "position": 0
+    },
+    "2f1eaca3-ed8a-468c-adad-d560a30a54a1": {
+      "id": "2f1eaca3-ed8a-468c-adad-d560a30a54a1",
+      "type": "columns",
+      "content": {},
+      "parentId": "552c48b9-ab77-4895-b818-87a4fbf6367a",
+      "position": 0
+    },
+    "1d5f363e-fdd2-48c0-9f4f-6b3f906d29bc": {
+      "id": "1d5f363e-fdd2-48c0-9f4f-6b3f906d29bc",
+      "type": "column",
+      "content": {
+        "width": "1"
+      },
+      "parentId": "2f1eaca3-ed8a-468c-adad-d560a30a54a1",
+      "position": 0
+    },
+    "e4464093-05a2-4659-9a97-81c2ce2a55de": {
+      "id": "e4464093-05a2-4659-9a97-81c2ce2a55de",
+      "type": "column",
+      "content": {
+        "width": "1"
+      },
+      "parentId": "2f1eaca3-ed8a-468c-adad-d560a30a54a1",
+      "position": 1
+    },
+    "8ed294aa-d60b-428c-9346-76ce15682f26": {
+      "id": "8ed294aa-d60b-428c-9346-76ce15682f26",
+      "type": "numberinput",
+      "content": {
+        "label": "Number of people"
+      },
+      "parentId": "1d5f363e-fdd2-48c0-9f4f-6b3f906d29bc",
+      "position": 0
+    },
+    "3e75c5e4-1b44-40fc-8077-8ac277faaf99": {
+      "id": "3e75c5e4-1b44-40fc-8077-8ac277faaf99",
+      "type": "numberinput",
+      "content": {
+        "label": "Departing from"
+      },
+      "parentId": "e4464093-05a2-4659-9a97-81c2ce2a55de",
+      "position": 0
+    },
+    "ef77bae4-5644-4f68-86bd-f94a0fac2dba": {
+      "id": "ef77bae4-5644-4f68-86bd-f94a0fac2dba",
+      "type": "dateinput",
+      "content": {
+        "label": "From date"
+      },
+      "parentId": "1d5f363e-fdd2-48c0-9f4f-6b3f906d29bc",
+      "position": 1
+    },
+    "50616381-bedb-408e-9af2-ccbca9564a3f": {
+      "id": "50616381-bedb-408e-9af2-ccbca9564a3f",
+      "type": "dateinput",
+      "content": {
+        "label": "Until date"
+      },
+      "parentId": "e4464093-05a2-4659-9a97-81c2ce2a55de",
+      "position": 1
+    },
+    "05a4310b-286b-4e75-9a51-224b856feabd": {
+      "id": "05a4310b-286b-4e75-9a51-224b856feabd",
+      "type": "radioinput",
+      "content": {
+        "label": "Hotel category",
+        "options": "{\n  \"mid\": \"Mid-range\",\n  \"luxury\": \"Luxury\",\n  \"budget\": \"Budget\"\n}"
+      },
+      "parentId": "552c48b9-ab77-4895-b818-87a4fbf6367a",
+      "position": 1
+    },
+    "ab337318-e884-44cc-b328-5af971b532e6": {
+      "id": "ab337318-e884-44cc-b328-5af971b532e6",
+      "type": "section",
+      "content": {
+        "title": "",
+        "containerBackgroundColor": "#e5eaeb",
+        "snapMode": "no"
+      },
+      "parentId": "e536d8ab-4642-47ea-ad3b-bcc024324482",
+      "position": 0
+    },
+    "0d11e1d9-90b6-45fc-bef1-7efba7d13d82": {
+      "id": "0d11e1d9-90b6-45fc-bef1-7efba7d13d82",
+      "type": "image",
+      "content": {
+        "src": "https://images.unsplash.com/photo-1592521899562-172a1fda8059?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+        "caption": "Courtesy of Andrew Ling on Unsplash"
+      },
+      "parentId": "ab337318-e884-44cc-b328-5af971b532e6",
+      "position": 0
+    },
+    "3470a4fb-f0ac-4bd7-8f9e-d11172fc4e4d": {
+      "id": "3470a4fb-f0ac-4bd7-8f9e-d11172fc4e4d",
+      "type": "page",
+      "content": {},
+      "parentId": "root",
+      "position": 3
+    },
+    "fee89ab5-570b-47ad-a114-f47a460e4a30": {
+      "id": "fee89ab5-570b-47ad-a114-f47a460e4a30",
+      "type": "section",
+      "content": {
+        "title": "Section",
+        "snapMode": "no"
+      },
+      "parentId": "3470a4fb-f0ac-4bd7-8f9e-d11172fc4e4d",
+      "position": 1
+    },
+    "a892a061-374f-43c1-8b7f-274738da89fb": {
+      "id": "a892a061-374f-43c1-8b7f-274738da89fb",
+      "type": "button",
+      "content": {
+        "text": "Button A"
+      },
+      "parentId": "fee89ab5-570b-47ad-a114-f47a460e4a30",
+      "position": 0
+    },
+    "65c1a6ea-3a12-4c89-819b-55d0afa2a47f": {
+      "id": "65c1a6ea-3a12-4c89-819b-55d0afa2a47f",
+      "type": "button",
+      "content": {
+        "text": "Button B"
+      },
+      "parentId": "fee89ab5-570b-47ad-a114-f47a460e4a30",
+      "position": 1
+    },
+    "f65e5348-f425-4701-8044-611deeff6517": {
+      "id": "f65e5348-f425-4701-8044-611deeff6517",
+      "type": "button",
+      "content": {
+        "text": "Button C"
+      },
+      "parentId": "fee89ab5-570b-47ad-a114-f47a460e4a30",
+      "position": 2
+    },
+    "cec40878-373d-493f-8590-c019a3fb0410": {
+      "id": "cec40878-373d-493f-8590-c019a3fb0410",
+      "type": "header",
+      "content": {
+        "text": "Insertion Demo",
+        "accentColor": "#a8a8a8"
+      },
+      "parentId": "3470a4fb-f0ac-4bd7-8f9e-d11172fc4e4d",
+      "position": 0
+    },
+    "aed155cd-ac21-4e58-908f-678c5112dd53": {
+      "id": "aed155cd-ac21-4e58-908f-678c5112dd53",
+      "type": "webcamcapture",
+      "content": {
+        "refreshRate": "200"
+      },
+      "parentId": "631d46dc-40c7-4b1e-9747-6490a3318665",
+      "position": 1
+    },
+    "24f46471-d9d4-4c73-ab3a-2133f7bc571a": {
+      "id": "24f46471-d9d4-4c73-ab3a-2133f7bc571a",
+      "type": "textinput",
+      "content": {
+        "label": "Input Label"
+      },
+      "parentId": "631d46dc-40c7-4b1e-9747-6490a3318665",
+      "position": 2
+    },
+    "4d3d1067-eaa7-4262-b80c-1f0886744543": {
+      "id": "4d3d1067-eaa7-4262-b80c-1f0886744543",
+      "type": "dateinput",
+      "content": {
+        "label": "Input Label"
+      },
+      "parentId": "631d46dc-40c7-4b1e-9747-6490a3318665",
+      "position": 3
+    },
+    "8b7bda18-e5bb-4677-98da-1bd667b337a2": {
+      "id": "8b7bda18-e5bb-4677-98da-1bd667b337a2",
+      "type": "page",
+      "content": {
+        "emptinessColor": "#daf3fb"
+      },
+      "parentId": "root",
+      "position": 4
+    },
+    "868310c0-5d97-4af9-9d18-a7864d3af0ee": {
+      "id": "868310c0-5d97-4af9-9d18-a7864d3af0ee",
+      "type": "columns",
+      "content": {},
+      "parentId": "8b7bda18-e5bb-4677-98da-1bd667b337a2",
+      "position": 1
+    },
+    "c91a3485-8b05-4310-8ae2-2aeb1eed7c55": {
+      "id": "c91a3485-8b05-4310-8ae2-2aeb1eed7c55",
+      "type": "column",
+      "content": {
+        "width": "1"
+      },
+      "parentId": "868310c0-5d97-4af9-9d18-a7864d3af0ee",
+      "position": 0
+    },
+    "a777b485-fa9c-4ac7-b4cc-969e75df1b36": {
+      "id": "a777b485-fa9c-4ac7-b4cc-969e75df1b36",
+      "type": "column",
+      "content": {
+        "width": "1"
+      },
+      "parentId": "868310c0-5d97-4af9-9d18-a7864d3af0ee",
+      "position": 1
+    },
+    "baffc0f3-9fa8-4720-81b4-20d52137fbc1": {
+      "id": "baffc0f3-9fa8-4720-81b4-20d52137fbc1",
+      "type": "header",
+      "content": {
+        "text": "A Whole New Kind of Data Apps",
+        "emptinessColor": "#ffffff"
+      },
+      "parentId": "8b7bda18-e5bb-4677-98da-1bd667b337a2",
+      "position": 0
+    },
+    "024ba9f4-6322-45d4-8814-c5d7871d2c27": {
+      "id": "024ba9f4-6322-45d4-8814-c5d7871d2c27",
+      "type": "section",
+      "content": {
+        "title": "",
+        "snapMode": "no"
+      },
+      "parentId": "c91a3485-8b05-4310-8ae2-2aeb1eed7c55",
+      "position": 0
+    },
+    "54563ccc-19c6-4f43-9a96-c8dc199843e0": {
+      "id": "54563ccc-19c6-4f43-9a96-c8dc199843e0",
+      "type": "image",
+      "content": {
+        "src": "static/hackerpigeon.png",
+        "caption": "Hacker Pigeon"
+      },
+      "parentId": "024ba9f4-6322-45d4-8814-c5d7871d2c27",
+      "position": 0
+    },
+    "d3d7dc98-f8de-4f3c-8127-cb489e02a332": {
+      "id": "d3d7dc98-f8de-4f3c-8127-cb489e02a332",
+      "type": "text",
+      "content": {
+        "text": "Once upon a time in the bustling metropolis of Pigeonopolis, there was an elite group of pigeons who had a talent unlike any other. They were known as the \"Hacker Pigeons,\" skilled in the art of coding and hacking. These avian geniuses spent their days perched on windowsills, observing the people who worked inside, learning the intricacies of data applications.\n\nLed by their fearless leader, Byte, the Hacker Pigeons had built a secret lab in an abandoned attic. Byte was a brilliant bird with feathers as dark as midnight and eyes that sparkled like the stars. Under his guidance, the team of pigeons honed their skills, creating the most advanced data applications the world had ever seen.\n\nTheir applications were both practical and powerful, providing insights into the chaotic human world. They developed apps for weather prediction, traffic optimization, and even predicting the best spots to find breadcrumbs in the city. The Hacker Pigeons' work had begun to attract attention, and whispers of their genius spread throughout Pigeonopolis.\n\nOne day, an ambitious pigeon named Scoop approached Byte and his team, seeking to uncover the secret behind their incredible success. Scoop was an investigative journalist for the Pigeonopolis Times and believed that uncovering the story of the Hacker Pigeons would be her biggest break.\n\nAs Scoop spent more time with the Hacker Pigeons, she began to understand the true extent of their brilliance. Byte and his team were not just creating data apps for pigeons; they were also developing tools for humans to better understand their world. Byte believed that by bridging the gap between the two species, they could foster a new era of peace and cooperation.\n\nScoop was amazed by their vision and decided to help the Hacker Pigeons on their noble mission. With her journalistic skills, she crafted the perfect article, unveiling the existence of the Hacker Pigeons and their groundbreaking work to the world.\n\nThe story was an instant sensation. Pigeons and humans alike marveled at the technological prowess of these feathered prodigies. Humans saw the value in the data applications and began to integrate them into their daily lives. They also started to see pigeons in a new light, appreciating their intelligence and contributions to society.\n\nOver time, the work of the Hacker Pigeons and their collaboration with humans led to the rise of a new, smarter city. Technology flourished, and both humans and pigeons lived together in harmony, benefiting from each other's strengths.\n\nByte, Scoop, and the Hacker Pigeons had succeeded in bringing the world closer together through the power of technology. Their story was an inspiring reminder that even the most unlikely creatures can achieve greatness when they dare to dream and work together.",
+        "primaryTextColor": "#238a9f"
+      },
+      "parentId": "024ba9f4-6322-45d4-8814-c5d7871d2c27",
+      "position": 2
+    },
+    "6ad95172-877c-42ec-9007-79a659ff26cc": {
+      "id": "6ad95172-877c-42ec-9007-79a659ff26cc",
+      "type": "separator",
+      "content": {},
+      "parentId": "024ba9f4-6322-45d4-8814-c5d7871d2c27",
+      "position": 1
+    },
+    "07405ec9-aee4-4675-a60c-f0499285965e": {
+      "id": "07405ec9-aee4-4675-a60c-f0499285965e",
+      "type": "dataframe",
+      "content": {
+        "dataframe": "@{hacker_pigeons_df}",
+        "dataframeHeaderRowBackgroundColor": "#d0eaf0",
+        "dataframeBackgroundColor": "#ebfcff"
+      },
+      "parentId": "b7a4dc29-2542-432d-a25f-915747570c77",
+      "position": 1
+    },
+    "7f93c1a0-29fc-4a1c-a573-a3e925ebc24a": {
+      "id": "7f93c1a0-29fc-4a1c-a573-a3e925ebc24a",
+      "type": "tabs",
+      "parentId": "a777b485-fa9c-4ac7-b4cc-969e75df1b36",
+      "content": {},
+      "position": 0
+    },
+    "b7a4dc29-2542-432d-a25f-915747570c77": {
+      "id": "b7a4dc29-2542-432d-a25f-915747570c77",
+      "type": "tab",
+      "parentId": "7f93c1a0-29fc-4a1c-a573-a3e925ebc24a",
+      "content": {
+        "name": "Analysis"
+      },
+      "position": 0
+    },
+    "5de0a20d-096b-487f-bf89-746a163ea445": {
+      "id": "5de0a20d-096b-487f-bf89-746a163ea445",
+      "type": "vegalitechart",
+      "content": {
+        "spec": "@{pigeon_chart}"
+      },
+      "parentId": "b7a4dc29-2542-432d-a25f-915747570c77",
+      "position": 0
+    },
+    "791b3b35-182c-4703-9a70-1f5772d43b27": {
+      "id": "791b3b35-182c-4703-9a70-1f5772d43b27",
+      "type": "tab",
+      "parentId": "7f93c1a0-29fc-4a1c-a573-a3e925ebc24a",
+      "content": {
+        "name": "Discussion"
+      },
+      "position": 1
+    },
+    "43cbd04c-981c-4c65-ab3f-344c189648f9": {
+      "id": "43cbd04c-981c-4c65-ab3f-344c189648f9",
+      "type": "section",
+      "parentId": "a777b485-fa9c-4ac7-b4cc-969e75df1b36",
+      "content": {
+        "title": "Section Title",
+        "snapMode": "no"
+      },
+      "position": 1
+    }
+  }
+}
