@@ -1,0 +1,9 @@
+polywrap_manifest/__init__.py,sha256=rSxL6l1Ysyo47ilxMNSnmic63JrW20DaVsPcjfEg_K0,162
+polywrap_manifest/deserialize.py,sha256=jQccs5VxjzoLYr_fBMK_3PUyP0_-mm_0DdJVH5P7rvk,2135
+polywrap_manifest/errors.py,sha256=LVSFCgqll8uwRa3a_1nB2rwW50qJhna1IGUfBGKqlLk,270
+polywrap_manifest/manifest.py,sha256=eArcCyNOcBc9ANnD4Yr_QC9NmKDDwpEoGXAnHpWkn_g,1883
+polywrap_manifest/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polywrap_manifest/wrap_0_1.py,sha256=oMf6XvmdwBhzqNrXTs5wwJGLZPX5SIIbh50zEn6CDGU,8911
+polywrap_manifest-0.1.0a15.dist-info/METADATA,sha256=As_9ZVUsM34M5avq58PJZhMeTrezjaYbk1AM_4vwtos,863
+polywrap_manifest-0.1.0a15.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+polywrap_manifest-0.1.0a15.dist-info/RECORD,,
