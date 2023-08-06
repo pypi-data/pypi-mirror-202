@@ -1,0 +1,7 @@
+click
+requests
+pyyaml
+polars
+pandas
+numpy
+pyarrow

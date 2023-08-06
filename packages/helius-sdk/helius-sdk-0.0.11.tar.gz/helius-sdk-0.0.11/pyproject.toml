@@ -1,0 +1,11 @@
+[build-system]
+requires = [
+    "setuptools>=30.3.0",
+    "wheel",
+    "requests",
+]
+
+[tool.black]
+line-length = 140
+target-version = ['py37']
+skip-string-normalization = true
