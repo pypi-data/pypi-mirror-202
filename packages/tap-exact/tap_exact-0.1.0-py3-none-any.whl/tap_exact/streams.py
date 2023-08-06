@@ -1,0 +1,741 @@
+"""Stream type classes for tap-exact."""
+
+from pathlib import Path
+from typing import Any, Dict, Optional, Union, List, Iterable
+
+from singer_sdk import typing as th  # JSON Schema typing helpers
+
+from tap_exact.client import ExactOnlineStream
+from exactonline.resource import GET
+
+from datetime import datetime
+
+# TODO: Delete this is if not using json files for schema definition
+SCHEMAS_DIR = Path(__file__).parent / Path("./schemas")
+# TODO: - Override `UsersStream` and `GroupsStream` with your own stream definition.
+#       - Copy-paste as many times as needed to create multiple stream types.
+
+
+class SalesInvoicesStream(ExactOnlineStream):
+    """Define custom stream."""
+
+    name = "sales-invoices"
+    primary_keys = ["InvoiceID"]
+    replication_key = "Modified"
+    # Optionally, you may also use `schema_filepath` in place of `schema`:
+    # schema_filepath = SCHEMAS_DIR / "users.json"
+    schema = th.PropertiesList(
+        th.Property(
+            "InvoiceID",
+            th.StringType,
+            description="The unique identifier of the invoice"
+        ),
+        th.Property(
+            "InvoiceDate",
+            th.DateTimeType,
+            description="The invoice date"
+        ),
+        th.Property(
+            "InvoiceNumber",
+            th.IntegerType,
+            description="The invoice number"
+        ),
+        th.Property(
+            "InvoiceTo",
+            th.StringType,
+            description="The customer whom the invoice is made for"
+        ),
+        th.Property(
+            "InvoiceToName",
+            th.StringType,
+            description="The name of the customer whom the invoice is made for"
+        ),
+        th.Property(
+            "OrderDate",
+            th.DateTimeType,
+            description="The order date"
+        ),
+        th.Property(
+            "OrderedBy",
+            th.StringType,
+            description="The customer who made the order"
+        ),
+        th.Property(
+            "OrderedByName",
+            th.StringType,
+            description="The name of the customer who made the order"
+        ),
+        th.Property(
+            "AmountDC",
+            th.NumberType,
+            description="Amount in the default currency of the company"
+        ),
+        th.Property(
+            "Modified",
+            th.DateTimeType,
+            description="Last modified date"
+        ),
+    ).to_dict()
+
+    def get_path(self, context: Optional[dict]) -> str:
+        """Return the path of the Exact API"""
+
+        replication_key_value = self.get_starting_timestamp(context).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+        
+        path = "/salesinvoice/SalesInvoices?" \
+            f"$filter={self.replication_key}%20ge%20datetime%27{replication_key_value}%27&" \
+            "$select=InvoiceID,InvoiceDate,InvoiceNumber,InvoiceTo,InvoiceToName,OrderDate,OrderedBy,OrderedByName,AmountDC,Modified"
+
+        return path
+
+    def get_records(self, context: Optional[dict]) -> Iterable[dict]:
+        """Return a generator or row-type dictionary objects"""
+        
+        resp = self.conn.rest(GET('v1/%d/%s' % (self.division, self.get_path(context) )))
+        
+        # The fields that have /Date(unixmilliseconds)/ objects that should be converted into datetime objects
+        keys = ['InvoiceDate', 'Modified', 'OrderDate']
+
+        for row in resp:
+            
+            # We loop through the keys that should be modified
+            for key in keys:
+                row[key] = datetime.fromtimestamp( int(row[key][6:-2]) / 1000.0 )
+
+            yield row
+
+class PurchaseInvoicesStream(ExactOnlineStream):
+    """Define custom stream."""
+
+    name = "purchase-invoices"
+    primary_keys = ["ID"]
+    replication_key = "Modified"
+    # Optionally, you may also use `schema_filepath` in place of `schema`:
+    # schema_filepath = SCHEMAS_DIR / "users.json"
+    schema = th.PropertiesList(
+        th.Property(
+            "ID",
+            th.StringType,
+            description="The unique identifier of the invoice"
+        ),
+        th.Property(
+            "InvoiceDate",
+            th.DateTimeType,
+            description="The invoice date"
+        ),
+        th.Property(
+            "YourRef",
+            th.StringType,
+            description="The invoice number provided by the supplier"
+        ),
+        th.Property(
+            "Supplier",
+            th.StringType,
+            description="The supplier who sent the invoice"
+        ),
+        th.Property(
+            "Description",
+            th.StringType,
+            description="The description of the invoice"
+        ),
+        th.Property(
+            "DueDate",
+            th.DateTimeType,
+            description="The due date"
+        ),
+        th.Property(
+            "PaymentCondition",
+            th.StringType,
+            description="The code of the payment conditino that is used to calculate the due date and discount"
+        ),
+        th.Property(
+            "Status",
+            th.IntegerType,
+            description="The code of the payment conditino that is used to calculate the due date and discount"
+        ),
+        th.Property(
+            "Journal",
+            th.StringType,
+            description="The code of the purchase journal in which the invoice is entered"
+        ),
+        th.Property(
+            "Amount",
+            th.NumberType,
+            description="Amount including VAT in the default currency of the company"
+        ),
+        th.Property(
+            "VATAmount",
+            th.NumberType,
+            description="VAT Amount in the default currency of the company"
+        ),
+        th.Property(
+            "Modified",
+            th.DateTimeType,
+            description="Last modified date"
+        ),
+    ).to_dict()
+
+    def get_path(self, context: Optional[dict]) -> str:
+        """Return the path of the Exact API"""
+
+        replication_key_value = self.get_starting_timestamp(context).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+        
+        path = "/purchase/PurchaseInvoices?" \
+            f"$filter={self.replication_key}%20ge%20datetime%27{replication_key_value}%27&" \
+            "$select=ID,InvoiceDate,YourRef,Supplier,Description,DueDate,PaymentCondition,Status,Journal,Amount,VATAmount,Modified"
+
+        return path
+
+    def get_records(self, context: Optional[dict]) -> Iterable[dict]:
+        """Return a generator or row-type dictionary objects"""
+        
+        resp = self.conn.rest(GET('v1/%d/%s' % (self.division, self.get_path(context) )))
+        
+        # The fields that have /Date(unixmilliseconds)/ objects that should be converted into datetime objects
+        keys = ['InvoiceDate', 'Modified', 'DueDate']
+
+        for row in resp:
+            
+            # We loop through the keys that should be modified
+            for key in keys:
+                row[key] = datetime.fromtimestamp( int(row[key][6:-2]) / 1000.0 )
+
+            yield row
+
+class GeneralLedgerAccountsStream(ExactOnlineStream):
+    """Define custom stream."""
+
+    name = "gl-accounts"
+    primary_keys = ["ID"]
+    replication_key = "Modified"
+    # Optionally, you may also use `schema_filepath` in place of `schema`:
+    # schema_filepath = SCHEMAS_DIR / "users.json"
+    schema = th.PropertiesList(
+        th.Property(
+            "ID",
+            th.StringType,
+            description="The unique identifier of the account"
+        ),
+        th.Property(
+            "Code",
+            th.StringType,
+            description="The unique code of the account"
+        ),
+        th.Property(
+            "Description",
+            th.StringType,
+            description="The description of the account"
+        ),
+        th.Property(
+            "Costcenter",
+            th.StringType,
+            description="The cost center linked to the account"
+        ),
+        th.Property(
+            "CostcenterDescription",
+            th.StringType,
+            description="The cost center description"
+        ),
+        th.Property(
+            "Costunit",
+            th.StringType,
+            description="The cost unit linked to the account"
+        ),
+        th.Property(
+            "CostunitDescription",
+            th.StringType,
+            description="The cost unit description"
+        ),
+        th.Property(
+            "Modified",
+            th.DateTimeType,
+            description="Last modified date"
+        ),
+    ).to_dict()
+
+    def get_path(self, context: Optional[dict]) -> str:
+        """Return the path of the Exact API"""
+
+        replication_key_value = self.get_starting_timestamp(context).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+        
+        path = "/financial/GLAccounts?" \
+            f"$filter={self.replication_key}%20ge%20datetime%27{replication_key_value}%27&" \
+            "$select=ID,Code,Description,Costcenter,CostcenterDescription,Costunit,CostunitDescription,Modified"
+
+        return path
+
+    def get_records(self, context: Optional[dict]) -> Iterable[dict]:
+        """Return a generator or row-type dictionary objects"""
+        
+        resp = self.conn.rest(GET('v1/%d/%s' % (self.division, self.get_path(context) )))
+        
+        # The fields that have /Date(unixmilliseconds)/ objects that should be converted into datetime objects
+        keys = ['Modified']
+
+        for row in resp:
+            
+            # We loop through the keys that should be modified
+            for key in keys:
+                row[key] = datetime.fromtimestamp( int(row[key][6:-2]) / 1000.0 )
+
+            yield row
+
+class BankEntryLinesStream(ExactOnlineStream):
+    """Define custom stream."""
+
+    name = "bank-entry-lines"
+    primary_keys = ["ID"]
+    replication_key = "Modified"
+    # Optionally, you may also use `schema_filepath` in place of `schema`:
+    # schema_filepath = SCHEMAS_DIR / "users.json"
+    schema = th.PropertiesList(
+        th.Property(
+            "ID",
+            th.StringType,
+            description="The unique identifier of the line"
+        ),
+        th.Property(
+            "AccountCode",
+            th.StringType,
+            description="The unique code of the corresponding CRM account"
+        ),
+        th.Property(
+            "AccountName",
+            th.StringType,
+            description="The name of the account"
+        ),
+        th.Property(
+            "GLAccount",
+            th.StringType,
+            description="The unique identifier of the corresponding GL account"
+        ),
+        th.Property(
+            "GLAccountCode",
+            th.StringType,
+            description="The unique code of the corresponding GL account"
+        ),
+        th.Property(
+            "Date",
+            th.DateTimeType,
+            description="THe date of the statement line"
+        ),
+        th.Property(
+            "Description",
+            th.StringType,
+            description="The description of the entry"
+        ),
+        th.Property(
+            "OurRef",
+            th.IntegerType,
+            description="The invoice number"
+        ),
+        th.Property(
+            "LineNumber",
+            th.IntegerType,
+            description="The line number of the entry"
+        ),
+        th.Property(
+            "AmountDC",
+            th.StringType,
+            description="The amount in the default currency of the company"
+        ),
+        th.Property(
+            "Modified",
+            th.DateTimeType,
+            description="Last modified date"
+        ),
+    ).to_dict()
+
+    def get_path(self, context: Optional[dict]) -> str:
+        """Return the path of the Exact API"""
+
+        replication_key_value = self.get_starting_timestamp(context).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+        
+        path = "/financialtransaction/BankEntryLines?" \
+            f"$filter={self.replication_key}%20ge%20datetime%27{replication_key_value}%27&" \
+            "$select=ID,AccountCode,AccountName,GLAccount,GLAccountCode,Date,Description,OurRef,LineNumber,AmountDC,Modified"
+
+        return path
+
+    def get_records(self, context: Optional[dict]) -> Iterable[dict]:
+        """Return a generator or row-type dictionary objects"""
+        
+        resp = self.conn.rest(GET('v1/%d/%s' % (self.division, self.get_path(context) )))
+        
+        # The fields that have /Date(unixmilliseconds)/ objects that should be converted into datetime objects
+        keys = ['Date', 'Modified']
+
+        for row in resp:
+            
+            # We loop through the keys that should be modified
+            for key in keys:
+                row[key] = datetime.fromtimestamp( int(row[key][6:-2]) / 1000.0 )
+
+            yield row
+
+class CashEntryLinesStream(ExactOnlineStream):
+    """Define custom stream."""
+
+    name = "cash-entry-lines"
+    primary_keys = ["ID"]
+    replication_key = "Modified"
+    # Optionally, you may also use `schema_filepath` in place of `schema`:
+    # schema_filepath = SCHEMAS_DIR / "users.json"
+    schema = th.PropertiesList(
+        th.Property(
+            "ID",
+            th.StringType,
+            description="The unique identifier of the line"
+        ),
+        th.Property(
+            "AccountCode",
+            th.StringType,
+            description="The unique code of the corresponding CRM account"
+        ),
+        th.Property(
+            "AccountName",
+            th.StringType,
+            description="The name of the account"
+        ),
+        th.Property(
+            "GLAccount",
+            th.StringType,
+            description="The unique identifier of the corresponding GL account"
+        ),
+        th.Property(
+            "GLAccountCode",
+            th.StringType,
+            description="The unique code of the corresponding GL account"
+        ),
+        th.Property(
+            "Date",
+            th.DateTimeType,
+            description="THe date of the statement line"
+        ),
+        th.Property(
+            "Description",
+            th.StringType,
+            description="The description of the entry"
+        ),
+        th.Property(
+            "OurRef",
+            th.IntegerType,
+            description="The invoice number"
+        ),
+        th.Property(
+            "LineNumber",
+            th.IntegerType,
+            description="The line number of the entry"
+        ),
+        th.Property(
+            "AmountDC",
+            th.StringType,
+            description="The amount in the default currency of the company"
+        ),
+        th.Property(
+            "Modified",
+            th.DateTimeType,
+            description="Last modified date"
+        ),
+    ).to_dict()
+
+    def get_path(self, context: Optional[dict]) -> str:
+        """Return the path of the Exact API"""
+
+        replication_key_value = self.get_starting_timestamp(context).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+        
+        path = "/financialtransaction/CashEntryLines?" \
+            f"$filter={self.replication_key}%20ge%20datetime%27{replication_key_value}%27&" \
+            "$select=ID,AccountCode,AccountName,GLAccount,GLAccountCode,Date,Description,OurRef,LineNumber,AmountDC,Modified"
+
+        return path
+
+    def get_records(self, context: Optional[dict]) -> Iterable[dict]:
+        """Return a generator or row-type dictionary objects"""
+        
+        resp = self.conn.rest(GET('v1/%d/%s' % (self.division, self.get_path(context) )))
+        
+        # The fields that have /Date(unixmilliseconds)/ objects that should be converted into datetime objects
+        keys = ['Date', 'Modified']
+
+        for row in resp:
+            
+            # We loop through the keys that should be modified
+            for key in keys:
+                row[key] = datetime.fromtimestamp( int(row[key][6:-2]) / 1000.0 )
+
+            yield row
+
+class GeneralJournalEntryLinesStream(ExactOnlineStream):
+    """Define custom stream."""
+
+    name = "general-journal-entry-lines"
+    primary_keys = ["ID"]
+    replication_key = "Modified"
+    # Optionally, you may also use `schema_filepath` in place of `schema`:
+    # schema_filepath = SCHEMAS_DIR / "users.json"
+    schema = th.PropertiesList(
+        th.Property(
+            "ID",
+            th.StringType,
+            description="The unique identifier of the line"
+        ),
+        th.Property(
+            "AccountCode",
+            th.StringType,
+            description="The unique code of the corresponding CRM account"
+        ),
+        th.Property(
+            "AccountName",
+            th.StringType,
+            description="The name of the account"
+        ),
+        th.Property(
+            "GLAccount",
+            th.StringType,
+            description="The unique identifier of the corresponding GL account"
+        ),
+        th.Property(
+            "GLAccountCode",
+            th.StringType,
+            description="The unique code of the corresponding GL account"
+        ),
+        th.Property(
+            "Date",
+            th.DateTimeType,
+            description="THe date of the statement line"
+        ),
+        th.Property(
+            "Description",
+            th.StringType,
+            description="The description of the entry"
+        ),
+        th.Property(
+            "OurRef",
+            th.IntegerType,
+            description="The invoice number"
+        ),
+        th.Property(
+            "LineNumber",
+            th.IntegerType,
+            description="The line number of the entry"
+        ),
+        th.Property(
+            "AmountDC",
+            th.StringType,
+            description="The amount in the default currency of the company"
+        ),
+        th.Property(
+            "AmountVATDC",
+            th.StringType,
+            description="The amount of VAT in the default currency of the company"
+        ),
+        th.Property(
+            "Modified",
+            th.DateTimeType,
+            description="Last modified date"
+        ),
+    ).to_dict()
+
+    def get_path(self, context: Optional[dict]) -> str:
+        """Return the path of the Exact API"""
+
+        replication_key_value = self.get_starting_timestamp(context).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+        
+        path = "/generaljournalentry/GeneralJournalEntryLines?" \
+            f"$filter={self.replication_key}%20ge%20datetime%27{replication_key_value}%27&" \
+            "$select=ID,AccountCode,AccountName,GLAccount,GLAccountCode,Date,Description,OurRef,LineNumber,AmountDC,AmountVATDC,Modified"
+
+        return path
+
+    def get_records(self, context: Optional[dict]) -> Iterable[dict]:
+        """Return a generator or row-type dictionary objects"""
+        
+        resp = self.conn.rest(GET('v1/%d/%s' % (self.division, self.get_path(context) )))
+        
+        # The fields that have /Date(unixmilliseconds)/ objects that should be converted into datetime objects
+        keys = ['Date', 'Modified']
+
+        for row in resp:
+            
+            # We loop through the keys that should be modified
+            for key in keys:
+                row[key] = datetime.fromtimestamp( int(row[key][6:-2]) / 1000.0 )
+
+            yield row
+
+class PurchaseEntryLinesStream(ExactOnlineStream):
+    """Define custom stream."""
+
+    name = "purchase-entry-lines"
+    primary_keys = ["ID"]
+    replication_key = "Modified"
+    # Optionally, you may also use `schema_filepath` in place of `schema`:
+    # schema_filepath = SCHEMAS_DIR / "users.json"
+    schema = th.PropertiesList(
+        th.Property(
+            "ID",
+            th.StringType,
+            description="The unique identifier of the line"
+        ),
+        th.Property(
+            "GLAccount",
+            th.StringType,
+            description="The unique identifier of the corresponding GL account"
+        ),
+        th.Property(
+            "GLAccountCode",
+            th.StringType,
+            description="The unique code of the corresponding GL account"
+        ),
+        th.Property(
+            "From",
+            th.DateTimeType,
+            description="The starting date of the statement line"
+        ),
+        th.Property(
+            "To",
+            th.DateTimeType,
+            description="THe ending date of the statement line"
+        ),
+        th.Property(
+            "Description",
+            th.StringType,
+            description="The description of the entry"
+        ),
+        th.Property(
+            "LineNumber",
+            th.IntegerType,
+            description="The line number of the entry"
+        ),
+        th.Property(
+            "AmountDC",
+            th.StringType,
+            description="The amount in the default currency of the company"
+        ),
+        th.Property(
+            "VATAmountDC",
+            th.StringType,
+            description="The amount of VAT in the default currency of the company"
+        ),
+        th.Property(
+            "Modified",
+            th.DateTimeType,
+            description="Last modified date"
+        ),
+    ).to_dict()
+
+    def get_path(self, context: Optional[dict]) -> str:
+        """Return the path of the Exact API"""
+
+        replication_key_value = self.get_starting_timestamp(context).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+        
+        path = "/purchaseentry/PurchaseEntryLines?" \
+            f"$filter={self.replication_key}%20ge%20datetime%27{replication_key_value}%27&" \
+            "$select=ID,GLAccount,GLAccountCode,From,To,Description,LineNumber,AmountDC,VATAmountDC,Modified"
+
+        return path
+
+    def get_records(self, context: Optional[dict]) -> Iterable[dict]:
+        """Return a generator or row-type dictionary objects"""
+        
+        resp = self.conn.rest(GET('v1/%d/%s' % (self.division, self.get_path(context) )))
+        
+        # The fields that have /Date(unixmilliseconds)/ objects that should be converted into datetime objects
+        keys = ['From', 'To', 'Modified']
+
+        for row in resp:
+            
+            # We loop through the keys that should be modified
+            for key in keys:
+                row[key] = datetime.fromtimestamp( int(row[key][6:-2]) / 1000.0 )
+
+            yield row
+
+class SalesEntryLinesStream(ExactOnlineStream):
+    """Define custom stream."""
+
+    name = "sales-entry-lines"
+    primary_keys = ["ID"]
+    replication_key = "Modified"
+    # Optionally, you may also use `schema_filepath` in place of `schema`:
+    # schema_filepath = SCHEMAS_DIR / "users.json"
+    schema = th.PropertiesList(
+        th.Property(
+            "ID",
+            th.StringType,
+            description="The unique identifier of the line"
+        ),
+        th.Property(
+            "GLAccount",
+            th.StringType,
+            description="The unique identifier of the corresponding GL account"
+        ),
+        th.Property(
+            "GLAccountCode",
+            th.StringType,
+            description="The unique code of the corresponding GL account"
+        ),
+        th.Property(
+            "From",
+            th.DateTimeType,
+            description="The starting date of the statement line"
+        ),
+        th.Property(
+            "To",
+            th.DateTimeType,
+            description="THe ending date of the statement line"
+        ),
+        th.Property(
+            "Description",
+            th.StringType,
+            description="The description of the entry"
+        ),
+        th.Property(
+            "LineNumber",
+            th.IntegerType,
+            description="The line number of the entry"
+        ),
+        th.Property(
+            "AmountDC",
+            th.StringType,
+            description="The amount in the default currency of the company"
+        ),
+        th.Property(
+            "VATAmountDC",
+            th.StringType,
+            description="The amount of VAT in the default currency of the company"
+        ),
+        th.Property(
+            "Modified",
+            th.DateTimeType,
+            description="Last modified date"
+        ),
+    ).to_dict()
+
+    def get_path(self, context: Optional[dict]) -> str:
+        """Return the path of the Exact API"""
+
+        replication_key_value = self.get_starting_timestamp(context).strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+        
+        path = "/salesentry/SalesEntryLines?" \
+            f"$filter={self.replication_key}%20ge%20datetime%27{replication_key_value}%27&" \
+            "$select=ID,GLAccount,GLAccountCode,From,To,Description,LineNumber,AmountDC,VATAmountDC,Modified"
+
+        return path
+
+    def get_records(self, context: Optional[dict]) -> Iterable[dict]:
+        """Return a generator or row-type dictionary objects"""
+        
+        resp = self.conn.rest(GET('v1/%d/%s' % (self.division, self.get_path(context) )))
+        
+        # The fields that have /Date(unixmilliseconds)/ objects that should be converted into datetime objects
+        keys = ['From', 'To', 'Modified']
+
+        for row in resp:
+            
+            # We loop through the keys that should be modified
+            for key in keys:
+                row[key] = datetime.fromtimestamp( int(row[key][6:-2]) / 1000.0 )
+
+            yield row
