@@ -1,0 +1,11 @@
+sal/__init__.py,sha256=XJ5NZRv5ahaSlYm7_PUNTixULma76xIxwxi2Yy6Eb8w,23
+sal/_modidx.py,sha256=o5J2oOn82E_qwQhzifUYcyW0xCcPKNhINxU12iPquCs,7863
+sal/cli.py,sha256=C_buAE75hBkrZC322yRbKnQ-g92iUiXES63FGHykq8k,2008
+sal/codegen.py,sha256=kQYyk2lYt1TFXtBMipAVvkvDWWNkwxGpVR02Mfqph9s,5665
+sal/core.py,sha256=AKgQk0n2Lg4GkaJcUqyZr6QDxJ96O_kaGr_M928Yp3g,6374
+sal/loaders.py,sha256=rN5AgE5bGscM3jSf9fzRQWjcbcvz_CVABq0OHdF_XxI,1548
+sal_code_generator-0.0.27.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+sal_code_generator-0.0.27.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+sal_code_generator-0.0.27.dist-info/entry_points.txt,sha256=I9blLigMK1IjUGvBlNPE571QYGLBJ3b40icwSbQxI2E,36
+sal_code_generator-0.0.27.dist-info/METADATA,sha256=JSG4TNngdXj1Ad43FgKxt3WZvqEJP-xJfXRRYGgopdQ,1245
+sal_code_generator-0.0.27.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+sal=sal.cli:main
+
