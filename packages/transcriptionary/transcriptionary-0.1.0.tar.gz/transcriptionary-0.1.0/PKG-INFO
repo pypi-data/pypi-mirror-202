@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: transcriptionary
+Version: 0.1.0
+Summary: gene plots
+Home-page: https://github.com/quinlan-lab/transcriptionary
+Author: Suchita Lulla
+Author-email: suchi@gmail.com
+License: MIT
+Description: Create bokeh plots of variants and genes
+Keywords: genome variants genes
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
