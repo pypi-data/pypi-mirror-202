@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mediaify
+Version: 0.0.2
+Summary: Encoding media into multiple qualities
+Author-email: Ben Brady <benbradybusiness@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ffmpeg-python~=0.2.0
+Requires-Dist: pillow~=9.5.0
+Requires-Dist: python_magic~=0.4.27
+Requires-Dist: python-magic-bin; sys_platform == 'win32'
+
+# Dependencies
+- ffmpeg
+- libmagic
+    - `sudo apt-get install libmagic1`
+
