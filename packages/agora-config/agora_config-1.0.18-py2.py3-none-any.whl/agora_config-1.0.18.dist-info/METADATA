@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: agora_config
+Version: 1.0.18
+Summary: Configuration libraries for the Agora Edge Apps SDK 2.0 (Python)
+Author-email: AgoraIoT <agoraiot@slb.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: agora_logging == 1.0.18
+Project-URL: Home, https://agoraiot.github.io
+
+# agora_config
+
+This package is the Configuration library for the Agora Edge Apps SDK (Python) developed by SLB.
+
+Use this SDK to construct an edge application, and then containerize it for the running on the edge with AgoraIoT.  Documentation on using the entire SDK can be found at: [AgoraIoT SDK Documentation](https://slb-edge.github.io).
+
+## Release Notes
+
+### v1.0.18
+
+- Make versions of all modules all the same
+
+### v1.0.15 - Beta
+- Change AEA2:Logging:Verbosity setting to AEA2:Logging
+- Fix issue in config change callback (simplify code) - reduce to a single thread for maintainability
+
+### v1.0.7 - Beta
+
+- Initial test release.
+
