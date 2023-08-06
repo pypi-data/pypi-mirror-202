@@ -1,0 +1,15 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "lightapi"
+version = "0.0.18"
+description ="Light API turns LLMs into Autonomous Agents"
+authors = [{ name="Jordan Plows", email="jordan@lightapi.com" }]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+py-modules = []
