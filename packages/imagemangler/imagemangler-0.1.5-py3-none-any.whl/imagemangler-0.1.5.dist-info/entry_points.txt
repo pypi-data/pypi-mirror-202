@@ -1,0 +1,3 @@
+[console_scripts]
+imagemangler=imagemangler.cli:app
+
