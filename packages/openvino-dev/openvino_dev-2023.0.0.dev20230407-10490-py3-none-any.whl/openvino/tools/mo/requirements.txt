@@ -1,0 +1,6 @@
+-c ../constraints.txt
+numpy>=1.16.6
+networkx
+defusedxml
+importlib-metadata
+openvino-telemetry
