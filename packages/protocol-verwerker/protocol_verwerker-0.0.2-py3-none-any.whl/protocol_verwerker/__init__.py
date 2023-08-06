@@ -1,0 +1,2 @@
+from .sequentietabel_generator import generate_sequencetable
+from .frequentietabel_generator import generate_frequencetable
