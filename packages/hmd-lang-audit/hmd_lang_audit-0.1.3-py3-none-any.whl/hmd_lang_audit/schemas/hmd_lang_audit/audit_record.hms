@@ -1,0 +1,46 @@
+{
+  "name": "audit_record",
+  "namespace": "hmd_lang_audit",
+  "metatype": "noun",
+  "attributes": {
+    "event_type": {
+      "type": "string",
+      "description": "Type of event being audited, i.e. database access, operation call",
+      "required": true
+    },
+    "event_subtype": {
+      "type": "string",
+      "description": "Sub-type of event being audited, i.e. postgres, global graph"
+    },
+    "user_email": {
+      "type": "string",
+      "description": "Email address of user performing the action"
+    },
+    "action": {
+      "type": "string",
+      "description": "Action type of event being audited, i.e. insert, delete"
+    },
+    "started_at": {
+      "type": "timestamp",
+      "description": "Start time of the event being audited",
+      "required": true
+    },
+    "ended_at": {
+      "type": "timestamp",
+      "description": "End time of the event being audited",
+      "required": true
+    },
+    "outcome": {
+      "type": "string",
+      "description": "Outcome of event, e.g. success, failure, critical error"
+    },
+    "outcome_description": {
+      "type": "string",
+      "description": "Longer description of the event outcome"
+    },
+    "correlation_id": {
+      "type": "string",
+      "description": "Unique ID to trace calls across services"
+    }
+  }
+}

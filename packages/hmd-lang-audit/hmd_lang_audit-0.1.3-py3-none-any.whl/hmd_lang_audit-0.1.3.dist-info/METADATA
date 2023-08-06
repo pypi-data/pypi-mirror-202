@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hmd-lang-audit
+Version: 0.1.3
+Summary: Entities for use in auditing access and storing of other entities.
+Home-page: UNKNOWN
+Author: Alex Burgoon
+Author-email: alex.burgoon@hmdlabs.io
+License: unlicensed
+Platform: UNKNOWN
+Requires-Dist: hmd-meta-types
+Requires-Dist: hmd-schema-loader
+
+UNKNOWN
+

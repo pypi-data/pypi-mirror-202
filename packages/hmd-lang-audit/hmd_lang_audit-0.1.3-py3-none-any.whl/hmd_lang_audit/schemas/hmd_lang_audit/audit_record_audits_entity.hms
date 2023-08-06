@@ -1,0 +1,8 @@
+{
+  "name": "audit_record_audits_entity",
+  "namespace": "hmd_lang_audit",
+  "metatype": "relationship",
+  "ref_from": "hmd_lang_audit.audit_record",
+  "ref_to": "hmd_meta_types.entity",
+  "attributes": {}
+}
