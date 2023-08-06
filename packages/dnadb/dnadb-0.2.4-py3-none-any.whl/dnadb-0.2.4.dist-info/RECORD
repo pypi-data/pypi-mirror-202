@@ -1,0 +1,17 @@
+dnadb/__init__.py,sha256=SBl2EPFW-ltPvQ7vbVWItyAsz3aKYIpjO7vcfr84GkU,22
+dnadb/db.py,sha256=pDvPvgmM_GpMXTi0DUVv_g0wncyjurkxpEWjAFpizJM,999
+dnadb/dna.py,sha256=CWsqaqxvTsU0TH_LfWNtTlRqqipMfpkFsZqpuWrhdcE,6027
+dnadb/fasta.py,sha256=QWxgAjqdWF6wTJkXMyrTk0pvKwQJwsg32CR7cZA7kWA,4773
+dnadb/fastq.py,sha256=-jBixQTE9fq0jZFTh1RjkRwjx0uewE7d5qQLWYgDhuI,6096
+dnadb/taxonomy.py,sha256=bG5iRi1MKK0XcEYeVTxqmL7NcTn-kSxdak9Gcq60lGc,14173
+dnadb/utils.py,sha256=i5DpUb_obCFQBOOTWUE1SCKb1qNgdWaFMCgqGsXg8-c,1473
+dnadb/datasets/__init__.py,sha256=n40aTiF1DNH-H8Mg00Z8tiCIhPwaBCtisZBCxRTRbYo,255
+dnadb/datasets/dataset.py,sha256=oeURlj9AoCp4N0ylw6IyqMRdM-3Vr6bCuRNx-LC1c0c,7303
+dnadb/datasets/greengenes.py,sha256=zyFtbOkb_ddJTVrphovHATZ9j5FWA4MBL7LESio4BVc,1392
+dnadb/datasets/silva/__init__.py,sha256=l14_qVQBB8frVdIQAPjKLLZgRjmZKjd3QI6dl_8oD4s,5446
+dnadb/datasets/silva/taxonomy_map.py,sha256=YdOVJ07_Jq7ndfghbxAXBoLjQAHyJ-1DxC30zkvF6Ng,6022
+dnadb-0.2.4.dist-info/LICENSE,sha256=eYaeAIJZaZhZtQ_Gy4wJxTnJmxQh4cCoJ1dRPOX-YRg,1070
+dnadb-0.2.4.dist-info/METADATA,sha256=16ptSBvEDA0X-RXNXj2H1Gr8MITWx1PNlnzBtMj3RZ8,1878
+dnadb-0.2.4.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dnadb-0.2.4.dist-info/top_level.txt,sha256=tq9v3GRXhEkC42lnkoa1h_OqZQhsKBxX5gR-Vfjx7RE,6
+dnadb-0.2.4.dist-info/RECORD,,
