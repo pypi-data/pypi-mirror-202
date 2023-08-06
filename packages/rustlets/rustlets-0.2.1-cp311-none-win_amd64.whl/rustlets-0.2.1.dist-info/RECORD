@@ -1,0 +1,5 @@
+rustlets-0.2.1.dist-info/METADATA,sha256=uifHqo4dXT2oVKZ8i0fYslg2o92a9aFPF2NpKcv2CDY,925
+rustlets-0.2.1.dist-info/WHEEL,sha256=GO0QKvijPsslUfk-qbSmA8JM49WSTvYBgTQ7jvoLG1c,97
+rustlets/__init__.py,sha256=80uVAvBSdQA8SAIEXJk985f4leUb8cqrt5fsGu0lBs4,115
+rustlets/rustlets.cp311-win_amd64.pyd,sha256=YmRMZ5-cSXLhgICwM6xFCsaTAhSiRsU-DSvmvIe_M7s,840192
+rustlets-0.2.1.dist-info/RECORD,,
