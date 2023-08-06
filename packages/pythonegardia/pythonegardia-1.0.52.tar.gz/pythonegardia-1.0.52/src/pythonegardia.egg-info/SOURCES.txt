@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+src/pythonegardia/__init__.py
+src/pythonegardia/egardiadevice.py
+src/pythonegardia/egardiaserver.py
+src/pythonegardia/test_egardiadevice.py
+src/pythonegardia/test_egardiaserver.py
+src/pythonegardia.egg-info/PKG-INFO
+src/pythonegardia.egg-info/SOURCES.txt
+src/pythonegardia.egg-info/dependency_links.txt
+src/pythonegardia.egg-info/requires.txt
+src/pythonegardia.egg-info/top_level.txt
+src/pythonegardia.egg-info/zip-safe
