@@ -1,0 +1,10 @@
+server/__init__.py,sha256=rJHJG4TozNpTSf6Vew-stJszjjLF_9KkD_dDGZLGzSw,129
+server/render.py,sha256=VhNEhP4wirZV-t2MORk9n2FeaJq5FJFXxNYb7WoFKqc,4101
+server/request.py,sha256=ClaAxlm-cby4Z1tndszFc-k8i8r7wM3R4eNab74slJk,2150
+server/routes.py,sha256=KIA5fVBuuIfMoUbhOo98OULfv-mPVZLjeXYYzF0H6QM,3181
+server/server.py,sha256=YbMXa0PVkSH3PxuKgnlwTX2EG1ZxXvT3Y6xQinbVTpQ,4229
+HTTP_PyServer-0.0.1.dist-info/LICENSE,sha256=0VA-m_9Qk6Z7_fQrZToYo1JYH-fwGPQAmmWPBjWGIiU,1067
+HTTP_PyServer-0.0.1.dist-info/METADATA,sha256=qffujI0yCmLfyXD4C6Eag-JMJtFBIFfY_EID848uR_Q,2047
+HTTP_PyServer-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+HTTP_PyServer-0.0.1.dist-info/top_level.txt,sha256=StKOSmRhvWS5IPcvhsDRbtxUTEofJgYFGOu5AAJdSWo,7
+HTTP_PyServer-0.0.1.dist-info/RECORD,,
