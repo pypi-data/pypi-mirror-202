@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+pysmells/__init__.py
+pysmells/pysmells.py
+pysmells.egg-info/PKG-INFO
+pysmells.egg-info/SOURCES.txt
+pysmells.egg-info/dependency_links.txt
+pysmells.egg-info/entry_points.txt
+pysmells.egg-info/requires.txt
+pysmells.egg-info/top_level.txt
+test/__init__.py
+test/programa1/__init__.py
+test/programa1/badcode1.py
+test/programa2/__init__.py
+test/programa2/badcode2.py
