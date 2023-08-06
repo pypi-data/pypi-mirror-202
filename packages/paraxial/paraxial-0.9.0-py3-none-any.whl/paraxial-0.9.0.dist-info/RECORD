@@ -1,0 +1,10 @@
+paraxial/__about__.py,sha256=n6qfzr2wJETI_WjTGvNGpuxnJNJA5jE9EuoMfBVy0JQ,162
+paraxial/__init__.py,sha256=HCXZj9bXOOOwx57PPJkrzo7_QQAuGcWUiZcz18mErWo,139
+paraxial/equations.py,sha256=TSTPXqvaoFXUMOWZ_2TfXbP7KSsx5ObriCdxf9BB9IA,10908
+paraxial/materials.py,sha256=f4B3g-_-lYZ5IRnIitSAY4oemz9zJwJ4Ax6zonj7DGE,8173
+paraxial/sources.py,sha256=952GbhFQO2QXUIFXBoW92KVFmJD83mmYJp6tMuy0Vkg,3655
+paraxial/surfaces.py,sha256=orzO0qMJmJgobo6p6Sjs-BbHKHdZ5uKLdFTESn_pdKo,7663
+paraxial-0.9.0.dist-info/METADATA,sha256=PddDGYiKwKfIYNgDogyuVn6AVK5sKw4naoZdqjSiVII,1444
+paraxial-0.9.0.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+paraxial-0.9.0.dist-info/licenses/LICENSE,sha256=Sg2_Na6yxuwejf-UUIVE6ruGdo4UIFZ1xkgNCVe-Yr4,1549
+paraxial-0.9.0.dist-info/RECORD,,
