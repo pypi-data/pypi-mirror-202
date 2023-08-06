@@ -1,0 +1,3 @@
+[console_scripts]
+neetbox=neetbox.cli.parse:parse
+
