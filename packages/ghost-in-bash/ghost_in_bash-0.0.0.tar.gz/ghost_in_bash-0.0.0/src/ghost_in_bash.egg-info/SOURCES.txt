@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ghost_in_bash/__init__.py
+src/ghost_in_bash/main.py
+src/ghost_in_bash.egg-info/PKG-INFO
+src/ghost_in_bash.egg-info/SOURCES.txt
+src/ghost_in_bash.egg-info/dependency_links.txt
+src/ghost_in_bash.egg-info/top_level.txt
+tests/test.py
