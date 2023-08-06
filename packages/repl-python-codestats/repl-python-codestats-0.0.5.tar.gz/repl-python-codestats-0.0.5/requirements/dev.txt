@@ -1,0 +1,8 @@
+#!/usr/bin/env -S pip install -r
+# For unit test and code coverage rate test.
+
+keyring
+keyrings.alt
+pre-commit
+ptpython[ptipython]
+pytest-cov
