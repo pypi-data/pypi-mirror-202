@@ -1,0 +1,2 @@
+[console_scripts]
+ds2g = ds2g.__main__:main

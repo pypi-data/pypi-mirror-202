@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ds2g
+Version: 1.0.1
+Summary: Services of ds2g.io
+Author-email: ds2g <support@ds2g.io>
+Project-URL: Homepage, https://ds2g.io
+Keywords: tracking,ds2g
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx (>=0.23.3)
+Requires-Dist: asyncio (>=3.4.3)
+Requires-Dist: tomli ; python_version < "3.11"
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
