@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: tinygpt
+Version: 0.0.1
+Summary: A tiny GPT for educational purpose
+Author: Quan Hua
+Author-email: <quanhua92@gmail.com>
+Keywords: python,first package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+
+A tiny GPT for educational purpose
