@@ -1,0 +1,21 @@
+
+python setup.py sdist bdist_wheel
+py -m setup.py sdist bdist_wheel
+py -m pip install torchtext==0.14.0
+py -m pip install -e .
+from demo_sna.morph import morph_tagger
+morph_tagger.tagger("ذهب الولد الى المدرسة")
+from sina_tools import aned
+aned.ANED("بايثون",{"Qَ25":"بغة برمجية كائنية التوجه","Q55":"أفعى بايثون تعيش في الامازو"})
+
+
+aned.disambiguate("بايثون",{"Qَ25":"بغة برمجية كائنية التوجه","Q55":"أفعى بايثون تعيش في الامازو"})
+disambiguate
+
+
+upload to pypi instructions
+
+py -m setup sdist
+twine upload dist/*
+2bFGM6UWJP7ekeh
+
