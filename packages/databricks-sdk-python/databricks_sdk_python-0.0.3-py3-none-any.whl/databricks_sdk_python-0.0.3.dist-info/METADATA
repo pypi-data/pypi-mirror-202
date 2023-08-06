@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: databricks-sdk-python
+Version: 0.0.3
+Summary: Objet based databricks sdk
+Home-page: https://github.com/ffinfo/databricks-sdk-python
+License: MIT
+Keywords: databricks
+Author: Peter van 't Hof'
+Author-email: peter.vanthof@godatadriven.com
+Requires-Python: >=3.8,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1.4.0,<2.0.0)
+Requires-Dist: requests (>=2.22)
+Project-URL: Repository, https://github.com/ffinfo/databricks-sdk-python
+Description-Content-Type: text/markdown
+
+[![PyPI version](https://badge.fury.io/py/databricks-sdk-python.svg)](https://badge.fury.io/py/databricks-sdk-python)
+[![codecov](https://codecov.io/github/ffinfo/databricks-sdk-python/branch/main/graph/badge.svg?token=EOJDSTI5KN)](https://codecov.io/github/ffinfo/databricks-sdk-python)
+[![Python package](https://github.com/ffinfo/databricks-sdk-python/actions/workflows/python-package.yml/badge.svg)](https://github.com/ffinfo/databricks-sdk-python/actions/workflows/python-package.yml)
+
+# databricks-sdk-python
+
+### Install
+
+```bash
+pip install databricks-sdk-python
+```
+
+
+### Install for developers
+
+###### Install package
+
+- Requirement: Poetry 1.*
+
+```shell
+poetry install
+```
+
+###### Run unit tests
+```shell
+pytest
+coverage run -m pytest  # with coverage
+# or (depends on your local env) 
+poetry run pytest
+poetry run coverage run -m pytest  # with coverage
+```
+
+##### Run linting
+
+The linting is checked in the github workflow. To fix and review issues run this:
+```shell
+black .   # Auto fix all issues
+isort .   # Auto fix all issues
+pflake .  # Only display issues, fixing is manual
+```
+
