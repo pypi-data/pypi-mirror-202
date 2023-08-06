@@ -1,0 +1,14 @@
+tappack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tappack/autoexec.be.template,sha256=cQKcbToXT7dJdUOX55V2b4JKxVP_OY0v5FGUIRg1dpE,301
+tappack/constants.py,sha256=ugLIX2qrlaJNGSZqJlGqp8fWUF370UnlkfvRaRPm1E4,155
+tappack/packaging.py,sha256=WQJ7VlWIOxSHXMPcQJVcZrnS7lxs0hRd_PjDde6KHvs,921
+tappack/patch.py,sha256=Ate0zbtE3_avlvw1YdZ5LtAgLyx-ggzpQ9Oz2dJzntY,1485
+tappack/server.py,sha256=eFNo9N-g1Y7FicIcmOIoHD_mu86qUaUHvdZMAFdSaYE,2770
+tappack/source.py,sha256=PQWG1uWjt3Hc9raXtTbKLLhcbmOtN0TyxBATnP8ewl4,8333
+tappack/tunnel.py,sha256=pXwnPuECjuCl23pxHaRB68o6Qy0z8NHdpVoc4C3M7Gc,978
+tappack/version,sha256=kR_AxIywxwYB21d1qb7xt0DcTMn5tGOJufBWP-frlNc,5
+tappack-0.2.0.dist-info/METADATA,sha256=IJVOKGHpeaB7SgnMApGIRel3HfNeqYHUB2cKsaGBxnU,5230
+tappack-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tappack-0.2.0.dist-info/entry_points.txt,sha256=4fx7OUHLJSbKhNmjyiQgX9y4Zr2VXPzQnq9s0bYoBMM,89
+tappack-0.2.0.dist-info/top_level.txt,sha256=upmyp3SSlD6e25kBUEHqrvg8m7RInctfwmVHORsGQFA,8
+tappack-0.2.0.dist-info/RECORD,,
