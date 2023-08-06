@@ -1,0 +1,37 @@
+{% import 'plantuml_class.jinja' as uml_class %}
+{% import 'plantuml_connection.jinja' as uml_connection %}
+{% macro render(package, options) -%}
+
+{% if package | modelVisible %}
+package {% if package.label %}{{ package.label|trim('"') }} as {% endif %} {{ package.name }} {
+    {% for class in package.classes %}
+        {{ uml_class.render(class) }}
+    {% endfor %}
+
+    {% for sub_package in package.packages %}
+        {{ render(sub_package, options) }}
+    {% endfor %}
+}
+{% if not package.hideConnections %}
+    {% for connection in package.connections %}
+        {% for association in connection.associations %}
+            {{ uml_connection.renderAssosiations(association) }}
+        {% endfor %}
+    {% endfor %}
+{% endif %}
+
+{% for class in package.classes %}
+    {% for parent_class in class.extends %}
+        {{ uml_connection.renderInheritance(class, parent_class) }}
+    {% endfor %}
+
+    {% for aggregation in class.aggregations %}
+        {{ uml_connection.renderAggregation(class, aggregation) }}
+    {% endfor %}
+
+    {% for composition in class.compositions %}
+        {{ uml_connection.renderComposition(class, composition) }}
+    {% endfor %}
+{% endfor %}
+{% endif %}
+{%- endmacro %}

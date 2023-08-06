@@ -1,0 +1,28 @@
+{% import 'plantuml_connection.jinja' as uml_connection %}
+{% macro renderTypeRef(typeref) -%}
+{{ typeref.type.name }}{% if typeref.generics %}<{% for generic in typeref.generics %}{{ renderTypeRef(generic) }}{% if not loop.last %}, {% endif %}{% endfor %}>{% endif %}
+{%- endmacro %}
+
+{% macro renderAttribute(attrib) -%}
+{{ attrib.name }}: {{ renderTypeRef(attrib.type) }}
+{%- endmacro %}
+
+
+{% macro render(class) -%}
+{% if class | modelVisible %}
+{{ class.class }} {{class.name}} {% if class.generic %}<{{ class.generic }}>{% endif %} {
+{% if class.methods %}
+    {% for method in class.methods %}
+        {{ method.visibility }} {{ method.name }}({% for param in method.params %}{{ renderAttribute(param) }}{% if not loop.last %}, {% endif %}{% endfor %}){% if method.ret %}: {{ renderTypeRef(method.ret) }}{% endif %}
+
+    {% endfor %}
+{% endif %}
+{% if class.attributes %}
+    {% for attrib in class.attributes %}
+        {{ attrib.visibility }} {{ renderAttribute(attrib.type) }}
+    {% endfor %}
+{% endif %}
+
+}
+{% endif %}
+{%- endmacro %}
