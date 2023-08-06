@@ -1,0 +1,11 @@
+auto_vicuna/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_vicuna/__main__.py,sha256=pTx4P4OcQYWlfMrSPqG00eARJta5flYQWb0O_HyBcx8,3068
+auto_vicuna/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_vicuna/loop.py,sha256=LXDiR0IhF1762IAAekhPhwNHWKCZwdkzf9FeN1k2TBo,1652
+auto_vicuna/model.py,sha256=FjemmWsV-LiC9bhKfrPC2vZ3axl5QmzROlyCAzkwyIc,4365
+auto_vicuna/plugins.py,sha256=ILymYafly4L3w-v-xDTQ4Cmew3ekDAbVKlGUayzvYiY,2418
+auto_vicuna-0.1.0.dist-info/METADATA,sha256=i8HqhtdHi5Kbu9SYUTS3HGHcCDNcoh5Q7kaNPMaRpLw,2026
+auto_vicuna-0.1.0.dist-info/WHEEL,sha256=EI2JsGydwUL5GP9t6kzZv7G3HDPi7FuZDDf9In6amRM,87
+auto_vicuna-0.1.0.dist-info/entry_points.txt,sha256=d2-Lq-B-0X4P4FupEu60FKewRXOpC39EJzqnKFl_78M,58
+auto_vicuna-0.1.0.dist-info/licenses/LICENSE,sha256=UNCyTrL3doVY4uukQXlEkFM8XJd1GM9QGSh3ElWaO0Y,1092
+auto_vicuna-0.1.0.dist-info/RECORD,,

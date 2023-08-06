@@ -1,0 +1,2 @@
+[console_scripts]
+auto_vicuna = auto_vicuna.__main__:main
