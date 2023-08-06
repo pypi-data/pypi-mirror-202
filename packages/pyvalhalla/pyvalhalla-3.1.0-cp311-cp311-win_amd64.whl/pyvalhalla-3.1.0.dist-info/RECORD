@@ -1,0 +1,17 @@
+pyvalhalla-3.1.0.dist-info/DELVEWHEEL,sha256=OHXisLnXSEFvy80vjIdFOkrmfh7lfx4tH13BcAXi8qo,388
+pyvalhalla-3.1.0.dist-info/LICENSE,sha256=c3wp3R8GuXl4jV2oC4iL2rhqwMYHyI-ods3fyFYtGV8,19133
+pyvalhalla-3.1.0.dist-info/METADATA,sha256=8OmMW60ZVeZGU-1RpJLoWdeX9Uli0IZvs9Q6K2a3ezw,3210
+pyvalhalla-3.1.0.dist-info/RECORD,,
+pyvalhalla-3.1.0.dist-info/top_level.txt,sha256=mU472JpF5fOfpVQ8UxZ_dwLmecLogajAMO5RmYsU1gw,19
+pyvalhalla-3.1.0.dist-info/WHEEL,sha256=9wvhO-5NhjjD8YmmxAvXTPQXMDOZ50W5vklzeoqFtkM,102
+pyvalhalla.libs/concrt140-afdd9a29d442bf5778ee0e99265fcabf.dll,sha256=x_n0rFGJa1kQi-rGpoKNKGJgdHfr73bQeATbZM1jg6w,306688
+pyvalhalla.libs/libprotobuf-lite-dd5e44cf36c01a6e389c86e8cdaff889.dll,sha256=B5pl5N71BOAu_jEwznLMfW4uRDDCfrhgcTUJOE17LxE,541184
+pyvalhalla.libs/msvcp140-dfb7b99ea7069c1f9ebf60885f4133b9.dll,sha256=GhLPhTO-JCAsMWo6VcbB8gXSwK2_6wpHH3_yBO7jAVY,611328
+pyvalhalla.libs/zlib1-648a40e18b907322684741f717b18f02.dll,sha256=PuGvm4OK-sF4BBHtLIv8h-vWWNCqoc3Y0I1UFSDZLdo,89600
+valhalla/actor.py,sha256=8tEvRiOqJ4r6ckMKscIJuehqz8H0C8yaDkuPnASPaJE,4374
+valhalla/config.py,sha256=LnxZ7uA42QOIB68ld_8VhRdTdsfs-sXQlu_AylLLFi4,1533
+valhalla/utils.py,sha256=-hHjEDCftpOlRBib4CSZVDCLAZMqgtOtkX2V3-5bsJg,1985
+valhalla/valhalla_build_config.py,sha256=FECEEkupGKQ-YbwfIe2-nIrx0SvQqzVR75aW6jZLeuM,32215
+valhalla/_valhalla.cp311-win_amd64.pyd,sha256=qNRG78h6UhVO2krVxduFRJMh9pcx2Ge35SeQcM_qerQ,7456768
+valhalla/__init__.py,sha256=U4I2Zg3TIoYggEwwdSGaEL-eqKVMuxl7UC_0wXBLHoQ,648
+valhalla/__version__.py,sha256=ypMVyBqKsZCZZcEI9xwtQ8tT85tIg53har92qhudh8I,23
