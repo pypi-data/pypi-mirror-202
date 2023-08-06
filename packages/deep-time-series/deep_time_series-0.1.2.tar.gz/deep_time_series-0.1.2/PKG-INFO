@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: deep-time-series
+Version: 0.1.2
+Summary: Deep learning library for time series forecasting based on PyTorch.
+License: MIT
+Author: Sangwon
+Author-email: lsw91.main@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: lightning (>=2.0.0,<3.0.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: numpy (>=1.24.2,<2.0.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: rich (>=13.3.2,<14.0.0)
+Requires-Dist: scikit-learn (>=1.2.2,<2.0.0)
+Requires-Dist: torch (>=2.0.0,<3.0.0)
+Requires-Dist: torchaudio (>=2.0.1,<3.0.0)
+Requires-Dist: torchvision (>=0.15.1,<0.16.0)
+Requires-Dist: xarray (>=2023.2.0,<2024.0.0)
+Description-Content-Type: text/markdown
+
+# DeepTimeSeries
+
+Last update Oct.19, 2022
+
+Deep learning library for time series forecasting based on PyTorch.
+It is under development and the first released version will be announced soon.
+
+## Why DeepTimeSeries?
+
+DeepTimeSeries is inspired by libraries such as ``Darts`` and
+``PyTorch Forecasting``. So why was DeepTimeSeries developed?
+
+The design philosophy of DeepTimeSeries is as follows:
+
+**We present logical guidelines for designing various deep learning models for
+time series forecasting**
+
+Our main target users are intermediate-level users who need to develop
+deep learning models for time series prediction.
+We provide solutions to many problems that deep learning modelers face
+because of the uniqueness of time series data.
+
+We additionally implement a high-level API, which allows comparatively beginners
+to use models that have already been implemented.
+
+## Supported Models
+
+| Model       | Target features | Non-target features | Deterministic | Probabilistic |
+| ----------- | --------------- | ------------------- | ------------- | ------------- |
+| MLP         | o               | o                   | o             | o             |
+| Dilated CNN | o               | o                   | o             | o             |
+| Vanilla RNN | o               | o                   | o             | o             |
+| LSTM        | o               | o                   | o             | o             |
+| GRU         | o               | o                   | o             | o             |
+| Transformer | o               | o                   | o             | o             |
+
+## Documentation
+
+https://bet-lab.github.io/DeepTimeSeries/
+
