@@ -1,0 +1,3 @@
+[console_scripts]
+scart = scart.__main__:main
+

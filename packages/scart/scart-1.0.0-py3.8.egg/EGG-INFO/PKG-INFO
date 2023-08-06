@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: scart
+Version: 1.0.0
+Summary: SCART: Simulation of Cyber Attacks for Real-Time systems
+Home-page: https://github.com/kfirgirstein/scart
+Author: Kfir Girstein
+Author-email: kfirgirstein@campues.technion.ac.il
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: simulation,real-time,cybersecurity,MITM,network,attacks
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
