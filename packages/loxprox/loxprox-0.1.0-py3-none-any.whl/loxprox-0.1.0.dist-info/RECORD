@@ -1,0 +1,11 @@
+loxprox/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+loxprox/colors.py,sha256=XxMpt-71HCfNh0BdODYbtUteiZ4L3O2v9OCasvYAhnc,2798
+loxprox/config.py,sha256=oD7e3ALp_q211P25v5UTe0lEbUDujlxnp-jcGkLYSgI,149
+loxprox/converter.py,sha256=NJCr0Jq0hWc7g6r_nSEmRqct3PF62J9WmS7hjUFOvAw,1685
+loxprox/main.py,sha256=FNOBk0i2Sadtz67vLaSISrPs0e0eRwm81dUxV07IsvU,4652
+loxprox-0.1.0.dist-info/LICENSE,sha256=Tk6Auc4Zxr1mwi9Yxi4Z-1Tp-LUYA5CTc8NDznovuyc,1079
+loxprox-0.1.0.dist-info/METADATA,sha256=MDkSGpYgSKfNQb09228Pvyx1LJ3kAQMc2uwZc_hWBzI,268
+loxprox-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+loxprox-0.1.0.dist-info/entry_points.txt,sha256=P8Js6R7zcgJjLjT1SusKTRgWAO63hqMTYALAFGDpF34,46
+loxprox-0.1.0.dist-info/top_level.txt,sha256=ENCm8qwg6R8BVuiBheFJyB0TAgkax0IlGT6m-m1yYos,8
+loxprox-0.1.0.dist-info/RECORD,,
