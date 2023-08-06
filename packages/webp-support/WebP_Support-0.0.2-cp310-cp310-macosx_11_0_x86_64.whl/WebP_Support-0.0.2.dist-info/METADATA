@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: WebP-Support
+Version: 0.0.2
+Summary: A Quickly determine whether Webp is supported from UserAgent.
+Home-page: https://github.com/bymoye/webp_support
+Author: bymoye
+Author-email: s3moye@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: C
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+License-File: LICENSE
+
+A Quickly determine whether Webp is supported from UserAgent.
