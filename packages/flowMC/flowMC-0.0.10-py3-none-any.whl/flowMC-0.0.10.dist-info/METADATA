@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: flowMC
+Version: 0.0.10
+Summary: Normalizing flow exhanced sampler in jax
+Home-page: https://github.com/kazewong/flowMC
+Author: Kaze Wong, Marylou Gabrié, Dan Foreman-Mackey
+Author-email: kazewong.physics@gmail.com
+License: MIT
+Keywords: sampling,inference,machine learning,normalizing,autodiff,jax
+Requires-Python: <3.11,>=3.8
+License-File: LICENSE
+Requires-Dist: jax (==0.4.1)
+Requires-Dist: jaxlib (==0.4.1)
+Requires-Dist: flax (==0.6.3)
+Requires-Dist: tqdm
+Requires-Dist: distrax (==0.1.3)
+
