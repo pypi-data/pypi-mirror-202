@@ -1,0 +1,8 @@
+validate_pypi_name/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+validate_pypi_name/validator.py,sha256=SN-mSI40Zy_6XxBwZiXJYBXcEWZRan8PXVYNuFvVbok,3942
+validate_pypi_name-1.0.5.dist-info/LICENSE,sha256=D6PwCClZO8hbQ-nZxTH6HQEW9RuPmzIQC6lx-RWXs6k,1075
+validate_pypi_name-1.0.5.dist-info/METADATA,sha256=LvbMVt2ZfZsNF_w8ondKnhBSrCbg0DvXaslTTeSycEs,1174
+validate_pypi_name-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+validate_pypi_name-1.0.5.dist-info/entry_points.txt,sha256=82JN6dh_UL3S2o1vZbMoVNfdp4dEVL_nBzeMTXlXPpo,60
+validate_pypi_name-1.0.5.dist-info/top_level.txt,sha256=xhHh-CD0yA5lJ0vt2c9aJXVqvgnWkm9iqfVh69wFy4g,19
+validate_pypi_name-1.0.5.dist-info/RECORD,,

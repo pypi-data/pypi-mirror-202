@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: validate-pypi-name
+Version: 1.0.5
+Summary: Simple CLI to determine validity of pypi pakage name.
+Home-page: https://github.com/pablojosecodes/pypi_name_validator
+Author: Pablo Hansen
+Author-email: pablosfsanchz@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi (==2022.12.7)
+Requires-Dist: charset-normalizer (==3.1.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: regex (==2023.3.23)
+Requires-Dist: requests (==2.28.2)
+Requires-Dist: urllib3 (==1.26.15)
+
+# Validate PyPi names
+
+Super simple CLI to quickly validate your PyPi package names. Available here: https://pypi.org/project/validate-pypi-name/
+
+## Usage
+Assume you want to check if the package "package_name" is available.
+```
+pip3 install validate-pypi-name
+valid -n package_name
+```
+If you want to run the "intensive workload" version, where we iterate through all possible collisions, use the -i tag
+```
+pip3 install validate-pypi-name
+valid -n package_name -i
+```
+
+
+That's about it.
