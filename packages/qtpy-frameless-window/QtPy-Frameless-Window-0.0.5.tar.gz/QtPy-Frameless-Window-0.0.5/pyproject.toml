@@ -1,0 +1,38 @@
+[tool.pdm]
+
+[project]
+authors = [
+    { name = "TaoChenyue", email = "3038816978@qq.com" },
+]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "PyCocoa;platform_system=='Darwin'",
+    "pyobjc;platform_system=='Darwin'",
+    "pywin32;platform_system=='Windows'",
+    "qtpy",
+    "xcffib;platform_system=='Linux'",
+]
+description = "A cross-platform frameless window based on QtPy."
+keywords = [
+    "pyqt frameless",
+]
+name = "QtPy-Frameless-Window"
+readme = "README.md"
+requires-python = ">=3.6"
+version = "0.0.5"
+
+[project.license]
+text = "GPLv3"
+
+[project.urls]
+Homepage = "https://github.com/TaoChenyue/QtPy-Frameless-Window.git"
+
+[build-system]
+build-backend = "pdm.pep517.api"
+requires = [
+    "pdm-pep517>=1.0.0",
+]
